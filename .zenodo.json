@@ -1,0 +1,45 @@
+{
+  "access_right": "open",
+  "contributors": [
+    {
+      "name": "Manuscript Typesetting Project",
+      "type": "Editor"
+    },
+    {
+      "name": "OpenAI Codex",
+      "type": "Other"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Noether, Emmy"
+    }
+  ],
+  "description": "<p><strong><a href=\"https://zenodo.org/records/21926383/files/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf\">Preview the complete linked Interslavic reader</a></strong> / <a href=\"https://zenodo.org/records/21926383/files/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf?download=1\">download the PDF</a>.</p><p>This is the complete maintained Interslavic edition of the Emmy Noether corpus in release v047: Papers 1–43, Work 44, Paper 45, and the bibliography. The Latin reader is the default preview; the deterministic Cyrillic reader is included in the evidence archive, and editable sources for both scripts are included together. It is a machine-assisted scholarly working edition, not a peer-reviewed critical edition and not a claim of native-speaker certification. Exact source, build, QA, render, provenance, unresolved-item, and hash evidence accompany the release.</p><p>Stable Interslavic concept DOI: <a href=\"https://doi.org/10.5281/zenodo.21926382\">10.5281/zenodo.21926382</a>; exact release DOI: <a href=\"https://doi.org/10.5281/zenodo.21926383\">10.5281/zenodo.21926383</a>.</p><p>DataCite intent: this edition <em>IsTranslationOf</em> the German authority corpus NOETH-DE-ED-0011 (SHA-256 9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3) and <em>IsPartOf</em> the multilingual hub <a href=\"https://doi.org/10.5281/zenodo.20412587\">10.5281/zenodo.20412587</a>. Current Zenodo relation vocabulary carries IsPartOf; the intended IsTranslationOf mapping is preserved in the evidence sidecar. Standalone source repository: <a href=\"https://github.com/KokunoYumeto/emmy-noether-isv\">https://github.com/KokunoYumeto/emmy-noether-isv</a>.</p><p>CC0 applies only to the extent rights exist in project-created translation, typesetting, metadata, manifests, tools, and evidence. Emmy Noether’s original works, German editorial material, facsimiles, fonts, software, and other third-party material retain their own legal status and licenses.</p>",
+  "keywords": [
+    "Emmy Noether",
+    "Interslavic",
+    "translation",
+    "mathematics",
+    "algebra",
+    "complete corpus edition"
+  ],
+  "license": "cc-zero",
+  "publication_date": "2026-08-14",
+  "publication_type": "book",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20412587",
+      "relation": "isPartOf",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://github.com/KokunoYumeto/emmy-noether-isv",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    }
+  ],
+  "title": "Emmy Noether: Complete Interslavic Corpus Edition / Emmy Noether: Polno medžuslovjansko izdanje",
+  "upload_type": "publication",
+  "version": "2026.08.14-r1"
+}

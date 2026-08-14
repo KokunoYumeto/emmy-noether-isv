@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this edition, cite the preferred citation."
+title: "Emmy Noether: Complete Interslavic Corpus Edition"
+type: dataset
+authors:
+  - family-names: Noether
+    given-names: Emmy
+version: "2026.08.14-r1"
+date-released: "2026-08-14"
+url: "https://doi.org/10.5281/zenodo.21926383"
+preferred-citation:
+  type: book
+  title: "Emmy Noether: Complete Interslavic Corpus Edition"
+  authors:
+    - family-names: Noether
+      given-names: Emmy
+  doi: "10.5281/zenodo.21926383"
+  version: "2026.08.14-r1"
+  date-released: "2026-08-14"
+  languages:
+    - "isv"

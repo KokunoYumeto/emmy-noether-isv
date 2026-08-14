@@ -1,0 +1,1882 @@
+{
+  "schema": "noether-slavic-v047-release-manifest/1.0",
+  "generated_at": "2026-08-11T12:29:44.020032+02:00",
+  "authority": {
+    "pointer_id": "NOETH-DE-AUTH-v047-20260808",
+    "pointer_bytes": 132270,
+    "pointer_sha256": "0053EA0B7E44DDE7EA7DC285ABC115DFC43F4A74B34C54DE8F39DE4E445D5BEA",
+    "canonical_claim": false,
+    "german_authority_id": "NOETH-DE-ED-0011",
+    "german_authority_bytes": 2153594,
+    "german_authority_sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3",
+    "predecessor_authority_id": "NOETH-DE-ED-0005",
+    "predecessor_authority_sha256": "1A44F967B29972E8F99E5C323A479162AD82A23FC457395915A4BB9DDF51AD41",
+    "use_basis": "installed local default_translation_authority; direct-source adverse evidence retained"
+  },
+  "scope": {
+    "numbered_paper_base": "complete Papers 1--43 / 219 exact units per surface",
+    "continuation": "BOOK_TITLE_INTRO, BOOK_S01--BOOK_S31, POST45, POSTBIB / 34 units per surface",
+    "numbered_paper_surface_units": 876,
+    "continuation_surface_units": 136,
+    "total_surface_units": 1012,
+    "editable_release_source_files": 20,
+    "independent_translation_surfaces": [
+      "ru",
+      "uk",
+      "isv-Latn"
+    ],
+    "derived_reader_surface": "isv-Cyrl deterministic projection of isv-Latn",
+    "cumulative_pages": {
+      "ru": 609,
+      "uk": 588,
+      "isv": 566,
+      "isv-cy": 588
+    },
+    "authority_delta": "15 replacement hunks / 17 changed logical lines from ED0005 to ED0011",
+    "continuation_cursor": "ED0011 line 24145 / POSTBIB terminal; next independently resolved German authority-body change, native-language review, or source adjudication of held Post45/PostBibliography conflicts"
+  },
+  "proposed_files": [
+    {
+      "role": "complete cumulative reader PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/noether-ru-v047.pdf",
+      "bytes": 3421888,
+      "sha256": "BB284FC706BD8D8EBFB3AE5F81D6A8222A45CF70C86AB91329DA85CB199698F3"
+    },
+    {
+      "role": "portable cumulative pdfpages TeX recipe",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/noether-ru-v047.tex",
+      "bytes": 336,
+      "sha256": "A8D50E39939A6156CD906041BD048B5FB34ED61DC8361F1C63016FB4802A1027"
+    },
+    {
+      "role": "editable Papers 1--43 source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/base-papers1-43-ru.tex",
+      "bytes": 2861855,
+      "sha256": "48B2B46DE1735CEC55E0C176294D3C1CF07F9FAF28BE6698BADF62A74779CE45"
+    },
+    {
+      "role": "rebuilt Papers 1--43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/base-papers1-43-ru.pdf",
+      "bytes": 2519836,
+      "sha256": "2D58B91BEC14731FD2F359FA9FF117A57864E7F06A902A2D51438AA685F7D6F5"
+    },
+    {
+      "role": "editable post-P43 TeX source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/44-book-ru.tex",
+      "bytes": 245150,
+      "sha256": "E90E13D0013ABC5BADED8AD0785CF8099C33557EAECBED06F6BB657F985606CF"
+    },
+    {
+      "role": "standalone post-P43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/44-book-ru.pdf",
+      "bytes": 371432,
+      "sha256": "2099C4E949E56CBC23CA8C2A07B25B41F24CDC773A7D3DAE6B102556B34CB3CB"
+    },
+    {
+      "role": "editable post-P43 TeX source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/45-ru.tex",
+      "bytes": 37077,
+      "sha256": "9E69EC613B5A5EBBFB74D2C4515AC909ACDA4AF31D0049A7E2A263AC52F23E97"
+    },
+    {
+      "role": "standalone post-P43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/45-ru.pdf",
+      "bytes": 162727,
+      "sha256": "6F4B6A480AA41B6C09BC9F57D479F4E7CF117BA0DE3061289C5F6B561E57E9B2"
+    },
+    {
+      "role": "editable post-P43 TeX source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/bib-ru.tex",
+      "bytes": 13037,
+      "sha256": "A1EEC412E8B5E1DC67CEC37F510F25E451017E67ADDC7F7D50DAE6EBF2606276"
+    },
+    {
+      "role": "standalone post-P43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/bib-ru.pdf",
+      "bytes": 117671,
+      "sha256": "AF1DFB30540FD60CA2A0BFD2F07FAC756D7DD97F856F016407D306B11D998FD7"
+    },
+    {
+      "role": "complete cumulative reader PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/noether-uk-v047.pdf",
+      "bytes": 3294694,
+      "sha256": "D066EB19A24775458292AB68D0C5FE70102D44D79CCCD53291C00FFA338FAD85"
+    },
+    {
+      "role": "portable cumulative pdfpages TeX recipe",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/noether-uk-v047.tex",
+      "bytes": 336,
+      "sha256": "E10CC671B598E21894F8B922FCF8EAC3B1D38D92E46103B4D4855FE919B1138E"
+    },
+    {
+      "role": "editable Papers 1--43 source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/base-papers1-43-uk.tex",
+      "bytes": 2690965,
+      "sha256": "61414A4D8A56B2574A234D60D3DBC663B4646D47757B2806746C184D17D7E2D8"
+    },
+    {
+      "role": "rebuilt Papers 1--43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/base-papers1-43-uk.pdf",
+      "bytes": 2411631,
+      "sha256": "D400279A37ACD78BDCC445ABF3A4EA5A7C9960C44C083AC97FC257F8DEF4C9F5"
+    },
+    {
+      "role": "editable post-P43 TeX source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/44-book-uk.tex",
+      "bytes": 234758,
+      "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"
+    },
+    {
+      "role": "standalone post-P43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/44-book-uk.pdf",
+      "bytes": 364120,
+      "sha256": "530A4A6B5AA3412D20122EF0F29591B3A9EE6E0C0413831188988E3DB3EB43C9"
+    },
+    {
+      "role": "editable post-P43 TeX source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/45-uk.tex",
+      "bytes": 35056,
+      "sha256": "1650DEF7A7A8CE27A5CA2AB52186A7BE5A3E898DFAE2AE8068D65FF360C949A8"
+    },
+    {
+      "role": "standalone post-P43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/45-uk.pdf",
+      "bytes": 162238,
+      "sha256": "59660AFF0106694EA4F156F6EBA811039C3CBDF6F634A51E27D866B10E02F57D"
+    },
+    {
+      "role": "editable post-P43 TeX source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/bib-uk.tex",
+      "bytes": 12777,
+      "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"
+    },
+    {
+      "role": "standalone post-P43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/bib-uk.pdf",
+      "bytes": 115332,
+      "sha256": "8F813824130DF2DAE57BE511C50FBE2C589A446D624AA01DFE018C7DB1348883"
+    },
+    {
+      "role": "complete cumulative reader PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/noether-isv-v047.pdf",
+      "bytes": 2994653,
+      "sha256": "3C98B7EBC266BA1F35D4176DD7950D2B437B385464C69D1EA665DA9A5BAA4F94"
+    },
+    {
+      "role": "portable cumulative pdfpages TeX recipe",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/noether-isv-v047.tex",
+      "bytes": 340,
+      "sha256": "8404D3B63C9099556036B6B337D917F0DC037FB093C85E2768C47D19C9CFA3AF"
+    },
+    {
+      "role": "editable Papers 1--43 source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/base-papers1-43-isv.tex",
+      "bytes": 1883717,
+      "sha256": "23629202D0F65BE1AD4A7E66E1A726693B7AC07DE56D183C288D80182B6DCC1A"
+    },
+    {
+      "role": "rebuilt Papers 1--43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/base-papers1-43-isv.pdf",
+      "bytes": 2186788,
+      "sha256": "55FE677650A1AAE6891D053D190B22BE48490681A35CD3F9220B9C3AC121369F"
+    },
+    {
+      "role": "editable post-P43 TeX source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/44-book-isv.tex",
+      "bytes": 166774,
+      "sha256": "6FC9F42C8DD1ABFD50AE2E0220C54E013DC73597514F92E6D987DC623A64AF6F"
+    },
+    {
+      "role": "standalone post-P43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/44-book-isv.pdf",
+      "bytes": 331734,
+      "sha256": "FF11A5172DAEA6F8963C51C937F8D87B87B5B972580792A22D683B41A79928F7"
+    },
+    {
+      "role": "editable post-P43 TeX source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/45-isv.tex",
+      "bytes": 25458,
+      "sha256": "24EB1BF98DD0D524084BD37B51CCD5518AE1B2ECDCEC64EDB6E390B902DF1986"
+    },
+    {
+      "role": "standalone post-P43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/45-isv.pdf",
+      "bytes": 144322,
+      "sha256": "002838492A99F6D387CC69C519385C5F3421C3A1FA2D7D1213133F566CDAC1B0"
+    },
+    {
+      "role": "editable post-P43 TeX source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/bib-isv.tex",
+      "bytes": 9575,
+      "sha256": "CC14C3EC3A81437B2472A4943FDFF0AEE229606665878E21F71A49C98BA1DBAD"
+    },
+    {
+      "role": "standalone post-P43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/bib-isv.pdf",
+      "bytes": 99496,
+      "sha256": "BE924FDFF0FAE74D62C9B852C3EDFAEB69C326D7F580547CDCDF6061C6988209"
+    },
+    {
+      "role": "complete cumulative reader PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/noether-isv-cy-v047.pdf",
+      "bytes": 3299513,
+      "sha256": "D1039A592D87084C917B85439E3552B4407B0172C023C6C8478E81D1DE9035A2"
+    },
+    {
+      "role": "portable cumulative pdfpages TeX recipe",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/noether-isv-cy-v047.tex",
+      "bytes": 352,
+      "sha256": "18BD553D6B15A8D7AAC6233D5E28961DC6587D17BCB73B313B9C38B1F3A0F4E1"
+    },
+    {
+      "role": "editable Papers 1--43 source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/base-papers1-43-isv-cy.tex",
+      "bytes": 2731077,
+      "sha256": "7F531B68DF86BF2104E1C0B85C07D1E4FC61BCFB42F62781A673DD4D7838E252"
+    },
+    {
+      "role": "rebuilt Papers 1--43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/base-papers1-43-isv-cy.pdf",
+      "bytes": 2427916,
+      "sha256": "86A9387572945AC0D8E4D364193F0EC52618547434BF2655474357C1CB648E00"
+    },
+    {
+      "role": "editable post-P43 TeX source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/44-book-isv-cy.tex",
+      "bytes": 229513,
+      "sha256": "D1E245269A8042F1B9CC0F6D1E3BBB4D134875AA60A011706FE89DA9EB934CA9"
+    },
+    {
+      "role": "standalone post-P43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/44-book-isv-cy.pdf",
+      "bytes": 358447,
+      "sha256": "35EC6C4797EF9BA4D51285FC0BB57AE77EE99F4509FF3A89BDA03DA7A240121A"
+    },
+    {
+      "role": "editable post-P43 TeX source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/45-isv-cy.tex",
+      "bytes": 35076,
+      "sha256": "898AD7C868EBDC498322E2AAABBB5C69A5B17F65343D7A94D0F2BE2E45AF650B"
+    },
+    {
+      "role": "standalone post-P43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/45-isv-cy.pdf",
+      "bytes": 163173,
+      "sha256": "11A7B6766AA8029582B4BB8F934FDC77FDC766D06CC70D3F3537C18B71EEC6CA"
+    },
+    {
+      "role": "editable post-P43 TeX source",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/source/bib-isv-cy.tex",
+      "bytes": 13040,
+      "sha256": "0EBFA17F03335CEDA219C6CCA316D4D1D06C777F96D005C7A5D0DCA592E6CEDD"
+    },
+    {
+      "role": "standalone post-P43 component PDF",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/pdf/bib-isv-cy.pdf",
+      "bytes": 108758,
+      "sha256": "C825AB9E565D7B16D1B6D496F3EF5A55354666D814057D002E55460C6335665C"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/authority_reconciliation_v047.json",
+      "bytes": 18970,
+      "sha256": "2AEDEA2E5173B2C9D2EBBC61687232F28197E3C89BB3C9693547CB9EC7483252"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/target_rebase_v047.json",
+      "bytes": 29137,
+      "sha256": "C32D791F022EEA358020CD5ABA1870E71E6F9157FB7A8E8E57A592DBA62A5ACF"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/authority_units.json",
+      "bytes": 19668,
+      "sha256": "E7C87AA9D2FA594818981362F44AA7C40DC1CBA25E4AB193946C23214D021C72"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/source_assembly.json",
+      "bytes": 110244,
+      "sha256": "3714EF5767CCBDC5D95DAC45ED0EFFAF8A886CC2B9D2AC19FA62D2CA7BF4232D"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/inherited_continuation_audit.json",
+      "bytes": 34273,
+      "sha256": "EFD8E13A7D018CE44B4B95447DD7839B34A668196BCA201200FF8420A77F128C"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/german_authority_source_conflicts_v047.json",
+      "bytes": 8092,
+      "sha256": "EBB57353C0CC9CD684E338F9AAA9B28F41BDCD9102BD1F187ECB2E528DD2692B"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/human_unit_validation.json",
+      "bytes": 90318,
+      "sha256": "27FF1FE0A07A1944C3080FBDD804FEDA4D48EE9090463972CB03E1CAC5566825"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/build_manifest.json",
+      "bytes": 42202,
+      "sha256": "4329B88FAEF5EC5D6ED9ED0736BFAD73EB8598E5A7D078149CE09928048A1A7E"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/qa_report.json",
+      "bytes": 116763,
+      "sha256": "5BB07F20D0066C6FCA7E4D909113CF0ED20E519AC323C27D1A59432324E7BC38"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/v047_delta_structural_index_schema.json",
+      "bytes": 2421,
+      "sha256": "0F83F44BFB25D1A1F0C2B34CEB5628955D74DAD2333159E9350E7FAAF5CDD7C9"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/v047_delta_structural_index.jsonl",
+      "bytes": 115473,
+      "sha256": "4E66251C634679B760517429719A67DAF22E9925EC0C2492F5E935BB6C41CA82"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/v047_delta_structural_index.csv",
+      "bytes": 36843,
+      "sha256": "5472069380F61B7F338BF4A98035EA9132B73EB7EC0A6542633EA33A75375701"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/v047_delta_structural_index_build_report.json",
+      "bytes": 1521,
+      "sha256": "AC54AFABA0E1A0A041DA13ED1D110F80B4D856E94C5D9108328F2B2A8C89CDAF"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/v047_delta_structural_index_validation.json",
+      "bytes": 837,
+      "sha256": "A6794CB638A9C165C54F3B8693A45F1740DACDDFB595EE0144B6AB1AD6803629"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/v047_delta_render_manifest.json",
+      "bytes": 108594,
+      "sha256": "BD023842ABCED7DC9E80F482FED0AE4BC8736D62C4C2C6E469AD8768F5FFEAEA"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/v047_delta_visual_review.json",
+      "bytes": 58346,
+      "sha256": "DB624CE2A3930975459F599434EDCCA6D32E77B9AE9A0D225984A46545EF0E89"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/v047_delta_visual_evidence_schema.json",
+      "bytes": 3744,
+      "sha256": "E775E9805587CB3508C544AAA0BF11DC0025FD93C4934417F9FCB2D43B746EA6"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/v047_delta_visual_evidence_index.jsonl",
+      "bytes": 412947,
+      "sha256": "CE06E4E9AFD354D8EF592C9EF4C0D3B44222B30A279F1A8FB1A9E0EA09C4FB97"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/v047_delta_visual_evidence_index.csv",
+      "bytes": 136034,
+      "sha256": "6D212F1FA052A01C54CDC5282FED9928B24BE424F270D674837AD735B80FE61D"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/v047_delta_visual_evidence_build_report.json",
+      "bytes": 4314,
+      "sha256": "D2382E48DDC70A7363B9D4DF873AE4852EC3B1CE86EB252E7D0280EC1413079F"
+    },
+    {
+      "role": "reproducibility/source/review evidence",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/v047_delta_visual_evidence_validation.json",
+      "bytes": 902,
+      "sha256": "085ECC3CDEC5BC1F9F863F1B45DE284B6584CB3BB782A57F64154BA5019B4505"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/apply_v047_target_delta.py",
+      "bytes": 18023,
+      "sha256": "68819C0896D56D5D38E0DD90770758B113AD0E6BEFCEE0E790CE967243E194D3"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/assemble_release_sources.py",
+      "bytes": 10789,
+      "sha256": "E6904FC0E326D11741D446E03FF8F3EA71F07A662CB51CF1326A40D027471515"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/build_release.py",
+      "bytes": 7252,
+      "sha256": "B2AB78D0EBD53205715A718B621BD4E79C8E826A8E2586C83EF3A7D6924A86CF"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/transliterate_isv_cyrillic.py",
+      "bytes": 8617,
+      "sha256": "B31768490AB0B7B69E7A46043D3A862ABF980623D6338BB1F87DE829C36B8090"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/reconcile_authority_v047.py",
+      "bytes": 13460,
+      "sha256": "1D6BA82DE69AA849453FA0DC93B2BA343378462E02F865A9A5A66C6B7D685E59"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/extract_authority_units.py",
+      "bytes": 9068,
+      "sha256": "3A713E29D80424399222EAB4C010BED823F3D440F10B5D9F4FF99458C4A69581"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/validate_human_units.py",
+      "bytes": 10806,
+      "sha256": "0EFFDE626F73ED1E519ED3A9BDD6C12A5D77FBE7FF0BEFD106F4B925ACFFA5B3"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/validate_inherited_continuations.py",
+      "bytes": 17709,
+      "sha256": "E231B80F76C22AB3A27E6C71D2748183BBD71CFB84E4E21E89871701BF99E2D9"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/validate_successor_continuations_v047.py",
+      "bytes": 6056,
+      "sha256": "3B28314B3772D4206D7DA96DA8A53DFC286F8F3EC06A7E55CDB6F973BBE808A2"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/build_v047_delta_index.py",
+      "bytes": 13855,
+      "sha256": "881F6F5B9F8CA5E36507142C41D00A63BAE79076F46908AC74EBA02631FF1162"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/validate_v047_delta_index.py",
+      "bytes": 4012,
+      "sha256": "7EDC9CBB56FFA9271944995CF2D71F6D84DC366D351D2EBA08113264255115D1"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/render_v047_delta_qa.py",
+      "bytes": 8704,
+      "sha256": "1E29C8A7DE26399AD02FC27D3E53327AC0CF3694AB83BB31F42FC6D67B476D44"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/record_v047_visual_review.py",
+      "bytes": 8075,
+      "sha256": "4C77B9F18E603693352A675301C7304562428C7B7D326F69DAD67253E128F821"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/build_v047_delta_visual_index.py",
+      "bytes": 20414,
+      "sha256": "BA2FF02DF3BDB7000433B1E636B2CC63B0CF48F690C1B7C87EEBE6A7D2F7EE39"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/validate_v047_delta_visual_index.py",
+      "bytes": 4260,
+      "sha256": "C4645B079FF2251229742F3D882F53100B16B16884750BB9DBC1221921E1B24B"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/qa_release_v047.py",
+      "bytes": 25114,
+      "sha256": "BC14E5AFCCB8F8EF25CE3CA299E6AE623DC7090F1681676A9B699438176BF934"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/build_handoff_v047.py",
+      "bytes": 19267,
+      "sha256": "AF9C5402A6F6136716ED968C5CFE87C96D2BDE90041DF0825350B4883F6A6408"
+    },
+    {
+      "role": "reproducibility tool",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/tools/verify_handoff_v047.py",
+      "bytes": 6543,
+      "sha256": "3A72C71C8FA90197AE89B9D7D57342ED114A3740E47B6F6D32BE2B276D26CA7E"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0102.png",
+      "bytes": 463001,
+      "sha256": "65E8F3255FB4FA86581084EECDDC6EED6EC6D658248750960C0DF03E663983B3"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0103.png",
+      "bytes": 307906,
+      "sha256": "E8508D8F519DD86C82E89786D3F02B53551FCD9A6842F036CB6535CEDA67FE73"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0104.png",
+      "bytes": 368526,
+      "sha256": "268108B2F089C2AC1CE4BF5913261446E7EAF55225B58EF150A5C9A07514339B"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0144.png",
+      "bytes": 133056,
+      "sha256": "EB77161151D9C0DFEEB8E6FB7C73A983D2EDF60BD453AE0CE0DA6630FB2966E7"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0145.png",
+      "bytes": 377518,
+      "sha256": "220EFBFECF8D4EBBE85B0EFD893C9950781E3C1AB17AFED3D5FA11EC57728922"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0146.png",
+      "bytes": 381461,
+      "sha256": "EB75E2EDB9369893FF87012A0ED89E76B4B40171BF32FC3BACF1457646AB006C"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0325.png",
+      "bytes": 321741,
+      "sha256": "1D74EAED66AFD42D359825A2A2FE8CE223FA9E630AA8326A0C4803D0E4E6BB4F"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0326.png",
+      "bytes": 390955,
+      "sha256": "D777B7FA8344823A595A78C5B8F08FEB567EEE1C278B101BAFAC54A5F6B30C90"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0327.png",
+      "bytes": 93964,
+      "sha256": "95B12C60880523B7A8FC15E7D8D8491548F4FF9A94755914CF8C6739FFBAF79D"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0341.png",
+      "bytes": 353189,
+      "sha256": "12152E5F14C8259F9CDC8D5223CA442BCE227CAE5B7EECB66C42C4EE0E54ED56"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0342.png",
+      "bytes": 330684,
+      "sha256": "5DEA41FC9C075C93DB8E847390817E3475483B40C16F75C5CC58B5EB7D6D9256"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0343.png",
+      "bytes": 206240,
+      "sha256": "BDE2F2F8554CB494C5A85E15A7E442A5C9E5E88137FEA141A8D9F2B431821B4B"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0518.png",
+      "bytes": 318119,
+      "sha256": "6DCC265966F0C6717F561C2FA457457AD95B7FD91435F5C75D33BCE4CE3C1C6A"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0519.png",
+      "bytes": 208749,
+      "sha256": "20BF292EEE1EA37C741AA7EE8833239CF3D1A13A7A32CDAD4196273D4D32FF32"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0520.png",
+      "bytes": 258027,
+      "sha256": "BAD2FEED05CE871D156602FC04F508C3E67D5626EE9464FD531F67DF9D96E044"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0521.png",
+      "bytes": 288768,
+      "sha256": "F85A9ECAD0591997FDFB3DACD79129DF11EF7C61CC11B995B79ED86D3F92A652"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0522.png",
+      "bytes": 200640,
+      "sha256": "44A1D25E92CCA69CA5E44331B0529B0E13813802EE87339D8A54EAD79EA8DBCA"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0523.png",
+      "bytes": 311035,
+      "sha256": "2FC2E770A05F2862EF2527B50F75C09F2B54BE8C6524F3FC086C2ECE03FB6CEC"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0565.png",
+      "bytes": 227633,
+      "sha256": "8CF821225598B6414201904F8337798C019FCD94860B3C389E45951A7643C4A5"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/after/page-0566.png",
+      "bytes": 66906,
+      "sha256": "94E8C8831A9BB347BE9CC85FDAF69A6042E34BC0517C65B7F03F1A05C254CF67"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0102.png",
+      "bytes": 463001,
+      "sha256": "65E8F3255FB4FA86581084EECDDC6EED6EC6D658248750960C0DF03E663983B3"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0103.png",
+      "bytes": 307550,
+      "sha256": "B8C631523EE8D1A120B516E2D9B29023B8D702CDB09FC9828090548BA35C27B9"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0104.png",
+      "bytes": 368526,
+      "sha256": "268108B2F089C2AC1CE4BF5913261446E7EAF55225B58EF150A5C9A07514339B"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0144.png",
+      "bytes": 133056,
+      "sha256": "EB77161151D9C0DFEEB8E6FB7C73A983D2EDF60BD453AE0CE0DA6630FB2966E7"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0145.png",
+      "bytes": 376875,
+      "sha256": "0553B3ABE9BD5D358CDF7F8E13024AB3E92F924D03ED658FC85CD8FCEA5AABC8"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0146.png",
+      "bytes": 381461,
+      "sha256": "EB75E2EDB9369893FF87012A0ED89E76B4B40171BF32FC3BACF1457646AB006C"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0325.png",
+      "bytes": 321741,
+      "sha256": "1D74EAED66AFD42D359825A2A2FE8CE223FA9E630AA8326A0C4803D0E4E6BB4F"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0326.png",
+      "bytes": 387100,
+      "sha256": "7725FFB65A2ACD44CF27F9C8AA6FFE49134FD63D1D34E528ADB347B11C644FAC"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0327.png",
+      "bytes": 93964,
+      "sha256": "95B12C60880523B7A8FC15E7D8D8491548F4FF9A94755914CF8C6739FFBAF79D"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0341.png",
+      "bytes": 353189,
+      "sha256": "12152E5F14C8259F9CDC8D5223CA442BCE227CAE5B7EECB66C42C4EE0E54ED56"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0342.png",
+      "bytes": 322660,
+      "sha256": "8E513EA0DDF2CD4CF12742EC19A8FFF27364FDF9C0E0722EDAF7CB2CCCF9589E"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0343.png",
+      "bytes": 206240,
+      "sha256": "BDE2F2F8554CB494C5A85E15A7E442A5C9E5E88137FEA141A8D9F2B431821B4B"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0518.png",
+      "bytes": 318119,
+      "sha256": "6DCC265966F0C6717F561C2FA457457AD95B7FD91435F5C75D33BCE4CE3C1C6A"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0519.png",
+      "bytes": 208451,
+      "sha256": "6DAA3A2F6EE231AC8181B62CEC02B2EF99508645C94103192FE6996496BEBE25"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0520.png",
+      "bytes": 258027,
+      "sha256": "BAD2FEED05CE871D156602FC04F508C3E67D5626EE9464FD531F67DF9D96E044"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0521.png",
+      "bytes": 288768,
+      "sha256": "F85A9ECAD0591997FDFB3DACD79129DF11EF7C61CC11B995B79ED86D3F92A652"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0522.png",
+      "bytes": 201115,
+      "sha256": "C41BA051F8BAC01C0C93AAFCC9F493A79B95FEFB5F7ADC583A6CA305AE1DDEFA"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0523.png",
+      "bytes": 311035,
+      "sha256": "2FC2E770A05F2862EF2527B50F75C09F2B54BE8C6524F3FC086C2ECE03FB6CEC"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0565.png",
+      "bytes": 227633,
+      "sha256": "8CF821225598B6414201904F8337798C019FCD94860B3C389E45951A7643C4A5"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/before/page-0566.png",
+      "bytes": 61840,
+      "sha256": "6630D21ABB8D9A6C24988D478F02DA2B7F852A60319F0C9D400E0D0E149E72EC"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/contact-01.png",
+      "bytes": 1861130,
+      "sha256": "3F809A65FB8278F3409004414954D9B68E9417D6A0F12592B32442B0480034FD"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/contact-02.png",
+      "bytes": 1849567,
+      "sha256": "00AE187B2C5AFF7D3BCBABB375CE1FF3D4F0A99EEFB8B5CD4B0881E2CD7E0CE9"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/contact-03.png",
+      "bytes": 1424482,
+      "sha256": "459A2B38F8FFBD4BDE22991A6AF1FF21388CE9D84895FC279196C84C7B6C0392"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv/contact-04.png",
+      "bytes": 274423,
+      "sha256": "B07E016DE84A82395DCA5B734357240487F006F4EB2F354B4F48E56BE2BE059D"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0107.png",
+      "bytes": 88358,
+      "sha256": "C677B22E135FB841A35650B21EA03FC73E256C7DBC6387E9699C29D886211F1A"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0108.png",
+      "bytes": 297425,
+      "sha256": "FE25A402E0D2A53EC6A7396EF5D935C41BC18029A78F0C0619CD776251DD4306"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0109.png",
+      "bytes": 37991,
+      "sha256": "425982BB52092367D7BA523C8F20D34E16B349A69C296646B8EF0607150CA600"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0150.png",
+      "bytes": 188360,
+      "sha256": "381BB79272AB56271083EE7DF96846ECDF27C61642489C0D01B8A01EC47E3560"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0151.png",
+      "bytes": 398999,
+      "sha256": "2DF97CD96E35E5C00B3945580200BFCF79325628470B147907EAE0505C5D156F"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0152.png",
+      "bytes": 390613,
+      "sha256": "B56BD60A1B2A6FF89AABDE84CC5199514C9396975BDB22360651FA1D56DC3A15"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0340.png",
+      "bytes": 384679,
+      "sha256": "CD3F2FC8BEA204121864F53F38598B2DFDB4DF8A5979F500A75B79C37EE268C1"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0341.png",
+      "bytes": 382989,
+      "sha256": "407FBE714CC89E30CAACDA58F3996C02F9F2CA736193622602966985D89B7AD2"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0342.png",
+      "bytes": 112201,
+      "sha256": "8A72DD7123B907EAF20C1FA67902C12D35BFAEBD8242CA8FC34B0CF482637692"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0343.png",
+      "bytes": 517025,
+      "sha256": "1A11C6A546FC569ED510A8153E53444A670ED434D5823650FE2D547E5DD4B958"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0356.png",
+      "bytes": 346384,
+      "sha256": "FCEEED455FA20221D8550B015601172E7B9ACBB11CE898258902215F5A09AB71"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0357.png",
+      "bytes": 325996,
+      "sha256": "3A798E1D87DE62049D679DF15D19AEA7AB5D335A14D1F596DB8EE17D4DD11B5A"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0358.png",
+      "bytes": 234824,
+      "sha256": "EA0FBA9DB79E1175B6DBBB2E5EEB5E97901A80619BF86A1D070A00E32B0EF010"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0359.png",
+      "bytes": 374525,
+      "sha256": "E53912545D97A2CEDAA2AB976B88CDF1A76D6BF94B91167E981BAB459E7486D1"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0539.png",
+      "bytes": 368228,
+      "sha256": "4AE3D4B844903145A58DE776188B843882AB28371F72D3538D8BFD4DC72F7C8E"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0540.png",
+      "bytes": 228807,
+      "sha256": "EDEE942A1A0E3FB822BFA66C25019E6314122B6E2A1889AE6FBFCD3748F9F5A1"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0541.png",
+      "bytes": 220196,
+      "sha256": "833BE2809770824CAFC8D6612310733A0BE53556A111C96EF5B06E2E02D74DDA"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0542.png",
+      "bytes": 263931,
+      "sha256": "FF21419BBCB8807120D90CE63A873E4D58D4E2D8E1F73146D999ADC0C5D4AF35"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0543.png",
+      "bytes": 314317,
+      "sha256": "03CFF5ECF823E9E154079C2B533F77B37B1926FAE043A53B253ACB66AA5ABC50"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0544.png",
+      "bytes": 216471,
+      "sha256": "2C8DA1469E8E2CD7C06A3182BD8D34065049FCF747995BBDFADF9528820B9DF7"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0587.png",
+      "bytes": 235994,
+      "sha256": "189608AED30710CFD894EF1D7110831B5F31BD4B32CD541CDC43C1FA16E91A28"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/after/page-0588.png",
+      "bytes": 70049,
+      "sha256": "420A137F068E794083A897024C08381BE9D7C3BAE1AAB85EF750C872207C614E"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0107.png",
+      "bytes": 88358,
+      "sha256": "C677B22E135FB841A35650B21EA03FC73E256C7DBC6387E9699C29D886211F1A"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0108.png",
+      "bytes": 297000,
+      "sha256": "246A69D15EBB2E7E253354D51F40992A52DDDBDE8976AD6C781C433EC76D2790"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0109.png",
+      "bytes": 37991,
+      "sha256": "425982BB52092367D7BA523C8F20D34E16B349A69C296646B8EF0607150CA600"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0150.png",
+      "bytes": 188360,
+      "sha256": "381BB79272AB56271083EE7DF96846ECDF27C61642489C0D01B8A01EC47E3560"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0151.png",
+      "bytes": 398066,
+      "sha256": "7CB22CAB25C575D31142689C2A23776041F9163A50C7134D5B8F33222EDC82B1"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0152.png",
+      "bytes": 390613,
+      "sha256": "B56BD60A1B2A6FF89AABDE84CC5199514C9396975BDB22360651FA1D56DC3A15"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0340.png",
+      "bytes": 384679,
+      "sha256": "CD3F2FC8BEA204121864F53F38598B2DFDB4DF8A5979F500A75B79C37EE268C1"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0341.png",
+      "bytes": 392724,
+      "sha256": "28F74D571C6FC897C01FC6FF1F83110277C92649F444C00A060C406C1214671B"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0342.png",
+      "bytes": 96724,
+      "sha256": "C67DBE5F455A2C16CEC6FDC8211FF566065E3A62BCB9C64801CFC096006FD813"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0343.png",
+      "bytes": 517025,
+      "sha256": "1A11C6A546FC569ED510A8153E53444A670ED434D5823650FE2D547E5DD4B958"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0356.png",
+      "bytes": 346384,
+      "sha256": "FCEEED455FA20221D8550B015601172E7B9ACBB11CE898258902215F5A09AB71"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0357.png",
+      "bytes": 325236,
+      "sha256": "16049865AAE249E12D13615AE276C75CE29A81E2F041A1CF56D4F7329BA2FA55"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0358.png",
+      "bytes": 227061,
+      "sha256": "19219B427DD1D7CBFE9F330027285011FE87263AD8C763C5584322C6C0941827"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0359.png",
+      "bytes": 374525,
+      "sha256": "E53912545D97A2CEDAA2AB976B88CDF1A76D6BF94B91167E981BAB459E7486D1"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0539.png",
+      "bytes": 368228,
+      "sha256": "4AE3D4B844903145A58DE776188B843882AB28371F72D3538D8BFD4DC72F7C8E"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0540.png",
+      "bytes": 228263,
+      "sha256": "14137C7F828F0267E670468044BB205A0766D8AC6B9F72121CFB04F78EA42A61"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0541.png",
+      "bytes": 220196,
+      "sha256": "833BE2809770824CAFC8D6612310733A0BE53556A111C96EF5B06E2E02D74DDA"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0542.png",
+      "bytes": 263931,
+      "sha256": "FF21419BBCB8807120D90CE63A873E4D58D4E2D8E1F73146D999ADC0C5D4AF35"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0543.png",
+      "bytes": 314720,
+      "sha256": "A8F9CE13CDEBF9823D9E5BE62918850F89C8271E61E021B097D617F9C68B3580"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0544.png",
+      "bytes": 216471,
+      "sha256": "2C8DA1469E8E2CD7C06A3182BD8D34065049FCF747995BBDFADF9528820B9DF7"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0587.png",
+      "bytes": 235994,
+      "sha256": "189608AED30710CFD894EF1D7110831B5F31BD4B32CD541CDC43C1FA16E91A28"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/before/page-0588.png",
+      "bytes": 65840,
+      "sha256": "F26CBFFB1BD6F9069BB1C3E1B048F19B900EF9E07B7296857909097DB2934A89"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/contact-01.png",
+      "bytes": 1283165,
+      "sha256": "5D86144F2AC9C04C51C1C5115F0342DD2E0B5DBFFC99FBBD7458BA888D2AD407"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/contact-02.png",
+      "bytes": 2397997,
+      "sha256": "96ABC55ABDD3B58DDE93D4F52073446E75F871D7D998A0D6AEF9FC3A0E04014D"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/contact-03.png",
+      "bytes": 1718542,
+      "sha256": "0058AB92C6180F8ECBB8DBCE789DB20194265010118FD77A7A2EEA612ED1C954"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/isv-cy/contact-04.png",
+      "bytes": 750456,
+      "sha256": "FAB628D67B2AB6B134AD6F72ABD3F0435AAF630F4E57649D72C02E41A4934182"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0111.png",
+      "bytes": 140251,
+      "sha256": "D3F847FCA71A0D515CE3EAF55D258647ECCCB4112B766AED6D4D94B8E236D81D"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0112.png",
+      "bytes": 305282,
+      "sha256": "B8E747678732A64BACAA074CAC0833CEFD6E4F13F301F3D431F0FCAD4C14D926"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0113.png",
+      "bytes": 38784,
+      "sha256": "CB4857F0C7E987490FAC7FC0B629BAF68960497D88A596D284457E1C2106D286"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0370.png",
+      "bytes": 358985,
+      "sha256": "5421005C0B6036F095EA84E89B481FB00AC396443B26E3891A29826E9A69BE3F"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0371.png",
+      "bytes": 328751,
+      "sha256": "554E296382C9202682BBD9A6AE7F40C200CFE01E3EE267A8533F8EF5DAA95AAC"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0372.png",
+      "bytes": 295202,
+      "sha256": "08CFD90FC332B89FA09B89055321919BEFDD2C45F29D51923D0D3BFFB9F8FD4A"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0373.png",
+      "bytes": 376171,
+      "sha256": "521780DEDDA3CC0C9078FB237962CB094598BCD8DA54AE28024AEB24709E0888"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0558.png",
+      "bytes": 405071,
+      "sha256": "F9E7684AA54788C39ED4544572A4576DC0BE1646E06E73F4174848987825B8D9"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0559.png",
+      "bytes": 287600,
+      "sha256": "1DA27260573C187C1B04E6187E209C8AEF3A3DFEED3D618AC0CA8B8DF81E659D"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0560.png",
+      "bytes": 237490,
+      "sha256": "1BE28E38D9B0FD819884A384FE407D8D18476B746F055E9738CD4F0C6E88D53C"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0561.png",
+      "bytes": 287002,
+      "sha256": "554CE9997913B26A393AD8ABACB63F9DA39D4D1692C7468CBDDC827AC0270FE8"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0562.png",
+      "bytes": 349957,
+      "sha256": "40E39AA1C99E88CF371A11F6D2908E415798ECF3E704B94434A112D53F1590D0"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0563.png",
+      "bytes": 227890,
+      "sha256": "3B998AA342F56F91F9ACDECB5CBCDC4F988234D00ECFF21A79786E9217213E0A"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0608.png",
+      "bytes": 243024,
+      "sha256": "39A500E154F6F1E69B35A0A33929C47B1865EB22558F096319DB4D51F95C38B8"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/after/page-0609.png",
+      "bytes": 70643,
+      "sha256": "892969F360B72E0208E21D8F883F512551FE1F6F9352F3E616DB1C5FD8B8AF01"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0111.png",
+      "bytes": 140251,
+      "sha256": "D3F847FCA71A0D515CE3EAF55D258647ECCCB4112B766AED6D4D94B8E236D81D"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0112.png",
+      "bytes": 305470,
+      "sha256": "5C50ED81C9F535DFCF4E06591D324586A049DB63BE7EC19582FB4A594D73F392"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0113.png",
+      "bytes": 38784,
+      "sha256": "CB4857F0C7E987490FAC7FC0B629BAF68960497D88A596D284457E1C2106D286"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0370.png",
+      "bytes": 358985,
+      "sha256": "5421005C0B6036F095EA84E89B481FB00AC396443B26E3891A29826E9A69BE3F"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0371.png",
+      "bytes": 321676,
+      "sha256": "82E3E03A92EF45D69AF0E95F551B4C4D9909FA5F1AD8EB374CBCEF1452681D3F"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0372.png",
+      "bytes": 292163,
+      "sha256": "5A65419E12EAC306C26BC417C1D71746AB0C1F80533FC45F15348C3B1C6855BE"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0373.png",
+      "bytes": 376171,
+      "sha256": "521780DEDDA3CC0C9078FB237962CB094598BCD8DA54AE28024AEB24709E0888"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0558.png",
+      "bytes": 405071,
+      "sha256": "F9E7684AA54788C39ED4544572A4576DC0BE1646E06E73F4174848987825B8D9"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0559.png",
+      "bytes": 287117,
+      "sha256": "B2B9A6A055CC1988BD16067E5D1C27F0FF70F0AD5B7C8F794A7371171309818A"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0560.png",
+      "bytes": 237490,
+      "sha256": "1BE28E38D9B0FD819884A384FE407D8D18476B746F055E9738CD4F0C6E88D53C"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0561.png",
+      "bytes": 287002,
+      "sha256": "554CE9997913B26A393AD8ABACB63F9DA39D4D1692C7468CBDDC827AC0270FE8"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0562.png",
+      "bytes": 350442,
+      "sha256": "05FAC69B192831D023A5E57F0359813A97FC611B4777523B81FCBA709F0B0E30"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0563.png",
+      "bytes": 227890,
+      "sha256": "3B998AA342F56F91F9ACDECB5CBCDC4F988234D00ECFF21A79786E9217213E0A"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0608.png",
+      "bytes": 243024,
+      "sha256": "39A500E154F6F1E69B35A0A33929C47B1865EB22558F096319DB4D51F95C38B8"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/before/page-0609.png",
+      "bytes": 68322,
+      "sha256": "13ADE1D57134A72F12BA450F0D83BE1E384CABF56D32D69C9DF81C03AC5271DA"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/contact-01.png",
+      "bytes": 1599168,
+      "sha256": "372914CCD02789AD37682E95CFA0C9DBF32EEA2B33CE192D0FC332018B2E695F"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/contact-02.png",
+      "bytes": 1774338,
+      "sha256": "B5737CCD60F2E7C3F5F18AC261B468BE3735EB362E16CC725D08E1A6587F49E3"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/ru/contact-03.png",
+      "bytes": 486742,
+      "sha256": "162910A8BC5BE208F1FBF681247F6FED9185C8E87C9F4F9DED5DC6CB964CC9D7"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0108.png",
+      "bytes": 70631,
+      "sha256": "94339A7415A2783E7A2A65940FA6978359A577031057BF0CD679C864FED3A6E5"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0109.png",
+      "bytes": 285648,
+      "sha256": "915EF3BBA691F2AECE7274F5DCF53CC359006BD4A38D23F40E11F77588CF1636"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0110.png",
+      "bytes": 37527,
+      "sha256": "0C90CF25D5E38A79A0A8EBE5811AE9C7C94EF593EE62CE8BC9EB7750A4B0B796"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0356.png",
+      "bytes": 345092,
+      "sha256": "2017D993EEB3F2EDA4EDA1B5A9FEFAA8E6DEB0AAAD651BE02A0385BD25E5CCCB"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0357.png",
+      "bytes": 326605,
+      "sha256": "A00573A293715169BF078D48C332BD6346D1F241A09BC7BA91E2DDC8E6923CCE"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0358.png",
+      "bytes": 236843,
+      "sha256": "266F2A785D0E4270E7E53B289F7F67C8EDEF252CB516B2D75407B81366944B2D"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0359.png",
+      "bytes": 395623,
+      "sha256": "5AAA531551AF94A0C7D2A34408A83567995BB1004F26CD88100AD54EC67A0207"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0538.png",
+      "bytes": 383094,
+      "sha256": "CD35E636FFFD5AAF97ACBF5597D7E2CD0A99B5726509259562C19A71FB2C65B1"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0539.png",
+      "bytes": 250470,
+      "sha256": "C9A12F1807E1CED971B2E356F2AA3322088D2E8796131C8F9924C63FFEB4FD05"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0540.png",
+      "bytes": 228151,
+      "sha256": "9DBA8DEF031C7FD10839428495F9FEEA552CC2576E51748C53E3E0D1826A780D"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0541.png",
+      "bytes": 278023,
+      "sha256": "C0F9A86BF07D8B527959275F11486EE2AAC903C1A7258EA2737AB36AB7D252AB"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0542.png",
+      "bytes": 330568,
+      "sha256": "B48D0BB661AC447170E7B9F19CDF9B9063180A8D564EA645E69FCA3EA12C18B2"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0543.png",
+      "bytes": 215389,
+      "sha256": "AD6DF246B4CD729ED59AD042AD42C333CA317F0D091A3FF7AACBA76514032512"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0587.png",
+      "bytes": 236728,
+      "sha256": "E53894463816C5A733741993C6ECB20FCB85062AE769B298628BC20B6D6F91C3"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/after/page-0588.png",
+      "bytes": 69626,
+      "sha256": "B00CAFAE29A49882AA7DF9B21A0D664D79654BE2655721D3044DB3C026BA48F2"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0108.png",
+      "bytes": 70631,
+      "sha256": "94339A7415A2783E7A2A65940FA6978359A577031057BF0CD679C864FED3A6E5"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0109.png",
+      "bytes": 285469,
+      "sha256": "59B7C468166DB7658F70C6CD8DB506B3A20AF41B6277BE1463D31DCA8B4DDB8F"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0110.png",
+      "bytes": 37527,
+      "sha256": "0C90CF25D5E38A79A0A8EBE5811AE9C7C94EF593EE62CE8BC9EB7750A4B0B796"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0356.png",
+      "bytes": 345092,
+      "sha256": "2017D993EEB3F2EDA4EDA1B5A9FEFAA8E6DEB0AAAD651BE02A0385BD25E5CCCB"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0357.png",
+      "bytes": 320077,
+      "sha256": "756E236DFE905283CC2C4D2B0E2CEED31CBE0CC100A0DC42399105C5E53453D6"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0358.png",
+      "bytes": 233684,
+      "sha256": "54E505D3CF5C97A2A36EBBEF2494EF1EBC1F6F02518096118FB8CB5CCD2384F2"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0359.png",
+      "bytes": 395623,
+      "sha256": "5AAA531551AF94A0C7D2A34408A83567995BB1004F26CD88100AD54EC67A0207"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0538.png",
+      "bytes": 383094,
+      "sha256": "CD35E636FFFD5AAF97ACBF5597D7E2CD0A99B5726509259562C19A71FB2C65B1"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0539.png",
+      "bytes": 249790,
+      "sha256": "C0F69E69B65A9F835BAD78AC487987C64127067B0DFCFC95837F43040BDC3F91"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0540.png",
+      "bytes": 228151,
+      "sha256": "9DBA8DEF031C7FD10839428495F9FEEA552CC2576E51748C53E3E0D1826A780D"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0541.png",
+      "bytes": 278023,
+      "sha256": "C0F9A86BF07D8B527959275F11486EE2AAC903C1A7258EA2737AB36AB7D252AB"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0542.png",
+      "bytes": 331033,
+      "sha256": "062656CACD58ECC48B474D48B83934F0C28F50DCF897000EECD9D3911D6B9C8C"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0543.png",
+      "bytes": 215389,
+      "sha256": "AD6DF246B4CD729ED59AD042AD42C333CA317F0D091A3FF7AACBA76514032512"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0587.png",
+      "bytes": 236728,
+      "sha256": "E53894463816C5A733741993C6ECB20FCB85062AE769B298628BC20B6D6F91C3"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/before/page-0588.png",
+      "bytes": 66536,
+      "sha256": "6A3A652A9ADDBB2D4756BDF78229400F763366F1F72C8A95778CFA0663AC4D9B"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/contact-01.png",
+      "bytes": 1436518,
+      "sha256": "8B898C96D487EFDF4175311982B5CD9EECF363BA24AFDDBAD6BCF1DA37E392A1"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/contact-02.png",
+      "bytes": 1677244,
+      "sha256": "4A6DD67052E2B3EC3697852451C67AAD5E38822AD7432427E1FC43F9D71FCD6F"
+    },
+    {
+      "role": "project-generated changed-page/control render or contact sheet",
+      "disposition": "proposed_public_subject_to_archive_owner_underlying_text_rights_decision",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/visual/v047_delta/uk/contact-03.png",
+      "bytes": 460306,
+      "sha256": "F284D798CFB3BEA885DD8E248BCE14E82C649EB96470E9EE6BCE6E10694CE824"
+    },
+    {
+      "role": "public README",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/README.md",
+      "bytes": 2586,
+      "sha256": "95852E27707A97EF4198C8193363DC54898ADC43F4F02F1BDB207C2AE35D1891"
+    }
+  ],
+  "rights_blocked_source_images_not_proposed_public": [
+    {
+      "role": "source-image research evidence",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/rights_blocked/source_visual/post45-bertini-source-page-0046.png",
+      "bytes": 386628,
+      "sha256": "ADCEF1E66A639C2058422D1B6F56DFC059F4DC85A426E797E0AB6ECC7BDF77C8"
+    },
+    {
+      "role": "source-image research evidence",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/ED0010_zh_r7/p04-bound.png",
+      "bytes": 162726,
+      "sha256": "05D3BCB13E8626291689D5556993598AB06860ABE83B7875B7CCCDA1B90BF2D5"
+    },
+    {
+      "role": "source-image research evidence",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/ED0010_zh_r7/p06-footnote.png",
+      "bytes": 286697,
+      "sha256": "24F7F23E260640699698565967D61B52A6EB1D11B9CEAABFB1442792AA84A8CD"
+    },
+    {
+      "role": "source-image research evidence",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/ED0010_zh_r7/p06-indices.png",
+      "bytes": 226169,
+      "sha256": "C882CF1E37C4282557F5C177035456FE2F8FFDB9F82AB9DFCA00231D5501F41A"
+    },
+    {
+      "role": "source-image research evidence",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/ED0010_zh_r7/p12-f10.png",
+      "bytes": 159268,
+      "sha256": "B3859B509F852F604383ED723ADD8A713F9F8595F3AA7E798CDC328CC5D4D72E"
+    },
+    {
+      "role": "source-image research evidence",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/P09/n103.jpg",
+      "bytes": 1223084,
+      "sha256": "1415068308A2BEF1B3E20E6BEC9316FDB22114CE1FF7F1A28847661791D0BB29"
+    },
+    {
+      "role": "source-image research evidence",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/P09/z434.jpg",
+      "bytes": 1217120,
+      "sha256": "1627A2983DBE4663A16330E16C24A31C80C9E1996778570C5EF165BA97AEF85B"
+    },
+    {
+      "role": "source-image research evidence",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/P30/p56.png",
+      "bytes": 249140,
+      "sha256": "DFA71E58EA5E4A4099F9B964348EEA97A0CE3E209F6ECFC7D3A96F9D61E5B93B"
+    },
+    {
+      "role": "source-image research evidence",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/P44/q11.png",
+      "bytes": 504536,
+      "sha256": "F0B27EB9C16428E041207DA81BBEB54DF12C08567DE7FD5553E33303A1E7A596"
+    },
+    {
+      "role": "source-image research evidence",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/P44/q14.png",
+      "bytes": 648977,
+      "sha256": "374073E4887D04929333D49976F7B2467CA28EABDCCA3EF9960E02C8E0A9A4E7"
+    },
+    {
+      "role": "source-image research evidence",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/P45_alt/ma562.png",
+      "bytes": 516327,
+      "sha256": "E4D03EA5907945BC7543BECD35BB7D6F4801E805E9F1EF6FECB80F41816FDEBB"
+    }
+  ],
+  "rights_blocked_parent_scans_not_proposed_public": [
+    {
+      "role": "parent source scan",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/ED0010_zh_r7/p04-print.pdf",
+      "bytes": 71029075,
+      "sha256": "03D197DC54E920EF529E326134DD14278FC4D16F9A64EF7A9ADB12B515069A77"
+    },
+    {
+      "role": "parent source scan",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/ED0010_zh_r7/p12-print.pdf",
+      "bytes": 646682,
+      "sha256": "81C742BFBC366E4D81B6FE148EC918D852FD45E38D95553B61BAF399465F76D5"
+    },
+    {
+      "role": "parent source scan",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/P06_Hstar/print.pdf",
+      "bytes": 2976723,
+      "sha256": "0819E798B9EDE46DD7FB480FB9F2B7BD41BD304CB3478CDECBC6410BCBE8A4F5"
+    },
+    {
+      "role": "parent source scan",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/P30/print.pdf",
+      "bytes": 3218412,
+      "sha256": "4259EF9054DE32AE81BA1A6A66481BF951F4C33B306AA15817F841BB75FABCE2"
+    },
+    {
+      "role": "parent source scan",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/P44/scan.pdf",
+      "bytes": 3837655,
+      "sha256": "F98C16E6529BC4C24F8D1CDC087B48825FD71173EB18F0C1A25D0D1508B8F9B0"
+    },
+    {
+      "role": "parent source scan",
+      "disposition": "rights_blocked_not_proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence/P45_alt/ma97.pdf",
+      "bytes": 826195,
+      "sha256": "615FC4179839C8F64113DA834020F87E4F6A30FEEA26924BF030E33C55C2E8D2"
+    }
+  ],
+  "counts": {
+    "proposed_files": 238,
+    "proposed_bytes": 95277015,
+    "editable_source_files": 20,
+    "complete_reader_pdfs": 4,
+    "project_generated_visuals": 158,
+    "rights_blocked_source_images": 11,
+    "rights_blocked_source_image_bytes": 5580672
+  },
+  "review_state": {
+    "build": "40 serial XeLaTeX passes / two passes per base, component, and cumulative recipe; PASS",
+    "source_math_structure": "PASS; exact rebase receipt, 60 delta structural records, four explicit held P45 records",
+    "pdf_and_text": "PASS; exact hashes/pages and zero-replacement-character full text extraction",
+    "render": "PASS; every changed page plus immediately adjacent controls; 144 page renders",
+    "visual": "PASS; 14 contact sheets / 72 rows independently reviewed; parent original-resolution sample PASS",
+    "visual_format_caveat": "plain before/after sheets; no red-diff overlay claim",
+    "language": "model-authored RU/UK/ISV-L; no independent native-speaker certification",
+    "derived_script": "ISV-C is deterministic projection, not an independent translation witness",
+    "source_claim": "alignment to installed ED0011 authority only; canonical_claim=false; six Post45 and eight PostBibliography source-conflict groups remain explicit; no critical-edition/source-certification claim"
+  },
+  "rights": {
+    "project_generated_visual_count": 158,
+    "project_generated_visual_disposition": "proposed public subject to archive owner's underlying translated-text rights decision",
+    "source_image_roots": [
+      {
+        "root": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/rights_blocked",
+        "file_count": 1,
+        "bytes": 386628
+      },
+      {
+        "root": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/evidence",
+        "file_count": 10,
+        "bytes": 5194044
+      }
+    ],
+    "source_image_count": 11,
+    "source_image_bytes": 5580672,
+    "source_parent_scan_count": 6,
+    "source_parent_scan_bytes": 82534742,
+    "source_disposition": "preserved in exact custody; not proposed public; publish only metadata/hash/page/coordinate layer until redistribution rights are independently established",
+    "metadata_manifest": {
+      "role": "public-safe visual metadata/hash/coordinate layer",
+      "disposition": "proposed_public",
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/v047_delta_visual_evidence_index.jsonl",
+      "bytes": 412947,
+      "sha256": "CE06E4E9AFD354D8EF592C9EF4C0D3B44222B30A279F1A8FB1A9E0EA09C4FB97"
+    }
+  },
+  "supersession": [
+    "noether_slavic_v017 / v038 cumulative readers as the latest Slavic authority-aligned checkpoint",
+    "v014 and r19 Slavic cumulative/catalogue endpoints as latest older complete endpoints",
+    "metadata-only heartbeat baseline at NOETH-DE-AUTH-v038-20260805"
+  ]
+}
