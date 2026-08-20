@@ -11,14 +11,28 @@
       "name": "Noether, Emmy"
     }
   ],
-  "description": "<p><strong><a href=\"https://zenodo.org/records/21926383/files/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf\">Read the complete linked Interslavic reader — Latin script</a></strong> · <a href=\"https://zenodo.org/records/21926383/files/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf?download=1\">Download the PDF</a></p><p>This is the complete v047 Interslavic edition of the corpus defined by German authority <code>NOETH-DE-ED-0011</code>: Papers 1–43, Work 44, Paper 45, and the bibliography. The linked Latin-script reader is the easiest way to begin. The release also includes editable Latin- and Cyrillic-script sources and a deterministic Cyrillic reader in the supporting archive.</p><p><strong>Citation and current status.</strong> Cite the frozen v047 release using its exact DOI: <a href=\"https://doi.org/10.5281/zenodo.21926383\">10.5281/zenodo.21926383</a>. The stable concept DOI, <a href=\"https://doi.org/10.5281/zenodo.21926382\">10.5281/zenodo.21926382</a>, represents the Interslavic edition across releases. Verified post-v047 maintenance will appear together in the next complete rebuilt release; it is not part of, and does not alter, the frozen v047 release.</p><p>This is a machine-assisted scholarly working edition. It has not been peer-reviewed as a critical edition, and no native-speaker, community, or external certification is claimed.</p><p><strong>Relations.</strong> This edition is a translation of German authority corpus <code>NOETH-DE-ED-0011</code> and is part of the <a href=\"https://doi.org/10.5281/zenodo.20412587\">global multilingual Emmy Noether corpus</a>. Its standalone source repository is <a href=\"https://github.com/KokunoYumeto/emmy-noether-isv\">KokunoYumeto/emmy-noether-isv</a>.</p><p><strong>Rights.</strong> CC0 applies only to the extent that rights exist in the project-created translation, typesetting, metadata, manifests, tools, and evidence. Emmy Noether’s original works, German editorial material, facsimiles, fonts, software, and other third-party material retain their own legal status and licenses.</p>",
+  "description": "<p><strong>Medžuslovjansky</strong></p>\n<p><strong><a href=\"https://zenodo.org/records/21926383/files/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf\">Čitajte polny povezany medžuslovjansky PDF-čitateljnik — latinica</a></strong> · <a href=\"https://zenodo.org/records/21926383/files/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf?download=1\">dostati PDF-fajl</a>.</p>\n<p>Glavny cělj tutogo izdanja jest praktično čitanje ljudmi, ktori govoret slovjanskymi jezykami, vključajuči čitateljev, ktori ne znajut anglijskogo jezyka. To jest polno zamrznuto medžuslovjansko izdanje v047 korpusa, oprěděljenogo německym avtoritetnym izdanjem <code>NOETH-DE-ED-0011</code>: statje 1–43, lekcijsko dělo 44, statja 45 i bibliografija. Latinica jest jezyčnym iztočnikom; kirilica jest deterministično izvedeny drugy zapis togo samogo teksta, a ne oddělny prěklad.</p>\n<p><strong>Citovanje i nyněšnji status.</strong> Točny DOI zamrznutoj versije v047 jest <a href=\"https://doi.org/10.5281/zenodo.21926383\">10.5281/zenodo.21926383</a>; stabilny DOI koncepta jest <a href=\"https://doi.org/10.5281/zenodo.21926382\">10.5281/zenodo.21926382</a>. Slědujuča versija jest aktivno redagovana. Pri tutom javnom kontrolnom punktu ostavaje 270 imen, naslovov, měst ili citatnyh izrazov, ktore trěba klasifikovati prěd novym izvedenjem kirilice i polnym sostavjanjem. Te popravky ne sut čestju zamrznutoj v047.</p>\n<p>Javna versija sodrživaje polny povezany čitateljnik, redagujeme izvorne fajly, arhiv dokazov i pohođenja i spisok kontrolnyh sum SHA-256. To jest naučno rabotno izdanje, izrabotano s mašinnoju pomočju. Ono ne prošlo vněšnu naučnu recenziju i ne tvrdi potvrđenje rodnymi govoriteljami, medžuslovjanskoju obćinoju, oficialnym standardom ili nezavisnoju institucijeju.</p>\n<p>To izdanje imaje odnosenje <em>IsTranslationOf</em> k německomu avtoritetnomu korpusu <code>NOETH-DE-ED-0011</code> i <em>IsPartOf</em> k <a href=\"https://doi.org/10.5281/zenodo.20412587\">globalnomu mnogojezyčnomu korpusu Emmy Noether</a>. Repozitorij: <a href=\"https://github.com/KokunoYumeto/emmy-noether-isv\">KokunoYumeto/emmy-noether-isv</a>.</p>\n<hr>\n<p><strong>English</strong></p>\n<p><strong><a href=\"https://zenodo.org/records/21926383/files/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf\">Read the complete linked Interslavic reader — Latin script</a></strong> · <a href=\"https://zenodo.org/records/21926383/files/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf?download=1\">download the PDF</a>.</p>\n<p>The primary purpose of this edition is practical reading by people who speak Slavic languages, including readers who do not know English. This is the complete frozen v047 Interslavic edition of the corpus defined by German authority <code>NOETH-DE-ED-0011</code>: Papers 1–43, lecture work 44, Paper 45, and the bibliography. Latin is the linguistic source; Cyrillic is a deterministically derived representation of the same text, not a separate translation.</p>\n<p><strong>Citation and current status.</strong> The exact DOI for frozen v047 is <a href=\"https://doi.org/10.5281/zenodo.21926383\">10.5281/zenodo.21926383</a>; the stable concept DOI is <a href=\"https://doi.org/10.5281/zenodo.21926382\">10.5281/zenodo.21926382</a>. The next version is under active editorial review. At this public checkpoint, 270 names, titles, places, or citation surfaces still require classification before a new Cyrillic derivation and complete rebuild. Those corrections are not part of frozen v047.</p>\n<p>The public record provides the complete linked reader, editable sources, evidence and provenance, and a SHA-256 manifest. This is a machine-assisted scholarly working edition. It has not undergone external scholarly peer review and does not claim certification by native speakers, the Interslavic community, an official standard, or an independent institution.</p>\n<p>This edition <em>IsTranslationOf</em> German authority corpus <code>NOETH-DE-ED-0011</code> and <em>IsPartOf</em> the <a href=\"https://doi.org/10.5281/zenodo.20412587\">global multilingual Emmy Noether corpus</a>. Repository: <a href=\"https://github.com/KokunoYumeto/emmy-noether-isv\">KokunoYumeto/emmy-noether-isv</a>.</p>\n<p>CC0 applies only to the extent that rights exist in project-created translation, typesetting, metadata, manifests, tools, and evidence. Original works, German editorial material, facsimiles, fonts, software, and other third-party material retain their own legal status and licences.</p>",
   "keywords": [
     "Emmy Noether",
+    "Medžuslovjansky jezyk",
+    "polno izdanje korpusa",
+    "prěklad",
+    "matematika",
+    "algebra",
+    "naučno rabotno izdanje",
+    "latinica",
+    "kirilica",
+    "pohođenje",
+    "prěklad s mašinnoju pomočju",
     "Interslavic",
+    "complete corpus edition",
     "translation",
     "mathematics",
-    "algebra",
-    "complete corpus edition"
+    "scholarly working edition",
+    "Latin script",
+    "Cyrillic script",
+    "provenance",
+    "machine-assisted translation"
   ],
   "license": "cc-zero",
   "publication_date": "2026-08-14",
@@ -35,7 +49,7 @@
       "resource_type": "software"
     }
   ],
-  "title": "Emmy Noether: Complete Interslavic Corpus Edition / Emmy Noether: Polno medžuslovjansko izdanje",
+  "title": "Emmy Noether: Polno medžuslovjansko izdanje korpusa / Complete Interslavic Corpus Edition",
   "upload_type": "publication",
   "version": "2026.08.14-r1"
 }
