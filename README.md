@@ -29,7 +29,7 @@ Latinica jest glavno pismo za čitanje. Arhiv takože sodrživaje redagujeme izv
 
 Dla raboty s v047 citujte točny DOI versije: **[10.5281/zenodo.21926383](https://doi.org/10.5281/zenodo.21926383)**. Stabilny DOI koncepta **[10.5281/zenodo.21926382](https://doi.org/10.5281/zenodo.21926382)** označaje medžuslovjansko izdanje prěz vse versije.
 
-Slědujuča versija jest aktivno redagovana. Pri tutom javnom kontrolnom punktu ostavaje 270 imen, naslovov, měst ili citatnyh izrazov, ktore trěba ješče jednoznačno klasifikovati prěd novym izvedenjem kirilice i polnym sostavjanjem. Te popravky ne sut skryto dodane do v047 i ne izměnjajut tekst, označeny točnym DOI v047.
+Slědujuča versija jest aktivno redagovana. Pri tutom javnom kontrolnom punktu ostavaje 79 imen, naslovov, měst ili citatnyh izrazov, ktore trěba ješče jednoznačno klasifikovati prěd novym izvedenjem kirilice i polnym sostavjanjem. Te popravky ne sut skryto dodane do v047 i ne izměnjajut tekst, označeny točnym DOI v047.
 
 ### Status i ograničenja
 
@@ -75,7 +75,7 @@ Latin is the primary reading script. The archive also supplies editable Latin an
 
 For work using v047, cite the exact version DOI: **[10.5281/zenodo.21926383](https://doi.org/10.5281/zenodo.21926383)**. The stable concept DOI **[10.5281/zenodo.21926382](https://doi.org/10.5281/zenodo.21926382)** represents the Interslavic edition across releases.
 
-The next version is under active editorial review. At this public checkpoint, 270 names, titles, places, or citation surfaces still require explicit classification before a new Cyrillic derivation and complete rebuild. Those corrections are not silently added to v047 and do not alter the text identified by the exact v047 DOI.
+The next version is under active editorial review. At this public checkpoint, 79 names, titles, places, or citation surfaces still require explicit classification before a new Cyrillic derivation and complete rebuild. Those corrections are not silently added to v047 and do not alter the text identified by the exact v047 DOI.
 
 ### Status and limitations
 
