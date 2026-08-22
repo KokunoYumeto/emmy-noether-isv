@@ -1,0 +1,158 @@
+{
+  "schema": "noether-interslavic-decision-record-v1",
+  "decision_id": "ISV019-EDIT-0133",
+  "recorded_at": "2026-08-14T20:33:17+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "project_authority_source_layout_and_visual_fidelity_repair",
+  "scope": "Paper02 Unit003 only: restore the five-column continuation schema, terminal upper row, two verified rosette attachment marks, and explicit lower source-note association while preserving the normalized Interslavic body and localized note.",
+  "summary": "The Interslavic Paper02 schema now carries the complete ED0014/printed-source geometry instead of the inherited four-column truncation. The standalone producer was reconstructed from the live normalized Unit003 body, not the obsolete historical body.",
+  "human_companion": {
+    "path": "decision_records/ISV019-EDIT-0133.md",
+    "bytes": 4031,
+    "sha256": "240A820ED7A427BD096F645A902BFDC645ECD95C887F51739AAA00160469FE67"
+  },
+  "human_auditable_considerations": {
+    "question": "Whether the inherited four-column display was defensible, and whether rebuilding its standalone producer from the historical file would silently undo normalized Interslavic work.",
+    "evidence_weighed": [
+      "Active ED0014 lines 606-658 contain five columns, the terminal upper row, and two linked source-rosette positions.",
+      "The retained printed/GDZ witnesses and exact-5000 crops independently show the same source glyph and attachment logic.",
+      "The 6562-byte live pre-edit Unit003 body differs from the 6455-byte historical body; the former is the translation-lineage authority for reconstruction.",
+      "The localized Interslavic note already explains the lower attachment and remains byte-exact."
+    ],
+    "alternatives_rejected": [
+      "Retain four columns, because that preserves a material omission rather than a coherent source variant.",
+      "Substitute a generic star, because the source uses two matching non-generic rosettes.",
+      "Redraw or smooth the glyph, because the accepted source-derived bitmap already has exact custody and placement receipts.",
+      "Reconstruct from the historical producer body, because that would regress completed Interslavic normalization.",
+      "Mutate frozen v047, public r35, or the online standalone record, because this repair belongs only to v019."
+    ],
+    "claim_boundary": "Project-authority source-layout fidelity and visual legibility; not native/community validation or critical-edition certification."
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0132",
+    "ledger_rows": 132,
+    "ledger_bytes": 522742,
+    "ledger_sha256": "3D3FD928F4283C4E2B7CECDAB6A53E5B51E110EA257A80A557C4F3D278738AB2",
+    "sidecar_bytes": 11692,
+    "sidecar_sha256": "45577B1650EB84217D029655BCBEEBF4478E7B95A7C3850FE8BDB5C5E72A332F",
+    "state_bytes": 11533,
+    "state_sha256": "F435CB3BBAAD895EA39768058639976948329587911629FAB55627D0ABB9CE50"
+  },
+  "producer_successors": [
+    {
+      "unit": "Paper02-Section01",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section01_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex",
+      "input": {"bytes": 6798, "sha256": "393F295537ABA3C5683438CD3F9936AE88B8271D944F7B833D5C1F43924900C2"},
+      "historical_body": {"bytes": 6455, "sha256": "52A48949BCBCC420383107854838BA517B97FB769E433344BE42EA10FC69A975"},
+      "live_body_input": {"bytes": 6562, "sha256": "A2B8CA77B47A0914C8255AECBE92AAF6CE7EB50CEEE016CE45FD9AC00ABE5B85"},
+      "reconstructed_pre_edit_shadow": {"bytes": 6905, "sha256": "68DBCA99A4B80DE8EFE83B2472EC53D96CFD4D880E30F2AB1E58A8A66449547A"},
+      "body_output": {"bytes": 6793, "sha256": "AED6BFFE073F94154F974403D1D1FADE6D79A418AFBC78916A9DD6E4EFD64117"},
+      "output": {"bytes": 7619, "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"},
+      "lineage": "historical preamble shell plus live normalized Unit003 body; historical body not reused"
+    },
+    {
+      "unit": "Paper02-Section11",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "input": {"bytes": 14940, "sha256": "37B613F59FC8D4F101A714AF84B5DA0AE28FED93123EBA52C0363B234E3D499A"},
+      "output": {"bytes": 14964, "sha256": "7590484A00AA1B57C4AC8BDB53204AA0A570FAF8DCE8E0C9DBBD6247D6CB7AD7"}
+    },
+    {
+      "unit": "Paper08",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper08/interslavic/v001/Noether_Paper08_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper08_Interslavic_v001.tex",
+      "input": {"bytes": 23684, "sha256": "40A84F8E13423AFC923C4C0C714CBFB78C11EBD6F10343EEACA93090FCBB10C3"},
+      "output": {"bytes": 23894, "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"}
+    },
+    {
+      "unit": "Paper22",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper22/interslavic/v001/Noether_Paper22_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+      "input": {"bytes": 77611, "sha256": "6A78318258A2C609D030A248E66834055E904DC808BECA797433C461B31558B6"},
+      "output": {"bytes": 78293, "sha256": "0855C017214927DDF49EC0DD6F7A9ABA350E218F33BB9A94CE6B67E5A8FBDE25"}
+    },
+    {
+      "unit": "Paper24",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper24/working/through-section07/interslavic/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+      "local": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+      "input": {"bytes": 94891, "sha256": "1AFB653CAD5CFE903BC80CB64DE192D22BE33579131208309844F7104CA0BC6B"},
+      "reconstructed_pre_edit_shadow": {"bytes": 95451, "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"},
+      "output": {"bytes": 95465, "sha256": "AD419F8A63C929DF6CFC897054D748F4E9756CBFF18D98F6A9DCEB0AC66F543F"}
+    },
+    {
+      "unit": "Paper34-Section23",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper34/source_fidelity_section23/interslavic/v001/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+      "input": {"bytes": 4638, "sha256": "965699990152B0707997CFE43D58300E243E690657FC85D326486A835E2AC8C0"},
+      "reconstructed_pre_edit_shadow": {"bytes": 4690, "sha256": "BFEE5482B4B35155C44D6577D810E4CACB1932B6A9C63031266EFC2EFA7DEE6A"},
+      "output": {"bytes": 4752, "sha256": "B811E94705075CBA321A016DD3F633B4F47041191835708A113EB6C4ADCC196B"}
+    }
+  ],
+  "source_inputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25544, "sha256": "DA94D3B387C6A1D2D2971578FF086F9C09EA4A16BB87A664D8E8E8EB242C51A1"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898214, "sha256": "AF53D8C3D0400779214EB7F5202298B9B918E0E6FC7AA69E7076D1F3C3BB2340"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "source_outputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25544, "sha256": "DA94D3B387C6A1D2D2971578FF086F9C09EA4A16BB87A664D8E8E8EB242C51A1"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898820, "sha256": "D83F91F64A884B9BD3D5E9A9626A3D4B66D44402385059E0DC8838CC2899E244"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "asset_output": {
+    "path": "assets/authority_rosette_native_supported_mask.png",
+    "bytes": 797,
+    "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5",
+    "pixels": [108, 108],
+    "mode": "RGBA",
+    "uses_in_repaired_display": 2,
+    "embedding": {"width_pt": 14.726716981132075, "advance_pt": 9.44444, "raise_pt": -3.85, "ppi": 530, "interpolation": false}
+  },
+  "bounded_changes": {
+    "base_preamble_support": {
+      "graphic_support": {"bytes": 63, "sha256": "84AC8B1263C99A5FC3ABB976EA3485A9104DCF8DD78572F9691CD0E4A970DE2B"},
+      "rosette_macros": {"bytes": 420, "sha256": "DF759C9C86F07A1A663D862F5BC2B20D8BCD9775A62FB9F7E9A997F2CA81CC88"}
+    },
+    "old_display": {"bytes": 1232, "sha256": "96491304A9EA4B9905757EF1EDBFA42F6E34B969E0711CD9A0CA474EA7121E82"},
+    "new_display": {"bytes": 1463, "sha256": "A407EA099DD3185588641548631823954CD4F7B856B721B8211DA4650B6DBB1F", "columns": 5, "terminal_upper_row_restored": true, "rosette_uses": 2},
+    "localized_note": {"bytes": 148, "sha256": "E02E0A0D6CE26E5A07EDC9D4EC57C18C439D41DB46985DB3D87187B8D2DAE0DD", "preservation": "byte_exact", "association": "explicit lower noethpIIsrcfnmark/noethpIIsrcfntext pair"}
+  },
+  "authority": {
+    "project_active_german_authority": {"edition": "NOETH-DE-ED-0014", "source_bytes": 2154011, "source_sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58", "version_doi": "10.5281/zenodo.21908301", "canonical_claim": false},
+    "top_surface": {"ed0014_lines": [606, 642], "bytes": 853, "sha256": "BD7C90F9F2F5B6E6245477DA18D2004E6D989E666F26782C405E195D68A033CB"},
+    "lower_surface_namespaced": {"ed0014_lines": [643, 658], "bytes": 399, "sha256": "B100D9880266982EA284579105B02AEA9E52F72AF5217FF4477D9EB987201472"},
+    "adjudication": {"defect_id": "NOETH-DEF-P02-0002", "bytes": 6767, "sha256": "38DD6AAD69A52F33A631B75C0EAC18439A1837A0F715DF0EEA5A32AA16B908BC"},
+    "printed_bundle": {"bytes": 5744835, "sha256": "05D5BA2D9774DB7805F8FFDF5A52BDD5EFF93F0B9DB92B5501DE032E17E88533"}
+  },
+  "applicator": {
+    "path": "apply_isv_p02_five_column_rosette_v019.py",
+    "bytes": 51415,
+    "sha256": "20003AC9512263C6D243ED806C2D376C0016E0C5674C5F8F3715CE7E440FA0D3",
+    "default_mode": "dry_run",
+    "apply_mode": "explicit_atomic_one_shot"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT; exact defects 0",
+    "exact_reverse_replay": "PASS",
+    "outside_span_identity": "PASS",
+    "producer_assembled_body_identity": "PASS",
+    "live_normalized_body_lineage": "PASS; historical body not reused",
+    "labels_refs_cites_paths_environments": "PASS",
+    "transport_utf8_nfc_lf": "PASS",
+    "localized_note_byte_identity": "PASS",
+    "frozen_and_public_immutability": "PASS",
+    "visual_verdict": "ACCEPT; five columns, terminal row, two authority rosettes, lower marker/note association, no clipping, collision, or missing glyph",
+    "independent_visual_qa": "ACCEPT; exact defects 0",
+    "build_warning_boundary": "Producer severe/overfull/underfull findings all zero; cumulative build has only 39 inherited underfull warnings outside this repair."
+  },
+  "visual_evidence": {
+    "producer_pdf": {"path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/output/pdf/p02_ed0014_20260814/isv-paper02-section01-edit0133.pdf", "bytes": 102525, "sha256": "5C1041500E8258B37118DBC355A0E46220852D9E2C45510973A3DA8CAEBCAA59", "pages": 2, "target_page": 2, "independent_builds_byte_identical": true},
+    "assembled_pdf": {"path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/output/pdf/p02_ed0014_20260814/isv-papers1-43-edit0133.pdf", "bytes": 2195018, "sha256": "0E12C57508603D6888BE597E674E739C7F21857FBC04784E73977EEDB4BE03D8", "pages": 509, "target_page": 6, "independent_builds_byte_identical": true},
+    "pdf_image_inspection": "Two uses of the same 108x108 image and mask at 530 ppi with interpolation disabled."
+  },
+  "open_dispositions": [{"defect_id": "NOETH-DEF-P24-0003", "status": "OPEN_RENDERED_PAGE_ADJUDICATION", "bundled_here": false}],
+  "retained_authority_uncertainties": ["Paper45 d(y) versus d_i(y)", "Paper45 bare f(0,y) coefficient", "Paper45 P overloading", "Paper45 h_i y^(K) before lambda=(K)"],
+  "publication": {"frozen_v047_unchanged": true, "public_r35_unchanged": true, "standalone_record_unchanged": true, "working_successor_published": false, "publication_effect": "none", "doi_effect": "none"}
+}

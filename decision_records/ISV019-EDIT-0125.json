@@ -1,0 +1,111 @@
+{
+  "schema": "noether-interslavic-decision-record-v1",
+  "decision_id": "ISV019-EDIT-0125",
+  "recorded_at": "2026-08-14T05:47:40+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "source_fidelity_mathematical_sign_repair",
+  "scope": "Paper 2 Section 11: one inherited erroneous reduction sign in the Latin producer and assembled base, plus local producer source and identity receipts.",
+  "summary": "Remove the spurious minus before one-third: the preceding subtraction of theta_eta-squared and the preserved theta_eta-squared approximately negative-one-third identity require a positive one-third term, exactly as printed in ED0011, ED0014, the P02 German unit, and the primary checkpoint.",
+  "defect_id": "ISV019-DEF-P02-S11-SIGN-0001",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0124",
+    "ledger_rows": 124,
+    "ledger_bytes": 507153,
+    "ledger_sha256": "302697E5F5805AD92D1C503606865FD6C096A7351967583E379D107157130E05",
+    "sidecar_bytes": 10997,
+    "sidecar_sha256": "6C06A162E4D810B1224092663F06F5FAE927D4CC957B39A8E8AA3EE163DDC0CA"
+  },
+  "exact_changes": [
+    {
+      "producer_locator": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex:167:5",
+      "assembled_locator": "source_latin/base-papers1-43-isv.tex:1586:1",
+      "before": "\\sim-\\frac13(\\vartheta\\R x)-\\frac16s_\\vartheta(\\theta su),",
+      "after": "\\sim\\frac13(\\vartheta\\R x)-\\frac16s_\\vartheta(\\theta su),",
+      "reason": "Substitution of theta_eta-squared approximately -1/3 into the preceding -theta_eta-squared term yields +1/3; every active German/primary authority agrees."
+    }
+  ],
+  "producer_successors": [
+    {
+      "unit": "Paper02-Section11",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "input": {
+        "bytes": 14940,
+        "sha256": "37B613F59FC8D4F101A714AF84B5DA0AE28FED93123EBA52C0363B234E3D499A"
+      },
+      "output": {
+        "bytes": 14939,
+        "sha256": "9C9E4A85D070AF6218CFA61E305FD40BF37B94996F504FA87360499CC0D640D1"
+      }
+    }
+  ],
+  "producer_lineage": {
+    "assembled_source_marker": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+    "assembled_identity_updated": true,
+    "producer_body_matches_assembled_body": true,
+    "central_origin_unchanged": true
+  },
+  "source_inputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898700, "sha256": "7DB45EEA11BFF826B630BE336F0CBD0AB8D1D83600B6DE11EA051E452A81CF87"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "source_outputs": {
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898591, "sha256": "4E84DFF8BAC48548BD01D944F46AFA35423F1A7F17613577E3C98152737442E9"},
+    "unchanged_components": ["source_latin/44-book-isv.tex", "source_latin/45-isv.tex", "source_latin/bib-isv.tex"]
+  },
+  "authority": {
+    "german_ed0011": {"bytes": 2153594, "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3", "line": 1796},
+    "german_ed0014": {"bytes": 2154011, "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58", "line": 1796},
+    "p02_german_unit": {"bytes": 149527, "sha256": "6227E872D8E272DC7AB5F733CD911C92B0602429D3FB1CC8AC9C1128DAAF0192", "line": 1324},
+    "primary_checkpoint": {"bytes": 2152399, "sha256": "9545884841ECEFDE816A31D4B69B17C2A7F6635AC82D0E14AE8DE60E2E7C063A", "line": 1754},
+    "primary_pdf": {"bytes": 5744835, "sha256": "05D5BA2D9774DB7805F8FFDF5A52BDD5EFF93F0B9DB92B5501DE032E17E88533"}
+  },
+  "census": {
+    "current_four_sources_before": {"defective": 1, "corrected": 0, "file_split": "0/0/1/0"},
+    "current_four_sources_after": {"defective": 0, "corrected": 1, "file_split": "0/0/1/0"},
+    "pinned_declared_lineage_witnesses": 19,
+    "runtime_scope": "Only the 19 exact declared witness paths are opened; no recursive discovery scan is performed or claimed."
+  },
+  "preserved_controls": [
+    "the preceding minus before theta_eta-squared",
+    "the adjacent theta_eta-squared approximately negative-one-third identity",
+    "all other mathematical tokens, prose, comments except the exact source/identity receipts, TeX controls, environments, references, citations, braces, delimiters, and transport",
+    "the EDIT-0124 što-se-tiče morphology hold",
+    "the central producer, all 19 declared witnesses, Cyrillic-v2 spec, frozen releases, publication artifacts, and every other language lane"
+  ],
+  "applicator": {
+    "path": "apply_isv_p02_s11_reduction_sign_fidelity_v019.py",
+    "bytes": 24901,
+    "sha256": "066A13450C2BC4972695613513BA89384401C0382485DCA69782D31717EF74BC",
+    "dry_run_stdout_bytes": 1260,
+    "dry_run_stdout_sha256": "C96D2B79B803B6D73806379743D4F3797C81571CC004CCE65892195D557010CD"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT",
+    "semantic_derivation": "PASS",
+    "current_and_pinned_lineage_censuses": "PASS",
+    "no_recursive_scan": "PASS",
+    "producer_body_matches_assembled": true,
+    "protected_structure_transport": "PASS",
+    "reverse_replay": "PASS",
+    "double_run_identity": "PASS",
+    "fail_closed_drift_probes": "PASS"
+  },
+  "cyrillic_projection": {
+    "spec_path": "CYRILLIC_PROJECTION_V2_SPEC_v019.md",
+    "spec_bytes": 8345,
+    "spec_sha256": "55382E2455855C43F921EBBA81EC95C05614967DC7C467C81149D90D28566654",
+    "status": "blocked until Latin freeze; no projection performed"
+  },
+  "evidence_boundary": {
+    "native_validation_claim": false,
+    "classification": "source-fidelity repair; legacy generated snapshots with the minus are stale non-authoritative controls"
+  },
+  "publication": {
+    "working_successor_published": false,
+    "publication_effect": "none",
+    "doi_effect": "none"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "decision_id": "ISV019-EDIT-0085",
+  "recorded_at": "2026-08-13T15:33:43.4881970+02:00",
+  "epistemic_type": "manager_recurrence_adverb_closure",
+  "scope": "All 24 residual standalone znovo recurrence adverbs, all in the base papers.",
+  "choice": "Normalize every site to the already controlling official type-1 adverb ponovno.",
+  "motivation": "Every site means again/once more. This extends EDIT-0008, which already normalized the same semantic class from znovu to ponovno.",
+  "alternatives_rejected": ["Retaining znovo leaves a zero-headword surface.", "Reverting to znovu would undo EDIT-0008.", "Iznova would create an unmotivated synonym beside the declared house form."],
+  "evidence": {"official_dictionary": "isv_words_list.csv SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: ponovno type1 again/once more with W/S/E coverage; no znovo headword.", "semantic_review": "All 24 sites are repeated notation, substitution, application, assumption, or an object/property occurring again; no protected literal or anew-from-scratch sense.", "baseline_correction": "Direct scan distinguishes 195 lowercase and six capitalized pre-existing targets; post totals are 219 lowercase plus six capitalized, 225 overall."},
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0084",
+    "decision_log": {"bytes": 315883, "sha256": "6F3EC3125BAE343621247C822E1D855A2CE22EF912C51C349259722885086E1F"},
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25557, "sha256": "4BCE3FC674C270009151AA00E959633720EFFD7D32A8EFE9DA459AF3971A0033"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898239, "sha256": "2F82CBBB90617776F4012707366FCE912CA63C2759FB78F67091E924E9A21E33"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {"sites_changed": 24, "recurrence_source_residue": 0, "ponovno_lower_after": 219, "ponovno_capital_after": 6, "ponovno_total_after": 225, "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25557, "sha256": "4BCE3FC674C270009151AA00E959633720EFFD7D32A8EFE9DA459AF3971A0033"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898287, "sha256": "68FCB8280E6774271C4125BBB3B89C2CC9EEBA867027C8582F063D3A5F87847B"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}},
+  "tool": {"path": "apply_znovo_recurrence_v019.py", "bytes": 3410, "sha256": "C13D9EA4E7CE28B4306F60BF44143CEC2BBF74F0EEF815739E644A844B205D3E"},
+  "validation": {"prehashes": "4/4 exact against EDIT-0084", "coverage": "24 exact line-bound sites", "postcondition": "znovo/znovu variants zero and target totals exact", "structure": "TeX controls, labels/refs/cites, braces, math delimiters and line counts invariant", "reproducibility": "frozen successor hashes reproduced before atomic apply"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

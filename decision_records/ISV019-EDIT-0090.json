@@ -1,0 +1,41 @@
+{
+  "decision_id": "ISV019-EDIT-0090",
+  "recorded_at": "2026-08-13T15:50:43.2402254+02:00",
+  "epistemic_type": "manager_adjective_genitive_plural_repair",
+  "scope": "The sole residual whole-token raznih at base-papers1-43-isv.tex line 11547.",
+  "choice": "Replace 'izomorfija raznih razkladov' with 'izomorfija raznyh razkladov'.",
+  "motivation": "The type-1 hard-stem adjective råzny requires genitive-plural -yh agreement.",
+  "alternatives_rejected": ["Retaining -ih preserves a non-house mixed declension.", "Broad suffix replacement without lexical and sentence guards would be unsafe."],
+  "evidence": {
+    "official_dictionary": "isv_words_list.csv SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842, row 13683: råzny type1, with direct example '118 raznyh ... elementov'.",
+    "official_grammar": "adjectives.md SHA-256 184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F: regular hard-stem agreement.",
+    "semantic_review": "The governed noun razkladov is genitive plural; no protected occurrence exists."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0089",
+    "decision_log": {"bytes": 332144, "sha256": "E52FE5703F8BC2B8E9247B0588EC8FBBC2798972C760C2722C792565FAFA9637"},
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "AA751140E89657D210DDCAEA2869FAAA408C11027EA3A48FFD35B4D20C479C66"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898282, "sha256": "A844BB06A7BDAF3093FECBE54405996A61D5B8F641EF8FD3DED88C21FE10FEE4"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 1,
+    "raznih_residue": 0,
+    "raznyh_after": 6,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "AA751140E89657D210DDCAEA2869FAAA408C11027EA3A48FFD35B4D20C479C66"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898282, "sha256": "9D837138C90894C89451CB113F8E7FA465B6941F6CE789295021ADA95FF491F8"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_razny_genitive_plural_v019.py", "bytes": 3009, "sha256": "69C22F98E272DBCB9BC395D24E8C0E8084FC7773667647AFC794339BB5F14E86"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0089",
+    "coverage": "One exact line-bound whole-token site, equal to the complete source census.",
+    "postcondition": "raznih zero and raznyh total six.",
+    "structure": "Byte count, TeX controls, braces, math delimiters and line counts invariant.",
+    "reproducibility": "Frozen successor hashes reproduced before atomic apply."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

@@ -1,0 +1,62 @@
+{
+  "decision_id": "ISV019-EDIT-0021",
+  "recorded_at": "2026-08-13T00:45:09.6862907+02:00",
+  "epistemic_type": "manager_direct_semantic_disambiguation_and_family_normalization",
+  "scope": "All 516 odpověd-family tokens: 182 valid correspondence verbs, 297 modifiers, 34 nouns, and three adjacent adverb/adjective uses.",
+  "choice": "Preserve all 182 official technical verbs odpovědati in their correspondence sense; normalize all 297 adjectival/participial modifiers to the official odgovarjajuč- family; use official korespondencija with contextual case and agreement for 31 mapping nouns; recast three mistranslations of German Versagen as neuspěh; use Analogično in two discourse-adverb contexts and odgovarjajuči for one product modifier.",
+  "motivation": "The official lexicon distinguishes odpovědati (+3) 'correspond/be equivalent' from odgovor/answer vocabulary, but the same odpověd- surface was overloaded across verbs, modifiers, nouns, and a mistranslated German concept. The intervention preserves the valid verb while making modifiers and mapping nouns immediately transparent across branches. German Versagen means failure, not correspondence.",
+  "alternatives_rejected": [
+    "Blanket odpověd-to-odgovarj replacement, because it would erase 182 valid official technical verbs and risk the answer/reply sense.",
+    "Use unstable priręđenje/prirěđenje/prirędženje noun variants for all mappings; the official korespondencija head is clearer and morphologically stable.",
+    "Retain odpovědanje for German Versagen, which reverses the source meaning."
+  ],
+  "evidence": {
+    "bounded_agent": "/root/correspond_family",
+    "official_dictionary": {
+      "odpovědati_correspond": "id 3161 (+3)",
+      "odpovědati_answer_reply": "id 2189",
+      "odgovarjajuci_corresponding": "id 35938",
+      "korespondencija": "id 6063",
+      "neuspěh": "id 6550"
+    },
+    "german_authority": "Versagen eigentlicher Energiesätze at the three source-aligned contexts",
+    "protected_scan": "0 of 297 modifier targets in foreign arguments, TeX comments, or control-sequence names"
+  },
+  "results": {
+    "modifier_replacements": 297,
+    "mapping_noun_recasts": 31,
+    "semantic_failure_recasts": 3,
+    "adverb_adjective_recasts": 3,
+    "valid_correspondence_verbs_preserved": 182,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167895,
+      "sha256": "771D88F8626883FBD1A9B61A475FD2EE64E57E015B78CE5B67EF9C26D64F7F2F"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25501,
+      "sha256": "9DF102932398427CA4C31AF04DC8B691C876DDF3D147219EDFBAE634E3891935"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1894835,
+      "sha256": "517C24F11F1F29E484058A5D103BBA25BDD97308DE8564D4AC44B318DFBC1734"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9578,
+      "sha256": "E5951A6278A556003C44DE30FC0012C1421606BDB1DE3AB6CF05C01986D9613B"
+    }
+  },
+  "tool": {
+    "path": "apply_correspondence_family_v019.py",
+    "bytes": 10589,
+    "sha256": "D24CB6B566368E3A1204CBE472357FC3FF06BC0F926EB7B340F4C2F75FEED698"
+  },
+  "validation": {
+    "prehashes": "4/4 exact",
+    "dry_run_then_apply": "frozen output hashes reproduced",
+    "family_partition": "297 + 34 + 182 + 3 contextual uses accounted for",
+    "residuals": "zero odpovědajuč-* modifiers and zero odpovědanj-* nouns; exactly 182 valid odpověd- verbs remain",
+    "structure": "TeX controls, references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

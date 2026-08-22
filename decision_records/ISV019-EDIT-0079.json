@@ -1,0 +1,32 @@
+{
+  "decision_id": "ISV019-EDIT-0079",
+  "recorded_at": "2026-08-13T15:18:59.3113515+02:00",
+  "epistemic_type": "manager_base_equivalence_connective_tranche",
+  "scope": "Fifteen exact base-text tedy/teda sites functioning as equivalence, definition, or appositional explication.",
+  "choice": "Replace only the fifteen line-bound tokens with branch-neutral to jest.",
+  "motivation": "The sites restate equivalent formulas, definitions, indices, split algebras, rings, ideals, or orders; none is temporal or inferential.",
+  "alternatives_rejected": ["Zato would turn definitions into conclusions.", "Togda would invent time.", "Blanket family replacement would pre-empt the semantic classification of 236 remaining base tokens."],
+  "evidence": {"semantic_review": "All fifteen sites were reviewed against mathematical context and German; every target line contains exactly one family token."},
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0078",
+    "decision_log": {"bytes": 298782, "sha256": "F92859EB83274B0A2EB95A079BC34F2A601620D9E77592833A8A43CBE9886779"},
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25557, "sha256": "8746711C552E572EF4AC51F055DDC9DB18FF9858441CED86D4F83A982458C5C8"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898191, "sha256": "A4101B1DC80C03800680081AB3C74BA4C85324B2AAB7738710D7F379BBCCD1A0"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 15,
+    "source_histogram": {"tedy": 9, "teda": 6},
+    "base_family_residue_pending_classification": 236,
+    "other_file_family_residue": 0,
+    "unresolved_linguistic_holds_in_tranche": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25557, "sha256": "8746711C552E572EF4AC51F055DDC9DB18FF9858441CED86D4F83A982458C5C8"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898236, "sha256": "ACD09D25E47606274D1C9AE2FC3244BEB90CF30FE363DBEC85EB6DB1B0D62007"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_base_equivalence_tranche2_v019.py", "bytes": 3422, "sha256": "F0AF956411BE1227F3BD3AFB8D92331E6A6723A348BC4FAE8F6C0D060E2F3BAB"},
+  "validation": {"prehashes": "4/4 exact against EDIT-0078", "coverage": "15 exact single-token lines", "postcondition": "15 sites zero; 236 base tokens deliberately untouched", "structure": "TeX controls, labels/refs/cites, braces, math delimiters and line counts invariant", "reproducibility": "frozen successor hashes reproduced before atomic apply"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

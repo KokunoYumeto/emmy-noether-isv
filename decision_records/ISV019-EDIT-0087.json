@@ -1,0 +1,78 @@
+{
+  "decision_id": "ISV019-EDIT-0087",
+  "recorded_at": "2026-08-13T15:40:52.1586809+02:00",
+  "epistemic_type": "manager_discourse_adverb_normalization",
+  "scope": "All 26 residual standalone najprěd discourse adverbs: one in paper 45 and 25 in the base papers.",
+  "choice": "Normalize najprěd/Najprěd to official najprvo/Najprvo, preserving capitalization.",
+  "motivation": "All sites mean first or first of all. The selected type-1 form is the official cross-family bridge and the already established house form.",
+  "alternatives_rejected": [
+    "Retaining najprěd leaves a zero-headword source doublet.",
+    "Prvo alone loses the first-of-all discourse function.",
+    "Raněje or naprěd would change the meaning to earlier or in advance."
+  ],
+  "evidence": {
+    "official_dictionary": "isv_words_list.csv SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: najpŕvo id19868, type1, first of all, with West/South/East comparators; no najprěd headword.",
+    "semantic_review": "Twenty-five sites are procedural or discourse ordering; the Ostrowski attribution means first posed. No site means previously, spatially ahead, or appears in protected text.",
+    "native_controls": "Czech Nejprve, Polish Najpierw, Slovene Najprej and Bosnian prvo/najprije provide independent mathematical comparators; official Belarusian comparison supplies East evidence."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0086",
+    "decision_log": {
+      "bytes": 322248,
+      "sha256": "ACEE4E221703F409624CD99E0CE300296D34052DDD92E07C28A4E8FE19BF9B16"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168065,
+      "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25557,
+      "sha256": "4BCE3FC674C270009151AA00E959633720EFFD7D32A8EFE9DA459AF3971A0033"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898297,
+      "sha256": "40C97741B8382C2C74C02ED8A04021801E2289370943BF8819F7E3861605A448"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "results": {
+    "sites_changed": 26,
+    "source_family_residue": 0,
+    "najprvo_lower_after": 89,
+    "najprvo_capital_after": 58,
+    "najprvo_total_after": 147,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168065,
+      "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "AA751140E89657D210DDCAEA2869FAAA408C11027EA3A48FFD35B4D20C479C66"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898272,
+      "sha256": "83524DCC787CCD40E28ED252F67A2EA0CAC2D328859E2A445BA124C0F647035D"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "tool": {
+    "path": "apply_first_adverb_family_v019.py",
+    "bytes": 5283,
+    "sha256": "F1A9787258B03FB2B16B2CE3401722AFEEE2C355EBFAF6700A5E18496B0B46C2"
+  },
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0086",
+    "coverage": "26 exact line-bound whole-token sites, with the complete source-family census covered.",
+    "postcondition": "najprěd/Najprěd zero; najprvo target counts exact.",
+    "structure": "TeX controls, labels/refs/cites, braces, math delimiters and line counts invariant.",
+    "reproducibility": "Frozen successor hashes reproduced before atomic apply."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

@@ -1,0 +1,100 @@
+{
+  "decision_id": "ISV019-EDIT-0060",
+  "recorded_at": "2026-08-13T14:14:25.3630179+02:00",
+  "epistemic_type": "manager_direct_cross_slavic_universal_pronoun_normalization",
+  "scope": "All 100 residual každy-family universal and distributive pronouns in live v019 Latin sources, all in papers 1-43 and spread across 76 lines.",
+  "choice": "Normalize the complete family to the reader's established official vśaky paradigm in house spelling vsak-, using an exact inflection-aware 19-form map.",
+  "motivation": "All sites mean each or every. Although both lemmas are official type 1, the isolated každy layer is West-and-East shaped and explicitly negative in several South comparators, while vśaky preserves East and West recognition and directly matches South vsak/svaki. The reader already had 1,232 vsak-family tokens, so this removes a 100-token source-stratum split instead of expanding it.",
+  "alternatives_rejected": [
+    "Retain both official synonyms: this leaves a semantically empty source-layer split and a South-negative enclave.",
+    "Normalize the established 1,232 vsak-family sites to každy: this creates far larger churn and worsens South-Slavic recognition.",
+    "Map the family to vse/vsi: that changes distributive quantification and can alter agreement and scope.",
+    "Blindly replace the stem: that leaves malformed or non-house forms such as každome and každų instead of repairing them to vsakom and vsaku."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "entries": {
+        "id_937": "každy, adjective type 1, each/every; positive BE/CS/PL/RU/SK/UK but negative BG/HR/SL/SR",
+        "id_4326": "vśaky, adjective type 1, each/every; positive BG/CS/HR/RU/SR/UK and approximate PL/SK, with South national comparators vsak/svaki",
+        "id_13864": "vśaky, type 1, every kind/either/whatever, further confirming the family's breadth"
+      }
+    },
+    "independent_math_comparators": {
+      "method": "language-family presence, not surface-token voting",
+      "west": "A Czech mathematical control uses the každ- family.",
+      "south": "Independent Slovene and Bosnian mathematical controls use vsak-/svak-.",
+      "east": "The bounded Belarusian mathematical control abstains; official Russian, Belarusian, and Ukrainian dictionary comparators preserve East recognition for vśaky.",
+      "inference": "The vsak- bridge retains West recognition while materially improving South coverage without sacrificing East intelligibility."
+    },
+    "live_corpus_control": {
+      "preexisting_vsak_family": 1232,
+      "reviewed_každy_sites": 100,
+      "semantic_finding": "Every site is universal/distributive each or every; no indefinite, quoted, protected, or semantically distinct occurrence exists."
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0059",
+    "decision_log": {
+      "bytes": 234362,
+      "sha256": "3B264DF73EF6CF4CB431E96C2F4B93E63FA91F60BBEBE6DBEF25931D66EDA49E"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167968,
+      "sha256": "62378962AA5A049F6241E5054178D254F9D422D719E88B26258A3B1633A140BA"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25533,
+      "sha256": "DA03012DD88C4A096B42F2C5356B92C8C2656D4AC32501E2C54986F6861FEA1B"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1897063,
+      "sha256": "399ED2E606874873FB88DC9F1CC267D934DAC3400B2A99BA4E8E64187E9635C8"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "results": {
+    "sites_changed": 100,
+    "source_type_count": 19,
+    "distinct_lines": 76,
+    "source_family_residual": 0,
+    "all_source_vsak_family_after": 1332,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167968,
+      "sha256": "62378962AA5A049F6241E5054178D254F9D422D719E88B26258A3B1633A140BA"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25533,
+      "sha256": "DA03012DD88C4A096B42F2C5356B92C8C2656D4AC32501E2C54986F6861FEA1B"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896951,
+      "sha256": "D16714DC7D035C9F71D0A50719C8BA7D64D3D3E547370730633E2428DCA4DF49"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "tool": {
+    "path": "apply_kazdy_to_vsaky_v019.py",
+    "bytes": 7274,
+    "sha256": "EBEBDF26C94031355233D7BACFD34991F191FD338E0D8B901640C30F21D2C895"
+  },
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0059",
+    "coverage": "100/100 source sites mapped by exact case-sensitive 19-form histogram",
+    "residue": "zero whole-token každy-family residue",
+    "target_counts": "each inflected vsak-family target increased by exactly its mapped source count",
+    "protected_spans": "zero target overlap with comments, foreign, or foreignlanguage arguments",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged",
+    "reproducibility": "Frozen output hashes reproduced immediately before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

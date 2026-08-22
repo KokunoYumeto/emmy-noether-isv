@@ -1,0 +1,74 @@
+{
+  "decision_id": "ISV019-EDIT-0039",
+  "recorded_at": "2026-08-13T01:58:09.2148709+02:00",
+  "epistemic_type": "manager_direct_modal_terminology_morphology_and_agreement_normalization",
+  "scope": "All 81 whole-token nužn- necessity forms in live v019 Latin sources, plus 14 adjacent malformed potrebno/nepotrebno/trěbalo/trebalo/trěbajut tokens and seven sentence-level agreement or spelling repairs.",
+  "choice": "Use the official type-1 potrěbn-/potrěbno family for nominal, predicative, and adverbial mathematical necessity; preserve logical scope in negated-necessity contexts; repair necessary-and-sufficient conditions to singular agreement where the German source has Bedingung; normalize the adjacent trěba/trěbujut family.",
+  "motivation": "The official dictionary marks nužny as type 2 with Russian-oriented metadata and negative West-Slavic flags, whereas type-1 potrěbny/potrěbno has broad East, West, and South support and explicitly covers necessary/necessarily. Exact German comparison distinguishes necessary, not necessarily, and necessary-and-sufficient conditions, so a blind modal replacement was not acceptable.",
+  "alternatives_rejected": [
+    "Retain nužn- as a second free family: it preserves the source-shaped layer without an intelligibility gain.",
+    "Replace ne nužno with ne trěba: that changes logical scope from not necessarily P to P is not needed.",
+    "Use neizběžno: inevitability is stronger than logical necessity.",
+    "Use morati or musěti globally: those split South- and West-Slavic preferences and would turn nominal conditions into finite modal clauses.",
+    "Blind nužn- to potrěbn- substitution: it would leave the duplicate nužno potrěbno phrase and the two singular Bedingung agreement errors."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "accepted_entries": "id 29955 potrěbno type 1; id 1296 potrěbny type 1; id 13042 trěba type 1; id 5786 nepotrěbny; id 1942 trěbovati",
+      "rejected_entry": "id 28707 nužny type 2, regional metadata ru j and negative West-Slavic flags"
+    },
+    "official_adjective_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/adjectives.md",
+      "bytes": 8142,
+      "sha256": "184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F",
+      "relevance": "adjective agreement and -o adverb formation"
+    },
+    "official_verb_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/verbs.md",
+      "bytes": 21426,
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+      "relevance": "-ovati to -uj- present stem and third-person plural -ut, establishing trěbujut"
+    },
+    "independent_math_comparators": {
+      "manifest": "C:/Users/Floris/Documents/Codex/2026-05-26/there-is-currently-an-ongoing-process/other_pc_sidebranch_worktree/language-source-bodies/slavic-non-ru-uk-20260705/MANIFEST.csv",
+      "manifest_bytes": 460558,
+      "manifest_sha256": "3BF053AABB26210539E263B33B8F12960C888118409FD4D0898D73A91F74F286",
+      "method": "presence by independent language/body, never raw token mass",
+      "finding": "West and South sources use their native necessary-condition families; Macedonian mathematical prose directly uses potrebnite i dovolnite uslovi / potreben i dovolen uslov, while official type-1 metadata supplies the cross-family bridge"
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0038",
+    "source_latin/44-book-isv.tex": {"bytes": 167942, "sha256": "8DC823B1CD2110951770B96CB8CFF52C2080DC7BE4988DD312A69A9B5CE021A0"},
+    "source_latin/45-isv.tex": {"bytes": 25518, "sha256": "44EF1048C8053608C476FA4CB3EC3D102CDC4472431F046337C4B1BC4603BEE1"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896466, "sha256": "1D0F6693B09E3BE82BCD13F2CBC94968F1161E335556F0E11DA4181CD43D0825"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "results": {
+    "nužn_sites_reviewed_and_changed": 81,
+    "sentence_and_adjacent_recasts": 20,
+    "remaining_generic_family_changes": {"nužno_to_potrěbno": 73, "Nužno_to_Potrěbno": 1, "nužnym_to_potrěbnym": 3},
+    "postcounts": {"potrěbn_family": 136, "nepotrěbn_family": 12, "trěba_case_insensitive": 364, "trěbujut_case_insensitive": 3},
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167951, "sha256": "52FD158EC5DE9E2A4BFF3DEE165B5A7CF72D1B9CE9B4931ED720506BA15985E5"},
+    "source_latin/45-isv.tex": {"bytes": 25518, "sha256": "44EF1048C8053608C476FA4CB3EC3D102CDC4472431F046337C4B1BC4603BEE1"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896698, "sha256": "D4425D522FD9B3FCE50706B1963D1F67FC4C0321415752B86984E8669CA1AC49"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "construction_corrections": [
+    "The first dry run required a single-count locator for trěbajut although both reviewed occurrences share base line 9998. It failed before writing; the two exact surrounding phrases were then used as distinct locators.",
+    "The next dry run counted only lowercase trěba and reported 310 instead of the case-insensitive 364 expected forms. The transformation itself was unchanged; the postcondition was corrected to include sentence-initial Trěba before apply."
+  ],
+  "tool": {"path": "apply_necessity_family_v019.py", "bytes": 7517, "sha256": "CD910AB9F63814BA1E5C8DBE39C4213555AF3BB54FB3D6093A06FFC8EF65645D"},
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0038",
+    "coverage": "81/81 nužn- sites plus every exact adjacent malformed token and agreement phrase",
+    "residue": "zero nužn-, potrebno-, nepotrebno-, trebalo-, trěbalo-, and trěbajut whole-token residue",
+    "dry_run_then_apply": "frozen output hashes reproduced immediately before and after atomic apply",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

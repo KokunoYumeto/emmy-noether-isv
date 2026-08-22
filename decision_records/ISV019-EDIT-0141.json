@@ -1,0 +1,1135 @@
+{
+  "schema": "noether-isv-normalization-decision-v1",
+  "decision_id": "ISV019-EDIT-0141",
+  "recorded_at": "2026-08-16T20:22:30+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "official_dictionary_house_register_lexical_normalization_with_german_sentence_control",
+  "scope": "19 standalone zbog-family tokens on 17 lines of the assembled Latin base only",
+  "summary": "normalize all 19 live causal/logical zbog tokens to case-preserving zaradi; preserve all producers and 12 immutable origins",
+  "work_identity": {
+    "work_language": "Emmy Noether — Interslavic working edition",
+    "canonical_hub": "deferred until the next actual public release; no internal URL invented",
+    "rights_boundary": "artifact-specific license, provenance, author/source relation, and non-endorsement preserved; no blanket public-domain or open-license claim",
+    "organization_metadata_policy": "organization attribution is reserved for one linked creator or contributor entry in public repository metadata; internal records do not repeat it"
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0140",
+    "state": {
+      "bytes": 13853,
+      "sha256": "6C9361F252E62908506A6BC1851720CFB1564E96B21BD9A8CAE3838C1CA13A97"
+    },
+    "ledger": {
+      "rows": 140,
+      "bytes": 543929,
+      "sha256": "1DE8F1A573D88965CE66405A66E44ACDFC0FC07B1EE75749E58A5DE95DE30C61"
+    },
+    "sidecar": {
+      "path": "decision_records/ISV019-EDIT-0140.json",
+      "bytes": 15137,
+      "sha256": "15065C94E621E195BFBB5C33DBD489357C17D6964ECC92B633E2BE9CDAC45B7E"
+    }
+  },
+  "ledger_prefix": {
+    "rows": 140,
+    "bytes": 543929,
+    "sha256": "1DE8F1A573D88965CE66405A66E44ACDFC0FC07B1EE75749E58A5DE95DE30C61"
+  },
+  "worklog_prefix": {
+    "rows": 33,
+    "bytes": 56158,
+    "sha256": "B958D14CE2FE869B8ACA5A591685D846AB25FB5179D832A73AED8D9929CF7A12"
+  },
+  "human_companion": {
+    "path": "decision_records/ISV019-EDIT-0141.md",
+    "bytes": 5031,
+    "sha256": "CB186217142F17630ECF8200876FCA3B5B2B403B5CAA0D7636EA166CBD1BCA4A"
+  },
+  "targets": [
+    {
+      "line": 4582,
+      "column_1based": 59,
+      "input_byte_offset_0based": 244906,
+      "old": "Zbog",
+      "new": "Zaradi",
+      "unit": "036",
+      "german_line": 4266,
+      "german_connective_ordinal": 1,
+      "syntax": "genitive"
+    },
+    {
+      "line": 9919,
+      "column_1based": 553,
+      "input_byte_offset_0based": 637222,
+      "old": "zbog",
+      "new": "zaradi",
+      "unit": "076",
+      "german_line": 9192,
+      "german_connective_ordinal": 1,
+      "syntax": "genitive"
+    },
+    {
+      "line": 9966,
+      "column_1based": 487,
+      "input_byte_offset_0based": 650450,
+      "old": "zbog",
+      "new": "zaradi",
+      "unit": "076",
+      "german_line": 9226,
+      "german_connective_ordinal": 2,
+      "syntax": "genitive"
+    },
+    {
+      "line": 10025,
+      "column_1based": 467,
+      "input_byte_offset_0based": 667828,
+      "old": "Zbog",
+      "new": "Zaradi",
+      "unit": "076",
+      "german_line": 9260,
+      "german_connective_ordinal": 1,
+      "syntax": "genitive"
+    },
+    {
+      "line": 11115,
+      "column_1based": 1,
+      "input_byte_offset_0based": 752443,
+      "old": "zbog",
+      "new": "zaradi",
+      "unit": "080",
+      "german_line": 10264,
+      "german_connective_ordinal": 1,
+      "syntax": "formula"
+    },
+    {
+      "line": 13467,
+      "column_1based": 405,
+      "input_byte_offset_0based": 944927,
+      "old": "Zbog",
+      "new": "Zaradi",
+      "unit": "101",
+      "german_line": 12150,
+      "german_connective_ordinal": 1,
+      "syntax": "formula"
+    },
+    {
+      "line": 13540,
+      "column_1based": 555,
+      "input_byte_offset_0based": 951247,
+      "old": "zbog",
+      "new": "zaradi",
+      "unit": "101",
+      "german_line": 12225,
+      "german_connective_ordinal": 1,
+      "syntax": "formula"
+    },
+    {
+      "line": 15998,
+      "column_1based": 234,
+      "input_byte_offset_0based": 1221844,
+      "old": "Zbog",
+      "new": "Zaradi",
+      "unit": "113",
+      "german_line": 14275,
+      "german_connective_ordinal": 1,
+      "syntax": "genitive"
+    },
+    {
+      "line": 16909,
+      "column_1based": 1,
+      "input_byte_offset_0based": 1319585,
+      "old": "zbog",
+      "new": "zaradi",
+      "unit": "122",
+      "german_line": 15174,
+      "german_connective_ordinal": 1,
+      "syntax": "formula"
+    },
+    {
+      "line": 17040,
+      "column_1based": 9,
+      "input_byte_offset_0based": 1326495,
+      "old": "zbog",
+      "new": "zaradi",
+      "unit": "123",
+      "german_line": 15268,
+      "german_connective_ordinal": 1,
+      "syntax": "genitive"
+    },
+    {
+      "line": 17066,
+      "column_1based": 9,
+      "input_byte_offset_0based": 1328464,
+      "old": "zbog",
+      "new": "zaradi",
+      "unit": "123",
+      "german_line": 15306,
+      "german_connective_ordinal": 1,
+      "syntax": "formula"
+    },
+    {
+      "line": 17066,
+      "column_1based": 33,
+      "input_byte_offset_0based": 1328488,
+      "old": "zbog",
+      "new": "zaradi",
+      "unit": "123",
+      "german_line": 15306,
+      "german_connective_ordinal": 2,
+      "syntax": "formula"
+    },
+    {
+      "line": 17126,
+      "column_1based": 157,
+      "input_byte_offset_0based": 1332589,
+      "old": "Zbog",
+      "new": "Zaradi",
+      "unit": "123",
+      "german_line": 15369,
+      "german_connective_ordinal": 1,
+      "syntax": "genitive"
+    },
+    {
+      "line": 17360,
+      "column_1based": 880,
+      "input_byte_offset_0based": 1356181,
+      "old": "Zbog",
+      "new": "Zaradi",
+      "unit": "126",
+      "german_line": 15681,
+      "german_connective_ordinal": 2,
+      "syntax": "genitive"
+    },
+    {
+      "line": 19625,
+      "column_1based": 82,
+      "input_byte_offset_0based": 1500632,
+      "old": "zbog",
+      "new": "zaradi",
+      "unit": "183",
+      "german_line": 16240,
+      "german_connective_ordinal": 1,
+      "syntax": "formula"
+    },
+    {
+      "line": 19707,
+      "column_1based": 826,
+      "input_byte_offset_0based": 1509531,
+      "old": "zbog",
+      "new": "zaradi",
+      "unit": "184",
+      "german_line": 16305,
+      "german_connective_ordinal": 1,
+      "syntax": "genitive"
+    },
+    {
+      "line": 22651,
+      "column_1based": 19,
+      "input_byte_offset_0based": 1683897,
+      "old": "zbog",
+      "new": "zaradi",
+      "unit": "211",
+      "german_line": 18523,
+      "german_connective_ordinal": 1,
+      "syntax": "genitive"
+    },
+    {
+      "line": 23124,
+      "column_1based": 182,
+      "input_byte_offset_0based": 1729085,
+      "old": "zbog",
+      "new": "zaradi",
+      "unit": "214",
+      "german_line": 18977,
+      "german_connective_ordinal": 1,
+      "syntax": "genitive"
+    },
+    {
+      "line": 23124,
+      "column_1based": 510,
+      "input_byte_offset_0based": 1729416,
+      "old": "zbog",
+      "new": "zaradi",
+      "unit": "214",
+      "german_line": 18977,
+      "german_connective_ordinal": 2,
+      "syntax": "formula"
+    }
+  ],
+  "line_pins": [
+    {
+      "line": 4582,
+      "input": {
+        "bytes": 264,
+        "sha256": "38CF917F4B8DBEADE7BDF2C77873F84489ACB2BE2373C4BA5DAF44625CBCA847"
+      },
+      "output": {
+        "bytes": 266,
+        "sha256": "A94A86105E6A755AC4F2E6011FEFAE2781699346E27083CC00EA8393C29FE027"
+      },
+      "sites": 1
+    },
+    {
+      "line": 9919,
+      "input": {
+        "bytes": 1045,
+        "sha256": "840B4C991CF42E6237D4299B76069DE4CD69F0EB14A0FE44B61ED545A82E4A36"
+      },
+      "output": {
+        "bytes": 1047,
+        "sha256": "DC46DE893147D211C91179E7E6E8E04E94772BE5B647E89B9900AD512EA42A3B"
+      },
+      "sites": 1
+    },
+    {
+      "line": 9966,
+      "input": {
+        "bytes": 726,
+        "sha256": "4EC5CA75736101278BE7FE95AF805C24CB08C391105EB233102530A299BDE877"
+      },
+      "output": {
+        "bytes": 728,
+        "sha256": "28429CF93ACA1CD379234743052C04112CA6419D7E0F7A5E73930EBB88520EFF"
+      },
+      "sites": 1
+    },
+    {
+      "line": 10025,
+      "input": {
+        "bytes": 1146,
+        "sha256": "D3D9B0A7C23BB4C556D2298CE532B94773E042AAE3BA1D428C8457D04779728C"
+      },
+      "output": {
+        "bytes": 1148,
+        "sha256": "A1C0382A4F30F38AC3E96DDC20C207AB79164913BA39A6ECB5827110D2895BC6"
+      },
+      "sites": 1
+    },
+    {
+      "line": 11115,
+      "input": {
+        "bytes": 39,
+        "sha256": "B1020A351769292F629BA54C8573195BEFC54775759A30FAD93E3C09BC9728ED"
+      },
+      "output": {
+        "bytes": 41,
+        "sha256": "E7BF8D517E54B089BD3575525EE78F0E2D35BEA751B88BB9BB9596633D4E585E"
+      },
+      "sites": 1
+    },
+    {
+      "line": 13467,
+      "input": {
+        "bytes": 850,
+        "sha256": "E58517687ADDA2CA35CBEE74E6C28B95A5C8711A838A9742AEB76D6A045E71FC"
+      },
+      "output": {
+        "bytes": 852,
+        "sha256": "DCBCF3FB5C048BF3E58AD1D805A0B95E985255F42761C0A6366D3F63B25EDE61"
+      },
+      "sites": 1
+    },
+    {
+      "line": 13540,
+      "input": {
+        "bytes": 807,
+        "sha256": "8685E05F16AB270719CB02CD897A2A66D418278658B19B71581CCFA2CE89F57A"
+      },
+      "output": {
+        "bytes": 809,
+        "sha256": "F4B33D144F9766F791DB5FEDBEACF8B6CEBC40D1EA6DB9734AF2813BC5D6C5FD"
+      },
+      "sites": 1
+    },
+    {
+      "line": 15998,
+      "input": {
+        "bytes": 477,
+        "sha256": "94EE23E077FBF7373D8206BCBD416E6811780DD83F651230F2CDFA0B3ED854FD"
+      },
+      "output": {
+        "bytes": 479,
+        "sha256": "3B270FAEE5511F5878317CCD2D310D533B92EBEB1D000356F00B52B9D9FDAAF3"
+      },
+      "sites": 1
+    },
+    {
+      "line": 16909,
+      "input": {
+        "bytes": 181,
+        "sha256": "E30228B893F892257B7B0A34D6E23E9C886E78775E85BD9BB7D53540608024BB"
+      },
+      "output": {
+        "bytes": 183,
+        "sha256": "ACF4ABDAAF0E70409572CCD831F98B077D1B1FBC74AF571F73B2DAEF14EB9210"
+      },
+      "sites": 1
+    },
+    {
+      "line": 17040,
+      "input": {
+        "bytes": 186,
+        "sha256": "97B2F820DE01C3C76CDC39159D89EAD2A91D2F5A37F15CB509BE2B97324EFE5D"
+      },
+      "output": {
+        "bytes": 188,
+        "sha256": "2973F53A64F6DD1F5E2CB93F06FA6CDBE89EE1552B47C1455B6522FEF3642E10"
+      },
+      "sites": 1
+    },
+    {
+      "line": 17066,
+      "input": {
+        "bytes": 130,
+        "sha256": "E7863DBAB31EF55D3EFF6E43686AF1234F891B0D4CBAD4F1AD0AFDAEEDEA85BF"
+      },
+      "output": {
+        "bytes": 134,
+        "sha256": "B79E4337CAFF8D5114BFB06BFFD53DAA98B987CF3D6900575472A49A7EC28A56"
+      },
+      "sites": 2
+    },
+    {
+      "line": 17126,
+      "input": {
+        "bytes": 371,
+        "sha256": "5444DFDBC95D08B84BE54B0491C4F56FBC4CDC65E460CC2A2000BFD867D96CF0"
+      },
+      "output": {
+        "bytes": 373,
+        "sha256": "E2D86672202E3ADC4285E10C370012E2C1DD5F5C520E2D78C700901AE4E9032C"
+      },
+      "sites": 1
+    },
+    {
+      "line": 17360,
+      "input": {
+        "bytes": 1982,
+        "sha256": "5181264B5811A3FE23929EB976C44C5357561AAEDC0123539A7C57317E271376"
+      },
+      "output": {
+        "bytes": 1984,
+        "sha256": "ADBBD6E2CCB89CA4E87FD4A7ED7143D004EA451EFDCEC83C6F1076EE1E891608"
+      },
+      "sites": 1
+    },
+    {
+      "line": 19625,
+      "input": {
+        "bytes": 227,
+        "sha256": "454AE5A6896D678AE0907DE971772D5EEB68BF5FBDBEFCF67245652A8770BDCF"
+      },
+      "output": {
+        "bytes": 229,
+        "sha256": "97FB48A59FE79407C3C24B3392BB91A7316DA0D7F48B83CD9953FBAE3D574580"
+      },
+      "sites": 1
+    },
+    {
+      "line": 19707,
+      "input": {
+        "bytes": 1933,
+        "sha256": "E8168DE05571AF0BC0EC853EFE04D37007A0B4DBD60D5EE5B6CA1A8C19E7E24E"
+      },
+      "output": {
+        "bytes": 1935,
+        "sha256": "6C96DC3B7F46D023FF5704B64E0996B4918E37A44D54A0AE365058EB8A889E92"
+      },
+      "sites": 1
+    },
+    {
+      "line": 22651,
+      "input": {
+        "bytes": 62,
+        "sha256": "0B192AFB7169F34C16A5A1144F112F3619A147EAE1B10DCF08678B22BF01CA40"
+      },
+      "output": {
+        "bytes": 64,
+        "sha256": "F37CE151FDF07CFD21B9561E34631E7F95C33CFC3C5992BF92C20D04669641E5"
+      },
+      "sites": 1
+    },
+    {
+      "line": 23124,
+      "input": {
+        "bytes": 518,
+        "sha256": "5C50DB402F0B16369C9E3AD125A678DCA5FE52A01C4EED0F378CB51BF3E7B1F7"
+      },
+      "output": {
+        "bytes": 522,
+        "sha256": "AA2E7EB059D5580E37B6E6F951608FF1409FE9597A5496ED5A986551F72EF62F"
+      },
+      "sites": 2
+    }
+  ],
+  "census": {
+    "changed_source_sites": 19,
+    "changed_source_lines": 17,
+    "uppercase_sites": 6,
+    "lowercase_sites": 13,
+    "genitive_sites": 11,
+    "formula_sites": 8,
+    "post_source_zbog": 0,
+    "post_source_zaradi": 220,
+    "post_active_producer_zbog": 0,
+    "historical_origin_zbog_preserved": 19,
+    "semantic_holds": 0
+  },
+  "source_inputs": {
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1899014,
+      "sha256": "E70BF3573B863660ADD0B1300D7CFB59BD0A779DBC07E23EAA5EC96B224B5116"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168093,
+      "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "3C157B7B26092EFF27EDBCDFF2DB372022E467A7C7468D47621E7B9DA95E3542"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "source_outputs": {
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1899052,
+      "sha256": "FE1A197641913CE20CF3925EBEC6850178A23BD0C7EA09A4C764896E553F55C9"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168093,
+      "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "3C157B7B26092EFF27EDBCDFF2DB372022E467A7C7468D47621E7B9DA95E3542"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "source_replay": {
+    "base": {
+      "input": {
+        "bytes": 1899014,
+        "sha256": "E70BF3573B863660ADD0B1300D7CFB59BD0A779DBC07E23EAA5EC96B224B5116"
+      },
+      "output": {
+        "bytes": 1899052,
+        "sha256": "FE1A197641913CE20CF3925EBEC6850178A23BD0C7EA09A4C764896E553F55C9"
+      },
+      "reverse": {
+        "bytes": 1899014,
+        "sha256": "E70BF3573B863660ADD0B1300D7CFB59BD0A779DBC07E23EAA5EC96B224B5116",
+        "status": "PASS_EXACT_19_SITE_POSITIONAL_REVERSE_TO_EDIT0140"
+      }
+    },
+    "protected_structure": "PASS_EXACT_COMMAND_MATH_COMMENT_AND_DELIMITER_PAYLOAD_IDENTITY",
+    "changed_lines": [
+      4582,
+      9919,
+      9966,
+      10025,
+      11115,
+      13467,
+      13540,
+      15998,
+      16909,
+      17040,
+      17066,
+      17126,
+      17360,
+      19625,
+      19707,
+      22651,
+      23124
+    ]
+  },
+  "authority": {
+    "official_dictionary": {
+      "source": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\claude_fable_program\\data\\interslavic_dictionary_official_snapshot_20260816\\source_sheet_basic.csv",
+        "bytes": 8101157,
+        "sha256": "0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561",
+        "records": 19100,
+        "zaradi_headwords": 1,
+        "zbog_headwords": 0
+      },
+      "deployed": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\claude_fable_program\\data\\interslavic_dictionary_official_snapshot_20260816\\deployed_basic.json",
+        "bytes": 23676753,
+        "sha256": "B9AEB484259AFF95296035DD0EB70A7F0FD5FBE92C327455737DF2FF00F27C3D",
+        "records": 19100,
+        "zaradi_headwords": 1,
+        "zbog_headwords": 0
+      },
+      "row": {
+        "id": "21663",
+        "isv": "zaradi",
+        "addition": "(+2)",
+        "partOfSpeech": "prep.",
+        "type": "1",
+        "en": "for the sake of, on account of",
+        "hr": "radi, zbog",
+        "sr": "заради, ради, због",
+        "de": "!im Interesse der, wegen",
+        "intelligibility": "be+ bg+ cs- hr~ mk+ pl~ ru+ sk- sl~ sr+ uk+"
+      },
+      "adverse_evidence": "The official row itself retains Croatian 'zbog' and Serbian 'због' among translation-column equivalents; legacy zbog is transparent South Slavic evidence, not unintelligible noise.",
+      "rights_boundary": "MIT licence is preserved for upstream software and associated documentation. No separate explicit dictionary-data licence was found in the preserved upstream files; the lexical data is retained as attributed research evidence without a blanket open-data or public-domain claim.",
+      "authority_boundary": "Evidence infrastructure and house-register support only; not a native canon, community vote, endorsement, or automatic lexical decision."
+    },
+    "official_grammar": {
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\00_lane_control\\marginal_intelligibility_20260811\\authority_snapshots\\snapshots\\official_site\\docs\\learn\\grammar\\prepositions.md",
+      "bytes": 6363,
+      "sha256": "56D7FFAF2D99CB63F889606E237AE0534A4924B37D72974C8BB2C6D2CA0E4EF0",
+      "official_site_commit": "41d94b2627dc3e5e1b48a3ebda022f7dd5172489",
+      "case_crosswalk": "dictionary (+2) = genitive, controlled by bez (+2) under the grammar's genitive heading",
+      "finite_list_adverse_evidence": "The finite grammar list does not explicitly name zaradi; the exact dictionary prep. (+2) row and general derived-preposition rule carry the case decision."
+    },
+    "german": {
+      "authority_id": "NOETH-DE-ED-0015",
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\candidates\\ED0015\\noether.tex",
+      "bytes": 2154017,
+      "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+      "alignments": [
+        {
+          "source_line": 4582,
+          "source_column": 59,
+          "german_line": 4266,
+          "connective": "wegen",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 9919,
+          "source_column": 553,
+          "german_line": 9192,
+          "connective": "wegen",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 9966,
+          "source_column": 487,
+          "german_line": 9226,
+          "connective": "wegen",
+          "ordinal": 2,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 10025,
+          "source_column": 467,
+          "german_line": 9260,
+          "connective": "Infolge",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 11115,
+          "source_column": 1,
+          "german_line": 10264,
+          "connective": "wegen",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 13467,
+          "source_column": 405,
+          "german_line": 12150,
+          "connective": "Wegen",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 13540,
+          "source_column": 555,
+          "german_line": 12225,
+          "connective": "wegen",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 15998,
+          "source_column": 234,
+          "german_line": 14275,
+          "connective": "Wegen",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 16909,
+          "source_column": 1,
+          "german_line": 15174,
+          "connective": "wegen",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 17040,
+          "source_column": 9,
+          "german_line": 15268,
+          "connective": "wegen",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 17066,
+          "source_column": 9,
+          "german_line": 15306,
+          "connective": "wegen",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 17066,
+          "source_column": 33,
+          "german_line": 15306,
+          "connective": "wegen",
+          "ordinal": 2,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 17126,
+          "source_column": 157,
+          "german_line": 15369,
+          "connective": "Wegen",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 17360,
+          "source_column": 880,
+          "german_line": 15681,
+          "connective": "Wegen",
+          "ordinal": 2,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 19625,
+          "source_column": 82,
+          "german_line": 16240,
+          "connective": "wegen",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 19707,
+          "source_column": 826,
+          "german_line": 16305,
+          "connective": "wegen",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 22651,
+          "source_column": 19,
+          "german_line": 18523,
+          "connective": "wegen",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 23124,
+          "source_column": 182,
+          "german_line": 18977,
+          "connective": "wegen",
+          "ordinal": 1,
+          "semantic_class": "causal_or_logical_not_purposive"
+        },
+        {
+          "source_line": 23124,
+          "source_column": 510,
+          "german_line": 18977,
+          "connective": "wegen",
+          "ordinal": 2,
+          "semantic_class": "causal_or_logical_not_purposive"
+        }
+      ],
+      "claim_boundary": "Project-active German sentence control; not native-language, canonical, critical-edition, or translation certification."
+    },
+    "active_german": {
+      "authority_id": "NOETH-DE-ED-0015",
+      "pointer_id": "NOETH-DE-AUTH-v052-20260815",
+      "source_bytes": 2154017,
+      "source_sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+      "activation_version_doi": "10.5281/zenodo.21940320",
+      "role": "project-active source control; not native-language, canonical, critical-edition, or translation certification"
+    },
+    "primary_print": {
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\evidence\\P30\\print.pdf",
+      "bytes": 3218412,
+      "sha256": "4259EF9054DE32AE81BA1A6A66481BF951F4C33B306AA15817F841BB75FABCE2",
+      "printed_page": 52,
+      "doi": "10.1007/BF01209152",
+      "role": "mathematical-sign control inherited from EDIT0140"
+    }
+  },
+  "shared_p30_barrier": {
+    "status": "PASS_BOTH_SHARED_P30_MIRRORS_SEALED",
+    "russian": {
+      "decision_id": "RU001-EDIT-0015",
+      "bytes": 8615,
+      "sha256": "44A2385C04537BF99B9119A0F2FA430856AEC997F83B0042EA2BF9BAB1041A77"
+    },
+    "ukrainian": {
+      "decision_id": "UK001-EDIT-0015",
+      "sidecar": {
+        "bytes": 17590,
+        "sha256": "E7E98C18070E364F882D828CE08453BF42F3164AD7002EBE49B8DFF21EF779AC"
+      },
+      "state": {
+        "bytes": 8002,
+        "sha256": "254B86CAEB8A7627266D12500CC5C8182D661F42CE2068DDA04C25C0EB6CF0CC"
+      },
+      "ledger": {
+        "bytes": 25439,
+        "sha256": "C6159AF30171F3773A4F34F4645FF4269748D18E38A536D2E249A9E56F8C60A3"
+      },
+      "verifier": {
+        "bytes": 43000,
+        "sha256": "A90D530175E6A42BD2C3415623FC5F10CFF2C45BD2857B2F8F6598A2673CDFF5"
+      },
+      "worklog": {
+        "bytes": 24818,
+        "sha256": "B02575601D9477A216940F29A6812BF38561623C42B139CE9B683FD715D5A29C"
+      }
+    }
+  },
+  "historical_origins": {
+    "entries": [
+      {
+        "unit": "036",
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper04\\interslavic\\v001\\Noether_Paper04_Section07_Interslavic_v001.tex",
+        "bytes": 12443,
+        "sha256": "EEB1D081C8AFBFC8B08C5D91B32D1AFDB1D197E84CB0F42F538343D0308239FB",
+        "legacy_zbog_sites_preserved": 1
+      },
+      {
+        "unit": "076",
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper14\\interslavic\\v001\\Noether_Paper14_Interslavic_v001.tex",
+        "bytes": 57451,
+        "sha256": "40C64DFDB8C65C80043E026967AE8E4D2174D6101146CB2EABBE0AA937A23C12",
+        "legacy_zbog_sites_preserved": 3
+      },
+      {
+        "unit": "080",
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper17\\interslavic\\v001\\Noether_Paper17_Section03_Interslavic_v001.tex",
+        "bytes": 4346,
+        "sha256": "99D01332165321BB071572FA82F4A381FCD829E8EB4F255EC494A0F6533746B8",
+        "legacy_zbog_sites_preserved": 1
+      },
+      {
+        "unit": "101",
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper19\\interslavic\\v001\\Noether_Paper19_Section10_Interslavic_v001.tex",
+        "bytes": 11718,
+        "sha256": "3AEC56CDBA6E0407E33D5C5A005E209EA297ED23BCF7EC4599CE272C1D09580C",
+        "legacy_zbog_sites_preserved": 2
+      },
+      {
+        "unit": "113",
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper29\\interslavic\\v001\\Noether_Paper29_Interslavic_v001.tex",
+        "bytes": 20120,
+        "sha256": "5BEE5FB7A797765CACDC758E327A306A4878579D141635F8CBC375707EB4BF08",
+        "legacy_zbog_sites_preserved": 1
+      },
+      {
+        "unit": "122",
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper30\\section08\\interslavic\\v001\\Noether_Paper30_Section08_Interslavic_v001.tex",
+        "bytes": 7773,
+        "sha256": "FEBF3E9A9CFD2FC7D46F1F35F561D219A9007CD48038BDBF7C81D5D1EFF8C065",
+        "legacy_zbog_sites_preserved": 1
+      },
+      {
+        "unit": "123",
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper30\\section09\\interslavic\\v001\\Noether_Paper30_Section09_Interslavic_v001.tex",
+        "bytes": 11325,
+        "sha256": "E241E8F1A6CD55C4ABA10B2F840D59D260E2651259078CB93F78E6CB7ABEE476",
+        "legacy_zbog_sites_preserved": 4
+      },
+      {
+        "unit": "126",
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper31\\section01_entries01_02\\interslavic\\v001\\Noether_Paper31_Section01_Entries01_02_Interslavic_v001.tex",
+        "bytes": 8682,
+        "sha256": "8CA5E9491A1C41C425952F880B457BA4D374816991ECFCE68CCC999C3F15938D",
+        "legacy_zbog_sites_preserved": 1
+      },
+      {
+        "unit": "183",
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper32\\section03_cyclic_quaternion_fields\\interslavic\\v001\\Noether_Paper32_Section03_Cyclic_Quaternion_Fields_Interslavic_v001.tex",
+        "bytes": 4095,
+        "sha256": "9BA3BF039AC97E1ACAB58EAD12823D35A17E96870D418C4745A3ED5847ACE772",
+        "legacy_zbog_sites_preserved": 1
+      },
+      {
+        "unit": "184",
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper33\\complete\\interslavic\\v001\\Noether_Paper33_Complete_Interslavic_v001.tex",
+        "bytes": 8357,
+        "sha256": "CF609AAD47FA50F52E12B01DBDEB64443947B4E1BD7EAF0DD3258450ABA87909",
+        "legacy_zbog_sites_preserved": 1
+      },
+      {
+        "unit": "211",
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper35\\source_fidelity\\interslavic\\v001\\Noether_Paper35_SourceFidelity_Interslavic_v001.tex",
+        "bytes": 28968,
+        "sha256": "CAB41DF39D52E344792CB6D02E6335316B10803AE7CE13C5F04182FA91926781",
+        "legacy_zbog_sites_preserved": 1
+      },
+      {
+        "unit": "214",
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper38\\source_fidelity\\interslavic\\v001\\Noether_Paper38_SourceFidelity_Interslavic_v001.tex",
+        "bytes": 24468,
+        "sha256": "442359BA7DE831A7F428555545B7248502F960ABC10000008BFDE706EEDEC5BF",
+        "legacy_zbog_sites_preserved": 2
+      }
+    ],
+    "historical_origin_zbog_residue": 19,
+    "disposition": "preserved_unmodified_immutable_lineage_not_active_producers"
+  },
+  "producer_preservation_receipt": {
+    "count": 6,
+    "effect": "all six active producer successors and the inactive Paper24 shadow are byte-preserved; the 12 legacy origins are immutable lineage",
+    "entries": [
+      {
+        "unit": "Paper02-Section01",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section01_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex",
+        "input": {
+          "bytes": 6798,
+          "sha256": "393F295537ABA3C5683438CD3F9936AE88B8271D944F7B833D5C1F43924900C2"
+        },
+        "historical_body": {
+          "bytes": 6455,
+          "sha256": "52A48949BCBCC420383107854838BA517B97FB769E433344BE42EA10FC69A975"
+        },
+        "live_body_input": {
+          "bytes": 6562,
+          "sha256": "A2B8CA77B47A0914C8255AECBE92AAF6CE7EB50CEEE016CE45FD9AC00ABE5B85"
+        },
+        "reconstructed_pre_edit_shadow": {
+          "bytes": 6905,
+          "sha256": "68DBCA99A4B80DE8EFE83B2472EC53D96CFD4D880E30F2AB1E58A8A66449547A"
+        },
+        "body_output": {
+          "bytes": 6793,
+          "sha256": "AED6BFFE073F94154F974403D1D1FADE6D79A418AFBC78916A9DD6E4EFD64117"
+        },
+        "output": {
+          "bytes": 7619,
+          "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"
+        },
+        "lineage": "historical preamble shell plus live normalized Unit003 body; historical body not reused"
+      },
+      {
+        "unit": "Paper02-Section11",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section11_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+        "input": {
+          "bytes": 14940,
+          "sha256": "37B613F59FC8D4F101A714AF84B5DA0AE28FED93123EBA52C0363B234E3D499A"
+        },
+        "output": {
+          "bytes": 14964,
+          "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+        }
+      },
+      {
+        "unit": "Paper08",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper08/interslavic/v001/Noether_Paper08_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper08_Interslavic_v001.tex",
+        "input": {
+          "bytes": 23684,
+          "sha256": "40A84F8E13423AFC923C4C0C714CBFB78C11EBD6F10343EEACA93090FCBB10C3"
+        },
+        "output": {
+          "bytes": 23894,
+          "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"
+        }
+      },
+      {
+        "unit": "Paper22",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper22/interslavic/v001/Noether_Paper22_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+        "input": {
+          "bytes": 77611,
+          "sha256": "6A78318258A2C609D030A248E66834055E904DC808BECA797433C461B31558B6"
+        },
+        "output": {
+          "bytes": 78294,
+          "sha256": "7A57652D07B6A71EBCCFF73466C24660E0B8C9C1CD715AF74665E3899BE1B02F"
+        }
+      },
+      {
+        "unit": "Paper24",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper24/working/through-section07/interslavic/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+        "local": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+        "input": {
+          "bytes": 94891,
+          "sha256": "1AFB653CAD5CFE903BC80CB64DE192D22BE33579131208309844F7104CA0BC6B"
+        },
+        "reconstructed_pre_edit_shadow": {
+          "bytes": 95451,
+          "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+        },
+        "output": {
+          "bytes": 95655,
+          "sha256": "E20E3A5F790CED79FA8D55F3E34EA04C6786C0A801BBC390B30040869C2E7DF1"
+        }
+      },
+      {
+        "unit": "Paper34-Section23",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper34/source_fidelity_section23/interslavic/v001/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+        "input": {
+          "bytes": 4638,
+          "sha256": "965699990152B0707997CFE43D58300E243E690657FC85D326486A835E2AC8C0"
+        },
+        "reconstructed_pre_edit_shadow": {
+          "bytes": 4690,
+          "sha256": "BFEE5482B4B35155C44D6577D810E4CACB1932B6A9C63031266EFC2EFA7DEE6A"
+        },
+        "output": {
+          "bytes": 4752,
+          "sha256": "B811E94705075CBA321A016DD3F633B4F47041191835708A113EB6C4ADCC196B"
+        }
+      }
+    ],
+    "inactive_shadow": {
+      "path": "producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+      "bytes": 95451,
+      "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+    }
+  },
+  "agent_audit": [
+    {
+      "task_identity": "/root/qa_ru_0015_postseal/inspect_isv0140_seal_pattern",
+      "model_effort": "inherited parent model/effort; concrete surface not exposed to the parent",
+      "brief": "read-only extraction of exact EDIT0140 predecessor pins, append prefixes, seal pattern, and EDIT0141 pitfalls",
+      "start_state": "EDIT0141 source applied at FE1A1976... while state, ledger, worklog, and verifier still sealed at EDIT0140",
+      "files_and_hashes_read": {
+        "state": {
+          "bytes": 13853,
+          "sha256": "6C9361F252E62908506A6BC1851720CFB1564E96B21BD9A8CAE3838C1CA13A97"
+        },
+        "ledger": {
+          "bytes": 543929,
+          "sha256": "1DE8F1A573D88965CE66405A66E44ACDFC0FC07B1EE75749E58A5DE95DE30C61"
+        },
+        "worklog": {
+          "bytes": 56158,
+          "sha256": "B958D14CE2FE869B8ACA5A591685D846AB25FB5179D832A73AED8D9929CF7A12"
+        },
+        "EDIT0140_sidecar": {
+          "bytes": 15137,
+          "sha256": "15065C94E621E195BFBB5C33DBD489357C17D6964ECC92B633E2BE9CDAC45B7E"
+        },
+        "EDIT0140_human": {
+          "bytes": 4558,
+          "sha256": "EB0D35B52342E97C813A22D3C98997CDD33F47CED4ACBF35956E58EEC7BD11BB"
+        },
+        "EDIT0140_verifier": {
+          "bytes": 55216,
+          "sha256": "7B44504A7524397B079DB723CF7BEB3DC6D2AB04F4191AD1D43507CCA140CAD1"
+        }
+      },
+      "returned_findings": "confirmed exact 140-row and 33-row prefixes; identified inherited EDIT0140 replay ordering, worklog-binding, closed-disposition, and build-claim pitfalls",
+      "parent_verification": "all reported prefix and predecessor pins independently rehashed and used as exact seal preconditions",
+      "disposition": "ACCEPTED_AND_INTEGRATED",
+      "workspace_writes": false
+    },
+    {
+      "task_identity": "/root/qa_ru_0015_postseal/audit_edit0141_seal_scripts",
+      "model_effort": "inherited parent model/effort; concrete surface not exposed to the parent",
+      "brief": "independent read-only audit of cycle-free seal binding, append semantics, transaction ownership/rollback, pending/final verifier truthfulness, replay, census, producers, origins, evidence, and RU/UK barriers",
+      "review_history": [
+        "REJECT: metadata/worklog targets were not re-pinned under the exclusive lock and worklog could claim unexecuted verifier runs",
+        "REJECT: pending verifier reported final 34-row MATCH while only the 33-row prefix existed",
+        "REJECT: stage/install ownership recording had failure windows and normalized verifier identity did not fully bind path/bytes/normalization",
+        "ACCEPT after fixes: zero remaining defects on exact reviewed bytes"
+      ],
+      "final_reviewed_inputs": {
+        "sealer": {
+          "bytes": 38669,
+          "sha256": "FE19B8F45960248FB2C1B9BB17D99503EFD93EC672ED04A72348FAE3453A84B2"
+        },
+        "audit": {
+          "bytes": 29763,
+          "sha256": "1B53DE0DCD470690F2F24D24C1C8C3810394DB33B725057A546209B7BE1D0779"
+        },
+        "normalized_verifier": {
+          "bytes": 2124,
+          "sha256": "C8AEE407BEED3E6824FE746D03972042724DF8CBCF9A8895E32025E6664AD6D6"
+        },
+        "human": {
+          "bytes": 5031,
+          "sha256": "CB186217142F17630ECF8200876FCA3B5B2B403B5CAA0D7636EA166CBD1BCA4A"
+        },
+        "applicator": {
+          "bytes": 90223,
+          "sha256": "39A721A9335FD7FB53DB650D7DD75AF2F3C2D0AA0708223C539936F3A42316B4"
+        }
+      },
+      "final_return": "ACCEPT_ZERO_DEFECTS; independently reconstructed all planned artifacts and verified exact 19-site/17-line replay, 12 origins/19 historical sites, 0 holds/open, and residue 0",
+      "parent_verification": "each rejection was reproduced statically, apply remained withheld, every fix was integrated, and the final no-write plan was rerun before accepting the review",
+      "disposition": "ACCEPTED_AND_INTEGRATED",
+      "workspace_writes": false
+    }
+  ],
+  "transaction_history": {
+    "production_apply": {
+      "status": "PASS_EXACT_SUCCESSOR_INSTALLED",
+      "source_input": {
+        "bytes": 1899014,
+        "sha256": "E70BF3573B863660ADD0B1300D7CFB59BD0A779DBC07E23EAA5EC96B224B5116"
+      },
+      "source_output": {
+        "bytes": 1899052,
+        "sha256": "FE1A197641913CE20CF3925EBEC6850178A23BD0C7EA09A4C764896E553F55C9"
+      },
+      "exclusive_create_ownership": "owned only after descriptor/path identity and regular-file type agreed",
+      "rollback_semantics": "in-process rollback recognizes only owned predecessor/successor states and never overwrites a foreign inode",
+      "residue": [],
+      "cross_crash_claim": false
+    }
+  },
+  "applicator": {
+    "path": "apply_zbog_zaradi_family_v019.py",
+    "bytes": 90223,
+    "sha256": "39A721A9335FD7FB53DB650D7DD75AF2F3C2D0AA0708223C539936F3A42316B4",
+    "default_mode": "strict_no_write_dry_run",
+    "production_apply": "exit 0; exact one-file successor installed; transaction residue zero"
+  },
+  "sealer": {
+    "path": "seal_isv_edit0141_v019.py",
+    "bytes": 42731,
+    "sha256": "D214EDD27D6BB63232A366E6DC59F9D018855370E29FEC4834966DE2B50A0175"
+  },
+  "verifier_identity": {
+    "path": "verify_session_independent_state_v019.ps1",
+    "bytes": 2124,
+    "normalization": "replace_the_single_embedded_state_canonical_sha256_with_64_ascii_zeroes",
+    "normalized_sha256": "C8AEE407BEED3E6824FE746D03972042724DF8CBCF9A8895E32025E6664AD6D6"
+  },
+  "audit_companion": {
+    "path": "verify_isv_edit0141_v019.py",
+    "bytes": 29763,
+    "sha256": "1B53DE0DCD470690F2F24D24C1C8C3810394DB33B725057A546209B7BE1D0779"
+  },
+  "qa": {
+    "exact_positional_reverse": "PASS_EDIT0140_BASE",
+    "inherited_two_sign_reverse": "PASS_EDIT0139_BASE",
+    "census_and_structure": "PASS",
+    "origins_producers_authority_barriers": "PASS",
+    "transaction_residue": 0
+  },
+  "open_dispositions": [],
+  "explicit_holds_after": 0,
+  "closed_retained_authority_records": 4,
+  "build_effect": "none; existing cumulative build and visual evidence predates EDIT0140 and EDIT0141",
+  "publication_effect": "none; working v019/EDIT0141 remains unpublished",
+  "doi_effect": "none",
+  "native_validation_claim": false,
+  "license_effect": "none; artifact-specific rights and provenance remain unchanged"
+}

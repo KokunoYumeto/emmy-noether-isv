@@ -1,0 +1,110 @@
+{
+  "decision_id": "ISV019-EDIT-0053",
+  "recorded_at": "2026-08-13T03:31:14.7445169+02:00",
+  "epistemic_type": "manager_direct_official_preservation_family_normalization",
+  "scope": "All 36 residual sohran- tokens in the live v019 Latin reader, all in base-papers1-43-isv.tex.",
+  "choice": "Normalize the non-headword sohran- layer to the official type-1 shranjati/shranjenje family while preserving aspect, tense, voice, case, number, gender, and sentence structure.",
+  "motivation": "Every occurrence means preservation or conservation: mathematical relations, ranks, regularity, properties, forms, and physical conservation laws. The official dictionary supplies shranjati for preserve and shranjenje for preservation/conservation. The current sohran- spelling duplicates the Russian-shaped initial vowel without being the official Interslavic lemma. The alternative ohranjati means guard/protect and would be semantically weaker for mathematical invariance and Erhaltungsgesetze.",
+  "alternatives_rejected": [
+    "Keep sohran- as an intelligible regional doublet: it is not the pinned official headword and preserves a Russian-shaped corpus inconsistency.",
+    "Replace the family with ohranjati/ohranjanje: the official entry is guard/protect, while these contexts denote preservation, invariance, or conservation.",
+    "Use one uninflected replacement string: that would corrupt finite verbs, passive participles, and the shranjenje noun paradigm.",
+    "Rewrite every sentence with ostavati: several sites are conservation-law nouns or passive preservation constructions, so a single syntactic recast would lose distinctions."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "accepted_entries": [
+        "id 18694 shranjati, transitive imperfective type 1, preserve",
+        "id 18695 shranjenje, noun type 1, preservation/conservation",
+        "id 18696 shraniti, transitive perfective type 1, preserve"
+      ],
+      "rejected_near_entry": "id 1563 ohranjati, type 1, guard/protect"
+    },
+    "official_verb_grammar": {
+      "path": "00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/verbs.md",
+      "bytes": 21426,
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+      "relevance": "The -jati infinitive licenses the contracted -ja/-jajut present forms; passive-participle and verbal-noun rules license shranjen- and shranjenje."
+    },
+    "german_meaning_authority": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/candidates/ED0014/noether.tex",
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "semantic_classes": "erhalten/erhalten bleiben, Erhaltung, and Erhaltungsgesetze; no guard/protect or storage sense"
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0052",
+    "decision_log": {
+      "bytes": 203992,
+      "sha256": "C45652EDEAC162CD22BB586A7D51D466AE3D761CFDD797FD97FAB8BB94A90AED"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167963,
+      "sha256": "1A24249284FB5B95396E29991F697E0F0246697CCF03C8B0ABF4DFF7E9E810D3"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "81C90B9013261D41392153F5A9BBB1D52A7F36F35CC23A4DE1DDE1E6A6DBD5DE"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896911,
+      "sha256": "882FACBC32BB9CEA470C37B66950E7706F2C138BA8555975F78C4AF1339EEF1B"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "results": {
+    "sites_changed": 36,
+    "source_histogram": {
+      "sohranenja": 4,
+      "sohranja": 11,
+      "sohranjajut": 3,
+      "sohranjano": 1,
+      "sohranjen": 3,
+      "sohranjena": 3,
+      "sohranjene": 7,
+      "sohranjenjem": 1,
+      "sohranjeno": 3
+    },
+    "source_family_residual": 0,
+    "target_family_total": 36,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167963,
+      "sha256": "1A24249284FB5B95396E29991F697E0F0246697CCF03C8B0ABF4DFF7E9E810D3"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "81C90B9013261D41392153F5A9BBB1D52A7F36F35CC23A4DE1DDE1E6A6DBD5DE"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896879,
+      "sha256": "6839B28A8F50A91FDCCE996C0DBBADC5CEC0617C97E92C0536EEEADD1877577F"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "tool": {
+    "path": "apply_shran_preservation_normalization_v019.py",
+    "bytes": 8028,
+    "sha256": "FE0190AF1E6F8C18B6869D976062789CB2F51DF904AC929B631FDEE5119B2494"
+  },
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0052",
+    "coverage": "36/36 tokens mapped by an exact nine-form histogram",
+    "protected_spans": "zero source hits in TeX comments or foreign-language arguments; protected bytes unchanged",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged",
+    "postcounts": "sohran-family zero; shran-family 36",
+    "reproducibility": "frozen output bytes and hashes reproduced immediately before atomic apply",
+    "failed_nonmutating_probe": "An initial PowerShell histogram command had an empty pipe element and exited before reading or writing source; the corrected bounded probe returned the exact nine-form inventory."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

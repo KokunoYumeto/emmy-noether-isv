@@ -1,0 +1,2276 @@
+{
+  "schema": "noether-isv-normalization-decision-v1",
+  "decision_id": "ISV019-EDIT-0144",
+  "recorded_at": "2026-08-16T23:35:00+02:00",
+  "status": "applied_and_independently_verified",
+  "classification": "INTERSLAVIC_OFFICIAL_ORTHOGRAPHY_FAMILY_REPAIR",
+  "epistemic_type": "complete_live_family_census_plus_official_dictionary_grammar_and_sentence_aligned_german_controls",
+  "summary": "replace the complete 37-token live source očivid- family with official očevid- spelling, synchronize P22/P24, and preserve all custody copies",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0143",
+    "state": {
+      "bytes": 14777,
+      "sha256": "855EF4CCBAB9CB844157AB0474944A4D9980AF1CDD5889D784F7BF471787C529"
+    },
+    "ledger": {
+      "rows": 143,
+      "bytes": 555296,
+      "sha256": "82B77AF0D23313750ED650419BA44B30B61D4507C290F1BC5DDBB42EF489671A"
+    },
+    "worklog": {
+      "rows": 36,
+      "bytes": 77913,
+      "sha256": "0D81DC24EF15BBC2F9DFCB7ADF9E5DD405DC22E5B95830FFB44DB6E2D6042BFE"
+    },
+    "sidecar": {
+      "path": "decision_records/ISV019-EDIT-0143.json",
+      "bytes": 36162,
+      "sha256": "072C4800FE5A31B0C3CD8104B1AA007E41B66BCC23207A709A4EF24A79C7F836"
+    },
+    "human": {
+      "path": "decision_records/ISV019-EDIT-0143.md",
+      "bytes": 5527,
+      "sha256": "ECBD4E6DBDC11E1D526C7FEC8C42997275CFBFA00603A5319B5A507C82320EEE"
+    },
+    "applicator": {
+      "path": "apply_javn_false_friend_family_v019.py",
+      "bytes": 79112,
+      "sha256": "EED82CA62B33AC75A01B2779AC2D5323E9F0154CCB23D754A200CE14C52E6EDD"
+    },
+    "sealer": {
+      "path": "seal_isv_edit0143_v019.py",
+      "bytes": 47564,
+      "sha256": "F99FC1662EE889148D3DD0E156EA542480D41BFA916307207345A486E7D9B74F"
+    },
+    "audit": {
+      "path": "verify_isv_edit0143_v019.py",
+      "bytes": 26054,
+      "sha256": "FFAAC68739E0B0F7EC6006D29CFECBBFFCEF6C82D259F754B09CA712D6E8394D"
+    },
+    "verifier": {
+      "path": "verify_session_independent_state_v019.ps1",
+      "bytes": 2124,
+      "sha256": "36F3EA1FC3617E57196438C38E20EE474DC553F730DEBFE7E9F2A8D9C807AF3E"
+    }
+  },
+  "human_companion": {
+    "path": "decision_records/ISV019-EDIT-0144.md",
+    "bytes": 4168,
+    "sha256": "A0F83BBA34613107AEAFF51E766B59E0A2F17C3338F66D41C83A8737102DACDF"
+  },
+  "applicator": {
+    "path": "apply_ocevid_orthography_family_v019.py",
+    "bytes": 89446,
+    "sha256": "462FE94171C42C4496765AEC5ED99B33ECD7C42BBD983EE2860FCBFB1677B957",
+    "default_mode": "strict_no_write_dry_run",
+    "production_apply": "reported exit 0; independently rehashed exact four-output successor; residue zero"
+  },
+  "sealer": {
+    "path": "seal_isv_edit0144_v019.py",
+    "bytes": 49655,
+    "sha256": "E3A0F6D2730EBE77A753B75FF8E6A8C59363E007D57FFD962DF161E7B9DCC750"
+  },
+  "verifier_identity": {
+    "path": "verify_session_independent_state_v019.ps1",
+    "bytes": 2171,
+    "normalization": "replace_the_single_embedded_state_canonical_sha256_with_64_ascii_zeroes",
+    "normalized_sha256": "A2C6A0969CC221FF88CAA1067F7EFEBD139C2807DE5331C61481FD8778BE5E53"
+  },
+  "scope": {
+    "source_tokens": 37,
+    "source_lines": 36,
+    "base_tokens": 18,
+    "book_tokens": 19,
+    "base_capitalization": {
+      "lowercase_očividno": 15,
+      "capitalized_Očividno": 1,
+      "očividna": 1,
+      "očividny": 1
+    },
+    "book_line_1166_tokens": 2,
+    "producer_mirrors": 6,
+    "identity_comments": 2,
+    "changed_files": 4
+  },
+  "source_outputs": {
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1899139,
+      "sha256": "546AB48BAD0AA5F80FF00CC0EB713C3926CFB16308557AD64BF084E984FCFC46"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168093,
+      "sha256": "C5FED9BBA0610EC333D5886BF7172BAA90AAAF45FA8717F57A8545263A21F9AE"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "3C157B7B26092EFF27EDBCDFF2DB372022E467A7C7468D47621E7B9DA95E3542"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "producer_sync_receipt": {
+    "active_producers": 6,
+    "synchronized": 2,
+    "preserved": 4,
+    "entries": [
+      {
+        "unit": "Paper02-Section01",
+        "local": "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex",
+        "before": {
+          "bytes": 7619,
+          "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"
+        },
+        "after": {
+          "bytes": 7619,
+          "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"
+        },
+        "action": "byte_identical_preserved"
+      },
+      {
+        "unit": "Paper02-Section11",
+        "local": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+        "before": {
+          "bytes": 14964,
+          "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+        },
+        "after": {
+          "bytes": 14964,
+          "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+        },
+        "action": "byte_identical_preserved"
+      },
+      {
+        "unit": "Paper08",
+        "local": "producer_units/Noether_Paper08_Interslavic_v001.tex",
+        "before": {
+          "bytes": 23894,
+          "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"
+        },
+        "after": {
+          "bytes": 23894,
+          "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"
+        },
+        "action": "byte_identical_preserved"
+      },
+      {
+        "unit": "Paper22",
+        "local": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+        "before": {
+          "bytes": 78294,
+          "sha256": "7A57652D07B6A71EBCCFF73466C24660E0B8C9C1CD715AF74665E3899BE1B02F"
+        },
+        "after": {
+          "bytes": 78294,
+          "sha256": "A62399267542F5C3C37A626F8FCEAD059AF2D7DED94157D72FAE047E1BB39D8D"
+        },
+        "action": "synchronized_three_enumerated_mirrors"
+      },
+      {
+        "unit": "Paper24",
+        "local": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+        "before": {
+          "bytes": 95655,
+          "sha256": "E20E3A5F790CED79FA8D55F3E34EA04C6786C0A801BBC390B30040869C2E7DF1"
+        },
+        "after": {
+          "bytes": 95655,
+          "sha256": "11B3E43A39F0CE29B5BF61D70243290168BBF3C39D42B1720D44EDF3E48F8CDB"
+        },
+        "action": "synchronized_three_enumerated_mirrors"
+      },
+      {
+        "unit": "Paper34-Section23",
+        "local": "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+        "before": {
+          "bytes": 4752,
+          "sha256": "E60C00BD715913C21F6DB35DE68F5677F2FC6B5D486756C565905B1EA7774DC1"
+        },
+        "after": {
+          "bytes": 4752,
+          "sha256": "E60C00BD715913C21F6DB35DE68F5677F2FC6B5D486756C565905B1EA7774DC1"
+        },
+        "action": "byte_identical_preserved"
+      }
+    ]
+  },
+  "proof": {
+    "transform": {
+      "semantic_source_edits": 37,
+      "producer_mirror_edits": 6,
+      "identity_comment_edits": 2,
+      "locators": [
+        {
+          "edit_id": "OCV-B001",
+          "target": "base",
+          "unit": "U052",
+          "line": 6301,
+          "column": 7,
+          "byte0": 358221,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 112,
+            "sha256": "743246432EE7C83D7FFDE919B1EB52E75B198998D74355CCD231F4C9ECD60403"
+          },
+          "output_line": {
+            "bytes": 112,
+            "sha256": "9B1705B3C5FF68603C051D9BAEF0C177F9D3C7133386D7B28B8F10192E71A826"
+          },
+          "german_line": 5583,
+          "german_word": "ersichtlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B002",
+          "target": "base",
+          "unit": "U077",
+          "line": 10245,
+          "column": 373,
+          "byte0": 688459,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 916,
+            "sha256": "C34F06965B84FE9CA146A528D0CE8D5176F8D982FA43FA0E00BDBF34665F3EAD"
+          },
+          "output_line": {
+            "bytes": 916,
+            "sha256": "C52B0E5E31E7FA7DFC15716F31A36F6D92642C87D4525A95E4BC711C0A8824A2"
+          },
+          "german_line": 9452,
+          "german_word": "natürlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B003",
+          "target": "base",
+          "unit": "U105",
+          "line": 14112,
+          "column": 33,
+          "byte0": 995225,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 79,
+            "sha256": "62FF9DB88514F2DF604A6671AC637993E8EBC6C17AFFE1A71A5A8E4CF92F3D22"
+          },
+          "output_line": {
+            "bytes": 79,
+            "sha256": "3C8C599BDF188D5216EB8F8F12632D690EE5E95F306210674F74F58163E35B2F"
+          },
+          "german_line": 12665,
+          "german_word": "ersichtlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B004",
+          "target": "base",
+          "unit": "U106",
+          "line": 14213,
+          "column": 1021,
+          "byte0": 1005030,
+          "old": "očividna",
+          "new": "očevidna",
+          "input_line": {
+            "bytes": 1274,
+            "sha256": "E234BFEBDB91E219BD43D1883BF68CAE0D112969E287B02C6A9F5B27C226AACA"
+          },
+          "output_line": {
+            "bytes": 1274,
+            "sha256": "E2A0BBB40B787747D3C564BC71E90F7D5A436C741739D5CC61759A53DDED9BFD"
+          },
+          "german_line": 12719,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B005",
+          "target": "base",
+          "unit": "U106",
+          "line": 14630,
+          "column": 75,
+          "byte0": 1035112,
+          "old": "očividny",
+          "new": "očevidny",
+          "input_line": {
+            "bytes": 636,
+            "sha256": "FC7E7F87BEC31E3999C12B740C5B504CD8E4703C4DACFD91270D920CE3B0C0B4"
+          },
+          "output_line": {
+            "bytes": 636,
+            "sha256": "C8AB8ED5BDD96D80016196E473B45F90A5EEA4081BB0C0A121BEB46FFAC36DF4"
+          },
+          "german_line": 13130,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B006",
+          "target": "base",
+          "unit": "U106",
+          "line": 14701,
+          "column": 66,
+          "byte0": 1041044,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 190,
+            "sha256": "B5260299D2A63C411C8A4AF72CCA5A6CA7040A73A20633A248D381C9026CFA83"
+          },
+          "output_line": {
+            "bytes": 190,
+            "sha256": "03EB3C2F29FFDF2C5F806412BD7B473CD304D34E4A1FF79EF6AF4425BB38FC00"
+          },
+          "german_line": 13201,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B007",
+          "target": "base",
+          "unit": "U108",
+          "line": 15375,
+          "column": 483,
+          "byte0": 1129795,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 665,
+            "sha256": "7040B900E1D2A9332EB08F948FB7BAF08A2754D031956CE925C09D811BB9DBE9"
+          },
+          "output_line": {
+            "bytes": 665,
+            "sha256": "C6EF05AF2B5C7ED3C1F4C1FDD39927EB6761C27A9FA258257583AFAC9E178902"
+          },
+          "german_line": 13776,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B008",
+          "target": "base",
+          "unit": "U108",
+          "line": 15391,
+          "column": 10,
+          "byte0": 1134028,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 220,
+            "sha256": "F0FCD284796D16AF62507CE40F0507F3C94CFB24C5E9A91632D0E8CF8A203707"
+          },
+          "output_line": {
+            "bytes": 220,
+            "sha256": "3EFF99A2D891C639109D972E65347615BC0B2B128BB16D71302C68F0E58B5D25"
+          },
+          "german_line": 13792,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B009",
+          "target": "base",
+          "unit": "U108",
+          "line": 15534,
+          "column": 756,
+          "byte0": 1164701,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 1082,
+            "sha256": "CB51BB66F0C61554CDF3CD929B9CF2A0FD656DD8F9A17FCD430A649B3CC21FBA"
+          },
+          "output_line": {
+            "bytes": 1082,
+            "sha256": "64298DF73EB0A720604F69D7CD99B3D21763ECAA91EA65B49F50F5D7A9DDE3C4"
+          },
+          "german_line": 13933,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B010",
+          "target": "base",
+          "unit": "U109",
+          "line": 15825,
+          "column": 808,
+          "byte0": 1201396,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 1405,
+            "sha256": "54261E54290B9459C5CD6E2F54A6126392A48371AB3F8BCF26315C2E430BE1F9"
+          },
+          "output_line": {
+            "bytes": 1405,
+            "sha256": "07AA72D268F8FDADA4198EC8CAFEB25F59FBF56255E5A14A23198E259E679080"
+          },
+          "german_line": 14176,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B011",
+          "target": "base",
+          "unit": "U120",
+          "line": 16679,
+          "column": 905,
+          "byte0": 1304509,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 1216,
+            "sha256": "32264EF98F938A05A4339D85AA56ADBB8BDA11012E1CA3B164005136C8BF200C"
+          },
+          "output_line": {
+            "bytes": 1216,
+            "sha256": "DF0C5211A1B4237374022B834AD124ED674028F820ACB06B2AAA1196F3785040"
+          },
+          "german_line": 15007,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B012",
+          "target": "base",
+          "unit": "U174",
+          "line": 19207,
+          "column": 1563,
+          "byte0": 1473463,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 1824,
+            "sha256": "0E21C07CF120F802C086AFC8490D017D28EA364B21B6E36A6116AB0DB671469E"
+          },
+          "output_line": {
+            "bytes": 1824,
+            "sha256": "8A30E8B78C1CC2FCE34B8A229E6CCC52BE558FD8A8F32325B29FEB93C2862EB9"
+          },
+          "german_line": 16106,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B013",
+          "target": "base",
+          "unit": "U189",
+          "line": 20049,
+          "column": 23,
+          "byte0": 1539806,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 230,
+            "sha256": "574ED5F909EEF2BE7D7A55916ABC3B83C9E26F63214320A0A34B99918D4A0203"
+          },
+          "output_line": {
+            "bytes": 230,
+            "sha256": "E70D50A5A20E9917F0F26B2080B8747E53E29C018AAC1E05B7025090D850E085"
+          },
+          "german_line": 16521,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B014",
+          "target": "base",
+          "unit": "U195",
+          "line": 20656,
+          "column": 30,
+          "byte0": 1569524,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 113,
+            "sha256": "F29237182539E0D1BD4641205967A642A5DDADED70D76D362658C3BDD8730CBF"
+          },
+          "output_line": {
+            "bytes": 113,
+            "sha256": "9F9751F77026B68453094D715C84B65A542F7D1284FD31FFB664073EF29617C4"
+          },
+          "german_line": 16953,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B015",
+          "target": "base",
+          "unit": "U202",
+          "line": 21594,
+          "column": 106,
+          "byte0": 1610220,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 185,
+            "sha256": "7F36162FCA80FA28D5321D581067C2E11AA47DC5DC8ECE6F0D11D3DD5C5E454F"
+          },
+          "output_line": {
+            "bytes": 185,
+            "sha256": "E20CC710EB4F050A7F91E3F663986F6763B299C42E40B7A36696D27FE258766F"
+          },
+          "german_line": 17668,
+          "german_word": "selbstverständlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B016",
+          "target": "base",
+          "unit": "U202",
+          "line": 21618,
+          "column": 16,
+          "byte0": 1611229,
+          "old": "Očividno",
+          "new": "Očevidno",
+          "input_line": {
+            "bytes": 29,
+            "sha256": "B10FB0B3140213B44DCD678EE4FCAF84BF74D760E6CA78612A5D23B54AF08E97"
+          },
+          "output_line": {
+            "bytes": 29,
+            "sha256": "CA17C221D5075C1A8CF2465ADA7AC9B7615124E935232C60C14406F36E53F555"
+          },
+          "german_line": 17691,
+          "german_word": "Offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B017",
+          "target": "base",
+          "unit": "U213",
+          "line": 22790,
+          "column": 21,
+          "byte0": 1696410,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 163,
+            "sha256": "03932A723D75AFF4506B95D32FC8A05E77D3B8EC65DE865E9C4AD52FA6F2A845"
+          },
+          "output_line": {
+            "bytes": 163,
+            "sha256": "F3E8F6A226691E3EAB4F01F86E087F06AAD603EC6DFAFBC54617EFC577C1F25A"
+          },
+          "german_line": 18657,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-B018",
+          "target": "base",
+          "unit": "U213",
+          "line": 22853,
+          "column": 88,
+          "byte0": 1703636,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 818,
+            "sha256": "82EABFA28B4488738F59ADB3E228BF434C269F33CF9F995B8C5040BF1BE60456"
+          },
+          "output_line": {
+            "bytes": 818,
+            "sha256": "75C7F68C9C2615AC95AB67E521610927C3F9AD37F80BC8B9AC4CEF3E59E2DD55"
+          },
+          "german_line": 18720,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-ID-P22",
+          "target": "base",
+          "unit": "U106-identity",
+          "line": 14165,
+          "column": 31,
+          "byte0": 1001894,
+          "old": "7A57652D07B6A71EBCCFF73466C24660E0B8C9C1CD715AF74665E3899BE1B02F",
+          "new": "A62399267542F5C3C37A626F8FCEAD059AF2D7DED94157D72FAE047E1BB39D8D",
+          "input_line": {
+            "bytes": 94,
+            "sha256": "EA7D1C6DBF361A30B6E0BA4EF69A27A382DF53C5BAF59BEF4FF203A77B52BA72"
+          },
+          "output_line": {
+            "bytes": 94,
+            "sha256": "0EB741983BEFF889DB05369A3C4E32F7BE52DDFADE6C41F2429E16CB8D7A4D36"
+          },
+          "german_line": null,
+          "german_word": null,
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-ID-P24",
+          "target": "base",
+          "unit": "U108-identity",
+          "line": 15217,
+          "column": 31,
+          "byte0": 1101207,
+          "old": "E20E3A5F790CED79FA8D55F3E34EA04C6786C0A801BBC390B30040869C2E7DF1",
+          "new": "11B3E43A39F0CE29B5BF61D70243290168BBF3C39D42B1720D44EDF3E48F8CDB",
+          "input_line": {
+            "bytes": 94,
+            "sha256": "C333BAD5CFBCD6EE5633359F3968F741F4A85E840A69C1D4C0394EC65E2D2CD5"
+          },
+          "output_line": {
+            "bytes": 94,
+            "sha256": "67C2DF92243306F8400D2FBE99AA1E243E98359E6ED91980B23AFCAA0FB8C09B"
+          },
+          "german_line": null,
+          "german_word": null,
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K001",
+          "target": "book",
+          "unit": "Book44",
+          "line": 213,
+          "column": 145,
+          "byte0": 11037,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 296,
+            "sha256": "B81F68B653B82EE2C51F37D3E2A45FC2F1265DB5A37F3AC8AD44260744229A0C"
+          },
+          "output_line": {
+            "bytes": 296,
+            "sha256": "594AE0068FDD2618BBB255E3F0FB2EC3E0A33F4024D0947184E79379DFF49A77"
+          },
+          "german_line": 21160,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K002",
+          "target": "book",
+          "unit": "Book44",
+          "line": 233,
+          "column": 4,
+          "byte0": 12021,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 17,
+            "sha256": "912AA60933FC0D8B65AB0AA38890DF4404DB40CA51D0429BF69B72E628C728E8"
+          },
+          "output_line": {
+            "bytes": 17,
+            "sha256": "57F9110C26EA52EDEDE850726BD331BDB615859A2CED430D78885F00F143844A"
+          },
+          "german_line": 21180,
+          "german_word": "offensichtlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K003",
+          "target": "book",
+          "unit": "Book44",
+          "line": 307,
+          "column": 39,
+          "byte0": 14955,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 53,
+            "sha256": "4EAEC132991D8EB08439B6CF3B1D8DA7FA6963393893AFFF5937823D0C3BF389"
+          },
+          "output_line": {
+            "bytes": 53,
+            "sha256": "E5C65EFF7699193E35532D939F5709324628178DF98204847888CECF3353418D"
+          },
+          "german_line": 21254,
+          "german_word": "offensichtlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K004",
+          "target": "book",
+          "unit": "Book44",
+          "line": 449,
+          "column": 338,
+          "byte0": 27299,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 355,
+            "sha256": "2422A5FEF2E17FDBE1120B426FBE368CD316FEE5CE19AE65D9EFED08F63A85AA"
+          },
+          "output_line": {
+            "bytes": 355,
+            "sha256": "8AD1E547AFC4165970308827B9F4F839F587D555168C19AC0510BEEC01B4372D"
+          },
+          "german_line": 21382,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K005",
+          "target": "book",
+          "unit": "Book44",
+          "line": 675,
+          "column": 62,
+          "byte0": 37429,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 106,
+            "sha256": "EE9A25918379FE10327FB412743F94B119D0446AA2F882CA5FFB07E645E15D3F"
+          },
+          "output_line": {
+            "bytes": 106,
+            "sha256": "06312501998BBB37B9F9842F9B3B0241537BDC715B746420F6DA1572307D8C3A"
+          },
+          "german_line": 21602,
+          "german_word": "natürlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K006",
+          "target": "book",
+          "unit": "Book44",
+          "line": 996,
+          "column": 50,
+          "byte0": 53386,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 272,
+            "sha256": "A4C27EA179D2AD1032CE9DA0BA03D0486B469C6F94CE65DF15A935F33A7DD251"
+          },
+          "output_line": {
+            "bytes": 272,
+            "sha256": "C3663B6595C15BFCD701A08F031FE334C5869D3C3724EA5D7C95AE69F3252F1D"
+          },
+          "german_line": 21915,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K007",
+          "target": "book",
+          "unit": "Book44",
+          "line": 1166,
+          "column": 76,
+          "byte0": 60189,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 295,
+            "sha256": "E75B11F3C0B71F08FB6DAD460DDD1D7B3DDA7084C883B025CA1110A12E8A47E6"
+          },
+          "output_line": {
+            "bytes": 295,
+            "sha256": "BA2DA1FF51B9F37A5839F2066497B3FF36B25B6DA2D440D46AC231A813D9D00A"
+          },
+          "german_line": 22083,
+          "german_word": "natürlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K008",
+          "target": "book",
+          "unit": "Book44",
+          "line": 1166,
+          "column": 236,
+          "byte0": 60356,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 295,
+            "sha256": "E75B11F3C0B71F08FB6DAD460DDD1D7B3DDA7084C883B025CA1110A12E8A47E6"
+          },
+          "output_line": {
+            "bytes": 295,
+            "sha256": "BA2DA1FF51B9F37A5839F2066497B3FF36B25B6DA2D440D46AC231A813D9D00A"
+          },
+          "german_line": 22083,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K009",
+          "target": "book",
+          "unit": "Book44",
+          "line": 1178,
+          "column": 116,
+          "byte0": 61329,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 361,
+            "sha256": "9863E6B3CCA205DFED6246FA64E383FAFC7F0630E807AC90D9CA54ADD09003EC"
+          },
+          "output_line": {
+            "bytes": 361,
+            "sha256": "9D03B21C14A6AAE2E8CFEBA82FF0EEF30AD8957FF8322B0F544D5EA6CA2DFC44"
+          },
+          "german_line": 22095,
+          "german_word": "natürlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K010",
+          "target": "book",
+          "unit": "Book44",
+          "line": 1246,
+          "column": 88,
+          "byte0": 66864,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 286,
+            "sha256": "E97440EE7F4F7A2766CE3FFD3058B40638E46D00D696D22D990874F7A05AC34E"
+          },
+          "output_line": {
+            "bytes": 286,
+            "sha256": "FAD90384604C164779A15DA794B53503EB1F83689738461A764C213189F01DC7"
+          },
+          "german_line": 22161,
+          "german_word": "natürlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K011",
+          "target": "book",
+          "unit": "Book44",
+          "line": 1304,
+          "column": 96,
+          "byte0": 70611,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 134,
+            "sha256": "71C61D996A05F9F93DB4710F7D35A6A992355EBB84934A7B021BC1DB0075FF99"
+          },
+          "output_line": {
+            "bytes": 134,
+            "sha256": "F842B72AF9CD6502562D52D4EDCE7085F29502580891F83E4506D8D61E5CA897"
+          },
+          "german_line": 22219,
+          "german_word": "natürlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K012",
+          "target": "book",
+          "unit": "Book44",
+          "line": 1361,
+          "column": 7,
+          "byte0": 75506,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 89,
+            "sha256": "EBF3B295F3842CD6C2AE10EC26BF71652B13AF25C1444A01B7AC659B90040923"
+          },
+          "output_line": {
+            "bytes": 89,
+            "sha256": "2591CA4565569AECA8F90F1D6576C262D103CA45152D35A3C72AB407757DBBD3"
+          },
+          "german_line": 22276,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K013",
+          "target": "book",
+          "unit": "Book44",
+          "line": 1384,
+          "column": 272,
+          "byte0": 78938,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 330,
+            "sha256": "967999A8DCCCE62F434F99FFDCCE591B93163E6F7D51F3C6A4ACA70CF6BD5FD1"
+          },
+          "output_line": {
+            "bytes": 330,
+            "sha256": "56A6C26F1CED22DA572D2C14C3B670CEF0AEDCDA7D928C127B0482CF9AFEBFD5"
+          },
+          "german_line": 22297,
+          "german_word": "natürlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K014",
+          "target": "book",
+          "unit": "Book44",
+          "line": 1468,
+          "column": 827,
+          "byte0": 86108,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 1177,
+            "sha256": "9001496726BE0DB3C9D37C23AED6EFBC074B09C6EEEE92144BC0FFB2497AF112"
+          },
+          "output_line": {
+            "bytes": 1177,
+            "sha256": "DA2F62E3BEB917D04F52FC887C3A1A484CF226956A363BCBA638D0ACE2799289"
+          },
+          "german_line": 22379,
+          "german_word": "offensichtlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K015",
+          "target": "book",
+          "unit": "Book44",
+          "line": 1477,
+          "column": 65,
+          "byte0": 87376,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 168,
+            "sha256": "450A446E0B28B4A4E417A0F95FD3AEA8C23B89DDAB715B91331A3852037F6F7F"
+          },
+          "output_line": {
+            "bytes": 168,
+            "sha256": "F2A502AE91F790549104F24ADC08AF355BE3819E126F5DDBF457FF9B00DBACDE"
+          },
+          "german_line": 22388,
+          "german_word": "natürlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K016",
+          "target": "book",
+          "unit": "Book44",
+          "line": 1573,
+          "column": 19,
+          "byte0": 93777,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 624,
+            "sha256": "21EA398A24E1162BABC050CECE1443F96639C9F5993C681DAF516C216ECF5DC6"
+          },
+          "output_line": {
+            "bytes": 624,
+            "sha256": "84AFB8D6716596BF8879A4FA75B9EDD27CFEB9FCA58E3D04E60CF69DA21E0E3D"
+          },
+          "german_line": 22482,
+          "german_word": "offensichtlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K017",
+          "target": "book",
+          "unit": "Book44",
+          "line": 1595,
+          "column": 351,
+          "byte0": 95904,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 367,
+            "sha256": "36892E609FBDC8691D63BBB78612FF054C20AA269C48F17BAF3907C1ECF9FF6A"
+          },
+          "output_line": {
+            "bytes": 367,
+            "sha256": "09CD2E8652D82D876F3AF29D6E4CC48381BD20AECE188B17CCE0507FD4FC8861"
+          },
+          "german_line": 22504,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K018",
+          "target": "book",
+          "unit": "Book44",
+          "line": 1895,
+          "column": 151,
+          "byte0": 110755,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 431,
+            "sha256": "7D20E747D1C20EF8457E144EA09CA77E9C802DF60C41D08F082B0BC2FC5F708C"
+          },
+          "output_line": {
+            "bytes": 431,
+            "sha256": "4644A5F26533D830D2D3373D8118E89B3DD3472B7D0D10BCB974345F47AC0647"
+          },
+          "german_line": 22802,
+          "german_word": "offensichtlich",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-K019",
+          "target": "book",
+          "unit": "Book44",
+          "line": 2103,
+          "column": 7,
+          "byte0": 121590,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 161,
+            "sha256": "0F8D097311C2A5B85A3EFA3BC17B594AEF34F8B389B84AA15B8DC6B77AA7BA51"
+          },
+          "output_line": {
+            "bytes": 161,
+            "sha256": "7631E900EEE5DF5BAE0E63FE7294DE42F76C1CCA5ED7207DF27A929619BD5495"
+          },
+          "german_line": 23009,
+          "german_word": "offenbar",
+          "mirror_of": null
+        },
+        {
+          "edit_id": "OCV-P22-001",
+          "target": "p22",
+          "unit": "P22",
+          "line": 59,
+          "column": 1021,
+          "byte0": 3329,
+          "old": "očividna",
+          "new": "očevidna",
+          "input_line": {
+            "bytes": 1274,
+            "sha256": "E234BFEBDB91E219BD43D1883BF68CAE0D112969E287B02C6A9F5B27C226AACA"
+          },
+          "output_line": {
+            "bytes": 1274,
+            "sha256": "E2A0BBB40B787747D3C564BC71E90F7D5A436C741739D5CC61759A53DDED9BFD"
+          },
+          "german_line": null,
+          "german_word": null,
+          "mirror_of": "OCV-B004"
+        },
+        {
+          "edit_id": "OCV-P22-002",
+          "target": "p22",
+          "unit": "P22",
+          "line": 476,
+          "column": 75,
+          "byte0": 33411,
+          "old": "očividny",
+          "new": "očevidny",
+          "input_line": {
+            "bytes": 636,
+            "sha256": "FC7E7F87BEC31E3999C12B740C5B504CD8E4703C4DACFD91270D920CE3B0C0B4"
+          },
+          "output_line": {
+            "bytes": 636,
+            "sha256": "C8AB8ED5BDD96D80016196E473B45F90A5EEA4081BB0C0A121BEB46FFAC36DF4"
+          },
+          "german_line": null,
+          "german_word": null,
+          "mirror_of": "OCV-B005"
+        },
+        {
+          "edit_id": "OCV-P22-003",
+          "target": "p22",
+          "unit": "P22",
+          "line": 547,
+          "column": 66,
+          "byte0": 39343,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 190,
+            "sha256": "B5260299D2A63C411C8A4AF72CCA5A6CA7040A73A20633A248D381C9026CFA83"
+          },
+          "output_line": {
+            "bytes": 190,
+            "sha256": "03EB3C2F29FFDF2C5F806412BD7B473CD304D34E4A1FF79EF6AF4425BB38FC00"
+          },
+          "german_line": null,
+          "german_word": null,
+          "mirror_of": "OCV-B006"
+        },
+        {
+          "edit_id": "OCV-P24-001",
+          "target": "p24",
+          "unit": "P24",
+          "line": 169,
+          "column": 483,
+          "byte0": 28772,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 665,
+            "sha256": "7040B900E1D2A9332EB08F948FB7BAF08A2754D031956CE925C09D811BB9DBE9"
+          },
+          "output_line": {
+            "bytes": 665,
+            "sha256": "C6EF05AF2B5C7ED3C1F4C1FDD39927EB6761C27A9FA258257583AFAC9E178902"
+          },
+          "german_line": null,
+          "german_word": null,
+          "mirror_of": "OCV-B007"
+        },
+        {
+          "edit_id": "OCV-P24-002",
+          "target": "p24",
+          "unit": "P24",
+          "line": 185,
+          "column": 10,
+          "byte0": 33005,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 220,
+            "sha256": "F0FCD284796D16AF62507CE40F0507F3C94CFB24C5E9A91632D0E8CF8A203707"
+          },
+          "output_line": {
+            "bytes": 220,
+            "sha256": "3EFF99A2D891C639109D972E65347615BC0B2B128BB16D71302C68F0E58B5D25"
+          },
+          "german_line": null,
+          "german_word": null,
+          "mirror_of": "OCV-B008"
+        },
+        {
+          "edit_id": "OCV-P24-003",
+          "target": "p24",
+          "unit": "P24",
+          "line": 328,
+          "column": 756,
+          "byte0": 63678,
+          "old": "očividno",
+          "new": "očevidno",
+          "input_line": {
+            "bytes": 1082,
+            "sha256": "CB51BB66F0C61554CDF3CD929B9CF2A0FD656DD8F9A17FCD430A649B3CC21FBA"
+          },
+          "output_line": {
+            "bytes": 1082,
+            "sha256": "64298DF73EB0A720604F69D7CD99B3D21763ECAA91EA65B49F50F5D7A9DDE3C4"
+          },
+          "german_line": null,
+          "german_word": null,
+          "mirror_of": "OCV-B009"
+        }
+      ],
+      "changed_lines": {
+        "base": [
+          6301,
+          10245,
+          14112,
+          14165,
+          14213,
+          14630,
+          14701,
+          15217,
+          15375,
+          15391,
+          15534,
+          15825,
+          16679,
+          19207,
+          20049,
+          20656,
+          21594,
+          21618,
+          22790,
+          22853
+        ],
+        "book": [
+          213,
+          233,
+          307,
+          449,
+          675,
+          996,
+          1166,
+          1178,
+          1246,
+          1304,
+          1361,
+          1384,
+          1468,
+          1477,
+          1573,
+          1595,
+          1895,
+          2103
+        ],
+        "p22": [
+          59,
+          476,
+          547
+        ],
+        "p24": [
+          169,
+          185,
+          328
+        ]
+      },
+      "input_census": {
+        "phase": "sealed_EDIT0143",
+        "source_old_total": 37,
+        "source_new_total": 0,
+        "source_lines": 36,
+        "base": {
+          "old": {
+            "očividno": 15,
+            "očividna": 1,
+            "očividny": 1,
+            "Očividno": 1
+          },
+          "new": {}
+        },
+        "book": {
+          "old": {
+            "očividno": 19
+          },
+          "new": {}
+        },
+        "producer_old_total": 6,
+        "producer_new_total": 0,
+        "capitalized_site_included": true
+      },
+      "output_census": {
+        "phase": "projected_EDIT0144",
+        "source_old_total": 0,
+        "source_new_total": 37,
+        "source_lines": 36,
+        "base": {
+          "old": {},
+          "new": {
+            "očevidno": 15,
+            "očevidna": 1,
+            "očevidny": 1,
+            "Očevidno": 1
+          }
+        },
+        "book": {
+          "old": {},
+          "new": {
+            "očevidno": 19
+          }
+        },
+        "producer_old_total": 0,
+        "producer_new_total": 6,
+        "capitalized_site_included": true
+      },
+      "body_identity": {
+        "p22": {
+          "input": {
+            "bytes": 77026,
+            "sha256": "AA422ADE2BB6B76A60263ABEE6CA4BA916EF4521D5168D1678F5AEC4B25CB82A"
+          },
+          "output": {
+            "bytes": 77026,
+            "sha256": "3F05586300A08B458AA3F2A85359A4369D8FA24D6F4A62206B1B15D902447572"
+          },
+          "exact_base_producer_identity": true
+        },
+        "p24": {
+          "input": {
+            "bytes": 94538,
+            "sha256": "46A49E7670DA4E8F20E73FDD2A53135FDA822C5FA68729CA1D963C8D7BC91623"
+          },
+          "output": {
+            "bytes": 94538,
+            "sha256": "71A198D1B140D55F6742FC3FA2B40F4F395EC1006458ECE518DB04C2E333477E"
+          },
+          "exact_base_producer_identity": true
+        }
+      },
+      "protected": {
+        "base": {
+          "semantic_comment_overlaps": 0,
+          "semantic_command_overlaps": 0,
+          "semantic_math_overlaps": 0,
+          "changed_comment_ordinals_1_based": [
+            675,
+            689
+          ],
+          "all_other_comments_identical": true,
+          "commands_and_math_identical": true,
+          "structure": {
+            "logical_lines": 25176,
+            "lf": 25175,
+            "crlf": 0,
+            "open_brace": 19800,
+            "close_brace": 19792,
+            "dollar": 22758,
+            "percent": 1480,
+            "begin": 893,
+            "end": 893,
+            "token_count": 135112,
+            "stream_sha256": "0F120370912D9034FA6616FF0C404E5DEA7E95CA70E47F82449E42FFC986F9DF"
+          }
+        },
+        "book": {
+          "semantic_comment_overlaps": 0,
+          "semantic_command_overlaps": 0,
+          "semantic_math_overlaps": 0,
+          "changed_comment_ordinals_1_based": [],
+          "all_other_comments_identical": true,
+          "commands_and_math_identical": true,
+          "structure": {
+            "logical_lines": 2851,
+            "lf": 2850,
+            "crlf": 0,
+            "open_brace": 2160,
+            "close_brace": 2160,
+            "dollar": 14,
+            "percent": 62,
+            "begin": 48,
+            "end": 48,
+            "token_count": 15782,
+            "stream_sha256": "D4827BB0CFEDEFD52E333DA67FD4121AA41CEE778ABD9A394A24BD7D53075EDB"
+          }
+        },
+        "p22": {
+          "semantic_comment_overlaps": 0,
+          "semantic_command_overlaps": 0,
+          "semantic_math_overlaps": 0,
+          "changed_comment_ordinals_1_based": [],
+          "all_other_comments_identical": true,
+          "commands_and_math_identical": true,
+          "structure": {
+            "logical_lines": 868,
+            "lf": 867,
+            "crlf": 0,
+            "open_brace": 1157,
+            "close_brace": 1153,
+            "dollar": 2276,
+            "percent": 1,
+            "begin": 52,
+            "end": 52,
+            "token_count": 7198,
+            "stream_sha256": "791941597021C1BBF74706DBFA3CF6FDC859DA67A111A53D46EF167DBC78A9DA"
+          }
+        },
+        "p24": {
+          "semantic_comment_overlaps": 0,
+          "semantic_command_overlaps": 0,
+          "semantic_math_overlaps": 0,
+          "changed_comment_ordinals_1_based": [],
+          "all_other_comments_identical": true,
+          "commands_and_math_identical": true,
+          "structure": {
+            "logical_lines": 564,
+            "lf": 563,
+            "crlf": 0,
+            "open_brace": 860,
+            "close_brace": 860,
+            "dollar": 2520,
+            "percent": 1,
+            "begin": 14,
+            "end": 14,
+            "token_count": 6143,
+            "stream_sha256": "B14FB2B042B1209C8041C8A8F13B89B9D5B0FCCAE605058BA48F875D3A7A7082"
+          }
+        }
+      },
+      "exact_reverse": {
+        "base": true,
+        "book": true,
+        "p22": true,
+        "p24": true
+      },
+      "transport": {
+        "same_bytes_per_file": true,
+        "same_line_counts": true,
+        "lf_only": true,
+        "nfc": true
+      }
+    },
+    "authority": {
+      "dictionary_headwords": [
+        "očevidno",
+        "očevidny",
+        "očevidėc"
+      ],
+      "dictionary_old_family_headwords": 0,
+      "current_and_prior_dictionary_agree": true,
+      "comparator_old_family_is_not_ISV_headword": true,
+      "german_authority": "NOETH-DE-ED-0015",
+      "german_controls": [
+        {
+          "edit_id": "OCV-B001",
+          "german_line": 5583,
+          "word": "ersichtlich",
+          "line_bytes": 120,
+          "line_sha256": "7721C602064311061BC5FB4EFB37A07DB36133D913757DC2284F4560BE5AE6A4"
+        },
+        {
+          "edit_id": "OCV-B002",
+          "german_line": 9452,
+          "word": "natürlich",
+          "line_bytes": 965,
+          "line_sha256": "1FD61758D6EF7130472CA5F5924CF01EAF49D8DAD8B408F2512978DD07426206"
+        },
+        {
+          "edit_id": "OCV-B003",
+          "german_line": 12665,
+          "word": "ersichtlich",
+          "line_bytes": 87,
+          "line_sha256": "0A47837BAAAB8A87BBA71DAC01343AF22B524D360DEE03378C4D43540B99A116"
+        },
+        {
+          "edit_id": "OCV-B004",
+          "german_line": 12719,
+          "word": "offenbar",
+          "line_bytes": 1190,
+          "line_sha256": "9BF72AA6B9904374103DBE97A912A1E166DCC474F8A0AABA4C3E8D701AA212FE"
+        },
+        {
+          "edit_id": "OCV-B005",
+          "german_line": 13130,
+          "word": "offenbar",
+          "line_bytes": 679,
+          "line_sha256": "9953EF1951A8DE25147E91CE820448A6CB9EC966864509E0EB0766404E3A929E"
+        },
+        {
+          "edit_id": "OCV-B006",
+          "german_line": 13201,
+          "word": "offenbar",
+          "line_bytes": 221,
+          "line_sha256": "CA91E8B5E27058BA87F1C834CF750149B767D866C347EADABBFDB775D371599C"
+        },
+        {
+          "edit_id": "OCV-B007",
+          "german_line": 13776,
+          "word": "offenbar",
+          "line_bytes": 672,
+          "line_sha256": "19D2A9AF0635EC2C35961AFF46F78EC1BF601C7EC97CA48C218D8E20CEF8D6FC"
+        },
+        {
+          "edit_id": "OCV-B008",
+          "german_line": 13792,
+          "word": "offenbar",
+          "line_bytes": 207,
+          "line_sha256": "D8D589C72647E2A755BD907415E93DAE656BAFFDEBF854A47CBB9425B79530DC"
+        },
+        {
+          "edit_id": "OCV-B009",
+          "german_line": 13933,
+          "word": "offenbar",
+          "line_bytes": 1126,
+          "line_sha256": "352689164DB8875378EB7CFC33F9893B2E60FD4A238E3E295B608AE4DAF3966A"
+        },
+        {
+          "edit_id": "OCV-B010",
+          "german_line": 14176,
+          "word": "offenbar",
+          "line_bytes": 1631,
+          "line_sha256": "E72721A3B6CA117707C62E27AE90F1A0D715CE6E3AC75EBCE938B699ABEEF0D1"
+        },
+        {
+          "edit_id": "OCV-B011",
+          "german_line": 15007,
+          "word": "offenbar",
+          "line_bytes": 1178,
+          "line_sha256": "2F8386A5FAB2A29458CBEBA1A0B521498AB1F5A18EC8D70AE7C6D8EB8F680D31"
+        },
+        {
+          "edit_id": "OCV-B012",
+          "german_line": 16106,
+          "word": "offenbar",
+          "line_bytes": 1931,
+          "line_sha256": "270E7F262BDF12990CE2AEF4A1249ED1BE04E073B7F5386E423F0C7256886AFE"
+        },
+        {
+          "edit_id": "OCV-B013",
+          "german_line": 16521,
+          "word": "offenbar",
+          "line_bytes": 220,
+          "line_sha256": "3F327E4D8B44D68612E4950047E5C1C6D1D631FDCFE147407BBC07A4F7CB26B9"
+        },
+        {
+          "edit_id": "OCV-B014",
+          "german_line": 16953,
+          "word": "offenbar",
+          "line_bytes": 97,
+          "line_sha256": "FF38DB21DD6BBBB34C6DAC4F1222F3B00C29B27FC391776FFAB608A604728DE8"
+        },
+        {
+          "edit_id": "OCV-B015",
+          "german_line": 17668,
+          "word": "selbstverständlich",
+          "line_bytes": 196,
+          "line_sha256": "DA426D9A0B092A9B4D1CFAD78936A5BB097EEEE43025179CD0375EA213DF3ADD"
+        },
+        {
+          "edit_id": "OCV-B016",
+          "german_line": 17691,
+          "word": "Offenbar",
+          "line_bytes": 136,
+          "line_sha256": "D8AC5D3CE3CF42513C89E46E299CA1568CA4A1118AE77421ED4C61B364476E91"
+        },
+        {
+          "edit_id": "OCV-B017",
+          "german_line": 18657,
+          "word": "offenbar",
+          "line_bytes": 206,
+          "line_sha256": "B0B5FF842323F7BCBA88FC0F051B982398F3404CD768C6632CDE047DD20ABAE9"
+        },
+        {
+          "edit_id": "OCV-B018",
+          "german_line": 18720,
+          "word": "offenbar",
+          "line_bytes": 913,
+          "line_sha256": "36296D333E2171435586BDB782565232F803CC1EFB0DC3C5BE2DFDC687EA8F34"
+        },
+        {
+          "edit_id": "OCV-K001",
+          "german_line": 21160,
+          "word": "offenbar",
+          "line_bytes": 301,
+          "line_sha256": "167C1E38422510ADCD208C1DBE6427DB21D863000EF0D96660A8D0661D4A3E72"
+        },
+        {
+          "edit_id": "OCV-K002",
+          "german_line": 21180,
+          "word": "offensichtlich",
+          "line_bytes": 21,
+          "line_sha256": "FEB6A2F6349FDEC645DE7A987358BF2DE374478CE3406F53738096F61FFCCCE8"
+        },
+        {
+          "edit_id": "OCV-K003",
+          "german_line": 21254,
+          "word": "offensichtlich",
+          "line_bytes": 65,
+          "line_sha256": "14ED8CE71496369888283F256CFB62426B0FC43A1208FE5C240B917E45CF5031"
+        },
+        {
+          "edit_id": "OCV-K004",
+          "german_line": 21382,
+          "word": "offenbar",
+          "line_bytes": 368,
+          "line_sha256": "7D7FA3A51B9C73ADB9F29DB61E4E3EAA4680A9BF267727EEE26E13780829A4F0"
+        },
+        {
+          "edit_id": "OCV-K005",
+          "german_line": 21602,
+          "word": "natürlich",
+          "line_bytes": 110,
+          "line_sha256": "0284BABF8876356F2990364C77EC5A631770ED155CD3EEBB7F718EFE5464D673"
+        },
+        {
+          "edit_id": "OCV-K006",
+          "german_line": 21915,
+          "word": "offenbar",
+          "line_bytes": 312,
+          "line_sha256": "1C3C8C44268BEA8CB6F5D1F9AA79FB4EC7968E90A578F5BA17D387085E77BE1C"
+        },
+        {
+          "edit_id": "OCV-K007",
+          "german_line": 22083,
+          "word": "natürlich",
+          "line_bytes": 301,
+          "line_sha256": "218AEEC6B857EFA30ECC9E3306609DADB2018CF12A81A8FC0DAD231556144788"
+        },
+        {
+          "edit_id": "OCV-K008",
+          "german_line": 22083,
+          "word": "offenbar",
+          "line_bytes": 301,
+          "line_sha256": "218AEEC6B857EFA30ECC9E3306609DADB2018CF12A81A8FC0DAD231556144788"
+        },
+        {
+          "edit_id": "OCV-K009",
+          "german_line": 22095,
+          "word": "natürlich",
+          "line_bytes": 390,
+          "line_sha256": "C2819599D03DE6A2423567F36CFDE5FB67A91D77E640644C2FA562EED55D82D7"
+        },
+        {
+          "edit_id": "OCV-K010",
+          "german_line": 22161,
+          "word": "natürlich",
+          "line_bytes": 324,
+          "line_sha256": "D30EE970E9A9C9CBC6533D1CC728A7833CD053D631704E808C880BB089562F78"
+        },
+        {
+          "edit_id": "OCV-K011",
+          "german_line": 22219,
+          "word": "natürlich",
+          "line_bytes": 135,
+          "line_sha256": "6D453736B1E594630130E2F5F558669052DE84F3F59CB8A01C4CAB7E0DD3C70A"
+        },
+        {
+          "edit_id": "OCV-K012",
+          "german_line": 22276,
+          "word": "offenbar",
+          "line_bytes": 98,
+          "line_sha256": "3B85F25656FB22F5F7C6A826552FBB6028CB1A37FA71ADB2AC5550DB6167D4E1"
+        },
+        {
+          "edit_id": "OCV-K013",
+          "german_line": 22297,
+          "word": "natürlich",
+          "line_bytes": 363,
+          "line_sha256": "6D4F4B03EF075271032F3BB6848AE217137788FF1769C1562DAE18DB99627B3E"
+        },
+        {
+          "edit_id": "OCV-K014",
+          "german_line": 22379,
+          "word": "offensichtlich",
+          "line_bytes": 1248,
+          "line_sha256": "2FDFB7152EA23C00FA991E0F4E2A93A20C34EA98876280895AD0C91CE32D9676"
+        },
+        {
+          "edit_id": "OCV-K015",
+          "german_line": 22388,
+          "word": "natürlich",
+          "line_bytes": 171,
+          "line_sha256": "0179AF90203865E845E6BC25C6F7C1C56EA593B91FE3551945377D5FEB54D5D7"
+        },
+        {
+          "edit_id": "OCV-K016",
+          "german_line": 22482,
+          "word": "offensichtlich",
+          "line_bytes": 676,
+          "line_sha256": "BDB319FC9869714D9F835DAFC6781DE4EB4F1F27A7F256F79CC47FDFA7E4A094"
+        },
+        {
+          "edit_id": "OCV-K017",
+          "german_line": 22504,
+          "word": "offenbar",
+          "line_bytes": 384,
+          "line_sha256": "D7857A81B07FD0DD6D466CA1C0DEDF3CD7CA2F0921E1647FC0EB1C2CE4E8D41E"
+        },
+        {
+          "edit_id": "OCV-K018",
+          "german_line": 22802,
+          "word": "offensichtlich",
+          "line_bytes": 403,
+          "line_sha256": "4193B73A61B5C3C0CDF19DC3049A7DE21699580B2A81ABA35E9A5C36F08EEC17"
+        },
+        {
+          "edit_id": "OCV-K019",
+          "german_line": 23009,
+          "word": "offenbar",
+          "line_bytes": 162,
+          "line_sha256": "103C945FEEC0655A26BD7503DB3C64E7A3BB88560843F124A492CA7FB1367AA9"
+        }
+      ],
+      "german_control_slice": {
+        "unique_lines": 36,
+        "bytes": 17642,
+        "sha256": "DEC4052FCBACE494C8FC7776734F604E412C780D96B7C33D087ED4BBA3C529B6"
+      },
+      "semantic_holds": 0,
+      "native_or_community_certification": false
+    },
+    "authority_evidence_pins": {
+      "dictionary_source_basic": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\claude_fable_program\\data\\interslavic_dictionary_official_snapshot_20260816\\source_sheet_basic.csv",
+        "bytes": 8101157,
+        "sha256": "0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561"
+      },
+      "dictionary_source_additional": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\claude_fable_program\\data\\interslavic_dictionary_official_snapshot_20260816\\source_sheet_additional_languages.csv",
+        "bytes": 4864118,
+        "sha256": "A264F197023EF6FC153551E62F8C84B8F7B587F1FA91BB03100A596EB2AAE068"
+      },
+      "dictionary_deployed": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\claude_fable_program\\data\\interslavic_dictionary_official_snapshot_20260816\\deployed_basic.json",
+        "bytes": 23676753,
+        "sha256": "B9AEB484259AFF95296035DD0EB70A7F0FD5FBE92C327455737DF2FF00F27C3D"
+      },
+      "dictionary_manifest": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\claude_fable_program\\data\\interslavic_dictionary_official_snapshot_20260816\\SNAPSHOT_MANIFEST.json",
+        "bytes": 13925,
+        "sha256": "AAC7D7192EE2B3F1346084927403176E6063E9BC2BD838C5CAB825F697C776D8"
+      },
+      "dictionary_readme": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\claude_fable_program\\data\\interslavic_dictionary_official_snapshot_20260816\\README_SNAPSHOT.md",
+        "bytes": 5432,
+        "sha256": "E2988A1E683B42488F2F313C9B70DB3856F1462F32A3088707B51FA3BF14463F"
+      },
+      "dictionary_prior": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\claude_fable_program\\data\\isv_words_list.csv",
+        "bytes": 7993414,
+        "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842"
+      },
+      "grammar_design": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\00_lane_control\\marginal_intelligibility_20260811\\authority_snapshots\\snapshots\\official_site\\docs\\learn\\misc\\design-criteria.md",
+        "bytes": 20238,
+        "sha256": "215184553FD9BDDE4A75632B82D9880D74ABEC3776732F182B55C576B0261CC3"
+      },
+      "grammar_adjectives": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\00_lane_control\\marginal_intelligibility_20260811\\authority_snapshots\\snapshots\\official_site\\docs\\learn\\grammar\\adjectives.md",
+        "bytes": 8142,
+        "sha256": "184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F"
+      },
+      "grammar_orthography": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\00_lane_control\\marginal_intelligibility_20260811\\authority_snapshots\\snapshots\\official_site\\docs\\learn\\orthography.md",
+        "bytes": 16443,
+        "sha256": "90C609CC0E8709E8395964E9F20D6D4FB4E31159CBC2B1EA515A29D9D1C72044"
+      },
+      "grammar_manifest": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\00_lane_control\\marginal_intelligibility_20260811\\authority_snapshots\\AUTHORITY_SNAPSHOT_MANIFEST.json",
+        "bytes": 107058,
+        "sha256": "CFF235A721386FB74CB5970C5F7114655EA791E5CC48777CCCC4CD3F83130B9A"
+      },
+      "german_pointer": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\CURRENT_GERMAN_AUTHORITY_POINTER.json",
+        "bytes": 156949,
+        "sha256": "8F264C42E3639911DFCE651C4911FF87129046A119413DCDA189C906345B54BC"
+      },
+      "german_ed0014": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\candidates\\ED0014\\noether.tex",
+        "bytes": 2154011,
+        "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58"
+      },
+      "german_ed0015": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\candidates\\ED0015\\noether.tex",
+        "bytes": 2154017,
+        "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907"
+      },
+      "adverse_internal_lexicon": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\claude_fable_program\\data\\proof_prose_lexicon_v2.json",
+        "bytes": 251328,
+        "sha256": "9ADC8826DFEFC02FD9693D8FBDB392522F15FEDF059BFD36E8FE2A5060804BA8"
+      },
+      "adverse_weight_ledger": {
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\weighted_automaton\\INTERSLAVIC_FULL_TERM_WEIGHT_LEDGER_DELIVERABLE_v1_20260705\\INTERSLAVIC_PROOF_REGISTER_WEIGHT_LEDGER_v1_20260705.csv",
+        "bytes": 233621,
+        "sha256": "818ED9B7B4659BFA63217F6CA4B8992864A491D200108DC675FC2474635FAF7A"
+      }
+    },
+    "immutable_lineage": {
+      "categories": {
+        "origin": {
+          "files": 12,
+          "old_family_tokens": 18
+        },
+        "historical_shadow": {
+          "files": 16,
+          "old_family_tokens": 34
+        },
+        "inactive_local_shadow": {
+          "files": 1,
+          "old_family_tokens": 3
+        },
+        "inactive_build_shadow": {
+          "files": 6,
+          "old_family_tokens": 78
+        },
+        "immutable_public_predecessor": {
+          "files": 4,
+          "old_family_tokens": 37
+        }
+      },
+      "entries": [
+        {
+          "label": "origin_p06s12",
+          "category": "origin",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper06\\interslavic\\v001\\Noether_Paper06_Section12_Interslavic_v001.tex",
+          "bytes": 8822,
+          "sha256": "6B97855308D0B551A9D9BE536217465945B605C609E917BCD2A3FD1D489484F1",
+          "old_family_tokens": 1
+        },
+        {
+          "label": "origin_p15",
+          "category": "origin",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper15\\interslavic\\v001\\Noether_Paper15_Interslavic_v001.tex",
+          "bytes": 44229,
+          "sha256": "1364A4E3BD864C72AE94794F36AAA7A3800969B69F766FCEA6E3594B5C28DE77",
+          "old_family_tokens": 1
+        },
+        {
+          "label": "origin_p21",
+          "category": "origin",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper21\\interslavic\\v001\\Noether_Paper21_Interslavic_v001.tex",
+          "bytes": 9753,
+          "sha256": "0DEEFBA09F0C256B6A29489D29C210A067319157AC51EABC568CB63E82D6F90E",
+          "old_family_tokens": 1
+        },
+        {
+          "label": "origin_p22",
+          "category": "origin",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper22\\interslavic\\v001\\Noether_Paper22_Interslavic_v001.tex",
+          "bytes": 77611,
+          "sha256": "6A78318258A2C609D030A248E66834055E904DC808BECA797433C461B31558B6",
+          "old_family_tokens": 3
+        },
+        {
+          "label": "origin_p24",
+          "category": "origin",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper24\\working\\through-section07\\interslavic\\Noether_Paper24_Through_Section07_Interslavic_working.tex",
+          "bytes": 94891,
+          "sha256": "1AFB653CAD5CFE903BC80CB64DE192D22BE33579131208309844F7104CA0BC6B",
+          "old_family_tokens": 3
+        },
+        {
+          "label": "origin_p25",
+          "category": "origin",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper25\\interslavic\\v001\\Noether_Paper25_Interslavic_v001.tex",
+          "bytes": 12679,
+          "sha256": "35B26EEEC332D4FE6526C71926DBC62B40DD63240D59B240AF46DD99DBD7078B",
+          "old_family_tokens": 1
+        },
+        {
+          "label": "origin_p30s06",
+          "category": "origin",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper30\\section06\\interslavic\\v001\\Noether_Paper30_Section06_Interslavic_v001.tex",
+          "bytes": 7324,
+          "sha256": "975F674667C7A61D810B7583D2123AA62D1F03C1C0446E27E118157F6E483EFF",
+          "old_family_tokens": 1
+        },
+        {
+          "label": "origin_p32",
+          "category": "origin",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper32\\schur_paragraph\\interslavic\\v001\\Noether_Paper32_Schur_Paragraph_Interslavic_v001.tex",
+          "bytes": 2741,
+          "sha256": "6BB054EE72945F2AC5425D8E5FD2AF7374ADFF16A52359EF76466B9A6487A482",
+          "old_family_tokens": 1
+        },
+        {
+          "label": "origin_p34s04",
+          "category": "origin",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper34\\section04\\interslavic\\v001\\Noether_Paper34_Section04_Interslavic_v001.tex",
+          "bytes": 7231,
+          "sha256": "EC652DFE1EC05496F5FF9E5F813E950C7BDCA6957CEF6614962A6A08E1D20344",
+          "old_family_tokens": 1
+        },
+        {
+          "label": "origin_p34s10",
+          "category": "origin",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper34\\section10\\interslavic\\v001\\Noether_Paper34_Section10_Interslavic_v001.tex",
+          "bytes": 5296,
+          "sha256": "5CB49233C11B85BADFA866E875A4213A68E55C20A03A332F90A69B1DAF8E1E97",
+          "old_family_tokens": 1
+        },
+        {
+          "label": "origin_p34s17",
+          "category": "origin",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper34\\section17\\interslavic\\v001\\Noether_Paper34_Section17_Interslavic_v001.tex",
+          "bytes": 3165,
+          "sha256": "AABEB6146BD403930B5F6AF482C9CB7DFC39A5C0971670F1FC80A687E62D1F7A",
+          "old_family_tokens": 2
+        },
+        {
+          "label": "origin_p37",
+          "category": "origin",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper37\\source_fidelity\\interslavic\\v001\\Noether_Paper37_SourceFidelity_Interslavic_v001.tex",
+          "bytes": 21114,
+          "sha256": "077AEEC28B65B8410CE09F4350B71F90E4A355771B63838BBA8BB8F4FC313167",
+          "old_family_tokens": 2
+        },
+        {
+          "label": "shadow_p22_intro",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper22\\working\\intro\\interslavic\\Noether_Paper22_Intro_Interslavic_working.tex",
+          "bytes": 6414,
+          "sha256": "BA7489E0B640E84B5FAECD6277B2C3083303F84266C79F7D72750A3D13D12475",
+          "old_family_tokens": 1
+        },
+        {
+          "label": "shadow_p22_s04",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper22\\working\\section04\\interslavic\\Noether_Paper22_Section04_Interslavic_working_fragment.tex",
+          "bytes": 19238,
+          "sha256": "F8CB5D63905B82E607BFA077F2F940360BCF3DF825B5A84B2169E0AAB931CF9D",
+          "old_family_tokens": 2
+        },
+        {
+          "label": "shadow_p22_t01",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper22\\working\\through-section01\\interslavic\\Noether_Paper22_Through_Section01_Interslavic_working.tex",
+          "bytes": 18051,
+          "sha256": "08882D16DBF47F56EF083AECF8DBC4677F566778DEB130EE7283C6A8D6BB56F7",
+          "old_family_tokens": 1
+        },
+        {
+          "label": "shadow_p22_t02",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper22\\working\\through-section02\\interslavic\\Noether_Paper22_Through_Section02_Interslavic_working.tex",
+          "bytes": 23845,
+          "sha256": "076EADD77A39A1C7790391BB0461E05A93E8B12930DDE6E318DBADD735CF1462",
+          "old_family_tokens": 1
+        },
+        {
+          "label": "shadow_p22_t03",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper22\\working\\through-section03\\interslavic\\Noether_Paper22_Through_Section03_Interslavic_working.tex",
+          "bytes": 30532,
+          "sha256": "B986CFE0724F945D117A0F5FEA27BC4294FABD72FB7F541D622DEA488CCC88F9",
+          "old_family_tokens": 1
+        },
+        {
+          "label": "shadow_p22_t04",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper22\\working\\through-section04\\interslavic\\Noether_Paper22_Through_Section04_Interslavic_working.tex",
+          "bytes": 49771,
+          "sha256": "00955A1A752B1F6A7414BE1B89E85D1931824DAE7CC14753FB9A74C4975E0FF7",
+          "old_family_tokens": 3
+        },
+        {
+          "label": "shadow_p22_t05",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper22\\working\\through-section05\\interslavic\\Noether_Paper22_Through_Section05_Interslavic_working.tex",
+          "bytes": 58308,
+          "sha256": "D0F2FA5D94094B092932937F473128273CE2F3ABA4EE56B44428428A281CFB45",
+          "old_family_tokens": 3
+        },
+        {
+          "label": "shadow_p22_t06",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper22\\working\\through-section06\\interslavic\\Noether_Paper22_Through_Section06_Interslavic_working.tex",
+          "bytes": 70716,
+          "sha256": "2301304E5361A6972CB0423BCB1C75ECD0C3EED83B6FBE35566932ED3214B13E",
+          "old_family_tokens": 3
+        },
+        {
+          "label": "shadow_p22_t07",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper22\\working\\through-section07\\interslavic\\Noether_Paper22_Through_Section07_Interslavic_working.tex",
+          "bytes": 77618,
+          "sha256": "624AB42328E6CE575D33787E83B67487318A1105F49DD34885E68B104A379211",
+          "old_family_tokens": 3
+        },
+        {
+          "label": "shadow_p24_s02",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper24\\working\\section02\\interslavic\\Noether_Paper24_Section02_Interslavic_working_fragment.tex",
+          "bytes": 12152,
+          "sha256": "7F1964F42680BA183775D22C35A830AC760DE5DA17892F149ABDBA25F95CA339",
+          "old_family_tokens": 2
+        },
+        {
+          "label": "shadow_p24_s04",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper24\\working\\section04\\interslavic\\Noether_Paper24_Section04_Interslavic_working_fragment.tex",
+          "bytes": 6448,
+          "sha256": "2EA108A4B5B95FAFC687136308CC0CC1D5885FB45BCC94B668EB019B353763CF",
+          "old_family_tokens": 1
+        },
+        {
+          "label": "shadow_p24_t02",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper24\\working\\through-section02\\interslavic\\Noether_Paper24_Through_Section02_Interslavic_working.tex",
+          "bytes": 38932,
+          "sha256": "4D3CF36E57521E7117F09ACB309D376153C66078549C7DCFB7CC8A3170F9291E",
+          "old_family_tokens": 2
+        },
+        {
+          "label": "shadow_p24_t03",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper24\\working\\through-section03\\interslavic\\Noether_Paper24_Through_Section03_Interslavic_working.tex",
+          "bytes": 56891,
+          "sha256": "4DEB445375B618525013819BA1C60F7C7F29B8505963DDC851A5312023407D34",
+          "old_family_tokens": 2
+        },
+        {
+          "label": "shadow_p24_t04",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper24\\working\\through-section04\\interslavic\\Noether_Paper24_Through_Section04_Interslavic_working.tex",
+          "bytes": 63340,
+          "sha256": "08421CB59AD64F688A9AE3414EFC3D3EE921BB7C367A6CFB78B6EEAA3B77A054",
+          "old_family_tokens": 3
+        },
+        {
+          "label": "shadow_p24_t05",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper24\\working\\through-section05\\interslavic\\Noether_Paper24_Through_Section05_Interslavic_working.tex",
+          "bytes": 74432,
+          "sha256": "7EB8C4FE335DDD00EF3D68A746140052E9796F8A758D7AEB155C19023F6B0E00",
+          "old_family_tokens": 3
+        },
+        {
+          "label": "shadow_p24_t06",
+          "category": "historical_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper24\\working\\through-section06\\interslavic\\Noether_Paper24_Through_Section06_Interslavic_working.tex",
+          "bytes": 85849,
+          "sha256": "024084F8A71F670C4C5ED135C6420E46D333DDC3607E9A69297B8408E3DD20E9",
+          "old_family_tokens": 3
+        },
+        {
+          "label": "shadow_local_p24",
+          "category": "inactive_local_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\noether_isv_v019_working\\producer_units\\Noether_Paper24_Through_Section07_Interslavic_working.tex",
+          "bytes": 95451,
+          "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03",
+          "old_family_tokens": 3
+        },
+        {
+          "label": "build_edit0133_a",
+          "category": "inactive_build_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\noether_isv_v019_working\\tmp\\pdfs\\isv_p02_edit0133\\base_det_a\\base-papers1-43-isv.tex",
+          "bytes": 1898820,
+          "sha256": "D83F91F64A884B9BD3D5E9A9626A3D4B66D44402385059E0DC8838CC2899E244",
+          "old_family_tokens": 18
+        },
+        {
+          "label": "build_edit0133_b",
+          "category": "inactive_build_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\noether_isv_v019_working\\tmp\\pdfs\\isv_p02_edit0133\\base_det_b\\base-papers1-43-isv.tex",
+          "bytes": 1898820,
+          "sha256": "D83F91F64A884B9BD3D5E9A9626A3D4B66D44402385059E0DC8838CC2899E244",
+          "old_family_tokens": 18
+        },
+        {
+          "label": "build_edit0134_base_a",
+          "category": "inactive_build_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\noether_isv_v019_working\\tmp\\pdfs\\isv_p24_geometry_edit0134\\base_a\\base-papers1-43-isv.tex",
+          "bytes": 1899010,
+          "sha256": "446BEC4850EE7297731DA4E1544C3733BD4D1CBA415909C027D37A248DF426CF",
+          "old_family_tokens": 18
+        },
+        {
+          "label": "build_edit0134_base_b",
+          "category": "inactive_build_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\noether_isv_v019_working\\tmp\\pdfs\\isv_p24_geometry_edit0134\\base_b\\base-papers1-43-isv.tex",
+          "bytes": 1899010,
+          "sha256": "446BEC4850EE7297731DA4E1544C3733BD4D1CBA415909C027D37A248DF426CF",
+          "old_family_tokens": 18
+        },
+        {
+          "label": "build_edit0134_producer_a",
+          "category": "inactive_build_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\noether_isv_v019_working\\tmp\\pdfs\\isv_p24_geometry_edit0134\\producer_a\\Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+          "bytes": 95655,
+          "sha256": "86B7421845EBA641A6171D03E26015598E605404FA02928833F3CA699E634D42",
+          "old_family_tokens": 3
+        },
+        {
+          "label": "build_edit0134_producer_b",
+          "category": "inactive_build_shadow",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\noether_isv_v019_working\\tmp\\pdfs\\isv_p24_geometry_edit0134\\producer_b\\Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+          "bytes": 95655,
+          "sha256": "86B7421845EBA641A6171D03E26015598E605404FA02928833F3CA699E634D42",
+          "old_family_tokens": 3
+        },
+        {
+          "label": "v018_base",
+          "category": "immutable_public_predecessor",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\noether_slavic_v018\\release\\source\\base-papers1-43-isv.tex",
+          "bytes": 1883717,
+          "sha256": "23629202D0F65BE1AD4A7E66E1A726693B7AC07DE56D183C288D80182B6DCC1A",
+          "old_family_tokens": 18
+        },
+        {
+          "label": "v018_book",
+          "category": "immutable_public_predecessor",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\noether_slavic_v018\\release\\source\\44-book-isv.tex",
+          "bytes": 166774,
+          "sha256": "6FC9F42C8DD1ABFD50AE2E0220C54E013DC73597514F92E6D987DC623A64AF6F",
+          "old_family_tokens": 19
+        },
+        {
+          "label": "v018_45",
+          "category": "immutable_public_predecessor",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\noether_slavic_v018\\release\\source\\45-isv.tex",
+          "bytes": 25458,
+          "sha256": "24EB1BF98DD0D524084BD37B51CCD5518AE1B2ECDCEC64EDB6E390B902DF1986",
+          "old_family_tokens": 0
+        },
+        {
+          "label": "v018_bib",
+          "category": "immutable_public_predecessor",
+          "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\noether_slavic_v018\\release\\source\\bib-isv.tex",
+          "bytes": 9575,
+          "sha256": "CC14C3EC3A81437B2472A4943FDFF0AEE229606665878E21F71A49C98BA1DBAD",
+          "old_family_tokens": 0
+        }
+      ],
+      "mutation_authorized": false
+    },
+    "hostile_transaction_self_test": {
+      "receipt": {
+        "bytes": 1207,
+        "sha256": "8C880F65C0D8EA003E4332F997BF589CA71A1D17318D63215D91D0DA6FAEADFD"
+      },
+      "result": {
+        "cases": [
+          {
+            "case": "clean_success",
+            "status": "PASS"
+          },
+          {
+            "case": "foreign_preexisting_lock",
+            "status": "PASS"
+          },
+          {
+            "case": "foreign_preexisting_stage",
+            "status": "PASS"
+          },
+          {
+            "case": "exclusive_create_identity_uncertain",
+            "status": "PASS"
+          },
+          {
+            "case": "stage_corruption_before_install",
+            "status": "PASS"
+          },
+          {
+            "case": "fault_after_first_install",
+            "status": "PASS"
+          },
+          {
+            "case": "fault_after_middle_install",
+            "status": "PASS"
+          },
+          {
+            "case": "fault_after_last_install",
+            "status": "PASS"
+          },
+          {
+            "case": "rollback_failure_continues_other_targets",
+            "status": "PASS"
+          },
+          {
+            "case": "foreign_third_state_after_install",
+            "status": "PASS"
+          },
+          {
+            "case": "foreign_same_inode_third_state_after_install",
+            "status": "PASS"
+          },
+          {
+            "case": "foreign_exact_output_inode",
+            "status": "PASS"
+          },
+          {
+            "case": "postcommit_cleanup_failure",
+            "status": "PASS"
+          }
+        ],
+        "passed": 13,
+        "temp_only": true,
+        "cross_crash_atomicity_claim": false,
+        "workspace_files_mutated": false
+      }
+    },
+    "application_transaction_residue": 0,
+    "exact_forward_replay": true,
+    "exact_reverse_to_EDIT0143": {
+      "base": {
+        "bytes": 1899139,
+        "sha256": "FDF140D9162E5E18DB728E993A036FB1236F266C4288ADAC81AFDF9AF42B7D22"
+      },
+      "book": {
+        "bytes": 168093,
+        "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"
+      },
+      "p22": {
+        "bytes": 78294,
+        "sha256": "7A57652D07B6A71EBCCFF73466C24660E0B8C9C1CD715AF74665E3899BE1B02F"
+      },
+      "p24": {
+        "bytes": 95655,
+        "sha256": "E20E3A5F790CED79FA8D55F3E34EA04C6786C0A801BBC390B30040869C2E7DF1"
+      }
+    }
+  },
+  "dictionary_evidence": {
+    "current_official_source": {
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\claude_fable_program\\data\\interslavic_dictionary_official_snapshot_20260816\\source_sheet_basic.csv",
+      "bytes": 8101157,
+      "sha256": "0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561"
+    },
+    "current_official_deployed": {
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\claude_fable_program\\data\\interslavic_dictionary_official_snapshot_20260816\\deployed_basic.json",
+      "bytes": 23676753,
+      "sha256": "B9AEB484259AFF95296035DD0EB70A7F0FD5FBE92C327455737DF2FF00F27C3D"
+    },
+    "current_snapshot_manifest": {
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\claude_fable_program\\data\\interslavic_dictionary_official_snapshot_20260816\\SNAPSHOT_MANIFEST.json",
+      "bytes": 13925,
+      "sha256": "AAC7D7192EE2B3F1346084927403176E6063E9BC2BD838C5CAB825F697C776D8"
+    },
+    "current_snapshot_boundary": {
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\claude_fable_program\\data\\interslavic_dictionary_official_snapshot_20260816\\README_SNAPSHOT.md",
+      "bytes": 5432,
+      "sha256": "E2988A1E683B42488F2F313C9B70DB3856F1462F32A3088707B51FA3BF14463F"
+    },
+    "prior_dictionary": {
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\01_methodology\\claude_fable_program\\data\\isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842"
+    },
+    "finding": "current and prior evidence agree on očevidno/očevidny; zero Interslavic očivid- headwords; comparator-language columns are not ISV headwords"
+  },
+  "application_evidence": {
+    "two_byte_identical_default_dry_runs_each": {
+      "bytes": 100116,
+      "sha256": "52A1E64E84A5035D5FCE2F7BDB91AB2A8F2ACFC4BAB0143265477F2E47539B42",
+      "stderr_bytes": 0
+    },
+    "hostile_self_test_lf_canonical": {
+      "bytes": 1207,
+      "sha256": "8C880F65C0D8EA003E4332F997BF589CA71A1D17318D63215D91D0DA6FAEADFD"
+    },
+    "hostile_self_test_powershell_redirect_transport": {
+      "bytes": 1267,
+      "sha256": "C58EE6D59D96590FCF1F98087A2A50FB378B8EA2E39C38FADBD4481BFEBA73D3"
+    },
+    "bounded_manifest_canonical": {
+      "bytes": 6510,
+      "sha256": "353BD4A8CD18C49CB5AA2987008DEC2202AD54650D0F360964FF7CFC8C8ED1F0"
+    },
+    "inputs_manifest_canonical": {
+      "bytes": 23657,
+      "sha256": "191FDD5C539DC5FEFD9C842FB397D69807DC7A32366358368B696E163C1E268D"
+    },
+    "transform_canonical": {
+      "bytes": 21665,
+      "sha256": "6F1744EFC58F9E86E3AF774D88B28C4F125D46967C5C0D8D9A174ADBDA29A886"
+    },
+    "authority_canonical": {
+      "bytes": 6387,
+      "sha256": "C99FEB3FA9A9B096C6B84214BE185C40FEF779EF42488B6EB11F04D6B5886463"
+    },
+    "immutable_lineage_canonical": {
+      "bytes": 14987,
+      "sha256": "39B6AFE351B3046D6559A6769B106C705AF1AF21FE8206C970B7EA7F7907FC8D"
+    }
+  },
+  "unchanged_documentation": {
+    "projection_spec": {
+      "path": "CYRILLIC_PROJECTION_V2_SPEC_v019.md",
+      "bytes": 14643,
+      "sha256": "661DB994C1D70C70D5052E912508808F8032B342D02370EB60803430CA44BA65"
+    },
+    "role": "documentation only; not changed or executed by EDIT0144"
+  },
+  "cleanup_receipt": {
+    "archive": {
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\old stuff\\old stuff ISV019 EDIT0144 sealer syntax pycache.zip",
+      "bytes": 29727,
+      "sha256": "657EDA2427C389BB9B4B52F6C3DE1FF09C758CB1D80C5195785A89BB7D769948"
+    },
+    "verified_member": {
+      "path": "seal_isv_edit0144_v019.cpython-313.pyc",
+      "bytes": 60792,
+      "sha256": "64267CE1CEF74499E3B3A5ED502C341188F97CBCED11828F1227D3C41525EE79"
+    },
+    "zip_opened": true,
+    "all_intended_members_present": true,
+    "verified_original_deleted": true,
+    "scope": "only the task-created disposable syntax-check bytecode; no shared or uncertain file"
+  },
+  "append_only_supersession": {
+    "preserved": [
+      "all decisions, records, sources, evidence, and closed authority dispositions through EDIT0143",
+      "all immutable origins, historical/inactive/build shadows, v018 public predecessor, German authorities, and rights boundaries",
+      "all TeX commands, math spans, structural fingerprints, non-target source bytes, and four non-target active producers"
+    ],
+    "superseded_only": [
+      "EDIT0143 live base/book spelling at the 37 enumerated source tokens",
+      "EDIT0143 live P22/P24 spelling at six enumerated mirrors and their two cumulative identity comments"
+    ]
+  },
+  "rejected_alternatives": [
+    "retain očivid- because Czech, Slovak, or Slovenian comparator columns contain it: comparator forms are not Interslavic headwords",
+    "replace the family with jasno, samorazumno, or prividno: this would change sense or register without evidence",
+    "edit only cumulative sources: this would break P22/P24 producer identity",
+    "edit immutable origins, shadows, build copies, v018, or sealed EDIT0143 artifacts: this would destroy lineage",
+    "accept the lowercase-only count of 17: it omits capitalized Očividno at base L21618:C16"
+  ],
+  "claims": {
+    "semantic_holds": 0,
+    "open_dispositions": 0,
+    "native_or_community_certification": false,
+    "build": false,
+    "publication": false,
+    "doi_or_repository_change": false,
+    "cross_crash_atomicity": false,
+    "blanket_rights_claim": false
+  },
+  "next_action": "Continue the complete Latin residual and projection-protection sweep from sealed EDIT-0144; correct cumulative provenance/header and absolute-path debt before Latin freeze."
+}

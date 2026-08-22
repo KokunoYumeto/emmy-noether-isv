@@ -1,0 +1,32 @@
+{
+  "decision_id": "ISV019-EDIT-0080",
+  "recorded_at": "2026-08-13T15:21:32.0164070+02:00",
+  "epistemic_type": "manager_comparative_adverb_normalization",
+  "scope": "All 49 standalone više/najviše comparative and superlative adverbs in the Latin sources.",
+  "choice": "Normalize više to official vyše and najviše to official najvyše, leaving adjective and verbal roots outside scope.",
+  "motivation": "Every site means more, no longer, more than, one more, or at most. Official grammar and dictionary use vyše/najvyše; više/najviše occur only as national comparator forms.",
+  "alternatives_rejected": ["Retaining South-only surface forms leaves an avoidable national stratum.", "A root-wide replacement could corrupt unrelated adjectives or verbs."],
+  "evidence": {"official_grammar": "adjectives.md SHA-256 184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F uses vyše and najvyše.", "official_dictionary": "isv_words_list.csv SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: vyše and najvyše headwords."},
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0079",
+    "decision_log": {"bytes": 301536, "sha256": "EB2C157676A2D07BC75D8A58B853DA1AA85A441AD910623733A274716B7F6DA6"},
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25557, "sha256": "8746711C552E572EF4AC51F055DDC9DB18FF9858441CED86D4F83A982458C5C8"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898236, "sha256": "ACD09D25E47606274D1C9AE2FC3244BEB90CF30FE363DBEC85EB6DB1B0D62007"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 49,
+    "source_histogram": {"više": 22, "najviše": 27},
+    "target_histogram": {"vyše": 143, "najvyše": 39},
+    "old_form_residue": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25557, "sha256": "4BCE3FC674C270009151AA00E959633720EFFD7D32A8EFE9DA459AF3971A0033"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898236, "sha256": "B112509A25DE926661B58466DB06D951E390188CAC60C646B2F83BA7BF2E064B"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_vyse_adverbs_v019.py", "bytes": 3168, "sha256": "CE0EA0B0C430F131A16E8646027735A22E9798AAA4B41E3D6E2BCDFB94D21412"},
+  "validation": {"prehashes": "4/4 exact against EDIT-0079", "coverage": "49/49 standalone tokens", "postcondition": "source forms zero and target histogram exact", "structure": "byte sizes, TeX controls, braces, math delimiters and line counts invariant", "reproducibility": "frozen successor hashes reproduced before atomic apply"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

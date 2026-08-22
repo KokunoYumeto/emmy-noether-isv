@@ -1,0 +1,183 @@
+{
+  "schema": "noether-interslavic-decision-record-v1",
+  "decision_id": "ISV019-EDIT-0132",
+  "recorded_at": "2026-08-14T17:32:00+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "project_authority_source_identity_rebase_with_bounded_interslavic_surface_editing",
+  "scope": "Paper45 only: atomically replace four coupled alternate-redaction spans with the active ED0014/Math.-Annalen reading; preserve every byte outside the four spans.",
+  "summary": "The Interslavic Paper45 body now matches its displayed Math. Annalen 97 (1927) source identity across Theorem II through Lemma II, Zusatz II/Bertini, the specialization exponent, and Satz IV through Bemerkung II. No equation-only or partial hybrid state was sealed.",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0131",
+    "ledger_rows": 131,
+    "ledger_bytes": 520333,
+    "ledger_sha256": "B14244E07C556D9BB2419554158BBCA865697F35AD42DB7AB9B978031B887417",
+    "sidecar_bytes": 10134,
+    "sidecar_sha256": "896B3E62F0B48B2C3A61980DE7638CAA8A04A1EDEB95A468A0AAEA45678E20C7"
+  },
+  "source_identity_decision": {
+    "displayed_work": "Math. Annalen 97 (1927), pages 559-567",
+    "before": "four exact spans translated a later selected-papers redaction under the Math.-Annalen title",
+    "after": "all four coupled spans use the active ED0014/Math.-Annalen reading",
+    "atomicity": "all four spans applied in one component-level transaction; equation-(3)-only splice rejected"
+  },
+  "blocks": {
+    "A": {
+      "scope": "Theorem II through Lemma II proof; equations (1)-(3), multiplicity argument, recurrence",
+      "input_lines": [156, 269],
+      "input_bytes": 4945,
+      "input_sha256": "4895F0C6B843E2EF9138CC35C60C9ADA224743D2C8780B69DEA260F2C12906AE",
+      "output_lines": [156, 269],
+      "output_bytes": 5000,
+      "output_sha256": "15EF439621C9D97FA4929FCBD3A9F5FEF50F5D2BE7A5EA7C41A531E905F042CD"
+    },
+    "B": {
+      "scope": "Zusatz II and Bertini apparatus",
+      "input_lines": [281, 295],
+      "input_bytes": 714,
+      "input_sha256": "D244AE864385F53087E4D02065DD1BB8A031E460D8F6A6D04DE5C3F1CC0B835F",
+      "output_lines": [281, 294],
+      "output_bytes": 693,
+      "output_sha256": "F74E66335B4D279AA96A40FBF613C7AEE37197D077DD6CD3FCA4E93192091CFD"
+    },
+    "C": {
+      "scope": "specialization exponent q=(phi,psi,p^e)",
+      "input_lines": [322, 322],
+      "input_bytes": 69,
+      "input_sha256": "16134A154BFCC075DEFC487EC23F4D0852B772632538121D1B67570E66FB050E",
+      "output_lines": [321, 321],
+      "output_bytes": 63,
+      "output_sha256": "1871423C0B2638681F91567F03AF2B7FF9F295813339E4D79DDBB92345BE927D"
+    },
+    "D": {
+      "scope": "Satz IV through Bemerkung II; relations (4)-(6), proofs, quotient direction, minimal exponent",
+      "input_lines": [427, 576],
+      "input_bytes": 6794,
+      "input_sha256": "14BE54571F9715F62ADE30EE525B85CAB62269729ED550471160EE20E32E292D",
+      "output_lines": [426, 590],
+      "output_bytes": 6755,
+      "output_sha256": "ED3D9398D572C82081D5E08AA62C9D9321E64D0DD5968431FB46B641528EC3E4"
+    }
+  },
+  "source_inputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898214, "sha256": "AF53D8C3D0400779214EB7F5202298B9B918E0E6FC7AA69E7076D1F3C3BB2340"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "source_outputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25544, "sha256": "DA94D3B387C6A1D2D2971578FF086F9C09EA4A16BB87A664D8E8E8EB242C51A1"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898214, "sha256": "AF53D8C3D0400779214EB7F5202298B9B918E0E6FC7AA69E7076D1F3C3BB2340"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "producer_successors": [
+    {
+      "unit": "Paper02-Section11",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "input": {"bytes": 14940, "sha256": "37B613F59FC8D4F101A714AF84B5DA0AE28FED93123EBA52C0363B234E3D499A"},
+      "output": {"bytes": 14964, "sha256": "7590484A00AA1B57C4AC8BDB53204AA0A570FAF8DCE8E0C9DBBD6247D6CB7AD7"}
+    },
+    {
+      "unit": "Paper08",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper08/interslavic/v001/Noether_Paper08_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper08_Interslavic_v001.tex",
+      "input": {"bytes": 23684, "sha256": "40A84F8E13423AFC923C4C0C714CBFB78C11EBD6F10343EEACA93090FCBB10C3"},
+      "output": {"bytes": 23894, "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"}
+    },
+    {
+      "unit": "Paper22",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper22/interslavic/v001/Noether_Paper22_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+      "input": {"bytes": 77611, "sha256": "6A78318258A2C609D030A248E66834055E904DC808BECA797433C461B31558B6"},
+      "output": {"bytes": 78293, "sha256": "0855C017214927DDF49EC0DD6F7A9ABA350E218F33BB9A94CE6B67E5A8FBDE25"}
+    },
+    {
+      "unit": "Paper24",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper24/working/through-section07/interslavic/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+      "local": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+      "input": {"bytes": 94891, "sha256": "1AFB653CAD5CFE903BC80CB64DE192D22BE33579131208309844F7104CA0BC6B"},
+      "reconstructed_pre_edit_shadow": {"bytes": 95451, "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"},
+      "output": {"bytes": 95465, "sha256": "AD419F8A63C929DF6CFC897054D748F4E9756CBFF18D98F6A9DCEB0AC66F543F"}
+    },
+    {
+      "unit": "Paper34-Section23",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper34/source_fidelity_section23/interslavic/v001/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+      "input": {"bytes": 4638, "sha256": "965699990152B0707997CFE43D58300E243E690657FC85D326486A835E2AC8C0"},
+      "reconstructed_pre_edit_shadow": {"bytes": 4690, "sha256": "BFEE5482B4B35155C44D6577D810E4CACB1932B6A9C63031266EFC2EFA7DEE6A"},
+      "output": {"bytes": 4752, "sha256": "B811E94705075CBA321A016DD3F633B4F47041191835708A113EB6C4ADCC196B"}
+    }
+  ],
+  "authority": {
+    "project_active_german_authority": {"edition": "NOETH-DE-ED-0014", "bytes": 2154011, "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58", "version_doi": "10.5281/zenodo.21908301"},
+    "active_pointer": {"bytes": 152755, "sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE"},
+    "activation_receipt": {"bytes": 28837, "sha256": "1F34D25C36C2ADCEDB47A58ACD4EC92A34EA2F1E88D2F85283313627EA53E436", "anonymous_readback": "PASS_53_OF_53"},
+    "alternate_witness": {"bytes": 28683, "sha256": "EE787705D719584295D6203BE1E1B4F751DE24127B403560A962792B1DA1572E"},
+    "alternate_adjudication": {"bytes": 4977, "sha256": "9EFD312DF8602B701151EE2C42DC57A7F7EE715AE1F7D09D814862B0E0694BA4"},
+    "primary_math_annalen_pdf": {"bytes": 826195, "sha256": "615FC4179839C8F64113DA834020F87E4F6A30FEEA26924BF030E33C55C2E8D2"},
+    "primary_page_566": {"bytes": 560504, "sha256": "7F57148D0C4DA27DC7BBB693D3DF56896B556B4DAB584895657C39139649DF79"},
+    "equation3_adjudication": {"bytes": 3254, "sha256": "7E65E5F5E9F3199AED905A16FDF42AC6ADB462AFC38885E1AEFB73BDF0AEC001"},
+    "scope_machine": {"bytes": 7921, "sha256": "00B8C1B0C657E1971F70DC3E0C6B69302A741A2001B904B282A65948D7F1D2B9"},
+    "scope_human": {"bytes": 4480, "sha256": "DECFC131AC5FEF0252FE4EFDA9B85548A8769069153FA082D644B21F41D20290"}
+  },
+  "bounded_editorial_normalizations": [
+    {
+      "locus": "equation (3), first two explicit right-hand sides",
+      "accepted": "xK_2 and xK_3",
+      "classification": "probable_original_print_defect",
+      "disclosure": "active ED0014 project-editorial correction; no manuscript or separate erratum located"
+    },
+    {
+      "locus": "Lemma-II necessity paragraph",
+      "primary_and_ed0014": "q_i",
+      "accepted": "q^(i)",
+      "classification": "probable_original_print_notation_defect",
+      "reason": "only q^(i) is defined and used by the surrounding criterion and conclusion",
+      "disclosure": "primary page 566 retained as adverse evidence; no manuscript or separate erratum located"
+    }
+  ],
+  "retained_authority_uncertainties": [
+    "d(y) versus d_i(y) naming",
+    "bare f(0,y) coefficient",
+    "P overloaded as ambient object and displayed product",
+    "Bemerkung-II h_i y^(K) before lambda=(K)"
+  ],
+  "human_auditable_considerations": {
+    "question": "Whether to preserve the later selected-papers redaction under a Math.-Annalen title, splice one equation, or restore one coherent source identity.",
+    "evidence_weighed": [
+      "All four current spans match the admitted later alternate witness, so the inherited text is coherent but misidentified.",
+      "The title and bibliography identify the 1927 Math.-Annalen work, and active ED0014 plus the primary print establish the four coupled Math.-Annalen spans.",
+      "Theorem II, equations (1)-(3), Lemma II, Satz IV, and their proofs depend on one another and cannot be mixed safely."
+    ],
+    "alternatives_rejected": [
+      "Equation-(3)-only or token-only splice, because it creates a third hybrid redaction.",
+      "Silent retention under the Math.-Annalen title, because title and body witness disagree.",
+      "Whole-component retranslation, because exact four-span replacement preserves compatible localized work.",
+      "Silent emendation of the four retained ED0014 uncertainties, because each needs separate source adjudication."
+    ],
+    "claim_boundary": "Project source-identity alignment and bounded Interslavic editing; not native/community validation or critical-edition certification."
+  },
+  "applicator": {
+    "path": "apply_isv_p45_math_annalen_rebase_v019.py",
+    "bytes": 46929,
+    "sha256": "62F651B8FFC0ED8457D65A68E9243A8A167A8052DC2DA0B77C7AAB3977357000",
+    "default_mode": "dry_run",
+    "apply_mode": "explicit_atomic_one_shot"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT; exact defects 0",
+    "outside_span_identity": "PASS",
+    "reverse_replay": "PASS",
+    "mathematical_signatures": "PASS",
+    "labels_xrefs_footnotes_environments": "PASS",
+    "transport": "PASS",
+    "frozen_and_public_immutability": "PASS",
+    "no_write_dry_run_snapshot": "PASS",
+    "semantic_holds": 0
+  },
+  "open_dispositions": [
+    {"defect_id": "NOETH-DEF-P24-0003", "status": "OPEN_RENDERED_PAGE_ADJUDICATION", "bundled_here": false}
+  ],
+  "publication": {"working_successor_published": false, "publication_effect": "none", "doi_effect": "none"}
+}

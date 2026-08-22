@@ -1,0 +1,49 @@
+{
+  "decision_id": "ISV019-EDIT-0093",
+  "recorded_at": "2026-08-13T16:07:12.8092221+02:00",
+  "epistemic_type": "manager_connective_family_complete_semantic_closure",
+  "scope": "All 84 residual whole-token tedy/teda connectives, all in the late base-paper block.",
+  "choice": "Resolve 80 logical-consequence sites as zato/Zato or collision-safe tym samym recasts, and four equivalence/explication sites as to jest.",
+  "motivation": "The full original 478-site family has now been semantically classified; no temporal, filler, protected or unresolved site remains.",
+  "alternatives_rejected": [
+    "Blind replacement would create three malformed or semantically duplicated result/causal sequences.",
+    "Togda was rejected because exhaustive source alignment found zero genuine event-time uses.",
+    "Retaining a residual synonym layer would defeat the declared result/equivalence/conditional partition."
+  ],
+  "evidence": {
+    "residual_partition": "Eighty logical consequence sites (77 ordinary plus three collision recasts), four equivalence/explication sites, zero conditional, temporal, filler, protected or hold cases.",
+    "cumulative_partition": "Across all 478 original tokens: 396 logical consequence, 72 equivalence/explication, 10 conditional apodosis, zero temporal or filler cases.",
+    "official_policy": "Prior EDIT-0044 and successor records bind zato for genuine inference, to jest for equivalence, and explicit analytic phrases for collision/conditional cases.",
+    "german_alignment": "The four equivalence controls are appositional German also/identification; all other residuals are logical also/so/damit/result constructions."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0092",
+    "decision_log": {"bytes": 341660, "sha256": "2C68E0204017DDC21D20995140A366702EA174A634878EB679D7A52037F5E464"},
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "49B0D16935DC75F5B316922CB06914340CBB157CDEB760B1E4EBF2686654E6E1"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "B9461C7F368848CD15B3E42FEA741D88AF948CEF571F080E76CF594ACE670647"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898282, "sha256": "4B29B645725D610E111BF1E31C7238BDE78CACD5E54D1BA9BA728F650E6D4629"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 84,
+    "ordinary_logical_replacements": 77,
+    "logical_phrase_recasts": 3,
+    "equivalence_replacements": 4,
+    "whole_token_tedy_teda_residue": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "49B0D16935DC75F5B316922CB06914340CBB157CDEB760B1E4EBF2686654E6E1"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "B9461C7F368848CD15B3E42FEA741D88AF948CEF571F080E76CF594ACE670647"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898309, "sha256": "348A80412C1612C70B3D41817681AF8689F9E9D7BE949A15A44CA435C06DE210"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_connective_final_closure_v019.py", "bytes": 5110, "sha256": "A67608B9F716E2EF9FADB2556455006A7E24A1CCE5EC6EEEC31934777DB3CE1B"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0092",
+    "coverage": "Exact pre-count 84: 25 lower tedy, three upper Tedy, 48 lower teda, eight upper Teda; every site selected once.",
+    "phrase_guards": "All three collision phrases occurred exactly once; all four equivalence loci matched their expected ordinals.",
+    "postcondition": "Case-insensitive whole-token tedy/teda is zero across all four source components.",
+    "structure": "Ordered TeX controls, braces, math delimiters and line counts invariant; unchanged components byte-identical.",
+    "reproducibility": "Frozen successor hashes reproduced before atomic apply."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

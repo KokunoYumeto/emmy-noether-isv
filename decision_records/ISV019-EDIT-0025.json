@@ -1,0 +1,61 @@
+{
+  "decision_id": "ISV019-EDIT-0025",
+  "recorded_at": "2026-08-13T01:06:34.8065550+02:00",
+  "epistemic_type": "manager_direct_lexical_morphological_and_semantic_normalization",
+  "scope": "All 110 live v019 occurrences in the inherited suščestv-/suščstv-/sušt- existence, essential, and essence families.",
+  "choice": "Replace 53 existence forms with the official type-1 obstajati paradigm, recast present 'vorhandene Literatur' as O sučej literaturi, normalize 54 essential forms to the official sučstven- paradigm, and normalize two essence phrases to v sučnosti.",
+  "motivation": "The inherited family mixed malformed Russian/Bulgarian-shaped sųtstvovati forms, several competing sušt-/suščst-/suščestv- spellings, and incorrect agreement. The official type-1 entries provide distinct cross-Slavic forms for existence, current/present, essential, and essence; applying those distinctions removes a dominant-language calque without collapsing different meanings.",
+  "alternatives_rejected": [
+    "Retain or regularize sųtstvovati/sųtstvo; the official dictionary marks these type 3 with an RU/BG source profile.",
+    "Use obstajajučej for vorhandene Literatur; the source means present/current literature, for which official sųći gives sučej.",
+    "Flatten v suštnosti to an adverb; the German construction denotes essence and is preserved as the noun phrase v sučnosti.",
+    "Apply a substring replacement; that could corrupt separate otsutstvuje/absence forms and agreement-sensitive endings."
+  ],
+  "evidence": {
+    "bounded_agent": "/root/predstav_family",
+    "agent_custody_correction": "The first agent return was rejected because it had audited a pending-r33 tree. The agent then reacquired and re-audited the exact live source_latin paths at the four INPUT hashes recorded by the applying script; only the corrected live return was consumed.",
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "entries": [
+        "id 9895 obstajati, type 1, exist",
+        "id 17048 sųći, type 1, being/present/current",
+        "id 20193 sųćstvėny, type 1, crucial/essential/fundamental",
+        "id 20192 sųćstvėno, type 1, essentially/fundamentally",
+        "id 36616 sųćnosť, type 2, essence/main thing",
+        "id 36821 sųtstvovati and id 36822 sųtstvo, type 3 RU/BG-derived rejected comparators"
+      ]
+    },
+    "official_grammar": {
+      "adjectives_path_suffix": "official_site/docs/learn/grammar/adjectives.md",
+      "adjectives_sha256": "184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F",
+      "application": "Agreement, adverb -o, comparison, and naj- rules determine the exact sučstven- surfaces; the official dictionary examples independently attest sučstvenyh and sučnost."
+    }
+  },
+  "results": {
+    "sites_reviewed_and_changed": 110,
+    "existence_class": 54,
+    "essential_class": 54,
+    "essence_class": 2,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167959, "sha256": "A57D6BB65CC818FEB87C17A9BEB44C713F2933D446BF9288990D3E054E32FD5D"},
+    "source_latin/45-isv.tex": {"bytes": 25507, "sha256": "93CF9796801EC73EB5817132B71F92CB077D8218CE0ED54C2A9C605BBFA4611F"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1895521, "sha256": "ADF0F7BF2A76A8AA877C8CC250FD85C1864246765995AB2A7190D83FC0CA5760"},
+    "source_latin/bib-isv.tex": {"bytes": 9578, "sha256": "E5951A6278A556003C44DE30FC0012C1421606BDB1DE3AB6CF05C01986D9613B"}
+  },
+  "tool": {
+    "path": "apply_existence_essence_family_v019.py",
+    "bytes": 8154,
+    "sha256": "D076537DB78BAFF546952201E6762D3912C251C3283D74D0E66D29F0F90EDBC7"
+  },
+  "validation": {
+    "prehashes": "4/4 exact",
+    "dry_run_then_apply": "frozen output hashes reproduced",
+    "partition": "54 existence + 54 essential + 2 essence = 110",
+    "old_family_residue": 0,
+    "protected_spans": "zero target hits in TeX comments or foreign-language arguments",
+    "structure": "TeX controls, references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

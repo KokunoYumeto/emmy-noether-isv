@@ -1,0 +1,215 @@
+{
+  "schema": "noether-isv-normalization-decision-v1",
+  "decision_id": "ISV019-EDIT-0122",
+  "recorded_at": "2026-08-14T02:59:08+02:00",
+  "status": "applied_and_independently_verified",
+  "summary": "Resolve the complete residual tak/tako connective-surface family by separating consequential or purpose tako že from additive takože.",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0121",
+    "ledger_rows": 121,
+    "ledger_bytes": 495769,
+    "ledger_sha256": "5E1CAEDAA593FF0BB595B90A7A4894D52ED80B5A6010C5E54DCE7095851AF37C"
+  },
+  "input_pins": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168097,
+      "sha256": "89E5A8FCB7EBD5149F181E9E2F09F8B375C267F8ED9C96FFF07E511444A12CFC"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25555,
+      "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898745,
+      "sha256": "E710E18AE0576E76E1F429851CC99BC960D16725322B206E3C20A85E87D3B1C1"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "output_pins": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168097,
+      "sha256": "89E5A8FCB7EBD5149F181E9E2F09F8B375C267F8ED9C96FFF07E511444A12CFC"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25555,
+      "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898798,
+      "sha256": "740707F1C93E5BB8977CF524E7B4BA7F8A17672C2F8246A20E8B53F40414B830"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "semantic_policy": {
+    "consequential_or_purpose": {
+      "target": "tako že",
+      "count": 33,
+      "description": "Result, consequence, manner-result, or purpose clauses corresponding to so, such that, or so that."
+    },
+    "additive": {
+      "target": "takože",
+      "count": 6,
+      "description": "Additive also/likewise, including five Croatian-surface takođe sites and the not-only-but-also construction at base line 21418."
+    }
+  },
+  "mapping": {
+    "tak že": {
+      "target": "tako že",
+      "count": 14
+    },
+    "takže": {
+      "targets": {
+        "tako že": 19,
+        "takože": 1
+      },
+      "count": 20
+    },
+    "takođe": {
+      "target": "takože",
+      "count": 5
+    }
+  },
+  "locators": [
+    ["source_latin/base-papers1-43-isv.tex", 3639, 108, "tak že", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 4099, 153, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 4443, 71, "tak že", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 4586, 816, "tak že", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 6789, 301, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 9493, 414, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 10099, 97, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 10622, 519, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 10637, 93, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 11039, 191, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 11394, 414, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 12507, 181, "tak že", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 12681, 156, "tak že", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 13413, 369, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 13919, 289, "tak že", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 13999, 433, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 14001, 272, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 14929, 362, "tak že", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 15174, 315, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 15234, 743, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 15278, 471, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 15316, 376, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 15628, 274, "tak že", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 15805, 724, "tak že", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 15814, 274, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 15820, 772, "tak že", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 16592, 1113, "tak že", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 16592, 1508, "tak že", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 17681, 1051, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 19473, 249, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 21418, 350, "takže", "takože"],
+    ["source_latin/base-papers1-43-isv.tex", 22781, 46, "tak že", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 23384, 110, "tak že", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 24430, 275, "takođe", "takože"],
+    ["source_latin/base-papers1-43-isv.tex", 24490, 32, "takođe", "takože"],
+    ["source_latin/base-papers1-43-isv.tex", 24602, 65, "takođe", "takože"],
+    ["source_latin/base-papers1-43-isv.tex", 24627, 105, "takođe", "takože"],
+    ["source_latin/base-papers1-43-isv.tex", 24647, 191, "takže", "tako že"],
+    ["source_latin/base-papers1-43-isv.tex", 24664, 66, "takođe", "takože"]
+  ],
+  "authority": {
+    "dictionary": {
+      "path": "C:/Users/Floris/Documents/interlanguage/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "relevant_rows": [
+        "physical row 16133: tako že, so/so that",
+        "physical row 16136: takože, also"
+      ]
+    },
+    "conjunction_grammar": {
+      "bytes": 2435,
+      "sha256": "3E986444A77D27A01586B15BFDDE96937E0A265AAEDE09E3A313BE403489B2AB",
+      "relevant_lines": [17, 36, 62]
+    },
+    "german_ed0014": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/08_zenodo/r35/20-de.tex",
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "specific_control": "line 17554, nicht nur ... sondern sogar, confirms additive takože at ISV 21418:350"
+    }
+  },
+  "categorized_corpus": {
+    "use_boundary": "No corpus-frequency vote was used. The exact official dictionary distinction, conjunction grammar, and sentence-by-sentence German semantic alignment determine the split; generated or unadjudicated corpus material cannot establish native provenance."
+  },
+  "receipts": {
+    "target_context": {
+      "bytes": 25716,
+      "sha256": "DC97DF04F5CD28FBB6A9AA8A5FCF827C5061B6414387A29F69B4DFAEBD5B18AA"
+    },
+    "target_locators": {
+      "bytes": 1608,
+      "sha256": "5C774B6B3AA6F2248B856DA02E99C9A7F67A9063A438C88795C2AC2DCC559FF8"
+    },
+    "broad_context_pre": {
+      "bytes": 758147,
+      "sha256": "6C5E922313AAD1EEA8EAF07EB9A5378C202FA97DC00771E3A03B8E791CF41840"
+    },
+    "broad_locators_pre": {
+      "bytes": 49202,
+      "sha256": "147BD0D0D3C660F52E915D6F222E7F6356037CA5D4BFDAAE67984BFF38571E06"
+    },
+    "broad_context_post": {
+      "bytes": 758289,
+      "sha256": "1F3CB7F5729FC21DA918DD649EDC787C2F062480A51B1208434ADEB16371E35C"
+    },
+    "broad_locators_post": {
+      "bytes": 49255,
+      "sha256": "FA81BE651B05F1E54A36D648601A4852B16A50D05E2F7D352AE5CA0C74ECCDFB"
+    }
+  },
+  "census": {
+    "source_sites": 39,
+    "source_lines": 38,
+    "source_histogram": {
+      "takže": 20,
+      "tak že": 14,
+      "takođe": 5
+    },
+    "source_residue_post": 0,
+    "broad_family_pre_post": 1209,
+    "broad_lines_pre_post": 979,
+    "post_histogram": {
+      "tako že": 158,
+      "takože": 1012,
+      "Takože": 39
+    },
+    "linguistic_holds": 0
+  },
+  "protection_and_structure": {
+    "target_overlap_with_comment_math_or_protected_commands": 0,
+    "utf8_nfc_lf_terminal_lf": true,
+    "line_count_and_layout_unchanged": true,
+    "braces_controls_environments_xrefs_math_comments_and_protected_payloads_unchanged": true,
+    "untouched_sources_byte_identical": true
+  },
+  "applicator": {
+    "path": "apply_tak_connective_surface_family_v019.py",
+    "bytes": 12546,
+    "sha256": "19B1115D6E087E44AA9911774913A3CAB9CD91B7E46334A92C16C699F1129EA4",
+    "scanner_helper": {
+      "path": "apply_razshiren_participle_noun_family_v019.py",
+      "bytes": 13426,
+      "sha256": "8CF93F276F17F3C85AE65DA1881B71DAC8E5E7D480653CC82937FAE78A2B509A"
+    }
+  },
+  "independent_qa": {
+    "verdict": "ACCEPT",
+    "defects": 0,
+    "complete_target_census_reproduced": true,
+    "semantic_split_reproduced": true,
+    "successor_reproduced": true,
+    "dry_run_read_only": true
+  },
+  "publication_effect": "none",
+  "doi_effect": "none"
+}

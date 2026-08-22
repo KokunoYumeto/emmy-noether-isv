@@ -1,0 +1,90 @@
+{
+  "decision_id": "ISV019-EDIT-0056",
+  "recorded_at": "2026-08-13T13:57:37.6442096+02:00",
+  "epistemic_type": "manager_direct_official_diacritic_family_normalization",
+  "scope": "All 39 residual unaccented pored/Pored/poredok/Poredok/poredku tokens in the live v019 Latin reader, all in base-papers1-43-isv.tex.",
+  "choice": "Normalize the complete family to official poręd/Poręd and porędok/Porędok/porędku while preserving capitalization, inflection, meaning, and sentence structure.",
+  "motivation": "The official type-1 dictionary entries are poręd for beside/next to and porędȯk for order/sequence. All 39 sites instantiate exactly those meanings. The unaccented family was an inconsistent surface layer beside already-canonical poręd forms, so retaining it supplied no semantic or intelligibility benefit.",
+  "alternatives_rejected": [
+    "Retain pored as a South-Slavic surface variant: the official bridge is poręd, already used productively in the same reader.",
+    "Recast the preposition as kromě: that means except rather than beside/in addition to.",
+    "Rewrite each beside construction syntactically: the exact official preposition permits a morphology-only correction without semantic disturbance."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "accepted_entries": [
+        "id 5198 poręd (+2), preposition type 1, beside/next to",
+        "id 3145 porędȯk, noun type 1, order/sequence"
+      ]
+    },
+    "semantic_review": "All 34 prepositional sites mean beside, along with, or in addition to; all five noun sites mean order/sequence. No protected literal, title, citation, or different-sense site exists."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0055",
+    "decision_log": {
+      "bytes": 217401,
+      "sha256": "8EF5E92F54115211699648B93FD1407377E1D9239E8D163C95AB3DB0E3BA9E44"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167963,
+      "sha256": "1A24249284FB5B95396E29991F697E0F0246697CCF03C8B0ABF4DFF7E9E810D3"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "81C90B9013261D41392153F5A9BBB1D52A7F36F35CC23A4DE1DDE1E6A6DBD5DE"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896747,
+      "sha256": "2B3A88E5A4C8FEC319E8F4271E658FA97F80611C9FD3FC71F53E447A857C482D"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "results": {
+    "sites_changed": 39,
+    "source_histogram": {
+      "pored": 28,
+      "Pored": 6,
+      "poredok": 2,
+      "Poredok": 1,
+      "poredku": 2
+    },
+    "source_family_residual": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167963,
+      "sha256": "1A24249284FB5B95396E29991F697E0F0246697CCF03C8B0ABF4DFF7E9E810D3"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "81C90B9013261D41392153F5A9BBB1D52A7F36F35CC23A4DE1DDE1E6A6DBD5DE"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896786,
+      "sha256": "380C49468854E7910F0551B47CDB14EE859365E4ADBDDD826417EF9F7C8F01B8"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "tool": {
+    "path": "apply_pored_diacritic_normalization_v019.py",
+    "bytes": 5526,
+    "sha256": "411865549665724A8110267932BA5A6CFF7A0D444BCFB835B5B15DE6197E5C88"
+  },
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0055",
+    "coverage": "39/39 source sites mapped by exact case-sensitive histogram",
+    "residue": "zero unaccented whole-token pored-family residue",
+    "protected_spans": "TeX comments and foreign-language arguments unchanged",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged",
+    "reproducibility": "Frozen output hashes reproduced immediately before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

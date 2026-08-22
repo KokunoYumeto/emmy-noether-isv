@@ -1,0 +1,43 @@
+{
+  "schema": "noether-interslavic-methods-build/1.0",
+  "release_id": "NOETHER-ISV-v019",
+  "generated_at": "2026-08-22T00:00:00Z",
+  "status": "PASS",
+  "source": {
+    "path": "source/METHODS_AI_INTERSLAVIC_NOETHER_v019.tex",
+    "bytes": 19682,
+    "sha256": "94F8604DF762E6424AC5D53BE68FC0D046A0A9E5C5FF8BFDC2F65EDC3C0DE7C1"
+  },
+  "build": {
+    "engine": "XeLaTeX",
+    "passes": 2,
+    "serial": true,
+    "shell_escape": false,
+    "source_date_epoch": 1787356800,
+    "pass1_stdout": {
+      "bytes": 7900,
+      "sha256": "E2DFFF770608A386C30DB2390EF08042719CDFE060D4AB640D3173BA7A48B53E"
+    },
+    "pass2_stdout": {
+      "bytes": 7900,
+      "sha256": "E2DFFF770608A386C30DB2390EF08042719CDFE060D4AB640D3173BA7A48B53E"
+    },
+    "tex_log": {
+      "bytes": 31850,
+      "sha256": "18A4B0CE162022D755AE2C5C7B41FDEB8FC32209EB6E5CFDD502B84FE80BE2E8"
+    },
+    "fatal_log_patterns": 0
+  },
+  "output": {
+    "path": "evidence/methods/AI_INTERSLAVIC_NOETHER_METHODS_v019.pdf",
+    "bytes": 148036,
+    "sha256": "9F202AC7A94DFE0CD09633AB5CFFD0DD349608E9ABD89CE887EE1A24F0ABDA2F",
+    "pages": 6
+  },
+  "visual": {
+    "all_pages_rendered": true,
+    "manual_review": "PASS",
+    "receipt_sha256": "8B528F983CB05C1BC1C36614120D482E5D1C60643351128F9CB2F73B847A52F4"
+  },
+  "reuse": "LaTeX source is included for correction, extension, and republication under the stated rights boundary."
+}

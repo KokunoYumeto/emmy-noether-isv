@@ -1,0 +1,59 @@
+{
+  "decision_id": "ISV019-EDIT-0011",
+  "recorded_at": "2026-08-12T20:52:00+02:00",
+  "epistemic_type": "manager_sentence_level_editorial_repair_from_official_lexical_semantics_and_west_south_mathematical_usage",
+  "scope": "all 314 technical validity/applicability uses of the važ-family, all 25 mathematical uses of the plat-family, and all 87 inherited or EDIT-0004-generated sut pravdive predicates in the four editable v019 Latin components",
+  "choice": "Remove the invalid technical sense of važiti (officially weigh/balance) and the invalid mathematical sense of platiti (officially pay). Use context-specific truth, satisfaction, applicability, force, interpretation, and display-introduction constructions for 42 exact sentence loci, and the transparent analytic predicate imaje město/imajut město for the remaining 311 bare mathematical predicates. Repair 14 malformed or semantically wrong sut pravdive sentences and retain 73 that have an explicit grammatical plural subject.",
+  "alternatives_rejected": [
+    "retain the South-Slavic mathematical extension of važiti as a reader-wide default despite its absence from the official sense inventory and its poor West/East transparency",
+    "adopt Czech/Slovak mathematical platiti even though the official common-language sense is pay",
+    "replace every occurrence by one global truth adjective without regard to equation truth, condition satisfaction, theorem applicability, or remains-in-force semantics",
+    "leave the malformed EDIT-0004 outputs for a hypothetical human reviewer"
+  ],
+  "motivation": "National mathematical predicates diverge sharply: Czech/Slovak platí, Croatian vrijedi, Polish zachodzi/ma miejsce, Slovene velja, and Bulgarian often uses fulfillment constructions. No single inherited verb is evenly transparent. Context-specific pravdivy, izpolniti, priměnjati and v silě plus the analytic imaje město avoid knowingly imposing one national extension and make the mathematical relation explicit.",
+  "predecessors": {
+    "source_latin/44-book-isv.tex": {"bytes": 166772, "sha256": "C226E4A578E2090ABCB2650D6EE594E80663E50095516DCDA45356C93C226982"},
+    "source_latin/45-isv.tex": {"bytes": 25450, "sha256": "A379B2107CFB86F9BD62CB2CEB8BA54C07E4683F867D74D02671971DE7F4956A"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1886587, "sha256": "0F9B3F4C27E3768DE83329256093454E9E02371BA12F23897A5A9C524039F823"},
+    "source_latin/bib-isv.tex": {"bytes": 9569, "sha256": "2B5E4698ABEF605BD8899A1FB1B1AD6CF504DF5BAEFB6824D25006116A1F1E8E"}
+  },
+  "results": {
+    "source_latin/44-book-isv.tex": {"bytes": 166958, "sha256": "D795B3863DF5416776053E1584AFCE060ACF75708239D1055D96939A78AB08A5", "line_edits": 4, "token_rule_occurrences": 24},
+    "source_latin/45-isv.tex": {"bytes": 25485, "sha256": "4C6D0611054CEFB1F54081357029B085BC05FE16DF5253343521906A4F3E2F84", "line_edits": 0, "token_rule_occurrences": 5},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1888747, "sha256": "F3E1D1F040CDC7AB480D6ED4AC7DDE86CA2C10BD9BDA66E2448AD79B67A25A63", "line_edits": 38, "token_rule_occurrences": 282},
+    "source_latin/bib-isv.tex": {"bytes": 9569, "sha256": "2B5E4698ABEF605BD8899A1FB1B1AD6CF504DF5BAEFB6824D25006116A1F1E8E", "line_edits": 0, "token_rule_occurrences": 0},
+    "technical_vaz_occurrences_removed": 314,
+    "mathematical_plat_occurrences_removed": 25,
+    "malformed_sut_pravdive_repairs": 14,
+    "reviewed_grammatical_sut_pravdive_retained": 73,
+    "post_sut_pravdive_count": 75,
+    "post_technical_vaz_count": 0,
+    "post_mathematical_plat_count": 0,
+    "importance_consideration_and_weighing_senses_changed": 0
+  },
+  "evidence": {
+    "replacement_plan": {"path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/isv_actual_text_bias_batch_20260812/validity_replacement_plan_v001.json", "bytes": 16018, "sha256": "04DEBEE1AA34157B7316D34DC10CC275C572EB990334B9B7EC9A1715B9492711"},
+    "official_dictionary_snapshot_sha256": "BD64E8F84F94FB65BB177048BFD271105DD9C0B61C6565A72967AA410463692C",
+    "official_senses": {"važiti": "weigh, balance", "platiti": "pay", "pravdivy": "real, true, genuine, truthful"},
+    "west_south_math_shelf_manifest_sha256": "6BB98D9D19AA4B7D063075789F79DCAE9B42D0C95E67171C2ADFA9C2F854A145"
+  },
+  "tool": {"path": "apply_validity_repair_v019.py", "bytes": 8315, "sha256": "95624F9A6B95C2C4D790C0F2D18962770CCFA0E788EAE6AACB600BBB580C1AE3"},
+  "validation": {
+    "prehashes": "4/4 PASS",
+    "line_fragments": "42/42 matched exactly once outside protected spans",
+    "global_rule_counts": "282 važi + 5 Važi + 21 plati + 3 platet = 311/311",
+    "comments_and_foreign_spans": "byte-identical sequence before/after",
+    "transport": "UTF-8 no BOM, LF, terminal LF in all four outputs",
+    "independent_post_scan": "zero technical važ-family and zero mathematical plat-family tokens; exact four output hashes reproduced"
+  },
+  "supersession": "Supersedes EDIT-0004 as the controlling validity/applicability decision. EDIT-0004 remains adverse history: its blanket plural replacement produced 14 malformed or semantically wrong sentences that are repaired here.",
+  "agent_return": {
+    "task_identity": "/root/isv_actual_text_bias_batch",
+    "scope": "read-only exhaustive current-byte validity mapping",
+    "returned_claims": "314 technical važ-family, 25 mathematical plat-family, all 87 sut pravdive reviewed, no holds",
+    "parent_verification": "Parent read the complete plan, replayed every old fragment on the pinned current line, implemented a separate hash-bound tool, ran dry-run then apply, and independently rescanned the successors.",
+    "disposition": "accepted and applied with exact parent verification"
+  },
+  "uncertainty": "No human or community comprehension testing exists. The constructions are the manager's final evidence-based editorial choices; they are applied rather than held, but are not described as human-validated.",
+  "review_state": "applied_and_independently_hash_verified_in_v019_working_latin"
+}

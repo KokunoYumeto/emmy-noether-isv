@@ -1,0 +1,111 @@
+{
+  "applicator": {
+    "bytes": 28178,
+    "path": "apply_complete_foreign_surface_tranche9_v019.py",
+    "sha256": "C027A77494F32C632605CA6E102386F010F4A0CD4AFE38485F856CCF7802DF83"
+  },
+  "claims": {
+    "build_or_publication": false,
+    "cyrillic_ready": false,
+    "latin_frozen": false,
+    "metadata_sealed": false,
+    "source_applied": false,
+    "workspace_files_mutated_by_validation": false
+  },
+  "decision_id": "ISV019-EDIT-0168",
+  "exact_scope": {
+    "active_producer_changes": 0,
+    "complete_identity_islands": 19,
+    "identity_receipt_changes": 0,
+    "physical_lines": 10,
+    "projection_blockers_removed": 22,
+    "source": "source_latin/base-papers1-43-isv.tex",
+    "target_lines": [9926, 10729, 10739, 13695, 13809, 14055, 14153, 15097, 15162, 19679]
+  },
+  "manifests": {
+    "input_source_cohort": {
+      "bytes": 472,
+      "sha256": "60BAF10020963E71761D941F38A49C91573647607E83CAF07350109956728832"
+    },
+    "line_manifest": {
+      "bytes": 40147,
+      "sha256": "AB55FEC9284369BEE5962B68BB61561644D06BFC5A83AF8649F67E6D1B4A377C"
+    },
+    "output_source_cohort": {
+      "bytes": 472,
+      "sha256": "AB42FDF6BECEB332219A64DAD1064A2F25FF06820088D03B9F4456FE7496D67E"
+    },
+    "reverse_manifest": {
+      "bytes": 251,
+      "sha256": "89F79F03BBF97D33652211A204F44060E285CD0F09A8CE3480110E36E30D3923"
+    }
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0167",
+    "state": {
+      "bytes": 32666,
+      "sha256": "145BAA10334E38271D9EE5929AEC2429CE4D8300C3D577B112BD7AF5F948F210"
+    },
+    "source": {
+      "bytes": 1893751,
+      "sha256": "DD94E40DEA0D0C4512EF09D2B777F17C2258FB8659DE9CA8F3130417E51261BA"
+    }
+  },
+  "projection": {
+    "current_blocked": 128,
+    "exact_subtraction": 22,
+    "projected": {
+      "approved_structural_identities": 722,
+      "blocked_occurrences": 106,
+      "inventory_sha256": "D1AB04F4323436C4C9D47DE893ADBB54F81D0E6C55982B09F9CEE4365AF4A650",
+      "report_sha256_excluding_this_field": "CA4D9370B9B9A412D26DBD4DBA7790E8B435E1CB90FDF8F7326450613DD07759",
+      "unsupported_occurrences": 106
+    },
+    "status": "BLOCKED_FAIL_CLOSED",
+    "upstream_v2_projected": {
+      "blocked_occurrences": 828,
+      "blocked_inventory_sha256": "B03BE5D74EF405DAB8A1B975B837545C855587E4CDDFF693ED227B78645CDFFA",
+      "unsupported_occurrences": 222,
+      "unsupported_inventory_sha256": "BC41A4A97B182C1DB6212D6E0E6B4E8D403A0D66A70164A596C83B1A9567DC84",
+      "roman_identity_hold_occurrences": 704,
+      "roman_identity_inventory_sha256": "5F48C7B113D82D6250688F94587F51E6DEF0F239CFA2CA80A93BBEB1B884DF9E"
+    }
+  },
+  "receipt_sha256_excluding_this_field": "792AB94A627D7EEF030594065CC9488B4843EB180DD3901A0092E1120CC7D552",
+  "role_evidence": {
+    "active_local_producer_for_every_target": null,
+    "historical_exhaustive_manifest": {
+      "bytes": 1939216,
+      "path": "decision_records/ISV019-CYR2-POST-EDIT0150-BLOCKER-ROLE-MANIFEST.json",
+      "sha256": "913EE372ABCD1A74A13C3DA18747867385794F4986B59F3BBED85AAD0FDA931E"
+    },
+    "primary_class": "b_foreign_title_venue_citation_or_identity",
+    "target_occurrences": 22
+  },
+  "schema": "noether-isv-edit0168-unapplied-candidate-receipt-v1",
+  "status": "FROZEN_UNAPPLIED_CANDIDATE",
+  "successor": {
+    "source": {
+      "bytes": 1893941,
+      "sha256": "9CE82FEE79235322D253F3C9758DCFF7B73ACB6174260BF959BD15740999DE4A"
+    }
+  },
+  "validation": {
+    "dry_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 15974,
+      "each_stdout_sha256": "C56A0BC629E849F4DC822EFAFFBFEEB408E631708DD39CFC4204D1D878E9C86E",
+      "pair_byte_identical": true
+    },
+    "self_test_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 17872,
+      "each_stdout_sha256": "423F894FD21EBA6FCB38C119E0B40E16A38D93CA650BAEEC40E138667233E575",
+      "pair_byte_identical": true,
+      "receipt_bytes": 1805,
+      "receipt_sha256": "6AC91ECB36D1B07AC43A2F85C7D0FD1898DAD8D9B26B4E91EA190A15AC363FC5"
+    }
+  }
+}

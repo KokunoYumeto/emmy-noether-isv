@@ -1,0 +1,96 @@
+{
+  "decision_id": "ISV019-EDIT-0047",
+  "recorded_at": "2026-08-13T02:46:07.5333417+02:00",
+  "epistemic_type": "manager_direct_residual_existence_family_normalization",
+  "scope": "All 31 remaining whole-token sušstv- existence forms in the live v019 Latin corpus: 25 inflected existence nouns and six finite or infinitive existence verbs.",
+  "choice": "Extend the official type-1 obstajati/obstajanje paradigm already adopted in EDIT-0025 to the missed sušstv- spelling variant, preserving noun case and verb person or infinitive morphology.",
+  "motivation": "Every site denotes literal mathematical existence: existence theorems and proofs, existence of functions, constants, ideals, value systems, or fields. None denotes essence, essentiality, presence/currentness, or an entity. The variant escaped EDIT-0025's source inventory and otherwise leaves a malformed Russian/Bulgarian-shaped doublet inside an already-normalized semantic family.",
+  "alternatives_rejected": [
+    "Regularize sušstv- to sųtstvovati/sųtstvo: EDIT-0025 rejected that official type-3 RU/BG-derived family in favor of type-1 obstajati.",
+    "Use sučnost or sučstven-: those denote essence or essentiality and would change the meaning of all 31 existence contexts.",
+    "Treat the missed spelling as harmless: it fragments a central mathematical term and contradicts the accepted zero-old-family policy of EDIT-0025.",
+    "Apply a substring replacement: exact whole-token inflection mapping is required to preserve genitive, dative/locative, infinitive, singular-present, and plural-present morphology."
+  ],
+  "evidence": {
+    "prior_existence_decision": {
+      "path": "decision_records/ISV019-EDIT-0025.json",
+      "bytes": 4358,
+      "sha256": "33D3DD17FA6A5242CE37812F6FA8323AD3380F73DEE4CB1C90867E6C64F7EDE6",
+      "binding": "official obstajati paradigm and explicit rejection of type-3 sųtstvovati/sųtstvo"
+    },
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "accepted_entry": "id 9895 obstajati, type 1, exist",
+      "rejected_entries": "id 36821 sųtstvovati and id 36822 sųtstvo, type 3 RU/BG-derived comparators"
+    },
+    "semantic_census": {
+      "existence_nouns": 25,
+      "existence_verbs": 6,
+      "essence_or_essentiality": 0,
+      "entity_or_current_presence": 0
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0046",
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167959,
+      "sha256": "356D996F1E592DD857B62241F02815D42FAE54455BF46D294978767B9D7CB6D5"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "4E47FD1C693F89726DC65607A7500C9376EA0F09E8BC48EE46D48893BD580292"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1897096,
+      "sha256": "B1314BA860B177CE35632A43B26006A068788BB892DCE9D28E909294B51CB605"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"
+    }
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 31,
+    "mapping_histogram": {
+      "sušstvovanja_to_obstajanja": 14,
+      "sušstvovanje_to_obstajanje": 9,
+      "sušstvovanju_to_obstajanju": 2,
+      "sušstvovati_to_obstajati": 2,
+      "sušstvuje_to_obstaja": 3,
+      "sušstvujut_to_obstajajut": 1
+    },
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167959,
+      "sha256": "356D996F1E592DD857B62241F02815D42FAE54455BF46D294978767B9D7CB6D5"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "4E47FD1C693F89726DC65607A7500C9376EA0F09E8BC48EE46D48893BD580292"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1897005,
+      "sha256": "49AA9E1AC211727CB504025F705360713F12BF6A7BAB12AD81C781719B82273B"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"
+    }
+  },
+  "tool": {
+    "path": "apply_existence_variant_residual_v019.py",
+    "bytes": 7632,
+    "sha256": "B1CB900030992F532D19929E87B23827FC83361E7785279724265639C0117D84"
+  },
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0046",
+    "coverage": "31/31 exact whole-token sites changed once; all targets were in base-papers1-43-isv.tex",
+    "protected_spans": "zero targets in TeX comments, foreign, or foreignlanguage spans; protected values byte-identical",
+    "residue": "zero whole-token sušstv- residue",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged",
+    "successor_hashes": "4/4 direct byte/hash replay exact"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

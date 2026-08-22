@@ -1,0 +1,170 @@
+{
+  "schema": "noether-isv-edit0153-unapplied-candidate-receipt-v1",
+  "decision_id": "ISV019-EDIT-0153",
+  "status": "UNAPPLIED_FROZEN_CANDIDATE_REQUIRES_INDEPENDENT_PREAPPLY_QA",
+  "date": "2026-08-18",
+  "predecessor": {
+    "registry_id": "CANON-REGISTRY-0004",
+    "decision_id": "ISV019-EDIT-0152",
+    "registry_validator": {
+      "exit_code": 0,
+      "stdout": {
+        "bytes": 562,
+        "sha256": "49D6F55AA418FCA6FE2CB32D514FE485BC9745FF04436276B36D6E27D867BBF2"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      },
+      "file_pins": 59,
+      "unique_pinned_paths": 59,
+      "status": "PASS"
+    },
+    "input_cohort_manifest": {
+      "bytes": 522,
+      "sha256": "D93E59343DC7C7574115DAE77A6E83C4828370BB5657A32FAD17A86728BE1346"
+    }
+  },
+  "linguistic_adjudication": {
+    "path": "decision_records/ISV019-EDIT-0153-UNAPPLIED-LINGUISTIC-ADJUDICATION.json",
+    "bytes": 11049,
+    "sha256": "0ED14DA5E94AA0E0D81C751D3866D2D25B2971F611CF73AAFDCDB34B5F1FB175",
+    "old": "zürihsko",
+    "new": "curišsko",
+    "confidence": 0.8,
+    "classification": "project_house_contextual_adjudication"
+  },
+  "applicator": {
+    "path": "apply_zurich_adjective_v019.py",
+    "bytes": 42133,
+    "sha256": "228E1A92085B8C1680F0B5996DC818E7DC087D536296B47D0D06ADDE205DB65A",
+    "transport": "UTF-8, LF, no BOM, NFC",
+    "production_apply_invocations": 0
+  },
+  "determinism": {
+    "dry_compact": {
+      "runs": 2,
+      "exit_codes": [
+        0,
+        0
+      ],
+      "byte_identical": true,
+      "stdout": {
+        "bytes": 13089,
+        "sha256": "6C0D68A4D4DB3138CBF89C272540CAE8F1132F44F18A8585DB6E691D0CD5C2EE"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    "self_test_compact": {
+      "runs": 2,
+      "exit_codes": [
+        0,
+        0
+      ],
+      "byte_identical": true,
+      "stdout": {
+        "bytes": 14989,
+        "sha256": "AD16ED6240628FA67787E61CDB195099B6FF0E2EB294DA5BAD04E4E16A6D4E1F"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      },
+      "embedded_receipt": {
+        "bytes": 1792,
+        "sha256": "DFD235C6D639422495074214AC056C34709FA1BE95224E601B0D34D12D9935CA"
+      },
+      "transform_hostiles": 5,
+      "inherited_transaction_cases": 21,
+      "one_target_transaction_cases": 2
+    }
+  },
+  "projection": {
+    "changed_file": "source_latin/base-papers1-43-isv.tex",
+    "predecessor": {
+      "bytes": 1892324,
+      "sha256": "8D8902B23C1BB2B421D5D56870369330498FDC83A8BFC1B746DEE8307C2E45B0"
+    },
+    "successor": {
+      "bytes": 1892324,
+      "sha256": "9490F4C09573ABC4FFC97AE80F2DF08330488B7EA2148AD6CC1C8B39756B02E9"
+    },
+    "line": 24190,
+    "line_before": {
+      "bytes": 1149,
+      "sha256": "8198C93EBA16D75372D77E60B67818A5C3DC3DC37D640D8B513DDD0C87A82E62"
+    },
+    "line_after": {
+      "bytes": 1149,
+      "sha256": "1A740A1DD8C56BE1334EFD6DCE75FCA32B3E39C93C0C78BBE409745497137668"
+    },
+    "output_cohort_manifest": {
+      "bytes": 522,
+      "sha256": "EF025729D2AF592FA257EE80923F4C5ACC5AA7E3F3E3B7ADE75DC455CD0B723F"
+    },
+    "exact_reverse": true,
+    "outside_target_bytes_exact": true,
+    "producer_changes": 0,
+    "identity_receipt_changes": 0,
+    "math_changes": 0,
+    "comment_changes": 0,
+    "foreign_payload_changes": 0
+  },
+  "scanner": {
+    "current": {
+      "blocked_union": 1096,
+      "blocked_inventory_sha256": "92ED1CF0D9607F80A0383343FCA8EA05AC28C5513538D770B6B5BC9137AD3DFD",
+      "unsupported": 490,
+      "unsupported_inventory_sha256": "0C20B094B3FD64231C6793FCE49CD7A2529B713060B48B36C6D5051CD76DED8A",
+      "roman_identity_holds": 704,
+      "roman_inventory_sha256": "8D760DF8A45E3FD68103EC237022E188CAC53AEC4677E5FEB4378EF60F2CB908"
+    },
+    "projected": {
+      "blocked_union": 1095,
+      "blocked_inventory_sha256": "52FA3D23128A090C30471F9069188E50556C7CAA010F9AE5286FD355AD2BEEB9",
+      "unsupported": 489,
+      "unsupported_inventory_sha256": "ECEBD00FF987F0A430E0C320333CBE4218C82FBCD315E7CE358E0623F62ABE9B",
+      "roman_identity_holds": 704,
+      "roman_inventory_sha256": "8D760DF8A45E3FD68103EC237022E188CAC53AEC4677E5FEB4378EF60F2CB908",
+      "parse_errors": 0,
+      "coverage_failures": 0,
+      "unknown_argument_commands": 0,
+      "status": "BLOCKED_FAIL_CLOSED"
+    },
+    "role_partition_after": {
+      "lexical": 0,
+      "foreign_title_citation": 307,
+      "integrated_name_eponym_place": 66,
+      "structural_roman": 722,
+      "blocked_union": 1095
+    }
+  },
+  "transaction": {
+    "target_count": 1,
+    "target": "source_latin/base-papers1-43-isv.tex",
+    "metadata_and_registry_barrier_before_residue_lock_or_write": true,
+    "rollback_first": true,
+    "inode_identity_checks": true,
+    "third_state_preserved_on_uncertainty": true,
+    "lock_removed_last": true,
+    "transaction_residue_after_tests": 0,
+    "pycache_residue_after_tests": 0
+  },
+  "nonclaims": {
+    "source_applied": false,
+    "metadata_sealed": false,
+    "registry_updated": false,
+    "build_or_render_run": false,
+    "git_run": false,
+    "network_or_publication_run": false,
+    "independent_preapply_qa_complete": false,
+    "latin_freeze": false,
+    "cyrillic_ready": false,
+    "global_linguistic_completion": false,
+    "native_or_community_certification": false
+  },
+  "required_next_action": "Independent read-only preapply QA must rehash the exact applicator and adjudication, reconstruct the one-token output without importing transform helpers, verify protected boundaries and authority/adverse alternatives, and stress the one-target transaction before any --apply invocation."
+}

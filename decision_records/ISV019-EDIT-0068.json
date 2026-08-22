@@ -1,0 +1,32 @@
+{
+  "decision_id": "ISV019-EDIT-0068",
+  "recorded_at": "2026-08-13T14:43:36.0847337+02:00",
+  "epistemic_type": "manager_direct_definition_connective_repair",
+  "scope": "One exact definition/apposition connective at base line 23895.",
+  "choice": "Replace teda with official type-1 imenno in the phrase 'nerazložimo vloženje, imenno prědstavjenje'.",
+  "motivation": "The clause unpacks the preceding term as namely a representation; it is neither a temporal marker nor a mathematical conclusion.",
+  "alternatives_rejected": ["zato would falsely mark a conclusion.", "togda would falsely mark time or condition.", "Retaining teda preserves a branch-shaped connective despite an exact type-1 term."],
+  "evidence": {
+    "official_dictionary": {"path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv", "bytes": 7993414, "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842", "entry": "id17486 imenno, adverb type1, namely, German nämlich"},
+    "german_context": "The source has eine irreduzible Einbettung (Darstellung), confirming definition/apposition."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0067",
+    "decision_log": {"bytes": 263608, "sha256": "0E5899B9EFCFDF248FFCC7EFD56C333EF6439A909E32ABB39D4C9FB38074F8D6"},
+    "source_latin/44-book-isv.tex": {"bytes": 167995, "sha256": "492A22994045F3168995E12AE45E90D750715AF1FF42AF35FA0E1DF1BDB07BD0"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897411, "sha256": "A3F3CC0C5EADFDA42005E01D81B415632F8EBA6C6ADAA4A7B3E03F32D47179B2"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 1,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167995, "sha256": "492A22994045F3168995E12AE45E90D750715AF1FF42AF35FA0E1DF1BDB07BD0"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897413, "sha256": "06F23D8BFF2C9DC8BE680B9282AE790A3D1B9C4A3F0C01B63C21F24DC83AA2D2"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_imenno_definition_singleton_v019.py", "bytes": 2689, "sha256": "8C3BC740897CC4A9ACFE549F1938BA8C4210C50B278723A1BCB434F2588D4D28"},
+  "validation": {"prehashes": "4/4 exact against EDIT-0067", "coverage": "one exact full-phrase anchor", "structure": "line count and TeX structure unchanged", "reproducibility": "frozen output hash reproduced before atomic apply"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

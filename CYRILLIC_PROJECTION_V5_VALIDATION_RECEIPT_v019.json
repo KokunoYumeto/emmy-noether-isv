@@ -1,0 +1,118 @@
+{
+  "schema": "noether-isv-cyrillic-projection-v5-validation-receipt-v1",
+  "status": "PASS_DETERMINISTIC_DUPLICATE_DERIVATION_IN_MEMORY",
+  "created_at": "2026-08-21T23:15:00+02:00",
+  "classification": "Latin and Cyrillic are two deterministic scripts of one Interslavic edition; Cyrillic is not an independent translation witness.",
+  "dependencies": {
+    "implementation": {
+      "path": "project_isv_cyrillic_v5.py",
+      "bytes": 26612,
+      "sha256": "723BD60F6CFE7C2E1192610215591C8D59BDECEAC778423FDEB4E105C831CFCB"
+    },
+    "independent_test": {
+      "path": "test_project_isv_cyrillic_v5.py",
+      "bytes": 7441,
+      "sha256": "AB294078447F968E71581490161231821ACA231F82E05B3001943B1A1914486F"
+    },
+    "completeness_audit": {
+      "path": "audit_isv_final_projection_completeness_v019.py",
+      "bytes": 27831,
+      "sha256": "19F3AC0B759B89E77A7C5B25A1CDF8605DC9DF1BB5BFFF3F0BC05E559C954476"
+    },
+    "role_manifest": {
+      "path": "decision_records/ISV019-FINAL-PROJECTION-COMPLETENESS-INVENTORY.json",
+      "bytes": 3505137,
+      "sha256": "E7B8CDE438E9B72A61F6FA3AE0422AF6CBFBCBB7965E139BD123709CC1EEF818",
+      "internal_sha256": "96CE41A7C076142F36697B93004E7A4F92BF0B90296C0A265B0A32CA99A29DBC"
+    },
+    "v4_predecessor": {
+      "path": "project_isv_cyrillic_v4.py",
+      "bytes": 34849,
+      "sha256": "A63A6F697A99F5A8D64C0B69D24875C3031C8EFE7DE8A137DE8F844CD460E341"
+    }
+  },
+  "source_manifest": [
+    {
+      "file": "44-book-isv.tex",
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    {
+      "file": "45-isv.tex",
+      "bytes": 26053,
+      "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "bytes": 1894721,
+      "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"
+    },
+    {
+      "file": "bib-isv.tex",
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  ],
+  "reviewed_role_census": {
+    "one_letter_total": 690,
+    "one_letter_lexical_projected": 449,
+    "one_letter_preserved": {
+      "I": 148,
+      "V": 48,
+      "M": 45,
+      "total": 241
+    },
+    "selected_occurrences_before_union": 1660,
+    "v4_structural_identities": 722
+  },
+  "derivation": {
+    "duplicate_runs_byte_identical": true,
+    "projection_issues": 0,
+    "conversion_classes": {
+      "converted_after_explicit_etymological_simplification": 3355,
+      "converted_standard_isv": 161655
+    },
+    "report_sha256_excluding_this_field": "429CC104F715E4A8A4CDACFE7B56A6F12011F738354D8EB422594E7406296363",
+    "output_manifest_sha256": "0ABBCCED0A17BA6E510FDA64B423128A274CC1122B9FDB7ACB35732386996715",
+    "output_manifest": [
+      {
+        "file": "44-book-isv-cyrl.tex",
+        "bytes": 230370,
+        "sha256": "13E2391567A522038C3F959C22FA2FAC164D032F82DA811C6447560F5680C9F0"
+      },
+      {
+        "file": "45-isv-cyrl.tex",
+        "bytes": 35902,
+        "sha256": "E1568BAB1E389E07816178A2FBDEE3833508C79BF0C7C19DD5120812E24646FE"
+      },
+      {
+        "file": "base-papers1-43-isv-cyrl.tex",
+        "bytes": 2707554,
+        "sha256": "A9B016AA323C656063467393A3F0949D5CAAA611B8FDCE23172AF2D189D4B930"
+      },
+      {
+        "file": "bib-isv-cyrl.tex",
+        "bytes": 13255,
+        "sha256": "5A6AE75FF94360BC104CE240E0EC18A2329C5229F68B198F763EDF7E786B816B"
+      }
+    ]
+  },
+  "independent_test": {
+    "status": "PASS",
+    "hostile_case_count": 5,
+    "hostile_cases": [
+      "source_payload_mutation",
+      "source_topology_omission",
+      "manifest_surface_tamper",
+      "unmanifested_output_latin",
+      "unsafe_output_directory"
+    ],
+    "workspace_files_mutated": false
+  },
+  "claim_boundary": [
+    "This receipt closes the deterministic projection role gates and proves duplicate in-memory source derivation only.",
+    "It does not itself freeze the Latin sources, install derived files, compile readers, or complete text, math, font, link, or visual QA.",
+    "No native-speaker, community, or external peer-review certification is claimed."
+  ],
+  "receipt_sha256_excluding_this_field": "A48A628EAEFAEB5893A96CE5CBF1F56E46D1248FAB3FAA033B7284B9F8A4D2A2"
+}

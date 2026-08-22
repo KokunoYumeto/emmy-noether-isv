@@ -1,0 +1,44 @@
+{
+  "decision_id": "ISV019-EDIT-0064",
+  "recorded_at": "2026-08-13T14:32:48.3024319+02:00",
+  "epistemic_type": "manager_direct_inference_connective_normalization_continuation",
+  "scope": "All eleven tedy/teda connectives in paper 45.",
+  "choice": "Normalize all eleven to established type-1 result marker zato.",
+  "motivation": "Each site is an explicit mathematical conclusion or result transition; none is temporal, conditional-apodotic, or appositive. EDIT-0044 already binds zato for this exact semantic function and rejects branch-weighted teda/tedy.",
+  "alternatives_rejected": [
+    "Retain the West-shaped connective layer: leaves an unnecessary branch-specific duplicate.",
+    "Use togda: falsely introduces temporal or conditional meaning.",
+    "Use imenno: falsely turns conclusions into namely/appositive explanations."
+  ],
+  "evidence": {
+    "context_review": "Exact paper-45 lines 308, 442, 460, 466, 483, 518, 544, 549, 551, 558, and 575 are all conclusion/result transitions.",
+    "binding_precedent": "ISV019-EDIT-0044 established official type-1 zato for genuine inference/result markers."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0063",
+    "decision_log": {"bytes": 250757, "sha256": "73C5271EAC1B7D0BB7EF03A48A7382AEC21F5F9054C30FB4223D7B532F5A0E15"},
+    "source_latin/44-book-isv.tex": {"bytes": 167976, "sha256": "5B264B331B53DC3D53478A24FA3D53F5D70951DEDA75A4233994C3BB09FC1D44"},
+    "source_latin/45-isv.tex": {"bytes": 25533, "sha256": "D02719EAF549441FCB64C5AC56712791DD67D4DDF8E0FA410B10D5F2DC49A302"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896873, "sha256": "5B20417ACBE3FB293295A04C5FEBF374E803CB2197D699416B082E26C4520E25"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 11,
+    "source_histogram": {"tedy": 10, "teda": 1},
+    "paper45_source_residual": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167976, "sha256": "5B264B331B53DC3D53478A24FA3D53F5D70951DEDA75A4233994C3BB09FC1D44"},
+    "source_latin/45-isv.tex": {"bytes": 25533, "sha256": "3C0088C41CF5E788EAD009CDDD5717091EABE84F0FF251DB9CA4171A787590A7"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896873, "sha256": "5B20417ACBE3FB293295A04C5FEBF374E803CB2197D699416B082E26C4520E25"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_paper45_inference_connectives_v019.py", "bytes": 4349, "sha256": "B915E5C0A46A91C78A13C52B082A1A717042ECB018091E7AAFF1A79584AC0546"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0063",
+    "coverage": "11/11 line-bound sites changed exactly once",
+    "residue": "zero whole-token tedy/teda remains in paper 45",
+    "structure": "TeX controls, braces, math delimiters, and line counts unchanged",
+    "reproducibility": "Frozen output hash reproduced immediately before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

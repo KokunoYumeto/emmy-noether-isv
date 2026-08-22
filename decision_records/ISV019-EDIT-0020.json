@@ -1,0 +1,53 @@
+{
+  "decision_id": "ISV019-EDIT-0020",
+  "recorded_at": "2026-08-13T00:41:11.0699264+02:00",
+  "epistemic_type": "manager_direct_sentence_syntax_and_prose_copula_repair",
+  "scope": "All 65 remaining standalone čto tokens after EDIT-0019, plus the five prose copulas hidden among 250 standalone su/Su forms.",
+  "choice": "Recast 64 non-interrogative Russian-calqued čto constructions sentence by sentence; preserve the one genuine interrogative pronoun. Change five prose copulas su to sut while preserving 245 mathematical su/Su symbols byte-exact.",
+  "motivation": "Official čto is an interrogative/relative pronoun, while the reader repeatedly used it as a Russian-style sentential conjunction or discourse connector. Transparent to/ktoro/tym/pri čem/ravnoznačno constructions preserve the German logic without privileging Russian syntax. Interslavic third-person plural of byti is sut; mathematical indices and symbols named su/Su are not language tokens.",
+  "alternatives_rejected": [
+    "Blind čto-to-že substitution, because the 64 contexts express consequences, relative clauses, equivalence, parenthetical assumptions, or discourse linkage rather than one complementizer relation.",
+    "Blind su-to-sut substitution, because 245 of 250 forms are protected mathematical notation.",
+    "Retaining sentence-level Russian syntax merely because čto itself is an official pronoun."
+  ],
+  "evidence": {
+    "bounded_agent": "/root/grammar_sweep",
+    "official_grammar_disposition": "čto retained only as the genuine interrogative in 'pytanje, čto možno rěkti'; sut used only for third-person-plural prose copulas",
+    "source_review": "All 88 original čto tokens accounted for: 23 QED formulas repaired in EDIT-0019, 64 repaired here, one interrogative retained. All 250 su/Su forms accounted for: five prose copulas repaired, 245 mathematical symbols retained."
+  },
+  "results": {
+    "cto_tokens_repaired": 64,
+    "copulas_repaired": 5,
+    "preserved_interrogative_cto": 1,
+    "preserved_mathematical_su_Su": 245,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167892,
+      "sha256": "FA1EB436CBE6717430DC60F88A3D6EA85BFD1E194C462B9D5FCB3CEF002D69A9"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25501,
+      "sha256": "9DF102932398427CA4C31AF04DC8B691C876DDF3D147219EDFBAE634E3891935"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1894752,
+      "sha256": "D6D41EC975C734C09DC749C2E1D5B52743605E4236B5280143E6949ACBFCA5E1"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9578,
+      "sha256": "E5951A6278A556003C44DE30FC0012C1421606BDB1DE3AB6CF05C01986D9613B"
+    }
+  },
+  "tool": {
+    "path": "apply_cto_copula_repair_v019.py",
+    "bytes": 12479,
+    "sha256": "B08EA9E5357DE4F218C285C01405EE877D86695A8FDFE569E140A9E234F58F90"
+  },
+  "validation": {
+    "prehashes": "4/4 exact",
+    "dry_run_then_apply": "output hashes frozen by the tool and reproduced by the applying run",
+    "residual_gate": "exactly one standalone čto remains, and it is the declared interrogative",
+    "structure": "TeX control sequence stream, label/ref/cite stream, brace counts, math-delimiter stream, and line count unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

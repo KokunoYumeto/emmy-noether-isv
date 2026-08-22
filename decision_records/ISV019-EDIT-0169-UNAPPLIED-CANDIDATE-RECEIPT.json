@@ -1,0 +1,111 @@
+{
+  "applicator": {
+    "bytes": 29378,
+    "path": "apply_complete_foreign_surface_tranche10_v019.py",
+    "sha256": "FF305BE0A2413044E60A0068501E732B7CEE0A2EBAE066E55738E0E739A1F469"
+  },
+  "claims": {
+    "build_or_publication": false,
+    "cyrillic_ready": false,
+    "latin_frozen": false,
+    "metadata_sealed": false,
+    "source_applied": false,
+    "workspace_files_mutated_by_validation": false
+  },
+  "decision_id": "ISV019-EDIT-0169",
+  "exact_scope": {
+    "active_producer_changes": 0,
+    "complete_identity_islands": 21,
+    "identity_receipt_changes": 0,
+    "physical_lines": 14,
+    "projection_blockers_removed": 27,
+    "source": "source_latin/base-papers1-43-isv.tex",
+    "target_lines": [5468, 9849, 9866, 9876, 9879, 9910, 9920, 9924, 9934, 9949, 9993, 10020, 10022, 10028]
+  },
+  "manifests": {
+    "input_source_cohort": {
+      "bytes": 472,
+      "sha256": "AB42FDF6BECEB332219A64DAD1064A2F25FF06820088D03B9F4456FE7496D67E"
+    },
+    "line_manifest": {
+      "bytes": 53195,
+      "sha256": "E3596458567004A06F71F95094A5108BC4787DF3BD2F1E268693DB64F21AA918"
+    },
+    "output_source_cohort": {
+      "bytes": 472,
+      "sha256": "37E36C4A9217B7BCD9C384E94F9AFE860907F6CD2C7CC83180B474EAC1C0C6D3"
+    },
+    "reverse_manifest": {
+      "bytes": 251,
+      "sha256": "6C813877A759B0FE18B7E3F4347271F50F7A907C208707F3631292711324407D"
+    }
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0168",
+    "state": {
+      "bytes": 32851,
+      "sha256": "DCA5434ABFAC728E993176F25263C457BF8284DEAC61AC2E076452990FD00E7D"
+    },
+    "source": {
+      "bytes": 1893941,
+      "sha256": "9CE82FEE79235322D253F3C9758DCFF7B73ACB6174260BF959BD15740999DE4A"
+    }
+  },
+  "projection": {
+    "current_blocked": 106,
+    "exact_subtraction": 27,
+    "projected": {
+      "approved_structural_identities": 722,
+      "blocked_occurrences": 79,
+      "inventory_sha256": "4D5156183C4BC84DF3E57ECDE345005F5F0A0019E491B89E36D94DAE79701481",
+      "report_sha256_excluding_this_field": "62702BA92389AC69FCB67962EE85211720D1EA2D9E007F366B6541AB1CFE0D19",
+      "unsupported_occurrences": 79
+    },
+    "status": "BLOCKED_FAIL_CLOSED",
+    "upstream_v2_projected": {
+      "blocked_inventory_sha256": "9D381727F096DD4EE20F2F12ADEDC6E1E523BC02D5067F675D96A1F9809377EF",
+      "blocked_occurrences": 801,
+      "roman_identity_hold_occurrences": 704,
+      "roman_identity_inventory_sha256": "E02FB075F14749A52DFFF60AA2797CC58ADE959F5B60E23564BEDD17487899C6",
+      "unsupported_inventory_sha256": "C8AF83A6215F5128053B6E2B51F44D8AE1C89D0643926902E34FD3B280D40742",
+      "unsupported_occurrences": 195
+    }
+  },
+  "receipt_sha256_excluding_this_field": "F68F42B017C7724AA2D5DCC56D6ACAA5CAA292552B70AB4C5EE9FFF9BE36B35E",
+  "role_evidence": {
+    "active_local_producer_for_every_target": null,
+    "historical_exhaustive_manifest": {
+      "bytes": 1939216,
+      "path": "decision_records/ISV019-CYR2-POST-EDIT0150-BLOCKER-ROLE-MANIFEST.json",
+      "sha256": "913EE372ABCD1A74A13C3DA18747867385794F4986B59F3BBED85AAD0FDA931E"
+    },
+    "primary_class": "b_foreign_title_venue_citation_or_identity",
+    "target_occurrences": 27
+  },
+  "schema": "noether-isv-edit0169-unapplied-candidate-receipt-v1",
+  "status": "FROZEN_UNAPPLIED_CANDIDATE",
+  "successor": {
+    "source": {
+      "bytes": 1894151,
+      "sha256": "BF5EDFC45F8A564100C7977BF1E11B0AA9818F21011B3F59A723F8D5C3E0AB96"
+    }
+  },
+  "validation": {
+    "dry_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 19602,
+      "each_stdout_sha256": "DB87FB6FBFDD1B1F412DE47D34A5D8E50FB2A134656E270957A613EA546802AA",
+      "pair_byte_identical": true
+    },
+    "self_test_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 21500,
+      "each_stdout_sha256": "057C9F575B36B6A18E12827A0C56EA9C18343ABB8D66AAC72D760A2CAD95B637",
+      "pair_byte_identical": true,
+      "receipt_bytes": 1805,
+      "receipt_sha256": "1B947ED7AC246BFF8E999DEACDD012A5076683BF5345FCF445B64F4F1DA478B6"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "decision_id": "ISV019-EDIT-0110",
+  "recorded_at": "2026-08-13T20:52:41.1911149+02:00",
+  "epistemic_type": "third_ordinal_orthography_and_declension_closure",
+  "scope": "All fifteen whole-token Tretj-/tretj- ordinal inflections in the four Latin sources, all in the base papers and all meaning third.",
+  "choice": "Normalize the complete ordinal family to the official lexical stem Treťj-/treťj-. Preserve grammatical case, gender, number and capitalization, while repairing the two South-shaped genitives tretjega to the soft-adjective genitive treťjego.",
+  "motivation": "The current official lexical authority gives treťji and the current official online dictionary displays simplified tretji with etymological tret́ji. The edition uses the etymological orthography, so the palatalized t must be represented. Every site is an ordinal adjective and follows the soft declension.",
+  "alternatives_rejected": [
+    "Retaining unmarked tretj- was rejected because it is only the simplified surface and leaves the edition's etymological orthography inconsistent.",
+    "The grammar-page spelling trětji was retained as adverse evidence but rejected as the edition target because the newer exact dictionary row and current official online dictionary independently agree on palatalized t, not yat, for this lexical item.",
+    "Blindly changing only tretj to treťj while preserving tretjega was rejected because masculine/neuter genitive singular in the soft adjective paradigm is treťjego.",
+    "Changing unrelated tretina/tretjina derivatives or cardinal tri was rejected because they are outside the audited ordinal-adjective family."
+  ],
+  "evidence": {
+    "official_dictionary": "Official isv_words_list.csv, 7993414 bytes, SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: row 16495 / ID 439 is treťji, ordinal numeral, type 1, third. Its West, South and East national columns all identify the same ordinal concept.",
+    "current_official_online_dictionary": "The official English-Interslavic dictionary at https://steen.free.fr/interslavic/en-ms.html, checked 2026-08-13, displays simplified tretji and etymological tret́ji for third, independently corroborating Unicode treťji as the full-orthography surface.",
+    "official_grammar_and_adverse_evidence": "Official numerals.md, 12907 bytes, SHA-256 4E0D13888444D6005CB886118726F8F8EF0BD5280434BD1EF66C9BFB3AE9A05C, lines 73-75 calls third a soft-declension adjective but spells the lemma trětji. The soft-declension instruction is applied; the conflicting lemma spelling is disclosed and superseded here by the exact lexical authorities. Official adjectives.md lines 14-18 govern regular soft-adjective agreement.",
+    "semantic_audit": "All fifteen sites mean third: order/form type, third kind, third/fourth degree equations, third roots of unity, third integral, third-degree polynomials, third element, third differentials, and the third reduction. There is no fraction, proper name, quotation, or non-ordinal use.",
+    "german_authority": "The aligned German ED0014 meaning authority consistently has dritte/dritten/dritter/drittem across these sentences. No semantic recast is required.",
+    "protected_domains": "No target occurs in a comment, control name, label, citation key, URL, foreign-language/title argument, bibliography identity, or formula token. One section heading and several editable explanatory footnotes are intentionally in scope."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0109",
+    "decision_log": {
+      "bytes": 420388,
+      "sha256": "C6158AD5F1D8E0A792C13126B425F5BA9E90ED811BB2FAF431E770236AFDBADD"
+    },
+    "source_latin/44-book-isv.tex": {"bytes": 168082, "sha256": "7BEB05410FEB8B3110B480471C04B7EC6392DD4B005BBDEE0203126F4CF34FD8"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898304, "sha256": "D3A4BBAE021EC7EEB4BD2013F1DBC15E616203EE94E989E9242D798A3750F707"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "mapping": {
+    "tretjego": "treťjego",
+    "tretjega": "treťjego",
+    "tretjih": "treťjih",
+    "tretjem": "treťjem",
+    "tretji": "treťji",
+    "tretje": "treťje",
+    "Tretju": "Treťju",
+    "tretju": "treťju"
+  },
+  "locators": [
+    "base:1155:28:tretjego", "base:3788:263:tretjega", "base:8807:510:tretjih",
+    "base:8879:201:tretjih", "base:9611:7:tretjem", "base:10008:1161:tretjega",
+    "base:12199:74:tretjego", "base:12208:205:tretjego", "base:12453:661:tretji",
+    "base:13343:209:tretji", "base:14110:126:tretje", "base:23021:1:Tretju",
+    "base:23021:375:tretju", "base:23021:459:tretju", "base:24668:7:tretjih"
+  ],
+  "results": {
+    "sites_changed": 15,
+    "source_family_before_after": [15, 0],
+    "target_form_counts_before_after": {
+      "treťjego": [0, 5], "treťjih": [0, 3], "treťjem": [0, 1],
+      "treťji": [0, 2], "treťje": [0, 1], "Treťju": [0, 1], "treťju": [0, 2]
+    },
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168082, "sha256": "7BEB05410FEB8B3110B480471C04B7EC6392DD4B005BBDEE0203126F4CF34FD8"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898319, "sha256": "CB0800F907CDC8811ABA8DAED1092A83693CA606829AE9A3395CE70CEFC81F5D"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "tool": {
+    "path": "apply_tretyi_ordinal_family_v019.py",
+    "bytes": 5599,
+    "sha256": "BD73B5B6B146C201195EE93CDD790A3FDB2164DB8BC6B3DBE49A816BE5C9FBD4"
+  },
+  "validation": {
+    "coverage": "The eight exact source forms total fifteen tokens at the declared locators; all become zero.",
+    "postcondition": "The seven target forms appear exactly fifteen times with the two genitive variants merged into treťjego.",
+    "structure": "Only the base source changes, by fifteen UTF-8 bytes. Line count, raw braces, ordered TeX-control stream and math-delimiter stream remain identical; the other sources are byte-identical.",
+    "reproducibility": "The hash-gated applicator binds all source/output hashes, token counts, and line/column/token locators and refuses drift."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

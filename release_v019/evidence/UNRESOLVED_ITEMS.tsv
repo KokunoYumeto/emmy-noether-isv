@@ -1,0 +1,4 @@
+item_id	class	status	release_blocker	description	disposition
+ISV019-LIMITATION-0001	external_review	OPEN_LIMITATION	false	No independent native-speaker, Interslavic-community, official-standard, or scholarly-peer-review receipt exists.	Disclosed prominently; do not claim certification or endorsement. Public corrigibility is preferred to withholding the evidence-backed edition.
+ISV019-LIMITATION-0002	linguistic_optimality	OPEN_ENDED	false	Zero scanner blockers does not prove that every lexical or stylistic choice is optimal for every Slavic readership.	Retain full editable sources, occurrence-level decisions, and immutable versioning so later evidence can produce a monotonic successor.
+ISV019-LIMITATION-0003	german_authority	BOUNDED_CLAIM	false	NOETH-DE-ED-0015 is a project-active editorial comparison authority, not an independently certified critical edition.	State the exact identifier and hash; never upgrade the claim in prose or metadata.

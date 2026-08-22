@@ -1,0 +1,83 @@
+{
+  "schema": "noether-isv-edit0171-independent-live-postapply-preseal-guard-v1",
+  "decision_id": "ISV019-EDIT-0171",
+  "status": "PASS_SOURCE_AHEAD_OF_METADATA",
+  "apply": {
+    "exit_code": 0,
+    "stdout": {
+      "bytes": 19087,
+      "sha256": "A346F8EEFB24E0F8CC49FF95579B78DBDD7433DC2F556C4CAA793642FF90C4B3"
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
+  },
+  "applicator": {
+    "bytes": 53937,
+    "sha256": "4590D1D965233FCCC28CA87AEDCD743E9C8A7DB310D2E6500371222094EFAED8"
+  },
+  "candidate": {
+    "bytes": 4562,
+    "sha256": "60FD5B79922EB425CCFC5F9C81D3134C7B550BE2A5F404E61A05194FBC7467A6"
+  },
+  "targets": {
+    "P02": {
+      "bytes": 7674,
+      "sha256": "594F093A49D5FF186EA9126E0757B635F45EA2ED8391FAC1AD117D3308033998"
+    },
+    "P08": {
+      "bytes": 24007,
+      "sha256": "70102A6B3AE0B1001B2099A9D4E79D11E4516F60D1B794FA06D00101D0A3A2D3"
+    },
+    "P22": {
+      "bytes": 78415,
+      "sha256": "16E9A31B48E2ADE6D5046A889718D2DF8DFB9F7094D9A09BE9EED9F466CCC29D"
+    },
+    "P24": {
+      "bytes": 95721,
+      "sha256": "BCCFE51D0D1F905CEC29B9ED3B39466BCAB7DE60BD7E1CB598D840F7A0ADA5A1"
+    },
+    "base": {
+      "bytes": 1894721,
+      "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"
+    }
+  },
+  "reverse": {
+    "P02": {
+      "bytes": 7664,
+      "sha256": "746C1B8CFB6A524C0348B388F373BE1A433DC6D6ABCEE0BAFEE79E56A214D47E"
+    },
+    "P08": {
+      "bytes": 23977,
+      "sha256": "611FF5D4933FCA1D99D07235DE81866248F66FAE53D245C2C047C0F8795F6A74"
+    },
+    "P22": {
+      "bytes": 78375,
+      "sha256": "5D1212B2E8EAD24CA130346E43B19ABFEE3095883EEEE6D1F2BFA7F29F0EF01E"
+    },
+    "P24": {
+      "bytes": 95661,
+      "sha256": "3C343513CC303C7B9875C114DF143232ED10B3D45B3052DEFE159BF27EE14578"
+    },
+    "base": {
+      "bytes": 1894581,
+      "sha256": "7A4BF1ED5CDDA4C34DEDC3D1A11AACCE5067B845C0D03142EB8EB92E412AA8BB"
+    }
+  },
+  "producer_body_and_identity_exact": true,
+  "scanner": {
+    "blocked": 0,
+    "unsupported": 0,
+    "roman": 0,
+    "approved_structural": 722,
+    "report_sha256_excluding_this_field": "50E162A171DAD3D751021953F75E624734D3B5B1570A50BF9B37D71D06E6E5E0"
+  },
+  "metadata_head": "ISV019-EDIT-0170",
+  "metadata_unchanged": true,
+  "transaction_residue": 0,
+  "metadata_sealed": false,
+  "latin_frozen": false,
+  "cyrillic_ready": false,
+  "build_or_publication": false
+}

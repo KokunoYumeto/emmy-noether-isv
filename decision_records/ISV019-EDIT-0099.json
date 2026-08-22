@@ -1,0 +1,48 @@
+{
+  "decision_id": "ISV019-EDIT-0099",
+  "recorded_at": "2026-08-13T16:31:52.0848789+02:00",
+  "epistemic_type": "hard_masculine_noun_locative_plural_repair",
+  "scope": "Twelve sentence-audited hard-masculine noun locative plurals in the base papers, across five exact source forms.",
+  "choice": "Repair znakih, krokih, zaključkih, rezultatih and izrazih to the regular locative plural forms znakah, krokah, zaključkah, rezultatah and izrazah.",
+  "motivation": "Each site is governed by v, pri or locative po and each head noun has a hard consonant stem; official first-declension morphology requires plural -ah rather than the inherited South-shaped -ih.",
+  "alternatives_rejected": [
+    "A blanket *ih rule was rejected because adjective, pronoun, participle, soft-stem and numeral paradigms require separate treatment.",
+    "Retaining the five isolated noun forms would preserve noncanonical case morphology beside established -ah controls.",
+    "Changing other cases or foreign/comment/control material was rejected."
+  ],
+  "evidence": {
+    "official_grammar": "Official nouns.md lines 16, 27 and 29 gives consonant-final masculine first declension, defines the soft-stem set, and supplies plural case endings.",
+    "official_control": "The official dictionary directly demonstrates hard masculine locative plural v metodah i principah.",
+    "edition_controls": "Before the edit the source already had znakah 3, krokah 18, zaključkah 6 and izrazah 8.",
+    "protected_domains": "No mapped token occurs in a comment, foreign argument or TeX control name."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0098",
+    "decision_log": {"bytes": 364558, "sha256": "C96D379F488E5A65E8DC57A53CA84EB4138FDD55129B0D97A57F6277F98CFECF"},
+    "source_latin/44-book-isv.tex": {"bytes": 168075, "sha256": "EEED5FAC489CD50A43C549E0C5A502D05A2BDCCF624994049D8204A749A7A062"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898308, "sha256": "969E5730C3F8E438DFCDC71418DB3226F1A693D698AB06FA16F681E864D35272"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "mapping": {"znakih": "znakah", "krokih": "krokah", "zaključkih": "zaključkah", "rezultatih": "rezultatah", "izrazih": "izrazah"},
+  "results": {
+    "sites_changed": 12,
+    "source_types": 5,
+    "mapped_source_residue": 0,
+    "target_counts": {"znakah": 10, "krokah": 20, "zaključkah": 7, "rezultatah": 1, "izrazah": 9},
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168075, "sha256": "EEED5FAC489CD50A43C549E0C5A502D05A2BDCCF624994049D8204A749A7A062"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898308, "sha256": "2FA38AD7695B1DA9F22F30DA37E6994CCF6252E591ACF1F5C94D7CF1848C2170"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "tool": {"path": "apply_hard_noun_locative_plural_v019.py", "bytes": 4620, "sha256": "EE94B8E4A906D3523239CF649218F5670896C02C2EC9F0F741FEEAA271DAE5EB"},
+  "validation": {
+    "coverage": "Exact source histogram: znakih seven, krokih two and one each zaključkih, rezultatih, izrazih; all in base.",
+    "semantic_review": "All 12 contexts are locative plural hard-stem nouns; no holds.",
+    "postcondition": "All five mapped source forms are zero and canonical targets total 47 across the five forms.",
+    "structure": "Byte count, line count, braces, ordered TeX controls and math delimiters are invariant; all other components are byte-identical.",
+    "reproducibility": "Frozen successor reproduced twice before atomic application and matched after application."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

@@ -1,0 +1,127 @@
+{
+  "applicator": {
+    "bytes": 36675,
+    "path": "apply_uninflected_personal_identity_tranche3_v019.py",
+    "sha256": "82372D89B7ED4F8E4E98E008E47E1F8EE20A3D357BA963766637906B404A7DD4"
+  },
+  "claims": {
+    "build_or_publication": false,
+    "cyrillic_ready": false,
+    "latin_frozen": false,
+    "metadata_sealed": false,
+    "source_applied": false,
+    "workspace_files_mutated_by_validation": false
+  },
+  "decision_id": "ISV019-EDIT-0162",
+  "exact_scope": {
+    "active_producer_changes": 0,
+    "complete_identity_islands": 20,
+    "identity_receipt_changes": 0,
+    "physical_lines": 20,
+    "source": "source_latin/base-papers1-43-isv.tex",
+    "targets": [
+      [6016, "Weber"],
+      [10955, "G. Wallenberg--A. Guldberg"],
+      [10957, "W. Schmeidler"],
+      [11090, "A. Hurwitz"],
+      [13473, "J. König"],
+      [13695, "Du Pasquier"],
+      [14055, "R. Weitzenböck"],
+      [14151, "R. Weitzenböck"],
+      [15987, "van der Waerden"],
+      [16033, "Artin--van der Waerden"],
+      [16129, "W. Krull"],
+      [16141, "Prüfer"],
+      [16411, "J. König"],
+      [16553, "H. Prüfer"],
+      [16719, "W. Krull"],
+      [17281, "Ostrowski"],
+      [18715, "Ostrowski"],
+      [18787, "W. Krull"],
+      [19449, "W. Krull"],
+      [19750, "W. Krull"]
+    ]
+  },
+  "manifests": {
+    "input_source_cohort": {
+      "bytes": 472,
+      "sha256": "EDBEBB9FF45F2F6DC152A137932AC77E94247F2BD0C6503A5AB4DBA5C4AD16EC"
+    },
+    "line_manifest": {
+      "bytes": 43505,
+      "sha256": "F457E2366DEB68227EA9DDB92450B3B768CE375F29615BCFE0332219717C056B"
+    },
+    "output_source_cohort": {
+      "bytes": 472,
+      "sha256": "024C50304070289ED1F4C8719DB96ABCB73D57EC86E32AF3DE858D2B0AD52071"
+    },
+    "reverse_manifest": {
+      "bytes": 251,
+      "sha256": "EB2CB0E3203E8DA794962645FCEA46B02EF0F4D77E7305AA3CC658C4065B8437"
+    }
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0161",
+    "state": {
+      "bytes": 31401,
+      "sha256": "4B95940E856F1C43175DDFB0345E18CF18AC70702664DE10DF3A82FFE3D7EDDD"
+    },
+    "source": {
+      "bytes": 1892811,
+      "sha256": "83276A1E25A2865CF82A7E6C4D7206943C73E6B8B2BDF0D60C93C070B2DC8434"
+    }
+  },
+  "projection": {
+    "current": {
+      "approved_structural_identities": 722,
+      "blocked_occurrences": 250,
+      "inventory_sha256": "DA84E0E36881F8FB8301166A51556692E118EB32F5BE7FA1F883C87528A7647E",
+      "unsupported_occurrences": 250
+    },
+    "exact_subtraction": 20,
+    "projected": {
+      "approved_structural_identities": 722,
+      "blocked_occurrences": 230,
+      "inventory_sha256": "D8E3746DA0E088D617F63BB387D427DFC514395897FBAC1E4FAF7238D3371E7D",
+      "report_sha256_excluding_this_field": "2DA17B348C592CAF988B3111F4256EFB4334EF98BA712BA0B9D93CF7152FD7C4",
+      "unsupported_occurrences": 230
+    },
+    "status": "BLOCKED_FAIL_CLOSED"
+  },
+  "receipt_sha256_excluding_this_field": "9001478A34B42DEED46025AF0433EEA657F21A4E149538B4AEAA1B7774495F22",
+  "role_evidence": {
+    "active_local_producer_for_every_target": null,
+    "historical_exhaustive_manifest": {
+      "bytes": 1939216,
+      "path": "decision_records/ISV019-CYR2-POST-EDIT0150-BLOCKER-ROLE-MANIFEST.json",
+      "sha256": "913EE372ABCD1A74A13C3DA18747867385794F4986B59F3BBED85AAD0FDA931E"
+    },
+    "primary_class": "b_foreign_title_venue_citation_or_identity",
+    "subrole": "uninflected_personal_identity_or_initial"
+  },
+  "schema": "noether-isv-edit0162-unapplied-candidate-receipt-v1",
+  "status": "FROZEN_UNAPPLIED_CANDIDATE",
+  "successor": {
+    "source": {
+      "bytes": 1893011,
+      "sha256": "8257A9881ECB6F871B71C20E1BFD92B6B7F345EA73C87455DDA7DD98AE131FF9"
+    }
+  },
+  "validation": {
+    "dry_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 16428,
+      "each_stdout_sha256": "ADC46D92291F86339426F0C4AA10F3E6A91D0168B5EA8CE028FF0BC1D47DDDEA",
+      "pair_byte_identical": true
+    },
+    "self_test_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 18317,
+      "each_stdout_sha256": "EAF55309E6ABF93922E97321E51F485F4EB8F6B8A8D5A3A883A5D59977A0DF12",
+      "pair_byte_identical": true,
+      "receipt_sha256": "ADA3CEA93C678B4F7051A21EAE916288A84962671A00A51124D73F8A2C306B36"
+    }
+  }
+}

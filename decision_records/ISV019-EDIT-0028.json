@@ -1,0 +1,43 @@
+{
+  "decision_id": "ISV019-EDIT-0028",
+  "recorded_at": "2026-08-13T01:15:21.6441312+02:00",
+  "epistemic_type": "manager_direct_corpus_wide_terminology_normalization",
+  "scope": "All 97 residual Czech/Slovak obsah- and Slovene vsebu- containment predicates in the live Latin reader.",
+  "choice": "Normalize all twelve observed inflection types to the already-adopted official sodrživati containment paradigm, including the malformed plural vsebujeju and vsebijejut variants; preserve content nouns and unrelated drž-/zadrž- lexemes handled by EDIT-0024.",
+  "motivation": "EDIT-0024 removed the Russian-like soderž- versus South-like sadrž- mixture but a second national-source layer remained: Czech/Slovak obsah- and Slovene vsebu-. The official type-1 containment entry explicitly lists those as native translations of canonical sȯdŕživati. One edition-wide technical predicate is clearer and more pan-Slavic than alternating national synonyms by source paper.",
+  "alternatives_rejected": [
+    "Keep obsah- and vsebu- as useful variation; their clustering by source paper exposes translation provenance rather than semantic distinction.",
+    "Use imati or vključati everywhere; those weaken strict mathematical containment.",
+    "Change content nouns or separate hold/retain verbs; they are distinct meanings and remain outside this pass."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "entry": "id 2163 sȯdŕživati, type 1, contain; the entry explicitly gives Czech/Slovak obsahovat and Slovene vsebovati as native comparators"
+    },
+    "prior_decision": "ISV019-EDIT-0024 established sodrživati for mathematical containment and separately preserved sodržanje for content."
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 97,
+    "case_sensitive_types": 12,
+    "obsah_family": 41,
+    "vsebu_family": 56,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167969, "sha256": "7DA42E58EE72F2C8EE30422F411343D0B0A4A8F7C086157134781F5E832E8E9C"},
+    "source_latin/45-isv.tex": {"bytes": 25507, "sha256": "93CF9796801EC73EB5817132B71F92CB077D8218CE0ED54C2A9C605BBFA4611F"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896189, "sha256": "38F8F648035E99CCA20BBEB89863F325AC3C93C61025084E2A9AFDF2A665BD43"},
+    "source_latin/bib-isv.tex": {"bytes": 9578, "sha256": "E5951A6278A556003C44DE30FC0012C1421606BDB1DE3AB6CF05C01986D9613B"}
+  },
+  "tool": {"path": "apply_remaining_containment_synonyms_v019.py", "bytes": 5494, "sha256": "F536001D9D8D77B5F121A7BFAF2E07FDFE5312AA4A90BA1F32D39A1CCC095A1C"},
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0027",
+    "partition": "41 obsah- + 56 vsebu- = 97",
+    "residue": "zero whole-token obsah- or vsebu- residue",
+    "protected_spans": "zero target hits in comments or foreign-language arguments",
+    "dry_run_then_apply": "frozen output hashes reproduced",
+    "structure": "TeX controls, references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

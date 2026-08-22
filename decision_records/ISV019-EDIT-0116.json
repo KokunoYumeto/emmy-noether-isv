@@ -1,0 +1,95 @@
+{
+  "decision_id": "ISV019-EDIT-0116",
+  "recorded_at": "2026-08-13T21:58:32.2200443+02:00",
+  "epistemic_type": "assumption_supposition_family_false_friend_and_morphosyntax_normalization",
+  "scope": "The complete 305-token postav-containing census in the four Latin sources after EDIT-0115: 204 formal-assumption sites in 53 surface forms and 101 protected unprefixed postav- controls.",
+  "choice": "Normalize all 27 imperfective formal-assumption verbs to official type-1 prědpokladati forms; normalize 23 perfective verbs, 56 -ka assumption nouns, 67 -jenje supposition nouns and 31 passive/adjectival forms to official type-1 prědpolož- forms; preserve productive ne- in the one negative passive form; and repair the ten agreement tokens required when seven source phrases change from feminine -ka nouns to neuter prědpoloženje.",
+  "motivation": "Every selected context denotes mathematical assumption, hypothesis, supposition or presupposition. The official-looking prědpostavjati entry is a type-3 false friend meaning prefer. EDIT-0043 already established the aspect-preserving prědpoklad-/prědpolož- house split. The edition has no bare prědpoklad noun controls but has an established prědpoloženj- noun family, so prědpoloženje avoids a new noun doublet and has the broader official branch profile.",
+  "alternatives_rejected": [
+    "Retaining predpostav-/prědpostav-/předpostav- was rejected because it leaves a mixed unaccented, South-shaped and Czech-shaped source layer adjacent to an official type-3 false friend meaning prefer.",
+    "A blind stem swap was rejected because -ka nouns require lemma, gender and case recasts, while imperfective -avja/-avlja verbs require prědpoklad- rather than prědpolož-.",
+    "Mapping the whole family to prědpoklad- was rejected because it destroys perfective, passive and verbal-noun morphology.",
+    "Mapping the whole family to prědpolož- was rejected because it destroys the imperfective aspect family.",
+    "Official prědpolagati was rejected as an edition doublet under the controlling EDIT-0043 policy.",
+    "Bare noun prědpoklad was rejected because it would introduce an unattested edition noun doublet and has weaker branch recognition than prědpoloženje.",
+    "Uslovje was rejected because condition is not equivalent to every formal assumption or supposition in these contexts.",
+    "Domněvati and mněti were rejected because opinion or thinking is not the formal mathematical premise relation here.",
+    "The 101 unprefixed postav- controls were preserved because they mean put, set, formulate or establish, not assume."
+  ],
+  "evidence": {
+    "official_dictionary": "Official isv_words_list.csv, 7993414 bytes, SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: row 12215 / ID 5324 prědpoklad, type 1 assumption; row 12216 / ID 3130 prědpokladati, transitive imperfective type 1 assume/suppose/presume; row 12218 / ID 11247 prědpoloženje, neuter type 1 supposition; row 12221 / ID 18400 prědpoložiti, transitive perfective type 1; row 12217 / ID 20062 prědpolagati, grammatical imperfective doublet; row 12223 / ID 16759 #prědpostavjati, type 3 prefer.",
+    "official_grammar": "Official verbs.md, 21426 bytes, SHA-256 3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD, supports aspect, present forms, -iti to -jeny passive forms and -ny to -nje verbal nouns; nouns.md, 12310 bytes, SHA-256 BCE65A602F5DAFFF86BD132C6CBD0F5F1A4D5BDE9750A0394F78E5D4A8E9F09E, governs the neuter -e paradigm; adjectives.md, 8142 bytes, SHA-256 184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F, requires gender/case/number agreement; numerals.md, 12907 bytes, SHA-256 4E0D13888444D6005CB886118726F8F8EF0BD5280434BD1EF66C9BFB3AE9A05C, lines 47-52 explicitly permits either dva or dvě with neuter two, validating retained dvě prědpoloženja.",
+    "german_authority": "German ED0014 noether.tex, 2154011 bytes, SHA-256 EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58: the 204-site audit remains entirely in the Annahme, Voraussetzung, voraussetzen and angenommen field; representative controls include lines 4094, 4101, 4320, 4546, 4603, 4613, 4615, 5430-5432, 8350, 13640, 14396-14397, 15397, 18443 and 19532. The Czech-shaped source at base line 12770 aligns to German line 11569, Voraussetzung von IIIa, and English line 11609, suppose the hypothesis of IIIa is satisfied.",
+    "semantic_audit": "All 204 sites were inspected in sentence context. Exact partition: 27 imperfective verbs, 23 perfective verbs, 56 -ka nouns, 67 -jenje-family nouns and 31 passive/adjectival forms. No prefer, physical-put, title, citation-identity or foreign-literal sense occurs.",
+    "complete_census": "A Unicode-wide census of every word token containing postav finds 305: exactly 204 selected prefixed assumption-family tokens and 101 protected unprefixed controls. Prefix split is 179 pred-/nepred-, 24 prěd- and one Czech před-. No pret-, pręd-, przed- or other prefixed assumption shape remains.",
+    "locator_receipt": {
+      "algorithm": "For each file in order 44-book, 45, base, bib, scan each line with Unicode-aware whole-word regex (?i)(?:ne)?(?:predpostav|prědpostav|předpostav)\\w* and serialize filename<TAB>line<TAB>column<TAB>token<TAB>full-line<LF>.",
+      "sites": 204,
+      "surface_forms": 53,
+      "distinct_lines": 173,
+      "utf8_bytes": 121874,
+      "sha256": "8C0D4B57866296666C26091D6586C9DA07D8E5CF9121287966F7CB280A33889B"
+    },
+    "protected_domains": "All 204 targets are running prose outside comments and math and outside foreign, foreignlanguage, URL, href, label, ref, pageref, eqref and cite payloads. The 101 unprefixed controls and all pre-existing canonical prědpoklad-/prědpolož- tokens are preserved except where explicitly targeted by a whole phrase.",
+    "independent_qa": "A separate read-only reviewer independently found the initially missed Czech předpostavka, required its neuter agreement recast, then reproduced the final 204-site/53-form census, all seven phrase recasts, output hashes, zero residue, official/German evidence and structural/protected-domain gates and returned ACCEPT with no remaining defect. A second independent audit reproduced the 305-token broad census and 204/101 semantic split."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0115",
+    "decision_log": {
+      "bytes": 456547,
+      "sha256": "C22B17C6387713FABC5E0402D584612EDE1D47799E13BEEBDF836B80CC42C25A"
+    },
+    "source_latin/44-book-isv.tex": {"bytes": 168080, "sha256": "0C52974FA7C43A531E3038EB78B5C070C7806F45BB21B6EF965AA8007AAB3093"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898278, "sha256": "97CC657655C581715E59B54B4C5654EB7A083E2AC9B64382C9316247FA494E9F"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "mapping_policy": {
+    "imperfective": "predpostavja-/predpostavlja-/prědpostavlja- -> prědpoklada- with inflection and capitalization preserved",
+    "perfective": "predpostavi-/predpostaviti -> prědpoloži-/prědpoložiti",
+    "passive_and_verbal_noun": "predpostavjen-/predpostavljen-/prědpostavjen- -> prědpoložen- with case/number/gender preserved",
+    "ka_nouns": "predpostavka/prědpostavka/předpostavka paradigm -> neuter prědpoloženje paradigm with case/number preserved and sentence agreement repaired",
+    "negative": "nepredpostavjenu -> neprědpoloženu, preserving productive negation and feminine accusative agreement"
+  },
+  "agreement_recasts": [
+    {"line": 6070, "old": "Iz toj prědpostavky", "new": "Iz togo prědpoloženja", "non_family_tokens": 1},
+    {"line": 8318, "old": "byla upotrěbljena dodatna prědpostavka", "new": "bylo upotrěbljeno dodatno prědpoloženje", "non_family_tokens": 3},
+    {"line": 12421, "old": "od toj prědpostavky", "new": "od togo prědpoloženja", "non_family_tokens": 1},
+    {"line": 12770, "old": "naj bude izpolnjena předpostavka IIIa", "new": "naj bude izpolnjeno prědpoloženje IIIa", "non_family_tokens": 1},
+    {"line": 16226, "old": "daljša predpostavka", "new": "daljše prědpoloženje", "non_family_tokens": 1},
+    {"line": 17166, "old": "predpostavka ... jest ravnoznačna s predpostavkoju", "new": "prědpoloženje ... jest ravnoznačno s prědpoloženjem", "non_family_tokens": 1},
+    {"line": 19664, "old": "Pod toj samoju predpostavkoju", "new": "Pod tym samym prědpoloženjem", "non_family_tokens": 2}
+  ],
+  "results": {
+    "family_sites_changed": 204,
+    "surface_forms_changed": 53,
+    "family_tokens_changed_by_phrase_recasts": 8,
+    "family_tokens_changed_by_exact_token_map": 196,
+    "non_family_agreement_tokens_changed": 10,
+    "total_changed_tokens": 214,
+    "semantic_partition": {"ka_nouns": 56, "jenje_family_nouns": 67, "passive_or_adjectival": 31, "perfective_verbs": 23, "imperfective_verbs": 27},
+    "protected_unprefixed_postav_controls": 101,
+    "source_family_before_after": [204, 0],
+    "prědpoklad_family_before_after": [53, 80],
+    "direct_prědpolož_family_before_after": [112, 288],
+    "optional_negative_prědpolož_family_before_after": [112, 289],
+    "combined_accepted_family_before_after": [165, 369],
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168080, "sha256": "0C52974FA7C43A531E3038EB78B5C070C7806F45BB21B6EF965AA8007AAB3093"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898415, "sha256": "1D409FA05FFF160D7C45557584FE996FB87F1C06DDEBA2C37066C7C3A0F64129"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "tool": {
+    "path": "apply_predpostav_assumption_family_v019.py",
+    "bytes": 10334,
+    "sha256": "A1ACE2B5C3D8EA9E7DC93C8422743394219E1765499DC065D598A4C763FD9A25"
+  },
+  "validation": {
+    "coverage": "The exact 204-site context receipt, 53-form histogram and 204/101 prefixed/unprefixed broad census all match the hash-gated input.",
+    "postcondition": "All predpostav-/prědpostav-/předpostav- assumption-family tokens are zero; target counts and all 101 unprefixed controls match the declared poststate.",
+    "structure": "Line count, line layout, raw braces, ordered TeX controls, environments, math delimiters, labels, refs, cites, comments, UTF-8/LF transport and terminal LF are invariant; only base changes.",
+    "reproducibility": "Independent replay reproduces base 1898415 bytes / 1D409FA05FFF160D7C45557584FE996FB87F1C06DDEBA2C37066C7C3A0F64129 and proves the other three sources byte-identical."
+  },
+  "review_state": "applied_independently_qa_accepted_and_hash_verified_in_v019_working_latin"
+}

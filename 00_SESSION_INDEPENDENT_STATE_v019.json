@@ -1,0 +1,633 @@
+{
+  "schema": "noether-isv-session-independent-state-v1",
+  "updated_at": "2026-08-21T21:00:00+02:00",
+  "status": "EDIT-0171_APPLIED_AND_INDEPENDENTLY_VERIFIED",
+  "objective": "Finish, QA, package, hand off, and independently publish the complete Emmy Noether Interslavic v019 edition in Latin and deterministic Cyrillic scripts.",
+  "root": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_isv_v019_working",
+  "recovery_authority": [
+    "live source bytes",
+    "NORMALIZATION_DECISIONS_v019.jsonl tail",
+    "matching decision sidecars and applicators",
+    "this state file",
+    "00_SESSION_INDEPENDENT_WORKLOG_v019.jsonl",
+    "raw supplied witnesses",
+    "session context only as a hint",
+    "pinned Cyrillic-v2 scanner package and validation/adoption receipts",
+    "pinned EDIT0151 applicator, post-apply guard, and registry recovery-deadlock receipts",
+    "pinned EDIT0152 applicator, UNAPPLIED candidate, production receipt, independent live guard, and exact blocker-role subtraction",
+    "pinned EDIT0153 applicator, adjudication, production receipt, independent live guard, and exact lexical-role subtraction",
+    "pinned EDIT0154 Cyrillic-v3 implementation, independent harness, structural identity manifest, human audit, validation receipt, and metadata-only adoption record",
+    "pinned EDIT0155 phase-aware registry-handoff correction and append-only chronology",
+    "pinned EDIT0156 successor registry-validator address correction",
+    "pinned EDIT0157 machine-discovery handoff-head correction",
+    "pinned EDIT0158 integrated-name policy applicator, adjudication, exact line oracle, candidate receipt, and independent live postapply guard",
+    "pinned EDIT0159 complete TeX-group protection applicator, frozen candidate, independent live postapply guard, frontier index, v4 scanner package, and local metadata sealer",
+    "pinned EDIT0160 complete uninflected-personal-identity protection applicator, frozen candidate, independent live postapply guard, historical role manifest, v4 scanner package, and local metadata sealer",
+    "pinned EDIT0161 complete uninflected-personal-identity protection applicator, frozen candidate, independent live postapply guard, historical role manifest, v4 scanner package, and local metadata sealer",
+    "pinned EDIT0162 complete uninflected-personal-identity protection applicator, frozen candidate, independent live postapply guard, historical role manifest, v4 scanner package, and local metadata sealer",
+    "pinned EDIT0163 complete original-language title, venue, citation, and place-surface protection applicator, frozen candidate, independent live postapply guard, historical role manifest, v4 scanner package, and local metadata sealer",
+    "pinned EDIT0164 complete original-language title, venue, citation, place, and personal-identity surface protection applicator, frozen candidate, independent live postapply guard, historical role manifest, v4 scanner package, and local metadata sealer",
+    "pinned EDIT0165 complete personal-name, eponym, title, venue, and citation surface protection applicator, frozen candidate, independent live postapply guard, historical role manifest, v4 scanner package, and local metadata sealer",
+    "pinned EDIT0166 complete personal-name, title, venue, and citation surface protection applicator, frozen candidate, independent live postapply guard, historical role manifest, v4 scanner package, and local metadata sealer",
+    "pinned EDIT0167 complete citation/title surface applicator, frozen candidate, independent live postapply guard, historical role manifest, v4 scanner package, and local metadata sealer",
+    "pinned EDIT0168 complete identity-surface applicator, frozen candidate, independent live postapply guard, historical role manifest, v4 scanner package, and local metadata sealer",
+    "pinned EDIT0169 complete identity-surface applicator, frozen candidate, independent live postapply guard, historical role manifest, v4 scanner package, and local metadata sealer",
+    "pinned EDIT0170 complete identity-surface applicator, frozen candidate, independent live postapply guard, historical role manifest, v4 scanner package, and local metadata sealer",
+    "pinned EDIT0171 five-target applicator, frozen candidate, independent live reverse/replay guard, historical role manifest, v4 scanner package, and local metadata sealer"
+  ],
+  "authoritative_head": {
+    "decision_id": "ISV019-EDIT-0171",
+    "ledger_rows": 171,
+    "ledger": {
+      "path": "NORMALIZATION_DECISIONS_v019.jsonl",
+      "bytes": 771044,
+      "sha256": "4391C7FE0B81253F599118EED95927CDBA9B66A6C9644FECEEE98F5F53FC50F3"
+    },
+    "sidecar": {
+      "path": "decision_records/ISV019-EDIT-0171.json",
+      "bytes": 24735,
+      "sha256": "178088D7090D0A3FA701FB13F4FA157BD26E7E546A4AEE9DDD4F723EC2BABBB4"
+    },
+    "verifier": {
+      "path": "verify_session_independent_state_v019.ps1",
+      "bytes": 2171,
+      "normalization": "replace_the_single_embedded_state_canonical_sha256_with_64_ascii_zeroes",
+      "normalized_sha256": "68F2BDB28E120F6A295766834349B0EF1F3B6A9271EC77B5A59168ACA20CC5DA",
+      "sha256": "B634CA20E837864963F7270D7CDFE42AB8F5776B37EF74A696E24085DEE5284C"
+    },
+    "audit_companion": {
+      "path": "seal_isv_edit0171_v019.py",
+      "bytes": 30971,
+      "sha256": "92030A3D866C7EC03F50EC357E8C2B92866F43983DAE1C1D265A77FDFA0A5BA9"
+    },
+    "worklog": {
+      "path": "00_SESSION_INDEPENDENT_WORKLOG_v019.jsonl",
+      "bytes": 197664,
+      "sha256": "0325B7D4E49A9D00CFADF6536BBCA08964F78FE1ADC337DC42EA477A98EAD29C",
+      "rows": 64,
+      "prefix_rows": 63,
+      "prefix_bytes": 196252,
+      "prefix_sha256": "8C3E378CC4052D0CD188EAB9BD09CD828FF3726A1CB4202797A6A72FF30DC5D0"
+    }
+  },
+  "source_pins": {
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1894721,
+      "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 26053,
+      "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  },
+  "asset_pins": {
+    "assets/authority_rosette_native_supported_mask.png": {
+      "bytes": 797,
+      "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5"
+    }
+  },
+  "producer_successors": {
+    "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex": {
+      "bytes": 7674,
+      "sha256": "594F093A49D5FF186EA9126E0757B635F45EA2ED8391FAC1AD117D3308033998"
+    },
+    "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex": {
+      "bytes": 14964,
+      "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+    },
+    "producer_units/Noether_Paper08_Interslavic_v001.tex": {
+      "bytes": 24007,
+      "sha256": "70102A6B3AE0B1001B2099A9D4E79D11E4516F60D1B794FA06D00101D0A3A2D3"
+    },
+    "producer_units/Noether_Paper22_Interslavic_v001.tex": {
+      "bytes": 78415,
+      "sha256": "16E9A31B48E2ADE6D5046A889718D2DF8DFB9F7094D9A09BE9EED9F466CCC29D"
+    },
+    "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex": {
+      "bytes": 95721,
+      "sha256": "BCCFE51D0D1F905CEC29B9ED3B39466BCAB7DE60BD7E1CB598D840F7A0ADA5A1"
+    },
+    "producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex": {
+      "bytes": 95451,
+      "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+    },
+    "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex": {
+      "bytes": 4752,
+      "sha256": "E60C00BD715913C21F6DB35DE68F5677F2FC6B5D486756C565905B1EA7774DC1"
+    }
+  },
+  "explicit_holds": [],
+  "open_dispositions": [],
+  "retained_authority_uncertainties": [
+    {
+      "work": "Paper45",
+      "surface": "d(y) versus d_i(y)",
+      "status": "CHANGE_APPLIED_ACTIVE_ED0015_ISV019_EDIT0138",
+      "receipt": "../00_lane_control/P45_FOUR_AUTHORITY_UNCERTAINTIES_ADJUDICATION_20260814.json"
+    },
+    {
+      "work": "Paper45",
+      "surface": "bare f(0,y) coefficient",
+      "status": "CHANGE_APPLIED_ACTIVE_ED0015_ISV019_EDIT0138",
+      "receipt": "../00_lane_control/P45_FOUR_AUTHORITY_UNCERTAINTIES_ADJUDICATION_20260814.json"
+    },
+    {
+      "work": "Paper45",
+      "surface": "P overloaded as ambient object and displayed product",
+      "status": "KEEP_ADJUDICATED_CLOSED",
+      "receipt": "../00_lane_control/P45_FOUR_AUTHORITY_UNCERTAINTIES_ADJUDICATION_20260814.json"
+    },
+    {
+      "work": "Paper45",
+      "surface": "Bemerkung-II h_i y^(K) before lambda=(K)",
+      "status": "KEEP_ADJUDICATED_CLOSED",
+      "receipt": "../00_lane_control/P45_FOUR_AUTHORITY_UNCERTAINTIES_ADJUDICATION_20260814.json"
+    }
+  ],
+  "cyrillic_projection_v2_design": {
+    "path": "CYRILLIC_PROJECTION_V2_SPEC_v019.md",
+    "bytes": 14643,
+    "sha256": "661DB994C1D70C70D5052E912508808F8032B342D02370EB60803430CA44BA65",
+    "status": "historical v2 diagnostic is 722/116/704 on EDIT0171; active v4 is zero-blocker but separate completeness gates remain before Latin freeze"
+  },
+  "witnesses": {
+    "primary_goal_source": {
+      "path": "C:/Users/Floris/Documents/Obsidian notes/Untitled 1614.md",
+      "bytes": 105291,
+      "sha256": "3EF5577CA1C04CF6F2288FB6F0CA4CCA12359B6AB78384533D1E7AD0F6DD28F6"
+    },
+    "current_unfinished_task_witness": {
+      "path": "C:/Users/Floris/Documents/Obsidian notes/Untitled 1629.md",
+      "bytes": 47969,
+      "sha256": "F4B42E925F8B98B18A6A76B09FDD42EEE14379F3175720A917C9D09CA141DD32",
+      "authoritative_extract": "unfinished-task statement at line 1143 and the current tail after EDIT-0108"
+    }
+  },
+  "next_work": [
+    {
+      "priority": 1,
+      "stage": "remaining_projection_gates",
+      "task": "Close the separate 692 one-letter I/V/M context review and allowed-letter name/title completeness gate."
+    },
+    {
+      "priority": 2,
+      "stage": "latin_freeze",
+      "task": "Create a final four-source immutable Latin freeze and independent replay receipt."
+    },
+    {
+      "priority": 3,
+      "stage": "cyrillic_projection_v4",
+      "task": "After Latin freeze and zero blockers twice, derive Cyrillic deterministically twice."
+    },
+    {
+      "priority": 4,
+      "stage": "build_and_qa",
+      "task": "Serially build Latin and Cyrillic readers and complete text, math, TeX, script, link, structural, font, and visual QA."
+    },
+    {
+      "priority": 5,
+      "stage": "package_handoff_publish",
+      "task": "Create the four-file successor package and synchronize the standalone GitHub and Zenodo lineage at the sealed package checkpoint."
+    }
+  ],
+  "publication": {
+    "global_concept_doi": "10.5281/zenodo.20412587",
+    "latest_shared_published_record_doi": "10.5281/zenodo.21940320",
+    "standalone_interslavic_concept_doi": "10.5281/zenodo.21926382",
+    "standalone_interslavic_current_version_doi": "10.5281/zenodo.21926383",
+    "standalone_interslavic_record_id": 21926383,
+    "repository": "https://github.com/KokunoYumeto/emmy-noether-isv",
+    "published_baseline": "frozen v047/v018 Latin default reader with deterministic Cyrillic reader retained in the evidence archive",
+    "anonymous_readback_receipt_sha256": "EE1C00BC3DE3DF7ABEEAB683BE2F689D6F3C1CF0B5C8403F1EE1CC0FAE28165C",
+    "standalone_interslavic_online": true,
+    "working_v019_published": false,
+    "release_files": [
+      "00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf",
+      "01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip",
+      "02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip",
+      "03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt"
+    ],
+    "relations": {
+      "is_part_of": "10.5281/zenodo.20412587",
+      "is_translation_of": "preserve German/source object relation in description, README, and relation sidecar"
+    },
+    "update_cadence": "synchronize GitHub and Zenodo at meaningful sealed build/package checkpoints",
+    "public_copy_policy": "complete Interslavic introduction primary; complete English parallel; no internal pipeline diary"
+  },
+  "project_active_german_authority": {
+    "edition": "NOETH-DE-ED-0015",
+    "source_bytes": 2154017,
+    "source_sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+    "current_pointer_id": "NOETH-DE-AUTH-v052-20260815",
+    "current_pointer_bytes": 156949,
+    "current_pointer_sha256": "8F264C42E3639911DFCE651C4911FF87129046A119413DCDA189C906345B54BC",
+    "activation_version_doi": "10.5281/zenodo.21940320",
+    "activation_receipt_bytes": 3561,
+    "activation_receipt_sha256": "55D982B5E8FED2865A5C43A6EAC19185E79DF12ABD50F294D8284A6787CF30AE",
+    "anonymous_readback_files": 56,
+    "readback_receipt_bytes": 30863,
+    "readback_receipt_sha256": "26AF55EE940934217516CF73B7D09A960D4630D6FECE9EFCB99AB66B15BCE287",
+    "claim_boundary": "project-active editorial authority; not a canonical or critical-edition certification"
+  },
+  "methodology_input_status": "original instructed method hashes are preserved in PUBLICATION_METHOD_INPUT_RECEIPT_20260813.json; live 00/04/05 files later drifted and must be atomically reconciled before release freeze",
+  "nonnegotiable_safety": [
+    "bounded archive inspection and extraction are allowed; preserve custody sources and never move, delete, or overwrite them",
+    "one writer; serial heavy work",
+    "no workspace-wide Git scans",
+    "no credential contents in logs or artifacts",
+    "no human-review completion gate",
+    "no false endorsement or certification claims",
+    "German source remains immutable"
+  ],
+  "work_identity": {
+    "work_language": "Emmy Noether — Interslavic working edition",
+    "canonical_hub": "deferred until the next actual public release; no internal URL invented",
+    "rights_boundary": "artifact-specific license, provenance, author/source relation, and non-endorsement preserved; no blanket public-domain or open-license claim",
+    "organization_metadata_policy": "organization attribution is reserved for one linked creator or contributor entry in public repository metadata; internal records do not repeat it"
+  },
+  "tooling_authorities": {
+    "cyrillic_projection_v2_scanner": {
+      "authority_id": "ISV019-TOOL-CYR2-0001",
+      "status": "PRESERVED_PINNED_DEPENDENCY_AND_HISTORICAL_AUTHORITY",
+      "creation_validation_head": "ISV019-EDIT-0149",
+      "activation_head": "ISV019-EDIT-0150",
+      "latest_validation_head": "ISV019-EDIT-0153",
+      "package": {
+        "implementation": {
+          "path": "project_isv_cyrillic_v2.py",
+          "bytes": 74914,
+          "sha256": "FD51B4D9936653CB9968AF8F91BAB08E18331741BC482CCA39AEF69F0B5AF3F2"
+        },
+        "tests": {
+          "path": "test_project_isv_cyrillic_v2.py",
+          "bytes": 14194,
+          "sha256": "9542587E29BE4D7C1D4A8C3DABD828BB9DCE1C983437C36D408C3CFF6889AA23"
+        },
+        "fixtures": {
+          "path": "cyrillic_projection_v2_fixtures.json",
+          "bytes": 8910,
+          "sha256": "B0CAA4B4F018F28376CD8EE75375FFD5F999B3E0086BD030B1F796CEDE5CD87A"
+        },
+        "validation_receipt": {
+          "path": "CYRILLIC_PROJECTION_V2_VALIDATION_RECEIPT_v019.json",
+          "bytes": 9500,
+          "sha256": "2A60254E226C7E112A7EA714CA882E460F0A70AFAC4E4CFD583D5B8307069BBE"
+        },
+        "manifest": {
+          "serialization": "ordered canonical compact UTF-8 JSONL; terminal LF",
+          "rows": 4,
+          "bytes": 550,
+          "sha256": "138EEE7F6B5F079C538A24FBE044AD079793D69D38B44CFF0F347086401CA160"
+        }
+      },
+      "latest_validation": {
+        "source_manifest": [
+          {
+            "file": "44-book-isv.tex",
+            "bytes": 168422,
+            "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+          },
+          {
+            "file": "45-isv.tex",
+            "bytes": 26053,
+            "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+          },
+          {
+            "file": "base-papers1-43-isv.tex",
+            "bytes": 1894721,
+            "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"
+          },
+          {
+            "file": "bib-isv.tex",
+            "bytes": 10019,
+            "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+          }
+        ],
+        "independent_live_postapply_guard": {
+          "path": "decision_records/ISV019-EDIT-0171-INDEPENDENT-LIVE-POSTAPPLY-PRESEAL-GUARD.json",
+          "bytes": 2463,
+          "sha256": "D83450D41A2106062707AD9A267B45CB422EFF0235E2819859B55AD84FF0067F"
+        },
+        "status": "BLOCKED_FAIL_CLOSED",
+        "blocked_occurrences": 722,
+        "blocked_inventory_sha256": "6D913E86A5041C7019A0506E022ED536D643AAAE1688B0302E96F3E3FEA488A2",
+        "unsupported_occurrences": 116,
+        "unsupported_inventory_sha256": "310EAF55040A16CD5384F8A88F0194FEA0EE26C7A1B9EDB904ADA010419549DC",
+        "roman_identity_hold_occurrences": 704,
+        "roman_identity_inventory_sha256": "145F0B8FD82DDF6275B266EC494A742D670204250DBEE97BCDA456CD7FFFB48E",
+        "parse_errors": 0,
+        "coverage_failures": 0,
+        "unknown_argument_commands": 0,
+        "role_partition": {
+          "lexical": 0,
+          "foreign_or_citation_identities": 170,
+          "integrated_name_or_eponym": 0,
+          "structural_roman_identities": 722
+        }
+      },
+      "historical_components_preserved": {
+        "v018_parser": {
+          "path": "../noether_slavic_v018_lineage_v001/project_isv_cyrillic.py",
+          "bytes": 15378,
+          "sha256": "9780C7AA5B9DE7590E6863218277BD03B4F4DFDDBDF9AEACE0A99C9CEC20E5DD"
+        },
+        "standard_wrapper": {
+          "path": "../00_lane_control/isv_normalization_20260811/standard_project_isv_cyrillic.py",
+          "bytes": 12496,
+          "sha256": "D236D705C1CC8C424062E54CA29D9B4B48A8CC79F04C54662B7AE5F3BDACF720"
+        },
+        "edit0148_applicator": {
+          "path": "apply_foreign_provenance_protection_v019.py",
+          "bytes": 69319,
+          "sha256": "78EC676367BE9DE419CB314DBF3A6204D7CF8AD30C73DD7D6C31CDA1237ED144"
+        },
+        "edit0148_sealer": {
+          "path": "seal_isv_edit0148_v019.py",
+          "bytes": 97776,
+          "sha256": "DA282E18A412FDAB95293AB94E7B7C28743863B482C6E4874EF9903B00767B77"
+        }
+      },
+      "boundary": "frozen v2 scanner preserved as the exact segmentation and mapping dependency of active v3; it is no longer the active projection authority"
+    },
+    "cyrillic_projection_v3_scanner": {
+      "authority_id": "ISV019-TOOL-CYR3-0001",
+      "status": "HISTORICAL_PREDECESSOR_SCANNER_AUTHORITY_SUPERSEDED_BY_CURRENT_HEAD_V4",
+      "activation_head": "ISV019-EDIT-0154",
+      "classification_head": "ISV019-EDIT-0158",
+      "package": {
+        "implementation": {
+          "path": "project_isv_cyrillic_v3.py",
+          "bytes": 24314,
+          "sha256": "84B845424CB2501289220727B1300280894512EDD137DC13B188A577049AF1B7"
+        },
+        "tests": {
+          "path": "test_project_isv_cyrillic_v3.py",
+          "bytes": 10239,
+          "sha256": "FA6EA677A55EC10A7375FEAADCD9C3A24F796012E5E02F9F0C08CE763D004365"
+        },
+        "manifest_builder": {
+          "path": "build_edit0153_structural_identity_manifest_v019.py",
+          "bytes": 11477,
+          "sha256": "EAE12F1B7617F6E47F2F8E8439C2F8D11C9B2ED855229992BE28C245644F42DA"
+        },
+        "structural_identity_manifest": {
+          "path": "decision_records/ISV019-CYR2-EDIT0153-STRUCTURAL-IDENTITY-MANIFEST.json",
+          "bytes": 692764,
+          "sha256": "E6249BDEFEA6713EADAE5AF23C313D38E3DB3EB0DAAC3107A161BC0A0BC3E6E9",
+          "internal_receipt": "D5D33712D70B9541E2D5A05ED134291F87C141B2CE6A29212EB657C1F940D683"
+        },
+        "human_audit": {
+          "path": "decision_records/ISV019-CYR3-EDIT0153-STRUCTURAL-IDENTITY-AUDIT.md",
+          "bytes": 7488,
+          "sha256": "1781F132B08C498C1AA34E8FC95ED5C5812A4E3EBEA47765B372AC3B507E91C4"
+        },
+        "validation_receipt": {
+          "path": "CYRILLIC_PROJECTION_V3_VALIDATION_RECEIPT_v019.json",
+          "bytes": 6998,
+          "sha256": "00C985D8E200E64D48BEF8849A14C8499AAEABD98C748D563CC3EBD51A64857C",
+          "internal_receipt": "20402F4F55D8150A6D64BF406BA2E9AF5DDBF69BB81A14103FBCC5681DB2DF5C"
+        },
+        "dependency_v2": {
+          "path": "project_isv_cyrillic_v2.py",
+          "bytes": 74914,
+          "sha256": "FD51B4D9936653CB9968AF8F91BAB08E18331741BC482CCA39AEF69F0B5AF3F2"
+        }
+      },
+      "latest_validation": {
+        "source_manifest": [
+          {
+            "file": "44-book-isv.tex",
+            "bytes": 168422,
+            "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+          },
+          {
+            "file": "45-isv.tex",
+            "bytes": 26053,
+            "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+          },
+          {
+            "file": "base-papers1-43-isv.tex",
+            "bytes": 1892261,
+            "sha256": "5FBF0D95479E85C09928F152DA0CA876E9F8C3BF9D90425961395BB7448555FC"
+          },
+          {
+            "file": "bib-isv.tex",
+            "bytes": 10019,
+            "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+          }
+        ],
+        "blocked_occurrences": 307,
+        "unsupported_occurrences": 307,
+        "roman_identity_hold_occurrences": 0,
+        "parse_errors": 0,
+        "coverage_failures": 0,
+        "unknown_argument_commands": 0,
+        "blocked_inventory_sha256": "87576B93DC184CA5359B8A17D374A57DC790CC8B561AB6AA98651607E712F4A3",
+        "approved_structural_identities": 722,
+        "role_partition": {
+          "lexical": 0,
+          "foreign_or_citation_identities": 307,
+          "integrated_name_or_eponym": 0,
+          "structural_roman_identities": 0
+        },
+        "by_file": {
+          "44-book-isv.tex": 0,
+          "45-isv.tex": 0,
+          "base-papers1-43-isv.tex": 307,
+          "bib-isv.tex": 0
+        },
+        "status": "BLOCKED_FAIL_CLOSED"
+      },
+      "remaining_gates": {
+        "one_letter_I_V_M_context_tokens": 692,
+        "allowed_letter_name_completeness": "required",
+        "derived_output": null
+      },
+      "boundary": "historical EDIT0158 authority retained byte-for-byte as lineage evidence; current-head execution is delegated to v4"
+    },
+    "cyrillic_projection_v4_scanner": {
+      "authority_id": "ISV019-TOOL-CYR4-0001",
+      "status": "ACTIVE_PRE_FREEZE_SCANNER_AUTHORITY_ZERO_BLOCKERS_ADDITIONAL_COMPLETENESS_GATES_OPEN",
+      "activation_head": "ISV019-EDIT-0171",
+      "classification_head": "ISV019-EDIT-0171",
+      "package": {
+        "implementation": {
+          "path": "project_isv_cyrillic_v4.py",
+          "bytes": 34849,
+          "sha256": "A63A6F697A99F5A8D64C0B69D24875C3031C8EFE7DE8A137DE8F844CD460E341"
+        },
+        "tests": {
+          "path": "test_project_isv_cyrillic_v4.py",
+          "bytes": 6129,
+          "sha256": "E5BA32692E381079C2A90F50E549091A189C2DDFAB119E418CD43099ACCB1C43"
+        },
+        "structural_signature": {
+          "path": "CYRILLIC_PROJECTION_V4_STRUCTURAL_SIGNATURE_v019.json",
+          "bytes": 6548,
+          "sha256": "DF3DC40242E51B7153EA8C23FD0F579E82CDE1B83157D8F5D6DFB386F775B7D1",
+          "reviewed_maximum_occurrences": 722
+        },
+        "validation_receipt": {
+          "path": "CYRILLIC_PROJECTION_V4_VALIDATION_RECEIPT_v019.json",
+          "bytes": 7006,
+          "sha256": "5A2DF94CA07FB1982C473429BAB3A4CB288455F59C024A5738953C5658AE7AB7",
+          "internal_receipt": "0BBA8F54DDAFF6A9DCC5A449C1B446E8CCD66CDD46132680B140B8B9531E5937"
+        },
+        "frontier_indexer": {
+          "path": "audit_isv_foreign_identity_frontier_v019.py",
+          "bytes": 26316,
+          "sha256": "8789EA111B269CF3E13D482271AFF7054E666493576C63EB67BE8E3172EDB895"
+        },
+        "frontier_index_receipt": {
+          "path": "ISV_FOREIGN_IDENTITY_FRONTIER_INDEX_VALIDATION_RECEIPT_v019.json",
+          "bytes": 4362,
+          "sha256": "AD38136FAA5EF040AB15698E07BC8A13232A992DD21EE4B9C8515683E8D106D8",
+          "internal_receipt": "6A4D847A4DEA2BBA83E37998572D64572EEE0E62F229197D1A7DCC9BE16BF30F"
+        }
+      },
+      "latest_validation": {
+        "status": "READY_IN_MEMORY_ONLY",
+        "blocked_occurrences": 0,
+        "unsupported_occurrences": 0,
+        "roman_identity_hold_occurrences": 0,
+        "approved_structural_identities": 722,
+        "blocked_inventory_sha256": "37517E5F3DC66819F61F5A7BB8ACE1921282415F10551D2DEFA5C3EB0985B570",
+        "report_sha256_excluding_this_field": "3688952352A218DF495CDC748E3DA34833E1A8AF7D8E8F5C8BAE5885856FE494",
+        "parse_errors": 0,
+        "coverage_failures": 0,
+        "unknown_argument_commands": 0,
+        "role_partition": {
+          "lexical": 0,
+          "foreign_or_citation_identities": 0,
+          "integrated_name_or_eponym": 0,
+          "structural_roman_identities": 0
+        },
+        "by_file": {
+          "44-book-isv.tex": 0,
+          "45-isv.tex": 0,
+          "base-papers1-43-isv.tex": 0,
+          "bib-isv.tex": 0
+        },
+        "source_manifest": [
+          {
+            "file": "44-book-isv.tex",
+            "bytes": 168422,
+            "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+          },
+          {
+            "file": "45-isv.tex",
+            "bytes": 26053,
+            "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+          },
+          {
+            "file": "base-papers1-43-isv.tex",
+            "bytes": 1894721,
+            "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"
+          },
+          {
+            "file": "bib-isv.tex",
+            "bytes": 10019,
+            "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+          }
+        ],
+        "upstream_v2": {
+          "blocked_occurrences": 722,
+          "blocked_inventory_sha256": "6D913E86A5041C7019A0506E022ED536D643AAAE1688B0302E96F3E3FEA488A2",
+          "unsupported_occurrences": 116,
+          "unsupported_inventory_sha256": "310EAF55040A16CD5384F8A88F0194FEA0EE26C7A1B9EDB904ADA010419549DC",
+          "roman_identity_hold_occurrences": 704,
+          "roman_identity_inventory_sha256": "145F0B8FD82DDF6275B266EC494A742D670204250DBEE97BCDA456CD7FFFB48E",
+          "parse_errors": 0,
+          "coverage_failures": 0,
+          "unknown_argument_commands": 0
+        }
+      },
+      "remaining_gates": {
+        "complete_foreign_title_venue_citation_identities": 0,
+        "one_letter_I_V_M_context_tokens": 692,
+        "allowed_letter_name_title_completeness": "REQUIRED",
+        "derived_output": null
+      },
+      "boundary": "validated zero-blocker current-head authority; one-letter I/V/M and allowed-letter name/title completeness gates remain; no derived output yet"
+    }
+  },
+  "registry_lifecycle_correction": {
+    "decision_id": "ISV019-EDIT-0155",
+    "classification": "REGISTRY_HANDOFF_PHASE_CONTRACT_CORRECTION",
+    "predecessor_handoff": {
+      "bytes": 5305,
+      "sha256": "40D0D852D169BCB948A7C0D125642022F5A9593B02295A66D484FC59ADC32E5F"
+    },
+    "registered_successor_handoff": {
+      "bytes": 7313,
+      "sha256": "787AD311C64E7A379E1D68F84334F844B3624EFD7EE08FF820113D678F8ED5A0"
+    },
+    "predecessor_registry": {
+      "registry_id": "CANON-REGISTRY-0005",
+      "bytes": 32333,
+      "sha256": "CE600FFE6E2CF36DFBFBB5794C6C65A4D15B9F76768B8EFD3C0AF2AC90D73F45"
+    },
+    "successor_registry_id": "CANON-REGISTRY-0006",
+    "source_changes": 0,
+    "producer_changes": 0,
+    "projection_changes": 0
+  },
+  "registry_validator_successor": {
+    "decision_id": "ISV019-EDIT-0156",
+    "old_validator": {
+      "path": "00_governance/canon_registry/validate_canon_registry_current.py",
+      "bytes": 12599,
+      "sha256": "A5BC8915A61F087A98883B4C0547679C7DE726D33D2B84AAF74B3FE060FEDC1E"
+    },
+    "new_validator": {
+      "path": "00_governance/canon_registry/validate_canon_registry_current_v2.py",
+      "bytes": 2028,
+      "sha256": "623784F6545B8ACF9ED532FD0ED46F2FB4240E8A9B59988CD8B5FC1819CB95AE"
+    },
+    "workspace_instruction": {
+      "path": "AGENTS.md",
+      "bytes": 1053,
+      "sha256": "4D1FC812297B63722195389F7669FEF9D22EB3EF04A3F24E01C830CDD14D645A"
+    },
+    "registered_successor_handoff": {
+      "bytes": 7316,
+      "sha256": "E73EE9247D3710459B73AA499CD3AAF255620F6BA8026C5E28BE0907A5C065BD"
+    },
+    "source_changes": 0,
+    "producer_changes": 0,
+    "projection_changes": 0
+  },
+  "registry_handoff_head_successor": {
+    "decision_id": "ISV019-EDIT-0157",
+    "old_validator": {
+      "path": "00_governance/canon_registry/validate_canon_registry_current.py",
+      "bytes": 12599,
+      "sha256": "A5BC8915A61F087A98883B4C0547679C7DE726D33D2B84AAF74B3FE060FEDC1E"
+    },
+    "new_validator": {
+      "path": "00_governance/canon_registry/validate_canon_registry_current_v2.py",
+      "bytes": 2028,
+      "sha256": "623784F6545B8ACF9ED532FD0ED46F2FB4240E8A9B59988CD8B5FC1819CB95AE"
+    },
+    "workspace_instruction": {
+      "path": "AGENTS.md",
+      "bytes": 1053,
+      "sha256": "4D1FC812297B63722195389F7669FEF9D22EB3EF04A3F24E01C830CDD14D645A"
+    },
+    "registered_successor_handoff": {
+      "bytes": 8331,
+      "sha256": "243C940CD0063D6B994CADF503AC809D8DB3B72048EE1DE852BB08D4DC8B9414"
+    },
+    "source_changes": 0,
+    "producer_changes": 0,
+    "projection_changes": 0
+  }
+}

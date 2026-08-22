@@ -1,0 +1,112 @@
+{
+  "applicator": {
+    "bytes": 34498,
+    "path": "apply_complete_foreign_surface_tranche11_v019.py",
+    "sha256": "F8170680B80245B700AADAFF987D8E3CD54DB37FF097C4B616A43C2AAF75AF02"
+  },
+  "claims": {
+    "build_or_publication": false,
+    "cyrillic_ready": false,
+    "latin_frozen": false,
+    "metadata_sealed": false,
+    "source_applied": false,
+    "workspace_files_mutated_by_validation": false
+  },
+  "decision_id": "ISV019-EDIT-0170",
+  "exact_scope": {
+    "active_producer_changes": 0,
+    "complete_identity_islands": 43,
+    "identity_receipt_changes": 0,
+    "physical_lines": 19,
+    "projection_blockers_removed": 59,
+    "source": "source_latin/base-papers1-43-isv.tex",
+    "standardized_initials": 1,
+    "target_lines": [10031, 10122, 10953, 10965, 13390, 14151, 15205, 17273, 17277, 17279, 22523, 22533, 22535, 23236, 23389, 23391, 24103, 24190, 24694]
+  },
+  "manifests": {
+    "input_source_cohort": {
+      "bytes": 472,
+      "sha256": "37E36C4A9217B7BCD9C384E94F9AFE860907F6CD2C7CC83180B474EAC1C0C6D3"
+    },
+    "line_manifest": {
+      "bytes": 20990,
+      "sha256": "6F1583AF782178BA2B22321C2D5BB5AD839EC1E349ACBBC7227D9ACF4CCED26C"
+    },
+    "output_source_cohort": {
+      "bytes": 472,
+      "sha256": "5ACC9E7CDE203F559E5CB1D46655FC360B6631D76B1C6C3587BA3629554942E5"
+    },
+    "reverse_manifest": {
+      "bytes": 251,
+      "sha256": "259850989F7B39E17F3477F5D515984C8319C833F621CF7A6453D50CE4C520DD"
+    }
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0169",
+    "state": {
+      "bytes": 33028,
+      "sha256": "B14A3B5FEEDC1685D9E4ED5284A4D52CCC8FE485F5EDB815672FFD138354B7DD"
+    },
+    "source": {
+      "bytes": 1894151,
+      "sha256": "BF5EDFC45F8A564100C7977BF1E11B0AA9818F21011B3F59A723F8D5C3E0AB96"
+    }
+  },
+  "projection": {
+    "current_blocked": 79,
+    "exact_subtraction": 59,
+    "projected": {
+      "approved_structural_identities": 722,
+      "blocked_occurrences": 20,
+      "inventory_sha256": "D49C0C9126F2F4838CE53576C925A8CD1C414CC8A9A505D1020F0A4B809A128D",
+      "report_sha256_excluding_this_field": "3FA9F31902F030B4FB178742D9427C7FF052E4E0BDFA0059A80ED08F80992645",
+      "unsupported_occurrences": 20
+    },
+    "status": "BLOCKED_FAIL_CLOSED",
+    "upstream_v2_projected": {
+      "blocked_inventory_sha256": "0839AEBE6B0554D39E5E733C53587E5EFA8EBFD541F5DC117119C21F157B7E39",
+      "blocked_occurrences": 742,
+      "roman_identity_hold_occurrences": 704,
+      "roman_identity_inventory_sha256": "4C9E43264B32C71BB41CE8C0D418E8EEF53734A8CFDDE2AD2D2A3146D0884BDE",
+      "unsupported_inventory_sha256": "FB05FE1BCFC54FE6EECEA51E250779B6205364072F585A44E14821DADB7C9649",
+      "unsupported_occurrences": 136
+    }
+  },
+  "receipt_sha256_excluding_this_field": "4705B2B04D951C981C9E82862F4A9DAEB7A715249D3A8066AD7534556FD514C6",
+  "role_evidence": {
+    "active_local_producer_for_every_target": null,
+    "historical_exhaustive_manifest": {
+      "bytes": 1939216,
+      "path": "decision_records/ISV019-CYR2-POST-EDIT0150-BLOCKER-ROLE-MANIFEST.json",
+      "sha256": "913EE372ABCD1A74A13C3DA18747867385794F4986B59F3BBED85AAD0FDA931E"
+    },
+    "primary_class": "b_foreign_title_venue_citation_or_identity",
+    "target_occurrences": 59
+  },
+  "schema": "noether-isv-edit0170-unapplied-candidate-receipt-v1",
+  "status": "FROZEN_UNAPPLIED_CANDIDATE",
+  "successor": {
+    "source": {
+      "bytes": 1894581,
+      "sha256": "7A4BF1ED5CDDA4C34DEDC3D1A11AACCE5067B845C0D03142EB8EB92E412AA8BB"
+    }
+  },
+  "validation": {
+    "dry_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 33740,
+      "each_stdout_sha256": "4D74B99D7956C8F62424F345EC1439291BDDEBAAAFC6BDAD93C2298B9EE36088",
+      "pair_byte_identical": true
+    },
+    "self_test_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 35627,
+      "each_stdout_sha256": "D76DFB8658288640898CEE665550882E5B65722149737B7713F9D523151EA32F",
+      "pair_byte_identical": true,
+      "receipt_bytes": 1794,
+      "receipt_sha256": "C72CE0DB3B48D5CC59ECAF26D26E163A4A9DD0FFCE96AE594DE746FE8B8D0319"
+    }
+  }
+}

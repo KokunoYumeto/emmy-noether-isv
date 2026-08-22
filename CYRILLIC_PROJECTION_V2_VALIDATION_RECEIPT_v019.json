@@ -1,0 +1,262 @@
+{
+  "schema": "noether-isv-cyrillic-projection-v2-validation-receipt/1.0",
+  "classification": "append-only read-only scanner validation; blocked diagnostic projection is not a release",
+  "audit_head": "ISV019-EDIT-0149",
+  "serialization_for_receipt_hash": "canonical compact UTF-8 JSON with recursively sorted keys and one terminal LF, excluding only receipt_sha256_excluding_this_field",
+  "implementation": {
+    "path": "project_isv_cyrillic_v2.py",
+    "bytes": 74914,
+    "sha256": "FD51B4D9936653CB9968AF8F91BAB08E18331741BC482CCA39AEF69F0B5AF3F2",
+    "default_write_count": 0,
+    "status": "PASS"
+  },
+  "test_file": {
+    "path": "test_project_isv_cyrillic_v2.py",
+    "bytes": 14194,
+    "sha256": "9542587E29BE4D7C1D4A8C3DABD828BB9DCE1C983437C36D408C3CFF6889AA23"
+  },
+  "fixtures": {
+    "path": "cyrillic_projection_v2_fixtures.json",
+    "bytes": 8910,
+    "sha256": "B0CAA4B4F018F28376CD8EE75375FFD5F999B3E0086BD030B1F796CEDE5CD87A",
+    "fixture_count": 19,
+    "passed": 19,
+    "failed": 0,
+    "receipt_sha256": "C21766C80B2603B4FF24D379E7219C99363ACC8E74959B10F1F6D36EB841CBD4",
+    "required_hostiles": {
+      "rowbreak_then_literal_paren_then_real_inline_math": "PASS_VISIBLE_Q_RETAINED",
+      "mismatched_align_equation": "PASS_REJECTED_MISMATCHED_ENVIRONMENT_END",
+      "two_align_star_row_spacing_real_display_math": "PASS_VISIBLE_Q_RETAINED_NO_CROSS_MASK"
+    }
+  },
+  "tests": {
+    "runs": 2,
+    "byte_identical": true,
+    "tests_per_run": 11,
+    "passed_per_run": 11,
+    "failed_per_run": 0,
+    "stdout": {
+      "bytes": 1798,
+      "sha256": "399E1AB32ACB2F73C8F12228B3F0BAEAEEED2C52053BBE613EA677A77031EDE4"
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "test_receipt_sha256": "07CC17582734C04C2FA823860BDA2D821EE194D55F70E8A78C9B1C5E559F0876",
+    "status": "PASS"
+  },
+  "fresh_default_processes": {
+    "runs": 2,
+    "byte_identical": true,
+    "stdout": {
+      "bytes": 3948,
+      "sha256": "E7A4A9048606C3B0ABD6C5945B0DC9EC6CB225F3DDD94F20477DAC8BD91965C5"
+    },
+    "stderr_bytes_each": 0,
+    "exit_code_each": 0,
+    "corpus_report_sha256": "D6BCFB8D804EFDDB70B3AEEFCCAEE21EE40C10433FC6C8F77E1CBFEC4B497D6D"
+  },
+  "source_manifest": [
+    {
+      "file": "44-book-isv.tex",
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    {
+      "file": "45-isv.tex",
+      "bytes": 26014,
+      "sha256": "20B9123DFD81C0A3B3445A6CCAE8F711843F79C8D1DF75DF02406AF3A66A480F"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "bytes": 1892315,
+      "sha256": "2A35A7530685CF1A32AFDF92807D9FCFDD090FF2767211ABBE8B0D8DF0E29AA3"
+    },
+    {
+      "file": "bib-isv.tex",
+      "bytes": 9939,
+      "sha256": "71E4746C77776B1E504EF79EA9C097644219BFDF482004F1D4AAE45DA1C490C5"
+    }
+  ],
+  "parser_invariants": {
+    "control_sequence_tokenization": true,
+    "command_aware_escaped_delimiters": true,
+    "exact_matched_environment_stack": true,
+    "gap_free_role_partition": true,
+    "placeholder_masking": false,
+    "parity_escape_heuristic": false,
+    "unmatched_braces": 0,
+    "unmatched_environments": 0,
+    "unmatched_math_delimiters": 0,
+    "coverage_failures": 0,
+    "parse_errors": 0,
+    "unknown_argument_commands": 0,
+    "status": "PASS"
+  },
+  "current_census": {
+    "status": "BLOCKED_FAIL_CLOSED",
+    "blocked_occurrences": 1131,
+    "blocked_inventory_sha256": "E6D792A3D10E284D089072A2F20637E501B658CF09C11C018491938E07D65053",
+    "unsupported_occurrences": 525,
+    "unique_unsupported_surfaces": 143,
+    "unique_unsupported_casefolds": 142,
+    "unsupported_inventory_sha256": "6AE1B1E0BA320B9F9674D1FFD9D76E7BAAD75BFFA8D49E575374E9B79CA55BD7",
+    "roman_identity_hold_occurrences": 704,
+    "unique_roman_identity_hold_casefolds": 16,
+    "roman_identity_inventory_sha256": "6309E784BE3D33DB949120E33286F439C9DB0FA92AB574BAFA039117E908A527",
+    "by_file": {
+      "44-book-isv.tex": {
+        "unsupported_occurrences": 0,
+        "unique_unsupported_surfaces": 0,
+        "unique_unsupported_casefolds": 0,
+        "unsupported_inventory_sha256": "37517E5F3DC66819F61F5A7BB8ACE1921282415F10551D2DEFA5C3EB0985B570"
+      },
+      "45-isv.tex": {
+        "unsupported_occurrences": 5,
+        "unique_unsupported_surfaces": 5,
+        "unique_unsupported_casefolds": 5,
+        "unsupported_inventory_sha256": "40F8C8D5B05F4A9DC374F41A35B7C6D0F67C44A81B5C33B9C70537A683EC8359"
+      },
+      "base-papers1-43-isv.tex": {
+        "unsupported_occurrences": 512,
+        "unique_unsupported_surfaces": 140,
+        "unique_unsupported_casefolds": 139,
+        "unsupported_inventory_sha256": "9CD35C32036029B013E66AA679150C580581249B12C3170D218E84C9882DEF9A"
+      },
+      "bib-isv.tex": {
+        "unsupported_occurrences": 8,
+        "unique_unsupported_surfaces": 6,
+        "unique_unsupported_casefolds": 6,
+        "unsupported_inventory_sha256": "F395CCF6D78A6D032F64D3EAA37A5DE857C0CABB4D45D2E3B58AE9E2D95CD57F"
+      }
+    }
+  },
+  "legacy_census_reconciliation": {
+    "legacy": {
+      "unsupported_occurrences": 519,
+      "unique_surface_tokens": 139,
+      "unique_casefold_tokens": 135,
+      "inventory_receipts": {
+        "aggregate_exact_surface": {
+          "bytes": 2230,
+          "sha256": "98BC5C7A3DFC708063E89A739C3322D2600791A6087E329C93D73FE80655BC68"
+        },
+        "aggregate_casefold": {
+          "bytes": 2192,
+          "sha256": "FD26DEF766B34640D5CE1837802002AC96C78F443815D26E6C9F08C75FDE809E"
+        },
+        "per_file_exact_surface": {
+          "bytes": 6008,
+          "sha256": "28B50DDC25E10C7193C71FB7D60ACB6989E8295879A33F32A7139CD7909A9EBD"
+        },
+        "per_file_casefold": {
+          "bytes": 5902,
+          "sha256": "2AF310D6DBDDA1BDFA69A9D5BD5340523D69C7730C2EBBC5464162205AA28C96"
+        }
+      }
+    },
+    "v2": {
+      "unsupported_occurrences": 525,
+      "unique_surface_tokens": 143,
+      "unique_casefold_tokens": 142
+    },
+    "exact_surface_multiset_delta": {
+      "added": {
+        "IX": 19,
+        "W": 32,
+        "X": 5,
+        "XI": 20,
+        "XII": 11,
+        "XIII": 10,
+        "XIV": 12,
+        "XIX": 3,
+        "XV": 7,
+        "XVI": 6,
+        "XVII": 9,
+        "XXII": 1
+      },
+      "added_total": 135,
+      "removed": {
+        "Q": 1,
+        "klx": 2,
+        "lx": 6,
+        "max": 4,
+        "q": 23,
+        "width": 2,
+        "x": 91
+      },
+      "removed_total": 129,
+      "net": 6
+    },
+    "interpretation": "525 is the intentional v2 role-policy result: newly visible W initials and x-bearing Roman identities are mapping blockers, while math/control/option payloads formerly miscounted by the legacy scanner are protected."
+  },
+  "segmentation_pins": {
+    "44-book-isv.tex": {
+      "segments": 14922,
+      "segment_sha256": "C9A6E599DCC5AEFBB931B9BD139ADC39B7442668066B064A2738CD14F0185461",
+      "protected_stream_bytes": 80246,
+      "protected_stream_sha256": "7B3E712F50A753F6672DC68E423E2CA0E73AAFDE0A9F6759C817BDB2FDFCB652",
+      "foreign_spans": 16,
+      "math_spans": 2987
+    },
+    "45-isv.tex": {
+      "segments": 2031,
+      "segment_sha256": "50CEF259666A10C270F0E93AF8E8C09069C8601B4BBDFA20CBE5F9FC1A0F80AF",
+      "protected_stream_bytes": 11572,
+      "protected_stream_sha256": "AD3CC790F79FC217FC844F584265DB770A5142D2B0AEBAA1E9A68EFE35F82EB3",
+      "foreign_spans": 19,
+      "math_spans": 305
+    },
+    "base-papers1-43-isv.tex": {
+      "segments": 121567,
+      "segment_sha256": "0A02376520C0576EC4207D5459FD04D07E41749663E8E680541E447ABE8A397C",
+      "protected_stream_bytes": 729118,
+      "protected_stream_sha256": "F63365D782867C69C2C6D64D4B7C6C46CBF4F99EE61281898907F5B907CDD8E3",
+      "foreign_spans": 196,
+      "math_spans": 21503
+    },
+    "bib-isv.tex": {
+      "segments": 960,
+      "segment_sha256": "6B59C3E243EF95B70B2623119B681470CF4D0850D730D60C6B538AD150BA4A28",
+      "protected_stream_bytes": 4025,
+      "protected_stream_sha256": "D3C12199F0A080E65F28B13071A4DB783BAFCE0407B37CC8748C2BD8B24F0706",
+      "foreign_spans": 47,
+      "math_spans": 3
+    }
+  },
+  "preserved_read_only_components": {
+    "historical_v018_parser": {
+      "path": "../noether_slavic_v018_lineage_v001/project_isv_cyrillic.py",
+      "bytes": 15378,
+      "sha256": "9780C7AA5B9DE7590E6863218277BD03B4F4DFDDBDF9AEACE0A99C9CEC20E5DD"
+    },
+    "historical_standard_wrapper": {
+      "path": "../00_lane_control/isv_normalization_20260811/standard_project_isv_cyrillic.py",
+      "bytes": 12496,
+      "sha256": "D236D705C1CC8C424062E54CA29D9B4B48A8CC79F04C54662B7AE5F3BDACF720"
+    },
+    "sealed_edit0148_applicator": {
+      "path": "apply_foreign_provenance_protection_v019.py",
+      "bytes": 69319,
+      "sha256": "78EC676367BE9DE419CB314DBF3A6204D7CF8AD30C73DD7D6C31CDA1237ED144"
+    },
+    "sealed_edit0148_sealer": {
+      "path": "seal_isv_edit0148_v019.py",
+      "bytes": 97776,
+      "sha256": "DA282E18A412FDAB95293AB94E7B7C28743863B482C6E4874EF9903B00767B77"
+    },
+    "status": "READ_ONLY_UNCHANGED"
+  },
+  "effects": {
+    "source_mutations": 0,
+    "metadata_mutations": 0,
+    "projected_files_written": 0,
+    "builds": 0,
+    "git_commands": 0,
+    "network_calls": 0,
+    "publication_actions": 0
+  },
+  "status": "PASS_SCANNER_VALIDATED_CORPUS_INTENTIONALLY_BLOCKED",
+  "receipt_sha256_excluding_this_field": "BEC3C9DBC030CAF9D60CDB5CBA079588D02BA511E64C935B7DB04C77344D5F6E"
+}

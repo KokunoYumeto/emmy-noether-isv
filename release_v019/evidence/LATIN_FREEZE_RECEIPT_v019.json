@@ -1,0 +1,81 @@
+{
+  "schema": "noether-interslavic-latin-freeze/1.0",
+  "release_id": "NOETHER-ISV-v019",
+  "frozen_at": "2026-08-22T00:00:00Z",
+  "status": "FROZEN_FOR_RELEASE",
+  "editorial_head": "ISV019-EDIT-0171",
+  "canonical_latin_sources": [
+    {
+      "path": "source_latin/base-papers1-43-isv.tex",
+      "bytes": 1894721,
+      "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"
+    },
+    {
+      "path": "source_latin/44-book-isv.tex",
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    {
+      "path": "source_latin/45-isv.tex",
+      "bytes": 26053,
+      "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+    },
+    {
+      "path": "source_latin/bib-isv.tex",
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  ],
+  "lineage": {
+    "ledger": {
+      "path": "NORMALIZATION_DECISIONS_v019.jsonl",
+      "rows": 171,
+      "bytes": 771044,
+      "sha256": "4391C7FE0B81253F599118EED95927CDBA9B66A6C9644FECEEE98F5F53FC50F3"
+    },
+    "head_sidecar": {
+      "path": "decision_records/ISV019-EDIT-0171.json",
+      "bytes": 24735,
+      "sha256": "178088D7090D0A3FA701FB13F4FA157BD26E7E546A4AEE9DDD4F723EC2BABBB4"
+    },
+    "state": {
+      "path": "00_SESSION_INDEPENDENT_STATE_v019.json",
+      "bytes": 29865,
+      "sha256": "234B3EF72F9F081C9D3244CB410D9ACECD03732E16CA46215E39B5E4A6C3943F"
+    },
+    "role_inventory": {
+      "path": "decision_records/ISV019-FINAL-PROJECTION-COMPLETENESS-INVENTORY.json",
+      "bytes": 3505137,
+      "sha256": "E7B8CDE438E9B72A61F6FA3AE0422AF6CBFBCBB7965E139BD123709CC1EEF818"
+    }
+  },
+  "completion_gates": {
+    "linguistic_scanner_blockers": 0,
+    "unsupported_projectable_tokens": 0,
+    "roman_structural_identities_reviewed": 722,
+    "one_letter_lexical_tokens_projected": 449,
+    "one_letter_initial_or_structural_tokens_preserved": 241,
+    "styled_foreign_and_identity_occurrences_classified": true,
+    "name_candidates_classified": true,
+    "foreign_lexicon_hits_classified": true,
+    "open_release_blockers": 0
+  },
+  "derived_surface": {
+    "projector": "project_isv_cyrillic_v6.py",
+    "projector_sha256": "C7AE344B1E01DC0A8B655067173B66550D93E4D357CEB4FDB9713E80F9B9C0D6",
+    "validation_receipt": "CYRILLIC_PROJECTION_V6_VALIDATION_RECEIPT_v019.json",
+    "status": "PASS"
+  },
+  "build_and_qa": {
+    "build_manifest_sha256": "FF83E4E2890F2CDD3B6E2F91E5C39CFF5B073F387CEB9F0B7C068DD21CCD3C0C",
+    "qa_report_sha256": "47313C3B000FCBAEC5C18777223D336BA782F621F39E88B3E9DEBF77513626FF",
+    "linked_reader_sha256": "E14B2C9336E94878370332913360ECC52935AE93A89701BC7A5AE22C0552C401",
+    "visual_qa_receipt_sha256": "8B528F983CB05C1BC1C36614120D482E5D1C60643351128F9CB2F73B847A52F4"
+  },
+  "publication_identity": {
+    "concept_doi": "10.5281/zenodo.21926382",
+    "reserved_version_doi": "10.5281/zenodo.22050935",
+    "repository": "https://github.com/KokunoYumeto/emmy-noether-isv"
+  },
+  "claim_boundary": "Frozen, reproducible machine-assisted scholarly working edition. No native-speaker, community, official-standard, or independent scholarly certification is claimed."
+}

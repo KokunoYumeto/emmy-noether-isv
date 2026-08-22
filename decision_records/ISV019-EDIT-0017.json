@@ -1,0 +1,14 @@
+{
+  "decision_id": "ISV019-EDIT-0017",
+  "recorded_at": "2026-08-13T00:27:00+02:00",
+  "epistemic_type": "manager_residual_family_completion_after_independent_read_only_qa",
+  "scope": "Five predstav-family residues outside EDIT-0016's token-start rule in base-papers1-43-isv.tex.",
+  "choice": "Normalize two medžupredstavjenja compounds to medžuprědstavjenja; correct prědstavljam to prědstavjam, prědstavlja to prědstavja, and the number-defective prědstavjajų to prědstavjajut.",
+  "motivation": "EDIT-0016 correctly covered every token beginning predstav but could not see compounds whose token began medžu, and it intentionally did not touch already-accented malformed derivatives. Independent bounded QA found these five residues. Official prědstavjati morphology requires the contracted prědstavja/prědstavjam and plural prědstavjajut forms.",
+  "alternatives_rejected": ["Declare zero residue from a word-start regex.", "Preserve malformed -lj- and missing-3pl-t forms."],
+  "predecessor": {"path": "source_latin/base-papers1-43-isv.tex", "bytes": 1894681, "sha256": "3161097067E5DD36172D9214A0CB2C9DD2EA45CB046223D5A9CD70122A73A5E6"},
+  "results": {"edits": 5, "compound_edits": 2, "morphology_edits": 3, "path": "source_latin/base-papers1-43-isv.tex", "bytes": 1894681, "sha256": "099144049CDA1FAB9EAFFEB997F345C24C1378DC433ED9C33015B8ED23FE17FE", "post_noncanonical_or_malformed_family_residue": 0, "unresolved_linguistic_holds": 0},
+  "agent_evidence": {"task_identity": "/root/predstav_family", "disposition": "consumed as bounded read-only QA; root made and applied the decision"},
+  "validation": {"exact_contexts": "5/5 current fragments changed", "transport": "byte length unchanged; UTF-8 LF preserved", "scope_check": "no remaining medžupredstav or prědstavlj family surfaces"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

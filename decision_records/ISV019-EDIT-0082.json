@@ -1,0 +1,26 @@
+{
+  "decision_id": "ISV019-EDIT-0082",
+  "recorded_at": "2026-08-13T15:26:17.9973633+02:00",
+  "epistemic_type": "manager_degree_adverb_normalization",
+  "scope": "Six exact base-text degree/comparison adverbs: five bolj and one boljše.",
+  "choice": "Normalize all six adverbial sites to official bolje; preserve genuine bolši adjective forms.",
+  "motivation": "All six modify degree or comparison. Official grammar explicitly distinguishes adverb bolje from adjective bolši; bolj is only a Slovenian comparator surface.",
+  "alternatives_rejected": ["A root-wide change could corrupt bolšim/bolšego/bolšej adjectives.", "Retaining bolj/boljše leaves non-headword adverb forms."],
+  "evidence": {"official_grammar": "adjectives.md SHA-256 184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F distinguishes bolje and bolši.", "official_dictionary": "isv_words_list.csv SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: bolje adverb headword."},
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0081",
+    "decision_log": {"bytes": 307302, "sha256": "84182B71C92FAFFB837D57A6917E6C163FDCA035331B989562B65094A231ED01"},
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25557, "sha256": "4BCE3FC674C270009151AA00E959633720EFFD7D32A8EFE9DA459AF3971A0033"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898236, "sha256": "20C9C54C4794D0AD4EB36EBAF09EB6137C35FCAF95DD553A65D61B2A5BB90D73"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {"sites_changed": 6, "source_histogram": {"bolj": 5, "boljše": 1}, "bolje_total_after": 14, "old_adverb_residue": 0, "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25557, "sha256": "4BCE3FC674C270009151AA00E959633720EFFD7D32A8EFE9DA459AF3971A0033"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898239, "sha256": "47C3EF84E749EB1A5B51FE2095CFBCFB6F1EFC7729552078DA40BE064FE1F313"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}},
+  "tool": {"path": "apply_bolje_adverbs_v019.py", "bytes": 3253, "sha256": "2DDE8C2447236525320CF9E1B3620E1D46735CD9035EEE6D5D19F1EB8E70F4EC"},
+  "validation": {"prehashes": "4/4 exact against EDIT-0081", "coverage": "six exact line-bound sites", "postcondition": "bolj and boljše zero; bolje total 14; adjective controls unchanged", "structure": "TeX controls, braces, math delimiters and line counts invariant", "reproducibility": "frozen successor hashes reproduced before atomic apply"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

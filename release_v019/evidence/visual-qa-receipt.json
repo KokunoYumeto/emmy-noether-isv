@@ -1,0 +1,836 @@
+{
+  "schema": "noether-interslavic-v019-visual-qa/1.0",
+  "release_id": "NOETHER-ISV-v019",
+  "generated_at": "2026-08-22T00:00:00Z",
+  "inputs": {
+    "linked_reader": {
+      "path": "release_v019/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf",
+      "bytes": 6885443,
+      "sha256": "E14B2C9336E94878370332913360ECC52935AE93A89701BC7A5AE22C0552C401",
+      "pages": 1159
+    },
+    "methods_paper": {
+      "path": "release_v019/evidence/methods/AI_INTERSLAVIC_NOETHER_METHODS_v019.pdf",
+      "bytes": 148036,
+      "sha256": "9F202AC7A94DFE0CD09633AB5CFFD0DD349608E9ABD89CE887EE1A24F0ABDA2F",
+      "pages": 6
+    }
+  },
+  "all_page_raster_census": {
+    "linked_reader": {
+      "pages": 1159,
+      "render_scale": 0.5,
+      "colorspace": "grayscale",
+      "ink_threshold": "pixel value < 245",
+      "blank_page_threshold": "< 20 ink pixels",
+      "blank_pages": [],
+      "high_coverage_pages": [],
+      "minimum_ink_page": {
+        "page": 111,
+        "width": 298,
+        "height": 421,
+        "ink_pixels": 132,
+        "ink_fraction": 0.001052144940936409,
+        "ink_bbox": [
+          41,
+          369,
+          152,
+          402
+        ]
+      },
+      "maximum_coverage_page": {
+        "page": 258,
+        "width": 298,
+        "height": 421,
+        "ink_pixels": 29992,
+        "ink_fraction": 0.23906008385276348,
+        "ink_bbox": [
+          41,
+          48,
+          256,
+          402
+        ]
+      },
+      "page_census_bytes": 137520,
+      "page_census_sha256": "9F16C7FB82D07DA76E9462D9211D8DD3AB3FD31F6EF7CA2B3D3FDD94497E3CC8"
+    },
+    "methods_paper": {
+      "pages": 6,
+      "render_scale": 0.5,
+      "colorspace": "grayscale",
+      "ink_threshold": "pixel value < 245",
+      "blank_page_threshold": "< 20 ink pixels",
+      "blank_pages": [],
+      "high_coverage_pages": [],
+      "minimum_ink_page": {
+        "page": 6,
+        "width": 298,
+        "height": 421,
+        "ink_pixels": 4461,
+        "ink_fraction": 0.03555771652664637,
+        "ink_bbox": [
+          33,
+          15,
+          264,
+          402
+        ]
+      },
+      "maximum_coverage_page": {
+        "page": 4,
+        "width": 298,
+        "height": 421,
+        "ink_pixels": 24139,
+        "ink_fraction": 0.19240702067624224,
+        "ink_bbox": [
+          33,
+          15,
+          264,
+          402
+        ]
+      },
+      "page_census_bytes": 700,
+      "page_census_sha256": "F0BAF52140B838689722EB013A2613B47536FBEA24B15E5198A5CC5D51B001F6"
+    }
+  },
+  "rendered_samples": {
+    "linked_reader_count": 38,
+    "linked_reader_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      25,
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      350,
+      400,
+      450,
+      500,
+      550,
+      568,
+      569,
+      570,
+      571,
+      572,
+      573,
+      600,
+      650,
+      700,
+      750,
+      800,
+      850,
+      900,
+      950,
+      1000,
+      1050,
+      1100,
+      1150,
+      1159
+    ],
+    "linked_reader": [
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0001.png",
+        "bytes": 87897,
+        "sha256": "2D13D37EF6A584008C9C40898A64FBD6F70828E4E641DBB13512C3BBC503CEAB",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          1
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0002.png",
+        "bytes": 230362,
+        "sha256": "A5EB613C76D85BE7B4CBF0F228F9AC333D5DA6667EC36030A595E1C0C33AAE49",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          2
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0003.png",
+        "bytes": 218231,
+        "sha256": "B93A404622140B2907BC6CAB761934FC68817C43FB7793CAB7CF1FEBD6E89F66",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          3
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0004.png",
+        "bytes": 60712,
+        "sha256": "665545FB0E479DF980BE49D7BE77FF2074CFBFB6EEE125094BCD985714EDC040",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          4
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0005.png",
+        "bytes": 29996,
+        "sha256": "4AA3677D11D00AC5805253ECA13D0DBA25170446CEC7D98EBEA8A312049AB1B9",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          5
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0006.png",
+        "bytes": 248175,
+        "sha256": "F52B953D226A11333D2E41970B08051A6720CB60F58F5C783EA1C29A40800606",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          6
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0007.png",
+        "bytes": 200554,
+        "sha256": "F0E2A0D82FF146E89B475184F8EC3561874015D7E8BA097B36009D0906D2D4C2",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          7
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0025.png",
+        "bytes": 35487,
+        "sha256": "F92004F6208C6057B92F2068A9E94BC3CB50785DEF62F643C234F6F872CB84A7",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          25
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0050.png",
+        "bytes": 43787,
+        "sha256": "1684784911B77BB9BC27A1FD71361D5298CAB4033DF94529BFB7F0220AD59FC7",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          50
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0100.png",
+        "bytes": 182249,
+        "sha256": "7C18DBD355DDD4A9F80461713B1F2555CE4BD89136BE82EB21B54E6E9204DB6C",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          100
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0150.png",
+        "bytes": 258801,
+        "sha256": "4B52C287E006FC34069D23E3479CE524C2DC7F4A14E07D91D81885A3623B3DBF",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          150
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0200.png",
+        "bytes": 235345,
+        "sha256": "14F01C1E97CC0E9C8888C8B6D82629C0198BAF099DF1BBF4E1DB6A91008B09FD",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          200
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0250.png",
+        "bytes": 282410,
+        "sha256": "D1AFD829158021476A95DDE5446BB353E23738D6D8C276D48413562C9AC14AC0",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          250
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0300.png",
+        "bytes": 327566,
+        "sha256": "BF25922B6FAD18C525EC0D27B32EBDD5B1AE94F9656EE61C87640AE431B25B77",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          300
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0350.png",
+        "bytes": 165180,
+        "sha256": "590CCA49C1044329092B1684FFE97A14B1C6E7BBE0BD765FEA604595FE9CC93E",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          350
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0400.png",
+        "bytes": 123208,
+        "sha256": "7DCB21206A4AC4AD920BA3D65583310D3415BDF897528E2D1EAAAF9863152FE3",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          400
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0450.png",
+        "bytes": 178326,
+        "sha256": "1FB9D9B2911D0D5369D3A314705951B765CB0B39F167B384439D2290BA352A0F",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          450
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0500.png",
+        "bytes": 196610,
+        "sha256": "F8A626D3F8C43337C2776A14761673C3A5B252997F852364DBA6FE4F8C3B492F",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          500
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0550.png",
+        "bytes": 172163,
+        "sha256": "0EA8CCE76A419D3DBB61D3051B1FBD289098DF0E597CB22DE292EDB5C6B8DEDA",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          550
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0568.png",
+        "bytes": 58357,
+        "sha256": "024E68F8ED95A37FEC43E104CEDC1F209343FC317622BB8501B520E13F175738",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          568
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0569.png",
+        "bytes": 161475,
+        "sha256": "5D4DC44258CE2EFD5AC849237EA295C403700444E4C36755DB528FC8C526AC82",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          569
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0570.png",
+        "bytes": 48164,
+        "sha256": "1E131C9FAAB4D6AC945501344EE15D67FA4501AB528EA2313BB3516FD3DC7FC0",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          570
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0571.png",
+        "bytes": 34740,
+        "sha256": "235E656F247C94D594B8B89B564C0A26C9A14A8C200D2E9509D823ED9C75BCFB",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          571
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0572.png",
+        "bytes": 261122,
+        "sha256": "8D9CE2435FA7B96F0A2EA66FBB5521145EF2CDCFD8165FA2F10642673EDE0680",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          572
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0573.png",
+        "bytes": 217545,
+        "sha256": "33D845A2716513138BF992F080F7894560A5AB8858EB723F7B3F8314ED98E47B",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          573
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0600.png",
+        "bytes": 214437,
+        "sha256": "3657DD834BF62AEFC1FE809D506813656DF97E41F239FA053E97626B284B697B",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          600
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0650.png",
+        "bytes": 181969,
+        "sha256": "17D53B702206B04326D0C6387D7CE274C15C24C36BCDCC392C6C07ED51155D8E",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          650
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0700.png",
+        "bytes": 272698,
+        "sha256": "AEFE762C60AD45AAFE69058B4CC4EE204D4A0239C7F5D60C823B5700248C17F8",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          700
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0750.png",
+        "bytes": 269393,
+        "sha256": "905CDFD615EF3D2363DD0C3B76278C161D76953E96FEC9ED4096F17C13D41E15",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          750
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0800.png",
+        "bytes": 238886,
+        "sha256": "3873D52EB0B573865D859FF24D420F4FBA173E963F526B08EF882F74252B5126",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          800
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0850.png",
+        "bytes": 303744,
+        "sha256": "3A39FECB11D923CC2E6FCCF78471D61B23F280A498B75EB73507E97D37031F45",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          850
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0900.png",
+        "bytes": 112847,
+        "sha256": "07B4886D6AEA9D25CA5424FFDA7AABC378E661B35861CAAFBD746F5CB1219157",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          900
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-0950.png",
+        "bytes": 58331,
+        "sha256": "0C2491AAB5B90CC0E3D1336D2CE0A0B9B11D8DA2DEB4439F1859CA2EB32F5D86",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          950
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-1000.png",
+        "bytes": 221154,
+        "sha256": "2AB206EC9482F6E30FAD83588E93B394AD35429D8085C0B32D1022D92A022964",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          1000
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-1050.png",
+        "bytes": 244248,
+        "sha256": "43DD7990763FC7A92666C73EC374A6DF86AA68D4D480489A91EDF87EC739B8EB",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          1050
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-1100.png",
+        "bytes": 170859,
+        "sha256": "EC27BE25FF873947E11FC95355A234A005822CAA5937E31F462FE56FDD9A9E4D",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          1100
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-1150.png",
+        "bytes": 232965,
+        "sha256": "59BAC655AC28FCA3AC858E3E7A7881A0A813C930F0B6BFA0125AD7E1ECCABA79",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          1150
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/page-1159.png",
+        "bytes": 50239,
+        "sha256": "C9D42C58C5386CF6EF3ECE3CDE3A9900DA52FDD4E5C4CAB7822A2AA6F5D8F9DE",
+        "dimensions": [
+          910,
+          1287
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          1159
+        ]
+      }
+    ],
+    "methods_count": 6,
+    "methods_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "methods": [
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/methods/page-1.png",
+        "bytes": 307454,
+        "sha256": "6DD7F3E7186EE4C17BF70900981175F399E6CD45BFC3D8453B9D34D74A5CA143",
+        "dimensions": [
+          993,
+          1404
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          1
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/methods/page-2.png",
+        "bytes": 285983,
+        "sha256": "A8E0B84989989A1677FB70244B9E67A25D5AA337B7DA734590839AF3A4B5D3DA",
+        "dimensions": [
+          993,
+          1404
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          2
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/methods/page-3.png",
+        "bytes": 281041,
+        "sha256": "6FA59EE778FB0E1766C60B53CA5F998F378FD5E6A2958E5FDAE8C0AD7FA7B809",
+        "dimensions": [
+          993,
+          1404
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          3
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/methods/page-4.png",
+        "bytes": 328239,
+        "sha256": "0F3AAA3320F94065D0A297C0BEA44935606D4ADDA3376B146B4871ACBE7A3E66",
+        "dimensions": [
+          993,
+          1404
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          4
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/methods/page-5.png",
+        "bytes": 307870,
+        "sha256": "A72146183718C104E35D8EEF577BB8BD45FDE2901D08520D5B67FB5010907DB9",
+        "dimensions": [
+          993,
+          1404
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          5
+        ]
+      },
+      {
+        "path": "tmp/pdfs/isv_release_v019/visual/methods/page-6.png",
+        "bytes": 69452,
+        "sha256": "6CFFE06EC941C1412FB8730F87CB8BEBD3A346D754AFBBF2917CA2E6C74EB2C1",
+        "dimensions": [
+          993,
+          1404
+        ],
+        "mode": "RGB",
+        "represented_pages": [
+          6
+        ]
+      }
+    ]
+  },
+  "contact_sheets": [
+    {
+      "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/contact-front-boundaries.png",
+      "bytes": 2244195,
+      "sha256": "4A5005AB22906321E40188D463616ADD947A932E74F5DF647DE1655EFC6C0A26",
+      "dimensions": [
+        1384,
+        2052
+      ],
+      "mode": "RGBA",
+      "represented_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        1159
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/contact-latin-samples.png",
+      "bytes": 1122771,
+      "sha256": "17A20E1D090AFBBCDC5E00374F8DC9D3FFE86A1BEA2532F10BA1B16E259C640D",
+      "dimensions": [
+        1384,
+        1539
+      ],
+      "mode": "RGBA",
+      "represented_pages": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400,
+        450,
+        500,
+        550
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v019/visual/linked-reader/contact-cyrillic-samples.png",
+      "bytes": 1297982,
+      "sha256": "4145629285F77AA481992FD1FE1075C58186A49B78756D347B350C479FA901C8",
+      "dimensions": [
+        1384,
+        1539
+      ],
+      "mode": "RGBA",
+      "represented_pages": [
+        600,
+        650,
+        700,
+        750,
+        800,
+        850,
+        900,
+        950,
+        1000,
+        1050,
+        1100,
+        1150
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v019/visual/methods/contact-methods.png",
+      "bytes": 1971570,
+      "sha256": "0BBC65A8C4DCA113506F05EF0A60CC698796B2AA9945CFDEF12EA01F761C2615",
+      "dimensions": [
+        1158,
+        1138
+      ],
+      "mode": "RGBA",
+      "represented_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "manual_review": {
+    "reviewer_role": "primary Codex agent responsible for the release",
+    "status": "PASS",
+    "inspected": [
+      "all four contact sheets",
+      "linked-reader front matter pages 1-5 at full size",
+      "Cyrillic divider page 571 at full size",
+      "methods page 4 at full size after final metric update"
+    ],
+    "findings": {
+      "clipped_or_overlapping_text": 0,
+      "unreadable_or_missing_glyphs": 0,
+      "broken_tables_or_formulas": 0,
+      "blank_or_duplicate_transition_pages": 0,
+      "header_footer_or_page_number_defects": 0
+    },
+    "note": "Distributed controls span the complete Latin and Cyrillic readers; all newly authored front matter, boundaries, and methods pages were rendered, with every methods page visually represented."
+  },
+  "status": "PASS"
+}

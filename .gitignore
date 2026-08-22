@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+tmp/
+release_v019/pdf/
+release_v019/evidence/text/

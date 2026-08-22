@@ -1,0 +1,110 @@
+{
+  "decision_id": "ISV019-EDIT-0014",
+  "recorded_at": "2026-08-12T23:42:01.4548260+02:00",
+  "scope": "All 150 reviewed sostoj-family composition predicates in the four post-EDIT-0013 Latin components: 143 exact edits, seven already-canonical retained uses, and five sentence-specific recasts for non-iz senses.",
+  "choice": "Retain the official pan-Slavic sostojati se iz family, normalize every inflected form to the project surface, require the reflexive se and iz government for composition, and recast the five non-composition calques instead of forcing them into the lemma.",
+  "epistemic_type": "manager_final_morphosyntactic_decision_from_official_lexicon_grammar_and_context_replay",
+  "review_state": "applied_and_hash_verified_in_v019_working_latin",
+  "motivation": "Official dictionary entry 1874 supplies sostojati se iz and positive evidence for every listed Slavic group. Replacing the whole family with skladati se iz would reduce Bulgarian and Serbian coverage; retaining malformed national forms or omitting se would preserve avoidable grammar defects. Every occurrence was reviewed in its mathematical sentence, so no linguistic hold remains in this family.",
+  "alternatives_rejected": [
+    "Replace the whole family with skladati se iz, despite its weaker South-Slavic profile.",
+    "Keep Russian-shaped sostojit/sostojat/sostojut or mixed accented forms.",
+    "Keep bare sostoji without the required reflexive se.",
+    "Force the five senses meaning consists in or the problem lies in into iz-government rather than recasting them semantically.",
+    "Leave the family for a hypothetical future human instead of completing the best evidence-bound edition now."
+  ],
+  "predecessors": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167643,
+      "sha256": "8982C24471402B7702024F79426DD968E3E7F30E0817895A666F5E092854355E"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25502,
+      "sha256": "819F8EA91FA13F9E7669E76312D2ED46B39D7F790FEB99ACC1DEAD0D852773A1"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1893110,
+      "sha256": "2F218348A461C1F2165475C33C5BC4DA74FB4CA34BB56122DA35E2BAD4BD8A4D"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9569,
+      "sha256": "2B5E4698ABEF605BD8899A1FB1B1AD6CF504DF5BAEFB6824D25006116A1F1E8E"
+    }
+  },
+  "evidence": {
+    "application_plan": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/isv_sostoj_family_plan_v001.json",
+      "bytes": 313744,
+      "sha256": "5F8D6FC04C698C09F2F05E90A176549A217F1BA5655ADD2EAD79F6C993E2BBF1"
+    },
+    "official_dictionary_dataset": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "accepted_row": 1874,
+      "accepted_headword": "sȯstojati sę iz",
+      "accepted_profile": "bg+ hr+ pl+ ru+ sk+ sr+ uk+",
+      "rejected_comparator_row": 4463,
+      "rejected_comparator": "skladati sę iz"
+    },
+    "official_grammar": {
+      "verbs": {
+        "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/verbs.md",
+        "bytes": 21426,
+        "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD"
+      },
+      "prepositions": {
+        "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/prepositions.md",
+        "bytes": 6363,
+        "sha256": "56D7FFAF2D99CB63F889606E237AE0534A4924B37D72974C8BB2C6D2CA0E4EF0"
+      }
+    }
+  },
+  "results": {
+    "reviewed_occurrences": 150,
+    "technical_edits": 143,
+    "retained_already_canonical": 7,
+    "semantic_recasts": 5,
+    "unresolved_linguistic_holds": 0,
+    "remaining_canonical_family_occurrences": 145,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167643,
+      "sha256": "8982C24471402B7702024F79426DD968E3E7F30E0817895A666F5E092854355E",
+      "edits": 0
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25504,
+      "sha256": "AE98EB8EFCA21D8F341BD1525FBCBF048D5948BA47C509262C020901B12A683D",
+      "edits": 1
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1893444,
+      "sha256": "D8027D92960EB43FAAD4C9C1F89CAB62BB806DBE1E2D34714E08646F22C7BC1E",
+      "edits": 142
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9569,
+      "sha256": "2B5E4698ABEF605BD8899A1FB1B1AD6CF504DF5BAEFB6824D25006116A1F1E8E",
+      "edits": 0
+    }
+  },
+  "tool": {
+    "path": "apply_sostoj_family_v019.py",
+    "bytes": 10885,
+    "sha256": "6C54288204CD1126BCBA17A6C4EEA1D31A2D2024244794B1F46E6F968E25886F"
+  },
+  "validation": {
+    "prehashes": "4/4 exact",
+    "coordinates": "143/143 exact character and UTF-8 byte offsets, line/column positions, old/new hashes, anchors, and non-overlap",
+    "protected_content": "zero edit intersections; comment and foreign-span sequence unchanged",
+    "structure": "cross-reference, environment, and math-delimiter sequences unchanged",
+    "outputs": "4/4 planned byte counts and SHA-256 values reproduced before write and verified after write",
+    "residue": "zero malformed or national sostoj forms; zero bare canonical predicates; zero se-sostoji inversion; zero sostoj-family se v government"
+  },
+  "uncertainty": "This is an evidence-bound editorial decision, not a claim of native review. The exact alternatives and source-family limitations remain preserved in the plan and this record.",
+  "agent_return": {
+    "task_identity": "/root/isv_causal_connective_normalization",
+    "scope": "read-only exhaustive sostoj-family linguistic adjudication and deterministic plan",
+    "disposition": "accepted after parent source-hash replay, strict plan inspection, dry run, exact predicted-hash reproduction, and post-write verification"
+  }
+}

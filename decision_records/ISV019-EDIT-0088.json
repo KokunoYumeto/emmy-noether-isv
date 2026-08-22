@@ -1,0 +1,46 @@
+{
+  "decision_id": "ISV019-EDIT-0088",
+  "recorded_at": "2026-08-13T15:44:16.7772794+02:00",
+  "epistemic_type": "manager_adjective_agreement_repair",
+  "scope": "Twenty-five residual noncanonical forms in the base-paper različny adjective family.",
+  "choice": "Repair 19 genitive-plural forms to različnyh, three non-masculine-animate nominative-plural forms to različne, and three feminine oblique forms to različnoj.",
+  "motivation": "The official hard-stem adjective must agree in case, number and gender; every source site was sentence-adjudicated.",
+  "alternatives_rejected": [
+    "Leaving South-shaped -ih or malformed -oh preserves a mixed declension.",
+    "Blindly mapping every form to one suffix would corrupt nominative-plural and feminine-oblique contexts."
+  ],
+  "evidence": {
+    "official_grammar": "adjectives.md SHA-256 184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F, lines 14, 16 and 18: regular agreement, hard n-stem, and common non-masculine-animate nominative plural.",
+    "official_dictionary": "isv_words_list.csv SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842, row 13608: råzličny, adjective type1; official examples use različnyh and različne.",
+    "semantic_review": "All 25 sites were checked against their noun heads; no comments, control names, foreign arguments or non-adjectival različnost forms are included."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0087",
+    "decision_log": {"bytes": 325496, "sha256": "3E2262C17E42C9E7427BFAA14069E19CFDB063C1781976799BE42E88A17245F8"},
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "AA751140E89657D210DDCAEA2869FAAA408C11027EA3A48FFD35B4D20C479C66"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898272, "sha256": "83524DCC787CCD40E28ED252F67A2EA0CAC2D328859E2A445BA124C0F647035D"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 25,
+    "source_forms_residue": 0,
+    "različnyh_after": 80,
+    "različne_after": 153,
+    "različnoj_after": 3,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "AA751140E89657D210DDCAEA2869FAAA408C11027EA3A48FFD35B4D20C479C66"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898272, "sha256": "9FAA6A5FC0B1015CBF5EBE46449E1BCDEE594ECEB9C0D02EBCD3A7E9D1B44A5A"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_razlicny_agreement_v019.py", "bytes": 4652, "sha256": "71D57CC86046C40B6A0D8FD5901B4F4D840D921CC676F2167F2B36334002EC36"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0087",
+    "coverage": "Twenty-five exact line-bound sites and the complete four-form source census.",
+    "postcondition": "All four noncanonical source forms zero and target totals exact.",
+    "structure": "Byte count, ordered TeX controls, braces, math delimiters and line counts invariant.",
+    "reproducibility": "Frozen successor hashes reproduced before atomic apply."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

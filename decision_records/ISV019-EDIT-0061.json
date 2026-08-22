@@ -1,0 +1,63 @@
+{
+  "decision_id": "ISV019-EDIT-0061",
+  "recorded_at": "2026-08-13T14:24:21.7079672+02:00",
+  "epistemic_type": "manager_direct_third_person_plural_morphology_repair_continuation",
+  "scope": "Thirty-seven remaining audited non--aju third-person-plural verb forms missing final t: 29 in papers 1-43 and eight in book 44.",
+  "choice": "Add the required final t at exact line-and-occurrence locators while preserving stem, aspect, spelling, capitalization, clause, and mathematical meaning.",
+  "motivation": "Official morphology distinguishes first-person singular -u from third-person plural -ut. Every changed occurrence has an overt plural subject or antecedent. Locator-level application is required because one line contains a protected singular mogu followed later by a plural mogu.",
+  "alternatives_rejected": [
+    "Replace every bare -u form globally: that would corrupt genuine first-person-singular authorial predicates.",
+    "Treat final t as optional: this conflicts with the official third-person-plural paradigm and EDIT-0059's accepted repair.",
+    "Normalize lexical stems simultaneously: this would conflate exact agreement repair with separate lexical decisions."
+  ],
+  "evidence": {
+    "official_verb_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/verbs.md",
+      "bytes": 21426,
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+      "relevance": "The paradigm distinguishes first-person singular -u from third-person plural -ut."
+    },
+    "context_review": {
+      "finding": "All 37 mapped clauses have plural subjects or antecedents.",
+      "protected_first_person": [
+        "base:4929 budu",
+        "base:4945 mogu",
+        "base:9172 mogu",
+        "base:15042 mogu",
+        "base:15234 mogu",
+        "base:15964 mogu",
+        "base:22510 first mogu",
+        "base:22766 mogu"
+      ]
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0060",
+    "decision_log": {
+      "bytes": 239254,
+      "sha256": "43E31D29DAD856CC0F0ACC751BFB699553EDD71B1B02E345EFF886BE8EFABD18"
+    },
+    "source_latin/44-book-isv.tex": {"bytes": 167968, "sha256": "62378962AA5A049F6241E5054178D254F9D422D719E88B26258A3B1633A140BA"},
+    "source_latin/45-isv.tex": {"bytes": 25533, "sha256": "DA03012DD88C4A096B42F2C5356B92C8C2656D4AC32501E2C54986F6861FEA1B"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896951, "sha256": "D16714DC7D035C9F71D0A50719C8BA7D64D3D3E547370730633E2428DCA4DF49"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 37,
+    "source_histogram": {"budu": 15, "pokazuju": 8, "mogu": 5, "obrazuju": 2, "konstruuju": 1, "definuju": 1, "komutuju": 1, "razlikuju": 1, "pričisljuju": 1, "iměju": 1, "podvrgnu": 1},
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167976, "sha256": "5B264B331B53DC3D53478A24FA3D53F5D70951DEDA75A4233994C3BB09FC1D44"},
+    "source_latin/45-isv.tex": {"bytes": 25533, "sha256": "DA03012DD88C4A096B42F2C5356B92C8C2656D4AC32501E2C54986F6861FEA1B"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896980, "sha256": "26BAF935087869648434EBFFDA1616132BDA013282B36E8D79DFAFAE6146BCA7"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_missing_third_plural_t_continuation_v019.py", "bytes": 8576, "sha256": "FA32ECE7F78EF03FE7A51D35CC5A55E895D997938884D2124BB6067259DF6B75"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0060",
+    "coverage": "37/37 line-and-occurrence locators changed exactly once",
+    "protected_forms": "all eight singular holds remain, including only the second mogu changed on base line 22510",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, protected fragments, and line counts unchanged",
+    "reproducibility": "Frozen output hashes reproduced immediately before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

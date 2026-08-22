@@ -1,0 +1,153 @@
+{
+  "schema": "noether-interslavic-decision-record-v1",
+  "decision_id": "ISV019-EDIT-0131",
+  "recorded_at": "2026-08-14T16:56:00+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "project_authority_mathematical_source_fidelity_and_bounded_interslavic_surface_editing",
+  "scope": "Paper34 Section23 producer unit 207 only: restore W_nu, identify l_nu at both corresponding-ideal loci, and restore the simple-left-ideal qualifier; preserve the two generic W_i controls.",
+  "summary": "The live normalized Interslavic body now agrees with ED0014 and the independently sealed Ukrainian precedent: the multiplicity is |W_nu|, both corresponding ideals are explicitly l_nu, and the composition-factor sentence names the corresponding simple left ideal.",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0130",
+    "ledger_rows": 130,
+    "ledger_bytes": 518186,
+    "ledger_sha256": "9080F8AB2FF8B4D60EF93298A0F92740A828FC012C5FF557E65C0543C3FB956C",
+    "sidecar_bytes": 8466,
+    "sidecar_sha256": "1090C666DBFCC39AC1BD4D30D7971DC3E4F545A63D860C1F70CF22602FDC2C0C",
+    "base_bytes": 1898283,
+    "base_sha256": "8C00A8722A9C283A42D041969F4816677B6700A498418CC6970C64934D3A0AA9"
+  },
+  "supplemental_finding_closed": "P34-left-ideal-fidelity",
+  "exact_changes": [
+    {
+      "producer_line": 13,
+      "assembled_line": 22041,
+      "before": "\\providecommand{\\mc}{\\mathfrak{c}}",
+      "after": "\\providecommand{\\mc}{\\mathfrak{c}}\\providecommand{\\ml}{\\mathfrak{l}}",
+      "reason": "unit-local l macro; no line shift"
+    },
+    {
+      "producer_line": 86,
+      "assembled_line": 22114,
+      "repairs": ["|W_i| -> |W_\\nu|", "odgovarjajuči ideal -> odgovarjajuči ideal $\\ml_\\nu$"]
+    },
+    {
+      "producer_line": 88,
+      "assembled_line": 22116,
+      "before": "odgovarjajuči prosty ideal",
+      "after": "odgovarjajuči prosty lěvy ideal $\\ml_\\nu$"
+    },
+    {
+      "assembled_lines": [22036, 22037],
+      "after_summary": "source and identity receipts point to the synchronized P34 lane-local successor"
+    }
+  ],
+  "protected_negative_controls": {
+    "generic_W_i_assembled_lines": [22100, 22102],
+    "status": "byte_preserved"
+  },
+  "source_inputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898283, "sha256": "8C00A8722A9C283A42D041969F4816677B6700A498418CC6970C64934D3A0AA9"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "source_outputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898214, "sha256": "AF53D8C3D0400779214EB7F5202298B9B918E0E6FC7AA69E7076D1F3C3BB2340"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "producer_successors": [
+    {
+      "unit": "Paper02-Section11",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "input": {"bytes": 14940, "sha256": "37B613F59FC8D4F101A714AF84B5DA0AE28FED93123EBA52C0363B234E3D499A"},
+      "output": {"bytes": 14964, "sha256": "7590484A00AA1B57C4AC8BDB53204AA0A570FAF8DCE8E0C9DBBD6247D6CB7AD7"}
+    },
+    {
+      "unit": "Paper08",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper08/interslavic/v001/Noether_Paper08_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper08_Interslavic_v001.tex",
+      "input": {"bytes": 23684, "sha256": "40A84F8E13423AFC923C4C0C714CBFB78C11EBD6F10343EEACA93090FCBB10C3"},
+      "output": {"bytes": 23894, "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"}
+    },
+    {
+      "unit": "Paper22",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper22/interslavic/v001/Noether_Paper22_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+      "input": {"bytes": 77611, "sha256": "6A78318258A2C609D030A248E66834055E904DC808BECA797433C461B31558B6"},
+      "output": {"bytes": 78293, "sha256": "0855C017214927DDF49EC0DD6F7A9ABA350E218F33BB9A94CE6B67E5A8FBDE25"}
+    },
+    {
+      "unit": "Paper24",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper24/working/through-section07/interslavic/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+      "local": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+      "input": {"bytes": 94891, "sha256": "1AFB653CAD5CFE903BC80CB64DE192D22BE33579131208309844F7104CA0BC6B"},
+      "reconstructed_pre_edit_shadow": {"bytes": 95451, "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"},
+      "output": {"bytes": 95465, "sha256": "AD419F8A63C929DF6CFC897054D748F4E9756CBFF18D98F6A9DCEB0AC66F543F"}
+    },
+    {
+      "unit": "Paper34-Section23",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper34/source_fidelity_section23/interslavic/v001/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+      "input": {"bytes": 4638, "sha256": "965699990152B0707997CFE43D58300E243E690657FC85D326486A835E2AC8C0"},
+      "reconstructed_pre_edit_shadow": {"bytes": 4690, "sha256": "BFEE5482B4B35155C44D6577D810E4CACB1932B6A9C63031266EFC2EFA7DEE6A"},
+      "output": {"bytes": 4752, "sha256": "B811E94705075CBA321A016DD3F633B4F47041191835708A113EB6C4ADCC196B"}
+    }
+  ],
+  "producer": {
+    "unit": "Paper34-Section23",
+    "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper34/source_fidelity_section23/interslavic/v001/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+    "local": "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+    "input": {"bytes": 4638, "sha256": "965699990152B0707997CFE43D58300E243E690657FC85D326486A835E2AC8C0"},
+    "reconstructed_pre_edit_shadow": {"bytes": 4690, "sha256": "BFEE5482B4B35155C44D6577D810E4CACB1932B6A9C63031266EFC2EFA7DEE6A"},
+    "output": {"bytes": 4752, "sha256": "B811E94705075CBA321A016DD3F633B4F47041191835708A113EB6C4ADCC196B"}
+  },
+  "preserved_producer_successors": {
+    "count_before": 4,
+    "paper24": {"bytes": 95465, "sha256": "AD419F8A63C929DF6CFC897054D748F4E9756CBFF18D98F6A9DCEB0AC66F543F"},
+    "status": "all four predecessor bindings byte_preserved"
+  },
+  "human_auditable_considerations": {
+    "question": "Whether the generic index i in the current translation was intended, or whether the source binds the already-defined simple left ideal l_nu.",
+    "evidence_weighed": [
+      "ED0014 lines 18065-18069 use W_nu and explicitly name Ideal l_nu twice.",
+      "ED0014 line 17850 defines l_nu as an einfaches Linksideal.",
+      "UK001-EDIT-0003 independently sealed the same source-fidelity repair.",
+      "The current Interslavic morphology already supplies the bounded house surfaces odgovarjajuči and prosty lěvy ideal."
+    ],
+    "alternatives_rejected": [
+      "Global W_i replacement, because the two preceding generic block-index uses are correct.",
+      "Omit l_nu or lěvy, because that loses the source's ideal identity or one-sidedness.",
+      "Copy the historical producer body, because it predates sealed normalization.",
+      "Mutate the custody producer, because a lane-local synchronized successor preserves provenance."
+    ],
+    "claim_boundary": "Project-source fidelity and bounded Interslavic house editing; not native/community validation or critical-edition certification."
+  },
+  "authority": {
+    "project_active_german_authority": {"edition": "NOETH-DE-ED-0014", "source_bytes": 2154011, "source_sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58", "version_doi": "10.5281/zenodo.21908301", "pointer_bytes": 152755, "pointer_sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE", "activation_receipt_bytes": 28837, "activation_receipt_sha256": "1F34D25C36C2ADCEDB47A58ACD4EC92A34EA2F1E88D2F85283313627EA53E436"},
+    "ukrainian_precedent": {"decision_id": "UK001-EDIT-0003", "sidecar_sha256": "305D067C68C2678B60B0888E9D38C3E183AFBC6E0C341E001993F332AF77A295", "applicator_sha256": "2EE67F244F69E3335F503086248D6C52589D8F80899867DD65B254AEF5B4AB73", "producer_sha256": "A1A75A466D30D51EE2F00E1B7C77677FD22C3E3F1051984ECF5D725C4AC4C241"}
+  },
+  "applicator": {
+    "path": "apply_isv_p34_left_ideal_fidelity_v019.py",
+    "bytes": 42243,
+    "sha256": "388AB3790508B8583792579A515A80226D7644301AF4D5B4C163363F7C204D6A",
+    "default_mode": "dry_run",
+    "apply_mode": "explicit_one_shot"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT; exact defects 0",
+    "producer_and_assembled_body_identity": "PASS",
+    "reverse_replay": "PASS",
+    "protected_structure_transport": "PASS",
+    "generic_W_i_controls": "PASS",
+    "frozen_and_public_immutability": "PASS",
+    "no_write_dry_run_snapshot": "PASS",
+    "semantic_holds": 0
+  },
+  "open_dispositions": [
+    {"defect_id": "NOETH-DEF-P24-0003", "status": "OPEN_RENDERED_PAGE_ADJUDICATION", "bundled_here": false}
+  ],
+  "publication": {"working_successor_published": false, "publication_effect": "none", "doi_effect": "none"}
+}

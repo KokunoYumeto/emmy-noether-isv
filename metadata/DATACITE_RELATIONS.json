@@ -1,0 +1,40 @@
+{
+  "schema": "noether-interslavic-datacite-relations/1.0",
+  "release_id": "NOETHER-ISV-v019",
+  "subject": {
+    "identifier": "10.5281/zenodo.22050935",
+    "identifierType": "DOI",
+    "title": "Emmy Noether: Polno medžuslovjansko izdanje korpusa / Complete Interslavic Corpus Edition"
+  },
+  "relations": [
+    {
+      "relationType": "IsVersionOf",
+      "relatedIdentifier": "10.5281/zenodo.21926382",
+      "relatedIdentifierType": "DOI",
+      "status": "encoded by Zenodo version lineage"
+    },
+    {
+      "relationType": "IsPartOf",
+      "relatedIdentifier": "10.5281/zenodo.20412587",
+      "relatedIdentifierType": "DOI",
+      "status": "encoded in Zenodo metadata"
+    },
+    {
+      "relationType": "IsTranslationOf",
+      "relatedIdentifier": "NOETH-DE-ED-0015",
+      "relatedIdentifierType": "Other",
+      "relatedIdentifierHash": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+      "status": "DataCite intent recorded in prose and sidecar; Zenodo relation vocabulary does not encode this local source-object identifier"
+    },
+    {
+      "relationType": "IsSupplementedBy",
+      "relatedIdentifier": "https://github.com/KokunoYumeto/emmy-noether-isv",
+      "relatedIdentifierType": "URL",
+      "status": "encoded in Zenodo metadata"
+    }
+  ],
+  "reciprocal_intent": [
+    "The global catalogue may encode HasPart for concept DOI 10.5281/zenodo.21926382.",
+    "The German authority catalogue may encode HasTranslation for concept DOI 10.5281/zenodo.21926382."
+  ]
+}

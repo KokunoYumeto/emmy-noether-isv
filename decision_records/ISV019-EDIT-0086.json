@@ -1,0 +1,79 @@
+{
+  "decision_id": "ISV019-EDIT-0086",
+  "recorded_at": "2026-08-13T15:36:51.6219290+02:00",
+  "epistemic_type": "manager_conditional_apodosis_recast",
+  "scope": "One residual connective at base-papers1-43-isv.tex line 19187 in the Schur hypothetical premise.",
+  "choice": "Replace the exact phrase 'Tedy I. Šur pokazal, že' with 'V tom slučaju I. Šur pokazal, že'.",
+  "motivation": "German 'Dann' scopes the hypothetical premise 'Es enthalte P ...'; the meaning is under that condition, not historical time or an ordinary causal transition.",
+  "alternatives_rejected": [
+    "Zato would flatten a conditional-apodotic relation into ordinary causal inference.",
+    "Togda would falsely present the passage as event-time sequence.",
+    "Retaining Tedy would preserve the unresolved East-shaped connective layer."
+  ],
+  "evidence": {
+    "german_authority": "noether.tex SHA-256 EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58, line 16106: 'Es enthalte P ... Dann zeigte I. Schur, daß ...'.",
+    "semantic_review": "The premise is hypothetical and the conclusion is asserted only in that case; the source family contains no genuine temporal-event use.",
+    "programme_policy": "The analytic phrase makes the clause relation explicit without selecting a temporally misleading or source-cohort-specific connective."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0085",
+    "decision_log": {
+      "bytes": 318949,
+      "sha256": "0DFE2B3A1FE1EC991174E647B5748FB115FFD2CEEB76FD486100324853441655"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168065,
+      "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25557,
+      "sha256": "4BCE3FC674C270009151AA00E959633720EFFD7D32A8EFE9DA459AF3971A0033"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898287,
+      "sha256": "68FCB8280E6774271C4125BBB3B89C2CC9EEBA867027C8582F063D3A5F87847B"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "results": {
+    "sites_changed": 1,
+    "conditional_apodosis_sites_resolved": 1,
+    "genuine_temporal_event_sites": 0,
+    "residual_tedy": 73,
+    "residual_teda": 57,
+    "residual_connective_family_total": 130,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168065,
+      "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25557,
+      "sha256": "4BCE3FC674C270009151AA00E959633720EFFD7D32A8EFE9DA459AF3971A0033"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898297,
+      "sha256": "40C97741B8382C2C74C02ED8A04021801E2289370943BF8819F7E3861605A448"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "tool": {
+    "path": "apply_conditional_schur_singleton_v019.py",
+    "bytes": 2742,
+    "sha256": "8D83CBEE9D85B5706EC6ACA8EC091077AE49FB5E1749A62D78D67D8D2DAB6673"
+  },
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0085",
+    "coverage": "The exact guarded source phrase occurred once and the target phrase occurred once after application.",
+    "postcondition": "The connective-family residue fell from 131 to 130; no temporal recast was introduced.",
+    "structure": "TeX controls, labels/refs/cites, braces, math delimiters and line counts invariant.",
+    "reproducibility": "Frozen successor hashes reproduced before atomic apply."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

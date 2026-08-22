@@ -1,0 +1,46 @@
+{
+  "decision_id": "ISV019-EDIT-0071",
+  "recorded_at": "2026-08-13T14:53:40.8103841+02:00",
+  "epistemic_type": "manager_arbitrary_quantifier_family_normalization",
+  "scope": "Sixty exact mathematical arbitrary/any-selected quantifier forms: 58 non-headword libovol- spellings and two residual East-shaped proizvol- forms.",
+  "choice": "Normalize the complete scoped family to the already established official libovolj- paradigm, preserving case, number, gender, and capitalization.",
+  "motivation": "All 60 sites quantify arbitrary mathematical objects. The reader already contained 314 canonical libovolj- tokens; this removes an accidental spelling and source-stratum split without changing semantics.",
+  "alternatives_rejected": [
+    "Retaining libovol-/libovolj-/proizvol- as three interchangeable strata leaves an unjustified mixed paradigm.",
+    "Globalizing type-2 proizvolj- would expand the East/South-shaped layer.",
+    "Svobodny means free rather than mathematically arbitrary."
+  ],
+  "evidence": {
+    "official_dictionary": "isv_words_list.csv SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: id22300 libovoljny; id22318 type-2 proizvoljny.",
+    "semantic_review": "Every site denotes arbitrary forms, rows, variables, elements, systems, polynomials, ideals, modules, fields, coefficients, isomorphisms, contractions, or degree; German confirms beliebig at both proizvol- sites.",
+    "cohort_evidence": "Czech libovoln- and Slovene poljubn- independently preserve the ljub/vol bridge; cohort presence was used rather than raw token voting."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0070",
+    "decision_log": {"bytes": 272144, "sha256": "62690F658C5083E0E5A917856E096DFDAE423C668E1B3DEFBB53B43B45F3D678"},
+    "source_latin/44-book-isv.tex": {"bytes": 168067, "sha256": "6F4F4D063FC5CE680BDBE60921547E8C1B9B0A8C981B72023C095F5326033055"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897494, "sha256": "6162627607BA22C02AF544E91D7CA6499A9055876150DB000B385D2FE1BDC8B8"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 60,
+    "file_counts": {"base-papers1-43-isv.tex": 60},
+    "canonical_libovolj_family": {"before": 314, "after": 374},
+    "noncanonical_family_residue": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168067, "sha256": "6F4F4D063FC5CE680BDBE60921547E8C1B9B0A8C981B72023C095F5326033055"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897552, "sha256": "F94C351AB45387EA264B7C6081166FA96EC17E680FC087A7FA24FFE42F01FA1A"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_arbitrary_family_v019.py", "bytes": 5280, "sha256": "EB4097A90AA2F637E61C71801A83C023F5769C9CB88F71CA3A17CE403F59DCDA"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0070",
+    "coverage": "60/60 exact whole-token sites and declared source histogram",
+    "protected_spans": "zero comment, foreign, or foreignlanguage targets",
+    "structure": "TeX controls, labels/refs/cites, braces, math delimiters, newlines, UTF-8 and final LF invariant",
+    "reproducibility": "frozen successor hashes reproduced before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

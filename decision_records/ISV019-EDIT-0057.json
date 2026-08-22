@@ -1,0 +1,98 @@
+{
+  "decision_id": "ISV019-EDIT-0057",
+  "recorded_at": "2026-08-13T14:01:00.6865079+02:00",
+  "epistemic_type": "manager_direct_pronominal_case_paradigm_normalization",
+  "scope": "All 195 residual West-shaped vse- oblique forms in live v019 Latin sources: 193 vseh, one vsem, and one vsemi, all in base-papers1-43-isv.tex.",
+  "choice": "Normalize the complete oblique series to the reader's accepted vsi paradigm: vseh to vsih, vsem to vsim, and vsemi to vsimi.",
+  "motivation": "The reader already uses vsih/vsim/vsimi hundreds of times and its official vśaky/vsi paradigm supplies those forms. The isolated vse- variants duplicate a West-shaped case series inside otherwise identical universal-pronoun contexts. Normalizing them removes morphological inconsistency without changing reference, agreement, syntax, or mathematical content.",
+  "alternatives_rejected": [
+    "Retain both oblique paradigms freely: that leaves a source-layer inconsistency with no semantic distinction.",
+    "Normalize the much larger accepted vsi series toward vse-: this would reverse the established house paradigm and broaden the edit needlessly.",
+    "Recast each phrase with každy: that would introduce a different determiner family and require agreement changes."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "accepted_entry": "id 4326 vśaky, adjective type 1, each/every, with broad East-West-South comparator support"
+    },
+    "official_pronoun_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/pronouns.md",
+      "bytes": 10370,
+      "sha256": "AB4F7B04FD55618DE2EB5FEB282558BEDEC6C205BEBB0E6BBD612CB3FBC88141",
+      "relevance": "The accepted plural oblique paradigm uses vsih, vsim, and vsimi."
+    },
+    "live_corpus_control": {
+      "preexisting_accepted_forms": {
+        "vsih": 363,
+        "vsim": 19,
+        "vsimi": 37
+      },
+      "finding": "All 195 source sites have the same universal-pronoun function as the accepted case series; no protected or semantically distinct occurrence exists."
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0056",
+    "decision_log": {
+      "bytes": 221179,
+      "sha256": "FF140A2A4A3CEB016532D03D345E91A00288032CBD39D9AEA67178254A20FDCF"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167963,
+      "sha256": "1A24249284FB5B95396E29991F697E0F0246697CCF03C8B0ABF4DFF7E9E810D3"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "81C90B9013261D41392153F5A9BBB1D52A7F36F35CC23A4DE1DDE1E6A6DBD5DE"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896786,
+      "sha256": "380C49468854E7910F0551B47CDB14EE859365E4ADBDDD826417EF9F7C8F01B8"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "results": {
+    "sites_changed": 195,
+    "source_histogram": {
+      "vseh": 193,
+      "vsem": 1,
+      "vsemi": 1
+    },
+    "source_family_residual": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167963,
+      "sha256": "1A24249284FB5B95396E29991F697E0F0246697CCF03C8B0ABF4DFF7E9E810D3"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "81C90B9013261D41392153F5A9BBB1D52A7F36F35CC23A4DE1DDE1E6A6DBD5DE"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896786,
+      "sha256": "B6C6640D1DAC4342DE0747091AA2BEE0B1713F2CFB33B5D2F5A31D8B83F62719"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "tool": {
+    "path": "apply_vsi_case_family_v019.py",
+    "bytes": 5394,
+    "sha256": "62B2D526E47E11896D1D60DE9ACEAC2A82663816A1030DD69B34EF9BF74365DC"
+  },
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0056",
+    "coverage": "195/195 source sites mapped by exact case-sensitive histogram",
+    "residue": "zero whole-token vseh/vsem/vsemi residue",
+    "protected_spans": "TeX comments and foreign-language arguments unchanged",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, byte counts, and line counts unchanged",
+    "reproducibility": "Frozen output hashes reproduced immediately before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

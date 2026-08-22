@@ -1,0 +1,103 @@
+{
+  "decision_id": "ISV019-EDIT-0046",
+  "recorded_at": "2026-08-13T02:42:22.6219663+02:00",
+  "epistemic_type": "manager_direct_residual_regression_and_orthography_repair",
+  "scope": "Twenty-one exact residual tokens in the live v019 Latin base: two reintroduced sej demonstratives, three malformed sled- forms, one escaped nuždno necessity form, eight unaccented trěb-/potrěb- forms, one malformed javjati form, and six unaccented poslěd- forms.",
+  "choice": "Restore the already-established primary demonstrative toj; normalize the following/consequence, necessity, requirement, appearance, and sequential/result families to their official or already-established canonical forms; repair participial -ći and third-person-plural -jut morphology rather than changing only the stem spelling.",
+  "motivation": "These are not unresolved lexical preferences. They are exact recurrences or malformed spellings inside families already established elsewhere in the same edition. Leaving them would preserve internal doublets and two known zero-residue regressions after EDIT-0035 and EDIT-0039.",
+  "alternatives_rejected": [
+    "Retain the two reintroduced Sej forms: EDIT-0035 already established that the primary toj paradigm is clearer across modern Slavic languages, and these contexts carry no proximal contrast.",
+    "Repair only the initial vowel in sledujuči/sledut: the official participle requires -ći and the third-person plural requires the -j- stem plus -ut.",
+    "Replace nuždno with ne trěba or another modal construction: the sentence asserts terminological necessity, so the already-established potrěbno preserves its scope.",
+    "Keep unaccented treb-/potreb-/posled- doublets as harmless variants: the surrounding corpus already uses the canonical trěb-/potrěb-/poslěd- families and the mixed spelling reduces searchability and consistency.",
+    "Keep javljajut with -lj-: the official imperfective lemma is javjati sę and the edition already has the canonical javjajut form."
+  ],
+  "evidence": {
+    "prior_sej_decision": {
+      "path": "decision_records/ISV019-EDIT-0035.json",
+      "bytes": 2911,
+      "sha256": "713EBD67A408DFD46DDB1B8A59F6D746E59553E6D1E0F50A1E2B7132BFC5819B"
+    },
+    "prior_necessity_decision": {
+      "path": "decision_records/ISV019-EDIT-0039.json",
+      "bytes": 6699,
+      "sha256": "6A340E88130388DBA7D2853971D7E80AA598A6AE7597BFEED831FE033194442C"
+    },
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "entries": "id 1939 slědovati; id 1378 slědujųći; id 1942 trěbovati; id 29955 potrěbno; id 3612 javjati sę; id 18328 poslědica; id 2333 poslědovateljny"
+    },
+    "official_verb_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/verbs.md",
+      "bytes": 21426,
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+      "relevance": "present-stem -j-, third-person plural -ut, and active-participle morphology"
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0045",
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167959,
+      "sha256": "356D996F1E592DD857B62241F02815D42FAE54455BF46D294978767B9D7CB6D5"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "4E47FD1C693F89726DC65607A7500C9376EA0F09E8BC48EE46D48893BD580292"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1897076,
+      "sha256": "23601D9BB3C8884F0FA929F7D35FFB8EEB0366E90A402FBA41C6B96BDB81A4DE"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"
+    }
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 21,
+    "change_partition": {
+      "reintroduced_sej_to_toj": 2,
+      "following_family_morphology": 3,
+      "escaped_nuzdno_to_potrebno": 1,
+      "unaccented_requirement_family": 8,
+      "javjati_stem_repair": 1,
+      "unaccented_result_or_sequence_family": 6
+    },
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167959,
+      "sha256": "356D996F1E592DD857B62241F02815D42FAE54455BF46D294978767B9D7CB6D5"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "4E47FD1C693F89726DC65607A7500C9376EA0F09E8BC48EE46D48893BD580292"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1897096,
+      "sha256": "B1314BA860B177CE35632A43B26006A068788BB892DCE9D28E909294B51CB605"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"
+    }
+  },
+  "construction_corrections": [
+    "A post-apply invocation of the predecessor-pinned script exited on the expected input-drift guard after the successful atomic write. Successor bytes were therefore checked directly for exact hashes, zero old-token residue, LF transport, and the unchanged 25,154-line count rather than misreporting that guard as a source failure."
+  ],
+  "tool": {
+    "path": "apply_residual_recurrence_cleanup_v019.py",
+    "bytes": 7993,
+    "sha256": "59272BF9C422F95E7247B1DCF52F47EC9F9A0B0DEA9DB226F886D5F446AD00C0"
+  },
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0045",
+    "coverage": "21/21 exact whole-token sites changed once; all targets were in base-papers1-43-isv.tex",
+    "protected_spans": "zero targets in TeX comments, foreign, or foreignlanguage spans; protected values byte-identical",
+    "residue": "zero exact old tokens from the 15-form source inventory",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged",
+    "successor_hashes": "4/4 direct byte/hash replay exact"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

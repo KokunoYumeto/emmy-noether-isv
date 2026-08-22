@@ -1,0 +1,20 @@
+{
+  "schema": "noether-interslavic-source-authority/1.0",
+  "release_id": "NOETHER-ISV-v019",
+  "german": {
+    "edition_id": "NOETH-DE-ED-0015",
+    "pointer_id": "NOETH-DE-AUTH-v052-20260815",
+    "bytes": 2154017,
+    "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+    "role": "project-active editorial comparison authority",
+    "custody": "read-only external authority; not included wholesale and not edited by the Interslavic lane",
+    "claim_boundary": "not a critical-edition or independent source-certification claim"
+  },
+  "interslavic": {
+    "editorial_head": "ISV019-EDIT-0171",
+    "canonical_script": "isv-Latn",
+    "derived_script": "isv-Cyrl",
+    "semantic_relation": "IsTranslationOf the identified German source object",
+    "verification": "see CANON_INDEX.json, LATIN_FREEZE_RECEIPT_v019.json, and NORMALIZATION_DECISIONS_v019.jsonl"
+  }
+}

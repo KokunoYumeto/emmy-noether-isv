@@ -1,0 +1,91 @@
+{
+  "decision_id": "ISV019-EDIT-0105",
+  "recorded_at": "2026-08-13T20:16:54.3317718+02:00",
+  "epistemic_type": "copular_infinitive_false_friend_closure",
+  "scope": "All 43 whole-token biti infinitives in the four Latin sources: 29 in Work 44 and 14 in the base papers.",
+  "choice": "Normalize every audited copular, passive, modal and predicative infinitive biti to official byti, preserving all surrounding syntax and TeX.",
+  "motivation": "Every target means German sein or participates in a passive/modal construction with the meaning be. Official Interslavic byti is the pan-Slavic copula; official biti is a distinct transitive verb meaning hit or beat. Retaining biti therefore creates a semantic false friend as well as a South-shaped doublet beside 272 existing byti tokens.",
+  "alternatives_rejected": [
+    "Retaining biti as a South-Slavic copular spelling was rejected because official ISV assigns that exact surface to the separate verb hit/beat.",
+    "Changing finite forms such as jest, sut, byl, bude or conditional bi was rejected because this decision concerns only the infinitive and those forms belong to separately valid paradigms or constructions.",
+    "Recasting individual passive or modal clauses was rejected because the exact official infinitive substitution preserves grammar and mathematical meaning without syntactic churn.",
+    "Mapping any true hit/beat sense to byti was rejected in principle; sentence audit found zero such senses among the 43 targets."
+  ],
+  "evidence": {
+    "official_dictionary": "Official dictionary SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842 gives ID 593 byti, type 1, intransitive imperfective be, with positive intelligibility across Belarusian, Bulgarian, Czech, Croatian, Macedonian, Polish, Russian, Slovak, Slovene, Serbian and Ukrainian. ID 4049 separately gives biti, type 1, transitive imperfective hit/beat.",
+    "official_grammar": "Official verbs.md, 21426 bytes, SHA-256 3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD, lines 101, 103, 130, 134, 138, 147, 195 and 207-209 consistently identifies byti as the verb to be; line 72 separately derives biti to bij- for hit and line 184 gives biti to bity, hit.",
+    "semantic_audit": "All 43 occurrences were inspected in their complete lines. They occur after mora, morajut, može, mogut, možno or in passive/predicative infinitival constructions such as be contained, equal, expressible, created, reduced, represented or isomorphic. None denotes striking or beating.",
+    "edition_controls": "Before this edit the four sources already contain exactly 272 whole-token byti controls: 2 in Work 44, 4 in Paper 45 and 266 in the base papers.",
+    "protected_domains": "No target occurs in a comment, foreign-language or title argument, bibliography identity, TeX control name, label, citation key or proper name. Math delimiters and control sequences surrounding targets remain byte-identical."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0104",
+    "decision_log": {
+      "bytes": 392108,
+      "sha256": "2A10D3C2CE1EC1AAD9260DBAB8101DD795B47B7F6D8109ADF84FECCCD4FF923F"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "055A3DF3E26DB72AEE376C4BCEEBF689C723A060A06E2FBE8B56E4492C16AADD"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898309,
+      "sha256": "87C3244CB466ABDF614E5C47A22893536EC3C9F8CEC895AAA1BA2C9514A4522D"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "mapping": {
+    "biti": "byti"
+  },
+  "locators": {
+    "source_latin/44-book-isv.tex": [
+      "404:499", "439:579", "469:73", "500:113", "517:168", "538:43", "589:92", "635:481", "702:138", "708:329", "729:135", "741:105", "835:995", "935:46", "1056:530", "1058:121", "1194:235", "1234:223", "1278:38", "1334:266", "1359:143", "1452:376", "1468:697", "1491:339", "1528:55", "1901:294", "1939:165", "2061:100", "2825:35"
+    ],
+    "source_latin/base-papers1-43-isv.tex": [
+      "7133:328", "7135:353", "7135:457", "7148:342", "7176:1026", "8069:63", "9180:260", "17002:352", "21716:33", "22830:84", "24773:16", "24816:421", "25097:22", "25142:39"
+    ]
+  },
+  "results": {
+    "sites_changed": 43,
+    "source_biti_before": 43,
+    "source_biti_after": 0,
+    "target_byti_before": 272,
+    "target_byti_after": 315,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "7BEB05410FEB8B3110B480471C04B7EC6392DD4B005BBDEE0203126F4CF34FD8"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898309,
+      "sha256": "5B54F66BFA710293994F18EBDEB981A676007CFE8B02CE6C7F3EC2D3A9324C24"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "tool": {
+    "path": "apply_copular_infinitive_byti_v019.py",
+    "bytes": 4173,
+    "sha256": "366C21C368D2753EF98F99CAB61EAC4DED4593E8CBFCC1BF4EF8997E2ED6B6AD"
+  },
+  "validation": {
+    "coverage": "The exact file histogram is Work 44 = 29, Paper 45 = 0, base papers = 14 and bibliography = 0; all 43 sites were replayed in sentence context.",
+    "postcondition": "Whole-token biti becomes zero and whole-token byti rises exactly from 272 to 315.",
+    "structure": "Line count, raw brace counts, ordered TeX-control stream and math-delimiter stream are invariant; Paper 45 and the bibliography are byte-identical.",
+    "reproducibility": "The deterministic applicator binds all four input and output byte counts and SHA-256 hashes and refuses source or coverage drift."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

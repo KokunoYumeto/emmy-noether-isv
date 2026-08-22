@@ -1,0 +1,104 @@
+{
+  "schema": "noether-interslavic-decision-record-v1",
+  "decision_id": "ISV019-EDIT-0126",
+  "recorded_at": "2026-08-14T06:11:03+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "producer_lineage_provenance_correction",
+  "scope": "Paper 2 Section 11: synchronize the EDIT-0125 local producer shadow to the already-normalized assembled unit body and update only its assembled identity receipt.",
+  "summary": "The EDIT-0125 sign repair was mathematically correct, but its local producer shadow retained older wording beyond that sign and therefore did not reproduce the assembled unit byte-for-byte. Replace the shadow body with the exact live assembled body while preserving the repaired formula, then update the assembled producer identity receipt.",
+  "supersedes_claim": {
+    "decision_id": "ISV019-EDIT-0125",
+    "field": "producer_lineage.producer_body_matches_assembled_body",
+    "prior_value": true,
+    "adjudication": "false at EDIT-0125; corrected and made true by EDIT-0126"
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0125",
+    "ledger_rows": 125,
+    "ledger_bytes": 508869,
+    "ledger_sha256": "4ABB1C801A8FBB371DBE82D76E566323296D84A9C5BFB286074F30D74C98A07D",
+    "sidecar_bytes": 6229,
+    "sidecar_sha256": "5A6DBCC7411792CFCCCDDD4452A47F6554E16BF621FE1B633AAB11BA7F8B2996"
+  },
+  "exact_changes": [
+    {
+      "path": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "operation": "replace the stale standalone body with the exact assembled unit-012 body; retain its standalone envelope and the EDIT-0125 sign repair",
+      "semantic_text_changes_to_assembled_reader": 0
+    },
+    {
+      "path": "source_latin/base-papers1-43-isv.tex",
+      "locator": "1430:1",
+      "before": "% Identity: 14939 B / SHA-256 9C9E4A85D070AF6218CFA61E305FD40BF37B94996F504FA87360499CC0D640D1",
+      "after": "% Identity: 14964 B / SHA-256 7590484A00AA1B57C4AC8BDB53204AA0A570FAF8DCE8E0C9DBBD6247D6CB7AD7"
+    }
+  ],
+  "producer_successors": [
+    {
+      "unit": "Paper02-Section11",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "immutable_origin": {
+        "bytes": 14940,
+        "sha256": "37B613F59FC8D4F101A714AF84B5DA0AE28FED93123EBA52C0363B234E3D499A"
+      },
+      "predecessor_local": {
+        "bytes": 14939,
+        "sha256": "9C9E4A85D070AF6218CFA61E305FD40BF37B94996F504FA87360499CC0D640D1"
+      },
+      "output": {
+        "bytes": 14964,
+        "sha256": "7590484A00AA1B57C4AC8BDB53204AA0A570FAF8DCE8E0C9DBBD6247D6CB7AD7"
+      }
+    }
+  ],
+  "source_inputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898591, "sha256": "4E84DFF8BAC48548BD01D944F46AFA35423F1A7F17613577E3C98152737442E9"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "source_outputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898591, "sha256": "EC8C75FB97228E42E6C6382021EC127A800E878A49001CE124AF11E3C2C73117"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "lineage_gates": {
+    "successor_producer_body_equals_assembled_unit_012": true,
+    "edit_0125_correct_sign_occurrences": 1,
+    "stale_sign_occurrences": 0,
+    "assembled_reader_semantic_body_unchanged": true,
+    "base_changed_lines": [1430],
+    "producer_reverse_to_edit_0125": "PASS",
+    "edit_0125_reverse_to_immutable_origin": "PASS",
+    "base_reverse_to_edit_0125": "PASS"
+  },
+  "applicator": {
+    "path": "apply_isv_p02_producer_sync_v019.py",
+    "bytes": 10681,
+    "sha256": "9F9D6DA78D0DB3005AAEEAEB09C7A31CC04CD8F5A71EACC9632535A5A735B060",
+    "default_mode": "dry_run",
+    "apply_mode": "explicit_one_shot"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT",
+    "exact_output_reconstruction": "PASS",
+    "non_tautological_two_step_reverse_replay": "PASS",
+    "double_dry_run": "PASS",
+    "read_only_pin_mtime_preservation": "PASS"
+  },
+  "preserved": [
+    "all assembled mathematical and prose bytes except the identity comment",
+    "the EDIT-0125 formula sign repair",
+    "all other three Latin sources",
+    "immutable producer origin and declared witnesses",
+    "the EDIT-0124 što-se-tiče surface hold",
+    "Cyrillic-v2 design, frozen releases, and publication artifacts"
+  ],
+  "publication": {
+    "working_successor_published": false,
+    "publication_effect": "none",
+    "doi_effect": "none"
+  }
+}

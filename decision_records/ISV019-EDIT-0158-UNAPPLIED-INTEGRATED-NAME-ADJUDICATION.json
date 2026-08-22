@@ -1,0 +1,398 @@
+{
+  "adverse_evidence": [
+    "No official Interslavic proper-name transcription standard or dictionary headword was located for these twenty families.",
+    "Russian and Ukrainian witnesses sometimes preserve original Latin spelling in citations and sometimes differ in vowel adaptation; they are corroboration, not independent authority.",
+    "Loewy, Hölder, Weierstrass, and Wellstein require project-house choices with explicitly lower confidence."
+  ],
+  "authority": {
+    "current_isv_house_controls": [
+      {
+        "bytes": 427,
+        "file": "source_latin/base-papers1-43-isv.tex",
+        "line": 6751,
+        "sha256": "2A97B07E901103BD74597859074D9E83101513A3FAAC7BB206104127750FE2AE"
+      },
+      {
+        "bytes": 277,
+        "file": "source_latin/base-papers1-43-isv.tex",
+        "line": 7223,
+        "sha256": "C133CEB8119947A0D16D54D19083E373D7506B1F533E8F76B9467067F07818EC"
+      },
+      {
+        "bytes": 80,
+        "file": "source_latin/base-papers1-43-isv.tex",
+        "line": 8347,
+        "sha256": "75C5952799961B227FCF9ACB236B854F72A29BBE0EE3E049B0EA60E11100A38F"
+      },
+      {
+        "bytes": 1186,
+        "file": "source_latin/base-papers1-43-isv.tex",
+        "line": 8892,
+        "sha256": "3A34E3C90423A17E74E45DE2A8B428B4B97807F76556BD8B511903B1D19A6419"
+      },
+      {
+        "bytes": 60,
+        "file": "source_latin/base-papers1-43-isv.tex",
+        "line": 8938,
+        "sha256": "2F07DC2D79AB6640BA2D66E0DEE467441B15437AD7BDD637EE527818A46F668F"
+      },
+      {
+        "bytes": 130,
+        "file": "source_latin/base-papers1-43-isv.tex",
+        "line": 9192,
+        "sha256": "A4D878B089F0C6957CCE3DF02A460462D94D1DDC48BD1ED750C9038DC07375CE"
+      },
+      {
+        "bytes": 714,
+        "file": "source_latin/base-papers1-43-isv.tex",
+        "line": 10898,
+        "sha256": "2499791EE3BB0D947760942B9EF5085F7AED10EF5BF8E4127E5EB1F3B7A5EBA2"
+      },
+      {
+        "bytes": 94,
+        "file": "source_latin/base-papers1-43-isv.tex",
+        "line": 15884,
+        "sha256": "0392818753F7B033FDA4F4501007FA47844617F5E4B0CE492AE8CF660958F33B"
+      }
+    ],
+    "official_dictionary_snapshot": {
+      "boundary": "no family is asserted to be an official dictionary headword",
+      "bytes": 8101157,
+      "path": "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/source_sheet_basic.csv",
+      "sha256": "0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561"
+    },
+    "official_orthography": {
+      "bytes": 16443,
+      "path": "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/orthography.md",
+      "relevant_lines": [
+        18,
+        84,
+        121,
+        123,
+        127
+      ],
+      "sha256": "90C609CC0E8709E8395964E9F20D6D4FB4E31159CBC2B1EA515A29D9D1C72044"
+    },
+    "role_manifest": {
+      "bytes": 1939216,
+      "category": "c_integrated_name_or_eponym_needing_policy",
+      "category_occurrences": 66,
+      "path": "decision_records/ISV019-CYR2-POST-EDIT0150-BLOCKER-ROLE-MANIFEST.json",
+      "sha256": "913EE372ABCD1A74A13C3DA18747867385794F4986B59F3BBED85AAD0FDA931E"
+    },
+    "russian_cumulative_witness": {
+      "bytes": 2861852,
+      "path": "03_projects/language_management/slavic_russian/noether_ru_v001_working/source/base-papers1-43-ru.tex",
+      "sha256": "EAC5F03C2749F12F1D6250A2EEDF97C430B4FAFEB7576669AA55EFDC5894018B"
+    },
+    "ukrainian_cumulative_witness": {
+      "bytes": 2690266,
+      "path": "03_projects/language_management/slavic_ukrainian/noether_uk_v001_working/source/base-papers1-43-uk.tex",
+      "sha256": "16CFA035A13015DBB38D6238B844D055A44D9F0978F5E55A95D241997CACF19E"
+    }
+  },
+  "classification_head": "ISV019-EDIT-0157",
+  "edit_id": "ISV019-EDIT-0158",
+  "family_decisions": [
+    {
+      "basis": [
+        "exact current ISV control Enrikes",
+        "RU/UK Enrikes-family witnesses"
+      ],
+      "confidence": 0.99,
+      "family": "Enriques",
+      "new_stem": "Enrikes",
+      "occurrences": 2,
+      "old_stem": "Enriques",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "RU/UK Furtvengler witnesses",
+        "standard ISV excludes w and special ä"
+      ],
+      "confidence": 0.96,
+      "family": "Furtwängler",
+      "new_stem": "Furtvengler",
+      "occurrences": 1,
+      "old_stem": "Furtwängler",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "standard ISV excludes ß",
+        "Slavic simplification of doubled consonants"
+      ],
+      "confidence": 0.94,
+      "family": "Graßmann",
+      "new_stem": "Grasman",
+      "occurrences": 1,
+      "old_stem": "Graßmann",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "exact current ISV control Getingen",
+        "RU/UK Getingen witnesses"
+      ],
+      "confidence": 0.99,
+      "family": "Göttingen-place",
+      "new_stem": "Getingen",
+      "occurrences": 2,
+      "old_stem": "Göttingen",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "RU/UK Gurvic witnesses",
+        "ISV w→v and German tz→c adaptation"
+      ],
+      "confidence": 0.97,
+      "family": "Hurwitz",
+      "new_stem": "Hurvic",
+      "occurrences": 3,
+      "old_stem": "Hurwitz",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "UK Gelder and RU Gelder/Gyolder evidence",
+        "standard ISV has no special ö"
+      ],
+      "confidence": 0.91,
+      "family": "Hölder",
+      "new_stem": "Helder",
+      "occurrences": 3,
+      "old_stem": "Hölder",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "RU/UK Kenig witnesses",
+        "standard ISV has no special ö"
+      ],
+      "confidence": 0.97,
+      "family": "König",
+      "new_stem": "Kenig",
+      "occurrences": 1,
+      "old_stem": "König",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "RU/UK Kenigsberg witnesses",
+        "same whole-family König policy"
+      ],
+      "confidence": 0.98,
+      "family": "Königsberg-place",
+      "new_stem": "Kenigsberg",
+      "occurrences": 1,
+      "old_stem": "Königsberg",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "RU Lyovi and UK Levi witnesses",
+        "standard ISV excludes w; project chooses maximally legible Levi"
+      ],
+      "confidence": 0.84,
+      "family": "Loewy",
+      "new_stem": "Levi",
+      "occurrences": 2,
+      "old_stem": "Loewy",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "exact current ISV controls Lurot",
+        "standard ISV has no special ü"
+      ],
+      "confidence": 0.99,
+      "family": "Lüroth",
+      "new_stem": "Lurot",
+      "occurrences": 15,
+      "old_stem": "Lüroth",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "exact current ISV control Ostrovski",
+        "RU/UK Ostrovski witnesses"
+      ],
+      "confidence": 0.99,
+      "family": "Ostrowski",
+      "new_stem": "Ostrovsk",
+      "occurrences": 1,
+      "old_stem": "Ostrowsk",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "exact current ISV control Švarcovomu",
+        "RU/UK Švarc witnesses"
+      ],
+      "confidence": 0.99,
+      "family": "Schwarz",
+      "new_stem": "Švarc",
+      "occurrences": 1,
+      "old_stem": "Schwarz",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "RU/UK Suškevič witnesses",
+        "transparent Slavic surname spelling"
+      ],
+      "confidence": 0.99,
+      "family": "Suschkewitsch",
+      "new_stem": "Suškevič",
+      "occurrences": 1,
+      "old_stem": "Suschkewitsch",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "RU/UK Silov eponym witnesses",
+        "established Slavic mathematical usage"
+      ],
+      "confidence": 0.99,
+      "family": "Sylow",
+      "new_stem": "Silov",
+      "occurrences": 4,
+      "old_stem": "Sylow",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "RU/UK Varden witnesses",
+        "standard ISV w→v"
+      ],
+      "confidence": 0.98,
+      "family": "van-der-Waerden",
+      "new_stem": "Varden",
+      "occurrences": 3,
+      "old_stem": "Waerden",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "three exact current ISV Veber controls",
+        "RU/UK Veber witnesses"
+      ],
+      "confidence": 0.99,
+      "family": "Weber",
+      "new_stem": "Veber",
+      "occurrences": 11,
+      "old_stem": "Weber",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "RU/UK Vedderbern witnesses",
+        "project simplifies doubled consonants and w→v"
+      ],
+      "confidence": 0.96,
+      "family": "Wedderburn",
+      "new_stem": "Vederbern",
+      "occurrences": 7,
+      "old_stem": "Wedderburn",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "current Klajn and Štejnic establish German ei→aj",
+        "RU/UK Weierstrass witnesses; project w→v and ss→s"
+      ],
+      "confidence": 0.93,
+      "family": "Weierstrass",
+      "new_stem": "Vajerštras",
+      "occurrences": 5,
+      "old_stem": "Weierstrass",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "current Klajn and Štejnic establish German ei→aj",
+        "standard ISV w→v; doubled consonant simplified"
+      ],
+      "confidence": 0.87,
+      "family": "Wellstein",
+      "new_stem": "Velštajn",
+      "occurrences": 1,
+      "old_stem": "Wellstein",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    },
+    {
+      "basis": [
+        "current inflected stem already Wejl",
+        "standard ISV excludes w; only initial w→v remains"
+      ],
+      "confidence": 0.99,
+      "family": "Weyl",
+      "new_stem": "Vejl",
+      "occurrences": 1,
+      "old_stem": "Wejl",
+      "status": "ACCEPT_PROJECT_HOUSE_ADAPTATION"
+    }
+  ],
+  "line_oracle": {
+    "bytes": 30768,
+    "path": "decision_records/ISV019-EDIT-0158-UNAPPLIED-INTEGRATED-NAME-LINE-MANIFEST.jsonl",
+    "rows": 66,
+    "sha256": "3DC8BC618E8324219ACCF3B043759EC5DE31B12D60FD87A74F4741AA31E63FDC"
+  },
+  "nonclaims": [
+    "not native-speaker certification",
+    "not community-official standardization",
+    "not permission to alter complete foreign titles or citations",
+    "not a released Cyrillic artifact",
+    "not a metadata seal or public release"
+  ],
+  "policy": {
+    "consistency": "reuse exact current house controls and RU/UK witnesses where available",
+    "reversibility": "all 66 replacements are exact, line-anchored, and byte-reversible",
+    "rule": "adapt only morphologically integrated name/eponym/place stems; retain complete uninflected bibliographic and title identities for separate whole-island protection",
+    "standard_alphabet": "replace non-ISV w, ß, ä/ö/ü and opaque German/English clusters with consistent Slavic-readable project-house surfaces"
+  },
+  "predecessor": {
+    "base": {
+      "bytes": 1892324,
+      "sha256": "9490F4C09573ABC4FFC97AE80F2DF08330488B7EA2148AD6CC1C8B39756B02E9"
+    },
+    "registered_current": {
+      "bytes": 35016,
+      "sha256": "E98A61743AE8A114EC10D21A1AC585B332DB85B2F182A7FDC14E2AAA8D6ED9D9"
+    },
+    "state": {
+      "bytes": 27178,
+      "sha256": "8913CCCEAD62DF7FFEE5619F2F776BBE15BEF564FEDA46FFCC49D6CAA8130730"
+    }
+  },
+  "projection": {
+    "approved_structural_identities": 722,
+    "base_successor": {
+      "bytes": 1892261,
+      "sha256": "5FBF0D95479E85C09928F152DA0CA876E9F8C3BF9D90425961395BB7448555FC"
+    },
+    "coverage_failures": 0,
+    "expected_remaining_class": "complete foreign/title/venue/citation identities",
+    "expected_remaining_v3_blockers": 307,
+    "expected_v2_blocked_after": 1029,
+    "expected_v2_blocked_before": 1095,
+    "parse_errors": 0,
+    "unknown_argument_commands": 0
+  },
+  "receipt_serialization": "SHA-256 of compact UTF-8 JSON with sorted keys, this field retained, receipt_sha256_excluding_this_field omitted, plus terminal LF",
+  "receipt_sha256_excluding_this_field": "01D497B38B0B66D0050AE6074D9908C17A0D4DD164F713A4BB4EC60DBB5B5506",
+  "schema": "noether-isv-edit0158-unapplied-integrated-name-adjudication-v1",
+  "scope": {
+    "families": 20,
+    "identity_refreshes": 0,
+    "occurrences": 66,
+    "physical_lines": 47,
+    "producer_targets": 0,
+    "surface_pairs": 38,
+    "target": "source_latin/base-papers1-43-isv.tex"
+  },
+  "status": "ACCEPT_UNAPPLIED_CANDIDATE"
+}

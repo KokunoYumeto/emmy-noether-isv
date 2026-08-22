@@ -1,0 +1,126 @@
+{
+  "decision_id": "ISV019-EDIT-0120",
+  "recorded_at": "2026-08-14T01:23:15+02:00",
+  "epistemic_type": "passive_participle_and_verbal_noun_derivational_morphology_normalization",
+  "scope": "Complete bounded razširen-/razširjen- family in the four Interslavic Latin sources after EDIT-0119: 341 broad-family tokens on 254 lines, comprising 119 selected razširen- forms on 100 base-source lines and 222 already-canonical razširjen- controls.",
+  "choice": "Normalize all 119 razširen- passive-participle and verbal-noun forms to the official razširjen- derivational family. Preserve number, case, gender and capitalization; at the single feminine-genitive adjective site use razširjenoj rather than mechanically inserting j into razširenej.",
+  "motivation": "The official type-1 verb råzširiti derives the passive participle råzširjeny and verbal noun råzširjeńje. The edition already contains 222 canonical razširjen- controls. Every selected context denotes extension, expansion, generalization, or something extended/expanded. The categorized comparator corpus independently supplies only -jen- forms after generated, ambiguous and duplicate-family boundaries are enforced.",
+  "mapping": {
+    "Razširenje": "Razširjenje",
+    "razširenej": "razširjenoj",
+    "razširenij": "razširjenij",
+    "razširenja": "razširjenja",
+    "razširenjami": "razširjenjami",
+    "razširenje": "razširjenje",
+    "razširenjem": "razširjenjem",
+    "razširenju": "razširjenju",
+    "razširenogo": "razširjenogo",
+    "razširenoj": "razširjenoj",
+    "razširenymi": "razširjenymi"
+  },
+  "semantic_partition": {
+    "verbal_nouns": 114,
+    "adjectives": 5,
+    "semantic_outliers": 0,
+    "holds": 0,
+    "adjective_sites": [
+      {"component":"base-papers1-43-isv.tex","line":5667,"old":"razširenoj formě","new":"razširjenoj formě","features":"feminine locative singular"},
+      {"component":"base-papers1-43-isv.tex","line":7209,"old":"iz razširenej Gaussovej teoremy","new":"iz razširjenoj Gaussovej teoremy","features":"feminine genitive singular after iz"},
+      {"component":"base-papers1-43-isv.tex","line":24639,"old":"s razširenymi idealami","new":"s razširjenymi idealami","features":"instrumental plural"},
+      {"component":"base-papers1-43-isv.tex","line":24647,"old":"s razširenymi idealami","new":"s razširjenymi idealami","features":"instrumental plural"},
+      {"component":"base-papers1-43-isv.tex","line":25046,"old":"razširenogo kvocienta","new":"razširjenogo kvocienta","features":"masculine genitive singular"}
+    ]
+  },
+  "alternatives_rejected": [
+    "Retain razširen- as a competing national/simplified layer: rejected because the official derivation and the edition's 222 controls consistently require -jen-.",
+    "Blindly insert j into every surface string: rejected because razširenej requires sentence-aware agreement as razširjenoj.",
+    "Replace the lexeme with a different extension synonym: rejected because the official råzširiti family already preserves the German extension/expanded semantics exactly.",
+    "Count generated Interslavic outputs as comparative evidence: rejected as circular.",
+    "Treat candidate files as adjudicated native provenance or perform a token vote: rejected because native authorship remains unknown and repository dependencies are not independent votes."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "artifact": "isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "rows": [
+        "physical row 13856 / ID 1162: råzširiti, type 1",
+        "physical row 13859 / ID 3601: råzširjeńje, type 1",
+        "physical row 13860: råzširjeny, type 1"
+      ]
+    },
+    "official_grammar": [
+      {"artifact":"adjectives.md","bytes":8142,"sha256":"184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F","use":"soft j-stem adjective agreement"},
+      {"artifact":"nouns.md","bytes":12310,"sha256":"BCE65A602F5DAFFF86BD132C6CBD0F5F1A4D5BDE9750A0394F78E5D4A8E9F09E","use":"neuter verbal-noun case and number inflection"}
+    ],
+    "german_authority": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/candidates/ED0014/noether.tex",
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "audit": "All 119 full contexts were replayed within the corresponding German paper slices for Papers 06, 08, 09, 19, 20, 21, 23, 24, 31, 34, 35, 40, 41, 42 and 43. Every source sense is extension/expansion/generalization or extended/expanded.",
+      "exceptional_exact_control": "ED0014 lines 6563-6564: aus dem erweiterten Gaußschen Satze; this controls base line 7209 and confirms the adjective rather than a different noun/verb sense."
+    },
+    "target_context_receipt": {"sites":119,"distinct_lines":100,"utf8_bytes":56580,"sha256":"6615DCA08CB7D1EB298B95FB5F96DA9AD6C00D3D76F802B936AA0AF1C859EF65"},
+    "target_locator_receipt": {"utf8_bytes":5418,"sha256":"AFEF5082C60CBEEECB59BF4425C5863F56819AFE875FC97B7A61FD6F31587727"},
+    "broad_context_receipt": {"sites":341,"distinct_lines":254,"utf8_bytes":237142,"sha256":"12C01D8FBD8B04393350599231BE4CED7D41A9E8860BBCCE829D8D6195120D9E"},
+    "broad_locator_receipt": {"utf8_bytes":15505,"sha256":"BD03DB8B8F3DA60178A9531977E2E236B5D23BAABED8F74D04018DCBEF09A6C5"},
+    "categorized_corpus": {
+      "catalog_path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/multilingual_latex_source_corpus_20260814/01_catalog/CATALOG.csv",
+      "catalog_bytes": 10642398,
+      "catalog_sha256": "354BE2A6EDFB9FE90CA9A42870666AF9DEB295F28D3F7ADA3DA898EC728756EC",
+      "admission_rule": "Exclude all generated/circular Interslavic material, source-control material without an exact form, the und/conflicting file, and dependency-family double weighting. Retain remaining records only as comparator evidence because native_authored_status is unknown_not_adjudicated.",
+      "strict_result": {"jen_tokens":18,"en_tokens":0,"files":9,"repository_families":4,"native_provenance_claim":false},
+      "included_files": [
+        {"file_id":"sltex-542bf4a687637c7687faf356","class":"selected_current_slavic_url_candidate","language":"sl","repo_family":"njezersek/Diskretne-strukture-2-zapiski","jen_tokens":3},
+        {"file_id":"sltex-75e002b998a607cb001b5789","class":"selected_current_slavic_url_candidate","language":"sl","repo_family":"njezersek/Izbrana-poglavja-iz-matematike-zapiski","jen_tokens":2},
+        {"file_id":"sltex-864d8c9abe1483cb75cdd4f3","class":"selected_current_repository_source","language":"sl","repo_family":"iruspro/zapiski-fmf","jen_tokens":2},
+        {"file_id":"sltex-86e91e3d896cbc22af5744dc","class":"selected_current_repository_source","language":"sl","repo_family":"iruspro/zapiski-fmf","jen_tokens":1},
+        {"file_id":"sltex-87ed9cd0865e69d4123a6166","class":"selected_current_repository_source","language":"sl","repo_family":"iruspro/zapiski-fmf","jen_tokens":2},
+        {"file_id":"sltex-9d07664042afb83955770ee1","class":"selected_current_repository_source","language":"sl","repo_family":"iruspro/zapiski-fmf","jen_tokens":1},
+        {"file_id":"sltex-ae3dcda889661686ea7662da","class":"selected_current_slavic_source_candidate","language":"sl","repo_family":"kuco23_graduate-thesis","jen_tokens":3},
+        {"file_id":"sltex-cbf405e43fb092650f4e4b46","class":"selected_current_slavic_url_candidate","language":"sl","repo_family":"njezersek/Diskretne-strukture-2-zapiski","jen_tokens":3},
+        {"file_id":"sltex-fe07756cbc36cad0a57525d8","class":"selected_current_repository_source","language":"sl","repo_family":"iruspro/zapiski-fmf","jen_tokens":1}
+      ],
+      "excluded_material": [
+        {"class":"generated_or_circular_interslavic","files":210,"mixed_family_hits":2385,"reason":"circular evidence"},
+        {"file_id":"sltex-e15ac9d59942ddb30d61e064","language":"und","status":"conflicting_source_claims","jen_tokens":2,"reason":"ambiguous language/repository claim"},
+        {"class":"translation_source_control","reason":"no exact family form vote"}
+      ]
+    },
+    "independent_qa": "Independent read-only replay inspected all 119 contexts, reproduced the 114/5 partition, strict corpus boundary, receipts, protected-domain census and successor hashes, and returned ACCEPT with no defect."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0119",
+    "decision_log": {"bytes":478855,"sha256":"B0A7776190DFC5E92A9D216260DBBE1AD17A6AC2664749DCFD61CABFF671FBF2"},
+    "source_latin/44-book-isv.tex": {"bytes":168097,"sha256":"89E5A8FCB7EBD5149F181E9E2F09F8B375C267F8ED9C96FFF07E511444A12CFC"},
+    "source_latin/45-isv.tex": {"bytes":25555,"sha256":"9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes":1898624,"sha256":"72BA98D8372D6FD64B02A6C05E03F111624F538A7E6A0D9F7A3739821F266175"},
+    "source_latin/bib-isv.tex": {"bytes":9585,"sha256":"0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "results": {
+    "sites_changed": 119,
+    "distinct_lines_changed": 100,
+    "file_partition": {"44-book-isv.tex":0,"45-isv.tex":0,"base-papers1-43-isv.tex":119,"bib-isv.tex":0},
+    "source_histogram": {"Razširenje":6,"razširenej":1,"razširenij":2,"razširenja":56,"razširenjami":1,"razširenje":34,"razširenjem":3,"razširenju":12,"razširenogo":1,"razširenoj":1,"razširenymi":2},
+    "broad_before_after": [341,341],
+    "canonical_controls_before": 222,
+    "mapped_source_residue_after": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes":168097,"sha256":"89E5A8FCB7EBD5149F181E9E2F09F8B375C267F8ED9C96FFF07E511444A12CFC"},
+    "source_latin/45-isv.tex": {"bytes":25555,"sha256":"9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes":1898743,"sha256":"3C11948EA126A4094B172F0E720E31F4BBC2943FFD8EFC569F6A42FADECA4EF2"},
+    "source_latin/bib-isv.tex": {"bytes":9585,"sha256":"0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "tool": {
+    "path": "apply_razshiren_participle_noun_family_v019.py",
+    "bytes": 13426,
+    "sha256": "8CF93F276F17F3C85AE65DA1881B71DAC8E5E7D480653CC82937FAE78A2B509A"
+  },
+  "validation": {
+    "coverage": "Exact source/broad histograms, line counts and four receipt hashes match the EDIT-0119 inputs.",
+    "protected_domains": "No selected token intersects comments, math, foreign/foreignlanguage, URL/href/path, label/ref/pageref/eqref/cite or control payloads.",
+    "structure": "UTF-8 NFC/no-BOM/LF transport, terminal LF, line count, raw braces, ordered TeX controls, environments, cross-reference/citation sequence, math-delimiter/payload stream, comments and protected payloads are invariant.",
+    "reproducibility": "Independent dry replay reproduces the exact base successor and proves the other three source files byte-identical."
+  },
+  "review_state": "approved_by_independent_read_only_qa_for_single_apply_and_seal"
+}

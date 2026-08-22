@@ -1,0 +1,97 @@
+{
+  "decision_id": "ISV019-EDIT-0108",
+  "recorded_at": "2026-08-13T20:34:06.9274332+02:00",
+  "epistemic_type": "shortest_superlative_false_friend_family_closure",
+  "scope": "All 13 inflected Najkrajš-/najkrajš- tokens in the four Latin sources, all in the base papers and all meaning shortest/minimal.",
+  "choice": "Normalize the complete family morphology-preservingly to Najkratš-/najkratš-, retaining capitalization, gender, case and number endings.",
+  "motivation": "Official adjective grammar derives kratky to kratši and therefore superlative najkratši. The inherited kraj- stem denotes edge/end/extreme and is the wrong lexical source for short. Every target is a shortest representation or shortest length, confirmed by the German kürzest- family and by 47 already established najkratš- controls.",
+  "alternatives_rejected": [
+    "Retaining najkrajš- as a regional shortest form was rejected because it is not the official comparative paradigm and collides with krajny, extreme/utmost.",
+    "Recasting the mathematical term as minimalny was rejected because shortest representation/length is the exact German semantics and the edition already consistently uses najkratš- for the same concept.",
+    "Changing only nominative forms was rejected because all 13 inflections share the same false-friend stem."
+  ],
+  "evidence": {
+    "official_dictionary": "Official dictionary isv_words_list.csv, 7993414 bytes, SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: row 6109 / ID 2641 kråtky, type 1, short/brief; row 6069 / ID 757 krajny, type 1, extreme/utmost.",
+    "official_grammar": "Official adjectives.md, 8142 bytes, SHA-256 184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F, line 67 explicitly gives kratky -> kratši; the superlative rule adds naj- to the comparative.",
+    "german_authority": "German authority ED0011_noether.tex, 2153594 bytes, SHA-256 9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3 repeatedly uses kürzeste/kürzesten Darstellung and kürzeste Länge in the aligned ideal-theory sections, including lines 11509, 11722 and 12101.",
+    "semantic_audit": "The 13 sites at base lines 13712, 16594, 16596, 16598, 16694, 16696, 16757, 16765, 16769 (twice), 16777 (twice) and 19978 all describe shortest representations or length. There are no spatial edge/end senses.",
+    "edition_controls": "Before the edit the exact target family contains 47 tokens: 45 lowercase and two capitalized, across the same mathematical terminology.",
+    "protected_domains": "No target occurs in a comment, foreign-language/title argument, bibliography identity, control name, label, citation key or URL."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0107",
+    "decision_log": {
+      "bytes": 407764,
+      "sha256": "C11490D9B1478DA6F9AF68D9DBE0BD067EB46984622DA7DA81DB8826D458CAEC"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "7BEB05410FEB8B3110B480471C04B7EC6392DD4B005BBDEE0203126F4CF34FD8"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898291,
+      "sha256": "1B9BE1D394D30267495A7EEA414AA32BAEB551B5275516C596C877DB7A669ABF"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "mapping": {
+    "Najkrajš-": "Najkratš-",
+    "najkrajš-": "najkratš-"
+  },
+  "locators": [
+    "base:13712:607", "base:16594:168", "base:16596:222", "base:16598:84",
+    "base:16694:78", "base:16696:170", "base:16757:108", "base:16765:7",
+    "base:16769:353", "base:16769:510", "base:16777:149", "base:16777:329",
+    "base:19978:274"
+  ],
+  "results": {
+    "sites_changed": 13,
+    "source_family_before_after": [13, 0],
+    "target_family_before_after": [47, 60],
+    "target_form_counts_before_after": {
+      "najkratše": [25, 31],
+      "Najkratše": [2, 3],
+      "najkratšim": [0, 1],
+      "najkratšem": [10, 12],
+      "najkratša": [2, 3],
+      "najkratših": [3, 4],
+      "najkratšej": [0, 1]
+    },
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "7BEB05410FEB8B3110B480471C04B7EC6392DD4B005BBDEE0203126F4CF34FD8"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898291,
+      "sha256": "3EEBBEEF2ABE674DC02303923C359CABA53FB64AEB74D47E280EC118FBA716DB"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "tool": {
+    "path": "apply_najkratshi_family_v019.py",
+    "bytes": 4832,
+    "sha256": "C0C0FF9CDD42F58BA489461645E23F1A6F0B3383FEEACF5A30A6DEF6F17BC192"
+  },
+  "validation": {
+    "coverage": "The seven exact source forms total 13 tokens at the declared locators; all are replayed and all become zero.",
+    "postcondition": "The canonical najkratš- family rises exactly from 47 to 60 tokens with every suffix and initial capitalization preserved.",
+    "structure": "The edit is byte-neutral. Line count, raw brace counts, ordered TeX-control stream and math-delimiter stream are invariant; the other three sources are byte-identical.",
+    "reproducibility": "The deterministic applicator binds all four input and output byte counts and SHA-256 hashes and refuses source, coverage or locator drift."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

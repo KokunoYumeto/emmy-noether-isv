@@ -1,0 +1,102 @@
+{
+  "decision_id": "ISV019-EDIT-0118",
+  "recorded_at": "2026-08-13T22:29:31.6877492+02:00",
+  "epistemic_type": "transition_family_house_surface_and_finite_morphology_normalization",
+  "scope": "The complete Unicode-wide prehod-/prěhod- family census in the four Latin sources after EDIT-0117: 286 sites in 27 surface forms on 244 file-lines, comprising 46 selected sites on 42 lines and 240 protected grammatical or canonical controls.",
+  "choice": "Normalize 31 plain-root prehod- forms to the exact official and established prěhod- house surface while preserving inflection; repair 15 finite third-person-singular prěhodit forms to prěhodi; preserve all 240 remaining family controls.",
+  "motivation": "The official type-1 lemma is prěhoditi and the edition already contains 255 prěhod- controls. Official orthography permits plain e as a simplified fallback, so the 31 prehod- changes are explicitly an editorial house-surface normalization rather than a claim of intrinsic ungrammaticality. Each of the 16 selected -it tokens was independently verified as finite third-person singular, never an infinitive, and therefore requires prěhodi under the official second-conjugation paradigm.",
+  "alternatives_rejected": [
+    "Retaining the mixed prehod-/prěhod- surface was rejected because this bounded family already overwhelmingly uses the exact official prěhod- house form.",
+    "Treating every prěhodit token as an infinitive was rejected after sentence-level inspection showed that all 15 selected occurrences are finite third-person-singular predicates.",
+    "A blanket replacement of all 286 family tokens was rejected because 240 noun, adjective, infinitive and finite controls are already grammatical and canonical.",
+    "Changing valid prěhodim was rejected because official verbs.md line 87 explicitly licenses the alternative first-person-singular -im ending.",
+    "Changing prěhodžu, prěhodęt or the three true prěhoditi infinitives was rejected because their morphology and syntax are correct.",
+    "Calling plain e intrinsically invalid was rejected because official orthography permits omission of the etymological diacritic; the stated rationale is edition-level surface consistency."
+  ],
+  "evidence": {
+    "official_dictionary": "Official isv_words_list.csv, 7993414 bytes, SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: physical row 12293 / ID 19506 gives prěhod, type-1 transition; row 12295 / ID 2425 gives prěhoditi, intransitive imperfective type 1, cross or pass over.",
+    "official_grammar": "Official verbs.md, 21426 bytes, SHA-256 3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD: lines 75-76 place -iti verbs in the second conjugation; lines 82-85 give -ju/-iš/-i/-imo/-ite/-et; line 87 licenses alternative 1sg -im; line 97 gives d+j to dž; lines 168-174 govern the -eči present participle.",
+    "orthography_scope": "Official orthography.md permits simplified plain e for ě. Accordingly, 31 sites are classified as mixed-surface normalization to the edition's exact dictionary/control spelling, not as intrinsically ungrammatical plain-e spellings.",
+    "semantic_and_morphological_audit": "All 46 selected sites were inspected in sentence context. Partition: 32 third-person singular, eight third-person plural, two first-person plural, one licensed alternative first-person singular, two noun obliques and one adverbial present participle. All 16 -it sites are finite 3sg. Base line 6167 resumes the singular identičnost across displayed mathematics and aligns to German ED0014 lines 5491-5499, Die Identität ... geht ... über in.",
+    "context_receipt": {
+      "algorithm": "For each file in order 44-book, 45, base, bib, serialize every selected token as filename<TAB>line<TAB>column<TAB>token<TAB>full-line<LF>.",
+      "sites": 46,
+      "distinct_lines": 42,
+      "utf8_bytes": 32260,
+      "sha256": "95A044DC8840C561BFEFDFF0748F1C3FEDADF906475FD216ABF2727F2DE5C38F"
+    },
+    "ordered_locator_receipt": {
+      "sites": 46,
+      "utf8_bytes": 1955,
+      "sha256": "2A489BEB6589024DC2EFDF005585C424515E772360FD81FA7441C7698938835A"
+    },
+    "broad_context_receipt": {
+      "sites": 286,
+      "surface_forms": 27,
+      "file_lines": 244,
+      "utf8_bytes": 190571,
+      "sha256": "F28C4D31CBE0065DA9007150082D00CB94A15A7BE5F5AE89BBD04BDE2C3E87F3"
+    },
+    "broad_locator_receipt": {
+      "utf8_bytes": 12035,
+      "sha256": "F7D253E7F4BFBC9E955544F4C14A163219EC6E613AA6F4FBF071FF1CBAC0AEC9"
+    },
+    "protected_domains": "The 46 targets comprise 42 ordinary body-prose sites, including three translated footnotes and one emphasized theorem. None lies in comments, raw mathematics, control names, foreign/foreignlanguage, URL/href, label/ref/pageref/eqref/cite or bibliography-identity payloads.",
+    "independent_qa": "Two independent read-only audits reproduced the 286/46/240 census, all 16 finite -it classifications, receipts, official evidence, protected controls, output hashes, zero selected residue and structural invariants and returned ACCEPT with no defect."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0117",
+    "decision_log": {"bytes": 470650, "sha256": "068FEEEFCFC4BEC665C5E93FAF9BB6760D7928CB96F2517AA0B36D350D145E64"},
+    "source_latin/44-book-isv.tex": {"bytes": 168080, "sha256": "0C52974FA7C43A531E3038EB78B5C070C7806F45BB21B6EF965AA8007AAB3093"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898410, "sha256": "0EAEBBA34A88A57D124622344A968CB396C561B39985F29BE267EB6DA3A219F3"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "mapping": {
+    "Prehodjači": "Prěhodeči",
+    "prehodet": "prěhodet",
+    "prehodi": "prěhodi",
+    "prehodim": "prěhodim",
+    "prehodimo": "prěhodimo",
+    "prehodit": "prěhodi",
+    "prehodu": "prěhodu",
+    "prehodęt": "prěhodęt",
+    "prěhodit": "prěhodi"
+  },
+  "source_histogram": {
+    "Prehodjači": 1,
+    "prehodet": 7,
+    "prehodi": 16,
+    "prehodim": 1,
+    "prehodimo": 2,
+    "prehodit": 1,
+    "prehodu": 2,
+    "prehodęt": 1,
+    "prěhodit": 15
+  },
+  "results": {
+    "sites_changed": 46,
+    "distinct_lines_changed": 42,
+    "broad_family_before_after": [286, 286],
+    "selected_source_before_after": [46, 0],
+    "protected_controls": 240,
+    "semantic_partition": {"third_person_singular": 32, "third_person_plural": 8, "first_person_plural": 2, "licensed_alternative_first_person_singular": 1, "noun_obliques": 2, "adverbial_present_participle": 1},
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168080, "sha256": "0C52974FA7C43A531E3038EB78B5C070C7806F45BB21B6EF965AA8007AAB3093"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898424, "sha256": "1AE144963D3D06B2B6315E06BF62A0C9274CBBBB5779C00BFA26CC27C93AC59E"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "tool": {
+    "path": "apply_prehod_transition_family_v019.py",
+    "bytes": 10018,
+    "sha256": "FF285ED20B2A2020E1A154DBB68A761FA8DFD77FBFACC1EB2EE4D7E012AA15BF"
+  },
+  "validation": {
+    "coverage": "The exact 286-site broad census, 46-site selected census, nine-form source histogram, file partition and all four receipts match the hash-gated input.",
+    "postcondition": "All nine selected source forms are zero while the broad family remains exactly 286 and the exact 240-control post histogram matches.",
+    "structure": "UTF-8 NFC/no-BOM/LF transport, terminal LF, line count, raw braces, ordered TeX controls, environments, label/ref/cite sequence, math delimiters, comments and protected payloads are invariant; only base changes.",
+    "reproducibility": "Independent replay reproduces base 1898424 bytes / 1AE144963D3D06B2B6315E06BF62A0C9274CBBBB5779C00BFA26CC27C93AC59E and proves the other three sources byte-identical."
+  },
+  "review_state": "applied_independently_qa_accepted_and_hash_verified_in_v019_working_latin"
+}

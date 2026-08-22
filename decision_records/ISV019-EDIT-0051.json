@@ -1,0 +1,108 @@
+{
+  "decision_id": "ISV019-EDIT-0051",
+  "recorded_at": "2026-08-13T03:17:31.1851804+02:00",
+  "epistemic_type": "manager_direct_context_sensitive_correspondence_closure",
+  "scope": "All 57 residual East-shaped sootv- tokens in the live v019 Latin reader: three in 44-book and 54 in base-papers1-43.",
+  "choice": "Replace 23 finite correspondence predicates and 23 inflected correspondence modifiers with the already-established official odgovarj-/odgovarjajuč- family; replace two Zuordnung nouns with korespondencija; render six genuinely analogous discourse uses with analogično; and explicitly recast three ordered/respective constructions instead of forcing them into the same lexical family.",
+  "motivation": "The residual sootv- layer duplicated the correspondence policy already established in EDIT-0021 while preserving a Russian-shaped root and several malformed agreement endings. A single blind stem substitution would still mistranslate German beziehungsweise/jeweils and would leave noun and discourse-adverb functions collapsed. The context-sensitive closure removes the root while preserving each mathematical relation and its grammar.",
+  "alternatives_rejected": [
+    "Retain sootv- as an intelligible but East-shaped technical doublet; this leaves the exact dominant-language collapse the edition is required to remove.",
+    "Apply one global sootv-to-odgovarj stem replacement; this would produce malformed noun/adverb forms and obscure German beziehungsweise and jeweils.",
+    "Use korespondencija for every predicate and modifier; this would nominalize ordinary mathematical correspondence relations and make the prose heavier.",
+    "Use odnosno or a borrowed respektivno at all ordered sites; explicit first/second, po redu, and each-of-them recasts are clearer and avoid adding an unsupported catch-all marker."
+  ],
+  "evidence": {
+    "prior_policy": {
+      "decision_id": "ISV019-EDIT-0021",
+      "record_path": "decision_records/ISV019-EDIT-0021.json",
+      "rule": "Preserve valid technical correspondence verbs while using official odgovarjajuč- modifiers and korespondencija nouns."
+    },
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "entries": [
+        "id 35938 odgovarjajųći, adjective type 1, corresponding",
+        "id 6063 korespondencija, noun type 1, correspondence",
+        "id 23209 analogičny, adjective type 1, analogous"
+      ]
+    },
+    "official_grammar": {
+      "path": "00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/adjectives.md",
+      "bytes": 8142,
+      "sha256": "184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F",
+      "rule": "Participial modifiers decline as soft adjectives and agree in gender, case, and number; the intervention repairs inherited -tny/-čno endings accordingly."
+    },
+    "german_meaning_authority": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/candidates/ED0014/noether.tex",
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "semantic_split": "entsprechen/entsprechend predicates and modifiers; Zuordnung nouns; dementsprechend/entsprechend analogous discourse; beziehungsweise/jeweils ordered relations"
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0050",
+    "decision_log": {
+      "bytes": 192897,
+      "sha256": "6039CF08A518F41B2DC9C563C9FEAA8C3CAB22BAC36CA70B0B9636B390AC0A46"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167959,
+      "sha256": "08986E0CF140884FF8A040C338FFE377080BA3923DD0AA57C9B085402FC61F9E"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "4E47FD1C693F89726DC65607A7500C9376EA0F09E8BC48EE46D48893BD580292"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896960,
+      "sha256": "87B434A32D23D587C8EEC702D46CBE5730ED723606FE50CAFD7C7E31B1239614"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"
+    }
+  },
+  "results": {
+    "sites_changed": 57,
+    "finite_predicates": 23,
+    "inflected_modifiers": 23,
+    "correspondence_nouns": 2,
+    "analogical_discourse_recasts": 6,
+    "ordered_or_respective_recasts": 3,
+    "sootv_family_residual": 0,
+    "odgovarj_family_total": 498,
+    "korespondenc_family_total": 35,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167963,
+      "sha256": "1A24249284FB5B95396E29991F697E0F0246697CCF03C8B0ABF4DFF7E9E810D3"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "4E47FD1C693F89726DC65607A7500C9376EA0F09E8BC48EE46D48893BD580292"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896999,
+      "sha256": "D7EC94D55591A099579EE95D39801556B6022D8F0F6F416806249BA4EF706739"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"
+    }
+  },
+  "tool": {
+    "path": "apply_sootv_correspondence_residual_v019.py",
+    "bytes": 12319,
+    "sha256": "6A4EAA1027D841B3B5D95D8051F522ED8899D2A9D34C17F515A5DF7AADECEC71"
+  },
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0050",
+    "inventory": "57/57 source tokens resolved exactly once",
+    "postcounts": "sootv=0, odgovarj-family=498, korespondenc-family=35",
+    "protected_spans": "zero targets in TeX comments or foreign-language arguments; protected bytes unchanged",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged",
+    "reproducibility": "frozen dry-run output hashes reproduced immediately before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

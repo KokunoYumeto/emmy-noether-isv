@@ -1,0 +1,47 @@
+{
+  "decision_id": "ISV019-EDIT-0098",
+  "recorded_at": "2026-08-13T16:30:18.9288362+02:00",
+  "epistemic_type": "append_only_audit_correction_no_source_write",
+  "scope": "Correct the EDIT-0097 post-count for canonical accented priměr noun forms; no source text, semantics or hashes change.",
+  "choice": "Supersede only the erroneous noun subtotal 124 with the exhaustive total 133, adding the nine pre-existing capitalized plural Priměry controls that the original audit regex omitted.",
+  "motivation": "Independent replay reproduced the EDIT-0097 successor exactly but found that its audit pattern enumerated Priměr and lowercase inflections without the capitalized plural Priměry. Append-only provenance requires retaining the adverse record and recording the correction explicitly.",
+  "alternatives_rejected": [
+    "Silently editing or replacing the prior ledger row was rejected because it would destroy audit history.",
+    "Changing source text was rejected because the EDIT-0097 linguistic transform and successor hashes are correct.",
+    "Leaving the known count error uncorrected was rejected because release manifests must be internally exact."
+  ],
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0097",
+    "decision_log": {"bytes": 361272, "sha256": "B047DFFB7C5F86759D327F0E329F111BD1AB5005B05E67CC2658DE308E6EEF57"},
+    "source_latin/44-book-isv.tex": {"bytes": 168075, "sha256": "EEED5FAC489CD50A43C549E0C5A502D05A2BDCCF624994049D8204A749A7A062"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898308, "sha256": "969E5730C3F8E438DFCDC71418DB3226F1A693D698AB06FA16F681E864D35272"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "correction": {
+    "superseded_field": "ISV019-EDIT-0097.results.canonical_accented_noun_total",
+    "superseded_value": 124,
+    "corrected_value": 133,
+    "omitted_form": "Priměry",
+    "omitted_count": 9,
+    "canonical_adverb_total": 49,
+    "protected_kontraprimer_total": 2,
+    "source_family_residue": 0
+  },
+  "results": {
+    "sites_changed": 0,
+    "source_files_changed": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168075, "sha256": "EEED5FAC489CD50A43C549E0C5A502D05A2BDCCF624994049D8204A749A7A062"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898308, "sha256": "969E5730C3F8E438DFCDC71418DB3226F1A693D698AB06FA16F681E864D35272"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "tool": {"path": "audit_example_primer_counts_v019.py", "bytes": 2696, "sha256": "1FED8D5C609C61032807A3BCC9E974CD8FAA49C149CEFDD5AEFC8AC37002751F"},
+  "validation": {
+    "exhaustive_histogram": "Priměr 18; Priměry 9; priměr 64; priměra 2; priměrah 5; priměram 3; priměrom 3; priměrov 4; priměru 12; priměry 13; total 133.",
+    "adverbs": "Napriměr 3 and napriměr 46; total 49.",
+    "postcondition": "Noncanonical source residue remains zero; source hashes remain exactly the EDIT-0097 successors.",
+    "independent_review": "The omitted nine-token capitalized-plural class and corrected arithmetic were independently reproduced."
+  },
+  "review_state": "audit_correction_applied_to_append_only_ledger_no_source_write"
+}

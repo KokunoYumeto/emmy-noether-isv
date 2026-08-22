@@ -1,0 +1,69 @@
+{
+  "applicator": {
+    "bytes": 36554,
+    "path": "apply_uninflected_personal_identity_tranche_v019.py",
+    "sha256": "6E6E16405C83445B0FDB5D4F0F9579CA73347452CCD027F7EE3DCBA7F22692A0"
+  },
+  "candidate_receipt": {
+    "bytes": 4195,
+    "path": "decision_records/ISV019-EDIT-0160-UNAPPLIED-CANDIDATE-RECEIPT.json",
+    "sha256": "7988B73B363477649100005781D30BF18DCB00473108906FCD943E1FE0B3F6D8"
+  },
+  "decision_id": "ISV019-EDIT-0160",
+  "exact_complete_identities": 20,
+  "line_manifest": {
+    "bytes": 31322,
+    "sha256": "A0760A3CF50CAEF837632AEDBA5D62D9F8308C35ED49067AE90C8006B77BD910"
+  },
+  "live_base": {
+    "bytes": 1892611,
+    "sha256": "21C044F5B183CF5F17806FD9FF7B5014E5E79F554098C3B34FB7F9E85D06C128"
+  },
+  "metadata": {
+    "exact_predecessor": true,
+    "head": "ISV019-EDIT-0159",
+    "sealed": false
+  },
+  "production_apply": {
+    "argv": [
+      "python",
+      "-B",
+      "apply_uninflected_personal_identity_tranche_v019.py",
+      "--apply",
+      "--compact"
+    ],
+    "exit": 0,
+    "stderr": {
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "stdout": {
+      "bytes": 16432,
+      "sha256": "FD3A4B909B53142312B11FD8E0F84177D888A001409EF7FCFF3D05B5B63D0D3E"
+    },
+    "workdir": "."
+  },
+  "pycache_residue": 0,
+  "receipt_sha256_excluding_this_field": "84C41CACBF10843EF6A14C5B62F16DCB16C2DDB716278D83C18BC3A2FBA7F4C3",
+  "reverse_predecessor": {
+    "bytes": 1892411,
+    "sha256": "2A9C1DF97C73FE75C130907F3F7829000E753F34BDCBFB5D66DA56A75855F4B8"
+  },
+  "scanner": {
+    "approved_structural": 722,
+    "blocked": 270,
+    "inventory_sha256": "0D7F61DC334F1905453DCD19316C7E8F0C4C66B2D267C060B30D884BD250D819",
+    "parse_errors": 0,
+    "report_sha256_excluding_this_field": "9B04870139E5D3740CA508A858B8654711611EB2C1E0179F157C91CC75D74EF8",
+    "roman": 0,
+    "unknown_argument_commands": 0,
+    "unsupported": 270
+  },
+  "schema": "noether-isv-edit0160-independent-live-postapply-preseal-guard-v1",
+  "source_cohort": {
+    "bytes": 472,
+    "sha256": "4DE71CD5CD0D4958781606A3692906C985F1A5BB7B0117AF1E62EB56264FA77F"
+  },
+  "status": "PASS_SOURCE_AHEAD_OF_METADATA",
+  "transaction_residue": 0
+}

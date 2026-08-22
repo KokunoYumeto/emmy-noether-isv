@@ -1,0 +1,212 @@
+{
+  "schema": "noether-isv-edit0153-independent-live-postapply-preseal-guard-v1",
+  "decision_id": "ISV019-EDIT-0153",
+  "recorded_at": "2026-08-18T20:00:10+02:00",
+  "verdict": "ACCEPT_POSTAPPLY_PRESEAL",
+  "scope": "bounded direct-file readback after the one authorized source application; no metadata, registry, producer, build, Git, network, render, or publication mutation",
+  "production": {
+    "working_directory": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_isv_v019_working",
+    "argv": [
+      "python",
+      "-B",
+      "apply_zurich_adjective_v019.py",
+      "--apply",
+      "--compact"
+    ],
+    "invocations": 1,
+    "retries": 0,
+    "exit_code": 0,
+    "stdout": {
+      "bytes": 13040,
+      "sha256": "42FA67B944413D4EE578BDFDEE9363C722748F4BCD9527D4B0A36D3153C2D71F"
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "parsed_status": "APPLIED_NOT_SEALED",
+    "workspace_files_mutated": true
+  },
+  "frozen_candidate": {
+    "applicator": {
+      "path": "apply_zurich_adjective_v019.py",
+      "bytes": 42133,
+      "sha256": "228E1A92085B8C1680F0B5996DC818E7DC087D536296B47D0D06ADDE205DB65A"
+    },
+    "linguistic_adjudication": {
+      "path": "decision_records/ISV019-EDIT-0153-UNAPPLIED-LINGUISTIC-ADJUDICATION.json",
+      "bytes": 11049,
+      "sha256": "0ED14DA5E94AA0E0D81C751D3866D2D25B2971F611CF73AAFDCDB34B5F1FB175"
+    },
+    "preapply_candidate_receipt": {
+      "path": "decision_records/ISV019-EDIT-0153-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "bytes": 5830,
+      "sha256": "2909E37E9A2B954B220432B312334D78A646F01348381203A18C1232232820E9",
+      "role": "preapply evidence only"
+    },
+    "helper_independent_qa": {
+      "path": "decision_records/ISV019-EDIT-0153-HELPER-INDEPENDENT-PREAPPLY-QA-RECEIPT.json",
+      "bytes": 5917,
+      "sha256": "DFF898E07A10395D201F4A37079D2623D7B6E903E0ED6BEF2045200F387E8806",
+      "verdict": "ACCEPT_PREAPPLY_ALGORITHMICALLY_INDEPENDENT"
+    },
+    "separate_task_review": {
+      "verdict": "ACCEPT_PREAPPLY",
+      "boundary": "independent bounded read-only review; no applicator or transaction-core transform helper imported; no workspace write",
+      "durability": "handoff receipt in Codex task 019fca5c-0e73-7c72-92fb-5b507b710598; this field records the verdict but does not claim a separate file artifact"
+    }
+  },
+  "source_proof": {
+    "target": "source_latin/base-papers1-43-isv.tex",
+    "predecessor": {
+      "bytes": 1892324,
+      "sha256": "8D8902B23C1BB2B421D5D56870369330498FDC83A8BFC1B746DEE8307C2E45B0"
+    },
+    "successor": {
+      "bytes": 1892324,
+      "sha256": "9490F4C09573ABC4FFC97AE80F2DF08330488B7EA2148AD6CC1C8B39756B02E9"
+    },
+    "old": "zürihsko",
+    "new": "curišsko",
+    "line": 24190,
+    "byte_offset_0based": 1824429,
+    "old_live_count": 0,
+    "new_live_count": 1,
+    "line_before": {
+      "bytes": 1149,
+      "sha256": "8198C93EBA16D75372D77E60B67818A5C3DC3DC37D640D8B513DDD0C87A82E62"
+    },
+    "line_after": {
+      "bytes": 1149,
+      "sha256": "1A740A1DD8C56BE1334EFD6DCE75FCA32B3E39C93C0C78BBE409745497137668"
+    },
+    "exact_reverse_to_registered_predecessor": true,
+    "exact_forward_replay_to_live_successor": true,
+    "outside_target_bytes_exact": true,
+    "line_count_delta": 0,
+    "byte_length_delta": 0,
+    "math_changes": 0,
+    "comment_changes": 0,
+    "foreign_payload_changes": 0,
+    "producer_changes": 0,
+    "identity_receipt_changes": 0
+  },
+  "live_source_cohort": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 26053,
+      "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1892324,
+      "sha256": "9490F4C09573ABC4FFC97AE80F2DF08330488B7EA2148AD6CC1C8B39756B02E9"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  },
+  "producer_guard": {
+    "files": 6,
+    "all_exact_edit0152": true,
+    "changed": 0
+  },
+  "metadata_predecessor_guard": {
+    "head": "ISV019-EDIT-0152",
+    "state": {
+      "bytes": 20758,
+      "sha256": "74D02BE9A3637546E0B700908DC070783A8DF8F16130A9E61E2B607EC890BE13"
+    },
+    "ledger": {
+      "rows": 152,
+      "bytes": 692897,
+      "sha256": "D2B129EFEB452A3D6B5A66109EE587D90C5E7CC1C276C584F7606A30A353B954"
+    },
+    "sidecar": {
+      "bytes": 37822,
+      "sha256": "0E62461B3EC60B2CEF1D177C7BC7517698332CC2B902E3FB82BC72AB95444D14"
+    },
+    "worklog": {
+      "rows": 45,
+      "bytes": 162107,
+      "sha256": "D29A66D75FB7466E49EC0249A08943E662BC5979E51130BE123A4A672C3E4503"
+    },
+    "verifier": {
+      "bytes": 2172,
+      "sha256": "7A7978EB7EAADE6629BA2D982FF352139297211E580839E0062B7B310E0AC5BF"
+    },
+    "changed": 0
+  },
+  "scanner": {
+    "implementation": {
+      "path": "project_isv_cyrillic_v2.py",
+      "bytes": 74914,
+      "sha256": "FD51B4D9936653CB9968AF8F91BAB08E18331741BC482CCA39AEF69F0B5AF3F2"
+    },
+    "runs": 2,
+    "byte_identical": true,
+    "each_exit_code": 0,
+    "each_stdout": {
+      "bytes": 3947,
+      "sha256": "EE853120328D1931FCB36363CD3CB85DA6D07AD62494DD60550F3F8D36B03BE6"
+    },
+    "each_stderr_bytes": 0,
+    "report_sha256_excluding_this_field": "18CC2A6A38C0F0291BFA9276C145AA604B4B9A7082FCDC2F5AE4F54EF136D997",
+    "status": "BLOCKED_FAIL_CLOSED",
+    "blocked_union": 1095,
+    "blocked_inventory_sha256": "52FA3D23128A090C30471F9069188E50556C7CAA010F9AE5286FD355AD2BEEB9",
+    "unsupported": 489,
+    "unsupported_inventory_sha256": "ECEBD00FF987F0A430E0C320333CBE4218C82FBCD315E7CE358E0623F62ABE9B",
+    "roman_identity_holds": 704,
+    "roman_identity_inventory_sha256": "8D760DF8A45E3FD68103EC237022E188CAC53AEC4677E5FEB4378EF60F2CB908",
+    "parse_errors": 0,
+    "coverage_failures": 0,
+    "unknown_argument_commands": 0,
+    "word_projection": "цуришско"
+  },
+  "role_partition_after": {
+    "lexical": 0,
+    "foreign_or_citation_identities": 307,
+    "integrated_name_or_eponym": 66,
+    "structural_roman_identities": 722,
+    "blocked_union": 1095
+  },
+  "registry_preseal_boundary": {
+    "registry_id": "CANON-REGISTRY-0004",
+    "expected_status": "SOURCE_AHEAD_OF_METADATA_AND_REGISTRY",
+    "validator_exit_code": 1,
+    "validator_stdout": {
+      "bytes": 347,
+      "sha256": "1D15FBFE149FC46E877A7D460F0065913D86FEAB3324E13E0DCC5D75F8C0D911"
+    },
+    "validator_stderr": {
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "only_observed_error": "registered base source SHA-256 expected EDIT0152 and observed exact EDIT0153 successor",
+    "stdout_alone_is_not_phase_authority": true
+  },
+  "residue": {
+    "transaction_lock": false,
+    "stage": false,
+    "rollback": false,
+    "lane_pycache": false,
+    "git_process_seen": false
+  },
+  "nonclaims": {
+    "metadata_sealed": false,
+    "registry_updated": false,
+    "latin_frozen": false,
+    "cyrillic_ready": false,
+    "build": false,
+    "render": false,
+    "publication": false,
+    "global_linguistic_completion": false,
+    "official_dictionary_headword": false,
+    "native_or_community_certification": false
+  },
+  "next_gate": "freeze and independently review an EDIT0153 metadata sealer before any metadata apply or worklog append"
+}

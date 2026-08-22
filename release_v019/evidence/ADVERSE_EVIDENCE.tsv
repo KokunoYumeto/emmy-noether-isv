@@ -1,0 +1,2 @@
+adverse_id	status	artifact	finding	resolution
+ISV019-ADVERSE-V5-TEX-DIMENSIONS	RESOLVED_RETAINED	adverse/ISV019-ADVERSE-V5-TEX-DIMENSIONS.json	Projector v5 transliterated numeric TeX dimension units and produced an illegal XeLaTeX unit.	Projector v6 protects 447 numeric TeX-unit occurrences; duplicate derivation, hostile tests, full serial build, and release QA pass.

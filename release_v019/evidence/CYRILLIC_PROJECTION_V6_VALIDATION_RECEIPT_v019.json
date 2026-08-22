@@ -1,0 +1,89 @@
+{
+  "schema": "noether-isv-cyrillic-projection-v6-validation-receipt/1.0",
+  "release_id": "NOETHER-ISV-v019",
+  "generated_at": "2026-08-22T00:00:00Z",
+  "status": "PASS",
+  "classification": "deterministic script projection of one Interslavic edition; not an independent translation witness",
+  "implementation": {
+    "path": "project_isv_cyrillic_v6.py",
+    "bytes": 13333,
+    "sha256": "C7AE344B1E01DC0A8B655067173B66550D93E4D357CEB4FDB9713E80F9B9C0D6"
+  },
+  "independent_test": {
+    "path": "test_project_isv_cyrillic_v6.py",
+    "bytes": 7301,
+    "sha256": "020A221F3248B7941030E78C18119F2BD497CA7C83A18EF002DCEDA3D290AE0A",
+    "duplicate_complete_derivations_byte_identical": true,
+    "workspace_files_mutated": false,
+    "hostile_cases": [
+      "source_payload_mutation",
+      "source_topology_omission",
+      "unsafe_replacement_target",
+      "dimension_census_mutation"
+    ],
+    "hostile_cases_rejected": 4
+  },
+  "predecessor": {
+    "implementation": "project_isv_cyrillic_v5.py",
+    "bytes": 26612,
+    "sha256": "723BD60F6CFE7C2E1192610215591C8D59BDECEAC778423FDEB4E105C831CFCB",
+    "disposition": "superseded for release after XeLaTeX exposed transliterated numeric TeX dimension units",
+    "failure_log": {
+      "path": "adverse/v5-tex-dimension-build-failure.log",
+      "bytes": 5568,
+      "sha256": "748E98E8400C84574DBCB2700CC59A9E42B5BE9ECF23D60A3728A95D79EF7ADC",
+      "exit_code": 1,
+      "first_error": "Illegal unit of measure at projected \\emergencystretch=4ем"
+    }
+  },
+  "v6_delta": {
+    "rule": "preserve numeric TeX dimension units as syntax",
+    "newly_protected_occurrences": 447,
+    "by_surface": {
+      "em": 219,
+      "pt": 228
+    },
+    "cyrillic_tex_dimension_residuals": 0,
+    "inventory_bytes": 178677,
+    "inventory_sha256": "A0C59C238840A60910A797E35374F37620EE5B7EDF669E06A1A02190D08C4235"
+  },
+  "projection": {
+    "standard_interslavic_conversions": 161208,
+    "conversions_after_explicit_etymological_simplification": 3355,
+    "total_word_conversions": 164563,
+    "lexical_one_letter_I_V_projected": 449,
+    "reviewed_one_letter_I_V_M_preserved": 241,
+    "projection_issues": 0,
+    "report_sha256_excluding_embedded_hash_field": "E99B7E482A302EEAFF82056F5E53B5FF810EC8AC9DBC8F26BB747BE01259093A"
+  },
+  "outputs": [
+    {
+      "path": "source_cyrillic/44-book-isv-cyrl.tex",
+      "bytes": 230370,
+      "sha256": "13E2391567A522038C3F959C22FA2FAC164D032F82DA811C6447560F5680C9F0"
+    },
+    {
+      "path": "source_cyrillic/45-isv-cyrl.tex",
+      "bytes": 35902,
+      "sha256": "E1568BAB1E389E07816178A2FBDEE3833508C79BF0C7C19DD5120812E24646FE"
+    },
+    {
+      "path": "source_cyrillic/base-papers1-43-isv-cyrl.tex",
+      "bytes": 2706660,
+      "sha256": "23C242AABD938C605A4B2293ED6E68B723F94DBD23279FD8E75CB50CAEF099F1"
+    },
+    {
+      "path": "source_cyrillic/bib-isv-cyrl.tex",
+      "bytes": 13255,
+      "sha256": "5A6AE75FF94360BC104CE240E0EC18A2329C5229F68B198F763EDF7E786B816B"
+    }
+  ],
+  "output_manifest_sha256": "320E2F1E683F712041151503C841B493AFDE19792BDE6B4CC17D9BB1B8315613",
+  "build_confirmation": {
+    "serial_two_pass_xelatex": "PASS",
+    "cyrillic_reader_pages": 588,
+    "release_qa_checks": 38,
+    "release_qa_errors": 0
+  },
+  "claim_boundary": "Closes deterministic script derivation and executable-source gates. It does not constitute native-speaker or independent linguistic certification."
+}

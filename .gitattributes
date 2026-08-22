@@ -1,0 +1,3 @@
+# This repository publishes byte-pinned scholarly sources and evidence.
+# Preserve every tracked file exactly; never perform line-ending conversion.
+* -text

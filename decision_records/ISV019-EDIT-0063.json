@@ -1,0 +1,47 @@
+{
+  "decision_id": "ISV019-EDIT-0063",
+  "recorded_at": "2026-08-13T14:30:57.6945480+02:00",
+  "epistemic_type": "manager_direct_second_conjugation_plural_morphology_repair",
+  "scope": "Fifty-one audited second-conjugation third-person-plural forms ending in bare -e, all in papers 1-43.",
+  "choice": "Add required final t at the exact reviewed lines: tvore to tvoret, zavise to zaviset, vhode to vhodet, and vode to vodet.",
+  "motivation": "Official second-conjugation morphology requires third-person-plural -et. All mapped clauses have overt plural subjects or antecedents; nearby bare -e forms with singular subjects are explicitly outside this tranche.",
+  "alternatives_rejected": [
+    "Append t to every bare -e verb: many are valid third-person singular or need separate context adjudication.",
+    "Retain these forms as number-neutral: this conflicts with the official paradigm and their explicit plural syntax.",
+    "Recast sentences lexically: unnecessary for a precise inflectional repair."
+  ],
+  "evidence": {
+    "official_verb_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/verbs.md",
+      "bytes": 21426,
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+      "relevance": "Second-conjugation third-person-plural forms end in -et."
+    },
+    "context_review": "All 51 target sentences have plural subjects; mixed leže and other bare -e families were excluded for separate adjudication."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0062",
+    "decision_log": {"bytes": 247417, "sha256": "3094305B9277A5C2CD4822B8B04CA23933C896D374F703E71FDB342D1A140EDF"},
+    "source_latin/44-book-isv.tex": {"bytes": 167976, "sha256": "5B264B331B53DC3D53478A24FA3D53F5D70951DEDA75A4233994C3BB09FC1D44"},
+    "source_latin/45-isv.tex": {"bytes": 25533, "sha256": "D02719EAF549441FCB64C5AC56712791DD67D4DDF8E0FA410B10D5F2DC49A302"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896822, "sha256": "E5388009602C585C4CAE2DF4CD8BA109ED6833921A23008DAE5ACD8FC0438AC7"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 51,
+    "source_histogram": {"tvore": 30, "zavise": 12, "vhode": 5, "vode": 4},
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167976, "sha256": "5B264B331B53DC3D53478A24FA3D53F5D70951DEDA75A4233994C3BB09FC1D44"},
+    "source_latin/45-isv.tex": {"bytes": 25533, "sha256": "D02719EAF549441FCB64C5AC56712791DD67D4DDF8E0FA410B10D5F2DC49A302"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896873, "sha256": "5B20417ACBE3FB293295A04C5FEBF374E803CB2197D699416B082E26C4520E25"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_second_conjugation_plural_t_v019.py", "bytes": 6349, "sha256": "DD7E4F2025D0046627C86598CC342317542D5A5F3B28AB48C7B5B142E6251541"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0062",
+    "coverage": "51/51 exact line-bound sites changed",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, protected fragments, and line counts unchanged",
+    "reproducibility": "Frozen output hashes reproduced immediately before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

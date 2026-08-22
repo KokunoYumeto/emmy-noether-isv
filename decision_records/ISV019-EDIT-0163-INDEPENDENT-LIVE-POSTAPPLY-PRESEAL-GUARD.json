@@ -1,0 +1,113 @@
+{
+  "schema": "noether-isv-edit0163-independent-live-postapply-preseal-guard-v1",
+  "decision_id": "ISV019-EDIT-0163",
+  "status": "PASS_SOURCE_AHEAD_OF_METADATA",
+  "applicator": {
+    "path": "apply_complete_foreign_surface_tranche4_v019.py",
+    "bytes": 38320,
+    "sha256": "49551CEFC54A778A53EAD6A61910FCF7732448473B8FD5E4532F5C4ECEFEA714"
+  },
+  "candidate_receipt": {
+    "path": "decision_records/ISV019-EDIT-0163-UNAPPLIED-CANDIDATE-RECEIPT.json",
+    "bytes": 4687,
+    "sha256": "DE8F2CBA4DDFB20F166C35C34F6505A9AC8882535AE7C4B1C78295FBA0075020"
+  },
+  "production_apply": {
+    "argv": [
+      "python",
+      "-B",
+      "apply_complete_foreign_surface_tranche4_v019.py",
+      "--apply",
+      "--compact"
+    ],
+    "workdir": ".",
+    "exit": 0,
+    "stdout": {
+      "bytes": 16750,
+      "sha256": "F4EA34FA9CA01DE1FBC7DE966B1094DC3CA2F09BA757E95C430685061EC0C48F"
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "receipt_custody": "stdout deterministically reconstructed from the byte-identical frozen dry plan after successful exact live mutation; the original orchestration cell completed after its capture window, and the command was not retried"
+  },
+  "reconstruction_proof": {
+    "frozen_dry_reproduced": {
+      "bytes": 16778,
+      "sha256": "725EF4C35B036BA1D89307DA2E4D8477C818E11EB0CF83475F9887CF3F76D799"
+    },
+    "exact_reverse": {
+      "bytes": 1893011,
+      "sha256": "8257A9881ECB6F871B71C20E1BFD92B6B7F345EA73C87455DDA7DD98AE131FF9"
+    },
+    "exact_forward": {
+      "bytes": 1893211,
+      "sha256": "8C5A7DA9110246925B5F524915E27E391894D7735DE8E8B42679204D4F71DF29"
+    },
+    "line_manifest": {
+      "bytes": 27855,
+      "sha256": "BF5E3CBF938EE6F42A51FF2DBE979FAEAF824935213322FF5D58A22E08132AE3"
+    },
+    "reverse_manifest": {
+      "bytes": 251,
+      "sha256": "56FB60D4F1ED69B7FA0F56BAD4B6225CDF601FE3A5C496EAB48C1900F2F438A3"
+    }
+  },
+  "live_base": {
+    "bytes": 1893211,
+    "sha256": "8C5A7DA9110246925B5F524915E27E391894D7735DE8E8B42679204D4F71DF29"
+  },
+  "source_cohort": {
+    "bytes": 472,
+    "sha256": "C9C76D6E2B5BE5816749626134CB5241AEA7AA23D90AAF721C84B30F5412FE15"
+  },
+  "exact_complete_identities": 20,
+  "metadata": {
+    "sealed": false,
+    "exact_predecessor": true,
+    "head": "ISV019-EDIT-0162",
+    "state": {
+      "bytes": 31610,
+      "sha256": "A8B5B56C10172A44A8DF41935BC8F538F32667FD4267E599FF247AA168213728"
+    },
+    "ledger": {
+      "bytes": 745025,
+      "sha256": "1B348B98F2D86281DB0587498569F86CF89D690D1A57A552B4AAE0E1CEAC1E74"
+    },
+    "sidecar": {
+      "bytes": 24241,
+      "sha256": "3AEC42BA624E5E00893596C642E11291E22D3B934C77072EB1EA837ED0688343"
+    },
+    "worklog": {
+      "bytes": 185575,
+      "sha256": "78C8F896D5E962A1A683252E730D9B310FD991BA4BE7D8B509B8051E36DEB799"
+    },
+    "verifier": {
+      "bytes": 2171,
+      "sha256": "51770065E8FA26B5AB6269666C88B6B0110C99182756B4752A88C44E0B4ED03F"
+    },
+    "sealer": {
+      "bytes": 60246,
+      "sha256": "0CB4912D26CDD43A853E77E0A7633392E28E6F127D196E593757DF4A359D26A0"
+    },
+    "human": {
+      "bytes": 5497,
+      "sha256": "96E05F585280B3E7E8842D9B3362EAB7070B3B80C9089A466646F59FB7A53CF6"
+    }
+  },
+  "scanner": {
+    "blocked": 210,
+    "unsupported": 210,
+    "approved_structural": 722,
+    "roman": 0,
+    "parse_errors": 0,
+    "coverage_failures": 0,
+    "unknown_argument_commands": 0,
+    "inventory_sha256": "19C870E2DBA6BC280054D56BB1DAFCC57435197AD72F4CDFDD887D4083DA2739",
+    "report_sha256_excluding_this_field": "F8B73F7709E4762FD86F53ECEF992E7841DF4496499278A19E39BFC699E20B6D"
+  },
+  "transaction_residue": 0,
+  "pycache_residue": 0,
+  "receipt_sha256_excluding_this_field": "894E1C19C03A0CF36E879CD461ED955F88A615F8E8F4C8FE8594962C845F411E"
+}

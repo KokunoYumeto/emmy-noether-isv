@@ -1,0 +1,210 @@
+{
+  "schema": "noether-isv-edit0156-successor-validator-address-correction-v1",
+  "decision_id": "ISV019-EDIT-0156",
+  "predecessor_head": "ISV019-EDIT-0155",
+  "recorded_at": "2026-08-20T18:05:00+02:00",
+  "status": "PLANNED_METADATA_ONLY_SUCCESSOR_VALIDATOR_ADDRESS_CORRECTION",
+  "classification": "APPEND_ONLY_REGISTRY_VALIDATOR_SUCCESSOR",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0155",
+    "complete": true,
+    "records": {
+      "state": {
+        "path": "00_SESSION_INDEPENDENT_STATE_v019.json",
+        "bytes": 25275,
+        "sha256": "ED6ED3DDFD383B2FA86F96A6B46CF5974B5EFE117152FABBC4B0C6DF256D135D",
+        "canonical_sha256": "3BF89BA0CE49F25CAE58714D69D68796B8CBBFE922FE1ED2D5AF984EBDDCEC70"
+      },
+      "ledger": {
+        "path": "NORMALIZATION_DECISIONS_v019.jsonl",
+        "bytes": 724693,
+        "sha256": "74DFE0F425AE1508C6445FC5A940F4AD58EA76254E92196879DB5EA3088E7FFB",
+        "rows": 155
+      },
+      "worklog": {
+        "path": "00_SESSION_INDEPENDENT_WORKLOG_v019.jsonl",
+        "bytes": 176707,
+        "sha256": "E6962C56F76F6FAEBE93E1CD46DEC569CF2AEAB7D508C280B8E67123FC6ACB65",
+        "rows": 48
+      },
+      "verifier": {
+        "path": "verify_session_independent_state_v019.ps1",
+        "bytes": 2171,
+        "sha256": "164FEDFB9941C33FCDBF8C7A4218B7E272C4C440246ED0FB5D05BD4675523FEC",
+        "normalized_sha256": "C1DD5117B21DE79511E9248B6824F993FEA56D8629A11822817291680775D188"
+      },
+      "sidecar": {
+        "path": "decision_records/ISV019-EDIT-0155.json",
+        "bytes": 10320,
+        "sha256": "328C483DEFBD58202799FA8DE8F71B2D3A1AD3067E187639E0A7309169E2D9B0"
+      },
+      "human": {
+        "path": "decision_records/ISV019-EDIT-0155.md",
+        "bytes": 5087,
+        "sha256": "118EFA043D3DBD5837CB4D3A434302873E81CED8BABB7AA2336FBAFFA34F3605"
+      },
+      "sealer": {
+        "path": "seal_isv_edit0155_v019.py",
+        "bytes": 59701,
+        "sha256": "B4720F7F9C081720BE8646D9D0CC987067E3F8E1B5A61CC7B5F81B385CFEF483"
+      }
+    }
+  },
+  "correction": {
+    "reason": "workspace instruction intentionally simplified after registry0005",
+    "old_validator": {
+      "path": "00_governance/canon_registry/validate_canon_registry_current.py",
+      "bytes": 12599,
+      "sha256": "A5BC8915A61F087A98883B4C0547679C7DE726D33D2B84AAF74B3FE060FEDC1E"
+    },
+    "new_validator": {
+      "path": "00_governance/canon_registry/validate_canon_registry_current_v2.py",
+      "bytes": 2028,
+      "sha256": "623784F6545B8ACF9ED532FD0ED46F2FB4240E8A9B59988CD8B5FC1819CB95AE"
+    },
+    "workspace_instruction": {
+      "path": "AGENTS.md",
+      "bytes": 1053,
+      "sha256": "4D1FC812297B63722195389F7669FEF9D22EB3EF04A3F24E01C830CDD14D645A"
+    },
+    "old_validator_or_schema_overwritten": false,
+    "language_or_projection_change": false
+  },
+  "phase_contract": {
+    "pre_registry": {
+      "registry_id": "CANON-REGISTRY-0005",
+      "handoff": {
+        "bytes": 5305,
+        "sha256": "40D0D852D169BCB948A7C0D125642022F5A9593B02295A66D484FC59ADC32E5F"
+      },
+      "validator": "validate_canon_registry_current.py",
+      "expected_failure": {
+        "exit_code": 1,
+        "stdout": {
+          "bytes": 74,
+          "sha256": "9EBFE17B8EAD02B0B5F539A9177F53F120063C93C97A71749D6323FF83019489"
+        },
+        "stderr": {
+          "bytes": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        "reason": "workspace discovery instruction pin drift"
+      }
+    },
+    "registered_successor": {
+      "registry_id": "CANON-REGISTRY-0006",
+      "handoff": {
+        "bytes": 7316,
+        "sha256": "E73EE9247D3710459B73AA499CD3AAF255620F6BA8026C5E28BE0907A5C065BD"
+      },
+      "validator": "validate_canon_registry_current_v2.py",
+      "required_head": "ISV019-EDIT-0156",
+      "required_ledger_rows": 156,
+      "required_status": "PASS"
+    },
+    "graph_first": true,
+    "fixed_path_repins": "before_and_after_subprocess"
+  },
+  "source_and_producer_pins": {
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1892324,
+      "sha256": "9490F4C09573ABC4FFC97AE80F2DF08330488B7EA2148AD6CC1C8B39756B02E9"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 26053,
+      "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    },
+    "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex": {
+      "bytes": 7664,
+      "sha256": "746C1B8CFB6A524C0348B388F373BE1A433DC6D6ABCEE0BAFEE79E56A214D47E"
+    },
+    "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex": {
+      "bytes": 14964,
+      "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+    },
+    "producer_units/Noether_Paper08_Interslavic_v001.tex": {
+      "bytes": 23977,
+      "sha256": "611FF5D4933FCA1D99D07235DE81866248F66FAE53D245C2C047C0F8795F6A74"
+    },
+    "producer_units/Noether_Paper22_Interslavic_v001.tex": {
+      "bytes": 78375,
+      "sha256": "5D1212B2E8EAD24CA130346E43B19ABFEE3095883EEEE6D1F2BFA7F29F0EF01E"
+    },
+    "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex": {
+      "bytes": 95661,
+      "sha256": "3C343513CC303C7B9875C114DF143232ED10B3D45B3052DEFE159BF27EE14578"
+    },
+    "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex": {
+      "bytes": 4752,
+      "sha256": "E60C00BD715913C21F6DB35DE68F5677F2FC6B5D486756C565905B1EA7774DC1"
+    },
+    "producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex": {
+      "bytes": 95451,
+      "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+    }
+  },
+  "projection_authority": {
+    "authority_id": "ISV019-TOOL-CYR3-0001",
+    "implementation": {
+      "path": "project_isv_cyrillic_v3.py",
+      "bytes": 24314,
+      "sha256": "84B845424CB2501289220727B1300280894512EDD137DC13B188A577049AF1B7"
+    },
+    "counts": {
+      "blocked_occurrences": 373,
+      "unsupported_occurrences": 373,
+      "roman_identity_hold_occurrences": 0,
+      "parse_errors": 0,
+      "coverage_failures": 0,
+      "unknown_argument_commands": 0
+    },
+    "blocked_inventory_sha256": "257F1118DC0D31C708180F1AC29E2CDEFD5F257712C3E52EB9146B86ACBC0236",
+    "role_partition": "0+307+66+0=373",
+    "derived_output": null,
+    "status": "BLOCKED_FAIL_CLOSED"
+  },
+  "human_companion": {
+    "path": "decision_records/ISV019-EDIT-0156.md",
+    "bytes": 3610,
+    "sha256": "9B00D874B1F8773C3ECCA23029BCA7F2A96106F9745C0A38EE99A7725F3E3E27"
+  },
+  "sealer": {
+    "path": "seal_isv_edit0156_v019.py",
+    "bytes": 46150,
+    "sha256": "04C0FA94EBADC8418564F22B637243B857ED782648BFA728FCFF4F2D08FF7991"
+  },
+  "verifier_identity": {
+    "path": "verify_session_independent_state_v019.ps1",
+    "bytes": 2171,
+    "normalization": "replace_the_single_embedded_state_canonical_sha256_with_64_ascii_zeroes",
+    "normalized_sha256": "109C512213B06C5E008C27868672A9697069705B2D5CDF91B03BF0EAA80E1D8B"
+  },
+  "public_update_cadence": {
+    "github_and_zenodo": "together_at_meaningful_sealed_build_package_checkpoints",
+    "interslavic_primary_english_parallel": true,
+    "internal_pipeline_diary_public": false,
+    "this_edit_publishes": false
+  },
+  "claims": {
+    "source_changes": 0,
+    "producer_changes": 0,
+    "projection_changes": 0,
+    "registry_updated": false,
+    "build": false,
+    "render": false,
+    "git": false,
+    "network": false,
+    "doi_changed": false,
+    "publication": false,
+    "native_or_community_certification": false
+  },
+  "next_action": "seal EDIT0156, register exact CANON-REGISTRY-0006, then resume finite v3 blocker adjudication"
+}

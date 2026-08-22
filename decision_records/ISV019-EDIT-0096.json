@@ -1,0 +1,53 @@
+{
+  "decision_id": "ISV019-EDIT-0096",
+  "recorded_at": "2026-08-13T16:21:51.9849281+02:00",
+  "epistemic_type": "hard_adjective_pronominal_genitive_locative_plural_closure",
+  "scope": "Eighty sentence-audited hard-stem genitive/locative plural tokens across 20 exact source forms: four in 44-book, 75 in the base papers, and one in the bibliography.",
+  "choice": "Repair the exact mapped hard-stem forms from -ih to -yh while preserving all soft stems, personal and possessive pronouns, nouns, separate numeral paradigms, and unadjudicated look-alikes.",
+  "motivation": "Official adjective morphology permits i after only soft š/ž/č/j stems; every mapped occurrence has a hard stem and genitive/locative plural syntax.",
+  "alternatives_rejected": [
+    "A blanket *ih replacement was rejected because it would corrupt soft adjectives, participles, pronouns, nouns and separate numeral paradigms.",
+    "Retaining the 20 mixed hard-stem forms would preserve noncanonical agreement beside established -yh controls.",
+    "Unadjudicated někojih, njihovih and ljubih were excluded for separate semantic/morphological review."
+  ],
+  "evidence": {
+    "adjective_grammar": "Official adjectives.md lines 14 and 16 specifies regular agreement and y-to-i only after š/ž/č/j.",
+    "ordinal_grammar": "Official numerals.md lines 73-75 treats prvy and drugy ordinals as hard-stem adjectives.",
+    "pronoun_grammar": "Official pronouns.md lines 84, 97 and 101-107 treats ktory, kaky and regular indefinite derivatives adjectivally.",
+    "participle_grammar": "Official verbs.md line 184 derives the hard past-passive -ty form, licensing genitive/locative plural vzętyh.",
+    "protected_domains": "No mapped token occurs in a comment, foreign argument, URL or TeX control name."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0095",
+    "decision_log": {"bytes": 352621, "sha256": "C0C255433C23BD55BAA230AC61DC52CB00F195DADAD2DAC6A7B7FAA0B1B9711B"},
+    "source_latin/44-book-isv.tex": {"bytes": 168075, "sha256": "BD0EB2B94454BD08D83D3EED28A5DD0B077BCDBD0DB2462FA7B53EE3806F1633"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898331, "sha256": "93CF340A055D865AF5E5836D0CCABF8FD6F7693720B370FBFF9F56D7B81A5584"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "mapping": {
+    "prvih": "prvyh", "drugih": "drugyh", "vsakih": "vsakyh", "novih": "novyh", "takih": "takyh",
+    "energijskih": "energijskyh", "vzętih": "vzętyh", "ktorih": "ktoryh", "jednakih": "jednakyh", "ikakih": "ikakyh",
+    "stepenjevih": "stepenjevyh", "vsekakih": "vsekakyh", "funkcijskih": "funkcijskyh", "transformacijskih": "transformacijskyh",
+    "variacijskih": "variacijskyh", "kakih": "kakyh", "računskih": "računskyh", "ravninskih": "ravninskyh", "samih": "samyh", "cěločislovih": "cěločislovyh"
+  },
+  "results": {
+    "sites_changed": 80,
+    "source_types": 20,
+    "mapped_source_residue": 0,
+    "unresolved_linguistic_holds_in_packet": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168075, "sha256": "EEED5FAC489CD50A43C549E0C5A502D05A2BDCCF624994049D8204A749A7A062"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898331, "sha256": "27C4DFE6E19957CE447D6E12B857B02CF8B34684FDB7C9E0A611CC23E08A2606"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "tool": {"path": "apply_hard_adjective_ih_yh_v019.py", "bytes": 5396, "sha256": "4707EFFC10469E66869465D3EBC893DF069DC9DDEE72789FA0053008F15306C9"},
+  "validation": {
+    "coverage": "Exact source histogram totals 80 tokens over 20 types and the expected 4/0/75/1 file split.",
+    "semantic_review": "Every mapped occurrence was inspected as hard-stem genitive/locative plural agreement; packet holds are zero.",
+    "postcondition": "All 20 mapped old forms are zero and their exact canonical target counts rise by 80.",
+    "structure": "Byte counts, line counts, braces, ordered TeX controls and math delimiters are invariant; 45-isv.tex is byte-identical.",
+    "reproducibility": "Frozen successor hashes reproduced twice before atomic application and matched after application."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

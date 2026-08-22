@@ -1,0 +1,51 @@
+{
+  "decision_id": "ISV019-EDIT-0097",
+  "recorded_at": "2026-08-13T16:28:44.0314303+02:00",
+  "epistemic_type": "example_noun_and_adverb_complete_family_normalization",
+  "scope": "Eighty-five distinct base-paper sites in the example/for-example family: 31 spaced adverb phrases and 54 noncanonical noun/adverb tokens.",
+  "choice": "Normalize adverbial na primjer, na priměr and na primer to napriměr; normalize standalone naprimer to napriměr; normalize the Croatian-reflex primjer noun paradigm to official priměr with its existing inflection.",
+  "motivation": "All sites denote an example or introduce an example. Official type-1 entries are priměr and napriměr, and the complete closure removes both the Croatian ije reflex and unaccented/spaced adverb variants.",
+  "alternatives_rejected": [
+    "The initial 77-site audit was not accepted because it omitted seven na primer phrases and one standalone naprimer token from the same semantic family.",
+    "Retaining mixed spaced adverbs would preserve an artificial surface split without a meaning distinction.",
+    "Changing the distinct kontrapriměr compound or unrelated priklad/prěklad and priměnjenje families was rejected."
+  ],
+  "evidence": {
+    "official_dictionary": "Official dictionary id 3590 gives priměr, masculine type 1, example; id 28131 gives napriměr, adverb type 1, for example/for instance.",
+    "german_alignment": "The German authority distinguishes illustrative Beispiel nouns and beispielsweise/zum Beispiel adverbials; every mapped site belongs to one of these two classes.",
+    "semantic_partition": "Thirty-one adverb phrases plus one standalone unaccented adverb; 44 nominative/accusative nouns, four dative/locative singular, two instrumental singular, two dative plural and one genitive plural.",
+    "protected_domains": "No target occurs in a comment, foreign-language argument, citation title, URL, proper name, label/reference or TeX control name."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0096",
+    "decision_log": {"bytes": 356868, "sha256": "63C2C81B2E1CB8E904BDBDF734F4BF69715A272527A7677BF36D3FACBF349DFA"},
+    "source_latin/44-book-isv.tex": {"bytes": 168075, "sha256": "EEED5FAC489CD50A43C549E0C5A502D05A2BDCCF624994049D8204A749A7A062"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898331, "sha256": "27C4DFE6E19957CE447D6E12B857B02CF8B34684FDB7C9E0A611CC23E08A2606"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "results": {
+    "sites_changed": 85,
+    "spaced_adverb_phrases": 31,
+    "standalone_unaccented_adverb": 1,
+    "noun_tokens": 53,
+    "source_family_residue": 0,
+    "canonical_naprimer_total": 49,
+    "canonical_accented_noun_total": 124,
+    "protected_kontraprimer_total": 2,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168075, "sha256": "EEED5FAC489CD50A43C549E0C5A502D05A2BDCCF624994049D8204A749A7A062"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898308, "sha256": "969E5730C3F8E438DFCDC71418DB3226F1A693D698AB06FA16F681E864D35272"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "tool": {"path": "apply_example_primer_v019.py", "bytes": 5707, "sha256": "CEDBD579A955714F46C04AFF6A6F2BF89D8367CFCE49785300979BF1BE45C860"},
+  "validation": {
+    "coverage": "Exact phrase histogram 21 na primjer, three na priměr and seven na primer; after phrase replacement the exact token histogram is one naprimer, five Primjer, 39 primjer, four primjeru, two primjerom, two primjeram and one primjerov.",
+    "failed_dry_run": "The first dry-run rejected the incomplete 77-site postcondition before any write; the exact eight omitted family members were then added and the full successor re-derived.",
+    "postcondition": "All spaced example adverbs, naprimer and the complete primjer paradigm are zero; napriměr totals 49 and accented priměr noun forms total 124; kontrapriměr remains two.",
+    "structure": "Line counts, braces, ordered TeX controls and math delimiters are invariant; all non-base components are byte-identical.",
+    "reproducibility": "The expanded frozen successor hashes reproduced twice before atomic application and matched after application."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

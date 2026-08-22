@@ -1,0 +1,48 @@
+{
+  "decision_id": "ISV019-EDIT-0089",
+  "recorded_at": "2026-08-13T15:47:40.4861028+02:00",
+  "epistemic_type": "manager_logical_connective_resolution",
+  "scope": "Forty-six mid/late-paper logical-consequence sites: 44 ordinary inference markers and two causal-collision phrases.",
+  "choice": "Map 26 lower tedy, 17 upper Tedy and one lower teda to zato/Zato; recast two adjacent zato že collisions with tym samym.",
+  "motivation": "Every site is logical consequence. The two phrase recasts preserve result meaning without producing malformed 'zato ... zato že' sequences.",
+  "alternatives_rejected": [
+    "A blind token replacement would create duplicated zato at the two causal-conjunction sites.",
+    "Togda would introduce temporal meaning absent from these passages.",
+    "Retaining tedy/teda would preserve the unresolved mixed connective layer."
+  ],
+  "evidence": {
+    "semantic_review": "All 46 sites were independently classified as logical consequence; zero equivalence, conditional apodosis, temporal or filler uses occur in this tranche.",
+    "official_policy": "EDIT-0044 established zato as the type-1 cross-family result marker and tym samym for guarded anaphoric result recasts.",
+    "source_alignment": "German uses logical also/so/folglich or causal da constructions at the selected sites."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0088",
+    "decision_log": {"bytes": 328748, "sha256": "B468225BB231FAAAC958A998C171803F92EBC4DE0A40A6687F3DB92D7C328197"},
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "AA751140E89657D210DDCAEA2869FAAA408C11027EA3A48FFD35B4D20C479C66"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898272, "sha256": "9FAA6A5FC0B1015CBF5EBE46449E1BCDEE594ECEB9C0D02EBCD3A7E9D1B44A5A"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 46,
+    "simple_replacements": 44,
+    "phrase_recasts": 2,
+    "residual_tedy_teda": 84,
+    "residual_scope": "All residual sites are confined to base-paper lines 23008-25082.",
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "AA751140E89657D210DDCAEA2869FAAA408C11027EA3A48FFD35B4D20C479C66"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898282, "sha256": "A844BB06A7BDAF3093FECBE54405996A61D5B8F641EF8FD3DED88C21FE10FEE4"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_base_consequence_tranche4_v019.py", "bytes": 5768, "sha256": "5EB1C12498100AA3074D4C4703348283BD4FBD96444AEAD1D59BC7BD8CD3B490"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0088",
+    "coverage": "Forty-four exact ordinal tokens plus two exact guarded phrases.",
+    "writer_correction": "Writer QA corrected two stale capitalization labels at lines 19733 and 19895 before application; both output as sentence-case Zato.",
+    "postcondition": "Project connective residue is exactly 84 and confined to the late-paper block.",
+    "structure": "Ordered TeX controls, braces, math delimiters, labels/refs/cites and line counts invariant.",
+    "reproducibility": "Frozen successor hashes reproduced before atomic apply."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

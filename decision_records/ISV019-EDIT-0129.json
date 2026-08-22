@@ -1,0 +1,131 @@
+{
+  "schema": "noether-interslavic-decision-record-v1",
+  "decision_id": "ISV019-EDIT-0129",
+  "recorded_at": "2026-08-14T15:45:00+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "project_authority_citation_placement_and_current_body_producer_synchronization",
+  "scope": "Paper24 formula (4) only: relocate the unchanged localized theorem-VIII citation from the following prose onto formula row 2 and materialize a current-body local producer shadow.",
+  "summary": "Formula (4) now carries `(H.-N., teorem VIII),` on its second row, with the comma inside the text command; the continuing prose begins lowercase `i dalje:`. P24-0001, P24-0002, and the rendered label geometry P24-0003 remain explicitly open and byte-preserved.",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0128",
+    "ledger_rows": 128,
+    "ledger_bytes": 514291,
+    "ledger_sha256": "CA2C2BB8A2FA815730506ABB37DE4405A23232012DA770F3138330BF657D2B88",
+    "sidecar_bytes": 7706,
+    "sidecar_sha256": "98A316720EF875F0586B0166F8CFA1746C692A23FE5F5E27CB90B52575FB7ED2"
+  },
+  "defect_ids": ["NOETH-DEF-P24-0004"],
+  "exact_changes": [
+    {
+      "unit": "Paper24",
+      "producer_line": 120,
+      "assembled_line": 15306,
+      "before": "& R^{(n)}\\cdots R^{(i)}\\frakg_{i-1}&\\equiv0\\pmod{\\frakm}, \\tag{4}",
+      "after": "& R^{(n)}\\cdots R^{(i)}\\frakg_{i-1}&\\equiv0\\pmod{\\frakm},\\quad\\text{(H.-N., teorem VIII),} \\tag{4}"
+    },
+    {
+      "unit": "Paper24",
+      "producer_line": 122,
+      "assembled_line": 15308,
+      "before_prefix": "(H.-N., teorem VIII), i dalje:",
+      "after_prefix": "i dalje:"
+    },
+    {
+      "unit": "Paper24",
+      "assembled_lines": [15196, 15197],
+      "after_summary": "source and identity receipts point to the current-body local producer shadow"
+    }
+  ],
+  "source_inputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898372, "sha256": "ADB53DDBDD2964EC4BF09246599FFBDF19DA46CE0E85DA324E379E30161A7100"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "source_outputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898257, "sha256": "368BED272A9D980C7BBE8629B6D509494B8EB68B7AFC1C8E8C0F829B78C0B597"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "producer_successors": [
+    {
+      "unit": "Paper02-Section11",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "input": {"bytes": 14940, "sha256": "37B613F59FC8D4F101A714AF84B5DA0AE28FED93123EBA52C0363B234E3D499A"},
+      "output": {"bytes": 14964, "sha256": "7590484A00AA1B57C4AC8BDB53204AA0A570FAF8DCE8E0C9DBBD6247D6CB7AD7"},
+      "status": "unchanged_cumulative_successor"
+    },
+    {
+      "unit": "Paper08",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper08/interslavic/v001/Noether_Paper08_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper08_Interslavic_v001.tex",
+      "input": {"bytes": 23684, "sha256": "40A84F8E13423AFC923C4C0C714CBFB78C11EBD6F10343EEACA93090FCBB10C3"},
+      "output": {"bytes": 23894, "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"},
+      "status": "unchanged_cumulative_successor"
+    },
+    {
+      "unit": "Paper22",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper22/interslavic/v001/Noether_Paper22_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+      "input": {"bytes": 77611, "sha256": "6A78318258A2C609D030A248E66834055E904DC808BECA797433C461B31558B6"},
+      "output": {"bytes": 78293, "sha256": "0855C017214927DDF49EC0DD6F7A9ABA350E218F33BB9A94CE6B67E5A8FBDE25"},
+      "status": "unchanged_cumulative_successor"
+    },
+    {
+      "unit": "Paper24",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper24/working/through-section07/interslavic/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+      "local": "producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+      "input": {"bytes": 94891, "sha256": "1AFB653CAD5CFE903BC80CB64DE192D22BE33579131208309844F7104CA0BC6B"},
+      "reconstructed_pre_edit_shadow": {"bytes": 95440, "sha256": "1973E5626C9AF63349F6C27D6590A552FA128B3F10CCE7103C76F6AD19E91177"},
+      "output": {"bytes": 95451, "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"}
+    }
+  ],
+  "human_auditable_considerations": {
+    "question": "Whether the localized theorem-VIII citation qualifies formula (4) or the following prose.",
+    "evidence_weighed": [
+      "ED0014 line 13729 places the citation on formula row 2, and line 13731 begins the following argument without it.",
+      "The accepted P24 adjudication classifies P24-0004 as citation placement only and P24-0003 as separate presentation geometry.",
+      "The current localized wording is correct, so only its placement and continuation capitalization change."
+    ],
+    "alternatives_rejected": [
+      "Import ED0014's raised tag geometry now: P24-0003 needs rendered-page adjudication.",
+      "Change theorem wording or number: P24-0004 is placement-only.",
+      "Bundle P24-0001 or P24-0002: those content/numbering repairs remain separate and byte-preserved.",
+      "Mutate the June producer witness: custody inputs remain immutable; a lane-local current-body shadow is used."
+    ],
+    "claim_boundary": "This is source-bound placement and internal Interslavic surface editing, not native/community validation or critical-edition certification."
+  },
+  "authority": {
+    "project_active_german_authority": {"edition": "NOETH-DE-ED-0014", "source_bytes": 2154011, "source_sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58", "version_doi": "10.5281/zenodo.21908301", "pointer_bytes": 152755, "pointer_sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE", "activation_receipt_bytes": 28837, "activation_receipt_sha256": "1F34D25C36C2ADCEDB47A58ACD4EC92A34EA2F1E88D2F85283313627EA53E436"},
+    "P24_geometry_adjudication": {"bytes": 12873, "sha256": "7A4B69C63FC12B28D9532E2841CD2547659D0E57C8D0CC293FF2E0AA57374B81"}
+  },
+  "applicator": {
+    "path": "apply_isv_p24_citation_placement_v019.py",
+    "bytes": 41513,
+    "sha256": "CC6B638D3192E4F08A65277A0352EC986700ECA385A360C663B763D8482B1B8C",
+    "default_mode": "dry_run",
+    "apply_mode": "explicit_one_shot"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT; exact defects 0",
+    "current_body_shadow_reconstruction": "PASS",
+    "producer_and_assembled_body_identity": "PASS",
+    "reverse_replay": "PASS",
+    "protected_structure_transport": "PASS",
+    "frozen_and_public_immutability": "PASS",
+    "no_write_dry_run_snapshot": "PASS",
+    "semantic_holds": 0
+  },
+  "open_dispositions": [
+    {"defect_id": "NOETH-DEF-P24-0001", "status": "OPEN_CONTENT_REPAIR", "bundled_here": false},
+    {"defect_id": "NOETH-DEF-P24-0002", "status": "OPEN_NUMBERING_REPAIR", "bundled_here": false},
+    {"defect_id": "NOETH-DEF-P24-0003", "status": "OPEN_RENDERED_PAGE_ADJUDICATION", "bundled_here": false}
+  ],
+  "publication": {
+    "working_successor_published": false,
+    "publication_effect": "none",
+    "doi_effect": "none"
+  }
+}

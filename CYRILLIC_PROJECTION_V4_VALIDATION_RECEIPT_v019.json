@@ -1,0 +1,172 @@
+{
+  "schema": "noether-isv-cyrillic-projection-v4-validation-receipt-v1",
+  "status": "PASS_CURRENT_HEAD_AUXILIARY_PENDING_NEXT_METADATA_ADOPTION",
+  "date_europe_berlin": "2026-08-20",
+  "classification_head": "ISV019-EDIT-0158",
+  "purpose": "Make the current sealed Latin head directly and reproducibly scannable without changing the frozen historical v3 package.",
+  "package": {
+    "implementation": {
+      "path": "project_isv_cyrillic_v4.py",
+      "bytes": 34849,
+      "sha256": "A63A6F697A99F5A8D64C0B69D24875C3031C8EFE7DE8A137DE8F844CD460E341"
+    },
+    "independent_test": {
+      "path": "test_project_isv_cyrillic_v4.py",
+      "bytes": 6129,
+      "sha256": "E5BA32692E381079C2A90F50E549091A189C2DDFAB119E418CD43099ACCB1C43"
+    },
+    "structural_signature": {
+      "path": "CYRILLIC_PROJECTION_V4_STRUCTURAL_SIGNATURE_v019.json",
+      "bytes": 6548,
+      "sha256": "DF3DC40242E51B7153EA8C23FD0F579E82CDE1B83157D8F5D6DFB386F775B7D1",
+      "rows": 36,
+      "rows_bytes": 4896,
+      "rows_sha256": "81BB5185B423A06153AE27E29C3DB21C8E04C73C14C27A77A3E8E28FBF714DD2",
+      "reviewed_maximum_occurrences": 722
+    }
+  },
+  "sealed_head": {
+    "state": {
+      "path": "00_SESSION_INDEPENDENT_STATE_v019.json",
+      "bytes": 26556,
+      "sha256": "E3E1BC27B759EF6E028CA16626D0C3C8907337D305399D4B2355BDDC873CCC5B",
+      "canonical_sha256_excluding_only_verifier": "23DA2DCEBA19D9ADCD9F6BD8089A71CD7266D5872E08DDBE5948C438ED1C7B8B"
+    },
+    "decision_id": "ISV019-EDIT-0158",
+    "audit_companion": {
+      "path": "seal_isv_edit0158_v019.py",
+      "bytes": 69646,
+      "sha256": "D6BFFD22F0E2B015CB33639CCEC823389031A2860CBC1579E2A98521B4A44EAC"
+    },
+    "verifier": {
+      "path": "verify_session_independent_state_v019.ps1",
+      "bytes": 2171,
+      "sha256": "C0F0649C0BFD09A7713199018317601CD9B3286710EA99403E8A152DA901075C"
+    }
+  },
+  "source_manifest": [
+    {
+      "file": "44-book-isv.tex",
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    {
+      "file": "45-isv.tex",
+      "bytes": 26053,
+      "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "bytes": 1892261,
+      "sha256": "5FBF0D95479E85C09928F152DA0CA876E9F8C3BF9D90425961395BB7448555FC"
+    },
+    {
+      "file": "bib-isv.tex",
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  ],
+  "lineage": {
+    "v2_scanner": {
+      "path": "project_isv_cyrillic_v2.py",
+      "bytes": 74914,
+      "sha256": "FD51B4D9936653CB9968AF8F91BAB08E18331741BC482CCA39AEF69F0B5AF3F2",
+      "executed": true
+    },
+    "historical_v3": {
+      "path": "project_isv_cyrillic_v3.py",
+      "bytes": 24314,
+      "sha256": "84B845424CB2501289220727B1300280894512EDD137DC13B188A577049AF1B7",
+      "executed_by_v4": false,
+      "current_head_direct_execution": "EXPECTED_FAIL_CLOSED_ON_HISTORICAL_SOURCE_PIN"
+    },
+    "historical_v3_validation_receipt": {
+      "path": "CYRILLIC_PROJECTION_V3_VALIDATION_RECEIPT_v019.json",
+      "bytes": 6998,
+      "sha256": "00C985D8E200E64D48BEF8849A14C8499AAEABD98C748D563CC3EBD51A64857C",
+      "internal_receipt": "20402F4F55D8150A6D64BF406BA2E9AF5DDBF69BB81A14103FBCC5681DB2DF5C"
+    },
+    "historical_structural_manifest": {
+      "path": "decision_records/ISV019-CYR2-EDIT0153-STRUCTURAL-IDENTITY-MANIFEST.json",
+      "bytes": 692764,
+      "sha256": "E6249BDEFEA6713EADAE5AF23C313D38E3DB3EB0DAAC3107A161BC0A0BC3E6E9",
+      "internal_receipt": "D5D33712D70B9541E2D5A05ED134291F87C141B2CE6A29212EB657C1F940D683"
+    }
+  },
+  "current_head_census": {
+    "upstream_v2": {
+      "blocked_occurrences": 1029,
+      "blocked_inventory_sha256": "25D90453C2DEB0C1744B5422B05BA8DF3A36A2E71C7FC7AB96B8E351F443FFE9",
+      "unsupported_occurrences": 423,
+      "unsupported_inventory_sha256": "ABD1B4570D14FEA79BC90A7EC8529FCA29D146F98E657186402A7774802EC5BB",
+      "roman_identity_hold_occurrences": 704,
+      "roman_identity_inventory_sha256": "03F5DE4ABE8AC6582BFFE678153CD941B2E5049E70FEF46FE55010F358672F22",
+      "parse_errors": 0,
+      "coverage_failures": 0,
+      "unknown_argument_commands": 0
+    },
+    "reviewed_structural_subset": {
+      "approved_occurrences": 722,
+      "issue_inventory_sha256": "426E17980DE3CF5230436253BE397B5A0B70A2BA5B8776051FEE803E16761517",
+      "semantic_rows": 36,
+      "semantic_rows_sha256": "81BB5185B423A06153AE27E29C3DB21C8E04C73C14C27A77A3E8E28FBF714DD2"
+    },
+    "v4_frontier": {
+      "blocked_occurrences": 307,
+      "unsupported_occurrences": 307,
+      "roman_identity_hold_occurrences": 0,
+      "blocked_inventory_sha256": "87576B93DC184CA5359B8A17D374A57DC790CC8B561AB6AA98651607E712F4A3",
+      "parse_errors": 0,
+      "coverage_failures": 0,
+      "unknown_argument_commands": 0,
+      "status": "BLOCKED_FAIL_CLOSED"
+    }
+  },
+  "execution_receipts": {
+    "transport": "UTF-8 without BOM or CR; exactly one terminal LF",
+    "stderr_empty_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "default_twice": {
+      "exit_code": 0,
+      "stdout_bytes": 6418,
+      "stdout_sha256": "2F538D2B1DEBA2446208A0E7AE41E0E61C5C67B0EA8EA02569DE7A420BA0172F",
+      "byte_identical": true
+    },
+    "self_test_twice": {
+      "exit_code": 0,
+      "stdout_bytes": 4540,
+      "stdout_sha256": "3ED69E22DDC6EB970E24394E929FA8C63F95C5A0DF53EC76B50EE1031DD43E8F",
+      "hostile_cases": 8,
+      "byte_identical": true
+    },
+    "independent_test_twice": {
+      "exit_code": 0,
+      "stdout_bytes": 1404,
+      "stdout_sha256": "BD9149B475E59129D587F58025C722064195FE52F71D5FB480FB817595EF04E9",
+      "byte_identical": true
+    },
+    "full_report": {
+      "exit_code": 0,
+      "stdout_bytes": 3389776,
+      "stdout_sha256": "38374C3C39B030A6D526D339C8A8D24605253DD086A8728BB99DB454E492F1E3",
+      "report_sha256_excluding_this_field": "B4037A2E97DD3A7B77422146BAFFC4A7D985B5BD7E3EFCFFC2D4E0162248A8EC"
+    },
+    "require_ready": {
+      "exit_code": 2,
+      "stdout_bytes": 6418,
+      "stdout_sha256": "2F538D2B1DEBA2446208A0E7AE41E0E61C5C67B0EA8EA02569DE7A420BA0172F"
+    }
+  },
+  "separate_remaining_gates": {
+    "complete_foreign_title_venue_citation_identities": 307,
+    "one_letter_I_V_M_context_tokens": 692,
+    "allowed_letter_name_title_completeness": "REQUIRED",
+    "derived_output": null
+  },
+  "nonclaims": [
+    "The v4 wrapper is a validated auxiliary pending adoption by a later sealed metadata head.",
+    "The 307-item frontier remains blocking and no projected Cyrillic file was written.",
+    "No Latin freeze, build, render, package, GitHub update, Zenodo update, or publication is authorized by this receipt.",
+    "No native-speaker, community, official-standard, peer-review, or comprehension certification is claimed."
+  ],
+  "receipt_sha256_excluding_this_field": "0BBA8F54DDAFF6A9DCC5A449C1B446E8CCD66CDD46132680B140B8B9531E5937"
+}

@@ -1,0 +1,44 @@
+{
+  "decision_id": "ISV019-EDIT-0070",
+  "recorded_at": "2026-08-13T14:47:28.5658449+02:00",
+  "epistemic_type": "manager_book_equivalence_connective_normalization",
+  "scope": "Twenty-four exact Book 44 tedy sites whose clause role is equivalence, apposition, or explanatory restatement.",
+  "choice": "Replace only the selected token ordinals with branch-neutral to jest; preserve adjacent same-line conclusion markers.",
+  "motivation": "German controls and local syntax show appositional or equivalence force rather than temporal sequence or inference. Ordinal binding separates mixed-function tokens occurring on the same line.",
+  "alternatives_rejected": [
+    "zato would turn equivalence and restatement into conclusions.",
+    "togda would invent temporal meaning; the full audited tedy/teda family contains no genuine temporal-event use.",
+    "imenno is narrower than the selected equivalence and explanatory sites."
+  ],
+  "evidence": {
+    "context_review": "All 24 exact occurrences were classified against German appositional/equivalence controls; eight adjacent consequence ordinals were explicitly guarded.",
+    "representative_controls": "Rank-one over K versus rank t^2 over P, direct-product and direct-summand restatements, Galois splitting-field equivalence, and matrix-ring equivalence."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0069",
+    "decision_log": {"bytes": 269082, "sha256": "1ABB0E8F8D71CB6B36C211B45A4B5E0191291E2A0477C926ECA743012DB301DE"},
+    "source_latin/44-book-isv.tex": {"bytes": 167995, "sha256": "492A22994045F3168995E12AE45E90D750715AF1FF42AF35FA0E1DF1BDB07BD0"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897494, "sha256": "6162627607BA22C02AF544E91D7CA6499A9055876150DB000B385D2FE1BDC8B8"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 24,
+    "source_histogram": {"tedy": 24},
+    "guarded_same_line_consequence_sites": 8,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168067, "sha256": "6F4F4D063FC5CE680BDBE60921547E8C1B9B0A8C981B72023C095F5326033055"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897494, "sha256": "6162627607BA22C02AF544E91D7CA6499A9055876150DB000B385D2FE1BDC8B8"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_book_equivalence_connectives_v019.py", "bytes": 3299, "sha256": "E34D924A24834E73AB0468BB853008927C2DE4C54A4D82B3C9F53A923EEAD0C6"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0069",
+    "coverage": "24 exact line-and-ordinal sites",
+    "guards": "eight adjacent consequence ordinals unchanged",
+    "structure": "TeX controls, references, braces, math delimiters, and line counts unchanged",
+    "reproducibility": "frozen hashes reproduced before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

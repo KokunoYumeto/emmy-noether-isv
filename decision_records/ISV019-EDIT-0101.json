@@ -1,0 +1,97 @@
+{
+  "decision_id": "ISV019-EDIT-0101",
+  "recorded_at": "2026-08-13T16:47:47.1618507+02:00",
+  "epistemic_type": "comparative_adjective_stem_restoration",
+  "scope": "Ten audited base-paper genitive/locative plural comparative forms vyših.",
+  "choice": "Restore the missing comparative š: vyših to vyšših at all ten exact sites.",
+  "motivation": "Every site means higher and belongs to the comparative vysši/edition-surface vyšš- paradigm. The source form wrongly collapses the comparative stem before the regular soft-stem plural ending.",
+  "alternatives_rejected": [
+    "Retaining vyših would preserve a malformed comparative stem.",
+    "Normalizing to vysših was rejected because the edition consistently realizes this established comparative family as vyšš-.",
+    "A global *ih rewrite was rejected because soft pronouns, cardinals, participles and other paradigms require separate adjudication."
+  ],
+  "evidence": {
+    "official_grammar": "Official adjectives.md lines 14 and 16 govern regular agreement and soft-stem -ih; line 67 directly derives vysoky to vysši, proving the additional comparative š.",
+    "official_dictionary": "Official dictionary row 18194 gives vysši.",
+    "edition_controls": "Seven existing canonical vyšših tokens establish the selected house surface.",
+    "semantic_audit": "All ten mapped contexts mean higher and modify genitive or locative plural forms/formulae/derivatives/complex numbers; positive and adverbial cases are zero.",
+    "protected_domains": "No target occurs in a comment, foreign-language/title argument or TeX control name. Valid kojih and někojih and separately unresolved njihovi/tretji/cardinal families are outside the map."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0100",
+    "decision_log": {
+      "bytes": 372379,
+      "sha256": "A7D91E02754E6A03D9541CDD82907318722C11B4DA37CEE902517A373DDFCDFA"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "055A3DF3E26DB72AEE376C4BCEEBF689C723A060A06E2FBE8B56E4492C16AADD"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898281,
+      "sha256": "6DFF7F3A1D99327DA8EB2301856E647D3B3269BCA62D530D3D0F16DD1B966C1D"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "mapping": {
+    "vyših": "vyšših"
+  },
+  "locators": {
+    "source_latin/base-papers1-43-isv.tex": [
+      "286:286",
+      "552:455",
+      "588:622",
+      "1522:30",
+      "1702:208",
+      "2443:111",
+      "2929:217",
+      "3057:19",
+      "9448:117",
+      "17256:514"
+    ]
+  },
+  "results": {
+    "sites_changed": 10,
+    "source_histogram": {
+      "vyših": 10
+    },
+    "mapped_source_residue": 0,
+    "canonical_vysshih_total": 17,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "055A3DF3E26DB72AEE376C4BCEEBF689C723A060A06E2FBE8B56E4492C16AADD"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898301,
+      "sha256": "CC28D3C72C7A787044FC69EB24BC7D37587DE5C97443F3819A9466CC8EB02B59"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "tool": {
+    "path": "apply_comparative_vysshih_v019.py",
+    "bytes": 3033,
+    "sha256": "E28946996AFA5353AB85113BECD82E65BA936349F1A804FEB20F678FE1ED3AAC"
+  },
+  "validation": {
+    "coverage": "Exactly ten whole-token vyših sites, all in the base papers, match the frozen locator inventory.",
+    "postcondition": "Whole-token vyših is zero and vyšših rises from 7 to 17.",
+    "structure": "Line count, raw brace counts, unescaped dollar count, ordered TeX-control stream and math-delimiter stream are invariant; the other three source files are byte-identical.",
+    "reproducibility": "The frozen successor reproduced before atomic application and matched the applied output hashes."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

@@ -1,0 +1,361 @@
+{
+  "schema": "noether-isv-normalization-decision-v1",
+  "decision_id": "ISV019-EDIT-0138",
+  "recorded_at": "2026-08-15T22:01:30+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "active_german_authority_bounded_mathematical_notation_source_fidelity_mirror",
+  "scope": "Mirror exactly two d_i(y) and one f_i(0,y) readings from active German ED0015 into the direct standalone Interslavic Paper45 component.",
+  "summary": "Apply the three accepted indexed-notation repairs; close their bounded mirror disposition; preserve the uppercase-P and h_i y^(K) KEEP readings.",
+  "work_identity": {
+    "work_language": "Emmy Noether — Interslavic working edition",
+    "canonical_hub": "deferred until the next actual public release; no internal URL invented",
+    "rights_boundary": "artifact-specific license, provenance, author/source relation, and non-endorsement preserved; no blanket public-domain or open-license claim",
+    "organization_metadata_policy": "organization attribution is reserved for one linked creator or contributor entry in public repository metadata; internal records do not repeat it"
+  },
+  "human_companion": {
+    "path": "decision_records/ISV019-EDIT-0138.md",
+    "bytes": 3913,
+    "sha256": "7D7716B5BDCAFB312BFA48D19E6B7AF6E2322EB6428D70B5431153B5B24537E4"
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0137",
+    "ledger_rows": 137,
+    "ledger_bytes": 537243,
+    "ledger_sha256": "137B787D3394DB7DE2702DD9327284424358E3B022BF781529DE26546C43363F",
+    "sidecar_bytes": 15074,
+    "sidecar_sha256": "CE1A828913CD187C22B2679874487503763C43F590B156F48E32CC88B8028930",
+    "state_bytes": 13995,
+    "state_sha256": "781799BA4533FDB5ED37D7769CD7FC116715EE63B48BB95B2682F8721757EEDB"
+  },
+  "mapping": {
+    "d(y)": "d_{i}(y) at lines 479 and 501",
+    "f(0,y)": "f_{i}(0,y) at line 512"
+  },
+  "targets": [
+    {
+      "line": 479,
+      "column_start_1": 15,
+      "old": "d(y)",
+      "new": "d_{i}(y)",
+      "pre_line": {
+        "bytes": 45,
+        "sha256": "307D1E341986D5E219AB89B19350F550F0189B1DE84BB2A9FE45C8053BC070F5"
+      },
+      "post_line": {
+        "bytes": 49,
+        "sha256": "401C7BFBC9AD646C12412F37E7840762A4EA45E4DB235F6430D976B68198C5F3"
+      }
+    },
+    {
+      "line": 501,
+      "column_start_1": 34,
+      "old": "d(y)",
+      "new": "d_{i}(y)",
+      "pre_line": {
+        "bytes": 46,
+        "sha256": "29F0CBBE36D18583AADCFA54D1E8F96A88BEE57BB624D679EAA75E39A0A976D5"
+      },
+      "post_line": {
+        "bytes": 50,
+        "sha256": "D15983040F3C83EB6F86B5B544346E0B5F3C49540168401D6B292E5197FC5B40"
+      }
+    },
+    {
+      "line": 512,
+      "column_start_1": 4,
+      "old": "f(0,y)",
+      "new": "f_{i}(0,y)",
+      "pre_line": {
+        "bytes": 29,
+        "sha256": "6A6EDF4CB8FAAA6707C819F2248E7FB144EDD7BB8D477B7B18AB4879A3208516"
+      },
+      "post_line": {
+        "bytes": 33,
+        "sha256": "6A1CD33089F4E090A050A5B58767D6E639F3ECD842B64DA8B8C276D49E0D266E"
+      }
+    }
+  ],
+  "census": {
+    "changed_source_sites": 3,
+    "changed_source_lines": 3,
+    "raw_byte_delta": 12,
+    "pre_d_unindexed": 2,
+    "pre_d_indexed": 3,
+    "post_d_unindexed": 0,
+    "post_d_indexed": 5,
+    "pre_f_unindexed": 1,
+    "pre_f_indexed": 0,
+    "post_f_unindexed": 0,
+    "post_f_indexed": 1,
+    "semantic_holds": 0
+  },
+  "source_inputs": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168093,
+      "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25544,
+      "sha256": "404BFCAF848FFF7262CC0A55262B6740DCD597E86AC21FE590C3034472FED19A"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1899023,
+      "sha256": "7498851CC60F1F04C17E5F7E1CAEDBD2E9E42F1E81FD85FDE86A541ADF2E658F"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "source_outputs": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168093,
+      "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "3C157B7B26092EFF27EDBCDFF2DB372022E467A7C7468D47621E7B9DA95E3542"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1899023,
+      "sha256": "7498851CC60F1F04C17E5F7E1CAEDBD2E9E42F1E81FD85FDE86A541ADF2E658F"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "source_replay": {
+    "base": {
+      "path": "source_latin/base-papers1-43-isv.tex",
+      "output": {
+        "bytes": 1899023,
+        "sha256": "7498851CC60F1F04C17E5F7E1CAEDBD2E9E42F1E81FD85FDE86A541ADF2E658F"
+      }
+    },
+    "component45": {
+      "path": "source_latin/45-isv.tex",
+      "input": {
+        "bytes": 25544,
+        "sha256": "404BFCAF848FFF7262CC0A55262B6740DCD597E86AC21FE590C3034472FED19A"
+      },
+      "output": {
+        "bytes": 25556,
+        "sha256": "3C157B7B26092EFF27EDBCDFF2DB372022E467A7C7468D47621E7B9DA95E3542"
+      }
+    },
+    "reverse_result": "PASS exact positional three-site reversal to EDIT-0137 Paper45 preimage"
+  },
+  "authority": {
+    "active_german": {
+      "authority_id": "NOETH-DE-ED-0015",
+      "pointer_id": "NOETH-DE-AUTH-v052-20260815",
+      "source_bytes": 2154017,
+      "source_sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+      "activation_version_doi": "10.5281/zenodo.21940320",
+      "current_pointer_bytes": 156949,
+      "current_pointer_sha256": "8F264C42E3639911DFCE651C4911FF87129046A119413DCDA189C906345B54BC",
+      "activation_receipt_bytes": 3561,
+      "activation_receipt_sha256": "55D982B5E8FED2865A5C43A6EAC19185E79DF12ABD50F294D8284A6787CF30AE",
+      "anonymous_readback_files": 56,
+      "readback_receipt_bytes": 30863,
+      "readback_receipt_sha256": "26AF55EE940934217516CF73B7D09A960D4630D6FECE9EFCB99AB66B15BCE287",
+      "role": "project-active editorial authority and source-fidelity control; not native-language or critical-edition certification"
+    },
+    "adjudication": {
+      "path": "../00_lane_control/P45_FOUR_AUTHORITY_UNCERTAINTIES_ADJUDICATION_20260814.json",
+      "bytes": 25915,
+      "sha256": "C9646D4027BE13D3F4DF77343A5D550D1C7605C25D32EEEA66010288E156D5C8",
+      "change_dispositions": 2,
+      "keep_dispositions": 2
+    }
+  },
+  "paper45_authority_transition": {
+    "ED0015_active": true,
+    "version_doi": "10.5281/zenodo.21940320",
+    "slavic_three_token_mirror": "APPLIED_AND_CLOSED_ISV019_EDIT0138"
+  },
+  "retained_keep_readings": {
+    "overloaded_uppercase_P": "KEEP_ADJUDICATED_CLOSED_AND_BYTE_PRESERVED",
+    "bemerkung_II_h_i_y_order_K": "KEEP_ADJUDICATED_CLOSED_AND_BYTE_PRESERVED"
+  },
+  "producer_preservation_receipt": {
+    "count": 6,
+    "effect": "all six active successors and the inactive Paper24 shadow preserved byte-exact; no Paper45 producer twin exists",
+    "entries": [
+      {
+        "unit": "Paper02-Section01",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section01_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex",
+        "input": {
+          "bytes": 6798,
+          "sha256": "393F295537ABA3C5683438CD3F9936AE88B8271D944F7B833D5C1F43924900C2"
+        },
+        "historical_body": {
+          "bytes": 6455,
+          "sha256": "52A48949BCBCC420383107854838BA517B97FB769E433344BE42EA10FC69A975"
+        },
+        "live_body_input": {
+          "bytes": 6562,
+          "sha256": "A2B8CA77B47A0914C8255AECBE92AAF6CE7EB50CEEE016CE45FD9AC00ABE5B85"
+        },
+        "reconstructed_pre_edit_shadow": {
+          "bytes": 6905,
+          "sha256": "68DBCA99A4B80DE8EFE83B2472EC53D96CFD4D880E30F2AB1E58A8A66449547A"
+        },
+        "body_output": {
+          "bytes": 6793,
+          "sha256": "AED6BFFE073F94154F974403D1D1FADE6D79A418AFBC78916A9DD6E4EFD64117"
+        },
+        "output": {
+          "bytes": 7619,
+          "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"
+        },
+        "lineage": "historical preamble shell plus live normalized Unit003 body; historical body not reused"
+      },
+      {
+        "unit": "Paper02-Section11",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section11_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+        "input": {
+          "bytes": 14940,
+          "sha256": "37B613F59FC8D4F101A714AF84B5DA0AE28FED93123EBA52C0363B234E3D499A"
+        },
+        "output": {
+          "bytes": 14964,
+          "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+        }
+      },
+      {
+        "unit": "Paper08",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper08/interslavic/v001/Noether_Paper08_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper08_Interslavic_v001.tex",
+        "input": {
+          "bytes": 23684,
+          "sha256": "40A84F8E13423AFC923C4C0C714CBFB78C11EBD6F10343EEACA93090FCBB10C3"
+        },
+        "output": {
+          "bytes": 23894,
+          "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"
+        }
+      },
+      {
+        "unit": "Paper22",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper22/interslavic/v001/Noether_Paper22_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+        "input": {
+          "bytes": 77611,
+          "sha256": "6A78318258A2C609D030A248E66834055E904DC808BECA797433C461B31558B6"
+        },
+        "output": {
+          "bytes": 78293,
+          "sha256": "CE81C14094CF458B77A623D56AD9E25D074C7CDB201A0EF13D1C1840465FAFCC"
+        }
+      },
+      {
+        "unit": "Paper24",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper24/working/through-section07/interslavic/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+        "local": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+        "input": {
+          "bytes": 94891,
+          "sha256": "1AFB653CAD5CFE903BC80CB64DE192D22BE33579131208309844F7104CA0BC6B"
+        },
+        "reconstructed_pre_edit_shadow": {
+          "bytes": 95451,
+          "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+        },
+        "output": {
+          "bytes": 95657,
+          "sha256": "AAECAC6485F6FB59D6617245026E7D81D64DEC5DECAAB464374021E9C0BF061E"
+        }
+      },
+      {
+        "unit": "Paper34-Section23",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper34/source_fidelity_section23/interslavic/v001/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+        "input": {
+          "bytes": 4638,
+          "sha256": "965699990152B0707997CFE43D58300E243E690657FC85D326486A835E2AC8C0"
+        },
+        "reconstructed_pre_edit_shadow": {
+          "bytes": 4690,
+          "sha256": "BFEE5482B4B35155C44D6577D810E4CACB1932B6A9C63031266EFC2EFA7DEE6A"
+        },
+        "output": {
+          "bytes": 4752,
+          "sha256": "B811E94705075CBA321A016DD3F633B4F47041191835708A113EB6C4ADCC196B"
+        }
+      }
+    ],
+    "inactive_shadow": {
+      "path": "producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+      "bytes": 95451,
+      "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+    }
+  },
+  "transaction_history": {
+    "first_production_attempt": {
+      "command": "python -B .\\apply_isv_ed0015_p45_notation_fidelity_v019.py --apply",
+      "exit_code": 1,
+      "failure": "RuntimeError: Source-directory file topology drift during final locked validate_inputs pass",
+      "prepatch_applicator": {
+        "bytes": 47858,
+        "sha256_prefix": "F5E434D4"
+      },
+      "source_after": {
+        "bytes": 25544,
+        "sha256": "404BFCAF848FFF7262CC0A55262B6740DCD597E86AC21FE590C3034472FED19A"
+      },
+      "residue_after": []
+    },
+    "topology_fix": "Only the invocation-owned stage and rollback paths are admitted during the final locked pass; the exact source-set union, resolved parent, regular-file, non-symlink, and created-set gates remain mandatory.",
+    "isolated_apply_test": {
+      "status": "PASS_AND_VERIFIED_TEST_TREE_REMOVED",
+      "exit_code": 0,
+      "output": {
+        "bytes": 25556,
+        "sha256": "3C157B7B26092EFF27EDBCDFF2DB372022E467A7C7468D47621E7B9DA95E3542"
+      },
+      "residue": [],
+      "evidence_retention_boundary": "test tree and transcript deliberately not retained; outcome is reported but not independently replayable from a retained transcript"
+    },
+    "production_retry": {
+      "exit_code": 0,
+      "output": {
+        "bytes": 25556,
+        "sha256": "3C157B7B26092EFF27EDBCDFF2DB372022E467A7C7468D47621E7B9DA95E3542"
+      },
+      "current_residue": []
+    }
+  },
+  "applicator": {
+    "path": "apply_isv_ed0015_p45_notation_fidelity_v019.py",
+    "bytes": 48569,
+    "sha256": "9B62CEA3ABFA2FC96F823596641B89A3F539F223936B5BD61A95E1F9EBC489BF",
+    "default_mode": "strict_no_write_dry_run",
+    "dry_runs_after_fix": 2
+  },
+  "verifier": {
+    "path": "verify_session_independent_state_v019.ps1",
+    "bytes": 35503,
+    "sha256": "B0AAD40CDD45A2660DBAFAC1836BDB0F4704C962BE78433F91F234D506097D53"
+  },
+  "qa": {
+    "postapply_output_pins": "PASS",
+    "reverse_replay": "PASS exact positional three-site replay",
+    "protected_structure_transport": "PASS",
+    "keep_readings": "PASS",
+    "producer_preservation": "PASS",
+    "semantic_holds": 0
+  },
+  "open_dispositions": [],
+  "explicit_holds_after": 0,
+  "build_effect": "none; next meaningful cumulative deterministic build",
+  "frozen_v047_unchanged": true,
+  "public_r35_unchanged": true,
+  "standalone_record_unchanged": true,
+  "working_successor_published": false,
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "native_validation_claim": false
+}

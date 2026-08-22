@@ -1,0 +1,113 @@
+{
+  "schema": "noether-isv-edit0162-independent-live-postapply-preseal-guard-v1",
+  "decision_id": "ISV019-EDIT-0162",
+  "status": "PASS_SOURCE_AHEAD_OF_METADATA",
+  "applicator": {
+    "path": "apply_uninflected_personal_identity_tranche3_v019.py",
+    "bytes": 36675,
+    "sha256": "82372D89B7ED4F8E4E98E008E47E1F8EE20A3D357BA963766637906B404A7DD4"
+  },
+  "candidate_receipt": {
+    "path": "decision_records/ISV019-EDIT-0162-UNAPPLIED-CANDIDATE-RECEIPT.json",
+    "bytes": 4279,
+    "sha256": "1725072028DD3AF7DC2952E399D1F09E291BA37FF79268E124E8393B304BDE8F"
+  },
+  "production_apply": {
+    "argv": [
+      "python",
+      "-B",
+      "apply_uninflected_personal_identity_tranche3_v019.py",
+      "--apply",
+      "--compact"
+    ],
+    "workdir": ".",
+    "exit": 0,
+    "stdout": {
+      "bytes": 16400,
+      "sha256": "52AAA0F48EC0D1509ED9D3A52A9C6F2A482E0C0B9834114477B2C843DEE21906"
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "receipt_custody": "stdout deterministically reconstructed after successful exact live mutation; the original orchestration cell completed after its capture window, and the command was not retried"
+  },
+  "reconstruction_proof": {
+    "frozen_dry_reproduced": {
+      "bytes": 16428,
+      "sha256": "ADC46D92291F86339426F0C4AA10F3E6A91D0168B5EA8CE028FF0BC1D47DDDEA"
+    },
+    "exact_reverse": {
+      "bytes": 1892811,
+      "sha256": "83276A1E25A2865CF82A7E6C4D7206943C73E6B8B2BDF0D60C93C070B2DC8434"
+    },
+    "exact_forward": {
+      "bytes": 1893011,
+      "sha256": "8257A9881ECB6F871B71C20E1BFD92B6B7F345EA73C87455DDA7DD98AE131FF9"
+    },
+    "line_manifest": {
+      "bytes": 43505,
+      "sha256": "F457E2366DEB68227EA9DDB92450B3B768CE375F29615BCFE0332219717C056B"
+    },
+    "reverse_manifest": {
+      "bytes": 251,
+      "sha256": "EB2CB0E3203E8DA794962645FCEA46B02EF0F4D77E7305AA3CC658C4065B8437"
+    }
+  },
+  "live_base": {
+    "bytes": 1893011,
+    "sha256": "8257A9881ECB6F871B71C20E1BFD92B6B7F345EA73C87455DDA7DD98AE131FF9"
+  },
+  "source_cohort": {
+    "bytes": 472,
+    "sha256": "024C50304070289ED1F4C8719DB96ABCB73D57EC86E32AF3DE858D2B0AD52071"
+  },
+  "exact_complete_identities": 20,
+  "metadata": {
+    "sealed": false,
+    "exact_predecessor": true,
+    "head": "ISV019-EDIT-0161",
+    "state": {
+      "bytes": 31401,
+      "sha256": "4B95940E856F1C43175DDFB0345E18CF18AC70702664DE10DF3A82FFE3D7EDDD"
+    },
+    "ledger": {
+      "bytes": 742165,
+      "sha256": "6F1DBF657D0407F58F8B927EB29B46B34B190FB7837C0C49FD4BE774B0FE4289"
+    },
+    "sidecar": {
+      "bytes": 24241,
+      "sha256": "D72B113459942D9DFA36C225FA8AD58048820358A125001F217DCF4EC4E228D4"
+    },
+    "worklog": {
+      "bytes": 184267,
+      "sha256": "3F7EDEFEBE8AED7CA913DC6BFA0666E74F3D282C13A95E627EE1E4D953236804"
+    },
+    "verifier": {
+      "bytes": 2171,
+      "sha256": "797D205B00F71C527F1FBBE80862DE34E5E34CE40CAF0291F37CE40408F7D9F0"
+    },
+    "sealer": {
+      "bytes": 60246,
+      "sha256": "E2DAE91482E5EF810AE40D6CB6B9112A673945F7FFACBC50D1C96B798C7FA51A"
+    },
+    "human": {
+      "bytes": 5575,
+      "sha256": "DFF3F721F418B64F006F56C411A0476720B9EB18B4CB2804BD21FBDDF6874BFE"
+    }
+  },
+  "scanner": {
+    "blocked": 230,
+    "unsupported": 230,
+    "approved_structural": 722,
+    "roman": 0,
+    "parse_errors": 0,
+    "coverage_failures": 0,
+    "unknown_argument_commands": 0,
+    "inventory_sha256": "D8E3746DA0E088D617F63BB387D427DFC514395897FBAC1E4FAF7238D3371E7D",
+    "report_sha256_excluding_this_field": "EED46E7EEB40051FF7460056CAFC8058A359D2CAA4F8C5AE59836D4A66B29E60"
+  },
+  "transaction_residue": 0,
+  "pycache_residue": 0,
+  "receipt_sha256_excluding_this_field": "0551AE9083E8CD61CDC7D51A84BB97B3DFCC6B70AB3E98DFDF88B43BC3AE93DF"
+}

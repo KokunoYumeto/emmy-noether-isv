@@ -1,0 +1,24 @@
+{
+  "decision_id": "ISV019-EDIT-0036",
+  "recorded_at": "2026-08-13T01:44:44.9355754+02:00",
+  "epistemic_type": "manager_direct_orthographic_normalization",
+  "scope": "All 15 residual whole-token posledn- adjective forms in live v019 Latin sources.",
+  "choice": "Normalize the source-spelled posledn- forms to the official poslědnji/poslědny family while preserving case, gender, number, and capitalization.",
+  "motivation": "The official type-1 lemma and the dominant existing edition family use poslědn-. The 15 posledn- forms carry no distinct meaning and were an inconsistent source-layer spelling.",
+  "alternatives_rejected": ["Retain both spellings as free variants; that preserves needless inconsistency in a high-frequency adjective.", "Replace the lemma with a branch-specific synonym such as zadnji or ostatni; the official poslědn- form already has broad cross-family support."],
+  "evidence": {
+    "official_dictionary": {"path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv", "bytes": 7993414, "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842", "entry": "id 2323 poslědnji, poslědny; adjective; type 1; last; broad be/bg/cs/hr/pl/ru/sk/sl/sr/uk profile"}
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 15,
+    "case_sensitive_types": 7,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167969, "sha256": "461B7777C97A1CF89A92A22E9C888140064408DD19F9FCE5969FF44D23F13164"},
+    "source_latin/45-isv.tex": {"bytes": 25518, "sha256": "44EF1048C8053608C476FA4CB3EC3D102CDC4472431F046337C4B1BC4603BEE1"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896469, "sha256": "38EFA81038D9E52AC40D87D8D08D9FCD0093603C32606F2509FFA1F8A63BC215"},
+    "source_latin/bib-isv.tex": {"bytes": 9578, "sha256": "E5951A6278A556003C44DE30FC0012C1421606BDB1DE3AB6CF05C01986D9613B"}
+  },
+  "tool": {"path": "apply_poslednji_family_v019.py", "bytes": 3067, "sha256": "DD82F9CB9C617E35E9C81E75E00FCF8FEEE28EB7F9C393910F691D8B170E8A50"},
+  "validation": {"prehashes": "4/4 exact after EDIT-0035", "coverage": "15/15 whole-token forms changed exactly once", "residue": "zero whole-token posledn- residue", "dry_run_then_apply": "frozen output hashes reproduced", "structure": "TeX controls, references/citations, braces, math delimiters, and line counts unchanged"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

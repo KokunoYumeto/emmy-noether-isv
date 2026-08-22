@@ -1,0 +1,108 @@
+{
+  "decision_id": "ISV019-EDIT-0058",
+  "recorded_at": "2026-08-13T14:08:08.3498932+02:00",
+  "epistemic_type": "manager_direct_verbal_noun_genitive_plural_morphology_repair",
+  "scope": "All 182 residual zero-ending genitive-plural forms of soft-stem verbal nouns in the live v019 Latin sources: 170 in papers 1-43, five in book 44, and seven in paper 45.",
+  "choice": "Repair each audited verbal-noun genitive plural from -anj/-enj to the regular -anij/-enij form while preserving its lexical stem, case function, capitalization, sentence, and mathematical content.",
+  "motivation": "Every site is a genitive plural. The zero-ending forms conflict with the accepted official soft-stem paradigm and with the edition's already established repair of prědstavjenj to prědstavjenij. Adding the required i removes a systemic morphology defect without changing meaning or syntax.",
+  "alternatives_rejected": [
+    "Retain the zero-ending forms as free variants: this leaves a systematic noncanonical paradigm across 39 verbal-noun types.",
+    "Blindly rewrite every word ending in -enj: that would corrupt lexical masculine nouns such as stepenj, stupenj, and korenj.",
+    "Recast the surrounding sentences: unnecessary because the defect is purely inflectional and has an exact morphology-preserving repair."
+  ],
+  "evidence": {
+    "official_noun_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/nouns.md",
+      "bytes": 12310,
+      "sha256": "BCE65A602F5DAFFF86BD132C6CBD0F5F1A4D5BDE9750A0394F78E5D4A8E9F09E",
+      "relevance": "Soft-stem and epenthetic genitive-plural rules require the -nij realization for verbal nouns in -nje."
+    },
+    "official_generator_precedent": {
+      "decision": "ISV019-EDIT-0019",
+      "finding": "The official morphology generator maps the -nj verbal-noun stem to -nij in the genitive plural; that accepted decision repaired prědstavjenj to prědstavjenij."
+    },
+    "context_review": {
+      "finding": "All 182 exact locators were inspected as genitive plural in their containing sentence; no heading, metadata, macro identifier, protected foreign span, or comment is included.",
+      "protected_lexical_nouns": {
+        "stepenj": 79,
+        "stupenj": 30,
+        "korenj": 10
+      }
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0057",
+    "decision_log": {
+      "bytes": 225398,
+      "sha256": "62E75C3B5E9CEEC5A14B8FA01CEE7BF2F1AD108233B8479569CE864B12D78D83"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167963,
+      "sha256": "1A24249284FB5B95396E29991F697E0F0246697CCF03C8B0ABF4DFF7E9E810D3"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "81C90B9013261D41392153F5A9BBB1D52A7F36F35CC23A4DE1DDE1E6A6DBD5DE"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896786,
+      "sha256": "B6C6640D1DAC4342DE0747091AA2BEE0B1713F2CFB33B5D2F5A31D8B83F62719"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "results": {
+    "sites_changed": 182,
+    "source_type_count": 39,
+    "file_counts": {
+      "source_latin/44-book-isv.tex": 5,
+      "source_latin/45-isv.tex": 7,
+      "source_latin/base-papers1-43-isv.tex": 170,
+      "source_latin/bib-isv.tex": 0
+    },
+    "largest_source_families": {
+      "uravnenj": 60,
+      "jednačenj": 16,
+      "tvorjenj": 13,
+      "pytanj": 10,
+      "rěšenj": 9,
+      "izslědovanj": 8,
+      "razloženj": 7
+    },
+    "source_family_residual": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167968,
+      "sha256": "62378962AA5A049F6241E5054178D254F9D422D719E88B26258A3B1633A140BA"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25533,
+      "sha256": "DA03012DD88C4A096B42F2C5356B92C8C2656D4AC32501E2C54986F6861FEA1B"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896956,
+      "sha256": "61B6C0F5722A71C6D2D79C7DF5A595D34074486A2A41196C2DA2CEADB3BA34CB"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "tool": {
+    "path": "apply_verbal_noun_genitive_plural_v019.py",
+    "bytes": 8125,
+    "sha256": "06C3BCFB14F7E3FA2226890E8433875766D23DAB55D1D233E5C47463FCF19669"
+  },
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0057",
+    "coverage": "182/182 source sites mapped by exact case-sensitive 39-form histogram",
+    "residue": "zero mapped zero-ending verbal-noun genitive-plural forms remain",
+    "protected_lexical_nouns": "79 stepenj, 30 stupenj, and 10 korenj occurrences remain byte-exact",
+    "protected_spans": "TeX comments and foreign-language arguments unchanged",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged",
+    "reproducibility": "Frozen output hashes reproduced immediately before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

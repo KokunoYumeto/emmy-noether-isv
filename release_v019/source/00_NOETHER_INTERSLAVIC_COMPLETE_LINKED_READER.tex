@@ -1,0 +1,146 @@
+% NOETHER-ISV-v019 complete linked reader. UTF-8/LF; build with XeLaTeX.
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
+\IfFontExistsTF{Arial}{\setsansfont{Arial}}{\setsansfont{TeX Gyre Heros}}
+\usepackage[a4paper,margin=2.35cm]{geometry}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{pdfpages}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{bookmark}
+\definecolor{NoetherBlue}{HTML}{1C476B}
+\hypersetup{
+  pdftitle={Emmy Noether: Polno medžuslovjansko izdanje korpusa / Complete Interslavic Corpus Edition},
+  pdfauthor={Emmy Noether; machine-assisted Interslavic editorial project},
+  pdfsubject={Complete Interslavic edition in Latin and deterministic Cyrillic scripts},
+  pdfkeywords={Emmy Noether, Interslavic, Medžuslovjansky, mathematics, Latin, Cyrillic, provenance}
+}
+\setlength{\parindent}{1.15em}
+\setlength{\parskip}{0.35em}
+\raggedbottom
+\newcommand{\doiurl}[1]{\href{https://doi.org/#1}{#1}}
+\newcommand{\repo}{\href{https://github.com/KokunoYumeto/emmy-noether-isv}{KokunoYumeto/emmy-noether-isv}}
+\newcommand{\smallhash}[1]{{\ttfamily\footnotesize #1}}
+
+\begin{document}
+\pdfbookmark[0]{Naslov / Title}{front-title}
+\thispagestyle{empty}
+\begin{center}
+\vspace*{1.2cm}
+{\sffamily\color{NoetherBlue}\Large EMMY NOETHER\par}
+\vspace{1.3cm}
+{\sffamily\bfseries\Huge Polno medžuslovjansko\par}
+{\sffamily\bfseries\Huge izdanje korpusa\par}
+\vspace{0.55cm}
+{\sffamily\Large Complete Interslavic Corpus Edition\par}
+\vspace{1.2cm}
+{\large Latiničny redakcijny tekst i deterministična kirilična projekcija\par}
+{\large Editorial Latin text and deterministic Cyrillic projection\par}
+\vfill
+\begin{tabular}{@{}rl@{}}
+Izdanje / Edition: & NOETHER-ISV-v019\\
+Točny DOI / Version DOI: & \doiurl{10.5281/zenodo.22050935}\\
+Stabilny DOI / Concept DOI: & \doiurl{10.5281/zenodo.21926382}\\
+Repozitorij / Repository: & \repo\\
+Data / Date: & 22 avgusta 2026 / 22 August 2026
+\end{tabular}
+\vfill
+{\small Matematične děla: Emmy Noether i nazvani soavtori.\par}
+{\small Medžuslovjansky tekst, redakcija, projekcija i tipografija sut izrabotane s mašinnoju pomočju.\par}
+{\small Mathematical works: Emmy Noether and named co-authors. The Interslavic text, editing, projection, and typesetting are machine-assisted.\par}
+\end{center}
+\clearpage
+
+\pdfbookmark[0]{Kako čitati izdanje}{front-isv}
+\section*{Kako čitati tuto izdanje}
+
+\textbf{Cělj.} Tuto izdanje jest prědvidženo prěd vsim za praktično čitanje ljudmi, ktori govoret slovjanskymi jezykami, takože ako ne znajut anglijskogo jezyka. Ono ne jest samo lingvističny eksperiment. Korpus sodrživaje statje 1--43, lekcijsko dělo 44, statju 45 i bibliografiju.
+
+\textbf{Dva zapisy jednogo izdanja.} Čest A jest glavno-redakcijny latiničny tekst (\texttt{isv-Latn}). Čest B jest deterministično izvedeny kiriličny zapis (\texttt{isv-Cyrl}) togo samogo medžuslovjanskogo teksta. Kirilica ne jest oddělny prěklad i ne jest nezavisny jezyčny svědok. Originalne imena, naslovi, citaty, bibliografične elementy, rimsky označenja i tehnične elementy sut ohranjene tamo, kde jih funkcija vyžaduje.
+
+\textbf{Iztočnik i redakcijna granica.} Izdanje jest sravnjeno s projektnym německym avtoritetom \texttt{NOETH-DE-ED-0015} pod ukazateljem \texttt{NOETH-DE-AUTH-v052-20260815}. SHA-256 německogo teksta jest
+\smallhash{51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907}.
+Latiničny tekst jest zamrznuty na redakcijnom čelu \texttt{ISV019-EDIT-0171}; kiriličny tekst jest izvedeny projektorom v6. Matematične formuly, TeX-struktura i nejezyčne znaky sut kontrolovane medžu oběma zapisami.
+
+\textbf{Dokazy i povtorimost.} Javny paket sodrživaje redagujeme izvorne fajly, pravila latinično-kiriličnoj projekcije, polny spisok 171 redakcijnyh rěšenij, odklonjene alternativy, kontrolne zapisy sestavjenja, vizualnu kontrolu i spisky SHA-256. Mašinny indeks jasno označaje latiničny tekst kako jezyčny kanon i kiriličny tekst kako izvedenu projekciju, da by druga sesija mogla povtoriti ili prodolžiti rabotu bez izmysljenja novogo kanona.
+
+\textbf{Status recenzije.} To jest naučno rabotno izdanje, izrabotano modelami/agentami s mašinnoju pomočju. Ono ne prošlo nezavisnu naučnu recenziju i ne tvrdi potvrđenje rodnymi govoriteljami, medžuslovjanskoju obćinoju, oficialnym standardom ili nezavisnoju institucijeju. Odsutnost takoj recenzije jest jasno označena, ale ne byla zadržkoju za javno, dokazovo i popravljivo izdanje.
+
+\textbf{Prava i ponov novo upotrěbjenje.} CC0 jest priměnjen samo v toj měrě, v ktoroju postavajut prava v projektom stvorjenom prěkladu, redakciji, metadanyh, manifestah, orudjah i dokazah. Originalne děla, německy redakcijny material, fonty, programy i drugy material tretjih stran ohranjajut svoj pravny status i svoje licencije.
+
+\textbf{Citovanje.} Citujte točnu versiju \doiurl{10.5281/zenodo.22050935}. Za slědujuče versije koristite stabilny DOI koncepta \doiurl{10.5281/zenodo.21926382}. Repozitorij jest \repo; točny javny commit i tag sut zapisane v sanitizovanom publikacijskom potvrđenju poslě javnogo prěnosa, čto izběgava samoreferentny cikl v PDF-fajlu.
+\clearpage
+
+\pdfbookmark[0]{How to read this edition}{front-en}
+\section*{How to read this edition}
+
+\textbf{Purpose.} This edition is intended primarily for practical reading by speakers of Slavic languages, including readers who do not know English. It is not merely a linguistic experiment. The corpus contains Papers 1--43, lecture work 44, Paper 45, and the bibliography.
+
+\textbf{Two scripts, one edition.} Part A is the editorial Latin-script text (\texttt{isv-Latn}). Part B is a deterministically derived Cyrillic representation (\texttt{isv-Cyrl}) of the same Interslavic text. Cyrillic is not a separate translation and not an independent linguistic witness. Original names, titles, quotations, bibliographic material, Roman labels, and technical elements remain unchanged where their function requires preservation.
+
+\textbf{Source and editorial boundary.} The edition is reconciled with project German authority \texttt{NOETH-DE-ED-0015} under pointer \texttt{NOETH-DE-AUTH-v052-20260815}. The German text has SHA-256
+\smallhash{51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907}.
+The Latin text is frozen at editorial head \texttt{ISV019-EDIT-0171}; the Cyrillic text is generated by projector v6. Mathematical formulas, TeX structure, and non-letter characters were checked across the two scripts.
+
+\textbf{Evidence and repeatability.} The public package includes editable source files, the Latin-to-Cyrillic derivation rules, all 171 editorial decisions, rejected alternatives, build receipts, visual QA, and SHA-256 inventories. A machine index identifies the Latin text as the linguistic canon and the Cyrillic text as a derived projection so that another Codex session or other tool can reproduce or extend the edition without inventing a competing canon.
+
+\textbf{Review status.} This is a scholarly working edition produced by models/agents with machine assistance. It has not undergone independent scholarly peer review and does not claim certification or endorsement by native speakers, the Interslavic community, an official standard, or an independent institution. That absence is disclosed; it was not treated as a bar to a public, evidence-backed, corrigible release.
+
+\textbf{Rights and reuse.} CC0 applies only to the extent that rights exist in project-created translation, editorial work, metadata, manifests, tools, and evidence. Original works, German editorial material, fonts, software, and other third-party material retain their own legal status and licences.
+
+\textbf{Citation.} Cite the exact release \doiurl{10.5281/zenodo.22050935}. Use the stable concept DOI \doiurl{10.5281/zenodo.21926382} for the evolving edition. The repository is \repo. The exact public commit and release tag are recorded in the sanitized publication receipt after the push, avoiding a self-referential hash cycle inside this PDF.
+\clearpage
+
+\pdfbookmark[0]{Sodržanje / Contents}{front-contents}
+\section*{Sodržanje / Contents}
+\begin{tabularx}{\textwidth}{@{}>{\bfseries}l X r@{}}
+\toprule
+Čest / Part & Sodržanje / Contents & Stranice / Pages\\
+\midrule
+\hyperref[part:latn]{A} & Polny medžuslovjansky tekst v latinici / Complete Interslavic text in Latin script & 565\\
+\hyperref[part:cyrl]{B} & Polny determinističny kiriličny zapis / Complete deterministic Cyrillic representation & 588\\
+\bottomrule
+\end{tabularx}
+
+\vspace{1.5em}
+Obě česti sodrživajut jednakovy korpus v jednakovom porędku. Različnost broja stranic nastavaje iz različnyh širokostij glifov i preloma strok, ne iz različnogo sodržanja.
+
+Both parts contain the same corpus in the same order. The page-count difference results from glyph widths and line breaking, not from different content.
+\clearpage
+
+\phantomsection\label{part:latn}
+\pdfbookmark[0]{Čest A: Latinica / Part A: Latin script}{part-latn}
+\thispagestyle{empty}
+\begin{center}
+\vspace*{5cm}
+{\sffamily\color{NoetherBlue}\Huge\bfseries Čest A\par}
+\vspace{0.6cm}
+{\sffamily\LARGE Polny tekst v latinici\par}
+{\sffamily\Large Complete Latin-script text\par}
+\vfill
+{\large \texttt{isv-Latn} - glavno-redakcijny jezyčny tekst\par}
+{\large \texttt{isv-Latn} - canonical editorial language text\par}
+\end{center}
+\clearpage
+\includepdf[pages=-,pagecommand={}]{../pdf/emmy-noether-interslavic-latin-v019.pdf}
+
+\phantomsection\label{part:cyrl}
+\pdfbookmark[0]{Čest B: Kirilica / Part B: Cyrillic script}{part-cyrl}
+\thispagestyle{empty}
+\begin{center}
+\vspace*{5cm}
+{\sffamily\color{NoetherBlue}\Huge\bfseries Čest B\par}
+\vspace{0.6cm}
+{\sffamily\LARGE Polny tekst v kirilici\par}
+{\sffamily\Large Complete Cyrillic-script text\par}
+\vfill
+{\large \texttt{isv-Cyrl} - deterministično izvedeny zapis\par}
+{\large \texttt{isv-Cyrl} - deterministic script projection\par}
+{\small Nezavisny prěklad ili svědok ne jest / Not an independent translation or witness\par}
+\end{center}
+\clearpage
+\includepdf[pages=-,pagecommand={}]{../pdf/emmy-noether-interslavic-cyrillic-v019.pdf}
+\end{document}

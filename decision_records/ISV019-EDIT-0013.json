@@ -1,0 +1,127 @@
+{
+  "decision_id": "ISV019-EDIT-0013",
+  "recorded_at": "2026-08-12T21:25:45+02:00",
+  "epistemic_type": "manager_final_technical_terminology_decision_from_six_group_corpus_evidence_and_inflection_replay",
+  "scope": "all 888 editable algebraic kolc-family tokens in the four post-EDIT-0012 Latin components, plus one first-use reader bridge; the one bibliographic-title token remains exact citation evidence",
+  "choice": "Use the prsten root for the algebraic ring family, inflect it by exact sentence role, form podprsten/nadprsten/medžuprsten compounds, and introduce the first cumulative use with a one-line bridge naming Russian кольцо and Ukrainian кільце.",
+  "alternatives_rejected": [
+    "retain kolco as the corpus-wide technical default even though it concentrates recognition in Russian, Ukrainian, and Belarusian",
+    "use Czech/Slovak okruh, which would merely replace East concentration with a narrower West default",
+    "use Slovene kolobar as the common technical root",
+    "apply one blind kolca replacement despite the 119 genitive-singular versus 64 plural distinction and the analogous podkolca split",
+    "rewrite the protected bibliography title instead of preserving its cited historical wording",
+    "leave the known East-heavy terminology for a future human"
+  ],
+  "motivation": "The recovered mathematical shelf has Polish pierścień, Croatian/Serbian prsten, Bulgarian пръстен, and Macedonian prsten, while Czech/Slovak use okruh and Slovene uses kolobar. Under the declared six equal groups, the prsten/pierścień cognate root receives 2.5 branch units versus 2 for kolco, 1 for okruh, and 0.5 for kolobar. The official dictionary's physical-ring entries independently show broad cross-branch recognizability for pŕstėnj but do not establish an algebraic sense; the mathematical shelf supplies that technical evidence. The bridge protects East-reader access instead of treating East familiarity as the default form.",
+  "reflection": "This is a material correction of the reader rather than an intelligibility score or review queue. The selected lemma is not universal in every Slavic mathematical tradition, but it improves the weakest-branch recognition under the explicit symmetric method and preserves the rejected roots as documented evidence. Every ambiguous inflection was resolved in context, so no linguistic hold remains in this family.",
+  "predecessors": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167499,
+      "sha256": "0946E8D4E314238059BBE4B9B876C0B12C9D7C3B8B44C8B37C536E180632D10B"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25500,
+      "sha256": "9EFD0EFACD2F9D24D2A6D24653EF0A9485B3C86B257F7F0BA5C306A0554FA5FF"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1891562,
+      "sha256": "D282CD6531E1A55C97D029EAEE4231466014732A72289E91A8636EBAF83601C3"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9569,
+      "sha256": "2B5E4698ABEF605BD8899A1FB1B1AD6CF504DF5BAEFB6824D25006116A1F1E8E"
+    }
+  },
+  "evidence": {
+    "rebased_application_plan": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/KOLCO_TO_PRSTEN_PLAN_POST_EDIT0012.json",
+      "bytes": 36428,
+      "sha256": "762DCE07E938DEAB341FD7A89EA11723049B9DE472E0BAA4EDD45A74B2C9A47C"
+    },
+    "official_design_criteria": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/misc/design-criteria.md",
+      "bytes": 20238,
+      "sha256": "215184553FD9BDDE4A75632B82D9880D74ABEC3776732F182B55C576B0261CC3"
+    },
+    "official_dictionary_dataset": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "rows": [8518, 30033],
+      "limitation": "physical-ring recognizability evidence only, not an official algebraic-term declaration"
+    },
+    "west_south_mathematical_corpus_manifest": {
+      "path": "C:/Users/Floris/Documents/Codex/2026-05-26/there-is-currently-an-ongoing-process/other_pc_sidebranch_worktree/language-source-bodies/slavic-non-ru-uk-20260705/MANIFEST.csv",
+      "bytes": 460558,
+      "sha256": "3BF053AABB26210539E263B33B8F12960C888118409FD4D0898D73A91F74F286",
+      "observed_surfaces": {
+        "Polish pierścień-family": 355,
+        "Czech okruh-family": 426,
+        "Slovak okruh-family": 114,
+        "Slovene kolobar-family": 984,
+        "Croatian prsten-family": 777,
+        "Serbian prsten-family": 81,
+        "Bulgarian пръстен-family": 69,
+        "Macedonian transliterated prsten-family": 174
+      }
+    },
+    "six_group_assessment": {
+      "prsten_or_pierścien_cognate_root": 2.5,
+      "kolco_root": 2.0,
+      "okruh_root": 1.0,
+      "kolobar_root": 0.5
+    }
+  },
+  "agent_return": {
+    "task_identity": "/root/ring_terminology_apply_plan",
+    "scope": "read-only exhaustive ring-family adjudication followed by exact post-EDIT-0012 coordinate rebase",
+    "disposition": "accepted after parent strict-plan inspection, parent dry-run, exact predicted-hash reproduction, and post-write verification",
+    "returned_claims": "888 technical replacements, 49 inflection-aware rules, one protected citation, one first-use bridge, zero connective intersections, exact successor hashes"
+  },
+  "results": {
+    "technical_replacements": 888,
+    "bridge_insertions": 1,
+    "protected_bibliography_tokens": 1,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167643,
+      "sha256": "8982C24471402B7702024F79426DD968E3E7F30E0817895A666F5E092854355E",
+      "replacements": 82
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25502,
+      "sha256": "819F8EA91FA13F9E7669E76312D2ED46B39D7F790FEB99ACC1DEAD0D852773A1",
+      "replacements": 1
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1893110,
+      "sha256": "2F218348A461C1F2165475C33C5BC4DA74FB4CA34BB56122DA35E2BAD4BD8A4D",
+      "replacements": 805,
+      "bridge_lines": 1
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9569,
+      "sha256": "2B5E4698ABEF605BD8899A1FB1B1AD6CF504DF5BAEFB6824D25006116A1F1E8E",
+      "replacements": 0
+    },
+    "post_prsten_family": 889,
+    "post_kolc_family": 1,
+    "post_editable_kolc_family": 0,
+    "unresolved_linguistic_holds": 0
+  },
+  "tool": {
+    "path": "apply_ring_terminology_v019.py",
+    "bytes": 12107,
+    "sha256": "0F23D94494F3503AD6F833484C68D13DC3C041E1658AB0EB3599F91F11B6433C"
+  },
+  "validation": {
+    "prehashes": "4/4 exact",
+    "current_locators": "888/888 exact UTF-8 byte offsets, lines, columns, rule IDs, old tokens, and non-overlap",
+    "connective_rebase": "1034 intervening connective edits checked; zero ring-span or semantic intersections",
+    "protected_content": "comment and balanced foreign/foreignlanguage sequence unchanged; bibliography exception byte-exact",
+    "structure": "math-control and label/ref/cite sequences unchanged",
+    "outputs": "4/4 planned byte counts and SHA-256 values reproduced before write and verified after write",
+    "transport": "UTF-8 without BOM, LF only, terminal LF"
+  },
+  "uncertainty": "No balanced human comprehension experiment exists. The prsten choice is the manager's final evidence-based pan-Slavic editorial decision, not a claim of official terminology certification.",
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

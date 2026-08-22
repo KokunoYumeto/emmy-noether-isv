@@ -1,0 +1,127 @@
+{
+  "schema": "noether-interslavic-decision-record-v1",
+  "decision_id": "ISV019-EDIT-0124",
+  "recorded_at": "2026-08-14T04:42:29+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "sentence_specific_noninterrogative_pronoun_syntax_closure",
+  "scope": "Complete standalone lowercase što census across the four Latin sources: 30 non-interrogative discourse, relative, consequence, causal, and equivalence constructions changed; one lexicalized regarding-preposition use held byte-exact.",
+  "summary": "Close the residual non-interrogative South/Russian-shaped što syntax sentence by sentence, following binding EDIT-0020, without blind replacement or disturbing the one semantically valid 'what concerns' construction.",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0123",
+    "ledger_rows": 123,
+    "ledger_bytes": 505180,
+    "ledger_sha256": "7DC58EB92578D3638D8E929E6BDA8D84687EDBA6C07C92E511D69507090A5827",
+    "sidecar_bytes": 8868,
+    "sidecar_sha256": "3D79A7FF7473029F700AFBBF329FEDA0B75EFF87F325FE6D2B24559C4A4A8351"
+  },
+  "exact_changes": [
+    {"line":259,"column":175,"german_line":572,"before":"(što v istině jest slučaj","after":"(to v istině jest slučaj"},
+    {"line":3690,"column":101,"german_line":3640,"before":"identičnostij, što za pytanja","after":"identičnostij; to za pytanja"},
+    {"line":3759,"column":340,"german_line":3691,"before":", što imaje označiti vyše dano pisanje","after":"; to imaje označiti vyše dano pisanje"},
+    {"line":4562,"column":172,"german_line":4266,"before":"i togda što polary","after":"i zato že polary"},
+    {"line":5273,"column":103,"german_line":4822,"before":"substituciju --- što možno","after":"substituciju --- to možno"},
+    {"line":8867,"column":10,"german_line":8067,"before":"prěz što želana redukcija","after":"tym želana redukcija"},
+    {"line":8877,"column":184,"german_line":8077,"before":"funkcij, prěz što nastavaje","after":"funkcij; tym nastavaje"},
+    {"line":11386,"column":758,"german_line":10475,"before":", što daje protivrěčje.","after":"; to daje protivrěčje."},
+    {"line":12009,"column":234,"german_line":10964,"before":"derivatov, što protivorěčilo","after":"derivatov; to protivorěčilo"},
+    {"line":12013,"column":60,"german_line":10968,"before":"ili, što jest to samo, jednakogo","after":"ili, ravnoznačno, jednakogo"},
+    {"line":12175,"column":1,"german_line":11102,"before":"što davaje obratno pridruženje","after":"to davaje obratno pridruženje"},
+    {"line":14115,"column":1,"german_line":12680,"before":"što možno takože pisati","after":"to možno takože pisati"},
+    {"line":14124,"column":286,"german_line":12687,"before":"-- što (146) osoblivo","after":"-- to (146) osoblivo"},
+    {"line":14186,"column":122,"german_line":12712,"before":"abo, što jest s tym identično, nuly","after":"abo, ravnoznačno, nuly"},
+    {"line":14578,"column":1,"german_line":13100,"before":"što po (18) jest ravnoznačno s:","after":"to po (18) jest ravnoznačno s:"},
+    {"line":14784,"column":61,"german_line":13299,"before":"togo, što bylo dokazano vyšše","after":"togo, ktoro bylo dokazano vyšše"},
+    {"line":14902,"column":420,"german_line":13417,"before":"faktorov -- što vodi","after":"faktorov -- to vodi"},
+    {"line":14948,"column":1032,"german_line":13462,"before":", što možno opustiti s obzirom na slědujući paragraf","after":"; to možno opustiti s obzirom na slědujući paragraf"},
+    {"line":14971,"column":652,"german_line":13484,"before":"nulovogo ideala, što imaje město","after":"nulovogo ideala; to imaje město"},
+    {"line":15076,"column":503,"german_line":13577,"before":"pojedinačno --- što tu ponovno","after":"pojedinačno --- to tu ponovno"},
+    {"line":15139,"column":764,"german_line":13611,"before":"--- na što Fischer","after":"--- na to Fischer"},
+    {"line":15260,"column":31,"german_line":13687,"before":"abo --- što zaradi vzajemnoj racionalnoj izrazimosti jest ravnoznačno ---","after":"abo --- ravnoznačno zaradi vzajemnoj racionalnoj izrazimosti ---"},
+    {"line":15270,"column":59,"german_line":13697,"before":"abo, što vyhodi na to samo,","after":"abo, ravnoznačno,"},
+    {"line":15282,"column":268,"german_line":13705,"before":"ograničiti --- što togda ne označaje","after":"ograničiti --- to togda ne označaje"},
+    {"line":15316,"column":153,"german_line":13739,"before":"--- abo što po 6. jest ravnoznačno, ako","after":"--- abo, ravnoznačno po 6., ako"},
+    {"line":15488,"column":85,"german_line":13907,"before":"prostyh idealov, što ponovno bude nezavisno od vvedenja transformovanyh idealov, trěba","after":"prostyh idealov (to ponovno bude nezavisno od vvedenja transformovanyh idealov), trěba"},
+    {"line":15826,"column":345,"german_line":14197,"before":"komponent po I, što tu vyhodi","after":"komponent po I, ktoro tu vyhodi"},
+    {"line":19014,"column":162,"german_line":16073,"before":"Imenno, što jest vsegda možno, vozmimo","after":"Imenno, kako jest vsegda možno, vozmimo"},
+    {"line":23104,"column":510,"german_lines":[18977,18981],"before":"abo, što zbog","after":"abo, zbog"},
+    {"line":23114,"column":519,"german_line":18987,"before":"ne vhodi), što ponovno daje","after":"ne vhodi); to ponovno daje"}
+  ],
+  "semantic_hold": {
+    "hold_id": "ISV019-HOLD-STO-SE-TICE-SURFACE-0001",
+    "locator": "source_latin/base-papers1-43-isv.tex:11403:102",
+    "bytes_preserved": "što se tiče eksponentov",
+    "german_line": 10492,
+    "disposition": "Exclude from this non-interrogative syntax closure because it is the lexicalized 'what concerns/regarding' preposition. Do not certify its exact surface as final canonical: official authority records čto sę tyče and licenses čto/što as interrogative variants, so čto/što, se/sę, and tiče/tyče remain a separate optional surface/morphology audit."
+  },
+  "census": {
+    "before": {"sites":31,"lines":31,"file_split":"0/0/31/0"},
+    "changed": 30,
+    "held": 1,
+    "after": {"standalone_sto":1,"exact_hold_only":true}
+  },
+  "receipts": {
+    "broad_locators":{"bytes":1190,"sha256":"C3E9892B1F26D8A53C21EF48D7551457382F08DFF3814FB00F08282E993EDB16"},
+    "broad_contexts":{"bytes":18567,"sha256":"1DFFDBF1E6C0330F1F6E36769947CD215F2061FB44A323E12AAF04F765C71AAC"},
+    "selected_locators":{"bytes":1151,"sha256":"3267E6E07D541EE569FE01D8B39E8A4BC430E711666BCEA174A3C616C731ECDA"},
+    "selected_contexts":{"bytes":18238,"sha256":"3283C8837346EF2090106D56997BD25C5921BB01E03DE75B3019343AE7FA71CC"},
+    "hold_locator":{"bytes":39,"sha256":"45D4FD4CF966C65D6B69B992EDBDA853FD42E88BF37A86265C6C0DC986F34ABC"},
+    "hold_context":{"bytes":329,"sha256":"1FFD2D4D1EF734243A4737724C0047964C235CE7CFFE61E09487CA728E750270"},
+    "mapping_german":{"bytes":3539,"sha256":"2781AD7E6D235E455405038909801ABA1C61AD0DE5B98EA9178C8AFD28127C11"}
+  },
+  "inputs": {
+    "source_latin/44-book-isv.tex":{"bytes":168093,"sha256":"7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex":{"bytes":25555,"sha256":"9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex":{"bytes":1898802,"sha256":"3DEF24AC31B7E5B1BEEF934A6E679F344C61A394A3012E23AF84DD47DAFE8F1E"},
+    "source_latin/bib-isv.tex":{"bytes":9585,"sha256":"0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "outputs": {
+    "source_latin/44-book-isv.tex":{"bytes":168093,"sha256":"7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex":{"bytes":25555,"sha256":"9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex":{"bytes":1898700,"sha256":"7DB45EEA11BFF826B630BE336F0CBD0AB8D1D83600B6DE11EA051E452A81CF87"},
+    "source_latin/bib-isv.tex":{"bytes":9585,"sha256":"0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "authority": {
+    "dictionary":{"bytes":7993414,"sha256":"072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842","rows":{"čto":1814,"čto_sę_tyče":1812,"ktory":6262,"že":18982}},
+    "pronouns_grammar":{"bytes":10370,"sha256":"AB4F7B04FD55618DE2EB5FEB282558BEDEC6C205BEBB0E6BBD612CB3FBC88141","lines":"82-90"},
+    "conjunctions_grammar":{"bytes":2435,"sha256":"3E986444A77D27A01586B15BFDDE96937E0A265AAEDE09E3A313BE403489B2AB","lines":"39-67"},
+    "german_ed0014":{"bytes":2154011,"sha256":"EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58"},
+    "binding_edit_0020":{"sidecar_bytes":3303,"sidecar_sha256":"10788A94FB3D035789573DDCF0A7D527C169C8235307DF54AAA95963BAE3500A","applicator_bytes":12479,"applicator_sha256":"B08EA9E5357DE4F218C285C01405EE877D86695A8FDFE569E140A9E234F58F90"}
+  },
+  "categorized_corpus_boundary": {
+    "catalog_bytes":10642398,
+    "catalog_sha256":"354BE2A6EDFB9FE90CA9A42870666AF9DEB295F28D3F7ADA3DA898EC728756EC",
+    "strict_unadmitted_national":{"files":27,"tokens":745,"repositories":7,"receipt_bytes":5829,"receipt_sha256":"B883D46CD8CDA3856E748536404C51EE913AE5000DC775D7247A1A3854E95CE1"},
+    "generated_circular":{"files":70,"tokens":275,"receipt_bytes":16314,"receipt_sha256":"6FDF6F49F785CC7A15E4E13CE428F252FF96C8B93E3A98B5A930829DB30AE7FB"},
+    "undetermined_excluded":{"files":8,"tokens":133,"receipt_bytes":1688,"receipt_sha256":"9DE88B84AD3223F061AE842A392549973488A1B588476DA630D3B76F0677E36C"},
+    "claim":"National comparators document South-Slavic usage only; all are unknown-not-adjudicated and no syntax vote or native certification is claimed."
+  },
+  "rejected_alternatives": [
+    "blind što to že replacement",
+    "blind što to ktoro replacement",
+    "retaining all national-shaped syntax because unadmitted comparators use it",
+    "changing the semantic hold inside this family",
+    "combining the disjoint 133-site eksist- orthographic family",
+    "changing any formula, comment, foreign span, identifier, or protected command payload"
+  ],
+  "applicator": {
+    "path":"apply_sto_noninterrogative_closure_v019.py",
+    "bytes":34262,
+    "sha256":"5C29003B35CA7EB13AB095870CF64C246AAA4F325682FDBFBEEA3F2931E8A039",
+    "hardening":"Added explicit UTF-8 stdout/stderr configuration after an independent Windows CP-1252 dry-run exposed a post-validation reporting failure."
+  },
+  "qa": {
+    "independent_mapping_reconstruction":"PASS; exact output bytes and SHA-256 reproduced without importing the applicator",
+    "protected_spans":{"comments":1480,"commands":67,"math":20753,"total":22300,"target_overlaps":0},
+    "ordered_tex_controls":"PASS",
+    "environments_xrefs_cites_comments_math_payloads":"PASS",
+    "line_brace_delimiter_transport_gates":"PASS",
+    "descending_offset_transform":"PASS",
+    "reverse_replay":"PASS",
+    "double_run_identity":"PASS",
+    "utf8_console_hardening_retest":"PASS"
+  },
+  "publication_effect":"none",
+  "doi_effect":"none",
+  "working_successor_published":false,
+  "native_validation_claim":false
+}

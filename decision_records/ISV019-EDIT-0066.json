@@ -1,0 +1,34 @@
+{
+  "decision_id": "ISV019-EDIT-0066",
+  "recorded_at": "2026-08-13T14:37:19.6497694+02:00",
+  "epistemic_type": "manager_direct_official_lemma_diacritic_normalization",
+  "scope": "The 544 morphologically licensed tokens in the 559-token opredě-family; fifteen malformed surfaces were explicitly denied and reserved for sentence repair.",
+  "choice": "Normalize the licensed family from opredě-/neopredě- to official oprědě-/neoprědě-, preserving every other byte, inflection, and semantic role.",
+  "motivation": "Official headwords consistently use oprěděl-. The clean 544-token tranche differs only by the missing rě sequence and spans define, determine, definite, and indeterminate senses; a semantic lemma switch would lose those distinctions.",
+  "alternatives_rejected": ["Blindly accent all 559 tokens would canonize fifteen malformed endings and conjugations.", "Global definiovati would erase determine/fixed/indeterminate meanings.", "Retaining a zero-headword opreděl- family leaves a systemic orthographic inconsistency."],
+  "evidence": {
+    "official_dictionary": {"path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv", "bytes": 7993414, "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842", "entries": ["id29544 oprěděliti", "id32606 oprěděljati", "id9608/9609 neoprěděljeno/neoprěděljeny", "id10237/10238 oprěděljeno/oprěděljeny"]},
+    "denylist": {"tokens": 15, "finding": "Every malformed type was excluded by exact whole-token denylist for the following sentence-aware edit."}
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0065",
+    "decision_log": {"bytes": 256850, "sha256": "82CB38C352A584855B948ACE7804BA678A32ECE75FFCD62C49281188478EE692"},
+    "source_latin/44-book-isv.tex": {"bytes": 167976, "sha256": "5B264B331B53DC3D53478A24FA3D53F5D70951DEDA75A4233994C3BB09FC1D44"},
+    "source_latin/45-isv.tex": {"bytes": 25533, "sha256": "3C0088C41CF5E788EAD009CDDD5717091EABE84F0FF251DB9CA4171A787590A7"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896886, "sha256": "B236D6B707E98B8B5E37266DEB69C6442128CA3272AE043959E8AF9B283810B3"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 544,
+    "file_counts": {"44-book-isv.tex": 19, "45-isv.tex": 14, "base-papers1-43-isv.tex": 511, "bib-isv.tex": 0},
+    "canonical_family_after": 544,
+    "protected_anomalies": 15,
+    "source_latin/44-book-isv.tex": {"bytes": 167995, "sha256": "492A22994045F3168995E12AE45E90D750715AF1FF42AF35FA0E1DF1BDB07BD0"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897397, "sha256": "35960D76B88ED689F46EDE20BA69A4806CB5986EF1E9C698EC21717DE3C8286B"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_opred_diacritic_tranche_v019.py", "bytes": 4849, "sha256": "E48B5F2DBFB3ABB1AE6C4A4363A36B1B1DFB13E812A904A4702FE7F72454CEFF"},
+  "validation": {"prehashes": "4/4 exact against EDIT-0065", "coverage": "544 licensed sites changed; exact fifteen-token denylist preserved", "structure": "TeX controls, references, braces, math delimiters, protected fragments, and line counts unchanged", "reproducibility": "Frozen hashes reproduced before atomic apply"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

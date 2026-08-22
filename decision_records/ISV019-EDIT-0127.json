@@ -1,0 +1,94 @@
+{
+  "schema": "noether-interslavic-decision-record-v1",
+  "decision_id": "ISV019-EDIT-0127",
+  "recorded_at": "2026-08-14T13:01:05+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "official_lexicalized_preposition_surface_normalization",
+  "scope": "Resolve the sole declared Interslavic Latin hold at base line 11403 by replacing the Croatian comparator surface with the exact official type-1 multiword preposition.",
+  "summary": "Normalize the sole remaining standalone lowercase što occurrence, što se tiče eksponentov, to the official dictionary headword čto sę tyče eksponentov. The phrase retains its regarding sense and closes ISV019-HOLD-STO-SE-TICE-SURFACE-0001.",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0126",
+    "ledger_rows": 126,
+    "ledger_bytes": 510611,
+    "ledger_sha256": "0B6819EDB448632FEC4793F4E0A2285A499FB89657458288947627579511DAFD",
+    "sidecar_bytes": 5230,
+    "sidecar_sha256": "A82A59828965F39026D7C3ED24F4AB16700D21700514F289B8F6572D94B1FD63"
+  },
+  "exact_changes": [
+    {
+      "path": "source_latin/base-papers1-43-isv.tex",
+      "line": 11403,
+      "column": 102,
+      "character_offset_zero_based": 757362,
+      "before": "što se tiče",
+      "after": "čto sę tyče",
+      "before_context": "što se tiče eksponentov",
+      "after_context": "čto sę tyče eksponentov",
+      "closed_hold_id": "ISV019-HOLD-STO-SE-TICE-SURFACE-0001"
+    }
+  ],
+  "source_inputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898591, "sha256": "EC8C75FB97228E42E6C6382021EC127A800E878A49001CE124AF11E3C2C73117"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "source_outputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898592, "sha256": "62310907EED17C9331C5BE5308B2E93FF0546AA8017BFFA69873C9CF69CFFCFE"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "producer_successors": [
+    {
+      "unit": "Paper02-Section11",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "input": {"bytes": 14940, "sha256": "37B613F59FC8D4F101A714AF84B5DA0AE28FED93123EBA52C0363B234E3D499A"},
+      "output": {"bytes": 14964, "sha256": "7590484A00AA1B57C4AC8BDB53204AA0A570FAF8DCE8E0C9DBBD6247D6CB7AD7"}
+    }
+  ],
+  "census": {
+    "changed_sites": 1,
+    "changed_lines": 1,
+    "four_source_old_phrase_before": 1,
+    "four_source_old_phrase_after": 0,
+    "four_source_new_phrase_before": 0,
+    "four_source_new_phrase_after": 1,
+    "standalone_lowercase_sto_before": 1,
+    "standalone_lowercase_sto_after": 0,
+    "explicit_holds_after": 0
+  },
+  "authority": {
+    "official_dictionary": {"bytes": 7993414, "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842", "physical_row": 1812, "id": 21268, "headword": "čto sę tyče", "part_of_speech": "prep.", "croatian_comparator": "što se tiče"},
+    "project_active_german_authority": {"edition": "NOETH-DE-ED-0014", "source_bytes": 2154011, "source_sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58", "version_doi": "10.5281/zenodo.21908301", "pointer_bytes": 152755, "pointer_sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE", "activation_receipt_bytes": 28837, "activation_receipt_sha256": "1F34D25C36C2ADCEDB47A58ACD4EC92A34EA2F1E88D2F85283313627EA53E436", "claim_boundary": "project-active editorial authority; not a canonical or critical-edition certification"},
+    "german_context": "ED0014 line 10492, regarding the exponents"
+  },
+  "applicator": {
+    "path": "apply_sto_se_tice_hold_resolution_v019.py",
+    "bytes": 24998,
+    "sha256": "490B93B0B0BE878D540551972154897296506D26DA1861E34EB12EBB5F94F67C",
+    "default_mode": "dry_run",
+    "apply_mode": "explicit_one_shot"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT",
+    "exact_locator_and_output_reconstruction": "PASS",
+    "dictionary_and_german_activation_gates": "PASS",
+    "protected_structure_transport_gates": "PASS",
+    "reverse_replay": "PASS",
+    "double_run_identity": "PASS",
+    "semantic_holds": 0
+  },
+  "preserved": [
+    "all other source bytes and all local producer bytes",
+    "all TeX controls, environments, math, references, citations, comments, and protected payloads",
+    "the immutable German source and all published/frozen artifacts",
+    "Cyrillic-v2 design and publication state"
+  ],
+  "publication": {
+    "working_successor_published": false,
+    "publication_effect": "none",
+    "doi_effect": "none"
+  }
+}

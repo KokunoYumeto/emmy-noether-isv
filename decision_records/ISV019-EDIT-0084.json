@@ -1,0 +1,26 @@
+{
+  "decision_id": "ISV019-EDIT-0084",
+  "recorded_at": "2026-08-13T15:31:42.0578506+02:00",
+  "epistemic_type": "manager_base_logical_consequence_phrase_and_token_tranche",
+  "scope": "Forty-seven exact base-paper consequence sites: two tedy, že phrase recasts and 45 ordinary token-level transitions.",
+  "choice": "Recast the two phrase-level clauses as Zato požadanje znači, že and Zato prědpokladajemo, že; replace 39 lowercase and six uppercase ordinary transitions with zato/Zato.",
+  "motivation": "German and proof syntax classify all sites as conclusions. Phrase-level recasting avoids unidiomatic internal tedy, že while retaining proposition content.",
+  "alternatives_rejected": ["Token-only replacement in the two guarded phrases would be syntactically clumsy.", "To jest would flatten consequence.", "Two later tym samym collision sites remain separately guarded."],
+  "evidence": {"semantic_review": "German controls Die Forderung besagt also, daß and Wir nehmen also an bind the phrase recasts; all 45 other sites are proof/result transitions."},
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0083",
+    "decision_log": {"bytes": 312911, "sha256": "04BA742B49ACF1256EB8D20CF5704CB0EDBA6E05AB3CE9244794188E6898B933"},
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25557, "sha256": "4BCE3FC674C270009151AA00E959633720EFFD7D32A8EFE9DA459AF3971A0033"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898239, "sha256": "3815A93E6E0D31122029914CBD0383E2DE056F5E92AA40523A496C4EE2A202A0"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {"sites_changed": 47, "phrase_recasts": 2, "token_targets": {"zato": 39, "Zato": 6}, "base_family_residue_pending_classification": 131, "guarded_future_collision_sites": 2, "unresolved_linguistic_holds_in_tranche": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25557, "sha256": "4BCE3FC674C270009151AA00E959633720EFFD7D32A8EFE9DA459AF3971A0033"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898239, "sha256": "2F82CBBB90617776F4012707366FCE912CA63C2759FB78F67091E924E9A21E33"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}},
+  "tool": {"path": "apply_base_consequence_tranche3_v019.py", "bytes": 4203, "sha256": "8640BEF0AF4D46210BDDC7436A80EF99971E87E6F34F55551FE267216A3B86A9"},
+  "validation": {"prehashes": "4/4 exact against EDIT-0083", "coverage": "two exact phrase anchors plus 45 exact line-and-ordinal tokens", "postcondition": "selected sites zero; 131 base tokens deliberately untouched", "structure": "TeX controls, braces, math delimiters and line counts invariant", "reproducibility": "frozen successor hashes reproduced before atomic apply"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

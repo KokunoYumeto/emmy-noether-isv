@@ -1,0 +1,170 @@
+{
+  "schema": "noether-isv-edit0153-helper-independent-preapply-qa-receipt-v1",
+  "decision_id": "ISV019-EDIT-0153",
+  "verdict": "ACCEPT_PREAPPLY_ALGORITHMICALLY_INDEPENDENT",
+  "review_boundary": "The QA implementation independently reconstructs the transform without importing the candidate applicator or transaction-core transform helpers. A separate-task review remains queued and is preferable before production application.",
+  "qa_implementation": {
+    "path": "qa_isv_edit0153_preapply_v019.py",
+    "bytes": 19800,
+    "sha256": "BD256725BFEF0F987F25E8B2356011366003E72C5DAC1AADCBCD91C0A8F9DACC"
+  },
+  "captured_run": {
+    "exit_code": 0,
+    "stdout": {
+      "bytes": 5542,
+      "sha256": "605AFEDC8EB31313CC6D967001949F25433C32D95417036FBDE9D9B5CB5811CA"
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "parsed_verdict": "ACCEPT_PREAPPLY_ALGORITHMICALLY_INDEPENDENT"
+  },
+  "candidate": {
+    "applicator": {
+      "path": "apply_zurich_adjective_v019.py",
+      "bytes": 42133,
+      "sha256": "228E1A92085B8C1680F0B5996DC818E7DC087D536296B47D0D06ADDE205DB65A"
+    },
+    "linguistic_adjudication": {
+      "path": "decision_records/ISV019-EDIT-0153-UNAPPLIED-LINGUISTIC-ADJUDICATION.json",
+      "bytes": 11049,
+      "sha256": "0ED14DA5E94AA0E0D81C751D3866D2D25B2971F611CF73AAFDCDB34B5F1FB175"
+    },
+    "candidate_receipt": {
+      "path": "decision_records/ISV019-EDIT-0153-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "bytes": 5830,
+      "sha256": "2909E37E9A2B954B220432B312334D78A646F01348381203A18C1232232820E9"
+    }
+  },
+  "registry": {
+    "registry_id": "CANON-REGISTRY-0004",
+    "active_head": "ISV019-EDIT-0152",
+    "file_pins": 59,
+    "validator_exit_code": 0,
+    "validator_stdout": {
+      "bytes": 562,
+      "sha256": "49D6F55AA418FCA6FE2CB32D514FE485BC9745FF04436276B36D6E27D867BBF2"
+    },
+    "validator_stderr": {
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
+  },
+  "independent_reconstruction": {
+    "old": "zürihsko",
+    "new": "curišsko",
+    "file": "source_latin/base-papers1-43-isv.tex",
+    "line": 24190,
+    "successor": {
+      "bytes": 1892324,
+      "sha256": "9490F4C09573ABC4FFC97AE80F2DF08330488B7EA2148AD6CC1C8B39756B02E9"
+    },
+    "line_before": {
+      "bytes": 1149,
+      "sha256": "8198C93EBA16D75372D77E60B67818A5C3DC3DC37D640D8B513DDD0C87A82E62"
+    },
+    "line_after": {
+      "bytes": 1149,
+      "sha256": "1A740A1DD8C56BE1334EFD6DCE75FCA32B3E39C93C0C78BBE409745497137668"
+    },
+    "exact_reverse": true,
+    "outside_target_bytes_exact": true,
+    "tex_delimiter_counts_exact": true,
+    "target_role": "visible_prose"
+  },
+  "scanner": {
+    "current": {
+      "blocked_union": 1096,
+      "blocked_inventory_sha256": "92ED1CF0D9607F80A0383343FCA8EA05AC28C5513538D770B6B5BC9137AD3DFD",
+      "unsupported": 490,
+      "unsupported_inventory_sha256": "0C20B094B3FD64231C6793FCE49CD7A2529B713060B48B36C6D5051CD76DED8A",
+      "roman_identity_holds": 704,
+      "roman_inventory_sha256": "8D760DF8A45E3FD68103EC237022E188CAC53AEC4677E5FEB4378EF60F2CB908"
+    },
+    "projected": {
+      "blocked_union": 1095,
+      "blocked_inventory_sha256": "52FA3D23128A090C30471F9069188E50556C7CAA010F9AE5286FD355AD2BEEB9",
+      "unsupported": 489,
+      "unsupported_inventory_sha256": "ECEBD00FF987F0A430E0C320333CBE4218C82FBCD315E7CE358E0623F62ABE9B",
+      "roman_identity_holds": 704,
+      "roman_inventory_sha256": "8D760DF8A45E3FD68103EC237022E188CAC53AEC4677E5FEB4378EF60F2CB908",
+      "unknown_argument_commands": 0,
+      "parse_errors": 0,
+      "coverage_failures": 0,
+      "cyrillic_word_projection": "цуришско"
+    }
+  },
+  "authority": {
+    "german_context_exact": true,
+    "official_orthography_exact": true,
+    "dictionary_ceh_cesky_rows_exact": true,
+    "registered_russian_context_exact": true,
+    "registered_ukrainian_context_exact": true,
+    "official_zurich_headword_claim": false,
+    "project_house_contextual_decision": true
+  },
+  "static_transaction_audit": {
+    "metadata_barrier_before_residue_probe": true,
+    "residue_probe_before_transaction": true,
+    "one_target_install_transaction_present": true,
+    "installed_successor_callback_present": true,
+    "rollback_first_hardened_core_bound": true,
+    "no_git_or_network_imports": true
+  },
+  "mode_reproduction": {
+    "dry_compact": {
+      "runs": 2,
+      "byte_identical": true,
+      "exit_codes": [
+        0,
+        0
+      ],
+      "stdout": {
+        "bytes": 13089,
+        "sha256": "6C0D68A4D4DB3138CBF89C272540CAE8F1132F44F18A8585DB6E691D0CD5C2EE"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    "self_test_compact": {
+      "runs": 2,
+      "byte_identical": true,
+      "exit_codes": [
+        0,
+        0
+      ],
+      "stdout": {
+        "bytes": 14989,
+        "sha256": "AD16ED6240628FA67787E61CDB195099B6FF0E2EB294DA5BAD04E4E16A6D4E1F"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      },
+      "transform_hostiles": 5,
+      "inherited_transaction_cases": 21,
+      "one_target_transaction_cases": 2
+    }
+  },
+  "guard": {
+    "explicit_files": 17,
+    "before_equals_after": true,
+    "transaction_residue": 0,
+    "pycache_residue": 0
+  },
+  "nonclaims": {
+    "source_applied": false,
+    "metadata_sealed": false,
+    "registry_updated": false,
+    "build": false,
+    "git": false,
+    "network": false,
+    "publication": false,
+    "global_linguistic_completion": false,
+    "native_or_community_certification": false
+  },
+  "next_gate": "Await the queued separate-task binary review. Do not invoke --apply unless that review independently accepts the exact frozen pins."
+}

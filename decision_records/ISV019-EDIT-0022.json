@@ -1,0 +1,58 @@
+{
+  "decision_id": "ISV019-EDIT-0022",
+  "recorded_at": "2026-08-13T00:52:32.6097203+02:00",
+  "epistemic_type": "manager_direct_contextual_lexical_normalization",
+  "scope": "All eight residual poluč-family tokens in the current Latin reader.",
+  "choice": "Replace the East-heavy poluč-family contextually with official type-1 dobyti/dobyvati forms or a direct syntactic recast: dobudemo, dobivaje se, dobivajut se, dobil, an explicit reference to the decomposition from item 2, and direct prověriti/Ty rezultaty constructions.",
+  "motivation": "The official lexicon supplies dobyti and dobyvati for get/obtain with broad East, West, and South cognate support. The eight inherited poluč- forms add an avoidable Russian/Bulgarian-looking layer, while their mathematical meanings are fully recoverable from local sentence context. Contextual recasts avoid manufacturing uncertain participles.",
+  "alternatives_rejected": [
+    "Blindly inflect one replacement stem across all eight contexts; two sites are passive participles and are clearer as direct finite or prepositional constructions.",
+    "Retain poluč- merely because it is intelligible to East and part of South Slavic; the official type-1 dobyti family gives broader independent-family recognition.",
+    "Use získati, which favors West Slavic and would simply move the imbalance rather than repair it."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "dobyti_get_obtain": "id 3192, type 1",
+      "dobyvati_get_obtain": "id 3191, type 1",
+      "dostati_get_receive_comparator": "id 1900, type 1"
+    },
+    "in_corpus_productive_family": "The reader already uses dobudemo, dobil/dobili, dobiva se, dobivajut se, dobivamo and dobivajemo extensively in the same mathematical register."
+  },
+  "results": {
+    "contextual_replacements": 8,
+    "residual_poluc_family": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167895,
+      "sha256": "771D88F8626883FBD1A9B61A475FD2EE64E57E015B78CE5B67EF9C26D64F7F2F"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25501,
+      "sha256": "9DF102932398427CA4C31AF04DC8B691C876DDF3D147219EDFBAE634E3891935"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1894794,
+      "sha256": "FB376E0E70BC4FCA416B828EEB93BA082D81BA6F3B471F648F48CFCFDAB76016"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9578,
+      "sha256": "E5951A6278A556003C44DE30FC0012C1421606BDB1DE3AB6CF05C01986D9613B"
+    }
+  },
+  "tool": {
+    "path": "apply_poluc_family_v019.py",
+    "bytes": 5274,
+    "sha256": "A4F30EE84AEFB07CAE3D61E38EA93B86945DDD2570F68B5FD40D29611E5A3105"
+  },
+  "validation": {
+    "prehashes": "4/4 exact",
+    "dry_run_then_apply": "frozen output hashes reproduced",
+    "cardinality": "8/8 exact old fragments replaced once",
+    "residuals": "zero whole-token poluč-family forms",
+    "structure": "TeX controls, references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

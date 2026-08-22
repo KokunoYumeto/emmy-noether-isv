@@ -1,0 +1,44 @@
+{
+  "decision_id": "ISV019-EDIT-0072",
+  "recorded_at": "2026-08-13T14:56:35.4182650+02:00",
+  "epistemic_type": "manager_conditional_apodosis_connective_normalization",
+  "scope": "Nine exact tedy/teda sites functioning as the logical apodosis in an ako...to conditional construction.",
+  "choice": "Replace only those selected ordinals with to, yielding branch-neutral ako...to; do not introduce temporal togda.",
+  "motivation": "German and mathematical clause structure show premise-to-consequence conditionals, never event-time sequence. The official grammar already establishes ako...to.",
+  "alternatives_rejected": [
+    "Togda would falsely temporalize logical conditionals.",
+    "Zato would overstate the apodotic particle as a standalone conclusion adverb.",
+    "Blanket tedy/teda replacement would corrupt adjacent non-apodotic tokens on mixed lines."
+  ],
+  "evidence": {
+    "semantic_review": "Eight Book 44 sites and one base-text site were aligned to German wenn/ist...also...so and inspected in full sentence context.",
+    "global_temporal_result": "The complete audited tedy/teda family contains zero genuine temporal-event uses."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0071",
+    "decision_log": {"bytes": 275598, "sha256": "AA5AFA86934DB06DC0AF9FD541C6E14912B1709FE9E1516D587681325A123BDA"},
+    "source_latin/44-book-isv.tex": {"bytes": 168067, "sha256": "6F4F4D063FC5CE680BDBE60921547E8C1B9B0A8C981B72023C095F5326033055"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897552, "sha256": "F94C351AB45387EA264B7C6081166FA96EC17E680FC087A7FA24FFE42F01FA1A"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 9,
+    "source_histogram": {"tedy": 8, "teda": 1},
+    "target_histogram": {"to": 9},
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168051, "sha256": "06260D2CA973CB9A0E0CD7B7A7E82A36773A4B3443F1A43542545F9D4476BC43"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897550, "sha256": "6C59F77422D9183F85B1F62353E0CB28D9361ECA11326B997152781C4E014F57"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_conditional_apodosis_connectives_v019.py", "bytes": 3502, "sha256": "1DBB2DDCA3BC0D76E9206F109D293B01FC08E6D3256EDC5CFA38B5CBE52B13C8"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0071",
+    "coverage": "9 exact line-and-ordinal sites",
+    "guards": "all adjacent same-line non-apodotic tedy/teda tokens unchanged",
+    "structure": "TeX controls, labels/refs/cites, braces, math delimiters and line counts invariant",
+    "reproducibility": "frozen successor hashes reproduced before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

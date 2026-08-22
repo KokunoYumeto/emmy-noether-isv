@@ -1,0 +1,108 @@
+{
+  "decision_id": "ISV019-EDIT-0052",
+  "recorded_at": "2026-08-13T03:24:29.6369474+02:00",
+  "epistemic_type": "manager_direct_necessity_terminology_unification_and_scope_repair",
+  "scope": "All 43 residual neobhod- necessity forms in the live v019 Latin reader: ten in 45-isv, 32 in base-papers1-43, and one bibliography title.",
+  "choice": "Extend the accepted EDIT-0039 potrěbn-/potrěbno necessity policy to 25 nominal, adjectival, and predicative sites; resolve the other 18 contexts with explicit modal or inferential clauses so that not-necessarily scope and redundant double modals are not flattened.",
+  "motivation": "Neobhodimy is an official type-1 word, but in this reader it duplicated the already selected pan-Slavic mathematical necessity family and preserved source-conditioned terminology variation. Direct replacement was appropriate for necessary conditions; it was not appropriate for must necessarily, not necessarily, or follows necessarily constructions. The split yields one searchable terminology family without changing logical scope.",
+  "alternatives_rejected": [
+    "Keep neobhod- as a valid free synonym: this retains a second terminology family for the same necessary-condition concept and weakens corpus coherence.",
+    "Blindly replace every neobhodno with potrěbno: this produces awkward or scope-changing phrases such as ne morajut potrěbno and potrěbno mora.",
+    "Replace negative necessity with ne trěba: EDIT-0039 already established that this changes not-necessarily P into P is not needed.",
+    "Use neizběžno: inevitability is stronger than logical or modal necessity."
+  ],
+  "evidence": {
+    "prior_policy": {
+      "decision_id": "ISV019-EDIT-0039",
+      "record_path": "decision_records/ISV019-EDIT-0039.json",
+      "rule": "Use official type-1 potrěbn-/potrěbno for mathematical necessity while preserving negation scope and repairing agreement."
+    },
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "accepted_primary_entries": "id 29955 potrěbno and id 1296 potrěbny, both type 1 and broad across East, West, and South",
+      "valid_but_unified_doublet": "id 33105 neobhodimy, type 1, necessary/indispensable"
+    },
+    "official_adjective_grammar": {
+      "path": "00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/adjectives.md",
+      "bytes": 8142,
+      "sha256": "184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F",
+      "relevance": "agreement of potrěbny forms and the potrěbno adverb/neuter predicate"
+    },
+    "german_meaning_authority": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/candidates/ED0014/noether.tex",
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "scope_distinctions": "notwendig, nicht notwendig, notwendig und hinreichend, muß, and folgt notwendig were preserved as distinct constructions"
+    },
+    "independent_math_comparator_policy": {
+      "manifest": "C:/Users/Floris/Documents/Codex/2026-05-26/there-is-currently-an-ongoing-process/other_pc_sidebranch_worktree/language-source-bodies/slavic-non-ru-uk-20260705/MANIFEST.csv",
+      "bytes": 460558,
+      "sha256": "3BF053AABB26210539E263B33B8F12960C888118409FD4D0898D73A91F74F286",
+      "finding": "EDIT-0039 admitted potrěbn- by independent-language presence and official cross-family evidence rather than raw token counts."
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0051",
+    "decision_log": {
+      "bytes": 198344,
+      "sha256": "4431F747C4CD358C7AD0E636754EB157E6FDBF4FE1AE0FCAD93ECCD2615E38BA"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167963,
+      "sha256": "1A24249284FB5B95396E29991F697E0F0246697CCF03C8B0ABF4DFF7E9E810D3"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "4E47FD1C693F89726DC65607A7500C9376EA0F09E8BC48EE46D48893BD580292"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896999,
+      "sha256": "D7EC94D55591A099579EE95D39801556B6022D8F0F6F416806249BA4EF706739"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"
+    }
+  },
+  "results": {
+    "sites_changed": 43,
+    "direct_potrebn_family_unifications": 25,
+    "scope_preserving_modal_or_inferential_recasts": 18,
+    "neobhod_family_residual": 0,
+    "potrebn_family_total": 162,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167963,
+      "sha256": "1A24249284FB5B95396E29991F697E0F0246697CCF03C8B0ABF4DFF7E9E810D3"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "81C90B9013261D41392153F5A9BBB1D52A7F36F35CC23A4DE1DDE1E6A6DBD5DE"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896911,
+      "sha256": "882FACBC32BB9CEA470C37B66950E7706F2C138BA8555975F78C4AF1339EEF1B"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "tool": {
+    "path": "apply_neobhod_necessity_unification_v019.py",
+    "bytes": 11951,
+    "sha256": "94E0461F2CC580EC9D823D32E75C8C5699BDA5F31D8495DD55834A4212F10150"
+  },
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0051",
+    "coverage": "43/43 neobhod- sites resolved exactly once",
+    "scope": "necessary-and-sufficient conditions, not-necessarily clauses, necessary inference, and double-modal cases were separately asserted",
+    "postcounts": "neobhod=0 and potrěbn-family=162",
+    "protected_spans": "zero targets in TeX comments or foreign-language arguments; protected bytes unchanged",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged",
+    "reproducibility": "frozen dry-run hashes reproduced immediately before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

@@ -1,0 +1,64 @@
+{
+  "decision_id": "ISV019-EDIT-0055",
+  "recorded_at": "2026-08-13T13:50:59.6226218+02:00",
+  "epistemic_type": "manager_direct_tex_definition_order_repair",
+  "scope": "Producer unit 075 in source_latin/base-papers1-43-isv.tex: one use of \\foreign{Weierstrass} before any in-scope definition of \\foreign.",
+  "choice": "Define the identity text wrapper locally with \\providecommand{\\foreign}[1]{#1} in producer unit 075 immediately before the unit body.",
+  "motivation": "The unit is enclosed by its own group and uses the wrapper at the Weierstrass name, but its local preamble did not define it. The first later definitions occur in other local groups and cannot satisfy this earlier use. The identity wrapper preserves the semantic foreign-name markup while preventing an undefined-control-sequence failure.",
+  "alternatives_rejected": [
+    "Delete the wrapper from Weierstrass: this would render the same text but discard useful semantic markup.",
+    "Rely on later \\newcommand definitions: they occur after the use and inside different local groups.",
+    "Add a global definition outside the unit: a local provider is sufficient and avoids changing other producer units."
+  ],
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0054",
+    "decision_log": {
+      "bytes": 214473,
+      "sha256": "4E39537DF9B7CB634C282071CDBB3346A5C995895AC48913AFF8B00B52674136"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167963,
+      "sha256": "1A24249284FB5B95396E29991F697E0F0246697CCF03C8B0ABF4DFF7E9E810D3"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "81C90B9013261D41392153F5A9BBB1D52A7F36F35CC23A4DE1DDE1E6A6DBD5DE"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896714,
+      "sha256": "CDFDD90667F69121A13303612E9F2D0BC43F10600185C2B193CD6A95CC2DC03D"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "results": {
+    "definitions_added": 1,
+    "undefined_custom_text_wrapper_uses_remaining": 0,
+    "rendered_prose_changes": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167963,
+      "sha256": "1A24249284FB5B95396E29991F697E0F0246697CCF03C8B0ABF4DFF7E9E810D3"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "81C90B9013261D41392153F5A9BBB1D52A7F36F35CC23A4DE1DDE1E6A6DBD5DE"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896747,
+      "sha256": "2B3A88E5A4C8FEC319E8F4271E658FA97F80611C9FD3FC71F53E447A857C482D"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "validation": {
+    "declaration_order": "The local \\providecommand now precedes the sole producer-unit-075 \\foreign use.",
+    "scope": "Exactly one custom text-wrapper use-before-definition existed across foreign/srcfn/tocline/tocsec/glqq/grqq; it is repaired.",
+    "semantic_invariance": "The identity macro renders Weierstrass byte-for-byte as before intended; formulas and running prose are unchanged.",
+    "transport": "UTF-8 without BOM, LF-only, final newline preserved."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

@@ -1,0 +1,1024 @@
+{
+  "schema": "noether-isv-normalization-decision-v1",
+  "decision_id": "ISV019-EDIT-0142",
+  "recorded_at": "2026-08-16T21:35:00+02:00",
+  "status": "applied_and_independently_verified",
+  "classification": "EDIT0014_ORIGINAL_COVERAGE_CORRECTION_AND_CURRENT_SOURCE_REPAIR",
+  "epistemic_type": "append_only_original_coverage_correction_using_pinned_dictionary_grammar_and_german_sentence_controls",
+  "scope": "14 surviving sostaj-family forms on 13 lines of the current assembled Latin base only",
+  "summary": "repair the original EDIT0014 target-family coverage omission in current source while preserving the old record and all historical lineage",
+  "work_identity": {
+    "work_language": "Emmy Noether — Interslavic working edition",
+    "canonical_hub": "deferred until the next actual public release; no internal URL invented",
+    "rights_boundary": "artifact-specific license, provenance, author/source relation, and non-endorsement preserved; no blanket public-domain or open-license claim",
+    "organization_metadata_policy": "organization attribution is reserved for one linked creator or contributor entry in public repository metadata; internal records do not repeat it"
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0141",
+    "state": {
+      "bytes": 14777,
+      "sha256": "FEA5D7AFFFCC2D40E39960D53A14C8C1B9D76D93BE5577A41A0D13E85608C4BC"
+    },
+    "ledger": {
+      "rows": 141,
+      "bytes": 547203,
+      "sha256": "BF495D73F6B04AF45B5F5071A71E381AA818A07213EF80A7BB70528C37D9A144"
+    },
+    "sidecar": {
+      "path": "decision_records/ISV019-EDIT-0141.json",
+      "bytes": 40995,
+      "sha256": "F497D7FE23983303F31C6E7E3B11E94FF394D4FEB29FC77B5C085F3DEAFFAD3F"
+    }
+  },
+  "ledger_prefix": {
+    "rows": 141,
+    "bytes": 547203,
+    "sha256": "BF495D73F6B04AF45B5F5071A71E381AA818A07213EF80A7BB70528C37D9A144"
+  },
+  "worklog_prefix": {
+    "rows": 34,
+    "bytes": 63318,
+    "sha256": "4D71A8F5958DB74D9E4E5C17C471105DFFCE0C91A38F98CB2531FE33D36FBD93"
+  },
+  "human_companion": {
+    "path": "decision_records/ISV019-EDIT-0142.md",
+    "bytes": 5754,
+    "sha256": "45B8A2A18B3267BE3BDFADC88F313D2EEC3F2A09AB0F1DB07D0228C918FE1D2C"
+  },
+  "append_only_supersession": {
+    "preserved": [
+      "EDIT0014 exact record, ledger row, plan, applicator, predecessor, replayed output, lexical choice, historical edits, retained forms, semantic recasts, output pins, and no-hold disposition",
+      "all decisions and source lineage through EDIT0141"
+    ],
+    "superseded_only": [
+      "EDIT0014 target-family exhaustiveness",
+      "EDIT0014 sostaj-family zero-residue assertion",
+      "cumulative canonical-family counts derived from the incomplete census"
+    ]
+  },
+  "targets": [
+    {
+      "edit_id": "ISV-SOSTAJ-0001",
+      "line": 623,
+      "column_1based": 117,
+      "input_byte_offset_0based": 37779,
+      "output_byte_offset_0based": 37779,
+      "old": "sostaji",
+      "new": "sostoji se",
+      "input_line_sha256": "E6EC03CB238D1EB7CD27165444ABD253B74ED99A2C757C018C79B3415DE54E7D",
+      "output_line_sha256": "6DA2B4F5CC770EB8D8D72D77C67E9588CB39BA97DC5ABF56A0E847EC6CB5E636",
+      "unit": "005",
+      "german_line": 945,
+      "german_column_1based": 118,
+      "german_byte_offset_0based": 53155,
+      "german_token": "besteht",
+      "german_line_sha256": "1B3E0B10503730654AE72B5D9FF58BEFF2B0E4609EB595EE71CDFE3B0C41ECBA",
+      "semantic_prose_in_math_exception": false
+    },
+    {
+      "edit_id": "ISV-SOSTAJ-0002",
+      "line": 677,
+      "column_1based": 57,
+      "input_byte_offset_0based": 39424,
+      "output_byte_offset_0based": 39427,
+      "old": "sostaji",
+      "new": "sostoji se",
+      "input_line_sha256": "348C24ACCD9CAB96D87E95FA81DDDE470DFA2978A080988AEA0A8F34C11CB750",
+      "output_line_sha256": "BECEA4A886FABB9A677103F85183AC47F9468B52DE074099374575215415F39C",
+      "unit": "006",
+      "german_line": 984,
+      "german_column_1based": 74,
+      "german_byte_offset_0based": 54432,
+      "german_token": "besteht",
+      "german_line_sha256": "19636EE32AC578859D7EDF014E1A09E03867CC58E2684903F983D338B08BCC27",
+      "semantic_prose_in_math_exception": false
+    },
+    {
+      "edit_id": "ISV-SOSTAJ-0003",
+      "line": 914,
+      "column_1based": 34,
+      "input_byte_offset_0based": 48587,
+      "output_byte_offset_0based": 48593,
+      "old": "sostaji",
+      "new": "sostoji se",
+      "input_line_sha256": "B1FA159F198F2C1381E13760F055A4BBE1F324D47CEA3652AA2639A61FD11E26",
+      "output_line_sha256": "D0DD0A006E7607ACA2F3F59D3F7C82306AF737A132875724314113E52AC4EB25",
+      "unit": "007",
+      "german_line": 1206,
+      "german_column_1based": 43,
+      "german_byte_offset_0based": 64352,
+      "german_token": "besteht",
+      "german_line_sha256": "01FCEE64A78866BFBCA35869A7361AEE9E3D955DF89E1B3062A0A46EF13B0764",
+      "semantic_prose_in_math_exception": false
+    },
+    {
+      "edit_id": "ISV-SOSTAJ-0004",
+      "line": 2392,
+      "column_1based": 38,
+      "input_byte_offset_0based": 105269,
+      "output_byte_offset_0based": 105278,
+      "old": "sostaji",
+      "new": "sostoji se",
+      "input_line_sha256": "161EC235BBEA950765F9407C80850718ACE975C93B35A093D29D3C3B94B91077",
+      "output_line_sha256": "C77B03E9DA791776CD45372B5B16A63D9631C317AA184BE331F677D70EADD772",
+      "unit": "018",
+      "german_line": 2500,
+      "german_column_1based": 72,
+      "german_byte_offset_0based": 120151,
+      "german_token": "besteht",
+      "german_line_sha256": "698970263E0BF11CC8E4527AF373855A47088A231F3C67624CA470BF08FA7E81",
+      "semantic_prose_in_math_exception": true
+    },
+    {
+      "edit_id": "ISV-SOSTAJ-0005",
+      "line": 3744,
+      "column_1based": 109,
+      "input_byte_offset_0based": 182200,
+      "output_byte_offset_0based": 182212,
+      "old": "sostaji",
+      "new": "sostoji se",
+      "input_line_sha256": "9D0E42FEBAFDEE371CC1F5DEC963B6DF8CEEBE29DCA4D5BDDF63914B4004BDF9",
+      "output_line_sha256": "F993472B12E80DDF5DE53520E42D162689E8C9FDB4B1D5632DFADDC979447017",
+      "unit": "030",
+      "german_line": 3658,
+      "german_column_1based": 141,
+      "german_byte_offset_0based": 193855,
+      "german_token": "besteht",
+      "german_line_sha256": "770D6EC952BF6BDA49740954E12BDA6F881D075F206FACB0F7F528498D3889D1",
+      "semantic_prose_in_math_exception": false
+    },
+    {
+      "edit_id": "ISV-SOSTAJ-0006",
+      "line": 3781,
+      "column_1based": 610,
+      "input_byte_offset_0based": 186016,
+      "output_byte_offset_0based": 186031,
+      "old": "sostaji",
+      "new": "sostoji se",
+      "input_line_sha256": "268F1BB41ED8815086A3D64218266631FA36D46A631EAE8674797B122EB043F9",
+      "output_line_sha256": "ADB818A66566F094F346C1448C1DE43B56B839C177780D3252A0399CCD32149B",
+      "unit": "030",
+      "german_line": 3693,
+      "german_column_1based": 700,
+      "german_byte_offset_0based": 198076,
+      "german_token": "besteht",
+      "german_line_sha256": "1AE7CFD2D9D205B4611B8CEE6A5B9FF9F123DE125EB6D773E398EE013A10FC96",
+      "semantic_prose_in_math_exception": false
+    },
+    {
+      "edit_id": "ISV-SOSTAJ-0007",
+      "line": 3781,
+      "column_1based": 661,
+      "input_byte_offset_0based": 186069,
+      "output_byte_offset_0based": 186087,
+      "old": "sostaji",
+      "new": "sostoji se",
+      "input_line_sha256": "268F1BB41ED8815086A3D64218266631FA36D46A631EAE8674797B122EB043F9",
+      "output_line_sha256": "ADB818A66566F094F346C1448C1DE43B56B839C177780D3252A0399CCD32149B",
+      "unit": "030",
+      "german_line": 3693,
+      "german_column_1based": 756,
+      "german_byte_offset_0based": 198132,
+      "german_token": "besteht",
+      "german_line_sha256": "1AE7CFD2D9D205B4611B8CEE6A5B9FF9F123DE125EB6D773E398EE013A10FC96",
+      "semantic_prose_in_math_exception": false
+    },
+    {
+      "edit_id": "ISV-SOSTAJ-0008",
+      "line": 4383,
+      "column_1based": 88,
+      "input_byte_offset_0based": 230026,
+      "output_byte_offset_0based": 230047,
+      "old": "sostaji",
+      "new": "sostoji",
+      "input_line_sha256": "58DEC8C0F62BDDA74C4908B234AC681260A108D96272BC070C9A69FDB291E5A6",
+      "output_line_sha256": "C18BC7AA5F48F5E90464EF3554C30B547464DAEC47491B1745B360295E113582",
+      "unit": "035",
+      "german_line": 4120,
+      "german_column_1based": 95,
+      "german_byte_offset_0based": 241896,
+      "german_token": "besteht",
+      "german_line_sha256": "46486E13C8A5426F9737AAAF5932A9D84C82EEEE59AB10A13A0AADA6A2D3A82E",
+      "semantic_prose_in_math_exception": false
+    },
+    {
+      "edit_id": "ISV-SOSTAJ-0009",
+      "line": 5984,
+      "column_1based": 552,
+      "input_byte_offset_0based": 335344,
+      "output_byte_offset_0based": 335365,
+      "old": "sostaji",
+      "new": "sostoji se",
+      "input_line_sha256": "D39914334816F51CBC9ED375E3F10508227BEE3D0F1C10DB3049307E063D7A90",
+      "output_line_sha256": "6222AABE41EF1EE9E2F3F940B92A023C1FF2BFAED9D9CF195E1CC533B4A882E5",
+      "unit": "049",
+      "german_line": 5343,
+      "german_column_1based": 641,
+      "german_byte_offset_0based": 344922,
+      "german_token": "bestehen",
+      "german_line_sha256": "6DD48D94AB639398CA9C6AB91F4AF06AC3CCD7543585A0785CF9C0665F8B906B",
+      "semantic_prose_in_math_exception": false
+    },
+    {
+      "edit_id": "ISV-SOSTAJ-0010",
+      "line": 6021,
+      "column_1based": 398,
+      "input_byte_offset_0based": 339381,
+      "output_byte_offset_0based": 339405,
+      "old": "sostaječu",
+      "new": "sostoječu se",
+      "input_line_sha256": "C1C06E8C1221210DA4000B2A11072868EEB00F171B334E160084474438FE9DB2",
+      "output_line_sha256": "C5ACAA7ADC27085129B79C3605442473B2176FA445AE371087FC3733D60BA2BB",
+      "unit": "049",
+      "german_line": 5381,
+      "german_column_1based": 489,
+      "german_byte_offset_0based": 349171,
+      "german_token": "bestehenden",
+      "german_line_sha256": "A7A9E8111F49BC1D29A8CDC77BDF88C19BBB7481D9BD9A44CADB801E523F5BD4",
+      "semantic_prose_in_math_exception": false
+    },
+    {
+      "edit_id": "ISV-SOSTAJ-0011",
+      "line": 6030,
+      "column_1based": 616,
+      "input_byte_offset_0based": 340462,
+      "output_byte_offset_0based": 340489,
+      "old": "sostaji",
+      "new": "sostoji se",
+      "input_line_sha256": "8B51E83C9E566A584F4983B05B9C11E4B995AEDA213D6A5655184E5CE90DF39E",
+      "output_line_sha256": "3A11AECB5C2BBC9EA4DEB54F6A236BBEF0B76BD686E054A77CEDEF59D2D3C5E2",
+      "unit": "049",
+      "german_line": 5390,
+      "german_column_1based": 650,
+      "german_byte_offset_0based": 350249,
+      "german_token": "Bestehe",
+      "german_line_sha256": "9B346FC886876A45C0AB7BE4F9A55F41E7A839F61F8A548206CABD330F124495",
+      "semantic_prose_in_math_exception": false
+    },
+    {
+      "edit_id": "ISV-SOSTAJ-0012",
+      "line": 7168,
+      "column_1based": 497,
+      "input_byte_offset_0based": 417657,
+      "output_byte_offset_0based": 417687,
+      "old": "sostajuča",
+      "new": "sostoječa se",
+      "input_line_sha256": "B6C8A8E86743D862B5920D14220871F47383FAC6E28BDFF89D0AD3BCE2FCBE5E",
+      "output_line_sha256": "D8F9CB73695A21C307F2DF843E499537F442AE5B3334A4E1B3BF74754DA49A37",
+      "unit": "058",
+      "german_line": 6462,
+      "german_column_1based": 1,
+      "german_byte_offset_0based": 427316,
+      "german_token": "bestehende",
+      "german_line_sha256": "045524667827CA9D3711E8EB217A1219EE4E537FF78BFB788A2206BEAB91B0AB",
+      "semantic_prose_in_math_exception": false
+    },
+    {
+      "edit_id": "ISV-SOSTAJ-0013",
+      "line": 11162,
+      "column_1based": 105,
+      "input_byte_offset_0based": 755431,
+      "output_byte_offset_0based": 755464,
+      "old": "sostaji",
+      "new": "sostoji se",
+      "input_line_sha256": "EF3600191B7CA64849A2D6536D5D359EA7955476E10D3C79499D051FC8EC0C84",
+      "output_line_sha256": "E298D58D71921BCDF82B341F58DB4DA4BA7094E9A3B74C14A50470DC82DCF2B5",
+      "unit": "081",
+      "german_line": 10280,
+      "german_column_1based": 132,
+      "german_byte_offset_0based": 781606,
+      "german_token": "besteht",
+      "german_line_sha256": "AE0CA3B9A19384473325F0351DEAE88C8020C6EF7DB5C6852BCDE769D483F4A7",
+      "semantic_prose_in_math_exception": false
+    },
+    {
+      "edit_id": "ISV-SOSTAJ-0014",
+      "line": 21961,
+      "column_1based": 284,
+      "input_byte_offset_0based": 1637223,
+      "output_byte_offset_0based": 1637259,
+      "old": "sostaji",
+      "new": "sostoji se",
+      "input_line_sha256": "27F3A8EBEE033549B84DFA40337357BA7431C08AE434E5C0C1F1A44079DD9597",
+      "output_line_sha256": "CFA6FACF73B4C36C8CCC3F795F947A707CBE44A54935BA84DBCEEA1E6B375226",
+      "unit": "205",
+      "german_line": 17962,
+      "german_column_1based": 339,
+      "german_byte_offset_0based": 1597649,
+      "german_token": "besteht",
+      "german_line_sha256": "55F70291975A1523156D84E93117178D6A6EBB7054E0B0C1AADC4B4605F89D5E",
+      "semantic_prose_in_math_exception": false
+    }
+  ],
+  "census": {
+    "changed_source_sites": 14,
+    "changed_source_lines": 13,
+    "pre_source_sostaj": 14,
+    "post_source_sostaj": 0,
+    "pre_canonical_sostoj": 145,
+    "post_canonical_sostoj": 159,
+    "historical_origin_sostaj_preserved": 14,
+    "semantic_holds": 0
+  },
+  "source_inputs": {
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1899052,
+      "sha256": "FE1A197641913CE20CF3925EBEC6850178A23BD0C7EA09A4C764896E553F55C9"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168093,
+      "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "3C157B7B26092EFF27EDBCDFF2DB372022E467A7C7468D47621E7B9DA95E3542"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "source_outputs": {
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1899091,
+      "sha256": "E5C333BAC9283EC1A3850F4CF9DD226593C0606D2F68930B2CBD0DAF0897F66A"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168093,
+      "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "3C157B7B26092EFF27EDBCDFF2DB372022E467A7C7468D47621E7B9DA95E3542"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "source_replay": {
+    "base": {
+      "input": {
+        "bytes": 1899052,
+        "sha256": "FE1A197641913CE20CF3925EBEC6850178A23BD0C7EA09A4C764896E553F55C9"
+      },
+      "output": {
+        "bytes": 1899091,
+        "sha256": "E5C333BAC9283EC1A3850F4CF9DD226593C0606D2F68930B2CBD0DAF0897F66A"
+      },
+      "reverse": {
+        "bytes": 1899052,
+        "sha256": "FE1A197641913CE20CF3925EBEC6850178A23BD0C7EA09A4C764896E553F55C9",
+        "status": "PASS_EXACT_14_SITE_POSITIONAL_REVERSE_TO_EDIT0141"
+      }
+    },
+    "transport_receipt": {
+      "bytes": 1583,
+      "sha256": "8BDC4A34787A8969DF3DB6932D7876419CFDE13AD987BCEF0E1D03C6ED459661"
+    },
+    "protected_and_structure": {
+      "comment_overlaps": 0,
+      "protected_command_overlaps": 0,
+      "math_overlaps": [
+        "ISV-SOSTAJ-0004"
+      ],
+      "math_exception": {
+        "description": "semantic prose inside \\text{...} in one \\[...\\] display; no operator or delimiter changed",
+        "input": {
+          "bytes": 165,
+          "sha256": "9DE12FC1C422A374205809C32ED4996D7A3C286AC66E9099ECC098F8FEF030BC"
+        },
+        "output": {
+          "bytes": 168,
+          "sha256": "9ED9112478CD9FF1F662A482D9FFEDF33B69A29E3BB24C393365222776858027"
+        },
+        "target_character_offset_within_span": 122
+      },
+      "all_other_ordered_math_spans_byte_identical": true,
+      "control_tokens_environments_references_comments_commands_braces_newlines_delimiters_identical": true
+    },
+    "changed_lines": [
+      623,
+      677,
+      914,
+      2392,
+      3744,
+      3781,
+      4383,
+      5984,
+      6021,
+      6030,
+      7168,
+      11162,
+      21961
+    ]
+  },
+  "old_EDIT0014_proof": {
+    "classification": "original_EDIT0014_coverage_defect_not_later_regression",
+    "record": {
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\noether_isv_v019_working\\decision_records\\ISV019-EDIT-0014.json",
+      "bytes": 6180,
+      "sha256": "3AD5183983C8F149D3945C55E5A87A8C7D851F515A617117B612355B3FAC5A9B"
+    },
+    "ledger_row": {
+      "line": 14,
+      "byte_offset_0based": 46002,
+      "bytes": 5505,
+      "sha256": "BD4170066255956C69E11A160E74B2BDEC12BF54F3186AB82FF5F89CDAB68582"
+    },
+    "plan": {
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\00_lane_control\\isv_sostoj_family_plan_v001.json",
+      "bytes": 313744,
+      "sha256": "5F8D6FC04C698C09F2F05E90A176549A217F1BA5655ADD2EAD79F6C993E2BBF1"
+    },
+    "applicator": {
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\noether_isv_v019_working\\apply_sostoj_family_v019.py",
+      "bytes": 10885,
+      "sha256": "6C54288204CD1126BCBA17A6C4EEA1D31A2D2024244794B1F46E6F968E25886F"
+    },
+    "predecessor": {
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\multilingual_latex_source_corpus_20260814\\02_extracted\\pan_slavic\\isv\\zenodo_r35_slavic-v019-working.zip\\sltex-2f218348a461c1f2165475c3__base-papers1-43-isv.tex",
+      "bytes": 1893110,
+      "sha256": "2F218348A461C1F2165475C33C5BC4DA74FB4CA34BB56122DA35E2BAD4BD8A4D"
+    },
+    "replayed_output": {
+      "bytes": 1893444,
+      "sha256": "D8027D92960EB43FAAD4C9C1F89CAB62BB806DBE1E2D34714E08646F22C7BC1E"
+    },
+    "proof": "all 14 sostaj-family forms exist in both the exact predecessor and the exact replayed EDIT0014 output"
+  },
+  "authority": {
+    "dictionary": {
+      "snapshot_id": "ISV-DICT-OFFICIAL-20260816",
+      "records": 19100,
+      "source_row": {
+        "id": "1874",
+        "isv": "sȯstojati sę iz",
+        "addition": "(sȯstoji)",
+        "partOfSpeech": "v.refl. ipf.",
+        "type": "2",
+        "en": "consist of, be composed of",
+        "sl": "!sestojati se iz",
+        "hr": "sastojati se od",
+        "sr": "састојати се из",
+        "frequency": "5491",
+        "intelligibility": "bg+ cs+ hr+ pl+ ru+ sk+ sr+ uk+",
+        "using_example": "!Ta metoda **sostoji** se iz takyh krokov:"
+      },
+      "deployed_index_0based_including_header": 4052,
+      "source_csv_line_1based": 15171,
+      "rights_boundary": "MIT licence is preserved for upstream software and associated documentation. No separate explicit dictionary-data licence was found in the preserved upstream files; the lexical data is retained as attributed research evidence without a blanket open-data or public-domain claim.",
+      "authority_boundary": "attributed research evidence; not native canon, community vote, endorsement, or automatic lexical decision"
+    },
+    "grammar": {
+      "official_site_commit": "41d94b2627dc3e5e1b48a3ebda022f7dd5172489",
+      "controls": [
+        "dictionary-supplied irregular present sȯstoji",
+        "second-conjugation -i/-et",
+        "present active participle -eči",
+        "iz under genitive"
+      ]
+    },
+    "german": {
+      "authority_id": "NOETH-DE-ED-0015",
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\candidates\\ED0015\\noether.tex",
+      "bytes": 2154017,
+      "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+      "alignments": [
+        {
+          "edit_id": "ISV-SOSTAJ-0001",
+          "source_line": 623,
+          "german_line": 945,
+          "german_column_1based": 118,
+          "german_byte_offset_0based": 53155,
+          "token": "besteht",
+          "semantic_class": "composition_predicate_consist_of"
+        },
+        {
+          "edit_id": "ISV-SOSTAJ-0002",
+          "source_line": 677,
+          "german_line": 984,
+          "german_column_1based": 74,
+          "german_byte_offset_0based": 54432,
+          "token": "besteht",
+          "semantic_class": "composition_predicate_consist_of"
+        },
+        {
+          "edit_id": "ISV-SOSTAJ-0003",
+          "source_line": 914,
+          "german_line": 1206,
+          "german_column_1based": 43,
+          "german_byte_offset_0based": 64352,
+          "token": "besteht",
+          "semantic_class": "composition_predicate_consist_of"
+        },
+        {
+          "edit_id": "ISV-SOSTAJ-0004",
+          "source_line": 2392,
+          "german_line": 2500,
+          "german_column_1based": 72,
+          "german_byte_offset_0based": 120151,
+          "token": "besteht",
+          "semantic_class": "composition_predicate_consist_of"
+        },
+        {
+          "edit_id": "ISV-SOSTAJ-0005",
+          "source_line": 3744,
+          "german_line": 3658,
+          "german_column_1based": 141,
+          "german_byte_offset_0based": 193855,
+          "token": "besteht",
+          "semantic_class": "composition_predicate_consist_of"
+        },
+        {
+          "edit_id": "ISV-SOSTAJ-0006",
+          "source_line": 3781,
+          "german_line": 3693,
+          "german_column_1based": 700,
+          "german_byte_offset_0based": 198076,
+          "token": "besteht",
+          "semantic_class": "composition_predicate_consist_of"
+        },
+        {
+          "edit_id": "ISV-SOSTAJ-0007",
+          "source_line": 3781,
+          "german_line": 3693,
+          "german_column_1based": 756,
+          "german_byte_offset_0based": 198132,
+          "token": "besteht",
+          "semantic_class": "composition_predicate_consist_of"
+        },
+        {
+          "edit_id": "ISV-SOSTAJ-0008",
+          "source_line": 4383,
+          "german_line": 4120,
+          "german_column_1based": 95,
+          "german_byte_offset_0based": 241896,
+          "token": "besteht",
+          "semantic_class": "composition_predicate_consist_of"
+        },
+        {
+          "edit_id": "ISV-SOSTAJ-0009",
+          "source_line": 5984,
+          "german_line": 5343,
+          "german_column_1based": 641,
+          "german_byte_offset_0based": 344922,
+          "token": "bestehen",
+          "semantic_class": "composition_predicate_consist_of"
+        },
+        {
+          "edit_id": "ISV-SOSTAJ-0010",
+          "source_line": 6021,
+          "german_line": 5381,
+          "german_column_1based": 489,
+          "german_byte_offset_0based": 349171,
+          "token": "bestehenden",
+          "semantic_class": "composition_predicate_consist_of"
+        },
+        {
+          "edit_id": "ISV-SOSTAJ-0011",
+          "source_line": 6030,
+          "german_line": 5390,
+          "german_column_1based": 650,
+          "german_byte_offset_0based": 350249,
+          "token": "Bestehe",
+          "semantic_class": "composition_predicate_consist_of"
+        },
+        {
+          "edit_id": "ISV-SOSTAJ-0012",
+          "source_line": 7168,
+          "german_line": 6462,
+          "german_column_1based": 1,
+          "german_byte_offset_0based": 427316,
+          "token": "bestehende",
+          "semantic_class": "composition_predicate_consist_of"
+        },
+        {
+          "edit_id": "ISV-SOSTAJ-0013",
+          "source_line": 11162,
+          "german_line": 10280,
+          "german_column_1based": 132,
+          "german_byte_offset_0based": 781606,
+          "token": "besteht",
+          "semantic_class": "composition_predicate_consist_of"
+        },
+        {
+          "edit_id": "ISV-SOSTAJ-0014",
+          "source_line": 21961,
+          "german_line": 17962,
+          "german_column_1based": 339,
+          "german_byte_offset_0based": 1597649,
+          "token": "besteht",
+          "semantic_class": "composition_predicate_consist_of"
+        }
+      ],
+      "claim_boundary": "project-active sentence control; not native-language or critical-edition certification"
+    },
+    "active_german": {
+      "authority_id": "NOETH-DE-ED-0015",
+      "pointer_id": "NOETH-DE-AUTH-v052-20260815",
+      "source_bytes": 2154017,
+      "source_sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+      "activation_version_doi": "10.5281/zenodo.21940320",
+      "role": "project-active source control; not native-language, canonical, critical-edition, or translation certification"
+    }
+  },
+  "historical_origins": [
+    {
+      "unit": "005",
+      "assembled_lines": [
+        529,
+        635
+      ],
+      "origin": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper02\\interslavic\\v001\\Noether_Paper02_Section03_Interslavic_v001.tex",
+      "bytes": 7634,
+      "sha256": "A36275222B056854F2A2488BCDF0B823A8E7DE9A24C8836456EDD48F6A84C222",
+      "legacy_sostaj_tokens_preserved": [
+        "sostaji"
+      ],
+      "disposition": "immutable_historical_origin_not_mutated"
+    },
+    {
+      "unit": "006",
+      "assembled_lines": [
+        642,
+        844
+      ],
+      "origin": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper02\\interslavic\\v001\\Noether_Paper02_Section05_Interslavic_v001.tex",
+      "bytes": 7256,
+      "sha256": "5A63CC75BBB84E097916A6E1002E88D439F3832CB750E8B9CB9DD31EBF3E8735",
+      "legacy_sostaj_tokens_preserved": [
+        "sostaji"
+      ],
+      "disposition": "immutable_historical_origin_not_mutated"
+    },
+    {
+      "unit": "007",
+      "assembled_lines": [
+        851,
+        1018
+      ],
+      "origin": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper02\\interslavic\\v001\\Noether_Paper02_Section06_Interslavic_v001.tex",
+      "bytes": 9335,
+      "sha256": "42FA23A1D8C0B5DA4F173A86B7932FAD7D3CEE65C78FAF5DC6296EFA8759DC0F",
+      "legacy_sostaj_tokens_preserved": [
+        "sostaji"
+      ],
+      "disposition": "immutable_historical_origin_not_mutated"
+    },
+    {
+      "unit": "018",
+      "assembled_lines": [
+        2365,
+        2508
+      ],
+      "origin": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper02\\interslavic\\v001\\Noether_Paper02_Section17_Interslavic_v001.tex",
+      "bytes": 5942,
+      "sha256": "2FA292901E55458A8EB4C276FC3AD9C956B20ABC126A7552D689914FCA4EA195",
+      "legacy_sostaj_tokens_preserved": [
+        "sostaji"
+      ],
+      "disposition": "immutable_historical_origin_not_mutated"
+    },
+    {
+      "unit": "030",
+      "assembled_lines": [
+        3719,
+        3783
+      ],
+      "origin": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper04\\interslavic\\v001\\Noether_Paper04_Section01_Interslavic_v001.tex",
+      "bytes": 5986,
+      "sha256": "8CD157FB8531E1E8FC831627E9BE1F8D0CD9E5B0A94A8F8E2A1C5524514A9158",
+      "legacy_sostaj_tokens_preserved": [
+        "sostaji",
+        "sostaji",
+        "sostaji"
+      ],
+      "disposition": "immutable_historical_origin_not_mutated"
+    },
+    {
+      "unit": "035",
+      "assembled_lines": [
+        4344,
+        4434
+      ],
+      "origin": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper04\\interslavic\\v001\\Noether_Paper04_Section06_Interslavic_v001.tex",
+      "bytes": 10067,
+      "sha256": "0938003A743B6DBAE4BF1E7F9B329D0E90668EA13FA88C8D43A45463B0888644",
+      "legacy_sostaj_tokens_preserved": [
+        "sostaji"
+      ],
+      "disposition": "immutable_historical_origin_not_mutated"
+    },
+    {
+      "unit": "049",
+      "assembled_lines": [
+        5953,
+        6032
+      ],
+      "origin": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper06\\interslavic\\v001\\Noether_Paper06_Section09_Interslavic_v001.tex",
+      "bytes": 7715,
+      "sha256": "3DA94F33C3BB3AEA344C4755A6053A25C1A157A3C4A485AD110E15E8AD332B43",
+      "legacy_sostaj_tokens_preserved": [
+        "sostaji",
+        "sostaječu",
+        "sostaji"
+      ],
+      "disposition": "immutable_historical_origin_not_mutated"
+    },
+    {
+      "unit": "058",
+      "assembled_lines": [
+        7114,
+        7178
+      ],
+      "origin": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper09\\interslavic\\v001\\Noether_Paper09_Introduction_Interslavic_v001.tex",
+      "bytes": 8159,
+      "sha256": "692934E9BC94A3700A5E3E2D90FCE6DB0C1898D682790BB7A5D501557DC4785E",
+      "legacy_sostaj_tokens_preserved": [
+        "sostajuča"
+      ],
+      "disposition": "immutable_historical_origin_not_mutated"
+    },
+    {
+      "unit": "081",
+      "assembled_lines": [
+        11128,
+        11213
+      ],
+      "origin": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper17\\interslavic\\v001\\Noether_Paper17_Section04_Interslavic_v001.tex",
+      "bytes": 7622,
+      "sha256": "A094EBF8D3628B4D0898770BBEF8A9AF36D814F3E39D8BACC4AAC612DB06C2AD",
+      "legacy_sostaj_tokens_preserved": [
+        "sostaji"
+      ],
+      "disposition": "immutable_historical_origin_not_mutated"
+    },
+    {
+      "unit": "205",
+      "assembled_lines": [
+        21869,
+        21969
+      ],
+      "origin": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\02_slavic_working_corpus\\translations\\paper34\\source_fidelity_section21\\interslavic\\v001\\Noether_Paper34_Section21_SourceFidelity_Interslavic_v001.tex",
+      "bytes": 6892,
+      "sha256": "125C2DF15127D0CF48767C1CD634E977E3D883BD90C16DA86ADFFF0E772BB8AB",
+      "legacy_sostaj_tokens_preserved": [
+        "sostaji"
+      ],
+      "disposition": "immutable_historical_origin_not_mutated"
+    }
+  ],
+  "producer_preservation_receipt": {
+    "count": 6,
+    "effect": "all six active producer successors and the inactive Paper24 shadow are byte-preserved; ten immutable origins retain the 14 historical forms",
+    "entries": [
+      {
+        "unit": "Paper02-Section01",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section01_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex",
+        "input": {
+          "bytes": 6798,
+          "sha256": "393F295537ABA3C5683438CD3F9936AE88B8271D944F7B833D5C1F43924900C2"
+        },
+        "historical_body": {
+          "bytes": 6455,
+          "sha256": "52A48949BCBCC420383107854838BA517B97FB769E433344BE42EA10FC69A975"
+        },
+        "live_body_input": {
+          "bytes": 6562,
+          "sha256": "A2B8CA77B47A0914C8255AECBE92AAF6CE7EB50CEEE016CE45FD9AC00ABE5B85"
+        },
+        "reconstructed_pre_edit_shadow": {
+          "bytes": 6905,
+          "sha256": "68DBCA99A4B80DE8EFE83B2472EC53D96CFD4D880E30F2AB1E58A8A66449547A"
+        },
+        "body_output": {
+          "bytes": 6793,
+          "sha256": "AED6BFFE073F94154F974403D1D1FADE6D79A418AFBC78916A9DD6E4EFD64117"
+        },
+        "output": {
+          "bytes": 7619,
+          "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"
+        },
+        "lineage": "historical preamble shell plus live normalized Unit003 body; historical body not reused"
+      },
+      {
+        "unit": "Paper02-Section11",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section11_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+        "input": {
+          "bytes": 14940,
+          "sha256": "37B613F59FC8D4F101A714AF84B5DA0AE28FED93123EBA52C0363B234E3D499A"
+        },
+        "output": {
+          "bytes": 14964,
+          "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+        }
+      },
+      {
+        "unit": "Paper08",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper08/interslavic/v001/Noether_Paper08_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper08_Interslavic_v001.tex",
+        "input": {
+          "bytes": 23684,
+          "sha256": "40A84F8E13423AFC923C4C0C714CBFB78C11EBD6F10343EEACA93090FCBB10C3"
+        },
+        "output": {
+          "bytes": 23894,
+          "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"
+        }
+      },
+      {
+        "unit": "Paper22",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper22/interslavic/v001/Noether_Paper22_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+        "input": {
+          "bytes": 77611,
+          "sha256": "6A78318258A2C609D030A248E66834055E904DC808BECA797433C461B31558B6"
+        },
+        "output": {
+          "bytes": 78294,
+          "sha256": "7A57652D07B6A71EBCCFF73466C24660E0B8C9C1CD715AF74665E3899BE1B02F"
+        }
+      },
+      {
+        "unit": "Paper24",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper24/working/through-section07/interslavic/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+        "local": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+        "input": {
+          "bytes": 94891,
+          "sha256": "1AFB653CAD5CFE903BC80CB64DE192D22BE33579131208309844F7104CA0BC6B"
+        },
+        "reconstructed_pre_edit_shadow": {
+          "bytes": 95451,
+          "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+        },
+        "output": {
+          "bytes": 95655,
+          "sha256": "E20E3A5F790CED79FA8D55F3E34EA04C6786C0A801BBC390B30040869C2E7DF1"
+        }
+      },
+      {
+        "unit": "Paper34-Section23",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper34/source_fidelity_section23/interslavic/v001/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+        "input": {
+          "bytes": 4638,
+          "sha256": "965699990152B0707997CFE43D58300E243E690657FC85D326486A835E2AC8C0"
+        },
+        "reconstructed_pre_edit_shadow": {
+          "bytes": 4690,
+          "sha256": "BFEE5482B4B35155C44D6577D810E4CACB1932B6A9C63031266EFC2EFA7DEE6A"
+        },
+        "output": {
+          "bytes": 4752,
+          "sha256": "B811E94705075CBA321A016DD3F633B4F47041191835708A113EB6C4ADCC196B"
+        }
+      }
+    ],
+    "inactive_shadow": {
+      "path": "producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+      "bytes": 95451,
+      "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+    }
+  },
+  "agent_audit": [
+    {
+      "task_identity": "/root/audit_isv_next_0142/qa_edit0142_applicator",
+      "coordinating_task_identity": "/root/audit_isv_next_0142",
+      "display_name": "Aquinas the 2nd",
+      "model_effort": "inherited parent model/effort; exact surface not exposed to this writer",
+      "brief": "independent read-only audit of the 14-site current-source repair, exact EDIT0014 omission proof, authority evidence, protected exception, producers/origins, reverse replay, and transaction gates",
+      "files_and_hashes_read": {
+        "applicator": {
+          "bytes": 91655,
+          "sha256": "ADDDD2F0A8C12EBE1540848230E1C6321A34ECBF40C9AC2207E0F499873A0BB8"
+        },
+        "input_base": {
+          "bytes": 1899052,
+          "sha256": "FE1A197641913CE20CF3925EBEC6850178A23BD0C7EA09A4C764896E553F55C9"
+        },
+        "output_base": {
+          "bytes": 1899091,
+          "sha256": "E5C333BAC9283EC1A3850F4CF9DD226593C0606D2F68930B2CBD0DAF0897F66A"
+        },
+        "old_EDIT0014_record": {
+          "bytes": 6180,
+          "sha256": "3AD5183983C8F149D3945C55E5A87A8C7D851F515A617117B612355B3FAC5A9B"
+        },
+        "old_EDIT0014_ledger_row": {
+          "bytes": 5505,
+          "sha256": "BD4170066255956C69E11A160E74B2BDEC12BF54F3186AB82FF5F89CDAB68582"
+        },
+        "old_EDIT0014_plan": {
+          "bytes": 313744,
+          "sha256": "5F8D6FC04C698C09F2F05E90A176549A217F1BA5655ADD2EAD79F6C993E2BBF1"
+        },
+        "old_EDIT0014_applicator": {
+          "bytes": 10885,
+          "sha256": "6C54288204CD1126BCBA17A6C4EEA1D31A2D2024244794B1F46E6F968E25886F"
+        },
+        "official_dictionary_source_csv": {
+          "bytes": 8101157,
+          "sha256": "0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561"
+        },
+        "german_ED0015": {
+          "bytes": 2154017,
+          "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907"
+        }
+      },
+      "returned_findings": "ACCEPT: independent transform equals E5C333...; exact reverse restores FE1A197...; all 14 loci are original EDIT0014 omissions; 14/13 census, 145-to-159 canonical transport, one pinned prose-in-math exception, ten origins/14 historical forms, six producers and shadow preserved, evidence and residue gates pass",
+      "development_failures_preserved": [
+        "corrected open_dispositions to the required empty-list type",
+        "corrected German ED0015 line hashing to preserve its CRLF transport",
+        "corrected protected-helper structure length to eleven surfaces while excluding only the one math Counter index"
+      ],
+      "parent_verification": "writer independently reran installed-output pins, exact positional reverse, forward transform, census, ten-origin proof, old EDIT0014 replay, dictionary/grammar/German evidence, and zero-residue gates",
+      "seal_review": {
+        "reviewed_sealer": {
+          "bytes": 39336,
+          "sha256": "0B3E70EFB1880563EAA532F10103B55EEFA19B695D8BA5649E47B05CE35076FA"
+        },
+        "reviewed_audit": {
+          "bytes": 25178,
+          "sha256": "B8E3AA3B5D884C39B115B0D240A4BAB1D8B579EF10C129C1C494A0AB40326C74"
+        },
+        "reviewed_normalized_verifier": {
+          "bytes": 2124,
+          "sha256": "957C1C25D7CBEBDBFAFE46409666E3130D6F361D60D674E1DE7FBE452BCBECF0"
+        },
+        "returned_findings": "ACCEPT with zero blocking defects: two byte-identical no-write plans, exact append prefixes, cycle-free verifier/state/worklog binding, truthful pending/final modes, independently rederived content/evidence, exact-pinned transaction helper, identity-guarded rollback, and no cross-crash claim",
+        "disposition": "ACCEPTED_AND_INTEGRATED_BEFORE_APPLY",
+        "post_review_successor_boundary": "the final sealer successor changes only this durable seal-review record; executable logic, audit, verifier template, and all input constants remain byte-identical to the independently accepted candidate"
+      },
+      "disposition": "ACCEPTED_AND_INTEGRATED",
+      "workspace_writes": false
+    }
+  ],
+  "transaction_history": {
+    "production_apply": {
+      "status": "PASS_EXACT_SUCCESSOR_INSTALLED",
+      "source_input": {
+        "bytes": 1899052,
+        "sha256": "FE1A197641913CE20CF3925EBEC6850178A23BD0C7EA09A4C764896E553F55C9"
+      },
+      "source_output": {
+        "bytes": 1899091,
+        "sha256": "E5C333BAC9283EC1A3850F4CF9DD226593C0606D2F68930B2CBD0DAF0897F66A"
+      },
+      "exclusive_create_ownership": "owned only after descriptor/path identity and regular-file type agreed",
+      "rollback_semantics": "guarded in-process rollback recognizes only invocation-owned predecessor/successor identities and never overwrites a foreign inode",
+      "residue": [],
+      "cross_crash_claim": false
+    },
+    "metadata_seal": {
+      "helper": {
+        "path": "seal_isv_edit0141_v019.py",
+        "bytes": 42731,
+        "sha256": "D214EDD27D6BB63232A366E6DC59F9D018855370E29FEC4834966DE2B50A0175"
+      },
+      "scope": "cooperative-lock, exact-byte and inode re-pin, exclusive-create stage/backup, identity-owned cleanup, guarded in-process rollback",
+      "cross_crash_claim": false
+    }
+  },
+  "applicator": {
+    "path": "apply_sostaj_coverage_correction_v019.py",
+    "bytes": 91655,
+    "sha256": "ADDDD2F0A8C12EBE1540848230E1C6321A34ECBF40C9AC2207E0F499873A0BB8",
+    "default_mode": "strict_no_write_dry_run",
+    "production_apply": "exit 0; exact one-file successor installed; transaction residue zero"
+  },
+  "sealer": {
+    "path": "seal_isv_edit0142_v019.py",
+    "bytes": 40444,
+    "sha256": "89B735B762202C8D72598BD1616335153D4DDF1912489E75D8CC35EE3F2D54F9"
+  },
+  "verifier_identity": {
+    "path": "verify_session_independent_state_v019.ps1",
+    "bytes": 2124,
+    "normalization": "replace_the_single_embedded_state_canonical_sha256_with_64_ascii_zeroes",
+    "normalized_sha256": "957C1C25D7CBEBDBFAFE46409666E3130D6F361D60D674E1DE7FBE452BCBECF0"
+  },
+  "audit_companion": {
+    "path": "verify_isv_edit0142_v019.py",
+    "bytes": 25178,
+    "sha256": "B8E3AA3B5D884C39B115B0D240A4BAB1D8B579EF10C129C1C494A0AB40326C74"
+  },
+  "qa": {
+    "exact_positional_reverse": "PASS_EDIT0141_BASE",
+    "forward_replay": "PASS_EXACT_LIVE_EDIT0142",
+    "original_EDIT0014_coverage_proof": "PASS",
+    "census_and_protected_structure": "PASS",
+    "origins_producers_dictionary_grammar_german": "PASS",
+    "transaction_residue": 0
+  },
+  "open_dispositions": [],
+  "explicit_holds_after": 0,
+  "closed_retained_authority_records": 4,
+  "build_effect": "none; existing cumulative build and visual evidence predates EDIT0142",
+  "publication_effect": "none; working v019/EDIT0142 remains unpublished",
+  "doi_effect": "none",
+  "native_validation_claim": false,
+  "license_effect": "none; artifact-specific rights and provenance remain unchanged"
+}

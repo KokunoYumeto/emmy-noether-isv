@@ -1,0 +1,47 @@
+{
+  "decision_id": "ISV019-EDIT-0074",
+  "recorded_at": "2026-08-13T15:01:57.1777288+02:00",
+  "epistemic_type": "manager_book_connective_semantic_closure",
+  "scope": "All 155 residual whole-token tedy occurrences in Book 44 after the conditional and equivalence tranches.",
+  "choice": "Render 151 ordinary conclusions as zato, one explicit equivalence as to jest, and three causal-collision contexts with a tym samym/tym samym recast.",
+  "motivation": "Every Book occurrence was classified against German and clause syntax. No temporal use remains; collision-aware recasts avoid malformed zato...zato že sequences.",
+  "alternatives_rejected": [
+    "Blanket zato would create three causal collisions and misrender one equivalence.",
+    "Togda would invent temporal event ordering; the audited temporal category is empty.",
+    "Retaining tedy preserves a West-only connective layer despite exact semantic resolution."
+  ],
+  "evidence": {
+    "semantic_partition": {"ordinary_logical_consequence": 151, "equivalence_apposition": 1, "collision_recasts": 3, "temporal": 0},
+    "german_controls": "Exact controls distinguish ordinary also/mithin/folglich, one group-order/exponent equivalence, and three also-da collision clauses.",
+    "ordinal_review": "Every one of 155 pre-edit Book matches was selected exactly once, including four separately classified tokens on line 2836."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0073",
+    "decision_log": {"bytes": 282165, "sha256": "BF3999CF83595529442C0977730AE8C2866632647EB6E8E8F35EFDB8659EDE85"},
+    "source_latin/44-book-isv.tex": {"bytes": 168051, "sha256": "06260D2CA973CB9A0E0CD7B7A7E82A36773A4B3443F1A43542545F9D4476BC43"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897534, "sha256": "9E90CE9910A7947C1B274AA36607CCBFE34001D0EC6526F40AF00EF98FF34653"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 155,
+    "book_tedy_teda_residue": 0,
+    "paper45_tedy_teda_residue": 0,
+    "bib_tedy_teda_residue": 0,
+    "base_tedy_teda_pending_semantic_resolution": 251,
+    "unresolved_book_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168067, "sha256": "1BC8264DF32288340D46639CC37C9219418520EC7FAA9055B5F38D988BDD40B9"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897534, "sha256": "9E90CE9910A7947C1B274AA36607CCBFE34001D0EC6526F40AF00EF98FF34653"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_book_connective_closure_v019.py", "bytes": 5481, "sha256": "239FCCBB1084480C677C123C072FBF0D1A382F03F80A5CD4C1226E0AE0D7693C"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0073",
+    "coverage": "155/155 Book tokens selected exactly once",
+    "postcondition": "Book, paper45 and bibliography have zero tedy/teda; base alone retains 251 pending classified sites",
+    "structure": "TeX controls, labels/refs/cites, braces, math delimiters and line counts invariant",
+    "reproducibility": "frozen successor hashes reproduced before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

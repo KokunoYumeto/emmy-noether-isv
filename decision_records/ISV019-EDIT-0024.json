@@ -1,0 +1,53 @@
+{
+  "decision_id": "ISV019-EDIT-0024",
+  "recorded_at": "2026-08-13T01:02:00.0000000+02:00",
+  "epistemic_type": "manager_direct_lexical_morphological_and_semantic_normalization",
+  "scope": "The complete 413-token drž/soderž/sadrž/sodrž family in the current Latin reader.",
+  "choice": "Use canonical sodrživati for mathematical containment and sodržanje for content: normalize 387 inflected tokens mechanically, recast one semantic-content phrase as smyslovom soglasju, keep nine already-canonical content nouns, and preserve sixteen distinct držati/zadržati tokens. Never use sodržati for containment because its official meaning is hold back/inhibit.",
+  "motivation": "The inherited text mixed Russian-like soderž-, South-like sadrž-, and partially normalized sodrž- paradigms, sometimes using forms that look like sodržati even though the official containment verb is sȯdŕživati. One canonical type-appropriate family removes the internal national mixture while retaining transparent morphology. The content noun is separately official; the one phrase about agreement in meaning is clearer as smyslovom soglasju than as a containment noun.",
+  "alternatives_rejected": [
+    "Normalize containment to sodržati; official id 72 means hold back/inhibit, not contain.",
+    "Keep a Russian soderž- versus South sadrž- doublet; that reproduces the national-source mixture instead of an Interslavic paradigm.",
+    "Use imati for every containment relation; it is broad but erases the technical distinction between having and containing.",
+    "Treat držati and zadržati as spelling errors; their sixteen contexts use separate official hold/retain meanings."
+  ],
+  "evidence": {
+    "bounded_agent": "/root/soderz_family",
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "contain": "id 2163 sȯdŕživati",
+      "content": "id 3942 sȯdŕžańje",
+      "hold_back_inhibit": "id 72 sȯdŕžati",
+      "hold_keep": "id 2617 dŕžati"
+    },
+    "official_grammar": {
+      "path_suffix": "official_site/docs/learn/grammar/verbs.md",
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+      "application": "The productive -ivati stem and standard present/participle rules yield sodrživaje, sodrživajut, sodrživajuči and sodrživany."
+    }
+  },
+  "results": {
+    "family_tokens_reviewed": 413,
+    "mechanical_normalizations": 387,
+    "semantic_recasts": 1,
+    "canonical_content_tokens_kept": 9,
+    "separate_lexeme_tokens_preserved": 16,
+    "unmapped_types": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167959, "sha256": "A57D6BB65CC818FEB87C17A9BEB44C713F2933D446BF9288990D3E054E32FD5D"},
+    "source_latin/45-isv.tex": {"bytes": 25507, "sha256": "93CF9796801EC73EB5817132B71F92CB077D8218CE0ED54C2A9C605BBFA4611F"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1895765, "sha256": "EDFDBCC010DAF22629D6F1EACF07245EEBC60800700833220884F0A41C42B60E"},
+    "source_latin/bib-isv.tex": {"bytes": 9578, "sha256": "E5951A6278A556003C44DE30FC0012C1421606BDB1DE3AB6CF05C01986D9613B"}
+  },
+  "tool": {"path": "apply_soderz_family_v019.py", "bytes": 5498, "sha256": "1F6AECF5A3462AEB6DCC5DC9E6B1F498AB76839265A620D6E548BF63BB4F88FD"},
+  "validation": {
+    "prehashes": "4/4 exact",
+    "dry_run_then_apply": "frozen output hashes reproduced",
+    "partition": "387 changed + 1 semantic recast + 9 canonical content + 16 protected distinct lexemes = 413",
+    "type_coverage": "all 68 observed case-sensitive types accounted for",
+    "structure": "TeX controls, references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

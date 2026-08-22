@@ -1,0 +1,132 @@
+{
+  "decision_id": "ISV019-EDIT-0102",
+  "recorded_at": "2026-08-13T17:03:10.2738578+02:00",
+  "epistemic_type": "preferred_third_person_plural_possessive_normalization",
+  "scope": "Twenty-two sentence-audited non-headword Njihov-/njihov- possessive tokens in the base papers.",
+  "choice": "Replace every audited adjectival Njihov-/njihov- form with the official preferred indeclinable third-person plural possessive Jih/jih, preserving sentence-initial capitalization.",
+  "motivation": "Official Interslavic grammar says the genitive personal-pronoun possessives jego, jej and jih are the most common third-person forms and are not inflected. Every mapped site means their; the inherited South-shaped adjectival family is absent as an Interslavic headword and creates an unnecessary mixed paradigm.",
+  "alternatives_rejected": [
+    "Retaining njihov- was rejected because it is absent as an official Interslavic headword and preserves a South-Slavic source-layer family beside established jih.",
+    "Normalizing to adjectival jihny- was rejected because the grammar presents it only as an alternative and the dictionary marks it type 2, whereas indeclinable jih is type 1 and explicitly preferred in ordinary usage.",
+    "Replacing a wider substring family was rejected; only the exact 22 sentence-audited possessive tokens were admitted.",
+    "Using reflexive svoj was rejected because none of the 22 possessors is coreferential with the grammatical subject in the relevant clause."
+  ],
+  "evidence": {
+    "official_grammar": "Official pronouns.md (10370 bytes, SHA-256 AB4F7B04FD55618DE2EB5FEB282558BEDEC6C205BEBB0E6BBD612CB3FBC88141) lines 48-52 says third-person possessive jih is most common and uninflected; adjectival jihny is an alternative.",
+    "official_dictionary": "Official dictionary ID 2601 gives jih, possessive pronoun, type 1, 'their'; ID 6258 gives alternative jihny as type 2. No Njihov-/njihov- Interslavic headword exists.",
+    "cross_family_evidence": "The official comparator row for jih bridges West and East forms (Polish ich, Czech jejich, Slovak ich, Belarusian/Russian/Ukrainian іх/их/їх) while retaining Slovene recognition; the removed adjectival surface is concentrated in the South comparators.",
+    "semantic_audit": "All 22 sites denote third-person plural possession of a basis, resultant, variety, powers, quotient, invariants, least common multiple, number, meaning, components, structure, automorphism rings, representations or products. There are zero object-pronoun or reflexive-possessive sites.",
+    "protected_domains": "No mapped token occurs in a TeX control name, comment, foreign quotation or bibliography identity. Headings and explanatory footnotes containing mapped tokens are editable Interslavic prose."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0101",
+    "decision_log": {
+      "bytes": 376212,
+      "sha256": "96500959EE95F491915E01C4CEF0927879122EC99D2FBD8477E3837B6AD3B10E"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "055A3DF3E26DB72AEE376C4BCEEBF689C723A060A06E2FBE8B56E4492C16AADD"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898301,
+      "sha256": "CC28D3C72C7A787044FC69EB24BC7D37587DE5C97443F3819A9466CC8EB02B59"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "mapping": {
+    "njihov": "jih",
+    "njihova": "jih",
+    "Njihove": "Jih",
+    "njihove": "jih",
+    "njihovih": "jih",
+    "njihovo": "jih",
+    "Njihovo": "Jih",
+    "njihovoj": "jih",
+    "njihovu": "jih",
+    "njihovyh": "jih",
+    "njihovym": "jih"
+  },
+  "locators": {
+    "source_latin/base-papers1-43-isv.tex": [
+      "6034:56",
+      "6108:1",
+      "8877:701",
+      "10071:709",
+      "10085:192",
+      "10287:241",
+      "12718:99",
+      "12927:632",
+      "12959:162",
+      "15042:624",
+      "15242:702",
+      "15284:427",
+      "15338:297",
+      "20999:120",
+      "21093:147",
+      "21919:54",
+      "22022:33",
+      "23356:997",
+      "23370:82",
+      "23485:146",
+      "23672:44",
+      "23875:62"
+    ]
+  },
+  "results": {
+    "sites_changed": 22,
+    "source_histogram": {
+      "njihov": 2,
+      "njihova": 3,
+      "Njihove": 1,
+      "njihove": 1,
+      "njihovih": 4,
+      "njihovo": 3,
+      "Njihovo": 3,
+      "njihovoj": 1,
+      "njihovu": 2,
+      "njihovyh": 1,
+      "njihovym": 1
+    },
+    "mapped_source_residue": 0,
+    "preferred_jih_total": 157,
+    "preferred_lowercase_jih_total": 151,
+    "preferred_capitalized_Jih_total": 6,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "055A3DF3E26DB72AEE376C4BCEEBF689C723A060A06E2FBE8B56E4492C16AADD"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898208,
+      "sha256": "B43B1B1ADB448286F8F1BBD2E8E96CB87EEE2754CA6C1D66AC084DF46AE560F1"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "tool": {
+    "path": "apply_possessive_jih_v019.py",
+    "bytes": 5194,
+    "sha256": "7EDFAA20FAB75B70A16CA094C35326CDD96A3C175052BDC16435A117A14D31A6"
+  },
+  "validation": {
+    "coverage": "The frozen source histogram contains exactly 22 whole-token Njihov-/njihov- possessives over 11 case-sensitive surface forms, all in the base papers.",
+    "postcondition": "Every mapped adjectival source form is zero; all-source jih/Jih rises from 135 to 157.",
+    "structure": "Line count, raw brace counts, ordered TeX-control stream and math-delimiter stream are invariant; the other three Latin source files are byte-identical.",
+    "reproducibility": "The frozen successor was independently calculated and matched the exact bytes/hash before the source patch was admitted."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

@@ -1,0 +1,24 @@
+{
+  "decision_id": "ISV019-EDIT-0019",
+  "recorded_at": "2026-08-13T00:33:48.9197076+02:00",
+  "epistemic_type": "manager_direct_official_morphology_and_sentence_formula_repair",
+  "scope": "196 representation-family genitive plurals, one bibliographic title noun, and 23 proof-ending formulas.",
+  "choice": "Use official genitive plural prědstavjenij rather than inherited zero-ending prědstavjenj; recast the title's mental-image noun prědstava as mathematical prědstavjenje with agreeing case; replace Russian-calqued čto bylo dokazati by tym jest dokazano.",
+  "motivation": "The pinned official morphology generator maps the -ńj- noun root to genitive plural -nij. All 196 contexts are genitive plural. Official prědstava means notion/mental image and is semantically wrong in the title about mathematical representation. The transparent proof close removes an avoidable Russian syntactic calque.",
+  "alternatives_rejected": ["Retain the systemic but noncanonical zero genitive plural.", "Keep a wrong mental-image lexeme in a mathematical title.", "Preserve Russian QED syntax as a fixed reader formula."],
+  "results": {
+    "total_edits": 220,
+    "genitive_plural_edits": 196,
+    "qed_formula_edits": 23,
+    "title_recasts": 1,
+    "source_latin/44-book-isv.tex": {"bytes": 167895, "sha256": "C062A894754B25CBE55D71954C09A86FC05C627779CC3059B17380A3D2D7544B"},
+    "source_latin/45-isv.tex": {"bytes": 25503, "sha256": "FEA709F181E64292D4EB2C9B17A0E094C09EBDC2E0079E2D722A55C162B758AA"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1894895, "sha256": "382D8BD505DE2F0C05A07BE5D426BD0BD52CE6218913E99E66B62A944A032570"},
+    "source_latin/bib-isv.tex": {"bytes": 9578, "sha256": "E5951A6278A556003C44DE30FC0012C1421606BDB1DE3AB6CF05C01986D9613B"},
+    "unresolved_linguistic_holds": 0
+  },
+  "evidence": {"official_headword": "prědstavjeńje", "official_generator_result": "gen.sg prědstavjenja; gen.pl prědstavjenij", "bounded_agent": "/root/predstav_family"},
+  "tool": {"path": "apply_predstav_genpl_qed_v019.py", "bytes": 3371, "sha256": "5F77B35CD5B6B4E483F23FCEE26D7BC46250F6E7078B81F11C5BA721FD476882"},
+  "validation": {"prehashes": "4/4 exact", "counts": "196 + 23 + 1 exact", "structure": "TeX controls, references, braces, and math delimiters unchanged", "outputs": "dry-run hashes frozen before write and reproduced after write"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

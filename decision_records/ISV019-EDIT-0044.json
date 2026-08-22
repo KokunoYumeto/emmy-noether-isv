@@ -1,0 +1,72 @@
+{
+  "decision_id": "ISV019-EDIT-0044",
+  "recorded_at": "2026-08-13T02:29:17.9718115+02:00",
+  "epistemic_type": "manager_direct_inference_connective_normalization",
+  "scope": "All 86 slědovateljno/slědovatelno/sledovateljno inference markers and all 15 poslědovateljno occurrences in live v019 Latin sources.",
+  "choice": "Replace 97 genuine inference/result markers with official type-1 zato/Zato, except the unique zato-že collision at base line 9955, which becomes tym samym. Preserve the three genuinely sequential poslědovateljno sites at base lines 2049, 2155, and 17206.",
+  "motivation": "The inherited conclusion layer used the type-2 East-heavy follow-root adverb and included twelve semantically nonsequential poslědovateljno tokens. Official zato is a cross-family result marker already established throughout this edition. Context classification prevents damage to German sukzessive sites and to causal zato že.",
+  "alternatives_rejected": [
+    "Retain slědovateljno after spelling repair: this preserves the dominant-language collapse and leaves twelve semantic sequence/inference errors.",
+    "Replace all poslědovateljno mechanically: three occurrences genuinely mean successively or sequentially.",
+    "Use tym samym globally: many existing occurrences mean identity ('the same'), and its bounded East/Southeast comparator support is weak.",
+    "Use teda/tedy or a full iz togo slěduje recast everywhere: these are either branch-weighted or unnecessarily invasive."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "entries": [
+        "id 35139 slědovateljno, adverb type 2, consequently/therefore, genesis Russian/Bulgarian",
+        "id 3056 zato, adverb type 1, therefore/that's why, broad West/South/East comparator profile",
+        "id 10980 poslědovateljno, adverb type 2, consecutively/successively/subsequently"
+      ]
+    },
+    "official_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/conjunctions.md",
+      "bytes": 2435,
+      "sha256": "3E986444A77D27A01586B15BFDDE96937E0A265AAEDE09E3A313BE403489B2AB",
+      "relevance": "zato že is explicitly causal and was protected from result-marker normalization"
+    },
+    "german_context_review": {
+      "finding": "all 86 core sites and twelve selected poslědovateljno sites align with folglich/result inference; protected lines 2049 and 2155 align with sukzessive einmalige Faltung, and line 17206 is sequential in a composition series"
+    },
+    "independent_math_comparators": {
+      "manifest": "C:/Users/Floris/Documents/Codex/2026-05-26/there-is-currently-an-ongoing-process/other_pc_sidebranch_worktree/language-source-bodies/slavic-non-ru-uk-20260705/MANIFEST.csv",
+      "manifest_bytes": 460558,
+      "manifest_sha256": "3BF053AABB26210539E263B33B8F12960C888118409FD4D0898D73A91F74F286",
+      "finding": "West, South, and Belarusian mathematical sources use several native result markers; the long follow-root marker is localized at the Bulgarian/Macedonian edge. Languages were counted as independent cohorts, not token votes."
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0043",
+    "source_latin/44-book-isv.tex": {"bytes": 167960, "sha256": "F700E7DF1519675C20FE28DB7362C8622F1AF9AF065E8177AFBD43DEFC6F56DD"},
+    "source_latin/45-isv.tex": {"bytes": 25526, "sha256": "4E47FD1C693F89726DC65607A7500C9376EA0F09E8BC48EE46D48893BD580292"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898148, "sha256": "335B29763ECA8FC9BCEACA4DB71F549AC0AB60022FA480FE933CF4EE0704CAE3"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "results": {
+    "tokens_reviewed": 101,
+    "tokens_changed": 98,
+    "core_to_zato": 85,
+    "sequence_shaped_to_zato": 12,
+    "collision_to_tym_samym": 1,
+    "genuine_sequential_preserved": 3,
+    "post_counts": {"zato": 2134, "tym": 445, "tym_samym": 60, "poslědovateljno": 3},
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167960, "sha256": "F700E7DF1519675C20FE28DB7362C8622F1AF9AF065E8177AFBD43DEFC6F56DD"},
+    "source_latin/45-isv.tex": {"bytes": 25526, "sha256": "4E47FD1C693F89726DC65607A7500C9376EA0F09E8BC48EE46D48893BD580292"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897178, "sha256": "08EC2D023F94FC35D638599E053707190ACCF53DB292F507B0E2D4A8E96B575D"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "tool": {"path": "apply_inference_connective_family_v019.py", "bytes": 6896, "sha256": "C92665C13C908AC443A68C41E31A154E7D2EB8E8D1D7F895EF104DC5D94034B0"},
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0043",
+    "coverage": "98/98 selected changes and three exact protected sequential sites",
+    "causal_guard": "all causal zato že and two purpose constructions preserved; unique line-9955 result/cause collision recast as tym samym --- zato že",
+    "residue": "zero core slědovateljno spelling variant; poslědovateljno remains only at lines 2049, 2155, and 17206",
+    "dry_run_then_apply": "frozen output hashes reproduced before and after atomic apply",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

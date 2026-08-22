@@ -1,0 +1,2892 @@
+{
+  "schema": "noether-interslavic-editorial-decision-index/1.0",
+  "release_id": "NOETHER-ISV-v019",
+  "generated_at": "2026-08-22T00:00:00Z",
+  "ledger": {
+    "path": "NORMALIZATION_DECISIONS_v019.jsonl",
+    "bytes": 771044,
+    "sha256": "4391C7FE0B81253F599118EED95927CDBA9B66A6C9644FECEEE98F5F53FC50F3",
+    "rows": 171,
+    "head": "ISV019-EDIT-0171"
+  },
+  "decisions": [
+    {
+      "ordinal": 1,
+      "decision_id": "ISV019-EDIT-0001",
+      "recorded_at": "2026-08-12T19:52:20+02:00",
+      "epistemic_type": "parent_editorial_decision_from_multisource_evidence",
+      "classification_or_scope": "parent_editorial_decision_from_multisource_evidence",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": []
+    },
+    {
+      "ordinal": 2,
+      "decision_id": "ISV019-EDIT-0002",
+      "recorded_at": "2026-08-12T19:52:20+02:00",
+      "epistemic_type": "parent_editorial_decision_from_source_and_cross_branch_construction_evidence",
+      "classification_or_scope": "parent_editorial_decision_from_source_and_cross_branch_construction_evidence",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": []
+    },
+    {
+      "ordinal": 3,
+      "decision_id": "ISV019-EDIT-0003",
+      "recorded_at": "2026-08-12T20:27:00+02:00",
+      "epistemic_type": "manager_editorial_decision_from_official_six_group_design_and_dictionary_branch_evidence",
+      "classification_or_scope": "manager_editorial_decision_from_official_six_group_design_and_dictionary_branch_evidence",
+      "source_change_declared": true,
+      "alternative_field_count": 1,
+      "companions": []
+    },
+    {
+      "ordinal": 4,
+      "decision_id": "ISV019-EDIT-0004",
+      "recorded_at": "2026-08-12T20:45:00+02:00",
+      "epistemic_type": "manager_editorial_decision_from_dictionary_semantics_and_cross_slavic_transparency",
+      "classification_or_scope": "manager_editorial_decision_from_dictionary_semantics_and_cross_slavic_transparency",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": []
+    },
+    {
+      "ordinal": 5,
+      "decision_id": "ISV019-EDIT-0005",
+      "recorded_at": "2026-08-12T20:54:00+02:00",
+      "epistemic_type": "manager_editorial_decision_from_official_headword_and_branch-distribution_evidence",
+      "classification_or_scope": "manager_editorial_decision_from_official_headword_and_branch-distribution_evidence",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": []
+    },
+    {
+      "ordinal": 6,
+      "decision_id": "ISV019-EDIT-0006",
+      "recorded_at": "2026-08-12T21:02:00+02:00",
+      "epistemic_type": "manager_editorial_decision_from_unanimous_dictionary-branch_evidence",
+      "classification_or_scope": "manager_editorial_decision_from_unanimous_dictionary-branch_evidence",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": []
+    },
+    {
+      "ordinal": 7,
+      "decision_id": "ISV019-EDIT-0007",
+      "recorded_at": "2026-08-12T21:10:00+02:00",
+      "epistemic_type": "manager_editorial_decision_from_unanimous_dictionary-branch_evidence",
+      "classification_or_scope": "manager_editorial_decision_from_unanimous_dictionary-branch_evidence",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": []
+    },
+    {
+      "ordinal": 8,
+      "decision_id": "ISV019-EDIT-0008",
+      "recorded_at": "2026-08-12T21:44:00+02:00",
+      "epistemic_type": "manager_editorial_decision_from_official_surface_and_balanced_branch_evidence",
+      "classification_or_scope": "manager_editorial_decision_from_official_surface_and_balanced_branch_evidence",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": []
+    },
+    {
+      "ordinal": 9,
+      "decision_id": "ISV019-EDIT-0009",
+      "recorded_at": "2026-08-12T21:52:00+02:00",
+      "epistemic_type": "manager_editorial_decision_from_exact_official_headword_and_corpus_context_replay",
+      "classification_or_scope": "manager_editorial_decision_from_exact_official_headword_and_corpus_context_replay",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": []
+    },
+    {
+      "ordinal": 10,
+      "decision_id": "ISV019-EDIT-0010",
+      "recorded_at": "2026-08-12T22:00:00+02:00",
+      "epistemic_type": "parent_QA_correction_and_residual_surface_repair",
+      "classification_or_scope": "parent_QA_correction_and_residual_surface_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": []
+    },
+    {
+      "ordinal": 11,
+      "decision_id": "ISV019-EDIT-0011",
+      "recorded_at": "2026-08-12T20:52:00+02:00",
+      "epistemic_type": "manager_sentence_level_editorial_repair_from_official_lexical_semantics_and_west_south_mathematical_usage",
+      "classification_or_scope": "manager_sentence_level_editorial_repair_from_official_lexical_semantics_and_west_south_mathematical_usage",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0011.json",
+          "bytes": 6072,
+          "sha256": "3CDEF146AD1CA63942BCF1B2A9EFDC668632E76C6F7A7D0628D8A0A5F4CB868C"
+        }
+      ]
+    },
+    {
+      "ordinal": 12,
+      "decision_id": "ISV019-EDIT-0012",
+      "recorded_at": "2026-08-12T21:16:50+02:00",
+      "epistemic_type": "manager_final_sentence_level_editorial_decision_from_official_grammar_dictionary_and_exact_corpus_replay",
+      "classification_or_scope": "manager_final_sentence_level_editorial_decision_from_official_grammar_dictionary_and_exact_corpus_replay",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0012.json",
+          "bytes": 7931,
+          "sha256": "F9E5B68CEB6F35C636854A2D0BFE3F0C7582EC69D39DEB210D36FFCD423D9CDD"
+        }
+      ]
+    },
+    {
+      "ordinal": 13,
+      "decision_id": "ISV019-EDIT-0013",
+      "recorded_at": "2026-08-12T21:25:45+02:00",
+      "epistemic_type": "manager_final_technical_terminology_decision_from_six_group_corpus_evidence_and_inflection_replay",
+      "classification_or_scope": "manager_final_technical_terminology_decision_from_six_group_corpus_evidence_and_inflection_replay",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0013.json",
+          "bytes": 7661,
+          "sha256": "DCDC072E7D37A3229B528733B1A06DD7E9C16D2FE426E129D05E11153F494002"
+        }
+      ]
+    },
+    {
+      "ordinal": 14,
+      "decision_id": "ISV019-EDIT-0014",
+      "recorded_at": "2026-08-12T23:42:01.4548260+02:00",
+      "epistemic_type": "manager_final_morphosyntactic_decision_from_official_lexicon_grammar_and_context_replay",
+      "classification_or_scope": "manager_final_morphosyntactic_decision_from_official_lexicon_grammar_and_context_replay",
+      "source_change_declared": false,
+      "alternative_field_count": 6,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0014.json",
+          "bytes": 6180,
+          "sha256": "3AD5183983C8F149D3945C55E5A87A8C7D851F515A617117B612355B3FAC5A9B"
+        }
+      ]
+    },
+    {
+      "ordinal": 15,
+      "decision_id": "ISV019-EDIT-0015",
+      "recorded_at": "2026-08-12T23:56:54.9207100+02:00",
+      "epistemic_type": "manager_final_lexical_morphological_and_contextual_decision_from_official_lexicon_grammar_and_german_sentence_alignment",
+      "classification_or_scope": "manager_final_lexical_morphological_and_contextual_decision_from_official_lexicon_grammar_and_german_sentence_alignment",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0015.json",
+          "bytes": 6224,
+          "sha256": "03F5B93668B4C579A06E087E765473DF3A71D2B3F1504F85A721A820B0356F42"
+        }
+      ]
+    },
+    {
+      "ordinal": 16,
+      "decision_id": "ISV019-EDIT-0016",
+      "recorded_at": "2026-08-13T00:22:27.5101390+02:00",
+      "epistemic_type": "manager_final_corpus_wide_lexical_and_morphological_normalization",
+      "classification_or_scope": "manager_final_corpus_wide_lexical_and_morphological_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0016.json",
+          "bytes": 3848,
+          "sha256": "501001FF4F6D2A071A206197569847AC92A0B1B79821B18D023E4E48D7293CC4"
+        }
+      ]
+    },
+    {
+      "ordinal": 17,
+      "decision_id": "ISV019-EDIT-0017",
+      "recorded_at": "2026-08-13T00:27:00+02:00",
+      "epistemic_type": "manager_residual_family_completion_after_independent_read_only_qa",
+      "classification_or_scope": "manager_residual_family_completion_after_independent_read_only_qa",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0017.json",
+          "bytes": 1886,
+          "sha256": "E0EA030A1C9166A715EC4250A7ACF92CBF88EAB3F8FE43CECECCA8D80EE1E7C3"
+        }
+      ]
+    },
+    {
+      "ordinal": 18,
+      "decision_id": "ISV019-EDIT-0018",
+      "recorded_at": "2026-08-13T00:30:32.6815840+02:00",
+      "epistemic_type": "manager_direct_residual_canonicalization",
+      "classification_or_scope": "manager_direct_residual_canonicalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0018.json",
+          "bytes": 2789,
+          "sha256": "81460F6DC5CC9476AAD0E62661CFF9A923A458CF395D6376A024257F1B049E31"
+        }
+      ]
+    },
+    {
+      "ordinal": 19,
+      "decision_id": "ISV019-EDIT-0019",
+      "recorded_at": "2026-08-13T00:33:48.9197076+02:00",
+      "epistemic_type": "manager_direct_official_morphology_and_sentence_formula_repair",
+      "classification_or_scope": "manager_direct_official_morphology_and_sentence_formula_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0019.json",
+          "bytes": 2445,
+          "sha256": "53643192B7467E80175DED5BB5ED47C8406FA5F6A2233143C4DBA67DA3FCB6B3"
+        }
+      ]
+    },
+    {
+      "ordinal": 20,
+      "decision_id": "ISV019-EDIT-0020",
+      "recorded_at": "2026-08-13T00:41:11.0699264+02:00",
+      "epistemic_type": "manager_direct_sentence_syntax_and_prose_copula_repair",
+      "classification_or_scope": "manager_direct_sentence_syntax_and_prose_copula_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0020.json",
+          "bytes": 3303,
+          "sha256": "10788A94FB3D035789573DDCF0A7D527C169C8235307DF54AAA95963BAE3500A"
+        }
+      ]
+    },
+    {
+      "ordinal": 21,
+      "decision_id": "ISV019-EDIT-0021",
+      "recorded_at": "2026-08-13T00:45:09.6862907+02:00",
+      "epistemic_type": "manager_direct_semantic_disambiguation_and_family_normalization",
+      "classification_or_scope": "manager_direct_semantic_disambiguation_and_family_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0021.json",
+          "bytes": 3619,
+          "sha256": "DDB64A2BE0B13F75FB9DE33AA109E072B1F4DCAE6E6016E87E02C0500FDC5512"
+        }
+      ]
+    },
+    {
+      "ordinal": 22,
+      "decision_id": "ISV019-EDIT-0022",
+      "recorded_at": "2026-08-13T00:52:32.6097203+02:00",
+      "epistemic_type": "manager_direct_contextual_lexical_normalization",
+      "classification_or_scope": "manager_direct_contextual_lexical_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0022.json",
+          "bytes": 3311,
+          "sha256": "B98A164E8046D1867FB5770942C246360D17B23D58D6F605E128A98AD7437118"
+        }
+      ]
+    },
+    {
+      "ordinal": 23,
+      "decision_id": "ISV019-EDIT-0023",
+      "recorded_at": "2026-08-13T00:57:30.0000000+02:00",
+      "epistemic_type": "manager_direct_official_lexical_normalization",
+      "classification_or_scope": "manager_direct_official_lexical_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0023.json",
+          "bytes": 2923,
+          "sha256": "601CD6E7676E6748706224BA7B4CEC46967B1E4E027C719FF08A9D8239E92E64"
+        }
+      ]
+    },
+    {
+      "ordinal": 24,
+      "decision_id": "ISV019-EDIT-0024",
+      "recorded_at": "2026-08-13T01:02:00.0000000+02:00",
+      "epistemic_type": "manager_direct_lexical_morphological_and_semantic_normalization",
+      "classification_or_scope": "manager_direct_lexical_morphological_and_semantic_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0024.json",
+          "bytes": 3961,
+          "sha256": "76657938AE3993598AB73832690793E50482B2095B339AA11E5D57605AE7DC67"
+        }
+      ]
+    },
+    {
+      "ordinal": 25,
+      "decision_id": "ISV019-EDIT-0025",
+      "recorded_at": "2026-08-13T01:06:34.8065550+02:00",
+      "epistemic_type": "manager_direct_lexical_morphological_and_semantic_normalization",
+      "classification_or_scope": "manager_direct_lexical_morphological_and_semantic_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0025.json",
+          "bytes": 4358,
+          "sha256": "33D3DD17FA6A5242CE37812F6FA8323AD3380F73DEE4CB1C90867E6C64F7EDE6"
+        }
+      ]
+    },
+    {
+      "ordinal": 26,
+      "decision_id": "ISV019-EDIT-0026",
+      "recorded_at": "2026-08-13T01:09:04.2392729+02:00",
+      "epistemic_type": "manager_direct_terminological_morphological_and_contextual_normalization",
+      "classification_or_scope": "manager_direct_terminological_morphological_and_contextual_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0026.json",
+          "bytes": 3760,
+          "sha256": "17CED55DEA04219ADEAD026163E56961D77C081E555E90F68FBEBC234883C273"
+        }
+      ]
+    },
+    {
+      "ordinal": 27,
+      "decision_id": "ISV019-EDIT-0027",
+      "recorded_at": "2026-08-13T01:11:04.9956613+02:00",
+      "epistemic_type": "manager_direct_semantic_and_lexical_normalization",
+      "classification_or_scope": "manager_direct_semantic_and_lexical_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0027.json",
+          "bytes": 3873,
+          "sha256": "74EBD8EDB1B7E457F530CE187768E20FEC8936153BA4607D5715F0C572BCC8AC"
+        }
+      ]
+    },
+    {
+      "ordinal": 28,
+      "decision_id": "ISV019-EDIT-0028",
+      "recorded_at": "2026-08-13T01:15:21.6441312+02:00",
+      "epistemic_type": "manager_direct_corpus_wide_terminology_normalization",
+      "classification_or_scope": "manager_direct_corpus_wide_terminology_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0028.json",
+          "bytes": 3331,
+          "sha256": "D89CE42E62DD518FDC6E569B10E2D1EB789FCE2C48F7AF716E2391823E986296"
+        }
+      ]
+    },
+    {
+      "ordinal": 29,
+      "decision_id": "ISV019-EDIT-0029",
+      "recorded_at": "2026-08-13T01:16:59.4250714+02:00",
+      "epistemic_type": "manager_direct_morphological_normalization",
+      "classification_or_scope": "manager_direct_morphological_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0029.json",
+          "bytes": 2496,
+          "sha256": "3BC23541BC5A8C8DBA011953F44D2D768B942DBF55F449A93ABF8D124506DED7"
+        }
+      ]
+    },
+    {
+      "ordinal": 30,
+      "decision_id": "ISV019-EDIT-0030",
+      "recorded_at": "2026-08-13T01:22:56.4595067+02:00",
+      "epistemic_type": "manager_direct_semantic_morphological_and_lexical_normalization",
+      "classification_or_scope": "manager_direct_semantic_morphological_and_lexical_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0030.json",
+          "bytes": 3444,
+          "sha256": "15A11A7DEC0C667795B13698046048D2563364AFEDDD3AA877A623AF53C2DFE9"
+        }
+      ]
+    },
+    {
+      "ordinal": 31,
+      "decision_id": "ISV019-EDIT-0031",
+      "recorded_at": "2026-08-13T01:24:24.2997970+02:00",
+      "epistemic_type": "manager_direct_morphological_normalization",
+      "classification_or_scope": "manager_direct_morphological_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0031.json",
+          "bytes": 2657,
+          "sha256": "BF8F03C21CBA5B86AA31DDE143C97957E5B61C0C9C1F5EF0B0B238E2260F162B"
+        }
+      ]
+    },
+    {
+      "ordinal": 32,
+      "decision_id": "ISV019-EDIT-0032",
+      "recorded_at": "2026-08-13T01:32:45.8275663+02:00",
+      "epistemic_type": "manager_direct_semantic_family_normalization",
+      "classification_or_scope": "manager_direct_semantic_family_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0032.json",
+          "bytes": 4839,
+          "sha256": "CFC930D87BA44F314991D2F8E9F41774B08AB69F0487247E26B79579350E38B5"
+        }
+      ]
+    },
+    {
+      "ordinal": 33,
+      "decision_id": "ISV019-EDIT-0033",
+      "recorded_at": "2026-08-13T01:35:27.6547939+02:00",
+      "epistemic_type": "manager_direct_orthographic_normalization",
+      "classification_or_scope": "manager_direct_orthographic_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0033.json",
+          "bytes": 2848,
+          "sha256": "33C8EB22AF0EAAA7791E8F29AF2E41E10074BF381AB447DB02368F539E6AD328"
+        }
+      ]
+    },
+    {
+      "ordinal": 34,
+      "decision_id": "ISV019-EDIT-0034",
+      "recorded_at": "2026-08-13T01:39:16.9981038+02:00",
+      "epistemic_type": "manager_direct_morphological_and_orthographic_normalization",
+      "classification_or_scope": "manager_direct_morphological_and_orthographic_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0034.json",
+          "bytes": 3271,
+          "sha256": "5BCB35E67C0064C78889EE8CDDBA435C74DFAB446F01A2FE18614B9214190082"
+        }
+      ]
+    },
+    {
+      "ordinal": 35,
+      "decision_id": "ISV019-EDIT-0035",
+      "recorded_at": "2026-08-13T01:42:13.5941890+02:00",
+      "epistemic_type": "manager_direct_pronominal_normalization",
+      "classification_or_scope": "manager_direct_pronominal_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0035.json",
+          "bytes": 2911,
+          "sha256": "713EBD67A408DFD46DDB1B8A59F6D746E59553E6D1E0F50A1E2B7132BFC5819B"
+        }
+      ]
+    },
+    {
+      "ordinal": 36,
+      "decision_id": "ISV019-EDIT-0036",
+      "recorded_at": "2026-08-13T01:44:44.9355754+02:00",
+      "epistemic_type": "manager_direct_orthographic_normalization",
+      "classification_or_scope": "manager_direct_orthographic_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0036.json",
+          "bytes": 2497,
+          "sha256": "2A93859D894F0863B172A3DF2D0825E522FA4864C1ADE6E4B174C6B2595528D3"
+        }
+      ]
+    },
+    {
+      "ordinal": 37,
+      "decision_id": "ISV019-EDIT-0037",
+      "recorded_at": "2026-08-13T01:46:35.4213163+02:00",
+      "epistemic_type": "manager_direct_orthographic_terminology_normalization",
+      "classification_or_scope": "manager_direct_orthographic_terminology_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0037.json",
+          "bytes": 2690,
+          "sha256": "C3967BF03A0D5BD8F6F29F005A1AD7CE2454501712A63C786B1BE087A61ED19D"
+        }
+      ]
+    },
+    {
+      "ordinal": 38,
+      "decision_id": "ISV019-EDIT-0038",
+      "recorded_at": "2026-08-13T01:54:00.3606096+02:00",
+      "epistemic_type": "manager_direct_semantic_terminology_and_case_government_normalization",
+      "classification_or_scope": "manager_direct_semantic_terminology_and_case_government_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 4,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0038.json",
+          "bytes": 5866,
+          "sha256": "B67356AC4031F3F728EBE476CEFF557832AA15D459F5FAAA1CF9175EEB6C66CB"
+        }
+      ]
+    },
+    {
+      "ordinal": 39,
+      "decision_id": "ISV019-EDIT-0039",
+      "recorded_at": "2026-08-13T01:58:09.2148709+02:00",
+      "epistemic_type": "manager_direct_modal_terminology_morphology_and_agreement_normalization",
+      "classification_or_scope": "manager_direct_modal_terminology_morphology_and_agreement_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 4,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0039.json",
+          "bytes": 6699,
+          "sha256": "6A340E88130388DBA7D2853971D7E80AA598A6AE7597BFEED831FE033194442C"
+        }
+      ]
+    },
+    {
+      "ordinal": 40,
+      "decision_id": "ISV019-EDIT-0040",
+      "recorded_at": "2026-08-13T02:01:51.7519190+02:00",
+      "epistemic_type": "manager_direct_lexical_semantic_and_morphological_normalization",
+      "classification_or_scope": "manager_direct_lexical_semantic_and_morphological_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 4,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0040.json",
+          "bytes": 5409,
+          "sha256": "D52D63EBE9478E9BAC8432A7FBD8C5B04461347EB09BAA95E12F51BB03D98BDD"
+        }
+      ]
+    },
+    {
+      "ordinal": 41,
+      "decision_id": "ISV019-EDIT-0041",
+      "recorded_at": "2026-08-13T02:03:40.8193494+02:00",
+      "epistemic_type": "manager_direct_semantic_verb_family_normalization",
+      "classification_or_scope": "manager_direct_semantic_verb_family_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 4,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0041.json",
+          "bytes": 5520,
+          "sha256": "AFCACC412FE63F5BFCC4D4F2ED9F7B838E6E6DB671CEF44F3DE558BED56BE437"
+        }
+      ]
+    },
+    {
+      "ordinal": 42,
+      "decision_id": "ISV019-EDIT-0042",
+      "recorded_at": "2026-08-13T02:20:36.5165290+02:00",
+      "epistemic_type": "manager_direct_mathematical_terminology_and_agreement_normalization",
+      "classification_or_scope": "manager_direct_mathematical_terminology_and_agreement_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 4,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0042.json",
+          "bytes": 6628,
+          "sha256": "4D69803F1DCA4561A1E45C432C0D3E9ED5C982AC4311001578F9919F8A80D4E2"
+        }
+      ]
+    },
+    {
+      "ordinal": 43,
+      "decision_id": "ISV019-EDIT-0043",
+      "recorded_at": "2026-08-13T02:25:04.7659307+02:00",
+      "epistemic_type": "manager_direct_assumption_family_canonicalization",
+      "classification_or_scope": "manager_direct_assumption_family_canonicalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0043.json",
+          "bytes": 5290,
+          "sha256": "3BB1E41A5A3A2F8FEBC0C76FA2C5EEB00B747EB42FAB5F218BB24CFF95C0D04E"
+        }
+      ]
+    },
+    {
+      "ordinal": 44,
+      "decision_id": "ISV019-EDIT-0044",
+      "recorded_at": "2026-08-13T02:29:17.9718115+02:00",
+      "epistemic_type": "manager_direct_inference_connective_normalization",
+      "classification_or_scope": "manager_direct_inference_connective_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0044.json",
+          "bytes": 5816,
+          "sha256": "84CA983F9A8AFC89A62125AA706E6A26CEEBB7B2FB6E786FA88A492A3169396D"
+        }
+      ]
+    },
+    {
+      "ordinal": 45,
+      "decision_id": "ISV019-EDIT-0045",
+      "recorded_at": "2026-08-13T02:31:45.7201629+02:00",
+      "epistemic_type": "manager_direct_membership_family_normalization",
+      "classification_or_scope": "manager_direct_membership_family_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0045.json",
+          "bytes": 4930,
+          "sha256": "0DB148CAA43E014256D239E441EE992664D27B4BEB6BC51D6E55F3688EFDDF71"
+        }
+      ]
+    },
+    {
+      "ordinal": 46,
+      "decision_id": "ISV019-EDIT-0046",
+      "recorded_at": "2026-08-13T02:42:22.6219663+02:00",
+      "epistemic_type": "manager_direct_residual_regression_and_orthography_repair",
+      "classification_or_scope": "manager_direct_residual_regression_and_orthography_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0046.json",
+          "bytes": 6157,
+          "sha256": "668999F2CC5CCF07C410DEA17406B5250D3E55333BC63F2A95F3767D6958048A"
+        }
+      ]
+    },
+    {
+      "ordinal": 47,
+      "decision_id": "ISV019-EDIT-0047",
+      "recorded_at": "2026-08-13T02:46:07.5333417+02:00",
+      "epistemic_type": "manager_direct_residual_existence_family_normalization",
+      "classification_or_scope": "manager_direct_residual_existence_family_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 4,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0047.json",
+          "bytes": 4937,
+          "sha256": "58A9F9CA0035DB494F6E8949B83522F61630A8EDB74B09D10A5ECDDC64FCA524"
+        }
+      ]
+    },
+    {
+      "ordinal": 48,
+      "decision_id": "ISV019-EDIT-0048",
+      "recorded_at": "2026-08-13T02:55:07.9035821+02:00",
+      "epistemic_type": "manager_direct_cross_branch_technical_terminology_normalization",
+      "classification_or_scope": "manager_direct_cross_branch_technical_terminology_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 4,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0048.json",
+          "bytes": 9023,
+          "sha256": "64354799CE2C96877E792EE4C48D99734B6E49088D830FAED93B2F8D852A8036"
+        }
+      ]
+    },
+    {
+      "ordinal": 49,
+      "decision_id": "ISV019-EDIT-0049",
+      "recorded_at": "2026-08-13T03:02:47.2986436+02:00",
+      "epistemic_type": "manager_direct_residual_consider_family_normalization_with_declared_terminal_correction",
+      "classification_or_scope": "manager_direct_residual_consider_family_normalization_with_declared_terminal_correction",
+      "source_change_declared": false,
+      "alternative_field_count": 4,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0049.json",
+          "bytes": 5366,
+          "sha256": "E2C933A946EFA29B3C7A733362CBB50187BDBE9AEEB0A44D33C1B6816F499048"
+        }
+      ]
+    },
+    {
+      "ordinal": 50,
+      "decision_id": "ISV019-EDIT-0050",
+      "recorded_at": "2026-08-13T03:05:31.0397956+02:00",
+      "epistemic_type": "manager_direct_terminal_semantic_correction",
+      "classification_or_scope": "manager_direct_terminal_semantic_correction",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0050.json",
+          "bytes": 4471,
+          "sha256": "C7FDF02C1B84860598444605AD474A7F5F23483B3A264949985F6A6F2F563ABA"
+        }
+      ]
+    },
+    {
+      "ordinal": 51,
+      "decision_id": "ISV019-EDIT-0051",
+      "recorded_at": "2026-08-13T03:17:31.1851804+02:00",
+      "epistemic_type": "manager_direct_context_sensitive_correspondence_closure",
+      "classification_or_scope": "manager_direct_context_sensitive_correspondence_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0051.json",
+          "bytes": 6099,
+          "sha256": "4876CA34A7A401238977BD6510DB01D2EC4D8A77E618E6A840E632D6031E4B5B"
+        }
+      ]
+    },
+    {
+      "ordinal": 52,
+      "decision_id": "ISV019-EDIT-0052",
+      "recorded_at": "2026-08-13T03:24:29.6369474+02:00",
+      "epistemic_type": "manager_direct_necessity_terminology_unification_and_scope_repair",
+      "classification_or_scope": "manager_direct_necessity_terminology_unification_and_scope_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0052.json",
+          "bytes": 6299,
+          "sha256": "35AB9CAA6BAFBD3B5F180C10196B21DA15AD60C99556862DC8EA14A945E4EABE"
+        }
+      ]
+    },
+    {
+      "ordinal": 53,
+      "decision_id": "ISV019-EDIT-0053",
+      "recorded_at": "2026-08-13T03:31:14.7445169+02:00",
+      "epistemic_type": "manager_direct_official_preservation_family_normalization",
+      "classification_or_scope": "manager_direct_official_preservation_family_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 4,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0053.json",
+          "bytes": 5908,
+          "sha256": "F53DD0C5719DB4D9AF986BD0217E7394C043BDA2ADAB895156BB808089C37DCB"
+        }
+      ]
+    },
+    {
+      "ordinal": 54,
+      "decision_id": "ISV019-EDIT-0054",
+      "recorded_at": "2026-08-13T13:48:37.7696603+02:00",
+      "epistemic_type": "manager_direct_residual_semantic_and_case_government_normalization",
+      "classification_or_scope": "manager_direct_residual_semantic_and_case_government_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 4,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0054.json",
+          "bytes": 5849,
+          "sha256": "66A7C84CB15FDB62B611BFA0E612F56AE478F3F5606B73712A43444D87BB130D"
+        }
+      ]
+    },
+    {
+      "ordinal": 55,
+      "decision_id": "ISV019-EDIT-0055",
+      "recorded_at": "2026-08-13T13:50:59.6226218+02:00",
+      "epistemic_type": "manager_direct_tex_definition_order_repair",
+      "classification_or_scope": "manager_direct_tex_definition_order_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0055.json",
+          "bytes": 3291,
+          "sha256": "B8C86A4C459A4AFCF329ECD893B71D97842FEF8C4BE79508EFB5A43B208135AC"
+        }
+      ]
+    },
+    {
+      "ordinal": 56,
+      "decision_id": "ISV019-EDIT-0056",
+      "recorded_at": "2026-08-13T13:57:37.6442096+02:00",
+      "epistemic_type": "manager_direct_official_diacritic_family_normalization",
+      "classification_or_scope": "manager_direct_official_diacritic_family_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0056.json",
+          "bytes": 4310,
+          "sha256": "830D6CC541CD97C8758B4C4ECEB25B075497F6C16E0BAD30181143312E21FC94"
+        }
+      ]
+    },
+    {
+      "ordinal": 57,
+      "decision_id": "ISV019-EDIT-0057",
+      "recorded_at": "2026-08-13T14:01:00.6865079+02:00",
+      "epistemic_type": "manager_direct_pronominal_case_paradigm_normalization",
+      "classification_or_scope": "manager_direct_pronominal_case_paradigm_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0057.json",
+          "bytes": 4811,
+          "sha256": "40A429E6103FC48A6E12632E18B8235EA99BA009217B1CE532A7ED965C5B2CBD"
+        }
+      ]
+    },
+    {
+      "ordinal": 58,
+      "decision_id": "ISV019-EDIT-0058",
+      "recorded_at": "2026-08-13T14:08:08.3498932+02:00",
+      "epistemic_type": "manager_direct_verbal_noun_genitive_plural_morphology_repair",
+      "classification_or_scope": "manager_direct_verbal_noun_genitive_plural_morphology_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0058.json",
+          "bytes": 5240,
+          "sha256": "81BE2616CFCACD7538B33F24FF85AEEEB8FC54575D8456F61AAF6DC1A936BB30"
+        }
+      ]
+    },
+    {
+      "ordinal": 59,
+      "decision_id": "ISV019-EDIT-0059",
+      "recorded_at": "2026-08-13T14:11:27.4442943+02:00",
+      "epistemic_type": "manager_direct_third_person_plural_morphology_repair",
+      "classification_or_scope": "manager_direct_third_person_plural_morphology_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0059.json",
+          "bytes": 5040,
+          "sha256": "7E515E1829E115BBC8C2FE1FC10BE60B8BAB6113CF8B5BC5ECB30149D6BBA810"
+        }
+      ]
+    },
+    {
+      "ordinal": 60,
+      "decision_id": "ISV019-EDIT-0060",
+      "recorded_at": "2026-08-13T14:14:25.3630179+02:00",
+      "epistemic_type": "manager_direct_cross_slavic_universal_pronoun_normalization",
+      "classification_or_scope": "manager_direct_cross_slavic_universal_pronoun_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0060.json",
+          "bytes": 5494,
+          "sha256": "95B6CB821A0CBC2BAD08939F20CE2711D6B33CBBF0401DD1B386BD1618E94457"
+        }
+      ]
+    },
+    {
+      "ordinal": 61,
+      "decision_id": "ISV019-EDIT-0061",
+      "recorded_at": "2026-08-13T14:24:21.7079672+02:00",
+      "epistemic_type": "manager_direct_third_person_plural_morphology_repair_continuation",
+      "classification_or_scope": "manager_direct_third_person_plural_morphology_repair_continuation",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0061.json",
+          "bytes": 4310,
+          "sha256": "1E39E2A18B7D3AC67E3B84447A7083E8C548C5098CFD9226A3B3A3FFC551340C"
+        }
+      ]
+    },
+    {
+      "ordinal": 62,
+      "decision_id": "ISV019-EDIT-0062",
+      "recorded_at": "2026-08-13T14:28:34.5669369+02:00",
+      "epistemic_type": "manager_direct_cross_slavic_completeness_semantic_split",
+      "classification_or_scope": "manager_direct_cross_slavic_completeness_semantic_split",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0062.json",
+          "bytes": 4659,
+          "sha256": "E6632318626B80ACDD3E6A9E2EFD2BB99D39F453591F25E1DF4AE111A6299EE7"
+        }
+      ]
+    },
+    {
+      "ordinal": 63,
+      "decision_id": "ISV019-EDIT-0063",
+      "recorded_at": "2026-08-13T14:30:57.6945480+02:00",
+      "epistemic_type": "manager_direct_second_conjugation_plural_morphology_repair",
+      "classification_or_scope": "manager_direct_second_conjugation_plural_morphology_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0063.json",
+          "bytes": 3613,
+          "sha256": "F490978F6E14A91C6A7A8E787FCA9295AE966C9B09E7B533132ED6A7C8CD92D0"
+        }
+      ]
+    },
+    {
+      "ordinal": 64,
+      "decision_id": "ISV019-EDIT-0064",
+      "recorded_at": "2026-08-13T14:32:48.3024319+02:00",
+      "epistemic_type": "manager_direct_inference_connective_normalization_continuation",
+      "classification_or_scope": "manager_direct_inference_connective_normalization_continuation",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0064.json",
+          "bytes": 3129,
+          "sha256": "9EDD93155117CAD9563F2E5BA9C836345105B98FA32EB4DF814550C69AE47DD1"
+        }
+      ]
+    },
+    {
+      "ordinal": 65,
+      "decision_id": "ISV019-EDIT-0065",
+      "recorded_at": "2026-08-13T14:35:09.7554072+02:00",
+      "epistemic_type": "manager_direct_sentence_aware_second_conjugation_number_repair",
+      "classification_or_scope": "manager_direct_sentence_aware_second_conjugation_number_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0065.json",
+          "bytes": 3419,
+          "sha256": "EF35E1BFDE1ACE1DAC14F8F443F2DE84D8E2BB72C5E6FB5BA3C7D2061C530600"
+        }
+      ]
+    },
+    {
+      "ordinal": 66,
+      "decision_id": "ISV019-EDIT-0066",
+      "recorded_at": "2026-08-13T14:37:19.6497694+02:00",
+      "epistemic_type": "manager_direct_official_lemma_diacritic_normalization",
+      "classification_or_scope": "manager_direct_official_lemma_diacritic_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0066.json",
+          "bytes": 3647,
+          "sha256": "9064A81477BF683C7AABEBA1BC0D6FF4BE46E363DA6F19F18652BB9BBEDD6F10"
+        }
+      ]
+    },
+    {
+      "ordinal": 67,
+      "decision_id": "ISV019-EDIT-0067",
+      "recorded_at": "2026-08-13T14:39:46.6377951+02:00",
+      "epistemic_type": "manager_direct_sentence_aware_official_paradigm_repair",
+      "classification_or_scope": "manager_direct_sentence_aware_official_paradigm_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0067.json",
+          "bytes": 3541,
+          "sha256": "50DDF1BFFA0DE3BA1AA495BC07C1D59B018181B9F0E7681646D442A14EE5BC3A"
+        }
+      ]
+    },
+    {
+      "ordinal": 68,
+      "decision_id": "ISV019-EDIT-0068",
+      "recorded_at": "2026-08-13T14:43:36.0847337+02:00",
+      "epistemic_type": "manager_direct_definition_connective_repair",
+      "classification_or_scope": "manager_direct_definition_connective_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0068.json",
+          "bytes": 2954,
+          "sha256": "C259ABFB200DECD1F2DF37224E54AB5C0C9EE1B99300FA33E99E984F6BB44B2A"
+        }
+      ]
+    },
+    {
+      "ordinal": 69,
+      "decision_id": "ISV019-EDIT-0069",
+      "recorded_at": "2026-08-13T14:45:25.9234917+02:00",
+      "epistemic_type": "manager_direct_equivalence_connective_normalization",
+      "classification_or_scope": "manager_direct_equivalence_connective_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0069.json",
+          "bytes": 2898,
+          "sha256": "3ECCE9A9976AE05C96E4AC8A7BF2AB7AADC2EF6B65CF8AA9F7242FE459338C37"
+        }
+      ]
+    },
+    {
+      "ordinal": 70,
+      "decision_id": "ISV019-EDIT-0070",
+      "recorded_at": "2026-08-13T14:47:28.5658449+02:00",
+      "epistemic_type": "manager_book_equivalence_connective_normalization",
+      "classification_or_scope": "manager_book_equivalence_connective_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0070.json",
+          "bytes": 3304,
+          "sha256": "5B2CDE6EE83CAC21E033353E5489CD7072FCA44A9D202AE3AED7928A754B218A"
+        }
+      ]
+    },
+    {
+      "ordinal": 71,
+      "decision_id": "ISV019-EDIT-0071",
+      "recorded_at": "2026-08-13T14:53:40.8103841+02:00",
+      "epistemic_type": "manager_arbitrary_quantifier_family_normalization",
+      "classification_or_scope": "manager_arbitrary_quantifier_family_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0071.json",
+          "bytes": 3711,
+          "sha256": "B8E6507A65381BE0048D573B6E977F3F1CF57319A87EF59DBF697EF7DEEB934F"
+        }
+      ]
+    },
+    {
+      "ordinal": 72,
+      "decision_id": "ISV019-EDIT-0072",
+      "recorded_at": "2026-08-13T14:56:35.4182650+02:00",
+      "epistemic_type": "manager_conditional_apodosis_connective_normalization",
+      "classification_or_scope": "manager_conditional_apodosis_connective_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0072.json",
+          "bytes": 3178,
+          "sha256": "6E9385E947AFBFBFA649169337192D5EAD9EC792A52BFB248EA2851C4769AC40"
+        }
+      ]
+    },
+    {
+      "ordinal": 73,
+      "decision_id": "ISV019-EDIT-0073",
+      "recorded_at": "2026-08-13T14:59:31.1178000+02:00",
+      "epistemic_type": "manager_obtain_derive_family_normalization",
+      "classification_or_scope": "manager_obtain_derive_family_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0073.json",
+          "bytes": 3914,
+          "sha256": "C658351AF31AAFF7D3E145FE1A66809A94FD1C7D411678C9469582056A169768"
+        }
+      ]
+    },
+    {
+      "ordinal": 74,
+      "decision_id": "ISV019-EDIT-0074",
+      "recorded_at": "2026-08-13T15:01:57.1777288+02:00",
+      "epistemic_type": "manager_book_connective_semantic_closure",
+      "classification_or_scope": "manager_book_connective_semantic_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0074.json",
+          "bytes": 3526,
+          "sha256": "6D2878D79446DE0190A77BE2A1D450AA8225D649E3C0153231FF67E8C57198F4"
+        }
+      ]
+    },
+    {
+      "ordinal": 75,
+      "decision_id": "ISV019-EDIT-0075",
+      "recorded_at": "2026-08-13T15:03:55.2775858+02:00",
+      "epistemic_type": "manager_dostav_obtain_supply_semantic_split",
+      "classification_or_scope": "manager_dostav_obtain_supply_semantic_split",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0075.json",
+          "bytes": 3879,
+          "sha256": "5F60B3D0CAB3CEE60F084267F5CDCF1F27210FA4419AB99A2586F62FFE99CF5A"
+        }
+      ]
+    },
+    {
+      "ordinal": 76,
+      "decision_id": "ISV019-EDIT-0076",
+      "recorded_at": "2026-08-13T15:08:22.7460185+02:00",
+      "epistemic_type": "manager_irregular_superlative_morphology_normalization",
+      "classification_or_scope": "manager_irregular_superlative_morphology_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0076.json",
+          "bytes": 3832,
+          "sha256": "4AF9D546D73B3DAE420DACCB647E7D80954FBCBE51587D5EB3C72066CC8612A4"
+        }
+      ]
+    },
+    {
+      "ordinal": 77,
+      "decision_id": "ISV019-EDIT-0077",
+      "recorded_at": "2026-08-13T15:10:29.8006413+02:00",
+      "epistemic_type": "manager_frequency_adverb_repair",
+      "classification_or_scope": "manager_frequency_adverb_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0077.json",
+          "bytes": 2844,
+          "sha256": "0E8E055D7904697ECE0F112A71739956C8B291CEE5E545E10DCB61CC9B548E85"
+        }
+      ]
+    },
+    {
+      "ordinal": 78,
+      "decision_id": "ISV019-EDIT-0078",
+      "recorded_at": "2026-08-13T15:17:09.0166907+02:00",
+      "epistemic_type": "manager_minimum_at_least_semantic_split",
+      "classification_or_scope": "manager_minimum_at_least_semantic_split",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0078.json",
+          "bytes": 3775,
+          "sha256": "CB9C3D359E4E02CDD05E68E736AF546604A8B8DC0FB18A95797AB6173558D141"
+        }
+      ]
+    },
+    {
+      "ordinal": 79,
+      "decision_id": "ISV019-EDIT-0079",
+      "recorded_at": "2026-08-13T15:18:59.3113515+02:00",
+      "epistemic_type": "manager_base_equivalence_connective_tranche",
+      "classification_or_scope": "manager_base_equivalence_connective_tranche",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0079.json",
+          "bytes": 2950,
+          "sha256": "5074E8F751209B5B23ACA5F249E8383DF53AEDD4A70E1631C44B7990B21048B0"
+        }
+      ]
+    },
+    {
+      "ordinal": 80,
+      "decision_id": "ISV019-EDIT-0080",
+      "recorded_at": "2026-08-13T15:21:32.0164070+02:00",
+      "epistemic_type": "manager_comparative_adverb_normalization",
+      "classification_or_scope": "manager_comparative_adverb_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0080.json",
+          "bytes": 3074,
+          "sha256": "1E1161FC222FD9D2808CC48FDC4D91B51C123CEE2B0A7CCC09BFA3C61A6B5CE7"
+        }
+      ]
+    },
+    {
+      "ordinal": 81,
+      "decision_id": "ISV019-EDIT-0081",
+      "recorded_at": "2026-08-13T15:23:51.2519544+02:00",
+      "epistemic_type": "manager_base_logical_consequence_connective_tranche",
+      "classification_or_scope": "manager_base_logical_consequence_connective_tranche",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0081.json",
+          "bytes": 3090,
+          "sha256": "E6E9654CD17B843725B926B76843047B4FC2A5B5C22AFB00C74B2E3EF2B0C914"
+        }
+      ]
+    },
+    {
+      "ordinal": 82,
+      "decision_id": "ISV019-EDIT-0082",
+      "recorded_at": "2026-08-13T15:26:17.9973633+02:00",
+      "epistemic_type": "manager_degree_adverb_normalization",
+      "classification_or_scope": "manager_degree_adverb_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0082.json",
+          "bytes": 2958,
+          "sha256": "EFE18DED78A4A10E94E403E6DE60EEBAE1219C8A448EE5CD0C043E21CA1FF3C8"
+        }
+      ]
+    },
+    {
+      "ordinal": 83,
+      "decision_id": "ISV019-EDIT-0083",
+      "recorded_at": "2026-08-13T15:28:26.4571245+02:00",
+      "epistemic_type": "manager_base_logical_consequence_connective_tranche",
+      "classification_or_scope": "manager_base_logical_consequence_connective_tranche",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0083.json",
+          "bytes": 2996,
+          "sha256": "2FC4DA261118E41A6345374AA9720F081AC35CFDB4032949D09D75D9A7F1F9F5"
+        }
+      ]
+    },
+    {
+      "ordinal": 84,
+      "decision_id": "ISV019-EDIT-0084",
+      "recorded_at": "2026-08-13T15:31:42.0578506+02:00",
+      "epistemic_type": "manager_base_logical_consequence_phrase_and_token_tranche",
+      "classification_or_scope": "manager_base_logical_consequence_phrase_and_token_tranche",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0084.json",
+          "bytes": 3146,
+          "sha256": "1C434F48FADD9EDE81F831896A1657F1B4AE4024CD42CD9AB5CD11C76BA04F9F"
+        }
+      ]
+    },
+    {
+      "ordinal": 85,
+      "decision_id": "ISV019-EDIT-0085",
+      "recorded_at": "2026-08-13T15:33:43.4881970+02:00",
+      "epistemic_type": "manager_recurrence_adverb_closure",
+      "classification_or_scope": "manager_recurrence_adverb_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0085.json",
+          "bytes": 3241,
+          "sha256": "AB332EE0ECEF1A887F82815DD82C6A462CD40381A608CF162FABBE73A6262A70"
+        }
+      ]
+    },
+    {
+      "ordinal": 86,
+      "decision_id": "ISV019-EDIT-0086",
+      "recorded_at": "2026-08-13T15:36:51.6219290+02:00",
+      "epistemic_type": "manager_conditional_apodosis_recast",
+      "classification_or_scope": "manager_conditional_apodosis_recast",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0086.json",
+          "bytes": 3742,
+          "sha256": "B16D7F99803731C4B8FCCCE46766CF35277BCC5F4ECE8287875852B7D6D8C72E"
+        }
+      ]
+    },
+    {
+      "ordinal": 87,
+      "decision_id": "ISV019-EDIT-0087",
+      "recorded_at": "2026-08-13T15:40:52.1586809+02:00",
+      "epistemic_type": "manager_discourse_adverb_normalization",
+      "classification_or_scope": "manager_discourse_adverb_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0087.json",
+          "bytes": 3685,
+          "sha256": "DE708D49486C0AFB8F9881D309744611C7EEE7237C658E31A406C8E177DE4384"
+        }
+      ]
+    },
+    {
+      "ordinal": 88,
+      "decision_id": "ISV019-EDIT-0088",
+      "recorded_at": "2026-08-13T15:44:16.7772794+02:00",
+      "epistemic_type": "manager_adjective_agreement_repair",
+      "classification_or_scope": "manager_adjective_agreement_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0088.json",
+          "bytes": 3506,
+          "sha256": "56A2864104A92AFE86A689F1BDD4B4A5EB4051C6B826EBDF16297E61E4C3D720"
+        }
+      ]
+    },
+    {
+      "ordinal": 89,
+      "decision_id": "ISV019-EDIT-0089",
+      "recorded_at": "2026-08-13T15:47:40.4861028+02:00",
+      "epistemic_type": "manager_logical_connective_resolution",
+      "classification_or_scope": "manager_logical_connective_resolution",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0089.json",
+          "bytes": 3661,
+          "sha256": "BAB51C1D5028A4A59462A62CC2766508140118221D35D420B3E923AC01D9F1D5"
+        }
+      ]
+    },
+    {
+      "ordinal": 90,
+      "decision_id": "ISV019-EDIT-0090",
+      "recorded_at": "2026-08-13T15:50:43.2402254+02:00",
+      "epistemic_type": "manager_adjective_genitive_plural_repair",
+      "classification_or_scope": "manager_adjective_genitive_plural_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0090.json",
+          "bytes": 3058,
+          "sha256": "7FA340B41FF6804B94F6A8CCDB372BEA1E08E54E324B9F5ED2AEAC405C7B9C3F"
+        }
+      ]
+    },
+    {
+      "ordinal": 91,
+      "decision_id": "ISV019-EDIT-0091",
+      "recorded_at": "2026-08-13T15:55:26.0911897+02:00",
+      "epistemic_type": "manager_hard_genitive_locative_plural_closure",
+      "classification_or_scope": "manager_hard_genitive_locative_plural_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0091.json",
+          "bytes": 3854,
+          "sha256": "CF03B66FEC3D2C090B1B52A4081E144F6577F2CCBA54A1224B40586721859E6A"
+        }
+      ]
+    },
+    {
+      "ordinal": 92,
+      "decision_id": "ISV019-EDIT-0092",
+      "recorded_at": "2026-08-13T16:02:18.5508950+02:00",
+      "epistemic_type": "manager_hard_adjective_plural_closure",
+      "classification_or_scope": "manager_hard_adjective_plural_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0092.json",
+          "bytes": 3330,
+          "sha256": "338EF6C216E35CD323254E984CA07F850A955DC01CB6808E099CA29856346EAE"
+        }
+      ]
+    },
+    {
+      "ordinal": 93,
+      "decision_id": "ISV019-EDIT-0093",
+      "recorded_at": "2026-08-13T16:07:12.8092221+02:00",
+      "epistemic_type": "manager_connective_family_complete_semantic_closure",
+      "classification_or_scope": "manager_connective_family_complete_semantic_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0093.json",
+          "bytes": 4015,
+          "sha256": "D4FDDEF51FBEA00ADC154347FF5A0D7A6D01816EAB4308F9E8A303B12C3BAE04"
+        }
+      ]
+    },
+    {
+      "ordinal": 94,
+      "decision_id": "ISV019-EDIT-0094",
+      "recorded_at": "2026-08-13T16:11:03.1358540+02:00",
+      "epistemic_type": "demonstrative_genitive_locative_plural_morphology_repair",
+      "classification_or_scope": "demonstrative_genitive_locative_plural_morphology_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0094.json",
+          "bytes": 3852,
+          "sha256": "72D00AF40E26F2997EED1D0AD014851BD38AAE5A57ACB214CE56300EE9193359"
+        }
+      ]
+    },
+    {
+      "ordinal": 95,
+      "decision_id": "ISV019-EDIT-0095",
+      "recorded_at": "2026-08-13T16:13:44.6703261+02:00",
+      "epistemic_type": "except_preposition_lexical_family_normalization",
+      "classification_or_scope": "except_preposition_lexical_family_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0095.json",
+          "bytes": 3895,
+          "sha256": "297EA2A1698890A88CF6BB6A2D7A83891FAB3C1523981D2BEEC02CBCE32B5FC5"
+        }
+      ]
+    },
+    {
+      "ordinal": 96,
+      "decision_id": "ISV019-EDIT-0096",
+      "recorded_at": "2026-08-13T16:21:51.9849281+02:00",
+      "epistemic_type": "hard_adjective_pronominal_genitive_locative_plural_closure",
+      "classification_or_scope": "hard_adjective_pronominal_genitive_locative_plural_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0096.json",
+          "bytes": 4569,
+          "sha256": "F6CA0102940CC3C2475698B8AE125F114819F55B33B0622F76EBEAF226BE15FD"
+        }
+      ]
+    },
+    {
+      "ordinal": 97,
+      "decision_id": "ISV019-EDIT-0097",
+      "recorded_at": "2026-08-13T16:28:44.0314303+02:00",
+      "epistemic_type": "example_noun_and_adverb_complete_family_normalization",
+      "classification_or_scope": "example_noun_and_adverb_complete_family_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0097.json",
+          "bytes": 4687,
+          "sha256": "F8C1F79D21344F67E4AE04CB6F5D147B08A644EDB5A6AF2015B5A2DEEA4BAB62"
+        }
+      ]
+    },
+    {
+      "ordinal": 98,
+      "decision_id": "ISV019-EDIT-0098",
+      "recorded_at": "2026-08-13T16:30:18.9288362+02:00",
+      "epistemic_type": "append_only_audit_correction_no_source_write",
+      "classification_or_scope": "append_only_audit_correction_no_source_write",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0098.json",
+          "bytes": 3545,
+          "sha256": "1190D761F6E504160F79FA39C46DBF195C4E4A8C53C82E210B0487E5A2FDFC93"
+        }
+      ]
+    },
+    {
+      "ordinal": 99,
+      "decision_id": "ISV019-EDIT-0099",
+      "recorded_at": "2026-08-13T16:31:52.0848789+02:00",
+      "epistemic_type": "hard_masculine_noun_locative_plural_repair",
+      "classification_or_scope": "hard_masculine_noun_locative_plural_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0099.json",
+          "bytes": 4036,
+          "sha256": "DE5994607FA7A7B03F17327D02E552BC7E7C9EC2CB78EF3E80E3E71C85AE3B7C"
+        }
+      ]
+    },
+    {
+      "ordinal": 100,
+      "decision_id": "ISV019-EDIT-0100",
+      "recorded_at": "2026-08-13T16:40:43.3372469+02:00",
+      "epistemic_type": "substitution_preposition_complete_lexical_normalization",
+      "classification_or_scope": "substitution_preposition_complete_lexical_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0100.json",
+          "bytes": 4357,
+          "sha256": "A03171175294958B8AE43E0D4CE1A6A5295B2003C26DED03AA13613905B1405D"
+        }
+      ]
+    },
+    {
+      "ordinal": 101,
+      "decision_id": "ISV019-EDIT-0101",
+      "recorded_at": "2026-08-13T16:47:47.1618507+02:00",
+      "epistemic_type": "comparative_adjective_stem_restoration",
+      "classification_or_scope": "comparative_adjective_stem_restoration",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0101.json",
+          "bytes": 4384,
+          "sha256": "FCF4964E6EDA67603D1C8D6D4D88E0F6FE4F5B1B31D93FE28DF056379E6B69B9"
+        }
+      ]
+    },
+    {
+      "ordinal": 102,
+      "decision_id": "ISV019-EDIT-0102",
+      "recorded_at": "2026-08-13T17:03:10.2738578+02:00",
+      "epistemic_type": "preferred_third_person_plural_possessive_normalization",
+      "classification_or_scope": "preferred_third_person_plural_possessive_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0102.json",
+          "bytes": 6265,
+          "sha256": "31311B8300A3539B15A812B7F75A9C9821B97BE37096AA8AB56D44735C9294F0"
+        }
+      ]
+    },
+    {
+      "ordinal": 103,
+      "decision_id": "ISV019-EDIT-0103",
+      "recorded_at": "2026-08-13T17:15:25.5262916+02:00",
+      "epistemic_type": "residual_arbitrary_quantifier_false_friend_closure",
+      "classification_or_scope": "residual_arbitrary_quantifier_false_friend_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0103.json",
+          "bytes": 6377,
+          "sha256": "1C0D28471419C95F9B5D7D6B7D8EEAA12FF3A4FACFFF10A401925B199F5FC10D"
+        }
+      ]
+    },
+    {
+      "ordinal": 104,
+      "decision_id": "ISV019-EDIT-0104",
+      "recorded_at": "2026-08-13T17:29:11.0374866+02:00",
+      "epistemic_type": "courtesy_adverb_official_orthography_singleton",
+      "classification_or_scope": "courtesy_adverb_official_orthography_singleton",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0104.json",
+          "bytes": 5331,
+          "sha256": "3A9239CF1365A93783272E095ABA550709E96B39CD6B05A65E8DDE702F035A2F"
+        }
+      ]
+    },
+    {
+      "ordinal": 105,
+      "decision_id": "ISV019-EDIT-0105",
+      "recorded_at": "2026-08-13T20:16:54.3317718+02:00",
+      "epistemic_type": "copular_infinitive_false_friend_closure",
+      "classification_or_scope": "copular_infinitive_false_friend_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0105.json",
+          "bytes": 6095,
+          "sha256": "F45438DA184BE14C64650C0B408A8803A61D2B43266E70FF30E74B5706487FC5"
+        }
+      ]
+    },
+    {
+      "ordinal": 106,
+      "decision_id": "ISV019-EDIT-0106",
+      "recorded_at": "2026-08-13T20:24:46.6401678+02:00",
+      "epistemic_type": "locative_demonstrative_split_and_transliteration_typo_closure",
+      "classification_or_scope": "locative_demonstrative_split_and_transliteration_typo_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0106.json",
+          "bytes": 6194,
+          "sha256": "138423CC86165278F3124BB153E2C6E6794E94934E007F5BA8427EAA6F2DD0F6"
+        }
+      ]
+    },
+    {
+      "ordinal": 107,
+      "decision_id": "ISV019-EDIT-0107",
+      "recorded_at": "2026-08-13T20:30:03.3064068+02:00",
+      "epistemic_type": "adjective_nominative_accusative_plural_residual_repair",
+      "classification_or_scope": "adjective_nominative_accusative_plural_residual_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0107.json",
+          "bytes": 5019,
+          "sha256": "E4B624B4BB30CFD1D0D162F6A63C90E53BA07A2A0DEFC8369E95D0955B9ABA37"
+        }
+      ]
+    },
+    {
+      "ordinal": 108,
+      "decision_id": "ISV019-EDIT-0108",
+      "recorded_at": "2026-08-13T20:34:06.9274332+02:00",
+      "epistemic_type": "shortest_superlative_false_friend_family_closure",
+      "classification_or_scope": "shortest_superlative_false_friend_family_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0108.json",
+          "bytes": 5755,
+          "sha256": "0E2C6F8118C60B25D55633BE3D7362BAC4893229D559D14E1D24056BC5DF227C"
+        }
+      ]
+    },
+    {
+      "ordinal": 109,
+      "decision_id": "ISV019-EDIT-0109",
+      "recorded_at": "2026-08-13T20:46:04.2432484+02:00",
+      "epistemic_type": "residual_comparative_superlative_family_closure",
+      "classification_or_scope": "residual_comparative_superlative_family_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0109.json",
+          "bytes": 8165,
+          "sha256": "BCEDBAAE90E3CDE01EC7FF7F0FD00F627767947070E84FE68E25E0F116F42FE5"
+        }
+      ]
+    },
+    {
+      "ordinal": 110,
+      "decision_id": "ISV019-EDIT-0110",
+      "recorded_at": "2026-08-13T20:52:41.1911149+02:00",
+      "epistemic_type": "third_ordinal_orthography_and_declension_closure",
+      "classification_or_scope": "third_ordinal_orthography_and_declension_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0110.json",
+          "bytes": 6553,
+          "sha256": "DBB434651BF2E72CAB32245572C01C6E11A11271899FB4193D7BC4E30DBFA025"
+        }
+      ]
+    },
+    {
+      "ordinal": 111,
+      "decision_id": "ISV019-EDIT-0111",
+      "recorded_at": "2026-08-13T20:59:07.4555341+02:00",
+      "epistemic_type": "motion_participle_vs_preceding_adjective_disambiguation",
+      "classification_or_scope": "motion_participle_vs_preceding_adjective_disambiguation",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0111.json",
+          "bytes": 5898,
+          "sha256": "3377E8739974F86C98EB463C216C30634CD88FD4D988878A049069D695CCCCDD"
+        }
+      ]
+    },
+    {
+      "ordinal": 112,
+      "decision_id": "ISV019-EDIT-0112",
+      "recorded_at": "2026-08-13T21:04:00.3260283+02:00",
+      "epistemic_type": "cardinal_numeral_genitive_declension_closure",
+      "classification_or_scope": "cardinal_numeral_genitive_declension_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0112.json",
+          "bytes": 5228,
+          "sha256": "114B6F96714B292F8F16BE80CE0B0DDACF579024C16FC04899AF128D80A5E5FF"
+        }
+      ]
+    },
+    {
+      "ordinal": 113,
+      "decision_id": "ISV019-EDIT-0113",
+      "recorded_at": "2026-08-13T21:08:04.2511039+02:00",
+      "epistemic_type": "idti_present_participle_orthography_singleton",
+      "classification_or_scope": "idti_present_participle_orthography_singleton",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0113.json",
+          "bytes": 4444,
+          "sha256": "202590E56A0D26E98DF723C757A6782656B095957851B62465A06958FAA2741C"
+        }
+      ]
+    },
+    {
+      "ordinal": 114,
+      "decision_id": "ISV019-EDIT-0114",
+      "recorded_at": "2026-08-13T21:18:40.0823462+02:00",
+      "epistemic_type": "previous_preceding_adjective_and_previously_adverb_family_normalization",
+      "classification_or_scope": "previous_preceding_adjective_and_previously_adverb_family_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0114.json",
+          "bytes": 7737,
+          "sha256": "2DEB30C18D4D4813C87AFAF2813B1FABC0EEF7B19739BC40DC7E8251A15FC563"
+        }
+      ]
+    },
+    {
+      "ordinal": 115,
+      "decision_id": "ISV019-EDIT-0115",
+      "recorded_at": "2026-08-13T21:31:23.9530659+02:00",
+      "epistemic_type": "previous_preceding_adjective_and_precede_verb_residual_normalization",
+      "classification_or_scope": "previous_preceding_adjective_and_precede_verb_residual_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0115.json",
+          "bytes": 6733,
+          "sha256": "2D893DB49C20F79EF70FB433D5221C5405A7559CD089A66C30688D788E19D01C"
+        }
+      ]
+    },
+    {
+      "ordinal": 116,
+      "decision_id": "ISV019-EDIT-0116",
+      "recorded_at": "2026-08-13T21:58:32.2200443+02:00",
+      "epistemic_type": "assumption_supposition_family_false_friend_and_morphosyntax_normalization",
+      "classification_or_scope": "assumption_supposition_family_false_friend_and_morphosyntax_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0116.json",
+          "bytes": 11000,
+          "sha256": "1823F14566534DE152DBE08986CE121D0D14BDBB8DB99EBB6C135EA5DFE50842"
+        }
+      ]
+    },
+    {
+      "ordinal": 117,
+      "decision_id": "ISV019-EDIT-0117",
+      "recorded_at": "2026-08-13T22:10:51.3708984+02:00",
+      "epistemic_type": "czech_surface_residual_orthographic_and_present_form_normalization",
+      "classification_or_scope": "czech_surface_residual_orthographic_and_present_form_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0117.json",
+          "bytes": 8033,
+          "sha256": "FB32ACA4FD4301FE6BAB7B01AD9AF8E7772C825033CDA5DBB0CEE895F179DEC9"
+        }
+      ]
+    },
+    {
+      "ordinal": 118,
+      "decision_id": "ISV019-EDIT-0118",
+      "recorded_at": "2026-08-13T22:29:31.6877492+02:00",
+      "epistemic_type": "transition_family_house_surface_and_finite_morphology_normalization",
+      "classification_or_scope": "transition_family_house_surface_and_finite_morphology_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 3,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0118.json",
+          "bytes": 8337,
+          "sha256": "EB9667DB369EAA45BC05274DC204F120A00DE9E2750E63E9FAA531D5723A2796"
+        }
+      ]
+    },
+    {
+      "ordinal": 119,
+      "decision_id": "ISV019-EDIT-0119",
+      "recorded_at": "2026-08-13T22:45:37.1211087+02:00",
+      "epistemic_type": "row_order_series_family_lexical_surface_and_false_friend_terminology_normalization",
+      "classification_or_scope": "row_order_series_family_lexical_surface_and_false_friend_terminology_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0119.json",
+          "bytes": 9886,
+          "sha256": "79773803A862E1D7188413049E00E6079C4B2BB716F9ECEAE9AD41A77C936A9D"
+        }
+      ]
+    },
+    {
+      "ordinal": 120,
+      "decision_id": "ISV019-EDIT-0120",
+      "recorded_at": "2026-08-14T01:23:15+02:00",
+      "epistemic_type": "passive_participle_and_verbal_noun_derivational_morphology_normalization",
+      "classification_or_scope": "passive_participle_and_verbal_noun_derivational_morphology_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0120.json",
+          "bytes": 11178,
+          "sha256": "25A9FD86481E82ED37D687730E5C9700D939944402B2F34186D3BE87DBACBB66"
+        }
+      ]
+    },
+    {
+      "ordinal": 121,
+      "decision_id": "ISV019-EDIT-0121",
+      "recorded_at": "2026-08-14T01:48:39+02:00",
+      "epistemic_type": null,
+      "classification_or_scope": "UNCLASSIFIED_LEGACY_ROW",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0121.json",
+          "bytes": 8016,
+          "sha256": "3F83DE880BCAC241DEE6216016485440A9016AB91472893F19F9927764DEC6FD"
+        }
+      ]
+    },
+    {
+      "ordinal": 122,
+      "decision_id": "ISV019-EDIT-0122",
+      "recorded_at": "2026-08-14T02:59:08+02:00",
+      "epistemic_type": null,
+      "classification_or_scope": "UNCLASSIFIED_LEGACY_ROW",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0122.json",
+          "bytes": 9109,
+          "sha256": "4F9F05D0B05E26A02FBE9D466DA0F9EEA500918279B2C0069AD8E571BB8C5840"
+        }
+      ]
+    },
+    {
+      "ordinal": 123,
+      "decision_id": "ISV019-EDIT-0123",
+      "recorded_at": "2026-08-14T03:50:59+02:00",
+      "epistemic_type": "lexical_morphological_house_family_closure",
+      "classification_or_scope": "lexical_morphological_house_family_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0123.json",
+          "bytes": 8868,
+          "sha256": "3D79A7FF7473029F700AFBBF329FEDA0B75EFF87F325FE6D2B24559C4A4A8351"
+        }
+      ]
+    },
+    {
+      "ordinal": 124,
+      "decision_id": "ISV019-EDIT-0124",
+      "recorded_at": "2026-08-14T04:42:29+02:00",
+      "epistemic_type": "sentence_specific_noninterrogative_pronoun_syntax_closure",
+      "classification_or_scope": "sentence_specific_noninterrogative_pronoun_syntax_closure",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0124.json",
+          "bytes": 10997,
+          "sha256": "6C06A162E4D810B1224092663F06F5FAE927D4CC957B39A8E8AA3EE163DDC0CA"
+        }
+      ]
+    },
+    {
+      "ordinal": 125,
+      "decision_id": "ISV019-EDIT-0125",
+      "recorded_at": "2026-08-14T05:47:40+02:00",
+      "epistemic_type": "source_fidelity_mathematical_sign_repair",
+      "classification_or_scope": "source_fidelity_mathematical_sign_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0125.json",
+          "bytes": 6229,
+          "sha256": "5A6DBCC7411792CFCCCDDD4452A47F6554E16BF621FE1B633AAB11BA7F8B2996"
+        }
+      ]
+    },
+    {
+      "ordinal": 126,
+      "decision_id": "ISV019-EDIT-0126",
+      "recorded_at": "2026-08-14T06:11:03+02:00",
+      "epistemic_type": "producer_lineage_provenance_correction",
+      "classification_or_scope": "producer_lineage_provenance_correction",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0126.json",
+          "bytes": 5230,
+          "sha256": "A82A59828965F39026D7C3ED24F4AB16700D21700514F289B8F6572D94B1FD63"
+        }
+      ]
+    },
+    {
+      "ordinal": 127,
+      "decision_id": "ISV019-EDIT-0127",
+      "recorded_at": "2026-08-14T13:01:05+02:00",
+      "epistemic_type": "official_lexicalized_preposition_surface_normalization",
+      "classification_or_scope": "official_lexicalized_preposition_surface_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0127.json",
+          "bytes": 5367,
+          "sha256": "7B352538B4E092039C0F17308D651F0E10D4EE35EDE87E9A1F61087B0A9FDDDB"
+        }
+      ]
+    },
+    {
+      "ordinal": 128,
+      "decision_id": "ISV019-EDIT-0128",
+      "recorded_at": "2026-08-14T14:30:12+02:00",
+      "epistemic_type": "cross_lane_source_fidelity_and_bounded_register_repair",
+      "classification_or_scope": "cross_lane_source_fidelity_and_bounded_register_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0128.json",
+          "bytes": 7706,
+          "sha256": "98A316720EF875F0586B0166F8CFA1746C692A23FE5F5E27CB90B52575FB7ED2"
+        }
+      ]
+    },
+    {
+      "ordinal": 129,
+      "decision_id": "ISV019-EDIT-0129",
+      "recorded_at": "2026-08-14T15:45:00+02:00",
+      "epistemic_type": "project_authority_citation_placement_and_current_body_producer_synchronization",
+      "classification_or_scope": "project_authority_citation_placement_and_current_body_producer_synchronization",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0129.json",
+          "bytes": 8215,
+          "sha256": "325921E9416C5D053D03FC281C640652915043504BA5BEABE2C0A2B0E17A496C"
+        }
+      ]
+    },
+    {
+      "ordinal": 130,
+      "decision_id": "ISV019-EDIT-0130",
+      "recorded_at": "2026-08-14T16:38:00+02:00",
+      "epistemic_type": "project_authority_mathematical_source_fidelity_and_bounded_interslavic_surface_editing",
+      "classification_or_scope": "project_authority_mathematical_source_fidelity_and_bounded_interslavic_surface_editing",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0130.json",
+          "bytes": 8466,
+          "sha256": "1090C666DBFCC39AC1BD4D30D7971DC3E4F545A63D860C1F70CF22602FDC2C0C"
+        }
+      ]
+    },
+    {
+      "ordinal": 131,
+      "decision_id": "ISV019-EDIT-0131",
+      "recorded_at": "2026-08-14T16:56:00+02:00",
+      "epistemic_type": "project_authority_mathematical_source_fidelity_and_bounded_interslavic_surface_editing",
+      "classification_or_scope": "project_authority_mathematical_source_fidelity_and_bounded_interslavic_surface_editing",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0131.json",
+          "bytes": 10134,
+          "sha256": "896B3E62F0B48B2C3A61980DE7638CAA8A04A1EDEB95A468A0AAEA45678E20C7"
+        }
+      ]
+    },
+    {
+      "ordinal": 132,
+      "decision_id": "ISV019-EDIT-0132",
+      "recorded_at": "2026-08-14T17:32:00+02:00",
+      "epistemic_type": "project_authority_source_identity_rebase_with_bounded_interslavic_surface_editing",
+      "classification_or_scope": "project_authority_source_identity_rebase_with_bounded_interslavic_surface_editing",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0132.json",
+          "bytes": 11692,
+          "sha256": "45577B1650EB84217D029655BCBEEBF4478E7B95A7C3850FE8BDB5C5E72A332F"
+        }
+      ]
+    },
+    {
+      "ordinal": 133,
+      "decision_id": "ISV019-EDIT-0133",
+      "recorded_at": "2026-08-14T20:33:17+02:00",
+      "epistemic_type": "project_authority_source_layout_and_visual_fidelity_repair",
+      "classification_or_scope": "project_authority_source_layout_and_visual_fidelity_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0133.json",
+          "bytes": 12771,
+          "sha256": "FE37862C0D611E755F0687EB4489AA66BA7506B310E3CDB88D46DDB5C7F37629"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0133.md",
+          "bytes": 4031,
+          "sha256": "240A820ED7A427BD096F645A902BFDC645ECD95C887F51739AAA00160469FE67"
+        }
+      ]
+    },
+    {
+      "ordinal": 134,
+      "decision_id": "ISV019-EDIT-0134",
+      "recorded_at": "2026-08-14T21:31:00+02:00",
+      "epistemic_type": "project_authority_presentation_fidelity_repair",
+      "classification_or_scope": "project_authority_presentation_fidelity_repair",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0134.json",
+          "bytes": 4289,
+          "sha256": "9F25C0F1DF45E99BC3F6C8192EBAEDCF841A3F803B8EC54C5F26E9123176BC89"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0134.md",
+          "bytes": 2073,
+          "sha256": "E56F75FABB3BFED22E0CECE6EC03494C9C830A18986BAC2F9B842934AAA87E77"
+        }
+      ]
+    },
+    {
+      "ordinal": 135,
+      "decision_id": "ISV019-EDIT-0135",
+      "recorded_at": "2026-08-14T23:06:53+02:00",
+      "epistemic_type": "official_house_orthography_family_normalization",
+      "classification_or_scope": "official_house_orthography_family_normalization",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0135.json",
+          "bytes": 8772,
+          "sha256": "250446D8CE55E66F4F301F2E8A979D91F94BE62E74CEE17EDB8DC99F3855CF81"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0135.md",
+          "bytes": 3953,
+          "sha256": "A20FB38DB889F239DF6F73B94F1C41C554B358D8D210E0977E82EB65323A4390"
+        }
+      ]
+    },
+    {
+      "ordinal": 136,
+      "decision_id": "ISV019-EDIT-0136",
+      "recorded_at": "2026-08-14T23:38:23+02:00",
+      "epistemic_type": "official_lexeme_and_established_house_surface_completion",
+      "classification_or_scope": "official_lexeme_and_established_house_surface_completion",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0136.json",
+          "bytes": 14713,
+          "sha256": "4A67AD323C7028C58F0E9CC43E6BEE3C5C74C12260AC3AA09E4DE00A0ABC1898"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0136.md",
+          "bytes": 3233,
+          "sha256": "4C25F24CE48E08C2DA1C3FD1C63B14A3EE5BA32A1A8DF71BAD93F7A61B8A923A"
+        }
+      ]
+    },
+    {
+      "ordinal": 137,
+      "decision_id": "ISV019-EDIT-0137",
+      "recorded_at": "2026-08-15T01:33:23+02:00",
+      "epistemic_type": "official_conjunction_and_established_house_adversative_completion",
+      "classification_or_scope": "official_conjunction_and_established_house_adversative_completion",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0137.json",
+          "bytes": 15074,
+          "sha256": "CE1A828913CD187C22B2679874487503763C43F590B156F48E32CC88B8028930"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0137.md",
+          "bytes": 4099,
+          "sha256": "756124E51C0E9DB356E35E3BBC7A806E15FC5EC6CCA5F78B46E64DBF64A236F2"
+        }
+      ]
+    },
+    {
+      "ordinal": 138,
+      "decision_id": "ISV019-EDIT-0138",
+      "recorded_at": "2026-08-15T22:01:30+02:00",
+      "epistemic_type": "active_german_authority_bounded_mathematical_notation_source_fidelity_mirror",
+      "classification_or_scope": "active_german_authority_bounded_mathematical_notation_source_fidelity_mirror",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0138.json",
+          "bytes": 14579,
+          "sha256": "08D2E71E9D88C34B054C932F017BBA73F6E7DECCAF3FF8AEE24C214EAF0705B7"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0138.md",
+          "bytes": 3913,
+          "sha256": "7D7716B5BDCAFB312BFA48D19E6B7AF6E2322EB6428D70B5431153B5B24537E4"
+        }
+      ]
+    },
+    {
+      "ordinal": 139,
+      "decision_id": "ISV019-EDIT-0139",
+      "recorded_at": "2026-08-16T17:29:13+02:00",
+      "epistemic_type": "official_dictionary_and_german_aligned_semantic_false_friend_split",
+      "classification_or_scope": "official_dictionary_and_german_aligned_semantic_false_friend_split",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0139.json",
+          "bytes": 22207,
+          "sha256": "E3EF3E43FBBFB54524C7BA7193021AC540F7ECBDE4FD1916B7211BFDE9D54735"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0139.md",
+          "bytes": 4688,
+          "sha256": "A9AA6ECF8B22EDA21939048CC4CB75EF1D77A1635AFB41ED2CACC22498EE8445"
+        }
+      ]
+    },
+    {
+      "ordinal": 140,
+      "decision_id": "ISV019-EDIT-0140",
+      "recorded_at": "2026-08-16T18:12:53+02:00",
+      "epistemic_type": "primary_and_german_aligned_mathematical_sign_fidelity",
+      "classification_or_scope": "primary_and_german_aligned_mathematical_sign_fidelity",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0140.json",
+          "bytes": 15137,
+          "sha256": "15065C94E621E195BFBB5C33DBD489357C17D6964ECC92B633E2BE9CDAC45B7E"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0140.md",
+          "bytes": 4558,
+          "sha256": "EB0D35B52342E97C813A22D3C98997CDD33F47CED4ACBF35956E58EEC7BD11BB"
+        }
+      ]
+    },
+    {
+      "ordinal": 141,
+      "decision_id": "ISV019-EDIT-0141",
+      "recorded_at": "2026-08-16T20:22:30+02:00",
+      "epistemic_type": "official_dictionary_house_register_lexical_normalization_with_german_sentence_control",
+      "classification_or_scope": "official_dictionary_house_register_lexical_normalization_with_german_sentence_control",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0141.json",
+          "bytes": 40995,
+          "sha256": "F497D7FE23983303F31C6E7E3B11E94FF394D4FEB29FC77B5C085F3DEAFFAD3F"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0141.md",
+          "bytes": 5031,
+          "sha256": "CB186217142F17630ECF8200876FCA3B5B2B403B5CAA0D7636EA166CBD1BCA4A"
+        }
+      ]
+    },
+    {
+      "ordinal": 142,
+      "decision_id": "ISV019-EDIT-0142",
+      "recorded_at": "2026-08-16T21:35:00+02:00",
+      "epistemic_type": "append_only_original_coverage_correction_using_pinned_dictionary_grammar_and_german_sentence_controls",
+      "classification_or_scope": "EDIT0014_ORIGINAL_COVERAGE_CORRECTION_AND_CURRENT_SOURCE_REPAIR",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0142.json",
+          "bytes": 42173,
+          "sha256": "4339E5C4D1103B65324CAC26CA27457C3E87B9009AE425D1892F78B8915A847D"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0142.md",
+          "bytes": 5754,
+          "sha256": "45B8A2A18B3267BE3BDFADC88F313D2EEC3F2A09AB0F1DB07D0228C918FE1D2C"
+        }
+      ]
+    },
+    {
+      "ordinal": 143,
+      "decision_id": "ISV019-EDIT-0143",
+      "recorded_at": "2026-08-16T22:15:00+02:00",
+      "epistemic_type": "german_sentence_control_plus_official_dictionary_and_grammar_with_deterministic_source_engineering",
+      "classification_or_scope": "CURRENT_SOURCE_FALSE_FRIEND_FIDELITY_REPAIR",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0143.json",
+          "bytes": 36162,
+          "sha256": "072C4800FE5A31B0C3CD8104B1AA007E41B66BCC23207A709A4EF24A79C7F836"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0143.md",
+          "bytes": 5527,
+          "sha256": "ECBD4E6DBDC11E1D526C7FEC8C42997275CFBFA00603A5319B5A507C82320EEE"
+        }
+      ]
+    },
+    {
+      "ordinal": 144,
+      "decision_id": "ISV019-EDIT-0144",
+      "recorded_at": "2026-08-16T23:35:00+02:00",
+      "epistemic_type": "complete_live_family_census_plus_official_dictionary_grammar_and_sentence_aligned_german_controls",
+      "classification_or_scope": "INTERSLAVIC_OFFICIAL_ORTHOGRAPHY_FAMILY_REPAIR",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0144.json",
+          "bytes": 84138,
+          "sha256": "671860761956066F0212B96562D14AA6F9D89C45D8F3E6D8F1A985BA2D9D8748"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0144.md",
+          "bytes": 4168,
+          "sha256": "A0F83BBA34613107AEAFF51E766B59E0A2F17C3338F66D41C83A8737102DACDF"
+        }
+      ]
+    },
+    {
+      "ordinal": 145,
+      "decision_id": "ISV019-EDIT-0145",
+      "recorded_at": "2026-08-17T01:20:24+02:00",
+      "epistemic_type": "exact_four_file_reverse_forward_replay_plus_219_witness_identity_body_audit_and_independent_postapply_review",
+      "classification_or_scope": "INTERSLAVIC_CUMULATIVE_PROVENANCE_PORTABILITY_AND_FONT_FALLBACK_CORRECTION",
+      "source_change_declared": false,
+      "alternative_field_count": 1,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0145.json",
+          "bytes": 251121,
+          "sha256": "18D5A471470E953F4BB9F89828DB5381FB29702B9AAF0BA3B140A4830A58DA8A"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0145.md",
+          "bytes": 8956,
+          "sha256": "F5DFFF6618EC159EB78F29DBCA97302CBC6A7E0963D580C5E21A7EE42DA25E43"
+        }
+      ]
+    },
+    {
+      "ordinal": 146,
+      "decision_id": "ISV019-EDIT-0146",
+      "recorded_at": "2026-08-17T04:51:02+02:00",
+      "epistemic_type": "complete_live_family_census_plus_official_dictionary_grammar_and_30_line_german_controls_plus_exact_reverse_forward_replay",
+      "classification_or_scope": "INTERSLAVIC_OFFICIAL_ADVERB_ORTHOGRAPHY_STANDARDIZATION",
+      "source_change_declared": false,
+      "alternative_field_count": 3,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0146.json",
+          "bytes": 175769,
+          "sha256": "06D2E7AC8E88D5C2E82909C28F64F99395FAF2CF2D40E1B6BA39DEADAACE7B82"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0146.md",
+          "bytes": 7850,
+          "sha256": "357E33289989D177E4380CF960F0E891D597E07C483056942F00F711CFE9DD8A"
+        }
+      ]
+    },
+    {
+      "ordinal": 147,
+      "decision_id": "ISV019-EDIT-0147",
+      "recorded_at": "2026-08-17T06:40:37+02:00",
+      "epistemic_type": "complete_live_family_census_plus_official_dictionary_grammar_plus_64_line_german_controls_plus_five_target_reverse_forward_replay",
+      "classification_or_scope": "INTERSLAVIC_OFFICIAL_FEMININE_OBLIQUE_NORMALIZATION",
+      "source_change_declared": false,
+      "alternative_field_count": 13,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0147.json",
+          "bytes": 99957,
+          "sha256": "F3353B9909050B068D2BADBE54B281293276801B840D02907E7BD139EB7FB858"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0147.md",
+          "bytes": 9699,
+          "sha256": "3BC3F7B80D0BC526651F217DC707821AAFFE2DE4238019C122E143C6BDB201CF"
+        }
+      ]
+    },
+    {
+      "ordinal": 148,
+      "decision_id": "ISV019-EDIT-0148",
+      "recorded_at": "2026-08-17T15:58:29+02:00",
+      "epistemic_type": "exact_147_plus_11_wrapper_and_13_support_manifests_plus_EDIT0145_historical_oracle_plus_six_target_reverse_forward_replay",
+      "classification_or_scope": "INTERSLAVIC_FOREIGN_PROVENANCE_AND_PROJECTION_BOUNDARY_PROTECTION",
+      "source_change_declared": false,
+      "alternative_field_count": 3,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0148.json",
+          "bytes": 58432,
+          "sha256": "6A41682E97A38D0D8E86B4431476671F4921F8C6EF93B61BC51D8A5DE790760C"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0148.md",
+          "bytes": 10855,
+          "sha256": "52A24F7DCEE5EC6C8AD15FB1D6EABD8B265DC2E37F1522406A6F60144E12D831"
+        }
+      ]
+    },
+    {
+      "ordinal": 149,
+      "decision_id": "ISV019-EDIT-0149",
+      "recorded_at": "2026-08-17T18:20:02+02:00",
+      "epistemic_type": "official_dictionary_ID3094_plus_noun_adjective_pronoun_grammar_plus_ED0015_semantic_controls_plus_exact_six_target_reverse_forward_replay",
+      "classification_or_scope": "OFFICIAL_INTERSLAVIC_USLOVJE_NEUTER_FAMILY_AND_AGREEMENT_REPAIR",
+      "source_change_declared": false,
+      "alternative_field_count": 5,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0149.json",
+          "bytes": 191754,
+          "sha256": "0A5AB575722152BECE2725F94C80F8653DD9E480AAF80AA2DF65E29C546BC432"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0149.md",
+          "bytes": 17686,
+          "sha256": "FF8E14E559A53CEF382F0FDA9DD9166F28489229B08BC7A6D5A0A146FFF60996"
+        }
+      ]
+    },
+    {
+      "ordinal": 150,
+      "decision_id": "ISV019-EDIT-0150",
+      "recorded_at": "2026-08-17T20:40:00+02:00",
+      "epistemic_type": "official_dictionary_and_grammar_controls_plus_ED0015_semantic_context_plus_exact_thirteen_line_reverse_forward_replay_plus_separate_Cyrillic_v2_scanner_authority_activation",
+      "classification_or_scope": "OFFICIAL_INTERSLAVIC_LEXICAL_ORTHOGRAPHIC_TRANCHE",
+      "source_change_declared": false,
+      "alternative_field_count": 3,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0150.json",
+          "bytes": 62298,
+          "sha256": "E95D70B8E028157F13AC3CFADAF3F062D99F8A9B44E1756D0AE47C1176B0E456"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0150.md",
+          "bytes": 10231,
+          "sha256": "C3B907B9549D21904B09B43CDBCB84497DFB06C80961D7E9F60ABB6F7DE7004A"
+        }
+      ]
+    },
+    {
+      "ordinal": 151,
+      "decision_id": "ISV019-EDIT-0151",
+      "recorded_at": "2026-08-17T23:30:00+02:00",
+      "epistemic_type": "official_dictionary_and_grammar_controls_plus_ED0015_context_plus_structural_parallels_plus_exact_eleven_lexical_and_one_identity_reverse_forward_replay",
+      "classification_or_scope": "CONTEXT_SENSITIVE_INTERSLAVIC_SEMANTIC_AND_MORPHOLOGICAL_RESOLUTION",
+      "source_change_declared": false,
+      "alternative_field_count": 3,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0151.json",
+          "bytes": 85657,
+          "sha256": "D492971FA9C120BBD4F1D230BC92AC384853C741880C2C5313399D8496B5B5DD"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0151.md",
+          "bytes": 18538,
+          "sha256": "48468EBB00B2A13C663F121C76508FA461D9B2309B890E5129FA8A8423272418"
+        }
+      ]
+    },
+    {
+      "ordinal": 152,
+      "decision_id": "ISV019-EDIT-0152",
+      "recorded_at": "2026-08-18T04:30:00+02:00",
+      "epistemic_type": "exact_complete_identity_wrappers_plus_reverse_forward_replay_plus_independent_live_postapply_guard_plus_exhaustive_role_subtraction",
+      "classification_or_scope": "COMPLETE_FOREIGN_IDENTITY_AND_PUBLICATION_IMPRINT_PROTECTION",
+      "source_change_declared": false,
+      "alternative_field_count": 2,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0152.json",
+          "bytes": 37822,
+          "sha256": "0E62461B3EC60B2CEF1D177C7BC7517698332CC2B902E3FB82BC72AB95444D14"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0152.md",
+          "bytes": 14133,
+          "sha256": "BBCBB9BBFCA16CC4851B755CC943614275391B18A98497C804E52B0BE3BDAAF4"
+        }
+      ]
+    },
+    {
+      "ordinal": 153,
+      "decision_id": "ISV019-EDIT-0153",
+      "recorded_at": "2026-08-18T20:25:00+02:00",
+      "epistemic_type": "project_house_contextual_adjudication_plus_exact_reverse_forward_replay_plus_independent_scanner_and_live_postapply_guard",
+      "classification_or_scope": "CONTEXTUAL_ZURICH_CITY_ADJECTIVE_NORMALIZATION",
+      "source_change_declared": false,
+      "alternative_field_count": 4,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0153.json",
+          "bytes": 24025,
+          "sha256": "85D03BA4730F99CCD45A503D8E8852904A49FC699F0E206551A15506C1C4CC17"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0153.md",
+          "bytes": 8865,
+          "sha256": "8F1F99C38D0930F35E5A5E6B3C638DDB4B042185746D8E7A7D66FAB165B25617"
+        }
+      ]
+    },
+    {
+      "ordinal": 154,
+      "decision_id": "ISV019-EDIT-0154",
+      "recorded_at": "2026-08-20T14:40:00+02:00",
+      "epistemic_type": "metadata_only_exact_manifest_adoption_plus_clean_room_replay_plus_fail_closed_remaining_inventory",
+      "classification_or_scope": "CYRILLIC_V3_STRUCTURAL_IDENTITY_AUTHORITY_ADOPTION",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0154.json",
+          "bytes": 14031,
+          "sha256": "391E8F86D0436584230F610AF3A1B795DEDC746F81B64753B514E1783D497F96"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0154.md",
+          "bytes": 7422,
+          "sha256": "5DEFFF986115C2E5510156E72F4FC2E81640A6D7B020CBD13C9F2F40300EE24E"
+        }
+      ]
+    },
+    {
+      "ordinal": 155,
+      "decision_id": "ISV019-EDIT-0155",
+      "recorded_at": "2026-08-20T17:15:00+02:00",
+      "epistemic_type": "metadata_only_append_only_lifecycle_repair",
+      "classification_or_scope": "REGISTRY_HANDOFF_PHASE_CONTRACT_CORRECTION",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0155.json",
+          "bytes": 10320,
+          "sha256": "328C483DEFBD58202799FA8DE8F71B2D3A1AD3067E187639E0A7309169E2D9B0"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0155.md",
+          "bytes": 5087,
+          "sha256": "118EFA043D3DBD5837CB4D3A434302873E81CED8BABB7AA2336FBAFFA34F3605"
+        }
+      ]
+    },
+    {
+      "ordinal": 156,
+      "decision_id": "ISV019-EDIT-0156",
+      "recorded_at": "2026-08-20T18:05:00+02:00",
+      "epistemic_type": "metadata_only_validator_address_and_workspace_instruction_repin",
+      "classification_or_scope": "APPEND_ONLY_REGISTRY_VALIDATOR_SUCCESSOR",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0156.json",
+          "bytes": 7944,
+          "sha256": "6078CB5D741154314B1BD74FBE008E3863CF0CF721D733A310ECC4AF4DDC0AF2"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0156.md",
+          "bytes": 3610,
+          "sha256": "9B00D874B1F8773C3ECCA23029BCA7F2A96106F9745C0A38EE99A7725F3E3E27"
+        }
+      ]
+    },
+    {
+      "ordinal": 157,
+      "decision_id": "ISV019-EDIT-0157",
+      "recorded_at": "2026-08-20T19:45:00+02:00",
+      "epistemic_type": "metadata_only_registered_handoff_head_identity_correction",
+      "classification_or_scope": "APPEND_ONLY_REGISTRY_HANDOFF_HEAD_CORRECTION",
+      "source_change_declared": false,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0157.json",
+          "bytes": 7958,
+          "sha256": "61B4B777A3D73AC48CD26B5CE0D789844EC3765FBF6D574311EBE184AAEAEE4A"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0157.md",
+          "bytes": 3352,
+          "sha256": "5A01A5DE4F35C8A96680A5AECC0565857556CFED4B0C313E09DF27BCBD7C26B3"
+        }
+      ]
+    },
+    {
+      "ordinal": 158,
+      "decision_id": "ISV019-EDIT-0158",
+      "recorded_at": "2026-08-20T19:16:00+02:00",
+      "epistemic_type": "bounded_project_house_name_policy_with_explicit_uncertainty",
+      "classification_or_scope": "INTEGRATED_NAME_EPONYM_PLACE_PROJECT_HOUSE_ADAPTATION",
+      "source_change_declared": true,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0158.json",
+          "bytes": 22556,
+          "sha256": "116215A24CE2DA0EE2611AD253B44F8CBB06B660C42F3B5F83CAA549146BFFC7"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0158.md",
+          "bytes": 10073,
+          "sha256": "984187065ADCFDBD913F2F9639CD3A14D3C83DBF03BAF92EA2F070FE18747838"
+        }
+      ]
+    },
+    {
+      "ordinal": 159,
+      "decision_id": "ISV019-EDIT-0159",
+      "recorded_at": "2026-08-20T20:38:00+02:00",
+      "epistemic_type": "bounded_role_protection_without_translation_or_transliteration",
+      "classification_or_scope": "COMPLETE_NON_NESTED_FOREIGN_IDENTITY_TITLE_VENUE_SIGNATURE_TEX_GROUP_PROTECTION",
+      "source_change_declared": true,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0159.json",
+          "bytes": 22949,
+          "sha256": "4BE696941F500431A8F0A0C6F90F5690759A2DF26141DE0BEA091B1E64653A27"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0159.md",
+          "bytes": 5457,
+          "sha256": "F3D348174343891E8743FA49EFE192D7DAB3A02A2372CC115E2C981D07E549B3"
+        }
+      ]
+    },
+    {
+      "ordinal": 160,
+      "decision_id": "ISV019-EDIT-0160",
+      "recorded_at": "2026-08-20T21:15:00+02:00",
+      "epistemic_type": "bounded_role_protection_without_translation_or_transliteration",
+      "classification_or_scope": "COMPLETE_UNINFLECTED_PERSONAL_IDENTITY_PROTECTION",
+      "source_change_declared": true,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0160.json",
+          "bytes": 24047,
+          "sha256": "387BD33BE133CAF1513D0754B810F9C682F0350B181857D14BB1DBC9FB0DB6F9"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0160.md",
+          "bytes": 5149,
+          "sha256": "0C6B70AC56E16F890AC2ACD27543145999A2D024E8853A3EB8835E1AF6C5C7BC"
+        }
+      ]
+    },
+    {
+      "ordinal": 161,
+      "decision_id": "ISV019-EDIT-0161",
+      "recorded_at": "2026-08-21T00:45:00+02:00",
+      "epistemic_type": "bounded_role_protection_without_translation_or_transliteration",
+      "classification_or_scope": "COMPLETE_UNINFLECTED_PERSONAL_IDENTITY_PROTECTION",
+      "source_change_declared": true,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0161.json",
+          "bytes": 24241,
+          "sha256": "D72B113459942D9DFA36C225FA8AD58048820358A125001F217DCF4EC4E228D4"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0161.md",
+          "bytes": 5575,
+          "sha256": "DFF3F721F418B64F006F56C411A0476720B9EB18B4CB2804BD21FBDDF6874BFE"
+        }
+      ]
+    },
+    {
+      "ordinal": 162,
+      "decision_id": "ISV019-EDIT-0162",
+      "recorded_at": "2026-08-21T04:20:00+02:00",
+      "epistemic_type": "bounded_role_protection_without_translation_or_transliteration",
+      "classification_or_scope": "COMPLETE_UNINFLECTED_PERSONAL_IDENTITY_PROTECTION",
+      "source_change_declared": true,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0162.json",
+          "bytes": 24241,
+          "sha256": "3AEC42BA624E5E00893596C642E11291E22D3B934C77072EB1EA837ED0688343"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0162.md",
+          "bytes": 5497,
+          "sha256": "96E05F585280B3E7E8842D9B3362EAB7070B3B80C9089A466646F59FB7A53CF6"
+        }
+      ]
+    },
+    {
+      "ordinal": 163,
+      "decision_id": "ISV019-EDIT-0163",
+      "recorded_at": "2026-08-21T06:00:00+02:00",
+      "epistemic_type": "bounded_role_protection_without_translation_or_transliteration",
+      "classification_or_scope": "COMPLETE_ORIGINAL_LANGUAGE_AND_PLACE_SURFACE_PROTECTION",
+      "source_change_declared": true,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0163.json",
+          "bytes": 24240,
+          "sha256": "4EB96B6374612CC6F05226C6107860B551D0C4E0DED75F434B97677DB5341FB7"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0163.md",
+          "bytes": 5791,
+          "sha256": "FD83DA379AA3445AF64FB7215B37AB9E45CB8AB13A77147BA2F736F267115552"
+        }
+      ]
+    },
+    {
+      "ordinal": 164,
+      "decision_id": "ISV019-EDIT-0164",
+      "recorded_at": "2026-08-21T09:00:00+02:00",
+      "epistemic_type": "bounded_role_protection_without_translation_or_transliteration",
+      "classification_or_scope": "COMPLETE_ORIGINAL_LANGUAGE_PLACE_AND_PERSONAL_IDENTITY_SURFACE_PROTECTION",
+      "source_change_declared": true,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0164.json",
+          "bytes": 24258,
+          "sha256": "80ACEFA3981E0F347ACF997634E1B0629856644FAA9B0B86A375AD84984BD2FB"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0164.md",
+          "bytes": 5609,
+          "sha256": "A0A21B00FA0D843C627644BCF634CEAE91B1E471D8B832799F4569DE3CFD9730"
+        }
+      ]
+    },
+    {
+      "ordinal": 165,
+      "decision_id": "ISV019-EDIT-0165",
+      "recorded_at": "2026-08-21T12:00:00+02:00",
+      "epistemic_type": "bounded_role_protection_without_translation_or_transliteration",
+      "classification_or_scope": "COMPLETE_ORIGINAL_LANGUAGE_NAME_EPONYM_TITLE_VENUE_AND_CITATION_SURFACE_PROTECTION",
+      "source_change_declared": true,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0165.json",
+          "bytes": 24287,
+          "sha256": "F3484D82ACADF09838D3EC8C9FFF635C1A048A4DF3A0EB57C1A20DD50025678E"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0165.md",
+          "bytes": 4696,
+          "sha256": "83DF4186B3FF45894EEFB3DCEAD504801584E7CFA09568856C765B0ABE9467CB"
+        }
+      ]
+    },
+    {
+      "ordinal": 166,
+      "decision_id": "ISV019-EDIT-0166",
+      "recorded_at": "2026-08-21T13:00:00+02:00",
+      "epistemic_type": "bounded_role_protection_without_translation_or_transliteration",
+      "classification_or_scope": "COMPLETE_ORIGINAL_LANGUAGE_NAME_EPONYM_TITLE_VENUE_AND_CITATION_SURFACE_PROTECTION",
+      "source_change_declared": true,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0166.json",
+          "bytes": 24310,
+          "sha256": "1B8F9285CB1EED49A037AD9AA67EE7390906EC18A0E8AB95C1598F63EA752A1F"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0166.md",
+          "bytes": 5292,
+          "sha256": "227AFFA798E20682DD4A7E1258A89A139FECF9CAD3BAE36F8BD96BA8C3536F51"
+        }
+      ]
+    },
+    {
+      "ordinal": 167,
+      "decision_id": "ISV019-EDIT-0167",
+      "recorded_at": "2026-08-21T14:00:00+02:00",
+      "epistemic_type": "bounded_role_protection_without_translation_or_transliteration",
+      "classification_or_scope": "COMPLETE_ORIGINAL_LANGUAGE_NAME_EPONYM_TITLE_VENUE_AND_CITATION_SURFACE_PROTECTION",
+      "source_change_declared": true,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0167.json",
+          "bytes": 24464,
+          "sha256": "76101828E1289BEF06F8269F9CE9DB67014B810799D67D061A9E7E98BE3726CC"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0167.md",
+          "bytes": 4401,
+          "sha256": "71501372E75A989DF23AA369F459D323A0303C664BD2CB3963C109C5AB14F4E5"
+        }
+      ]
+    },
+    {
+      "ordinal": 168,
+      "decision_id": "ISV019-EDIT-0168",
+      "recorded_at": "2026-08-21T16:00:00+02:00",
+      "epistemic_type": "bounded_role_protection_without_translation_or_transliteration",
+      "classification_or_scope": "COMPLETE_ORIGINAL_LANGUAGE_NAME_EPONYM_TITLE_VENUE_AND_CITATION_SURFACE_PROTECTION",
+      "source_change_declared": true,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0168.json",
+          "bytes": 24297,
+          "sha256": "56E9C11932661901C62E89071EF033F7C34E00F39596E7CC41CAA927797DD68B"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0168.md",
+          "bytes": 4889,
+          "sha256": "9341A049A4DC7BA990ABEDA27DBD768184F8D2A2B8FB40035F56BE418246FF6A"
+        }
+      ]
+    },
+    {
+      "ordinal": 169,
+      "decision_id": "ISV019-EDIT-0169",
+      "recorded_at": "2026-08-21T18:00:00+02:00",
+      "epistemic_type": "bounded_role_protection_without_translation_or_transliteration",
+      "classification_or_scope": "COMPLETE_ORIGINAL_LANGUAGE_NAME_EPONYM_TITLE_VENUE_AND_CITATION_SURFACE_PROTECTION",
+      "source_change_declared": true,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0169.json",
+          "bytes": 24368,
+          "sha256": "FAAD09FA954CEDB769F23FF6ED465523596D55C9FA315EF0DF2E9F0D74A9DE43"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0169.md",
+          "bytes": 4691,
+          "sha256": "8F29A4B20A07DEC5A6D9B3A17F1017AC37821501E0FC9A1F8BF41CBD1D245387"
+        }
+      ]
+    },
+    {
+      "ordinal": 170,
+      "decision_id": "ISV019-EDIT-0170",
+      "recorded_at": "2026-08-21T19:00:00+02:00",
+      "epistemic_type": "bounded_role_protection_without_translation_or_transliteration",
+      "classification_or_scope": "COMPLETE_ORIGINAL_LANGUAGE_NAME_EPONYM_TITLE_VENUE_AND_CITATION_SURFACE_PROTECTION",
+      "source_change_declared": true,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0170.json",
+          "bytes": 24490,
+          "sha256": "FD462AEC2905BC6DF51CE3356B98004E9E542DAEE59A4D3F1BA895BA1E40EA2C"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0170.md",
+          "bytes": 5396,
+          "sha256": "99C2416E1DA56828CA77050B6504F9131276EFA17E3F01DAF405CD27C7DB1A7D"
+        }
+      ]
+    },
+    {
+      "ordinal": 171,
+      "decision_id": "ISV019-EDIT-0171",
+      "recorded_at": "2026-08-21T21:00:00+02:00",
+      "epistemic_type": "bounded_role_protection_without_translation_or_transliteration",
+      "classification_or_scope": "COMPLETE_ORIGINAL_LANGUAGE_NAME_EPONYM_TITLE_VENUE_AND_CITATION_SURFACE_PROTECTION",
+      "source_change_declared": true,
+      "alternative_field_count": 0,
+      "companions": [
+        {
+          "path": "decision_records/ISV019-EDIT-0171.json",
+          "bytes": 24735,
+          "sha256": "178088D7090D0A3FA701FB13F4FA157BD26E7E546A4AEE9DDD4F723EC2BABBB4"
+        },
+        {
+          "path": "decision_records/ISV019-EDIT-0171.md",
+          "bytes": 6342,
+          "sha256": "75167EC3FF7BB348424593DA1003F8B50AA0EB4640B68BA8C174B3A114F9C428"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "decisions": 171,
+    "decisions_with_explicit_alternative_or_rejection_fields": 137,
+    "explicit_alternative_or_rejection_fields": 301,
+    "decisions_with_companion_files": 161
+  },
+  "interpretation": "The ledger and sidecars are controlling evidence. This index is a discovery aid and does not replace them. Some later role-protection decisions encode rejected alternatives in human companions or candidate receipts rather than a field whose key contains alternative/reject."
+}

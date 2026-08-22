@@ -1,0 +1,86 @@
+{
+  "decision_id": "ISV019-EDIT-0107",
+  "recorded_at": "2026-08-13T20:30:03.3064068+02:00",
+  "epistemic_type": "adjective_nominative_accusative_plural_residual_repair",
+  "scope": "The only two whole-token adjective forms ending in Russian-shaped -ye across the four Latin sources: harakternye at base line 5808 and stepennye at base line 9847.",
+  "choice": "Repair harakternye svojstva to harakterne svojstva and v stepennye redy to v stepenne redy, preserving the established stems and changing only the plural ending.",
+  "motivation": "Both targets modify non-animate plural nouns and therefore take the common Interslavic nominative/accusative plural adjective ending -e. The -ye surfaces are isolated Russian transliteration residues; the edition already contains five exact stepenne controls and no harakterne control before this edit.",
+  "alternatives_rejected": [
+    "Retaining -ye was rejected because official adjective grammar supplies -e for non-masculine-animate nominative/accusative plural and no -ye ending.",
+    "Changing the lexical stems to harakterističn- or stepenjev-/stepenov- was rejected because this decision is a bounded inflection repair and the current stems are semantically established elsewhere in the edition.",
+    "Using genitive/accusative animate -yh was rejected because svojstva are neuter plural and redy are masculine inanimate plural."
+  ],
+  "evidence": {
+    "official_grammar": "Official adjectives.md, 8142 bytes, SHA-256 184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F, lines 14-18 requires adjective agreement and states that nominative and accusative plural are identical for all genders except masculine animate nouns.",
+    "german_authority": "German authority ED0011_noether.tex, 2153594 bytes, SHA-256 9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3: line 5241 has alle charakteristischen Eigenschaften and line 9147 has auf den transzendenten Grundlagen der Potenzreihenentwicklung, confirming the two plural contexts.",
+    "semantic_audit": "Base line 5808 has vse harakternye svojstva, with neuter plural svojstva. Base line 9847 has razvijanja v stepennye redy, with accusative plural masculine-inanimate redy.",
+    "protected_domains": "Neither target occurs in a comment, foreign-language/title argument, bibliography identity, TeX control name, label, citation key or URL."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0106",
+    "decision_log": {
+      "bytes": 403235,
+      "sha256": "3E0C4ED77AA06A0DF7D0442645953DDB913736277E961C51CDF17DD25DA0D418"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "7BEB05410FEB8B3110B480471C04B7EC6392DD4B005BBDEE0203126F4CF34FD8"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898293,
+      "sha256": "85ECFAA7C6DFC0C91F5BD27707AE76CE02BA263FCECA9B3792BA08A3D78A8713"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "mapping": {
+    "base:5808:43": "harakternye -> harakterne",
+    "base:9847:151": "stepennye -> stepenne"
+  },
+  "results": {
+    "sites_changed": 2,
+    "source_counts_before_after": {
+      "harakternye": [1, 0],
+      "stepennye": [1, 0]
+    },
+    "target_counts_before_after": {
+      "harakterne": [0, 1],
+      "stepenne": [5, 6]
+    },
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "7BEB05410FEB8B3110B480471C04B7EC6392DD4B005BBDEE0203126F4CF34FD8"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898291,
+      "sha256": "1B9BE1D394D30267495A7EEA414AA32BAEB551B5275516C596C877DB7A669ABF"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "tool": {
+    "path": "apply_adjective_plural_ye_residual_v019.py",
+    "bytes": 4482,
+    "sha256": "A2807BA160C38BE691A1EE71F2BE04A269B683A343CA3E61BE8AC3D201D6511E"
+  },
+  "validation": {
+    "coverage": "Each exact source token occurs once at its declared locator, and no other whole-token adjective -ye form remains in the four-source scan.",
+    "postcondition": "Both source forms become zero; harakterne rises to one and stepenne rises from five to six.",
+    "structure": "Line count, raw brace counts, ordered TeX-control stream and math-delimiter stream are invariant; the other three sources are byte-identical.",
+    "reproducibility": "The applicator binds all four input and output byte counts and SHA-256 hashes and refuses coverage or locator drift."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

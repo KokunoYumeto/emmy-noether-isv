@@ -1,0 +1,30 @@
+{
+  "decision_id": "ISV019-EDIT-0029",
+  "recorded_at": "2026-08-13T01:16:59.4250714+02:00",
+  "epistemic_type": "manager_direct_morphological_normalization",
+  "scope": "All 177 live v019 vzaim- mutuality/reciprocity forms.",
+  "choice": "Normalize nine observed case-sensitive forms from malformed vzaim- to the official standard vzajem- paradigm while preserving capitalization, case, number, and syntax.",
+  "motivation": "The official dictionary contains only type-1 vzajėmno, vzajėmnosť, and vzajėmny, with standard examples using vzajem-. The inherited vzaim- layer is an East-shaped transliteration residue, not a distinct semantic option.",
+  "alternatives_rejected": ["Retain vzaim- as a national spelling variant; it is absent from the official headword family.", "Replace with reciprocal internationalisms; that is unnecessary and less transparent across ordinary prose contexts."],
+  "evidence": {
+    "candidate_scout": "/root/srav_family",
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "entries": ["id 13986 vzajėmno type 1", "id 23052 vzajėmnosť type 1", "id 1804 vzajėmny type 1"]
+    }
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 177,
+    "case_sensitive_types": 9,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167969, "sha256": "7DA42E58EE72F2C8EE30422F411343D0B0A4A8F7C086157134781F5E832E8E9C"},
+    "source_latin/45-isv.tex": {"bytes": 25514, "sha256": "12F09731E33CC160B41C3D80C36E7FFECEBF85FAFAD4C1EF1EC969D9CA570583"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896359, "sha256": "D2C412C26FABFB467E7A0933700E15FB59098EA9A9C287051CE5A0F0E026FB0C"},
+    "source_latin/bib-isv.tex": {"bytes": 9578, "sha256": "E5951A6278A556003C44DE30FC0012C1421606BDB1DE3AB6CF05C01986D9613B"}
+  },
+  "tool": {"path": "apply_vzajem_family_v019.py", "bytes": 3498, "sha256": "A58967710952CE9E1AA03C0852DC7B494E41F612849D22161A449E4D9668B82D"},
+  "validation": {"prehashes": "4/4 exact after EDIT-0028", "residue": "zero whole-token vzaim- residue", "dry_run_then_apply": "frozen output hashes reproduced", "structure": "TeX controls, references/citations, braces, math delimiters, and line counts unchanged"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

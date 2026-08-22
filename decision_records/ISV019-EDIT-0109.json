@@ -1,0 +1,125 @@
+{
+  "decision_id": "ISV019-EDIT-0109",
+  "recorded_at": "2026-08-13T20:46:04.2432484+02:00",
+  "epistemic_type": "residual_comparative_superlative_family_closure",
+  "scope": "Sixteen whole-token adjective comparative or superlative defects in the four Latin sources: one dalših, two unaccented pozdnejš- forms, all six adjective ranějš-/ranjejš- forms, and all seven truncated najobć- superlative forms. All targets occur in the base papers.",
+  "choice": "Normalize by exact sentence grammar and official lexical family: dalših to daljših for further/subsequent; pozdnejš- to pozdnějš-; the complete adjective ranějš-/ranjejš- family to inflected ranš- while preserving the distinct adverb raněje; and the incomplete najobć- forms to inflected najobćejš-.",
+  "motivation": "The target families are directly prescribed by the official dictionary and comparative grammar, and every site is confirmed by the German meaning authority. This closes four small but visible mixed-paradigm residues without touching valid adverbs, positive adjectives, or unrelated comparative senses.",
+  "alternatives_rejected": [
+    "Retaining dalših under the generic daleky to dalši grammar rule was rejected because this sentence means further/subsequent investigations, for which the official lexical comparator is daljši; it does not mean physically farther.",
+    "Merely accenting ranjejš- to ranějš- was rejected because the exact official adjective comparative headword is ranši. The separate official adverb raněje remains untouched.",
+    "Reading the seven najobć- forms as ordinary positive adjectives or adverbs was rejected because each governs or predicates a noun and the German has an explicit allgemeinste/allgemeinsten superlative.",
+    "A broad stem-level replacement was rejected in favor of the sixteen audited whole-token sites so valid obći, raněje, pozdněje, dalje and other paradigms remain byte-exact."
+  ],
+  "evidence": {
+    "official_dictionary": "Official isv_words_list.csv, 7993414 bytes, SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: row 1872 / ID 3032 daljši, type 1, further/farther; row 9068 / ID 1000 obći, type 1; row 11988 / ID 11106 pozdnějši, type 1, later; row 13366 / ID 4060 ranši, type 1, earlier. The national comparator columns span West, South and East Slavic and preserve the exact semantic distinctions used here.",
+    "official_grammar": "Official adjectives.md, 8142 bytes, SHA-256 184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F: line 63 gives comparative -ějši/-ejši, line 67 gives the shorter -ši class, and line 87 forms the superlative by adding naj- to the comparative. Thus obći gives obćejši/najobćejši, while exact dictionary headwords control the daljši, pozdnějši and ranši lexical families.",
+    "german_authority": "German authority ED0014 noether.tex, 2154011 bytes, SHA-256 EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58. Exact representative controls: lines 3666, 8507, 8513, 8833, 9051 and 9080 have allgemeinsten/allgemeinste; lines 6380, 8886, 10409 and 10475 have früheren; line 7694 has späteren Literatur; line 17449 has späteren Anwendungen; and line 19042 has weiteren Untersuchungen.",
+    "semantic_audit": "All sixteen sites were read in full sentence context. Seven najobć- sites mean most general forms, expression, transformations, solutions, groups or I; six ran- sites mean earlier result/work/case/items/basis; two pozdnějš- sites mean later literature/applications; and dalših means further investigations. No spatial-far, merely-general, adverbial-earlier, or proper-name occurrence is present.",
+    "edition_controls": "Before the edit the exact canonical controls include daljših 12, pozdnějših 4, najobćejše 19, Najobćejše 7, najobćejši 2 and najobćejših 9. The six adjective earlier sites were the entire noncanonical family; the valid adverb raněje is separate and protected.",
+    "protected_domains": "No target occurs in a TeX comment, control name, label, citation key, URL, math expression, bibliography identity, or foreign-language/title argument. One earlier-work occurrence and one most-general-solutions occurrence are in editable explanatory footnotes, not protected quotations."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0108",
+    "decision_log": {
+      "bytes": 412951,
+      "sha256": "A5109900BD91B876AF9DB36C102622DFDAA4E46C586A2E730588BDC88D84CC0F"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "7BEB05410FEB8B3110B480471C04B7EC6392DD4B005BBDEE0203126F4CF34FD8"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898291,
+      "sha256": "3EEBBEEF2ABE674DC02303923C359CABA53FB64AEB74D47E280EC118FBA716DB"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "mapping": {
+    "dalših": "daljših",
+    "pozdnejšoj": "pozdnějšoj",
+    "pozdnejših": "pozdnějših",
+    "ranějšim": "ranšim",
+    "ranějšej": "ranšej",
+    "ranějšemu": "ranšemu",
+    "ranjejšim": "ranšim",
+    "ranjejših": "ranših",
+    "najobće": "najobćejše",
+    "Najobće": "Najobćejše",
+    "najobći": "najobćejši",
+    "najobćimi": "najobćejšimi",
+    "najobćih": "najobćejših"
+  },
+  "locators": [
+    "base:3732:119:najobće",
+    "base:4277:1272:ranějšim",
+    "base:7119:631:ranějšej",
+    "base:8411:238:pozdnejšoj",
+    "base:9172:144:najobći",
+    "base:9178:614:najobće",
+    "base:9178:1233:najobćimi",
+    "base:9499:640:najobćih",
+    "base:9554:655:ranějšemu",
+    "base:9720:351:najobće",
+    "base:9749:1:Najobće",
+    "base:11298:48:ranjejšim",
+    "base:11386:406:ranjejših",
+    "base:16655:820:ranějšim",
+    "base:21308:68:pozdnejših",
+    "base:23169:236:dalših"
+  ],
+  "results": {
+    "sites_changed": 16,
+    "source_family_before_after": [16, 0],
+    "target_form_counts_before_after": {
+      "daljših": [12, 13],
+      "pozdnějšoj": [0, 1],
+      "pozdnějših": [4, 5],
+      "ranšim": [0, 3],
+      "ranšej": [0, 1],
+      "ranšemu": [0, 1],
+      "ranših": [0, 1],
+      "najobćejše": [19, 22],
+      "Najobćejše": [7, 8],
+      "najobćejši": [2, 3],
+      "najobćejšimi": [0, 1],
+      "najobćejših": [9, 10]
+    },
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "7BEB05410FEB8B3110B480471C04B7EC6392DD4B005BBDEE0203126F4CF34FD8"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898304,
+      "sha256": "D3A4BBAE021EC7EEB4BD2013F1DBC15E616203EE94E989E9242D798A3750F707"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "tool": {
+    "path": "apply_residual_comparative_family_v019.py",
+    "bytes": 6212,
+    "sha256": "C00A533FC2EFBB3CD215058BCB759CA54B9693B2DFD91FDF2AFD352558641DA6"
+  },
+  "validation": {
+    "coverage": "The thirteen exact source spellings total sixteen tokens at the declared locators; all are replayed and all become zero.",
+    "postcondition": "Every canonical target increment matches its mapped source count. Valid raněje, pozdněje, dalje and positive obći forms remain unchanged.",
+    "structure": "Only the base source changes, by thirteen UTF-8 bytes. Line count, raw brace counts, ordered TeX-control stream and math-delimiter stream are invariant; the other three sources are byte-identical.",
+    "reproducibility": "The deterministic applicator binds all four input and output byte counts and SHA-256 hashes, exact token histograms and exact line/column/token locators, and refuses drift."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

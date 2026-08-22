@@ -1,0 +1,46 @@
+{
+  "decision_id": "ISV019-EDIT-0076",
+  "recorded_at": "2026-08-13T15:08:22.7460185+02:00",
+  "epistemic_type": "manager_irregular_superlative_morphology_normalization",
+  "scope": "Forty-five mixed-national largest/greatest adjective forms in the base papers.",
+  "choice": "Normalize the complete adjective set to the official veliky to večši to največši paradigm, inflecting the one feminine singular and the neuter/plural sites by sentence agreement.",
+  "motivation": "The corpus mixed ć, č, j and bare-stem national forms. Official grammar specifies irregular večši, naj- superlative formation, soft-stem inflection, and gender/case/number agreement.",
+  "alternatives_rejected": [
+    "A blind stem swap would turn three neuter-plural podpolja contexts into feminine singular.",
+    "Retaining national ć/j variants leaves an internally split adjective paradigm.",
+    "The separate frequency adverb največestěje is not part of this adjective paradigm and is assigned its own semantic repair."
+  ],
+  "evidence": {
+    "official_grammar": "adjectives.md SHA-256 184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F: agreement, soft stems, irregular veliky to večši, and naj- superlative.",
+    "official_dictionary": "isv_words_list.csv SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: official najvęćši entry; the grammar and this lane's simplified orthography yield največši.",
+    "source_verification": "Direct current-byte scan corrected the provisional special-source spelling from največća to the actual največa before application."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0075",
+    "decision_log": {"bytes": 289031, "sha256": "C9A68A02903BBD77A985C38E1B29A1877F9D78D2954F3EFD14333F3B0AE1116C"},
+    "source_latin/44-book-isv.tex": {"bytes": 168038, "sha256": "13A88CCE61F9EB56C485689AF8A2874DA549585827F52BFFAD8AF085D6787E61"},
+    "source_latin/45-isv.tex": {"bytes": 25542, "sha256": "DBFBBE448C588F09091EE27C7A2DBC31D06AD537620C47E1096198A328EEDD4B"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897547, "sha256": "BB655CD0CC734CB62C5CF825E78D56A8C992AA77910A678997376BFAB7F83996"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 45,
+    "file_counts": {"base-papers1-43-isv.tex": 45},
+    "target_histogram": {"največša": 1, "največše": 56, "največšego": 8, "največši": 56, "največših": 16, "največšim": 5},
+    "old_adjective_variant_residue": 0,
+    "unresolved_adjective_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168038, "sha256": "13A88CCE61F9EB56C485689AF8A2874DA549585827F52BFFAD8AF085D6787E61"},
+    "source_latin/45-isv.tex": {"bytes": 25542, "sha256": "DBFBBE448C588F09091EE27C7A2DBC31D06AD537620C47E1096198A328EEDD4B"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897630, "sha256": "8BCDD6BA03C3A1B676FBAFE2CB9D7343AF59EC1D128CC5A91BCD50BB090B939B"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_najvec_superlative_v019.py", "bytes": 4470, "sha256": "EA40491FE106B80FA0EF7143FD52161091BCCAFD53F89930F749E540A62926AF"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0075",
+    "coverage": "45/45 exact sites; one feminine singular and three neuter-plural največa sites line-bound",
+    "postcondition": "all twelve old adjective spellings zero and target histogram exact",
+    "structure": "TeX controls, labels/refs/cites, braces, math delimiters and line counts invariant",
+    "reproducibility": "frozen successor hashes reproduced before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

@@ -1,0 +1,32 @@
+{
+  "decision_id": "ISV019-EDIT-0081",
+  "recorded_at": "2026-08-13T15:23:51.2519544+02:00",
+  "epistemic_type": "manager_base_logical_consequence_connective_tranche",
+  "scope": "Twenty-five exact base-text tedy/Tedy sites functioning as proof or premise consequences.",
+  "choice": "Replace the 16 lowercase and nine sentence-initial uppercase sites with zato/Zato.",
+  "motivation": "German also/so/folglich force and mathematical clause structure classify every site as a result or proof consequence, not equivalence, conditional apodosis, time, or filler.",
+  "alternatives_rejected": ["To jest would flatten inference into equivalence.", "Togda would introduce time.", "Blanket replacement would pre-empt 211 still separately classified base tokens."],
+  "evidence": {"semantic_review": "All 25 occurrences were sentence-reviewed, including repeated-token lines and two Nehaj/Es sei proof setups.", "case_correction": "Direct source verification corrected base line4695 from the provisional lowercase group to sentence-initial Tedy/Zato."},
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0080",
+    "decision_log": {"bytes": 304410, "sha256": "0840DEEE81CA8670068CC72BC2F1A4A6078A8F011393418B5A09627E9631FA84"},
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25557, "sha256": "4BCE3FC674C270009151AA00E959633720EFFD7D32A8EFE9DA459AF3971A0033"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898236, "sha256": "B112509A25DE926661B58466DB06D951E390188CAC60C646B2F83BA7BF2E064B"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 25,
+    "target_histogram": {"zato": 16, "Zato": 9},
+    "base_family_residue_pending_classification": 211,
+    "other_file_family_residue": 0,
+    "unresolved_linguistic_holds_in_tranche": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25557, "sha256": "4BCE3FC674C270009151AA00E959633720EFFD7D32A8EFE9DA459AF3971A0033"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898236, "sha256": "20C9C54C4794D0AD4EB36EBAF09EB6137C35FCAF95DD553A65D61B2A5BB90D73"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_base_consequence_tranche_v019.py", "bytes": 3627, "sha256": "76CEBDA01640666DF055612B2BCAFBF37496CE953D0DE5EE774BB322364D9F44"},
+  "validation": {"prehashes": "4/4 exact against EDIT-0080", "coverage": "25 exact line-and-ordinal sites", "postcondition": "selected sites zero; 211 base tokens deliberately untouched", "structure": "TeX controls, braces, math delimiters and line counts invariant", "reproducibility": "frozen successor hashes reproduced before atomic apply"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

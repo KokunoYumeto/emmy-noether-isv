@@ -1,0 +1,40 @@
+{
+  "decision_id": "ISV019-EDIT-0035",
+  "recorded_at": "2026-08-13T01:42:13.5941890+02:00",
+  "epistemic_type": "manager_direct_pronominal_normalization",
+  "scope": "All 10 residual whole-token sej demonstratives in live v019 Latin sources.",
+  "choice": "Replace archaic and potentially unclear sej with the primary demonstrative toj in nine nominative or feminine-genitive contexts and togo in the one masculine-genitive context.",
+  "motivation": "The official grammar explicitly says toj is the primary demonstrative and warns that sej has vanished from most modern Slavic languages and may not be clear. These ten contexts require no proximal-versus-distal contrast, so the primary paradigm maximizes cross-Slavic intelligibility.",
+  "alternatives_rejected": [
+    "Retain sej for historical flavor; that knowingly preserves a documented intelligibility failure.",
+    "Use tutoj throughout; the official grammar reserves it for contexts requiring an explicit proximal contrast, absent here.",
+    "Blindly replace all ten with toj; the masculine-genitive mo-modula context requires togo."
+  ],
+  "evidence": {
+    "official_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/pronouns.md",
+      "bytes": 10370,
+      "sha256": "AB4F7B04FD55618DE2EB5FEB282558BEDEC6C205BEBB0E6BBD612CB3FBC88141",
+      "lines": "68-79: toj is primary; tutoj is for explicit proximal contrast; sej may not be clear because it has vanished from most modern languages"
+    }
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 10,
+    "toj": 9,
+    "togo": 1,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167969, "sha256": "461B7777C97A1CF89A92A22E9C888140064408DD19F9FCE5969FF44D23F13164"},
+    "source_latin/45-isv.tex": {"bytes": 25518, "sha256": "44EF1048C8053608C476FA4CB3EC3D102CDC4472431F046337C4B1BC4603BEE1"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896454, "sha256": "71C35EE394E22399172B945180E0231F91B4223E5448BC980B64E3F25374251E"},
+    "source_latin/bib-isv.tex": {"bytes": 9578, "sha256": "E5951A6278A556003C44DE30FC0012C1421606BDB1DE3AB6CF05C01986D9613B"}
+  },
+  "tool": {"path": "apply_demonstrative_sej_family_v019.py", "bytes": 3090, "sha256": "AB6BC7225692933A92111A31AECB90DA19E5169C2083000A5C85369D0BA82B32"},
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0034",
+    "coverage": "10/10 whole-token sej occurrences changed exactly once with case-aware occurrence mapping",
+    "residue": "zero whole-token sej",
+    "dry_run_then_apply": "frozen output hashes reproduced",
+    "structure": "TeX controls, references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

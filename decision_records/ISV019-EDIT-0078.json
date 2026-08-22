@@ -1,0 +1,41 @@
+{
+  "decision_id": "ISV019-EDIT-0078",
+  "recorded_at": "2026-08-13T15:17:09.0166907+02:00",
+  "epistemic_type": "manager_minimum_at_least_semantic_split",
+  "scope": "All 192 changed sites in the 193-site minimum/lower-bound family: 172 at-least adverbs and 20 least-common-multiple adjectives; one existing prinajmenje control retained.",
+  "choice": "Render lower bounds as official prinajmenje and the exact technical phrase least common multiple as najmenše obće mnogokratno.",
+  "motivation": "German and mathematical syntax separate mindestens/wenigstens from kleinstes gemeinsames Vielfaches. A single spelling substitution would collapse two meanings and leave the LCM adjective without agreement.",
+  "alternatives_rejected": ["Global prinajmenje would corrupt 20 LCM terms.", "Global najmenje would misrender lower bounds.", "Retaining najmanje/najmene/najmenej preserves three national surface strata."],
+  "evidence": {
+    "official_dictionary": "isv_words_list.csv SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: prinajmėnje type1 at least; najmėnje least; maly comparative menši.",
+    "official_grammar": "adjectives.md SHA-256 184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F: irregular menši and naj- superlative.",
+    "cohort_evidence": "Czech and Polish mathematics independently separate at-least adverbs from adjectival LCM terminology; Slovene and Bosnian corroborate the semantic distinction.",
+    "baseline_correction": "Direct exact pre-edit scan found 66 existing najmenše tokens, not the preliminary 73 estimate; verified post-total is 86."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0077",
+    "decision_log": {"bytes": 295250, "sha256": "705A4F85C508AFE80301512480E0350D40156733F32672250D62EEEAEBA7554F"},
+    "source_latin/44-book-isv.tex": {"bytes": 168038, "sha256": "13A88CCE61F9EB56C485689AF8A2874DA549585827F52BFFAD8AF085D6787E61"},
+    "source_latin/45-isv.tex": {"bytes": 25542, "sha256": "DBFBBE448C588F09091EE27C7A2DBC31D06AD537620C47E1096198A328EEDD4B"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897628, "sha256": "97F18DC9241CD141D9937CC649A1F56F09CF8A7FBAE32364F574ACC288B15EC4"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_reviewed": 193,
+    "sites_changed": 192,
+    "at_least_sites": 172,
+    "least_common_multiple_sites": 20,
+    "existing_prinajmenje_control_retained": 1,
+    "prinajmenje_total_after": 173,
+    "najmenše_total_after": 86,
+    "old_surface_residue": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25557, "sha256": "8746711C552E572EF4AC51F055DDC9DB18FF9858441CED86D4F83A982458C5C8"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898191, "sha256": "A4101B1DC80C03800680081AB3C74BA4C85324B2AAB7738710D7F379BBCCD1A0"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_minimum_atleast_split_v019.py", "bytes": 4500, "sha256": "5DEE616A8B1974F6EFDC126DF654C282335FCDD92C5DD18653DE0D17471B1339"},
+  "validation": {"prehashes": "4/4 exact against EDIT-0077", "coverage": "172 at-least plus 20 exact LCM phrase sites", "postcondition": "all four old surfaces zero; target totals exact", "structure": "TeX controls, labels/refs/cites, braces, math delimiters and line counts invariant", "reproducibility": "frozen successor hashes reproduced before atomic apply"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

@@ -1,0 +1,34 @@
+{
+  "decision_id": "ISV019-EDIT-0067",
+  "recorded_at": "2026-08-13T14:39:46.6377951+02:00",
+  "epistemic_type": "manager_direct_sentence_aware_official_paradigm_repair",
+  "scope": "The fifteen malformed opred-family tokens denied by EDIT-0066, on fourteen exact lines in papers 1-43.",
+  "choice": "Repair each token to its sentence-required official oprěděl-family form, including agreement, passive morphology, verbal-noun form, present conjugation, and one analytic co-determination recast.",
+  "motivation": "These sites could not safely receive spelling-only normalization. Exact German and sentence syntax distinguish plural nominalized indeterminates, passive participles, verbal nouns, contracted present forms, and the unattested so- compound.",
+  "alternatives_rejected": ["Blind accenting would preserve malformed endings and conjugations.", "Global definiovati would lose determine/indeterminate functions.", "Preserving national variants would leave a mixed paradigm."],
+  "evidence": {
+    "official_dictionary": {"path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv", "bytes": 7993414, "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842", "entries": ["oprěděliti", "oprěděljati", "oprěděljeno/oprěděljeny", "neoprěděljeno/neoprěděljeny"]},
+    "context_review": "All fifteen sites were resolved against their local case, number, tense, and German semantic role; soopreděljeno became analytic takože oprěděljeno."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0066",
+    "decision_log": {"bytes": 260278, "sha256": "330515F212B7738A0BFA7BE8BAC8A8483C34A735BC1B3D0C888720FEA0479872"},
+    "source_latin/44-book-isv.tex": {"bytes": 167995, "sha256": "492A22994045F3168995E12AE45E90D750715AF1FF42AF35FA0E1DF1BDB07BD0"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897397, "sha256": "35960D76B88ED689F46EDE20BA69A4806CB5986EF1E9C698EC21717DE3C8286B"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 15,
+    "old_family_residual": 0,
+    "canonical_oprěděl_family": 559,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167995, "sha256": "492A22994045F3168995E12AE45E90D750715AF1FF42AF35FA0E1DF1BDB07BD0"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897411, "sha256": "A3F3CC0C5EADFDA42005E01D81B415632F8EBA6C6ADAA4A7B3E03F32D47179B2"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_opred_anomaly_repairs_v019.py", "bytes": 4091, "sha256": "ED8284497269C3CC5ED24144F26B76E2671BD9C1BC097F8E25FDD993512C63B9"},
+  "validation": {"prehashes": "4/4 exact against EDIT-0066", "coverage": "15/15 exact line-bound anomaly repairs", "residue": "zero unaccented opred-family residue and exactly 559 canonical family tokens", "structure": "TeX controls, references, braces, math delimiters, and line counts unchanged", "reproducibility": "Frozen hashes reproduced before atomic apply"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

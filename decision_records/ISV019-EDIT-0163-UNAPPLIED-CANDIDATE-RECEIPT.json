@@ -1,0 +1,130 @@
+{
+  "applicator": {
+    "bytes": 38320,
+    "path": "apply_complete_foreign_surface_tranche4_v019.py",
+    "sha256": "49551CEFC54A778A53EAD6A61910FCF7732448473B8FD5E4532F5C4ECEFEA714"
+  },
+  "claims": {
+    "build_or_publication": false,
+    "cyrillic_ready": false,
+    "latin_frozen": false,
+    "metadata_sealed": false,
+    "source_applied": false,
+    "workspace_files_mutated_by_validation": false
+  },
+  "decision_id": "ISV019-EDIT-0163",
+  "exact_scope": {
+    "active_producer_changes": 0,
+    "complete_identity_islands": 20,
+    "identity_receipt_changes": 0,
+    "physical_lines": 20,
+    "source": "source_latin/base-papers1-43-isv.tex",
+    "targets": [
+      [4948, "Algebraische Theorie der Körper"],
+      [4966, "Göttinger Nachr."],
+      [5005, "Rationale Funktionenkörper"],
+      [5035, "Algebraische Theorie der Körper"],
+      [5439, "Algebraische Theorie der Körper"],
+      [5989, "Göttinger Nachrichten"],
+      [6016, "Einleitung in die allgemeine Theorie der algebraischen Größen"],
+      [6076, "Über die vollen Invariantensysteme"],
+      [6284, "Gött. Nachr."],
+      [9195, "Göttinger Nachrichten"],
+      [9649, "Gött. Nachr."],
+      [9705, "Göttinger Nachr."],
+      [9790, "Über die geometrischen Grundlagen der Lorentzgruppe"],
+      [9889, "Über die vollen Invariantensysteme"],
+      [9995, "Über einen Satz aus der Theorie der algebraischen Funktionen"],
+      [10093, "Wiener Sitzungsberichte"],
+      [12304, "Göttingen"],
+      [12341, "Dixmuiden"],
+      [13473, "Einleitung in die allgemeine Theorie der algebraischen Größen"],
+      [13813, "Gött. Nachr."]
+    ]
+  },
+  "manifests": {
+    "input_source_cohort": {
+      "bytes": 472,
+      "sha256": "024C50304070289ED1F4C8719DB96ABCB73D57EC86E32AF3DE858D2B0AD52071"
+    },
+    "line_manifest": {
+      "bytes": 27855,
+      "sha256": "BF5E3CBF938EE6F42A51FF2DBE979FAEAF824935213322FF5D58A22E08132AE3"
+    },
+    "output_source_cohort": {
+      "bytes": 472,
+      "sha256": "C9C76D6E2B5BE5816749626134CB5241AEA7AA23D90AAF721C84B30F5412FE15"
+    },
+    "reverse_manifest": {
+      "bytes": 251,
+      "sha256": "56FB60D4F1ED69B7FA0F56BAD4B6225CDF601FE3A5C496EAB48C1900F2F438A3"
+    }
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0162",
+    "state": {
+      "bytes": 31610,
+      "sha256": "A8B5B56C10172A44A8DF41935BC8F538F32667FD4267E599FF247AA168213728"
+    },
+    "source": {
+      "bytes": 1893011,
+      "sha256": "8257A9881ECB6F871B71C20E1BFD92B6B7F345EA73C87455DDA7DD98AE131FF9"
+    }
+  },
+  "projection": {
+    "current": {
+      "approved_structural_identities": 722,
+      "blocked_occurrences": 230,
+      "inventory_sha256": "D8E3746DA0E088D617F63BB387D427DFC514395897FBAC1E4FAF7238D3371E7D",
+      "unsupported_occurrences": 230
+    },
+    "exact_subtraction": 20,
+    "projected": {
+      "approved_structural_identities": 722,
+      "blocked_occurrences": 210,
+      "inventory_sha256": "19C870E2DBA6BC280054D56BB1DAFCC57435197AD72F4CDFDD887D4083DA2739",
+      "report_sha256_excluding_this_field": "8D5004757E770733C3B5BC5CC32E0A84006E86DB80211593E2DCFC013A236601",
+      "unsupported_occurrences": 210
+    },
+    "status": "BLOCKED_FAIL_CLOSED"
+  },
+  "receipt_sha256_excluding_this_field": "934015919C4D1F1948394AFF7E80C1315FD68B0A71A43951FF22541DFC24BEEA",
+  "role_evidence": {
+    "active_local_producer_for_every_target": null,
+    "historical_exhaustive_manifest": {
+      "bytes": 1939216,
+      "path": "decision_records/ISV019-CYR2-POST-EDIT0150-BLOCKER-ROLE-MANIFEST.json",
+      "sha256": "913EE372ABCD1A74A13C3DA18747867385794F4986B59F3BBED85AAD0FDA931E"
+    },
+    "primary_class": "b_foreign_title_venue_citation_or_identity",
+    "subroles": [
+      "original_language_title_venue_or_citation_surface",
+      "place_or_publisher_identity"
+    ]
+  },
+  "schema": "noether-isv-edit0163-unapplied-candidate-receipt-v1",
+  "status": "FROZEN_UNAPPLIED_CANDIDATE",
+  "successor": {
+    "source": {
+      "bytes": 1893211,
+      "sha256": "8C5A7DA9110246925B5F524915E27E391894D7735DE8E8B42679204D4F71DF29"
+    }
+  },
+  "validation": {
+    "dry_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 16778,
+      "each_stdout_sha256": "725EF4C35B036BA1D89307DA2E4D8477C818E11EB0CF83475F9887CF3F76D799",
+      "pair_byte_identical": true
+    },
+    "self_test_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 18667,
+      "each_stdout_sha256": "97D60C2BFBE3A53BBA649EEACE67B9D5245A8A4A414030177EE220EFE9EAEC50",
+      "pair_byte_identical": true,
+      "receipt_sha256": "766552342982C902BF4AB7FD7FB18699B9AB376A12FAE87BAFBBCEA7BBF665FE"
+    }
+  }
+}

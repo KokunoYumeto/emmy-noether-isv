@@ -1,0 +1,67 @@
+{
+  "decision_id": "ISV019-EDIT-0038",
+  "recorded_at": "2026-08-13T01:54:00.3606096+02:00",
+  "epistemic_type": "manager_direct_semantic_terminology_and_case_government_normalization",
+  "scope": "All 88 zadovol- predicates in live v019 Latin sources, including 32 source lines whose governed complements required sentence-level repair.",
+  "choice": "Render formal mathematical satisfaction and fulfilment with the official type-1 izpolnjati/izpolniti family. Recast every dative or relative complement required by the source-shaped zadovol- construction into the corresponding transitive accusative construction.",
+  "motivation": "Every audited site denotes an equation, condition, law, axiom, relation, or formal object satisfying requirements. The official izpoln- family explicitly covers German erfüllen/ausführen/durchführen and has independent West- and South-Slavic mathematical comparators. Keeping the semantically broader satisfy/please family would preserve an avoidable source-language collapse and its inherited case government.",
+  "alternatives_rejected": [
+    "Retain zadovol- as a universal technical predicate: the official entries also mean please or make content and do not distinguish these 88 formal mathematical uses.",
+    "Use dostavati: it expresses impersonal sufficiency, not an object fulfilling a condition.",
+    "Replace the root without repairing complements: that would leave 32 sentences with government inherited from the rejected predicate."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "accepted_entries": "id 597 izpȯlniti and id 2501 izpȯlnjati, both type 1; id 36609 izpȯlnjeńje",
+      "rejected_entries": "id 444 zadovaljati and id 3356 zadovoliti (satisfy/please); id 21715 dostavati (suffice)"
+    },
+    "official_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/verbs.md",
+      "bytes": 21426,
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+      "relevance": "aspect, present-stem contraction, participles, and verbal nouns"
+    },
+    "independent_math_comparators": {
+      "manifest": "C:/Users/Floris/Documents/Codex/2026-05-26/there-is-currently-an-ongoing-process/other_pc_sidebranch_worktree/language-source-bodies/slavic-non-ru-uk-20260705/MANIFEST.csv",
+      "manifest_bytes": 460558,
+      "manifest_sha256": "3BF053AABB26210539E263B33B8F12960C888118409FD4D0898D73A91F74F286",
+      "west": "Czech splňují/splňující and Polish spełnia in independent mathematical bodies",
+      "south": "Croatian zadovoljavaju, Serbian ispunjava, Slovenian izpolnjuje/ustrezajo, Bulgarian izpŭlneni, and Macedonian ispolneti comparators; the bridge choice follows the official type-1 family rather than raw token voting",
+      "east": "bounded Belarusian bodies abstain; the official Belarusian column supports the execute/fulfil sense"
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0037",
+    "source_latin/44-book-isv.tex": {"bytes": 167969, "sha256": "461B7777C97A1CF89A92A22E9C888140064408DD19F9FCE5969FF44D23F13164"},
+    "source_latin/45-isv.tex": {"bytes": 25518, "sha256": "44EF1048C8053608C476FA4CB3EC3D102CDC4472431F046337C4B1BC4603BEE1"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896583, "sha256": "7EBBF015B197DFC190F044AA82D9A29CDA15418CBEBDA8B27F2A8B33827CAB37"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 88,
+    "case_government_lines_recast": 32,
+    "special_family_tokens": 34,
+    "token_only_sites": 54,
+    "output_histogram": {"izpolnja": 28, "izpolnjaje": 8, "izpolnjajut": 37, "izpolnjati": 2, "izpolniti": 6, "izpolnjal": 1, "izpolnjajuča": 1, "izpolnjajuči": 1, "izpolnjen": 1, "izpolnjena": 1, "izpolnjenje": 2},
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167942, "sha256": "8DC823B1CD2110951770B96CB8CFF52C2080DC7BE4988DD312A69A9B5CE021A0"},
+    "source_latin/45-isv.tex": {"bytes": 25518, "sha256": "44EF1048C8053608C476FA4CB3EC3D102CDC4472431F046337C4B1BC4603BEE1"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896466, "sha256": "1D0F6693B09E3BE82BCD13F2CBC94968F1161E335556F0E11DA4181CD43D0825"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "construction_corrections": [
+    "The first dry run rejected the evidence handoff's 27 izpolnja / 9 izpolnjaje histogram. The exact sentence-level recast at base line 10286 intentionally contracts zadovoljuje to izpolnja, so the byte-replayed partition is 28 / 8. No source was written by the failed dry run; the correction was made before apply."
+  ],
+  "tool": {"path": "apply_fulfilment_family_v019.py", "bytes": 8223, "sha256": "2310946FCF7E4BD0D2424AC73475261EA673DF026D90293EB3288B6FD23F9D79"},
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0037",
+    "coverage": "88/88 whole-token family sites changed exactly once; 34 inside exact sentence recasts and 54 token-only",
+    "residue": "zero whole-token zadovol- residue",
+    "dry_run_then_apply": "frozen output hashes reproduced immediately before and after atomic apply",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

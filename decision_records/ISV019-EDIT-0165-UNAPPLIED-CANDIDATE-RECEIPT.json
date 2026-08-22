@@ -1,0 +1,135 @@
+{
+  "applicator": {
+    "bytes": 36855,
+    "path": "apply_complete_foreign_surface_tranche6_v019.py",
+    "sha256": "16E4DFF9374B2A5C59083467817AD203694986063023AF7C0CD9E1D7429E54DB"
+  },
+  "claims": {
+    "build_or_publication": false,
+    "cyrillic_ready": false,
+    "latin_frozen": false,
+    "metadata_sealed": false,
+    "source_applied": false,
+    "workspace_files_mutated_by_validation": false
+  },
+  "decision_id": "ISV019-EDIT-0165",
+  "exact_scope": {
+    "active_producer_changes": 0,
+    "complete_identity_islands": 15,
+    "identity_receipt_changes": 0,
+    "physical_lines": 15,
+    "projection_blockers_removed": 20,
+    "source": "source_latin/base-papers1-43-isv.tex",
+    "targets": [
+      [15978, "Nachr. v. d. Ges. d. Wiss. zu Göttingen 1926, str. 28--35"],
+      [17209, "Jordan--Hölder"],
+      [17224, "Jordan--Hölder"],
+      [19636, "Über die Darstellung definiter Funktionen durch Quadrate"],
+      [19760, "Sitz.-Ber. Preuß. Akad. Wiss. 1927, s. 221"],
+      [19815, "W. Krull"],
+      [20073, "W. Krull"],
+      [22789, "Über die gruppentheoretische Struktur der Diskriminante"],
+      [22804, "Hyperkomplexe Größen und Darstellungstheorie"],
+      [23063, "Hilbert--Furtwängler"],
+      [23073, "Hilbert--Furtwängler"],
+      [23387, "Sitz. Ber. d. Preuß. Ak. d. Wiss. 1927, S. 221--228"],
+      [23693, "Gött. Nachr. 1931, S. 195--207"],
+      [23780, "Köthe"],
+      [23965, "G. Köthe"]
+    ]
+  },
+  "manifests": {
+    "input_source_cohort": {
+      "bytes": 472,
+      "sha256": "0A7252A307E890B3BD7A866CE7E976E6371A7A452062DCF52A5089AEF048428A"
+    },
+    "line_manifest": {
+      "bytes": 25622,
+      "sha256": "A425EACE7CE41DBA0E81B530FE994DFE819D1AC7FEF2FC0C614290FA419589EA"
+    },
+    "output_source_cohort": {
+      "bytes": 472,
+      "sha256": "2CD33D1DFDF24DE0B58D383953F24D827599C0625F0DBBA17C0A6B83EEC52688"
+    },
+    "reverse_manifest": {
+      "bytes": 251,
+      "sha256": "84120EF5CE36CFB9051B27CF19E2F037E695F21A9F52BA16A31EAB5F5CADF96B"
+    }
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0164",
+    "state": {
+      "bytes": 32107,
+      "sha256": "DC13A1615CDBC58B52EFF4C167C558810FDF9C64E18CC42FE77F1125F0C9DEEF"
+    },
+    "source": {
+      "bytes": 1893411,
+      "sha256": "FEEE1089B992572E8D7BB210E3B0F19CE16DEA5D80C788B072F95AFEDA2FA969"
+    }
+  },
+  "projection": {
+    "current": {
+      "approved_structural_identities": 722,
+      "blocked_occurrences": 190,
+      "inventory_sha256": "5A1D01AF1AF3F555BDC48F60A253297472D9C94ABBCE6ABCCB23473838BE022A",
+      "unsupported_occurrences": 190
+    },
+    "exact_subtraction": 20,
+    "projected": {
+      "approved_structural_identities": 722,
+      "blocked_occurrences": 170,
+      "inventory_sha256": "C240BFC5F7472215BE109B0283B023643AB2BDD8FDF2EF0A93133D80E1C683FF",
+      "report_sha256_excluding_this_field": "A23E89BFFA4639D3ACFDEC6402040858254BF2EFFDBA71169A6EC71413823EA2",
+      "unsupported_occurrences": 170
+    },
+    "status": "BLOCKED_FAIL_CLOSED",
+    "upstream_v2_projected": {
+      "blocked_occurrences": 892,
+      "blocked_inventory_sha256": "145A1D6869AF6213A1D323D79F9FFE623EBDE42536660FA265B92A7487D1C749",
+      "unsupported_occurrences": 286,
+      "unsupported_inventory_sha256": "E432B5E649B566253B3F00534D8247C78760FA71A2AB565432750D6CEBA1D061",
+      "roman_identity_hold_occurrences": 704,
+      "roman_identity_inventory_sha256": "C5E444D90AB53048EE87039C46090C4294A09DCCC703B9E6CA9125EE6BF5B8D8"
+    }
+  },
+  "receipt_sha256_excluding_this_field": "A270AA19E1B0AA93CF2E722E3E9B468949FB498650149553FA790A941BEF9F72",
+  "role_evidence": {
+    "active_local_producer_for_every_target": null,
+    "historical_exhaustive_manifest": {
+      "bytes": 1939216,
+      "path": "decision_records/ISV019-CYR2-POST-EDIT0150-BLOCKER-ROLE-MANIFEST.json",
+      "sha256": "913EE372ABCD1A74A13C3DA18747867385794F4986B59F3BBED85AAD0FDA931E"
+    },
+    "primary_class": "b_foreign_title_venue_citation_or_identity",
+    "subroles": [
+      "original_language_title_venue_or_citation_surface",
+      "place_or_publisher_identity",
+      "uninflected_personal_identity_or_initial"
+    ]
+  },
+  "schema": "noether-isv-edit0165-unapplied-candidate-receipt-v1",
+  "status": "FROZEN_UNAPPLIED_CANDIDATE",
+  "successor": {
+    "source": {
+      "bytes": 1893561,
+      "sha256": "6BF7B94EAB07DD6A30D5C164CE1052161C2A5ADB30A96195BE6B98CF4A394C0D"
+    }
+  },
+  "validation": {
+    "dry_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 17162,
+      "each_stdout_sha256": "CB537440A1D234FE662C5FA10C7DCD037AEACC9831C51DB8C347D617D9BF4751",
+      "pair_byte_identical": true
+    },
+    "self_test_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 19051,
+      "each_stdout_sha256": "EFC8F1E8637F4EFA2BEC56BA0DC8C90A54D2AE06481044AC496CFA749A615E2E",
+      "pair_byte_identical": true,
+      "receipt_sha256": "55BF73984A7F1FFB811D7F664309CFE37971C5A9D4070E9BAC76F6094A7BEB63"
+    }
+  }
+}

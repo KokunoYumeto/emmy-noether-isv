@@ -1,0 +1,53 @@
+{
+  "schema": "noether-isv-decision-record-v1",
+  "decision_id": "ISV019-EDIT-0134",
+  "recorded_at": "2026-08-14T21:31:00+02:00",
+  "status": "applied_built_visually_verified",
+  "epistemic_type": "project_authority_presentation_fidelity_repair",
+  "defect_id": "NOETH-DEF-P24-0003",
+  "summary": "Restore left equation labels (2)-(5), vertically centering labels (3) and (4), while preserving the normalized Interslavic wording, mathematics, and citation content.",
+  "human_companion_path": "decision_records/ISV019-EDIT-0134.md",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0133",
+    "ledger_rows": 133,
+    "ledger_bytes": 525939,
+    "ledger_sha256": "F33421AC1BD218FD7C466CD9583071E1FC96572D38AB8C35D2145361D70EF3E5",
+    "sidecar_bytes": 12771,
+    "sidecar_sha256": "FE37862C0D611E755F0687EB4489AA66BA7506B310E3CDB88D46DDB5C7F37629",
+    "state_bytes": 12925,
+    "state_sha256": "41405CC6273B48DAD2F878676A47A3A77A9E7DDC6084494D52C20F77C394F108"
+  },
+  "applicator": {"path": "apply_isv_p24_label_geometry_v019.py", "bytes": 13778, "sha256": "0FA4050EC5017D6AEB7A82FCDB529C4826D3A79AA79E436DD04F152967D3EE40", "default_mode": "dry_run", "apply_mode": "explicit_atomic_one_shot"},
+  "source_replay": {
+    "producer": {"path": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex", "input": {"bytes": 95465, "sha256": "AD419F8A63C929DF6CFC897054D748F4E9756CBFF18D98F6A9DCEB0AC66F543F"}, "output": {"bytes": 95655, "sha256": "86B7421845EBA641A6171D03E26015598E605404FA02928833F3CA699E634D42"}, "changed_lines": [93, 95, 99, 102, 103, 116, 120, 121, 367, 370]},
+    "base": {"path": "source_latin/base-papers1-43-isv.tex", "input": {"bytes": 1898820, "sha256": "D83F91F64A884B9BD3D5E9A9626A3D4B66D44402385059E0DC8838CC2899E244"}, "output": {"bytes": 1899010, "sha256": "446BEC4850EE7297731DA4E1544C3733BD4D1CBA415909C027D37A248DF426CF"}, "changed_lines": [15217, 15299, 15301, 15305, 15308, 15309, 15322, 15326, 15327, 15573, 15576]},
+    "reverse_replay": "PASS",
+    "producer_assembled_body_identity": "PASS"
+  },
+  "authority": {
+    "geometry_adjudication": {"bytes": 12873, "sha256": "7A4B69C63FC12B28D9532E2841CD2547659D0E57C8D0CC293FF2E0AA57374B81"},
+    "geometry_review": {"bytes": 11185, "sha256": "A1DF81CC8BCF368B675CC3F7A047D41DDC7A025A5357980C4C6B2320455A446C"},
+    "prototype_receipt": {"bytes": 13656, "sha256": "ABDFFF97A0953AE3BCED77BC3DFF70596C3527DCB6C12D639722DDD9CD7FDB73"},
+    "official_pdf": {"bytes": 3159565, "sha256": "BB8D15C70DB720BB816E0A10DE738D9DE35E48B1DD32182E1CF83D89AC0CF83C"},
+    "active_german": {"authority_id": "NOETH-DE-ED-0014", "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58", "activation_version_doi": "10.5281/zenodo.21908301", "anonymous_readback": "PASS_53_OF_53"},
+    "historical_note": "Creation-time candidate wording is retained; later r33 activation and the live pointer establish current project use."
+  },
+  "visual_qa": {
+    "verdict": "ACCEPT; exact defects 0",
+    "producer_pdf": {"path": "00_lane_control/output/pdf/p24_geometry_20260814/isv-paper24-geometry-edit0134.pdf", "bytes": 231855, "sha256": "69FB883F3A22BB6670988ED6B4F560F4B7F80E483B585328F3829A251D4DD516", "pages": 19, "inspected_pages": [3, 4, 13]},
+    "assembled_pdf": {"path": "00_lane_control/output/pdf/p24_geometry_20260814/isv-papers1-43-geometry-edit0134.pdf", "bytes": 2194992, "sha256": "9DC900D293A4755D051900B37FAB968F790B5D46A9E5668C1096F24AE95F8BD2", "pages": 509, "inspected_pages": [294, 295, 304]},
+    "deterministic_builds": "PASS; A/B PDFs and logs byte-identical",
+    "findings": ["labels (2)-(5) are left-positioned", "labels (3) and (4) are vertically centered", "formula-(4) citation retained", "no clipping or collision"],
+    "warning_boundary": "All producer and cumulative logs have zero severe or overfull warnings."
+  },
+  "claim_boundary": "Project-authority presentation fidelity only; no native-language certification and no critical-edition claim.",
+  "open_dispositions": [],
+  "explicit_holds_after": 0,
+  "retained_authority_uncertainties": 4,
+  "frozen_v047_unchanged": true,
+  "public_r35_unchanged": true,
+  "standalone_record_unchanged": true,
+  "working_successor_published": false,
+  "publication_effect": "none",
+  "doi_effect": "none"
+}

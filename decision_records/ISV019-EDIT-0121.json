@@ -1,0 +1,230 @@
+{
+  "schema": "noether-isv-normalization-decision-v1",
+  "decision_id": "ISV019-EDIT-0121",
+  "recorded_at": "2026-08-14T01:48:39+02:00",
+  "status": "applied_and_independently_verified",
+  "summary": "Normalize the complete three-site Croatian-surface prošir- extension residual to the established official razširjen- family.",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0120",
+    "ledger_rows": 120,
+    "ledger_bytes": 489265,
+    "ledger_sha256": "5F6B79C3870710B4002B07BFE9FEE6EA9B9A0F37CDC6B6E1707793949D69548C"
+  },
+  "input_pins": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168097,
+      "sha256": "89E5A8FCB7EBD5149F181E9E2F09F8B375C267F8ED9C96FFF07E511444A12CFC"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25555,
+      "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898743,
+      "sha256": "3C11948EA126A4094B172F0E720E31F4BBC2943FFD8EFC569F6A42FADECA4EF2"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "output_pins": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168097,
+      "sha256": "89E5A8FCB7EBD5149F181E9E2F09F8B375C267F8ED9C96FFF07E511444A12CFC"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25555,
+      "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898745,
+      "sha256": "E710E18AE0576E76E1F429851CC99BC960D16725322B206E3C20A85E87D3B1C1"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "mapping": {
+    "proširenje": {
+      "target": "razširjenje",
+      "count": 2
+    },
+    "proširjenjem": {
+      "target": "razširjenjem",
+      "count": 1
+    }
+  },
+  "locators": [
+    {
+      "file": "source_latin/base-papers1-43-isv.tex",
+      "line": 3639,
+      "column": 138,
+      "source": "proširenje",
+      "target": "razširjenje",
+      "paper": 3,
+      "german_authority_line": 3597,
+      "sense": "extension of the binary and ternary contraction process"
+    },
+    {
+      "file": "source_latin/base-papers1-43-isv.tex",
+      "line": 6683,
+      "column": 143,
+      "source": "proširjenjem",
+      "target": "razširjenjem",
+      "paper": 6,
+      "german_authority_line": 5936,
+      "sense": "extension of numerator and denominator"
+    },
+    {
+      "file": "source_latin/base-papers1-43-isv.tex",
+      "line": 8468,
+      "column": 1882,
+      "source": "proširenje",
+      "target": "razširjenje",
+      "paper": 10,
+      "german_authority_line": 7725,
+      "sense": "algebraic extension"
+    }
+  ],
+  "authority": {
+    "dictionary": {
+      "path": "C:/Users/Floris/Documents/interlanguage/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "rows": [
+        "physical 13856 / ID 1162: råzširiti, type 1",
+        "physical 13859 / ID 3601: råzširjeńje, type 1, extension/expansion; Croatian national comparator includes proširenje",
+        "physical 13860 / ID 11873: råzširjeny, type 1"
+      ],
+      "proshir_headword_count": 0
+    },
+    "verbs_grammar": {
+      "bytes": 21426,
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+      "relevant_lines": "180-186: -iti to -jeny; -ny to -nje verbal noun"
+    },
+    "nouns_grammar": {
+      "bytes": 12310,
+      "sha256": "BCE65A602F5DAFFF86BD132C6CBD0F5F1A4D5BDE9750A0394F78E5D4A8E9F09E",
+      "relevant_lines": "60-68: neuter case paradigm"
+    },
+    "german_ed0014": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/08_zenodo/r35/20-de.tex",
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "lines": [3597, 5936, 7725],
+      "three_line_receipt": {
+        "bytes": 4561,
+        "sha256": "1F89A08B3F455A2F8E67C882ED0187F838CBBBD362CAC3719243E846376313FF"
+      }
+    }
+  },
+  "categorized_corpus": {
+    "catalog": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/multilingual_latex_source_corpus_20260814/01_catalog/CATALOG.csv",
+      "bytes": 10642398,
+      "sha256": "354BE2A6EDFB9FE90CA9A42870666AF9DEB295F28D3F7ADA3DA898EC728756EC"
+    },
+    "use_boundary": "Comparator distribution only. No catalog row in this family has adjudicated native authorship, and generated/circular material receives no form vote.",
+    "generated_or_circular": {
+      "catalog_rows": 185,
+      "unique_files_in_independent_recount": 167,
+      "status": "excluded",
+      "row_level_receipt": {
+        "bytes": 83522,
+        "sha256": "8AE328E134A5EEB3D0E128518F449D80BC378EAB4127BED6DDB3388DA3CD8DF0"
+      }
+    },
+    "conflicting_or_undetermined": {
+      "catalog_rows": 5,
+      "status": "excluded",
+      "receipt": {
+        "bytes": 1396,
+        "sha256": "827FB60E9F5000A2EA254FE25B6FA8E81406E7B6058D4B1357BEBC722B3B3556"
+      }
+    },
+    "unambiguous_non_generated_inventory": {
+      "files": 21,
+      "proshir_tokens": 25,
+      "razshirj_tokens": 22,
+      "native_authored_status": "unknown_not_adjudicated",
+      "receipt": {
+        "bytes": 5663,
+        "sha256": "C64A9941EACE1B7FAFBAD09A31A36D2EBC7F51CE4E6D26262A3BEA54E6A81128"
+      }
+    },
+    "adjudicated_language_repository_subset": {
+      "croatian_files": 6,
+      "croatian_proshir_razshirj": "18/0",
+      "slovenian_files": 5,
+      "slovenian_proshir_razshirj": "0/7",
+      "interpretation": "national-surface distribution, not native certification and not the authority for the Interslavic choice",
+      "receipt": {
+        "bytes": 2957,
+        "sha256": "BEA1B78F87D53B3D54B6EC63A60ADB8A2F84445ECE9460F6270CE76AB192359F"
+      }
+    }
+  },
+  "receipts": {
+    "target_context": {
+      "bytes": 4476,
+      "sha256": "F0F9763A792FBB233E6B60E69D3AF42BC0116112271B1EAE8A85D79F01438B11"
+    },
+    "target_locators": {
+      "bytes": 138,
+      "sha256": "D64487250A49DD026A8A9D9F91118EE42CC6DD01F5F89650001E15827A2D12BD"
+    },
+    "broad_context_pre": {
+      "bytes": 241919,
+      "sha256": "5FFD89ECA4E8D668283FA777F3A2C87E9898ED5F7BC49DFD6028C7C21DEF340A"
+    },
+    "broad_locators_pre": {
+      "bytes": 15762,
+      "sha256": "1147E49001648F5E20ACFB5283B0F2C6584009D91E8D273823DB3DB84B00412A"
+    },
+    "broad_context_post": {
+      "bytes": 241923,
+      "sha256": "439714F349A1FA0F0C8B58CCA9B7B56073667DCCA9F172A2FFF5EA936FC7173A"
+    },
+    "broad_locators_post": {
+      "bytes": 15764,
+      "sha256": "57C09BB2143802EA8351187A044A52453B01A7012AC53AD29DC0CF9D7000FEC3"
+    }
+  },
+  "census": {
+    "source_sites": 3,
+    "source_lines": 3,
+    "source_residue_post": 0,
+    "broad_family_pre_post": 344,
+    "broad_lines_pre_post": 257,
+    "razširjenje_pre_post": "86 to 88",
+    "razširjenjem_pre_post": "15 to 16",
+    "linguistic_holds": 0
+  },
+  "protection_and_structure": {
+    "target_overlap_with_comment_math_or_protected_commands": 0,
+    "utf8_nfc_lf_terminal_lf": true,
+    "line_count_and_layout_unchanged": true,
+    "braces_controls_environments_xrefs_math_comments_and_protected_payloads_unchanged": true,
+    "untouched_sources_byte_identical": true
+  },
+  "applicator": {
+    "path": "apply_proshir_extension_family_v019.py",
+    "bytes": 9318,
+    "sha256": "B11985B6B6E98C844FE0F87B44FF20507B3EF03B7984311A4A02EC0A2E9F8618",
+    "scanner_helper": {
+      "path": "apply_razshiren_participle_noun_family_v019.py",
+      "bytes": 13426,
+      "sha256": "8CF93F276F17F3C85AE65DA1881B71DAC8E5E7D480653CC82937FAE78A2B509A"
+    }
+  },
+  "independent_qa": {
+    "verdict": "ACCEPT",
+    "defects": 0,
+    "successor_reproduced": true
+  },
+  "publication_effect": "none",
+  "doi_effect": "none"
+}

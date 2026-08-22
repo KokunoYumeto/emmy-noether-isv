@@ -1,0 +1,205 @@
+{
+  "schema": "noether-isv-normalization-decision-v1",
+  "decision_id": "ISV019-EDIT-0123",
+  "recorded_at": "2026-08-14T03:50:59+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "lexical_morphological_house_family_closure",
+  "scope": "Complete four-source residual postoj-family census for mathematical and logical existence; 44 sites on 42 lines, confined to Work 44 and Papers 1-43.",
+  "summary": "Normalize every live postoj- existence form to the already-binding official obstaj- family, preserving tense, number, participial/verbal-noun morphology, capitalization, and every protected or structural byte.",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0122",
+    "ledger_rows": 122,
+    "ledger_bytes": 503448,
+    "ledger_sha256": "064195DEBC7F37BB5E570A5B641DA9A00D5867EA43CD9C24D8E06B3CF2C7285C",
+    "sidecar_bytes": 9109,
+    "sidecar_sha256": "4F9F05D0B05E26A02FBE9D466DA0F9EEA500918279B2C0069AD8E571BB8C5840"
+  },
+  "mapping": {
+    "Postojí": "Obstaja",
+    "postojí": "obstaja",
+    "postoji": "obstaja",
+    "postojut": "obstajajut",
+    "postojat": "obstajajut",
+    "postojati": "obstajati",
+    "postojanje": "obstajanje",
+    "postojanjem": "obstajanjem",
+    "postojači": "obstajajuči",
+    "postoječe": "obstajajuče"
+  },
+  "source_histogram": {
+    "postojí": 21,
+    "Postojí": 1,
+    "postoji": 4,
+    "postojut": 8,
+    "postojat": 1,
+    "postojati": 1,
+    "postojanje": 5,
+    "postojanjem": 1,
+    "postojači": 1,
+    "postoječe": 1
+  },
+  "exact_sites": {
+    "source_latin/44-book-isv.tex": [
+      "384:6 postojut -> obstajajut | ED0014:21327 Es gibt",
+      "392:106 postojut -> obstajajut | ED0014:21333 so gibt es",
+      "702:446 postojut -> obstajajut | ED0014:21627 so gibt es",
+      "704:90 postojut -> obstajajut | ED0014:21629 so gibt es",
+      "1066:121 postojut -> obstajajut | ED0014:21983 so gibt es",
+      "1194:633 postojí -> obstaja | ED0014:22111 weil es nur gibt",
+      "1280:156 postojí -> obstaja | ED0014:22195 gibt es nur",
+      "1306:1 Postojí -> Obstaja | ED0014:22221 Es gibt",
+      "1310:284 postojati -> obstajati | ED0014:22225 es kann geben",
+      "1314:210 postojí -> obstaja | ED0014:22229 es gebe",
+      "1322:341 postojí -> obstaja | ED0014:22237 Da es gibt",
+      "1336:63 postojí -> obstaja | ED0014:22251 gibt es",
+      "1407:342 postojut -> obstajajut | ED0014:22320 es gibt",
+      "1452:315 postojut -> obstajajut | ED0014:22365 Da es gibt",
+      "1491:57 postojanje -> obstajanje | ED0014:22402 Existenz",
+      "1500:130 postojí -> obstaja | ED0014:22411 dass es gibt",
+      "1504:18 postojí -> obstaja | ED0014:22415 existiert",
+      "1605:37 postojí -> obstaja | ED0014:22514 gibt es",
+      "1755:32 postojači -> obstajajuči | ED0014:22662 existierende",
+      "1762:67 postojí -> obstaja | ED0014:22669 gibt es",
+      "1882:151 postojí -> obstaja | ED0014:22789 daher gibt es",
+      "1901:105 postojanje -> obstajanje | ED0014:22808 Existenz",
+      "2053:192 postojí -> obstaja | ED0014:22961 die existiert",
+      "2093:226 postojut -> obstajajut | ED0014:22999 es gibt",
+      "2135:17 postojí -> obstaja | ED0014:23041 existiert",
+      "2338:340 postojí -> obstaja | ED0014:23244 wenn es gibt",
+      "2369:208 postojí -> obstaja | ED0014:23275 dass es nur eine gibt",
+      "2498:107 postojí -> obstaja | ED0014:23400 mindestens ein z gibt",
+      "2549:231 postojí -> obstaja | ED0014:23451 mindestens ein z gibt",
+      "2702:251 postojí -> obstaja | ED0014:23602 besteht ein eineindeutiges Entsprechen",
+      "2784:181 postojanje -> obstajanje | ED0014:23680 Existenz",
+      "2811:148 postojí -> obstaja | ED0014:23705 keine existiert",
+      "2821:326 postojí -> obstaja | ED0014:23715 es gibt keinen",
+      "2825:224 postojí -> obstaja | ED0014:23719 keine gibt",
+      "2825:489 postojí -> obstaja | ED0014:23719 es gibt nur eine"
+    ],
+    "source_latin/base-papers1-43-isv.tex": [
+      "5544:114 postoji -> obstaja | ED0014:5033 es besteht die Beziehung",
+      "5588:49 postoji -> obstaja | ED0014:5071 so besteht das System",
+      "7742:12 postojanje -> obstajanje | ED0014:7077 Existenz",
+      "7742:44 postojanjem -> obstajanjem | ED0014:7077 durch Existenz",
+      "7817:25 postojanje -> obstajanje | ED0014:7140 Existenz",
+      "7869:45 postoji -> obstaja | ED0014:7195-7196 existiert nämlich / zu jedem y",
+      "7886:1 postojat -> obstajajut | ED0014:7216 gibt es primitive Elemente",
+      "8429:652 postoječe -> obstajajuče | ED0014:7712 bestehenden Relationen",
+      "13133:63 postoji -> obstaja | ED0014:11895 liegt eine Einteilung vor"
+    ]
+  },
+  "inputs": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168097,
+      "sha256": "89E5A8FCB7EBD5149F181E9E2F09F8B375C267F8ED9C96FFF07E511444A12CFC"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25555,
+      "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898798,
+      "sha256": "740707F1C93E5BB8977CF524E7B4BA7F8A17672C2F8246A20E8B53F40414B830"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "outputs": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168093,
+      "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25555,
+      "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898802,
+      "sha256": "3DEF24AC31B7E5B1BEEF934A6E679F344C61A394A3012E23AF84DD47DAFE8F1E"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "authority": {
+    "dictionary": {
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "locator": "physical row 9388 / ID 9895: obstajati, type 1, exist"
+    },
+    "verbs_grammar": {
+      "bytes": 21426,
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD"
+    },
+    "adjectives_grammar": {
+      "bytes": 8142,
+      "sha256": "184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F"
+    },
+    "german_ed0014": {
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58"
+    },
+    "binding_prior_decisions": [
+      "ISV019-EDIT-0025 / 4358 B / 33D3DD17FA6A5242CE37812F6FA8323AD3380F73DEE4CB1C90867E6C64F7EDE6",
+      "ISV019-EDIT-0047 / 4937 B / 58A9F9CA0035DB494F6E8949B83522F61630A8EDB74B09D10A5ECDDC64FCA524"
+    ]
+  },
+  "receipts": {
+    "target_locators": {
+      "bytes": 1559,
+      "sha256": "D886EB0934504BB3E7E8B0384A0C8A132F1D7FEC04E8B721576E281384EDAD9B"
+    },
+    "target_contexts": {
+      "bytes": 17325,
+      "sha256": "9B90ADA40F53372233D241D3666AC3AD9BDB2A23C7EF7A2478CF3118912FFC65"
+    },
+    "german_alignment": {
+      "bytes": 18257,
+      "sha256": "063C97135A848A505C9A65CD769D396331648E8A0971571AD8131BAEDAE91058"
+    },
+    "broad_pre_locators": {
+      "bytes": 10995,
+      "sha256": "422CBD68452B74B1BABE4D5C2BCAABF30155AA26B460AC5E1C39BFDF3F31F04F"
+    },
+    "broad_pre_contexts": {
+      "bytes": 180482,
+      "sha256": "FAB9EF4F20B529915CF3DA4E042D1CA57ED509046EE5971C2F2677C870716CF8"
+    },
+    "broad_post_locators": {
+      "bytes": 10995,
+      "sha256": "5029842FDC5AAD5EAA75F85F09425CE8F426D4E4A4FC718380D0D2D0DD9B55A5"
+    },
+    "broad_post_contexts": {
+      "bytes": 180480,
+      "sha256": "650B2399BBA61A5B62DD53B4111339F9BE8C1AFD622A1974BA6D6CC0EF4849EF"
+    }
+  },
+  "corpus_boundary": {
+    "catalog_bytes": 10642398,
+    "catalog_sha256": "354BE2A6EDFB9FE90CA9A42870666AF9DEB295F28D3F7ADA3DA898EC728756EC",
+    "claim": "Catalog pin verified only; no aggregate corpus receipt is claimed. Every inspected comparator remains unknown-not-adjudicated for native authorship, and generated ISV material is circular."
+  },
+  "applicator": {
+    "path": "apply_postoj_existence_residual_v019.py",
+    "bytes": 25026,
+    "sha256": "B754D93DB2F7E563A07E36D2BEC9020B8B06930AA0ABA589BDEBA823E5E9E3F9"
+  },
+  "qa": {
+    "independent_preapply_review": "ACCEPT after German-alignment, corpus-claim, and reverse-replay hardening",
+    "changes": 44,
+    "distinct_lines": 42,
+    "file_split": "35 / 0 / 9 / 0",
+    "semantic_holds": 0,
+    "source_residue": 0,
+    "broad_family": "265 before and after; 44 changed plus 221 retained controls",
+    "protected_structural_transport_gates": "PASS",
+    "reverse_replay": "PASS"
+  },
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "working_successor_published": false,
+  "native_or_community_validation_claim": false
+}

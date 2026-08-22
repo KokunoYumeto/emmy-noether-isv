@@ -1,0 +1,49 @@
+{
+  "decision_id": "ISV019-EDIT-0100",
+  "recorded_at": "2026-08-13T16:40:43.3372469+02:00",
+  "epistemic_type": "substitution_preposition_complete_lexical_normalization",
+  "scope": "Thirty-three audited substitution-preposition sites: seven in 44-book and 26 in the base papers.",
+  "choice": "Normalize Vmesto/vmesto, Naměsto/naměsto and spaced Na město/na město to official Vměsto/vměsto.",
+  "motivation": "All 33 sites mean instead of, in place of or rather than; none denotes a physical place or the separate imaje město construction. Official type-1 vměsto bridges the attested East, West and South variants and already controls 68 source sites.",
+  "alternatives_rejected": [
+    "Retaining unaccented vmesto would preserve a spelling error in the selected lemma.",
+    "Retaining compact naměsto and spaced na město would preserve branch-conditioned doublets without a semantic distinction.",
+    "A global město edit was rejected because 362 non-target place/existence-family occurrences must remain untouched."
+  ],
+  "evidence": {
+    "official_dictionary": "Official dictionary id 2531 gives vměsto (+2), preposition type 1, instead of / Anstatt von.",
+    "german_alignment": "The German authority uses statt, statt dessen, anstelle and an Stelle von at the mapped sites.",
+    "semantic_audit": "All 33 sites express substitution or replacement, including formula/symbol replacement, assumptions, constructions and anaphoric vměsto toga; physical-place cases are zero.",
+    "protected_domains": "No target occurs in a comment, foreign-language/title argument, URL, proper name, label/reference or TeX control name."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0099",
+    "decision_log": {"bytes": 368313, "sha256": "EC9BA834552261AB075407174CDBD3CD2E716D44F3ABE09DAAB66193A443DF2D"},
+    "source_latin/44-book-isv.tex": {"bytes": 168075, "sha256": "EEED5FAC489CD50A43C549E0C5A502D05A2BDCCF624994049D8204A749A7A062"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898308, "sha256": "2FA38AD7695B1DA9F22F30DA37E6994CCF6252E591ACF1F5C94D7CF1848C2170"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "mapping": {"Vmesto": "Vměsto", "vmesto": "vměsto", "Naměsto": "Vměsto", "naměsto": "vměsto", "Na město": "Vměsto", "na město": "vměsto"},
+  "results": {
+    "sites_changed": 33,
+    "source_histogram": {"Vmesto": 6, "vmesto": 5, "Naměsto": 4, "naměsto": 9, "Na město": 4, "na město": 5},
+    "mapped_source_residue": 0,
+    "canonical_vmesto_total": 101,
+    "non_target_place_family_guard_total": 362,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168082, "sha256": "055A3DF3E26DB72AEE376C4BCEEBF689C723A060A06E2FBE8B56E4492C16AADD"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898281, "sha256": "6DFF7F3A1D99327DA8EB2301856E647D3B3269BCA62D530D3D0F16DD1B966C1D"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "tool": {"path": "apply_instead_vmesto_v019.py", "bytes": 4882, "sha256": "1FA98F0B8598C933AAA154CF2D37221D6A48C7A7C8613425F325A66CD80CC493"},
+  "validation": {
+    "coverage": "Exact six-form histogram totals 33 with the expected 7/0/26/0 file split.",
+    "failed_dry_run": "The first dry-run correctly rejected an overbroad place-family guard because it counted the nine spaced source phrases themselves; the guard was narrowed to non-target place/existence occurrences before any write.",
+    "postcondition": "All six source forms are zero, canonical Vměsto/vměsto totals 101, and 362 non-target place/existence-family occurrences remain invariant.",
+    "structure": "Line counts, braces, ordered TeX controls and math delimiters are invariant; 45-isv.tex and bib-isv.tex are byte-identical.",
+    "reproducibility": "Corrected frozen successor reproduced twice before atomic application and matched after application."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

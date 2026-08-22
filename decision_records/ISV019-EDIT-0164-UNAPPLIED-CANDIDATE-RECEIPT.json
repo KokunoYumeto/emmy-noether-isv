@@ -1,0 +1,131 @@
+{
+  "applicator": {
+    "bytes": 38190,
+    "path": "apply_complete_foreign_surface_tranche5_v019.py",
+    "sha256": "96027049B79C2FC7F672E6D5A09763D7FF03ECEB8F925DD6196EB85B8AFCB067"
+  },
+  "claims": {
+    "build_or_publication": false,
+    "cyrillic_ready": false,
+    "latin_frozen": false,
+    "metadata_sealed": false,
+    "source_applied": false,
+    "workspace_files_mutated_by_validation": false
+  },
+  "decision_id": "ISV019-EDIT-0164",
+  "exact_scope": {
+    "active_producer_changes": 0,
+    "complete_identity_islands": 20,
+    "identity_receipt_changes": 0,
+    "physical_lines": 20,
+    "source": "source_latin/base-papers1-43-isv.tex",
+    "targets": [
+      [15136, "Göttinger Nachrichten"],
+      [15166, "Göttinger Nachrichten"],
+      [15201, "Göttinger Nachrichten"],
+      [15946, "Göttingen"],
+      [15991, "The Madison Colloquium 1913"],
+      [16141, "Neue Begründung der algebraischen Zahlentheorie"],
+      [16174, "R. Hölzer"],
+      [16611, "R. Hölzer"],
+      [17262, "Journal f. d. reine u. angew. Math."],
+      [17281, "Irregularität erster Art"],
+      [19136, "Göttingen"],
+      [19210, "Sitzungsber. d. Berl. Ak. d. Wiss."],
+      [19671, "Göttingen"],
+      [19746, "Zürich"],
+      [21142, "Grundlehren d. Math. Wiss."],
+      [21421, "W. Krull"],
+      [22682, "Zur Theorie der Ordnungen in algebraischen Zahl- und Funktionenkörpern"],
+      [22741, "Göttingen"],
+      [22782, "Göttingen"],
+      [22785, "Gruppendeterminante und Körperdiskriminante"]
+    ]
+  },
+  "manifests": {
+    "input_source_cohort": {
+      "bytes": 472,
+      "sha256": "C9C76D6E2B5BE5816749626134CB5241AEA7AA23D90AAF721C84B30F5412FE15"
+    },
+    "line_manifest": {
+      "bytes": 36710,
+      "sha256": "75149810FE98D245F3C7584B773577550D4DCE93165DCD6EAACFE38B75000FBE"
+    },
+    "output_source_cohort": {
+      "bytes": 472,
+      "sha256": "0A7252A307E890B3BD7A866CE7E976E6371A7A452062DCF52A5089AEF048428A"
+    },
+    "reverse_manifest": {
+      "bytes": 251,
+      "sha256": "171C2F6B51B1FA5CE92C76E05FFA1FB31A5C0B49486AE2F133D69F058B0EFC9D"
+    }
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0163",
+    "state": {
+      "bytes": 31849,
+      "sha256": "F9FB39BB3CE8322A1E0087D07059C66ABC27C83FA1F061C53EB77DBBDF5838E3"
+    },
+    "source": {
+      "bytes": 1893211,
+      "sha256": "8C5A7DA9110246925B5F524915E27E391894D7735DE8E8B42679204D4F71DF29"
+    }
+  },
+  "projection": {
+    "current": {
+      "approved_structural_identities": 722,
+      "blocked_occurrences": 210,
+      "inventory_sha256": "19C870E2DBA6BC280054D56BB1DAFCC57435197AD72F4CDFDD887D4083DA2739",
+      "unsupported_occurrences": 210
+    },
+    "exact_subtraction": 20,
+    "projected": {
+      "approved_structural_identities": 722,
+      "blocked_occurrences": 190,
+      "inventory_sha256": "5A1D01AF1AF3F555BDC48F60A253297472D9C94ABBCE6ABCCB23473838BE022A",
+      "report_sha256_excluding_this_field": "107296630D66DA0A2666C17C1192777192CA404EC4465114C90B6454B8E82720",
+      "unsupported_occurrences": 190
+    },
+    "status": "BLOCKED_FAIL_CLOSED"
+  },
+  "receipt_sha256_excluding_this_field": "8932BA0573DAB4371BE672318341A4A2F5DA9761A8433E72BEEC9D07E8458597",
+  "role_evidence": {
+    "active_local_producer_for_every_target": null,
+    "historical_exhaustive_manifest": {
+      "bytes": 1939216,
+      "path": "decision_records/ISV019-CYR2-POST-EDIT0150-BLOCKER-ROLE-MANIFEST.json",
+      "sha256": "913EE372ABCD1A74A13C3DA18747867385794F4986B59F3BBED85AAD0FDA931E"
+    },
+    "primary_class": "b_foreign_title_venue_citation_or_identity",
+    "subroles": [
+      "original_language_title_venue_or_citation_surface",
+      "place_or_publisher_identity",
+      "uninflected_personal_identity_or_initial"
+    ]
+  },
+  "schema": "noether-isv-edit0164-unapplied-candidate-receipt-v1",
+  "status": "FROZEN_UNAPPLIED_CANDIDATE",
+  "successor": {
+    "source": {
+      "bytes": 1893411,
+      "sha256": "FEEE1089B992572E8D7BB210E3B0F19CE16DEA5D80C788B072F95AFEDA2FA969"
+    }
+  },
+  "validation": {
+    "dry_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 16682,
+      "each_stdout_sha256": "22395F3C01326D6D6D7D2D036C10D4B8978D580DC318240967FA241E07AED8D7",
+      "pair_byte_identical": true
+    },
+    "self_test_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 18571,
+      "each_stdout_sha256": "35DC04CD994956AF9B74D6BDBD8D68D7D7ADD67F12EA733A5D6E7318A24D2402",
+      "pair_byte_identical": true,
+      "receipt_sha256": "F2D9C6BF2B2B8BB7F9E2AAF9544A3AADD3651D0DEF86317BFE4B6AF2D9AFF91B"
+    }
+  }
+}

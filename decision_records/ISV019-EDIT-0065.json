@@ -1,0 +1,33 @@
+{
+  "decision_id": "ISV019-EDIT-0065",
+  "recorded_at": "2026-08-13T14:35:09.7554072+02:00",
+  "epistemic_type": "manager_direct_sentence_aware_second_conjugation_number_repair",
+  "scope": "Fifteen sentence-adjudicated second-conjugation number forms in papers 1-43: thirteen plural predicates missing final t and two singular leže forms.",
+  "choice": "Repair plural predicates to -et and the two singular leže predicates to leži; map the sole plural leže to ležet.",
+  "motivation": "The same surface can represent incompatible number errors, so each site was resolved from its mathematical subject. Official second-conjugation morphology requires singular -i and plural -et.",
+  "alternatives_rejected": ["Global leže to ležet would corrupt two singular predicates.", "Global bare-e retention leaves thirteen overt plural agreement errors.", "Sentence recasting is unnecessary where exact inflection repairs the defect."],
+  "evidence": {
+    "official_verb_grammar": {"path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/verbs.md", "bytes": 21426, "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD"},
+    "context_review": "Plural subjects govern proizhode, drže, različe, vyhode, proizvode, shvate, and base:22907 leže; singular symbols govern base:22867 and 22880 leže."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0064",
+    "decision_log": {"bytes": 253642, "sha256": "7D33893AE1E93A797F277E33469CE957381A81D0B19FEEC61878C4A90DB79753"},
+    "source_latin/44-book-isv.tex": {"bytes": 167976, "sha256": "5B264B331B53DC3D53478A24FA3D53F5D70951DEDA75A4233994C3BB09FC1D44"},
+    "source_latin/45-isv.tex": {"bytes": 25533, "sha256": "3C0088C41CF5E788EAD009CDDD5717091EABE84F0FF251DB9CA4171A787590A7"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896873, "sha256": "5B20417ACBE3FB293295A04C5FEBF374E803CB2197D699416B082E26C4520E25"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 15,
+    "source_histogram": {"proizhode": 5, "drže": 2, "različe": 2, "vyhode": 1, "proizvode": 1, "shvate": 1, "leže": 3},
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167976, "sha256": "5B264B331B53DC3D53478A24FA3D53F5D70951DEDA75A4233994C3BB09FC1D44"},
+    "source_latin/45-isv.tex": {"bytes": 25533, "sha256": "3C0088C41CF5E788EAD009CDDD5717091EABE84F0FF251DB9CA4171A787590A7"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896886, "sha256": "B236D6B707E98B8B5E37266DEB69C6442128CA3272AE043959E8AF9B283810B3"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_sentence_aware_second_plural_v019.py", "bytes": 4190, "sha256": "0DD012D39FEC26CA47BBB0B0F1A6A6B2F0D6667289A32FB75A7F520A34CF23DA"},
+  "validation": {"prehashes": "4/4 exact against EDIT-0064", "coverage": "15/15 exact line-bound sites", "structure": "TeX controls, references, braces, math delimiters, and line counts unchanged", "reproducibility": "Frozen hashes reproduced before atomic apply"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

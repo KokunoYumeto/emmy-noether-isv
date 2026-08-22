@@ -1,0 +1,105 @@
+{
+  "decision_id": "ISV019-EDIT-0106",
+  "recorded_at": "2026-08-13T20:24:46.6401678+02:00",
+  "epistemic_type": "locative_demonstrative_split_and_transliteration_typo_closure",
+  "scope": "Nine sentence-audited residual tokens in the base papers: one malformed ASCII takozhe and all eight non-headword tuta/Tuta occurrences.",
+  "choice": "Normalize takozhe to official takože. Split tuta/Tuta by grammatical function: four adverbial German hier contexts become tu/Tu, while four attributive German dieser/dieses/diese contexts become agreeing ta/Ta.",
+  "motivation": "The eight tuta surfaces conflate two distinct official paradigms. Official tu is the type-1 adverb here; official toj (feminine ta, neuter to) is the primary demonstrative this/that. Exact German alignment and noun agreement make the partition deterministic. The ASCII digraph takozhe is not an ISV form and is a one-site transliteration residue beside 1005 established takože controls.",
+  "alternatives_rejected": [
+    "Blind tuta to tu was rejected because four sites modify explicit feminine nouns and translate German demonstratives rather than the adverb here.",
+    "Blind tuta to ta was rejected because four sites translate German hier and are syntactically adverbial.",
+    "Retaining official type-2 tut was rejected because the current surface tuta is not that headword and because the edition already establishes the broader type-1 tu family.",
+    "Retaining takozhe as an ASCII transliteration was rejected because official orthography and the established edition form are takože."
+  ],
+  "evidence": {
+    "official_dictionary": "Official dictionary isv_words_list.csv, 7993414 bytes, SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: row 16136 / ID 1716 takože, type 1, also/too/as well; row 16589 / ID 1758 tu, type 1, here; row 16370 / ID 2893 tȯj (ta, to), type 1, this/that.",
+    "official_grammar": "Official pronouns.md, 10370 bytes, SHA-256 AB4F7B04FD55618DE2EB5FEB282558BEDEC6C205BEBB0E6BBD612CB3FBC88141, lines 66-80 identifies toj as the primary demonstrative and supplies its feminine ta and neuter to paradigm.",
+    "german_authority": "German authority ED0011_noether.tex, 2153594 bytes, SHA-256 9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3: aligned controls include line 7705 Die hier gegebene Konstruktion, line 7718 Hier genügt, lines 7870/7874 Hier ... / Hier wird ..., line 10127 dieser Unterschied, line 10613 dieses System, line 20206 Diese invariante Definition and line 20208 Dieses erweiterte System.",
+    "semantic_audit": "Adverbial sites are base lines 8422, 8435, 8663 and 8667. Demonstrative sites are lines 10934 (ta razlika), 11578 (Ta sistema), 24740 (Ta invariantna definicija) and 24744 (Ta razširjena sistema). Line 4277 is the sole takozhe spelling residue.",
+    "edition_controls": "Before this edit the four sources contain takože 1005, Tu 57, tu 254, Ta 53 and ta 105 as exact whole-token controls.",
+    "protected_domains": "No target occurs in a TeX comment, foreign-language/title argument, bibliography identity, control name, label, citation key or URL. Surrounding mathematics and TeX controls are unchanged."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0105",
+    "decision_log": {
+      "bytes": 397658,
+      "sha256": "94E1E221CE31225B311F5BA56B62F3C10C064441EAC3DA0B659F201A84DFB1A1"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "7BEB05410FEB8B3110B480471C04B7EC6392DD4B005BBDEE0203126F4CF34FD8"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898309,
+      "sha256": "5B54F66BFA710293994F18EBDEB981A676007CFE8B02CE6C7F3EC2D3A9324C24"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "mapping": {
+    "base:4277:205": "takozhe -> takože",
+    "base:8422:274": "Tuta -> Tu",
+    "base:8435:722": "Tuta -> Tu",
+    "base:8663:41": "tuta -> tu",
+    "base:8667:397": "Tuta -> Tu",
+    "base:10934:845": "tuta -> ta",
+    "base:11578:483": "Tuta -> Ta",
+    "base:24740:1": "Tuta -> Ta",
+    "base:24744:205": "Tuta -> Ta"
+  },
+  "results": {
+    "sites_changed": 9,
+    "source_counts_before": {
+      "takozhe": 1,
+      "Tuta": 6,
+      "tuta": 2
+    },
+    "source_counts_after": {
+      "takozhe": 0,
+      "Tuta": 0,
+      "tuta": 0
+    },
+    "target_counts_before_after": {
+      "takože": [1005, 1006],
+      "Tu": [57, 60],
+      "tu": [254, 255],
+      "Ta": [53, 56],
+      "ta": [105, 106]
+    },
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "7BEB05410FEB8B3110B480471C04B7EC6392DD4B005BBDEE0203126F4CF34FD8"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898293,
+      "sha256": "85ECFAA7C6DFC0C91F5BD27707AE76CE02BA263FCECA9B3792BA08A3D78A8713"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "tool": {
+    "path": "apply_tuta_takozhe_residual_v019.py",
+    "bytes": 5159,
+    "sha256": "8E236718D34891463A05B7F48413FA94E289F2A1206C8408CD10940A94C6469C"
+  },
+  "validation": {
+    "coverage": "All nine exact locators are required once and the applicator refuses any source-count or locator drift.",
+    "postcondition": "Whole-token takozhe, Tuta and tuta all become zero; the five established target forms rise by exactly the mapped counts.",
+    "structure": "Line count, raw brace counts, ordered TeX-control stream and math-delimiter stream are invariant; Work 44, Paper 45 and bibliography are byte-identical.",
+    "reproducibility": "The deterministic applicator binds all four input and output byte counts and SHA-256 hashes."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

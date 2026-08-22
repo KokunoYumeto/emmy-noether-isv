@@ -1,0 +1,146 @@
+{
+  "schema": "noether-isv-edit0158-independent-live-postapply-preseal-guard-v1",
+  "edit_id": "ISV019-EDIT-0158",
+  "status": "PASS_SOURCE_AHEAD_OF_METADATA",
+  "production_apply": {
+    "workdir": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working",
+    "argv": [
+      "C:/Users/Floris/miniconda3/python.exe",
+      "-B",
+      "apply_integrated_name_policy_v019.py",
+      "--apply",
+      "--compact"
+    ],
+    "invocations": 1,
+    "exit_code": 0,
+    "stdout": {
+      "bytes": 12812,
+      "sha256": "6A4950BDBB4528DE3AF2A0F48FF12EE43169D6F7A399570AE3E707068BF49994"
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
+  },
+  "applicator": {
+    "path": "apply_integrated_name_policy_v019.py",
+    "bytes": 55158,
+    "sha256": "248F63C1F1F45702B9DA10AC3DC4A402B3556504F878B377AF25CABF7073C625"
+  },
+  "manifest": {
+    "path": "decision_records/ISV019-EDIT-0158-UNAPPLIED-INTEGRATED-NAME-LINE-MANIFEST.jsonl",
+    "rows": 66,
+    "physical_lines": 47,
+    "families": 20,
+    "bytes": 30768,
+    "sha256": "3DC8BC618E8324219ACCF3B043759EC5DE31B12D60FD87A74F4741AA31E63FDC"
+  },
+  "source_cohort": {
+    "base-papers1-43-isv.tex": {
+      "bytes": 1892261,
+      "sha256": "5FBF0D95479E85C09928F152DA0CA876E9F8C3BF9D90425961395BB7448555FC"
+    },
+    "44-book-isv.tex": {
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    "45-isv.tex": {
+      "bytes": 26053,
+      "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+    },
+    "bib-isv.tex": {
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  },
+  "independent_replay": {
+    "reconstructed_predecessor": {
+      "bytes": 1892324,
+      "sha256": "9490F4C09573ABC4FFC97AE80F2DF08330488B7EA2148AD6CC1C8B39756B02E9"
+    },
+    "exact_reverse": true,
+    "exact_forward_replay": true,
+    "receipt": {
+      "bytes": 1153,
+      "sha256": "8E15D842BEF0F4A18A68CD93655C5F662B6CEB9A9BBA71FF7F72D34B05CCFFD8"
+    }
+  },
+  "scanner": {
+    "v2": {
+      "blocked": 1029,
+      "blocked_sha256": "25D90453C2DEB0C1744B5422B05BA8DF3A36A2E71C7FC7AB96B8E351F443FFE9",
+      "unsupported": 423,
+      "unsupported_sha256": "ABD1B4570D14FEA79BC90A7EC8529FCA29D146F98E657186402A7774802EC5BB",
+      "roman": 704,
+      "roman_sha256": "03F5DE4ABE8AC6582BFFE678153CD941B2E5049E70FEF46FE55010F358672F22"
+    },
+    "v3_remaining": {
+      "blocked": 307,
+      "blocked_sha256": "87576B93DC184CA5359B8A17D374A57DC790CC8B561AB6AA98651607E712F4A3",
+      "exact_class": "complete foreign/title/venue/citation identities"
+    },
+    "parse_errors": 0,
+    "coverage_failures": 0,
+    "unknown_argument_commands": 0
+  },
+  "protection": {
+    "protected_streams_exact": true,
+    "math_payloads_exact": true,
+    "foreign_payloads_exact": true,
+    "producer_pins_exact": 7,
+    "producer_changes": 0,
+    "identity_receipt_changes": 0
+  },
+  "retained_metadata": {
+    "head": "ISV019-EDIT-0157",
+    "state": {
+      "bytes": 27178,
+      "sha256": "8913CCCEAD62DF7FFEE5619F2F776BBE15BEF564FEDA46FFCC49D6CAA8130730"
+    },
+    "ledger": {
+      "rows": 157,
+      "bytes": 730679,
+      "sha256": "C9DA2A4808FCCCC8650F4738849A4212346CAE761BB7F98822AFB8DA17A0EE79"
+    },
+    "worklog": {
+      "rows": 50,
+      "bytes": 179139,
+      "sha256": "B6AD23BAFDD9E0C1E98C1031E16627AB86A70C7DAFCB3AEF5FEC54A67F64BFA4"
+    },
+    "verifier": {
+      "bytes": 2171,
+      "sha256": "84299A887FAE810DE06CF9E34BADABDCAFBF62A7383895883254666933AAB342"
+    }
+  },
+  "registry_source_ahead_oracle": {
+    "registered_head": "ISV019-EDIT-0157",
+    "registry_id": "CANON-REGISTRY-0006",
+    "exit_code": 1,
+    "stdout": {
+      "bytes": 230,
+      "sha256": "C907CC0659018CE4B9E0C1DEA78DCD5DD02897E3C4A18088B37097BE763DBA56"
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "only_expected_mismatch": "base expected 1892324 got 1892261"
+  },
+  "residue": {
+    "transaction": 0,
+    "pycache": 0,
+    "git_process_count_after_apply": 0
+  },
+  "claims": {
+    "metadata_sealed": false,
+    "registry_updated": false,
+    "build": false,
+    "render": false,
+    "publication": false,
+    "latin_frozen": false,
+    "cyrillic_ready": false,
+    "native_or_community_certified": false
+  },
+  "receipt_serialization": "SHA-256 of compact UTF-8 JSON with sorted keys, this field retained, receipt_sha256_excluding_this_field omitted, plus terminal LF",
+  "receipt_sha256_excluding_this_field": "23197868BF26C99BD056AF48187E245A11B3472292A4CDA55880E89A89FF2779"
+}

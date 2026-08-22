@@ -1,0 +1,66 @@
+{
+  "decision_id": "ISV019-EDIT-0040",
+  "recorded_at": "2026-08-13T02:01:51.7519190+02:00",
+  "epistemic_type": "manager_direct_lexical_semantic_and_morphological_normalization",
+  "scope": "All 79 daljn- adjective forms plus eight adjacent malformed Dalja/daljem/dalju forms in live v019 Latin sources.",
+  "choice": "Use the official comparative daljši paradigm for every audited further/additional/subsequent meaning, preserving capitalization, case, gender, and number. Preserve all 212 correct adverbial dalje forms and all ten already-canonical daljš- forms.",
+  "motivation": "Every German-aligned occurrence means further, additional, subsequent, continued, or in the following; none denotes physical or geographic remoteness. The official dictionary explicitly distinguishes daljnji/daljny 'remote' from daljši 'further/farther/subsequent', including the model v daljšem.",
+  "alternatives_rejected": [
+    "Retain daljn- as a stylistic variant: the official semantic split makes it the wrong adjective in all 79 contexts.",
+    "Replace every instance with slědujući: many sites mean additional or further rather than chronologically following.",
+    "Normalize the adverb dalje too: its 212 uses are already official and semantically distinct.",
+    "Let Croatian/Slovenian token volume control the bridge: independent-language evidence is weighted by family, and the official semantic distinction remains authoritative."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "accepted_entry": "id 3032 daljši, type 1, further/farther/subsequent; model v daljšem",
+      "rejected_entry": "id 25102 daljnji, daljny, type 1, remote",
+      "protected_entry": "id 1177 dalje, type 1 adverb"
+    },
+    "independent_math_comparators": {
+      "manifest": "C:/Users/Floris/Documents/Codex/2026-05-26/there-is-currently-an-ongoing-process/other_pc_sidebranch_worktree/language-source-bodies/slavic-non-ru-uk-20260705/MANIFEST.csv",
+      "manifest_bytes": 460558,
+      "manifest_sha256": "3BF053AABB26210539E263B33B8F12960C888118409FD4D0898D73A91F74F286",
+      "west": "Czech další and Polish dalszy/dalsze mathematical discourse uses independently support the š comparative",
+      "south": "Croatian and Slovenian preserve daljn- source forms, while Bulgarian often recasts as additional; these are comparator evidence, not a token vote",
+      "east": "bounded Belarusian body abstains; the official Belarusian comparator likewise separates remote from further"
+    },
+    "german_meaning_authority": {
+      "sha256": "8851AF561D7C40B2295DB5D4108684A06015756B9B6FDD7CCE67466E0F7F8134",
+      "finding": "all aligned sites are weitere/weiteren/weiterer/weiteres, im folgenden, or procedural continuation; zero remote senses"
+    },
+    "scoped_context_digest": {"lines": 94, "bytes": 65684, "sha256": "25DF4CE1523DC2DF3E604B41552C61A9B9298922ACB50C4E2D9111D9C3B529B8"}
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0039",
+    "source_latin/44-book-isv.tex": {"bytes": 167951, "sha256": "52FD158EC5DE9E2A4BFF3DEE165B5A7CF72D1B9CE9B4931ED720506BA15985E5"},
+    "source_latin/45-isv.tex": {"bytes": 25518, "sha256": "44EF1048C8053608C476FA4CB3EC3D102CDC4472431F046337C4B1BC4603BEE1"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896698, "sha256": "D4425D522FD9B3FCE50706B1963D1F67FC4C0321415752B86984E8669CA1AC49"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 87,
+    "daljn_family": 79,
+    "adjacent_malformed_forms": 8,
+    "post_histogram_case_insensitive": {"daljša": 7, "daljše": 32, "daljšego": 7, "daljšem": 16, "daljšemu": 1, "daljši": 10, "daljših": 12, "daljšim": 5, "daljšimi": 1, "daljšu": 6},
+    "preserved_dalje": 212,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167952, "sha256": "B248363997365D903D946EE3BA3DB43D47BAD4B042BB1531D32D91DFCE998401"},
+    "source_latin/45-isv.tex": {"bytes": 25519, "sha256": "585CA296396D6528C350DDE1A438F189C2F8185D1FAD357F3D713A5B8A638003"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896768, "sha256": "694A32300D6CAC7E7B7C4303A51F8D89A55E506A833600C6BB5522A5A5002D39"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "tool": {"path": "apply_further_adjective_family_v019.py", "bytes": 5422, "sha256": "5643491BFA5047B46436A5D8727C232514DAD211D0CF21C5EB27141DA9B2D613"},
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0039",
+    "coverage": "87/87 exact whole-token sites across every observed inflection",
+    "residue": "zero daljn- and zero exact malformed dalja/daljem/dalju forms",
+    "preservation": "exactly 212 dalje remain; no spatial dalek- vocabulary changed",
+    "dry_run_then_apply": "frozen output hashes reproduced immediately before and after atomic apply",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

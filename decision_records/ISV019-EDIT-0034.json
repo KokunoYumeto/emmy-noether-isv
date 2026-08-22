@@ -1,0 +1,50 @@
+{
+  "decision_id": "ISV019-EDIT-0034",
+  "recorded_at": "2026-08-13T01:39:16.9981038+02:00",
+  "epistemic_type": "manager_direct_morphological_and_orthographic_normalization",
+  "scope": "All 237 noncanonical live v019 forms in the 'following/next' participial family: 13 slědeč- forms and 224 slědujuč- forms.",
+  "choice": "Normalize the complete family to the official slědujući paradigm in the edition's ć orthography, joining 52 already-canonical forms; repair the malformed feminine locative slědujučnoj as slědujućej.",
+  "motivation": "The official active-participial adjective is slědujući. The corpus mixed an unlicensed slědeč- stem with a hard-č spelling and the canonical ć form. These variants all express the same grammatical meaning and their mixture was a source-layer artifact, not a useful pan-Slavic distinction.",
+  "alternatives_rejected": [
+    "Retain slědeč- as a free variant; it is absent as the official lemma and duplicates the established participial family.",
+    "Keep hard č in this one family; that contradicts both the official slědujući form and the edition's adopted ć/đ orthography.",
+    "Replace every form with slědny; that valid type-1 adjective is not an exact grammatical substitute for all participial constructions."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "entries": [
+        "id 1378 slědujući, adjective, type 2, following/next",
+        "id 12301 slědny, adjective, type 1, next/following"
+      ]
+    }
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 237,
+    "slědeč_family_changed": 13,
+    "slědujuč_family_changed": 224,
+    "preexisting_official_family_tokens": 52,
+    "final_slědujuć_family_tokens": 289,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167969, "sha256": "461B7777C97A1CF89A92A22E9C888140064408DD19F9FCE5969FF44D23F13164"},
+    "source_latin/45-isv.tex": {"bytes": 25518, "sha256": "44EF1048C8053608C476FA4CB3EC3D102CDC4472431F046337C4B1BC4603BEE1"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896453, "sha256": "EF7E88B80F818EBE12319240981E7F8438CC7B8E90F816FBB979677957298DAD"},
+    "source_latin/bib-isv.tex": {"bytes": 9578, "sha256": "E5951A6278A556003C44DE30FC0012C1421606BDB1DE3AB6CF05C01986D9613B"}
+  },
+  "tool": {
+    "path": "apply_following_participle_family_v019.py",
+    "bytes": 5636,
+    "sha256": "33084EEC1F7FCF3A39E87CAF7CDE9075AD7D712E6CA7B3CD9A34F8284A0D871B"
+  },
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0033",
+    "coverage": "237/237 noncanonical whole-token forms changed exactly once",
+    "protected_spans": "zero comment or foreign-span targets",
+    "residue": "zero slědeč- and hard-č slědujuč- forms; exactly 289 canonical slědujuć- forms",
+    "dry_run_then_apply": "frozen output hashes reproduced",
+    "structure": "TeX controls, references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

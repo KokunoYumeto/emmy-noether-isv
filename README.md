@@ -1,93 +1,87 @@
-# Emmy Noether: Polno medžuslovjansko izdanje korpusa / Complete Interslavic Corpus Edition
+# Emmy Noether — Polno medžuslovjansko izdanje korpusa
 
-[Medžuslovjansky](#medžuslovjansky) · [English](#english)
+[**Čitajte polny povezany PDF-čitateljnik — latinica i kirilica**](release_v019/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf)
 
-## Medžuslovjansky
+To jest polno medžuslovjansko izdanje matematičnogo korpusa Emmy Noether: statje 1–43, lekcijsko dělo 44, statja 45 i bibliografija. Ono jest prědvidženo za praktično čitanje govoriteljami slovjanskyh jezykov, vključajuči čitateljev bez anglijskogo jezyka.
 
-**[Čitajte polny povezany medžuslovjansky PDF-čitateljnik — latinica](https://zenodo.org/records/21926383/files/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf)**
+- Točny DOI izdanja: [10.5281/zenodo.22050935](https://doi.org/10.5281/zenodo.22050935)
+- Stabilny DOI koncepta: [10.5281/zenodo.21926382](https://doi.org/10.5281/zenodo.21926382)
+- Globalny katalog: [10.5281/zenodo.20412587](https://doi.org/10.5281/zenodo.20412587)
+- Jezyk: Medžuslovjansky (`isv`)
+- Zapisy: `isv-Latn` i `isv-Cyrl`
+- Redakcijna versija: `NOETHER-ISV-v019`
 
-[Dostati PDF-fajl](https://zenodo.org/records/21926383/files/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf?download=1) · [citovati zamrznutu versiju v047](https://doi.org/10.5281/zenodo.21926383) · [prěgledati izvorne fajly](source/)
+## Čto jest kanon?
 
-Glavny cělj tutogo izdanja jest praktično čitanje ljudmi, ktori govoret slovjanskymi jezykami, vključajuči čitateljev, ktori ne znajut anglijskogo jezyka. To jest cělj upotrěby, a ne tvrđenje, že razumljivost byla empirično potvrđena.
+Čtyri fajly v `source_latin/` sut jediny redagujemy jezyčny kanon. Čtyri fajly v `source_cyrillic/` sut deterministično izvedeny zapis togo samogo teksta i ne sut oddělny prěklad ili nezavisny svědok. Točna mašinno-čitljiva mapa jezyka, avtoriteta, rolij, kontrolnyh sum i komandov jest v [`CANON_INDEX.json`](CANON_INDEX.json).
 
-### Obseg i pisma
+Ako hočete prodolžiti redakciju:
 
-To jest polno zamrznuto medžuslovjansko izdanje v047 korpusa, oprěděljenogo německym avtoritetnym izdanjem `NOETH-DE-ED-0011`: statje 1–43, lekcijsko dělo 44, statja 45 i bibliografija.
+1. prěčitajte `CANON_INDEX.json`;
+2. autentifikujte zamrznute latinične fajly;
+3. zapisujte vsako materialno rěšenje dodatkom k `NORMALIZATION_DECISIONS_v019.jsonl`, s iztočnikami i odklonjenymi alternativami;
+4. ne redagujte kirilicu ručno — izvedite ju projektorom v6;
+5. poslě změny povtorite jezyčnu, matematičnu, TeX, fontovu i vizualnu kontrolu.
 
-Latinica jest glavno pismo za čitanje. Arhiv takože sodrživaje redagujeme izvorne fajly v latinici i kirilici i deterministično izvedeny kiriličny čitateljnik. Latinica jest jezyčnym iztočnikom; kirilica jest drugy zapis togo samogo medžuslovjanskogo teksta, a ne oddělny prěklad.
+## Sostav izdanja
 
-### Kako čitati, dostati i prověriti izdanje
+- `release_v019/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf` — glavno čitateljsko izdanje, 1 159 stranic;
+- `source_latin/` — redagujemo latinično medžuslovjansko izdanje;
+- `source_cyrillic/` — deterministična kirilična projekcija;
+- `docs/AI_INTERSLAVIC_NOETHER_METHODS_v019.pdf` — publikacijska metodologija: jezyčne rěšenja, algoritm, neuspěh v5, popravka v6, validacija i granice tvrdženij;
+- `release_v019/evidence/` — redakcijny žurnal, inventar rolij, validacijske potvrđenja i QA;
+- `metadata/` — citovanje, Zenodo/DataCite odnosenja, avtoritet i obim;
+- koren repozitorija — povtorime projektory, testy i build/QA orudja s imenami `project_*`, `test_*`, `build_*`, `audit_*` i `qa_*`.
 
-| Fajl | Sodržanje |
-|---|---|
-| [`00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf`](https://zenodo.org/records/21926383/files/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf) | Polny povezany čitateljnik. |
-| [`01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip`](https://zenodo.org/records/21926383/files/01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip?download=1) | Redagujeme izvorne fajly za oba pisma. |
-| [`02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip`](https://zenodo.org/records/21926383/files/02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip?download=1) | Dokazy, pohođenje i redakcijna historija. |
-| [`03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt`](https://zenodo.org/records/21926383/files/03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt) | Velikosti fajlov i kontrolne sume SHA-256. |
+Scanner konečnogo latiničnogo teksta imaje `0` blokatorov i `0` nepodprtih projektovateljnym tokenov. Žurnal imaje 171 materialno redakcijno rěšenje. Projektor v6 deterministično konvertuje 164 563 slovne tokeny i ohranjaje pregledane imena, originalne naslove/citaty, rimske označenja i TeX-sintaksu. Dva samostojne čitateljnika sut sestavjene serijno v dveh prohodah: 565 latiničnyh i 588 kiriličnyh stranic.
 
-### Citovanje i nyněšnji status
+## Status i prava
 
-Dla raboty s v047 citujte točny DOI versije: **[10.5281/zenodo.21926383](https://doi.org/10.5281/zenodo.21926383)**. Stabilny DOI koncepta **[10.5281/zenodo.21926382](https://doi.org/10.5281/zenodo.21926382)** označaje medžuslovjansko izdanje prěz vse versije.
+To jest naučno rabotno izdanje, izrabotano modelami/agentami s mašinnoju pomočju. Ono ne prošlo nezavisnu naučnu recenziju i ne tvrdi potvrđenje rodnymi govoriteljami, medžuslovjanskoju obćinoju, oficialnym standardom ili nezavisnoju institucijeju.
 
-Slědujuča versija jest aktivno redagovana. Pri tutom javnom kontrolnom punktu ostavaje 79 imen, naslovov, měst ili citatnyh izrazov, ktore trěba ješče jednoznačno klasifikovati prěd novym izvedenjem kirilice i polnym sostavjanjem. Te popravky ne sut skryto dodane do v047 i ne izměnjajut tekst, označeny točnym DOI v047.
-
-### Status i ograničenja
-
-To jest naučno rabotno izdanje, izrabotano s mašinnoju pomočju i dokumentovanoju redakcijnoju prověrkoju. Ono ne prošlo vněšnu naučnu recenziju i ne jest kritičnym izdanjem. Ne tvrdi se, že ono bylo potvrđeno rodnymi govoriteljami, medžuslovjanskoju obćinoju, oficialnym standardom ili nezavisnoju institucijeju.
-
-### Pohođenje, učestniki i prava
-
-- **IsTranslationOf:** německy avtoritetny korpus `NOETH-DE-ED-0011`
-- **IsPartOf:** [globalny mnogojezyčny korpus Emmy Noether](https://doi.org/10.5281/zenodo.20412587)
-- **Repozitorij:** [KokunoYumeto/emmy-noether-isv](https://github.com/KokunoYumeto/emmy-noether-isv)
-- Avtorka originalnyh matematičnyh rabot: **Emmy Noether**
-- Redaktor izdanja: **Manuscript Typesetting Project**
-- Drugi učestnik: **OpenAI Codex**
-
-CC0 se priměnja samo do toj měry, v ktorej obstajajut prava nad prěkladom, tipografičnym složenjem, metadanymi, spiskami, orudjami i dokazami, stvorjenymi v projektu. Originalne raboty Emmy Noether, německe redakcijne materialy, faksimile, fonty, softver i drugi materialy tretjih stran zadrživajut svoj vlastny pravny status i licencije.
+CC0 jest priměnjen samo v toj měrě, v ktoroju postavajut prava v projektom stvorjenom prěkladu, redakciji, metadanyh, manifestah, orudjah i dokazah. Originalne děla, německy redakcijny material, fonty, programy i drugy material tretjih stran ohranjajut svoj pravny status i licencije.
 
 ---
 
-## English
+# English
 
-**[Read the complete linked Interslavic reader — Latin script (PDF)](https://zenodo.org/records/21926383/files/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf)**
+[**Read the complete linked Interslavic PDF — Latin and Cyrillic**](release_v019/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf)
 
-[Download the PDF](https://zenodo.org/records/21926383/files/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf?download=1) · [cite the frozen v047 release](https://doi.org/10.5281/zenodo.21926383) · [browse the editable sources](source/)
+This is the complete Interslavic edition of Emmy Noether's mathematical corpus: Papers 1–43, lecture work 44, Paper 45, and the bibliography. It is intended for practical reading by speakers of Slavic languages, including readers without English.
 
-The primary purpose of this edition is practical reading by people who speak Slavic languages, including readers who do not know English. That is a use objective, not a claim that comprehension has been empirically validated.
+- Exact release DOI: [10.5281/zenodo.22050935](https://doi.org/10.5281/zenodo.22050935)
+- Stable concept DOI: [10.5281/zenodo.21926382](https://doi.org/10.5281/zenodo.21926382)
+- Global catalogue: [10.5281/zenodo.20412587](https://doi.org/10.5281/zenodo.20412587)
+- Language: Interslavic (`isv`)
+- Scripts: `isv-Latn` and `isv-Cyrl`
+- Editorial release: `NOETHER-ISV-v019`
 
-### Scope and scripts
+## What is canonical?
 
-This is the complete frozen v047 Interslavic edition of the corpus defined by German authority `NOETH-DE-ED-0011`: Papers 1–43, lecture work 44, Paper 45, and the bibliography.
+The four files under `source_latin/` are the sole editable language canon. The four files under `source_cyrillic/` are a deterministic representation of the same text, not a separate translation or independent witness. [`CANON_INDEX.json`](CANON_INDEX.json) is the exact machine-readable map of language, authority, roles, hashes, and commands.
 
-Latin is the primary reading script. The archive also supplies editable Latin and Cyrillic sources and a deterministically derived Cyrillic reader. Latin is the linguistic source; Cyrillic is another representation of the same Interslavic text, not a separate translation.
+To extend the edition:
 
-### How to read, download, and verify the edition
+1. read `CANON_INDEX.json`;
+2. authenticate the frozen Latin files;
+3. append every material choice to `NORMALIZATION_DECISIONS_v019.jsonl`, including evidence and rejected alternatives;
+4. do not edit Cyrillic independently — regenerate it with projector v6;
+5. rerun linguistic, mathematical, TeX, font, and visual validation.
 
-| File | Contents |
-|---|---|
-| [`00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf`](https://zenodo.org/records/21926383/files/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf) | Complete linked reader. |
-| [`01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip`](https://zenodo.org/records/21926383/files/01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip?download=1) | Editable sources for both scripts. |
-| [`02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip`](https://zenodo.org/records/21926383/files/02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip?download=1) | Evidence, provenance, and editorial history. |
-| [`03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt`](https://zenodo.org/records/21926383/files/03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt) | File sizes and SHA-256 checksums. |
+## Release contents
 
-### Citation and current status
+- `release_v019/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf` — the 1,159-page human-facing edition;
+- `source_latin/` — editable Latin-script Interslavic;
+- `source_cyrillic/` — deterministic Cyrillic projection;
+- `docs/AI_INTERSLAVIC_NOETHER_METHODS_v019.pdf` — publication-style methodology covering choices, algorithm, the v5 failure, v6 correction, validation, and claim boundaries;
+- `release_v019/evidence/` — editorial ledger, role inventory, validation receipts, and QA;
+- `metadata/` — citation, Zenodo/DataCite relations, authority, and scope;
+- repository root — reproducible projection, tests, build, and QA tools named `project_*`, `test_*`, `build_*`, `audit_*`, and `qa_*`.
 
-For work using v047, cite the exact version DOI: **[10.5281/zenodo.21926383](https://doi.org/10.5281/zenodo.21926383)**. The stable concept DOI **[10.5281/zenodo.21926382](https://doi.org/10.5281/zenodo.21926382)** represents the Interslavic edition across releases.
+The final Latin scanner reports `0` blockers and `0` unsupported projectable tokens. The ledger records 171 material editorial decisions. Projector v6 deterministically converts 164,563 word tokens while preserving reviewed names, original titles/quotations, Roman labels, and TeX syntax. The two script readers build serially in two passes: 565 Latin pages and 588 Cyrillic pages.
 
-The next version is under active editorial review. At this public checkpoint, 79 names, titles, places, or citation surfaces still require explicit classification before a new Cyrillic derivation and complete rebuild. Those corrections are not silently added to v047 and do not alter the text identified by the exact v047 DOI.
+## Review and rights
 
-### Status and limitations
+This is a scholarly working edition produced by models/agents with machine assistance. It has not undergone independent scholarly peer review and does not claim certification by native speakers, the Interslavic community, an official standard, or an independent institution.
 
-This is a machine-assisted scholarly working edition with documented editorial checking. It has not undergone external scholarly peer review and is not a critical edition. It does not claim certification by native speakers, the Interslavic community, an official standard, or an independent institution.
-
-### Provenance, contributors, and rights
-
-- **IsTranslationOf:** German authority corpus `NOETH-DE-ED-0011`
-- **IsPartOf:** [global multilingual Emmy Noether corpus](https://doi.org/10.5281/zenodo.20412587)
-- **Repository:** [KokunoYumeto/emmy-noether-isv](https://github.com/KokunoYumeto/emmy-noether-isv)
-- Author of the original mathematical works: **Emmy Noether**
-- Edition editor: **Manuscript Typesetting Project**
-- Other contributor: **OpenAI Codex**
-
-CC0 applies only to the extent that rights exist in project-created translation, typesetting, metadata, manifests, tools, and evidence. Emmy Noether’s original works, German editorial material, facsimiles, fonts, software, and other third-party material retain their own legal status and licences.
+CC0 applies only to the extent that rights exist in project-created translation, editorial work, metadata, manifests, tools, and evidence. Original works, German editorial material, fonts, software, and other third-party material retain their own legal status and licences.

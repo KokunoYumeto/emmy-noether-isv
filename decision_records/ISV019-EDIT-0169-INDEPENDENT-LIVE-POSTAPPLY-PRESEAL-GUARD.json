@@ -1,0 +1,94 @@
+{
+  "applicator": {
+    "bytes": 29378,
+    "path": "apply_complete_foreign_surface_tranche10_v019.py",
+    "sha256": "FF305BE0A2413044E60A0068501E732B7CEE0A2EBAE066E55738E0E739A1F469"
+  },
+  "candidate": {
+    "bytes": 4060,
+    "path": "decision_records/ISV019-EDIT-0169-UNAPPLIED-CANDIDATE-RECEIPT.json",
+    "sha256": "6F47D4C66E36C460BD782E74E0BBACE16883C54EA2B7BCFC5AE803E95467D8D3"
+  },
+  "claims": {
+    "build_or_publication": false,
+    "cyrillic_ready": false,
+    "latin_frozen": false,
+    "metadata_sealed": false,
+    "source_applied": true
+  },
+  "decision_id": "ISV019-EDIT-0169",
+  "metadata_predecessor": {
+    "decision_id": "ISV019-EDIT-0168",
+    "ledger": {
+      "bytes": 762394,
+      "rows": 168,
+      "sha256": "19CD27030979AC9C92FD22ECE9451A3EA96E1708B611D00B84ACFA06EACE42AF"
+    },
+    "sidecar": {
+      "bytes": 24297,
+      "sha256": "56E9C11932661901C62E89071EF033F7C34E00F39596E7CC41CAA927797DD68B"
+    },
+    "state": {
+      "bytes": 32851,
+      "canonical_sha256_excluding_only_verifier": "2F3F66BFB4506C103F85C41F7218AEE81947027D7F46FC22B98B9C11BE78BA74",
+      "sha256": "DCA5434ABFAC728E993176F25263C457BF8284DEAC61AC2E076452990FD00E7D"
+    },
+    "verifier": {
+      "bytes": 2171,
+      "sha256": "A6153C91C09E29695BAA4CFA5EED780313E63F6387891B3D6183EE76BB113303"
+    },
+    "worklog": {
+      "bytes": 193554,
+      "rows": 61,
+      "sha256": "6E56F3F054C4ADE34857BC2E833AC01DD6C65DBE1F93240774EF755ED7594CBC"
+    }
+  },
+  "production_apply": {
+    "argv": ["python", "-B", "apply_complete_foreign_surface_tranche10_v019.py", "--apply", "--compact"],
+    "exit_code": 0,
+    "stderr": {
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "stdout": {
+      "bytes": 19574,
+      "reconstructed_from_frozen_predecessor_and_installed_successor": true,
+      "sha256": "845B2C07AB6F9E19521A5D04A0CED708B5DF70AEF0E46EA9CD2B8187228DFEC2"
+    }
+  },
+  "projection": {
+    "approved_structural_identities": 722,
+    "blocked_inventory_sha256": "4D5156183C4BC84DF3E57ECDE345005F5F0A0019E491B89E36D94DAE79701481",
+    "blocked_occurrences": 79,
+    "foreign_spans_in_base": 385,
+    "parse_errors": 0,
+    "report_sha256_excluding_this_field": "18483D796E6E54A3AA42457B3821EE6006F268E7651DD54A107DB4E4C13A0A66",
+    "roman_identity_holds": 0,
+    "unknown_argument_commands": 0,
+    "unsupported_occurrences": 79
+  },
+  "receipt_sha256_excluding_this_field": "B097AB69127F468548F13D60FCF66EA7621FBF420122E8E1E3E8D86DF5178103",
+  "schema": "noether-isv-edit0169-independent-live-postapply-preseal-guard-v1",
+  "source": {
+    "exact_issue_subtraction": 27,
+    "live": {
+      "bytes": 1894151,
+      "sha256": "BF5EDFC45F8A564100C7977BF1E11B0AA9818F21011B3F59A723F8D5C3E0AB96"
+    },
+    "physical_lines": 14,
+    "predecessor": {
+      "bytes": 1893941,
+      "sha256": "9CE82FEE79235322D253F3C9758DCFF7B73ACB6174260BF959BD15740999DE4A"
+    },
+    "reverse_exact": true,
+    "roundtrip_exact": true,
+    "wrappers": 21
+  },
+  "status": "PASS_SOURCE_AHEAD_OF_METADATA",
+  "transaction": {
+    "pycache_residue": 0,
+    "rollback_residue": 0,
+    "stage_residue": 0,
+    "transaction_lock_residue": 0
+  }
+}

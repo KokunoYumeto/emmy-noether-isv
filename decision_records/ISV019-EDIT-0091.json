@@ -1,0 +1,47 @@
+{
+  "decision_id": "ISV019-EDIT-0091",
+  "recorded_at": "2026-08-13T15:55:26.0911897+02:00",
+  "epistemic_type": "manager_hard_genitive_locative_plural_closure",
+  "scope": "All 63 remaining whole-token forms ending in noncanonical -nih across 19 adjective/passive-participle types: 62 base-paper sites and one paper-45 site.",
+  "choice": "Replace the hard n-stem genitive/locative plural ending -nih with canonical -nyh at every audited site.",
+  "motivation": "Every site is genitive or locative plural agreement for a hard n-final adjective or passive participle; the official regular paradigm requires -nyh/-enyh/-jenyh.",
+  "alternatives_rejected": [
+    "Retaining -nih preserves a mixed national declension layer.",
+    "Blind substring replacement was rejected; only 19 exact whole-token types and their complete corpus counts were admitted."
+  ],
+  "evidence": {
+    "official_adjective_grammar": "adjectives.md SHA-256 184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F, lines 14, 16 and 18: regular agreement; only š/ž/č/j stems are soft; these n-stems are hard.",
+    "official_verb_grammar": "verbs.md SHA-256 3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD, lines 180 and 182: passive participles in -ny/-eny/-jeny, then regular adjective declension.",
+    "official_dictionary": "isv_words_list.csv SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842 directly attests danyh and oddělnyh.",
+    "semantic_review": "All 63 sentences were inspected; comments, foreign arguments, control names, internal substrings, other cases/numbers and pre-existing canonical forms are excluded."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0090",
+    "decision_log": {"bytes": 334972, "sha256": "23315391AAF17E7AD29D9C8DE0DAFD2A0F7EA23E3AF562CDB1C92855EA0F7C4D"},
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "AA751140E89657D210DDCAEA2869FAAA408C11027EA3A48FFD35B4D20C479C66"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898282, "sha256": "9D837138C90894C89451CB113F8E7FA465B6941F6CE789295021ADA95FF491F8"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 63,
+    "source_types_changed": 19,
+    "whole_token_nih_residue": 0,
+    "canonical_target_total_before": 114,
+    "canonical_target_total_after": 177,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "A263A2FA894BCC018FFF9F388D11838EF922FB4006A7F4D159E9176C9574BF2C"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "B9461C7F368848CD15B3E42FEA741D88AF948CEF571F080E76CF594ACE670647"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898282, "sha256": "ECC650DC964F8CB1153A9F9A9C5279E3029705F444A427A53F6D060E33483C5B"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_hard_genitive_plural_nih_v019.py", "bytes": 4643, "sha256": "5BE2CC8F75C6C0DA2EF813468EE441D59AB1CBA88E0B3F12039B14BC10F7986F"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0090",
+    "coverage": "Exact 19-type source histogram totaling 63 whole-token sites.",
+    "postcondition": "All 19 source types and generic whole-token *nih residue are zero; exact target histogram totals 177.",
+    "structure": "Byte counts, ordered TeX controls, braces, math delimiters and line counts invariant; unchanged components byte-identical.",
+    "reproducibility": "Frozen successor hashes reproduced before atomic apply."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

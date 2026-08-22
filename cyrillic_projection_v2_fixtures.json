@@ -1,0 +1,237 @@
+{
+  "schema": "noether-isv-cyrillic-v2-fixtures-1",
+  "classification": "deterministic hostile and positive fixtures; no corpus mutation authority",
+  "fixtures": [
+    {
+      "name": "ordinary_standard_and_digraphs",
+      "input": "\\documentclass{article}\n\\begin{document}\nDobry člověk ljubi njivu i džem.\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [],
+        "projected": "\\documentclass{article}\n\\begin{document}\nДобры чловєк љуби њиву и джем.\n\\end{document}\n",
+        "minimum_role_counts": {
+          "visible_prose": 1,
+          "protected_structure": 2
+        }
+      }
+    },
+    {
+      "name": "explicit_etymological_simplifications",
+      "input": "\\begin{document}\nę ų å ė ȯ ć đ ò ĺ ľ ń ň ŕ ř ť ď ś ź\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [],
+        "projected": "\\begin{document}\nе у а е о ч дж о л л н н р р т д с з\n\\end{document}\n"
+      }
+    },
+    {
+      "name": "uppercase_titlecase_and_longest_digraphs",
+      "input": "\\begin{document}\nLjubav NJIVA DŽEM Đak.\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [],
+        "projected": "\\begin{document}\nЉубав ЊИВА ДЖЕМ ДЖак.\n\\end{document}\n"
+      }
+    },
+    {
+      "name": "foreign_payload_is_byte_preserved",
+      "input": "\\providecommand{\\foreign}[1]{#1}\n\\begin{document}\nDobry \\foreign{Noether qwx} člověk.\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [],
+        "projected": "\\providecommand{\\foreign}[1]{#1}\n\\begin{document}\nДобры \\foreign{Noether qwx} чловєк.\n\\end{document}\n",
+        "minimum_role_counts": {
+          "protected_foreign": 1
+        }
+      }
+    },
+    {
+      "name": "rowbreak_then_literal_paren_then_real_inline_math",
+      "input": "\\begin{document}\nDobry\\\\( q \\(x+y\\) člověk.\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [
+          "q"
+        ],
+        "projected": "\\begin{document}\nДобры\\\\( q \\(x+y\\) чловєк.\n\\end{document}\n",
+        "minimum_role_counts": {
+          "protected_math": 1,
+          "visible_prose": 2
+        }
+      }
+    },
+    {
+      "name": "mismatched_align_equation_is_rejected",
+      "input": "\\begin{document}\n\\begin{align}\nq\n\\end{equation}\n\\end{document}\n",
+      "expected": {
+        "error_code": "mismatched_environment_end"
+      }
+    },
+    {
+      "name": "two_align_star_environments_do_not_cross_mask",
+      "input": "\\begin{document}\n\\begin{align*}\na&=b\\\\[.6em]\n\\end{align*}\nq\n\\[x+y\\]\n\\begin{align*}\nc&=d\n\\end{align*}\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [
+          "q"
+        ],
+        "projected": "\\begin{document}\n\\begin{align*}\na&=b\\\\[.6em]\n\\end{align*}\nq\n\\[x+y\\]\n\\begin{align*}\nc&=d\n\\end{align*}\n\\end{document}\n",
+        "minimum_role_counts": {
+          "protected_math": 3,
+          "visible_prose": 1
+        }
+      }
+    },
+    {
+      "name": "comments_and_escaped_braces_are_command_aware",
+      "input": "\\begin{document}\nDobry % q x must remain ignored\nčlověk \\{q\\}.\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [
+          "q"
+        ],
+        "projected": "\\begin{document}\nДобры % q x must remain ignored\nчловєк \\{q\\}.\n\\end{document}\n",
+        "minimum_role_counts": {
+          "protected_comment": 1,
+          "protected_control": 2
+        }
+      }
+    },
+    {
+      "name": "inline_verb_payload_is_byte_preserved",
+      "input": "\\begin{document}\n\\verb|qwx \\begin{align}| Dobry q.\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [
+          "q"
+        ],
+        "projected": "\\begin{document}\n\\verb|qwx \\begin{align}| Добры q.\n\\end{document}\n",
+        "minimum_role_counts": {
+          "protected_verbatim": 1,
+          "visible_prose": 1
+        }
+      }
+    },
+    {
+      "name": "definition_resembling_foreign_invocation_is_not_invoked",
+      "input": "\\providecommand{\\foreign}[1]{#1 qwx}\n\\begin{document}\n\\foreign{Noether qwx} Dobry.\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [],
+        "projected": "\\providecommand{\\foreign}[1]{#1 qwx}\n\\begin{document}\n\\foreign{Noether qwx} Добры.\n\\end{document}\n"
+      }
+    },
+    {
+      "name": "srcfn_first_arg_preserved_second_arg_visible",
+      "input": "\\begin{document}\n\\srcfn{qwx}{Dobry q}\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [
+          "q"
+        ],
+        "projected": "\\begin{document}\n\\srcfn{qwx}{Добры q}\n\\end{document}\n",
+        "minimum_role_counts": {
+          "protected_identity_arg": 1,
+          "visible_prose": 1
+        }
+      }
+    },
+    {
+      "name": "newtheorem_display_name_is_visible_metadata",
+      "input": "\\newtheorem{satz}{Dodatok q}\n\\begin{document}\nDobry.\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [
+          "q"
+        ],
+        "projected": "\\newtheorem{satz}{Додаток q}\n\\begin{document}\nДобры.\n\\end{document}\n",
+        "minimum_role_counts": {
+          "visible_metadata": 1
+        }
+      }
+    },
+    {
+      "name": "href_url_preserved_label_visible",
+      "input": "\\begin{document}\n\\href{https://qwx.example/x}{Dobry q}\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [
+          "q"
+        ],
+        "projected": "\\begin{document}\n\\href{https://qwx.example/x}{Добры q}\n\\end{document}\n"
+      }
+    },
+    {
+      "name": "unknown_braced_command_fails_closed_as_ambiguous",
+      "input": "\\begin{document}\n\\mystery{Dobry q}\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [],
+        "unknown_argument_commands": [
+          "mystery"
+        ],
+        "projected": "\\begin{document}\n\\mystery{Dobry q}\n\\end{document}\n",
+        "minimum_role_counts": {
+          "ambiguous_command_arg": 1
+        }
+      }
+    },
+    {
+      "name": "roman_structural_identity_requires_manifest",
+      "input": "\\begin{document}\nČest IV i XII.\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [
+          "IV",
+          "XII"
+        ],
+        "projected": "\\begin{document}\nЧест IV и XII.\n\\end{document}\n"
+      }
+    },
+    {
+      "name": "known_role_commands_and_qed_literals_are_partitioned",
+      "input": "\\newlength{\\pageextra}\n\\begin{document}\n\\thispagestyle{plain}\n\\enlargethispage{\\baselineskip}\n\\begin{adjustbox}{max width=0.9\\linewidth}\n\\textsc{Dobry q} \\mcell{x+q} \\diagbox{$x$}{$q$} \\S{} \\glqq{}Dobry\\grqq{} q. e. d. q.e.d.\\footnotemark[\\value{footnote}]\n\\end{adjustbox}\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [
+          "q"
+        ],
+        "unknown_argument_commands": [],
+        "projected": "\\newlength{\\pageextra}\n\\begin{document}\n\\thispagestyle{plain}\n\\enlargethispage{\\baselineskip}\n\\begin{adjustbox}{max width=0.9\\linewidth}\n\\textsc{Добры q} \\mcell{x+q} \\diagbox{$x$}{$q$} \\S{} \\glqq{}Добры\\grqq{} q. e. d. q.e.d.\\footnotemark[\\value{footnote}]\n\\end{adjustbox}\n\\end{document}\n",
+        "minimum_role_counts": {
+          "protected_identity_arg": 1,
+          "protected_identity_literal": 1,
+          "protected_math": 1,
+          "visible_prose": 1
+        }
+      }
+    },
+    {
+      "name": "texorpdfstring_has_two_visible_metadata_surfaces",
+      "input": "\\begin{document}\n\\section*{\\texorpdfstring{Dobry \\(x\\)}{Dobry q}}\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [
+          "q"
+        ],
+        "projected": "\\begin{document}\n\\section*{\\texorpdfstring{Добры \\(x\\)}{Добры q}}\n\\end{document}\n",
+        "minimum_role_counts": {
+          "visible_metadata": 1
+        }
+      }
+    },
+    {
+      "name": "visible_text_inside_math_is_projected_and_scanned",
+      "input": "\\begin{document}\n\\(x+\\text{Dobry q}\\)\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [
+          "q"
+        ],
+        "projected": "\\begin{document}\n\\(x+\\text{Добры q}\\)\n\\end{document}\n",
+        "minimum_role_counts": {
+          "visible_math_text": 1,
+          "protected_math": 2
+        }
+      }
+    },
+    {
+      "name": "foreign_comment_and_math_boundaries_do_not_leak",
+      "input": "\\begin{document}\nDobry q % q x\n\\foreign{qwx} \\(qwx\\) člověk.\n\\end{document}\n",
+      "expected": {
+        "blocked_tokens": [
+          "q"
+        ],
+        "projected": "\\begin{document}\nДобры q % q x\n\\foreign{qwx} \\(qwx\\) чловєк.\n\\end{document}\n",
+        "minimum_role_counts": {
+          "protected_comment": 1,
+          "protected_foreign": 1,
+          "protected_math": 1
+        }
+      }
+    }
+  ]
+}

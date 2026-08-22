@@ -1,0 +1,63 @@
+{
+  "decision_id": "ISV019-EDIT-0050",
+  "recorded_at": "2026-08-13T03:05:31.0397956+02:00",
+  "epistemic_type": "manager_direct_terminal_semantic_correction",
+  "scope": "Seven exact sentence fragments in the EDIT-0049 successor: five reasoning nouns aligned to German Überlegung/Überlegungen and two idioms aligned to in Betracht kommen.",
+  "choice": "Use razvažanje inflections for the five explicit Überlegung reasoning sites; use the established idiom v razgled for the two in-Betracht sites. Preserve razgled- at the remaining 32 EDIT-0049 sites aligned to Betrachtung, examine, or consider.",
+  "motivation": "The complete old razsmotr- family is correctly removed, but source-faithful terminology requires distinguishing reasoning from examination and avoiding the unidiomatic literal phrase v razgledanje. This terminal correction closes the distinction before the family is treated as final.",
+  "alternatives_rejected": [
+    "Keep the seven mechanical razgledanje forms: this flattens an explicit German lexical distinction and leaves two bad idioms.",
+    "Change all EDIT-0049 nouns to razvažanje: most source sites say Betrachtung/Betrachtungen and concern examination or treatment.",
+    "Restore razsmotr- at the seven sites: the source distinction is semantic, not an argument for retaining the type-3 stem."
+  ],
+  "evidence": {
+    "superseded_intermediate": {
+      "path": "decision_records/ISV019-EDIT-0049.json",
+      "bytes": 5366,
+      "sha256": "E2C933A946EFA29B3C7A733362CBB50187BDBE9AEEB0A44D33C1B6816F499048"
+    },
+    "german_meaning_authority": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/candidates/ED0014/noether.tex",
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58"
+    },
+    "exact_phrase_bindings": [
+      {"line": 4508, "german": "in Betracht kommende", "target": "v razgled"},
+      {"line": 8243, "german": "entsprechende Überlegung", "target": "razvažanje"},
+      {"line": 8549, "german": "Alle benutzten Überlegungen", "target": "razvažanja"},
+      {"line": 8951, "german": "kommt nicht in Betracht", "target": "v razgled"},
+      {"line": 12150, "german": "Nach unseren allgemeinen Überlegungen", "target": "razvažanjam"},
+      {"line": 23883, "german": "keine Überlegungen über kommutative Körper", "target": "razvažanja"},
+      {"line": 24166, "german": "rein algebraisch-arithmetische Überlegungen", "target": "razvažanjami"}
+    ]
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0049",
+    "source_latin/44-book-isv.tex": {"bytes": 167959, "sha256": "08986E0CF140884FF8A040C338FFE377080BA3923DD0AA57C9B085402FC61F9E"},
+    "source_latin/45-isv.tex": {"bytes": 25526, "sha256": "4E47FD1C693F89726DC65607A7500C9376EA0F09E8BC48EE46D48893BD580292"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896968, "sha256": "E8C4F4FBB6394133072F1D863970D8532FACC983C51EDD13142ED3530CEE42AA"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "results": {
+    "sentence_fragments_changed": 7,
+    "reasoning_noun_repairs": 5,
+    "idiom_repairs": 2,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167959, "sha256": "08986E0CF140884FF8A040C338FFE377080BA3923DD0AA57C9B085402FC61F9E"},
+    "source_latin/45-isv.tex": {"bytes": 25526, "sha256": "4E47FD1C693F89726DC65607A7500C9376EA0F09E8BC48EE46D48893BD580292"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896960, "sha256": "87B434A32D23D587C8EEC702D46CBE5730ED723606FE50CAFD7C7E31B1239614"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "tool": {
+    "path": "apply_razsmotr_terminal_semantic_correction_v019.py",
+    "bytes": 7548,
+    "sha256": "66BA9E8251615270C8EB8DB6493BC7D37D9CAD7B95DB3EB1D294BC883877CD49"
+  },
+  "validation": {
+    "anchors": "7/7 exact predecessor fragments occurred once on their pinned lines",
+    "protected_spans": "zero targets in comments or foreign spans; protected values byte-identical",
+    "structure": "TeX controls, references, braces, math delimiters, and line counts unchanged",
+    "family_closure": "zero razsmotr- residue remains; source-aligned razgled-/razvaž- distinction is explicit"
+  },
+  "review_state": "applied_terminal_correction_and_hash_verified"
+}

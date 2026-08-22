@@ -1,0 +1,127 @@
+{
+  "applicator": {
+    "bytes": 36554,
+    "path": "apply_uninflected_personal_identity_tranche_v019.py",
+    "sha256": "6E6E16405C83445B0FDB5D4F0F9579CA73347452CCD027F7EE3DCBA7F22692A0"
+  },
+  "claims": {
+    "build_or_publication": false,
+    "cyrillic_ready": false,
+    "latin_frozen": false,
+    "metadata_sealed": false,
+    "source_applied": false,
+    "workspace_files_mutated_by_validation": false
+  },
+  "decision_id": "ISV019-EDIT-0160",
+  "exact_scope": {
+    "active_producer_changes": 0,
+    "complete_identity_islands": 20,
+    "identity_receipt_changes": 0,
+    "physical_lines": 20,
+    "source": "source_latin/base-papers1-43-isv.tex",
+    "targets": [
+      [5712, "Enriques"],
+      [9839, "Wirtinger"],
+      [9841, "Wirtinger"],
+      [9843, "Wirtinger"],
+      [9864, "Weierstrass"],
+      [9910, "Hurwitz"],
+      [10961, "Loewy"],
+      [11013, "Wallenberg"],
+      [11570, "Loewy"],
+      [11699, "Loewy"],
+      [11927, "Loewy"],
+      [11935, "Loewy"],
+      [11949, "Loewy"],
+      [12336, "Loewy"],
+      [13709, "Du Pasquier"],
+      [14011, "Ostrowski"],
+      [14153, "Weyl"],
+      [15197, "Weyl"],
+      [15203, "Weitzenböck"],
+      [15917, "Ostrowski"]
+    ]
+  },
+  "manifests": {
+    "input_source_cohort": {
+      "bytes": 472,
+      "sha256": "80598634020D84E434B01D716ED4613069CC9269FF3A894A0E406E2ED64D3931"
+    },
+    "line_manifest": {
+      "bytes": 31322,
+      "sha256": "A0760A3CF50CAEF837632AEDBA5D62D9F8308C35ED49067AE90C8006B77BD910"
+    },
+    "output_source_cohort": {
+      "bytes": 472,
+      "sha256": "4DE71CD5CD0D4958781606A3692906C985F1A5BB7B0117AF1E62EB56264FA77F"
+    },
+    "reverse_manifest": {
+      "bytes": 251,
+      "sha256": "D3031100BAA27C767C1966DE6C86EC2D4FE421E4E0E433C1E744412864F255C4"
+    }
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0159",
+    "state": {
+      "bytes": 30994,
+      "sha256": "F9BEBB678D1FFD9738797BAC49E488D64640E918417D2B88EC367BA01EE92943"
+    },
+    "source": {
+      "bytes": 1892411,
+      "sha256": "2A9C1DF97C73FE75C130907F3F7829000E753F34BDCBFB5D66DA56A75855F4B8"
+    }
+  },
+  "projection": {
+    "current": {
+      "approved_structural_identities": 722,
+      "blocked_occurrences": 290,
+      "inventory_sha256": "D941934A83CD5896E2061B7B6391F4EC82CAAC53344A8CD7E703B6E633637140",
+      "unsupported_occurrences": 290
+    },
+    "exact_subtraction": 20,
+    "projected": {
+      "approved_structural_identities": 722,
+      "blocked_occurrences": 270,
+      "inventory_sha256": "0D7F61DC334F1905453DCD19316C7E8F0C4C66B2D267C060B30D884BD250D819",
+      "report_sha256_excluding_this_field": "8830D53F1F237E2E40F6087521D89BEC049A8C2BB83E37A0C586C3A56149ABD8",
+      "unsupported_occurrences": 270
+    },
+    "status": "BLOCKED_FAIL_CLOSED"
+  },
+  "receipt_sha256_excluding_this_field": "982E71183C116B2B3E554384A8EC4C99F7C0DD9D596E72BD4E867BDD1C42ACBF",
+  "role_evidence": {
+    "active_local_producer_for_every_target": null,
+    "historical_exhaustive_manifest": {
+      "bytes": 1939216,
+      "path": "decision_records/ISV019-CYR2-POST-EDIT0150-BLOCKER-ROLE-MANIFEST.json",
+      "sha256": "913EE372ABCD1A74A13C3DA18747867385794F4986B59F3BBED85AAD0FDA931E"
+    },
+    "primary_class": "b_foreign_title_venue_citation_or_identity",
+    "subrole": "uninflected_personal_identity_or_initial"
+  },
+  "schema": "noether-isv-edit0160-unapplied-candidate-receipt-v1",
+  "status": "FROZEN_UNAPPLIED_CANDIDATE",
+  "successor": {
+    "source": {
+      "bytes": 1892611,
+      "sha256": "21C044F5B183CF5F17806FD9FF7B5014E5E79F554098C3B34FB7F9E85D06C128"
+    }
+  },
+  "validation": {
+    "dry_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 16460,
+      "each_stdout_sha256": "0F11517F9A69BD8532BE329498E73F218D4ADBFEAB68E6161EDB7CA9E2F6720E",
+      "pair_byte_identical": true
+    },
+    "self_test_compact_pair": {
+      "each_exit": 0,
+      "each_stderr_bytes": 0,
+      "each_stdout_bytes": 18349,
+      "each_stdout_sha256": "D495B7DC566EE1E3C2B56231E7D8E4418514315DB82D6B63642D137E4DE0EE3B",
+      "pair_byte_identical": true,
+      "receipt_sha256": "27E91A5D1913732EAFC9F3A1B9FDAF1C656C21A6FE3C82B415207F2FAA024D9C"
+    }
+  }
+}

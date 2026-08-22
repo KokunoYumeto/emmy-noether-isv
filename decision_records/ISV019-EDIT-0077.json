@@ -1,0 +1,33 @@
+{
+  "decision_id": "ISV019-EDIT-0077",
+  "recorded_at": "2026-08-13T15:10:29.8006413+02:00",
+  "epistemic_type": "manager_frequency_adverb_repair",
+  "scope": "The single base-text token največestěje at line 20608, meaning most often.",
+  "choice": "Replace največestěje with official najčestěje.",
+  "motivation": "This token is a malformed blend of the largest adjective and the frequency adverb; it is not part of the veliky-to-večši paradigm normalized in EDIT-0076.",
+  "alternatives_rejected": ["Retaining it would leave a non-headword form.", "Treating it as an adjective would change the sentence meaning from frequency to magnitude."],
+  "evidence": {
+    "official_dictionary": "isv_words_list.csv SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: najčęstěje with project spelling najčestěje, meaning generally/most often; comparative čestěje.",
+    "context": "The source sentence is frequency-adverbial and contains exactly one scoped occurrence."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0076",
+    "decision_log": {"bytes": 292598, "sha256": "EB83971CDBECAD5E431BD49139B421C71B5EB8BDE49573CC1A2274B212B64F4C"},
+    "source_latin/44-book-isv.tex": {"bytes": 168038, "sha256": "13A88CCE61F9EB56C485689AF8A2874DA549585827F52BFFAD8AF085D6787E61"},
+    "source_latin/45-isv.tex": {"bytes": 25542, "sha256": "DBFBBE448C588F09091EE27C7A2DBC31D06AD537620C47E1096198A328EEDD4B"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897630, "sha256": "8BCDD6BA03C3A1B676FBAFE2CB9D7343AF59EC1D128CC5A91BCD50BB090B939B"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 1,
+    "old_form_residue": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168038, "sha256": "13A88CCE61F9EB56C485689AF8A2874DA549585827F52BFFAD8AF085D6787E61"},
+    "source_latin/45-isv.tex": {"bytes": 25542, "sha256": "DBFBBE448C588F09091EE27C7A2DBC31D06AD537620C47E1096198A328EEDD4B"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897628, "sha256": "97F18DC9241CD141D9937CC649A1F56F09CF8A7FBAE32364F574ACC288B15EC4"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_frequency_adverb_singleton_v019.py", "bytes": 2803, "sha256": "99A765C695D7ACD0BB8E5E4FAFCBEAD88F8C8F59AA54DC34CE056BBE37336347"},
+  "validation": {"prehashes": "4/4 exact against EDIT-0076", "coverage": "one exact line-bound occurrence", "structure": "TeX controls, braces, math delimiters and line counts invariant", "reproducibility": "frozen successor hashes reproduced before atomic apply"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

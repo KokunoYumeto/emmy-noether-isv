@@ -1,8 +1,8 @@
 {
   "concept_doi": "10.5281/zenodo.21926382",
   "language": "isv",
-  "release_tag": "v2026.08.14-r1",
+  "release_tag": "v2026.08.22-v019",
   "repository": "https://github.com/KokunoYumeto/emmy-noether-isv",
   "schema": "emmy-noether-language-repository-identity/1.0",
-  "version_doi": "10.5281/zenodo.21926383"
+  "version_doi": "10.5281/zenodo.22050935"
 }

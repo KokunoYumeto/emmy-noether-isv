@@ -1,0 +1,33 @@
+{
+  "schema": "noether-interslavic-release-scope/1.0",
+  "release_id": "NOETHER-ISV-v019",
+  "version": "2026.08.22-v019",
+  "publication_date": "2026-08-22",
+  "language": "isv",
+  "scripts": [
+    "isv-Latn",
+    "isv-Cyrl"
+  ],
+  "corpus": [
+    "numbered Papers 1-43",
+    "lecture work 44",
+    "Paper 45",
+    "bibliography"
+  ],
+  "public_files": [
+    "00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf",
+    "01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip",
+    "02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip",
+    "03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt"
+  ],
+  "reader": {
+    "pages": 1159,
+    "latin_pages": 565,
+    "cyrillic_pages": 588,
+    "front_and_divider_pages": 6
+  },
+  "review_status": "model/agent-produced and machine-assisted; no independent native-speaker, community, official-standard, or scholarly-peer-review certification claimed",
+  "unresolved_release_blockers": 0,
+  "linguistic_scanner_blockers": 0,
+  "unsupported_projectable_tokens": 0
+}

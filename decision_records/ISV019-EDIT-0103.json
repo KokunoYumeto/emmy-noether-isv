@@ -1,0 +1,133 @@
+{
+  "decision_id": "ISV019-EDIT-0103",
+  "recorded_at": "2026-08-13T17:15:25.5262916+02:00",
+  "epistemic_type": "residual_arbitrary_quantifier_false_friend_closure",
+  "scope": "Twenty-one sentence-audited ljub- quantifier forms in the base papers; the semantically distinct adverb ljubazno is excluded as a negative control.",
+  "choice": "Normalize all 21 arbitrary/any ljub- quantifiers to the established official libovolj- paradigm with sentence-specific gender, number, case and capitalization.",
+  "motivation": "Every target denotes an arbitrary mathematical field, element, function, coefficient, domain, module, ring, system, set or factor. The surface ljub- has no official Interslavic arbitrary-quantifier headword and is dangerously adjacent to love/dear meanings, while EDIT-0071 already established libovolj- for the identical mathematical semantic slot.",
+  "alternatives_rejected": [
+    "Retaining ljub- was rejected because it leaves a non-headword and potential false-friend family beside the 374-token established libovolj- paradigm.",
+    "Mapping the family to proizvolj- was rejected because EDIT-0071 already rejected that type-2 East/South-shaped alternative.",
+    "Blindly replacing every ljub- string was rejected because base line 6732 ljubazno means kindly and is semantically distinct editable prose; its orthographic status is outside this decision.",
+    "Using svobodny was rejected because free is not equivalent to arbitrary in these quantified mathematical statements."
+  ],
+  "evidence": {
+    "official_dictionary": "Official dictionary SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842 gives ID 22300 libovoljny for optional/arbitrary. It has no arbitrary-quantifier ljub- headword; its separate ljub- entry denotes darling/sweetheart.",
+    "edition_precedent": "EDIT-0071 semantically audited and normalized 60 arbitrary/any mathematical quantifiers to libovolj-, raising the canonical family to 374 before this residual closure.",
+    "semantic_audit": "All 21 contexts express unrestricted selection: any field, element, function, coefficient, domain, module, ring, system, set or factor. No affection, preference, optionality, proper name or quotation occurs.",
+    "cross_family_evidence": "The selected libovolj- bridge is independently recognizable through Czech libovoln- and Slovene poljubn- controls already admitted in EDIT-0071; raw token volume was not used as a vote.",
+    "protected_domains": "No target occurs in a comment, foreign-language/title argument, bibliography identity or TeX control name. One whole-token ljubazno at base line 6732 is a semantically excluded negative control and remains byte-exact; this decision makes no claim about its orthographic canonicality."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0102",
+    "decision_log": {
+      "bytes": 381685,
+      "sha256": "B52DF811B4FE9627F7225335A22F035AD830A6321948D2F90F48EC9816629050"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "055A3DF3E26DB72AEE376C4BCEEBF689C723A060A06E2FBE8B56E4492C16AADD"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898208,
+      "sha256": "B43B1B1ADB448286F8F1BBD2E8E96CB87EEE2754CA6C1D66AC084DF46AE560F1"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "mapping": {
+    "Ljubomu": "Libovoljnomu",
+    "Ljubu": "Libovoljnu",
+    "ljubaja": "libovoljna",
+    "ljubih": "libovoljnyh",
+    "ljubo": "libovoljny",
+    "ljuboe": "libovoljno",
+    "ljubogo": "libovoljnogo",
+    "ljubu": "libovoljnu",
+    "ljuby": "libovoljny",
+    "ljubych": "libovoljnyh",
+    "ljubym": "libovoljnym",
+    "ljubymi": "libovoljnymi"
+  },
+  "locators": {
+    "source_latin/base-papers1-43-isv.tex": [
+      "9856:851",
+      "9860:363",
+      "9905:270",
+      "9905:553",
+      "9946:9",
+      "10003:831",
+      "12387:151",
+      "12419:138",
+      "12421:108",
+      "12466:82",
+      "16153:226",
+      "16159:64",
+      "16159:183",
+      "16159:336",
+      "16173:160",
+      "16173:286",
+      "16200:73",
+      "16212:267",
+      "16253:80",
+      "16295:224",
+      "17008:137"
+    ]
+  },
+  "results": {
+    "sites_changed": 21,
+    "source_histogram": {
+      "Ljubomu": 1,
+      "Ljubu": 1,
+      "ljubaja": 1,
+      "ljubih": 1,
+      "ljubo": 1,
+      "ljuboe": 1,
+      "ljubogo": 7,
+      "ljubu": 1,
+      "ljuby": 3,
+      "ljubych": 1,
+      "ljubym": 1,
+      "ljubymi": 2
+    },
+    "mapped_source_residue": 0,
+    "canonical_libovolj_family_before": 374,
+    "canonical_libovolj_family_after": 395,
+    "protected_ljubazno": 1,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "055A3DF3E26DB72AEE376C4BCEEBF689C723A060A06E2FBE8B56E4492C16AADD"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898309,
+      "sha256": "69591D1E2C11EB86F4B4B42E37A5CDB051DBAE1298AF110350D29ECB337B5BF5"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "tool": {
+    "path": "apply_ljub_arbitrary_residual_v019.py",
+    "bytes": 5617,
+    "sha256": "DCD0A940E14BAC60447B61312D208442595C354A2DF41A2361774721A6F2E120"
+  },
+  "validation": {
+    "coverage": "The exact 12-form source histogram totals 21 sites, all in the base papers, and every site was replayed in sentence context.",
+    "postcondition": "All mapped arbitrary-quantifier ljub- forms are zero; canonical libovolj- rises from 374 to 395; the semantically excluded ljubazno negative control remains one.",
+    "structure": "Line count, raw brace counts, ordered TeX-control stream and math-delimiter stream are invariant; the other three source files are byte-identical.",
+    "reproducibility": "The exact successor bytes and SHA-256 were frozen by the deterministic applicator before source admission."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

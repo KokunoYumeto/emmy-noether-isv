@@ -1,0 +1,694 @@
+{
+  "schema": "noether-interslavic-build-manifest/1.0",
+  "release_id": "NOETHER-ISV-v019",
+  "generated_at": "2026-08-21T00:00:00Z",
+  "source_date_epoch": 1787270400,
+  "build_policy": {
+    "engine": "XeLaTeX",
+    "passes_per_document": 2,
+    "serial": true,
+    "shell_escape": false,
+    "release_blockers": [
+      "nonzero engine exit",
+      "missing glyph",
+      "undefined reference",
+      "undefined citation",
+      "cumulative page mismatch"
+    ]
+  },
+  "authenticated_inputs": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 26053,
+      "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1894721,
+      "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    },
+    "source_cyrillic/44-book-isv-cyrl.tex": {
+      "bytes": 230370,
+      "sha256": "13E2391567A522038C3F959C22FA2FAC164D032F82DA811C6447560F5680C9F0"
+    },
+    "source_cyrillic/45-isv-cyrl.tex": {
+      "bytes": 35902,
+      "sha256": "E1568BAB1E389E07816178A2FBDEE3833508C79BF0C7C19DD5120812E24646FE"
+    },
+    "source_cyrillic/base-papers1-43-isv-cyrl.tex": {
+      "bytes": 2706660,
+      "sha256": "23C242AABD938C605A4B2293ED6E68B723F94DBD23279FD8E75CB50CAEF099F1"
+    },
+    "source_cyrillic/bib-isv-cyrl.tex": {
+      "bytes": 13255,
+      "sha256": "5A6AE75FF94360BC104CE240E0EC18A2329C5229F68B198F763EDF7E786B816B"
+    },
+    "assets/authority_rosette_native_supported_mask.png": {
+      "bytes": 797,
+      "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5"
+    }
+  },
+  "installed_release_sources": [
+    {
+      "path": "release_v019/source/latn/44-book-isv.tex",
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    {
+      "path": "release_v019/source/latn/45-isv.tex",
+      "bytes": 26053,
+      "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+    },
+    {
+      "path": "release_v019/source/latn/base-papers1-43-isv.tex",
+      "bytes": 1894721,
+      "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"
+    },
+    {
+      "path": "release_v019/source/latn/bib-isv.tex",
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    },
+    {
+      "path": "release_v019/source/cyrl/44-book-isv-cyrl.tex",
+      "bytes": 230370,
+      "sha256": "13E2391567A522038C3F959C22FA2FAC164D032F82DA811C6447560F5680C9F0"
+    },
+    {
+      "path": "release_v019/source/cyrl/45-isv-cyrl.tex",
+      "bytes": 35902,
+      "sha256": "E1568BAB1E389E07816178A2FBDEE3833508C79BF0C7C19DD5120812E24646FE"
+    },
+    {
+      "path": "release_v019/source/cyrl/base-papers1-43-isv-cyrl.tex",
+      "bytes": 2706660,
+      "sha256": "23C242AABD938C605A4B2293ED6E68B723F94DBD23279FD8E75CB50CAEF099F1"
+    },
+    {
+      "path": "release_v019/source/cyrl/bib-isv-cyrl.tex",
+      "bytes": 13255,
+      "sha256": "5A6AE75FF94360BC104CE240E0EC18A2329C5229F68B198F763EDF7E786B816B"
+    },
+    {
+      "path": "release_v019/source/assets/authority_rosette_native_supported_mask.png",
+      "bytes": 797,
+      "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5"
+    }
+  ],
+  "surfaces": {
+    "latn": {
+      "language": "Interslavic",
+      "language_tag": "isv-Latn",
+      "witness_role": "canonical Latin edition",
+      "components": [
+        {
+          "component": "base-papers1-43",
+          "source": {
+            "path": "release_v019/source/latn/base-papers1-43-isv.tex",
+            "bytes": 1894721,
+            "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"
+          },
+          "pdf": {
+            "path": "release_v019/pdf/components/base-papers1-43-isv-latn.pdf",
+            "bytes": 2194037,
+            "sha256": "9B52DC91FD3A3F4E14BB7BE8CB0854C7CCC7F3B244C78D4F275FB7AFE049FD22",
+            "pages": 509
+          },
+          "build_logs": [
+            {
+              "pass": 1,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/base-papers1-43/pass1.stdout.log",
+                "bytes": 24543,
+                "sha256": "DCED42B13128FF5A29D78B427A0F9CA9D27622F683E51C8200EC3FA5693F4229"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/base-papers1-43/base-papers1-43-isv-latn.log",
+                "bytes": 47764,
+                "sha256": "A385FB4234317534CC910B0A00160A3E38DDAA6298D4A8262BBE182FB4007FF0"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 0,
+                "undefined_citation": 0,
+                "overfull_hbox": 0,
+                "overfull_vbox": 0
+              }
+            },
+            {
+              "pass": 2,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/base-papers1-43/pass2.stdout.log",
+                "bytes": 24543,
+                "sha256": "DCED42B13128FF5A29D78B427A0F9CA9D27622F683E51C8200EC3FA5693F4229"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/base-papers1-43/base-papers1-43-isv-latn.log",
+                "bytes": 47764,
+                "sha256": "A385FB4234317534CC910B0A00160A3E38DDAA6298D4A8262BBE182FB4007FF0"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 0,
+                "undefined_citation": 0,
+                "overfull_hbox": 0,
+                "overfull_vbox": 0
+              }
+            }
+          ]
+        },
+        {
+          "component": "44-book",
+          "source": {
+            "path": "release_v019/source/latn/44-book-isv.tex",
+            "bytes": 168422,
+            "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+          },
+          "pdf": {
+            "path": "release_v019/pdf/components/44-book-isv-latn.pdf",
+            "bytes": 330925,
+            "sha256": "8C30D2141B643E9DCAE2D341A83673E210CD041B5945BD1F31BDF56EE8CFBB74",
+            "pages": 44
+          },
+          "build_logs": [
+            {
+              "pass": 1,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/44-book/pass1.stdout.log",
+                "bytes": 6465,
+                "sha256": "6648853CE4E33A21FC8C9B23A0D8C8FD87338C189833F0ADF01799D74837B0EA"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/44-book/44-book-isv-latn.log",
+                "bytes": 25515,
+                "sha256": "C885CC4A111E12C7414C3FFA6BA9BB50DE3930A97768FDF545601594A093CDBA"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 0,
+                "undefined_citation": 0,
+                "overfull_hbox": 0,
+                "overfull_vbox": 0
+              }
+            },
+            {
+              "pass": 2,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/44-book/pass2.stdout.log",
+                "bytes": 6465,
+                "sha256": "6648853CE4E33A21FC8C9B23A0D8C8FD87338C189833F0ADF01799D74837B0EA"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/44-book/44-book-isv-latn.log",
+                "bytes": 25515,
+                "sha256": "C885CC4A111E12C7414C3FFA6BA9BB50DE3930A97768FDF545601594A093CDBA"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 0,
+                "undefined_citation": 0,
+                "overfull_hbox": 0,
+                "overfull_vbox": 0
+              }
+            }
+          ]
+        },
+        {
+          "component": "45",
+          "source": {
+            "path": "release_v019/source/latn/45-isv.tex",
+            "bytes": 26053,
+            "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+          },
+          "pdf": {
+            "path": "release_v019/pdf/components/45-isv-latn.pdf",
+            "bytes": 143886,
+            "sha256": "A830C07B136E3927E7BD0D5D879557A539F5C23DE5DF005A766916395641A2CD",
+            "pages": 7
+          },
+          "build_logs": [
+            {
+              "pass": 1,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/45/pass1.stdout.log",
+                "bytes": 4586,
+                "sha256": "320061735AF6607D00FBB2B01AED0695A87EF9242474A549ACDC4C30B765FE16"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/45/45-isv-latn.log",
+                "bytes": 23312,
+                "sha256": "06C2D402928872F7215BE8A5EEC71C3929105FDC2455ACD7386F8856124B6C30"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 0,
+                "undefined_citation": 0,
+                "overfull_hbox": 0,
+                "overfull_vbox": 0
+              }
+            },
+            {
+              "pass": 2,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/45/pass2.stdout.log",
+                "bytes": 4586,
+                "sha256": "320061735AF6607D00FBB2B01AED0695A87EF9242474A549ACDC4C30B765FE16"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/45/45-isv-latn.log",
+                "bytes": 23312,
+                "sha256": "06C2D402928872F7215BE8A5EEC71C3929105FDC2455ACD7386F8856124B6C30"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 0,
+                "undefined_citation": 0,
+                "overfull_hbox": 0,
+                "overfull_vbox": 0
+              }
+            }
+          ]
+        },
+        {
+          "component": "bib",
+          "source": {
+            "path": "release_v019/source/latn/bib-isv.tex",
+            "bytes": 10019,
+            "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+          },
+          "pdf": {
+            "path": "release_v019/pdf/components/bib-isv-latn.pdf",
+            "bytes": 100010,
+            "sha256": "7EB247280E3D6D7934161AECD9BB6F366956922F8BCB1D8F4F6355C3C69B9921",
+            "pages": 5
+          },
+          "build_logs": [
+            {
+              "pass": 1,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/bib/pass1.stdout.log",
+                "bytes": 4438,
+                "sha256": "A73DA02583B3150E9A2F847AD16FCE85914FB607B63F866F8FCF3DE69C16E498"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/bib/bib-isv-latn.log",
+                "bytes": 22882,
+                "sha256": "489ADF06964AB8334F30EB2E606EB3784C97B6CA1EF1AE895251E7C28DE2157B"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 0,
+                "undefined_citation": 0,
+                "overfull_hbox": 0,
+                "overfull_vbox": 0
+              }
+            },
+            {
+              "pass": 2,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/bib/pass2.stdout.log",
+                "bytes": 4438,
+                "sha256": "A73DA02583B3150E9A2F847AD16FCE85914FB607B63F866F8FCF3DE69C16E498"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/latn/bib/bib-isv-latn.log",
+                "bytes": 22882,
+                "sha256": "489ADF06964AB8334F30EB2E606EB3784C97B6CA1EF1AE895251E7C28DE2157B"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 0,
+                "undefined_citation": 0,
+                "overfull_hbox": 0,
+                "overfull_vbox": 0
+              }
+            }
+          ]
+        }
+      ],
+      "cumulative_recipe": {
+        "path": "release_v019/source/emmy-noether-interslavic-latin-v019.tex",
+        "bytes": 412,
+        "sha256": "3E48ECD8C377E321B1B3A6C1A404506254A57CEFB71CAE81837DA653EC8E05BD"
+      },
+      "reader_pdf": {
+        "path": "release_v019/pdf/emmy-noether-interslavic-latin-v019.pdf",
+        "bytes": 3000508,
+        "sha256": "5FCC44BF0D25C3DA0C14C8542CDFEB48419EE924ADD197227F70008FF076FF4F",
+        "pages": 565
+      },
+      "build_logs": [
+        {
+          "pass": 1,
+          "exit_code": 0,
+          "stdout": {
+            "path": "tmp/pdfs/isv_release_v019/readers/latn/pass1.stdout.log",
+            "bytes": 6308,
+            "sha256": "BB186386F8C912094952CF28C302B16679E8F82C41F0DB287A4BDBC51801E271"
+          },
+          "tex_log": {
+            "path": "tmp/pdfs/isv_release_v019/readers/latn/emmy-noether-interslavic-latin-v019.log",
+            "bytes": 247825,
+            "sha256": "D0C996F5449124E3634B7B40C8D7434FCE015E42F0728F60599EE9D3F465E439"
+          },
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "pass": 2,
+          "exit_code": 0,
+          "stdout": {
+            "path": "tmp/pdfs/isv_release_v019/readers/latn/pass2.stdout.log",
+            "bytes": 6308,
+            "sha256": "BB186386F8C912094952CF28C302B16679E8F82C41F0DB287A4BDBC51801E271"
+          },
+          "tex_log": {
+            "path": "tmp/pdfs/isv_release_v019/readers/latn/emmy-noether-interslavic-latin-v019.log",
+            "bytes": 247825,
+            "sha256": "D0C996F5449124E3634B7B40C8D7434FCE015E42F0728F60599EE9D3F465E439"
+          },
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        }
+      ]
+    },
+    "cyrl": {
+      "language": "Interslavic",
+      "language_tag": "isv-Cyrl",
+      "witness_role": "deterministic script projection; not an independent translation witness",
+      "components": [
+        {
+          "component": "base-papers1-43",
+          "source": {
+            "path": "release_v019/source/cyrl/base-papers1-43-isv-cyrl.tex",
+            "bytes": 2706660,
+            "sha256": "23C242AABD938C605A4B2293ED6E68B723F94DBD23279FD8E75CB50CAEF099F1"
+          },
+          "pdf": {
+            "path": "release_v019/pdf/components/base-papers1-43-isv-cyrl.pdf",
+            "bytes": 2421247,
+            "sha256": "96768DE0EA8DFE36189D62E0C569AC8214F88514D18817766D02A0A38A4A92B1",
+            "pages": 531
+          },
+          "build_logs": [
+            {
+              "pass": 1,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/base-papers1-43/pass1.stdout.log",
+                "bytes": 141490,
+                "sha256": "E6E592CD8FEB7305D1200C2F931E28B88C5D716698651FFF013FF4DBA0D3EBCB"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/base-papers1-43/base-papers1-43-isv-cyrl.log",
+                "bytes": 166590,
+                "sha256": "54895C76B2AC6ED843B3BD7A4CACF7DB6047695ECADC29635B7AFD0197D96862"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 4,
+                "undefined_citation": 0,
+                "overfull_hbox": 1,
+                "overfull_vbox": 0
+              }
+            },
+            {
+              "pass": 2,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/base-papers1-43/pass2.stdout.log",
+                "bytes": 141168,
+                "sha256": "A73F17337FE01898D5190A1551B72F062A723F46CD752652A2C0A98F6425ECAE"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/base-papers1-43/base-papers1-43-isv-cyrl.log",
+                "bytes": 166268,
+                "sha256": "F0B3F75A83685209E3E7D30175A9636BE004C4D1AF73FE8FAEEC274138E80A9D"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 0,
+                "undefined_citation": 0,
+                "overfull_hbox": 1,
+                "overfull_vbox": 0
+              }
+            }
+          ]
+        },
+        {
+          "component": "44-book",
+          "source": {
+            "path": "release_v019/source/cyrl/44-book-isv-cyrl.tex",
+            "bytes": 230370,
+            "sha256": "13E2391567A522038C3F959C22FA2FAC164D032F82DA811C6447560F5680C9F0"
+          },
+          "pdf": {
+            "path": "release_v019/pdf/components/44-book-isv-cyrl.pdf",
+            "bytes": 361464,
+            "sha256": "ABFAE3D2F2218DED3D86A322459AA591E7C4B54395C363A22FC387DD0A1130AB",
+            "pages": 45
+          },
+          "build_logs": [
+            {
+              "pass": 1,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/44-book/pass1.stdout.log",
+                "bytes": 6268,
+                "sha256": "2B287BD7EDC5C73D6BBA7883B3D426DF0B34E7916490CACBD23FC1F085D8658C"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/44-book/44-book-isv-cyrl.log",
+                "bytes": 25359,
+                "sha256": "01A49C32DF6EE07863E31ED03C41245A345A497FAE2D47BBC02EFA395ECB7E58"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 0,
+                "undefined_citation": 0,
+                "overfull_hbox": 0,
+                "overfull_vbox": 0
+              }
+            },
+            {
+              "pass": 2,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/44-book/pass2.stdout.log",
+                "bytes": 6476,
+                "sha256": "6564F6B714D5A50F498A3B2F4B337F4ECFA1312FE3CAD4A16B8FD17624757A36"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/44-book/44-book-isv-cyrl.log",
+                "bytes": 25531,
+                "sha256": "EF0FC5E98F9A846C508F7D624BC00FC1EC125265EA522CD839A2FD3F5C3AF9F1"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 0,
+                "undefined_citation": 0,
+                "overfull_hbox": 0,
+                "overfull_vbox": 0
+              }
+            }
+          ]
+        },
+        {
+          "component": "45",
+          "source": {
+            "path": "release_v019/source/cyrl/45-isv-cyrl.tex",
+            "bytes": 35902,
+            "sha256": "E1568BAB1E389E07816178A2FBDEE3833508C79BF0C7C19DD5120812E24646FE"
+          },
+          "pdf": {
+            "path": "release_v019/pdf/components/45-isv-cyrl.pdf",
+            "bytes": 161864,
+            "sha256": "1B8D675806A60A7D17727462BC41A549CE8D87868AFCF96097CC0DB42313C93A",
+            "pages": 7
+          },
+          "build_logs": [
+            {
+              "pass": 1,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/45/pass1.stdout.log",
+                "bytes": 7515,
+                "sha256": "DB9E1657A7D85975369B5A08F16933794B1084F2DA67D5BE2D5A4AF2376E12E0"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/45/45-isv-cyrl.log",
+                "bytes": 26246,
+                "sha256": "9136983BDD86F6480189A657CF8B7A1C49023EC10D6C3A0BD6DF1E6C32A6A19F"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 40,
+                "undefined_citation": 0,
+                "overfull_hbox": 0,
+                "overfull_vbox": 0
+              }
+            },
+            {
+              "pass": 2,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/45/pass2.stdout.log",
+                "bytes": 4591,
+                "sha256": "187D36EBEF8784FA3080EEB25A92A18F9152DFD319A8275D4700D48A5287C08E"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/45/45-isv-cyrl.log",
+                "bytes": 23323,
+                "sha256": "E090C1A8FDFAE1719FE06B0F38D954220066FF31EB07F6F5F8BAE922FA383895"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 0,
+                "undefined_citation": 0,
+                "overfull_hbox": 0,
+                "overfull_vbox": 0
+              }
+            }
+          ]
+        },
+        {
+          "component": "bib",
+          "source": {
+            "path": "release_v019/source/cyrl/bib-isv-cyrl.tex",
+            "bytes": 13255,
+            "sha256": "5A6AE75FF94360BC104CE240E0EC18A2329C5229F68B198F763EDF7E786B816B"
+          },
+          "pdf": {
+            "path": "release_v019/pdf/components/bib-isv-cyrl.pdf",
+            "bytes": 114571,
+            "sha256": "9C8D751EDE062ECC2CC65D5CA8E1309EB307166BB21F648AF076CF39FE100178",
+            "pages": 5
+          },
+          "build_logs": [
+            {
+              "pass": 1,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/bib/pass1.stdout.log",
+                "bytes": 4286,
+                "sha256": "883C4065CF0B26249474269275AC143B8DDFD10C531D63A06F758AB36B82595D"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/bib/bib-isv-cyrl.log",
+                "bytes": 22735,
+                "sha256": "E34D2CD7726F832AF80119EDCF8F7279DEF73CE9D313E7B232225DA2967D395D"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 0,
+                "undefined_citation": 0,
+                "overfull_hbox": 0,
+                "overfull_vbox": 0
+              }
+            },
+            {
+              "pass": 2,
+              "exit_code": 0,
+              "stdout": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/bib/pass2.stdout.log",
+                "bytes": 4443,
+                "sha256": "422E65F93FE18ADC9FE74F46F86EB0CF3BF048D116FAD00AB4C3FFF7547D079E"
+              },
+              "tex_log": {
+                "path": "tmp/pdfs/isv_release_v019/components/cyrl/bib/bib-isv-cyrl.log",
+                "bytes": 22893,
+                "sha256": "5D80AB868ADE6BA42B1FFB23CA70C7F2BDA9634461B89466881D3F84CC778CB2"
+              },
+              "warnings": {
+                "missing_character": 0,
+                "undefined_reference": 0,
+                "undefined_citation": 0,
+                "overfull_hbox": 0,
+                "overfull_vbox": 0
+              }
+            }
+          ]
+        }
+      ],
+      "cumulative_recipe": {
+        "path": "release_v019/source/emmy-noether-interslavic-cyrillic-v019.tex",
+        "bytes": 412,
+        "sha256": "5FB84C94B054B9A63F511207852769D55D4247A7265B81BBFC49A3C70254D102"
+      },
+      "reader_pdf": {
+        "path": "release_v019/pdf/emmy-noether-interslavic-cyrillic-v019.pdf",
+        "bytes": 3300454,
+        "sha256": "578AAB7224B4192006096B231FD67A3AFEE6E22DFF0C94264102B6D192687B75",
+        "pages": 588
+      },
+      "build_logs": [
+        {
+          "pass": 1,
+          "exit_code": 0,
+          "stdout": {
+            "path": "tmp/pdfs/isv_release_v019/readers/cyrl/pass1.stdout.log",
+            "bytes": 6312,
+            "sha256": "8885751EBFA08FAF214CD450AA7788CBB4518102B7706695C937A0C5F5CF1206"
+          },
+          "tex_log": {
+            "path": "tmp/pdfs/isv_release_v019/readers/cyrl/emmy-noether-interslavic-cyrillic-v019.log",
+            "bytes": 257509,
+            "sha256": "7E7BEEEBD2A05F224A506B35E945801ABB158E130827DB507488E773DFAD31AD"
+          },
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "pass": 2,
+          "exit_code": 0,
+          "stdout": {
+            "path": "tmp/pdfs/isv_release_v019/readers/cyrl/pass2.stdout.log",
+            "bytes": 6461,
+            "sha256": "9B1D8F4A87FF23E96402B76A9D095B181EACE8F2B650A546B1AED2B61AB4B92F"
+          },
+          "tex_log": {
+            "path": "tmp/pdfs/isv_release_v019/readers/cyrl/emmy-noether-interslavic-cyrillic-v019.log",
+            "bytes": 257659,
+            "sha256": "075695D85EBD435103EFA837454053C6C5348EEFA858C1552C993B57A34CF022"
+          },
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        }
+      ]
+    }
+  }
+}

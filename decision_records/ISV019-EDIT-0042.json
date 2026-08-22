@@ -1,0 +1,73 @@
+{
+  "decision_id": "ISV019-EDIT-0042",
+  "recorded_at": "2026-08-13T02:20:36.5165290+02:00",
+  "epistemic_type": "manager_direct_mathematical_terminology_and_agreement_normalization",
+  "scope": "All 336 live v019 Latin technical Faltung-family sites: 334 whole-token svij- forms and two compound samosvijanjem forms in Noether's invariant-theory text.",
+  "choice": "Render Noether's technical Faltung/Faltungsprozess consistently with the official type-1 feminine noun kontrakcija and its complete case paradigm. Recast the five verbal sites with izvršiti kontrakciju, the table label as kontrakcija s, and the two compound self-contraction sites as čislo kontrakcij samej s soboju.",
+  "motivation": "Every audited site denotes the same invariant-theoretic contraction operation: paired symbolic rows are joined into a matrix product and the weight is reduced. The inherited svij- family is a South-shaped literal 'folding' calque and obscures the modern mathematical operation. Official kontrakcija is an internationally recognizable, cross-family type-1 bridge and remains distinct from the corpus's transvekcija, prěnos, and true konvolucija terminology.",
+  "alternatives_rejected": [
+    "Retain svijanje or normalize it to a physical fold verb: the aligned German and formulas denote mathematical contraction, not physical folding.",
+    "Use konvolucija: the comparator corpora use that term for actual convolution, a different operation.",
+    "Use transvekcija or prěnos: both are separate named operations in this edition and in the German authority.",
+    "Perform a noun-only substitution: changing the neuter verbal noun to feminine kontrakcija requires case, adjective, participle, predicate, and pronoun agreement repairs."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "accepted_entry": "id 19795 kontrakcija, feminine type 1, contraction; profile bg+ cs+ mk+ pl+ sl+ sr+ with Russian near-equivalence"
+    },
+    "official_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/nouns.md",
+      "bytes": 12310,
+      "sha256": "BCE65A602F5DAFFF86BD132C6CBD0F5F1A4D5BDE9750A0394F78E5D4A8E9F09E",
+      "relevance": "feminine -a declension and soft-stem singular/plural case paradigm"
+    },
+    "german_meaning_authority": {
+      "path": "cum_de_Local_20260718_P04S06S07_SourceFix_after_P02.tex",
+      "bytes": 2152414,
+      "sha256": "8851AF561D7C40B2295DB5D4108684A06015756B9B6FDD7CCE67466E0F7F8134",
+      "finding": "all aligned targets are Faltung, Faltungen, Faltungsprozess, Grundfaltung, falten, or gefaltet in the specialized invariant-theory operation; Überschiebung and Übertragung remain separate"
+    },
+    "independent_math_comparators": {
+      "manifest": "C:/Users/Floris/Documents/Codex/2026-05-26/there-is-currently-an-ongoing-process/other_pc_sidebranch_worktree/language-source-bodies/slavic-non-ru-uk-20260705/MANIFEST.csv",
+      "manifest_bytes": 460558,
+      "manifest_sha256": "3BF053AABB26210539E263B33B8F12960C888118409FD4D0898D73A91F74F286",
+      "finding": "West and South mathematical terminology independently attest the kontrakc- internationalism; Macedonian multilinear terminology explicitly groups kontrakcija with multiplication, symmetrization, and alternation, while Croatian uses konvolucija for actual convolution. Languages are cohort evidence, not token-weighted votes."
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0041",
+    "source_latin/44-book-isv.tex": {"bytes": 167960, "sha256": "F700E7DF1519675C20FE28DB7362C8622F1AF9AF065E8177AFBD43DEFC6F56DD"},
+    "source_latin/45-isv.tex": {"bytes": 25519, "sha256": "585CA296396D6528C350DDE1A438F189C2F8185D1FAD357F3D713A5B8A638003"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896891, "sha256": "3E61CAD5F2EEC925E05B5195516B3C7DCA5AF7A6478A7BD1056973B533C3E9F0"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 336,
+    "whole_token_sites": 334,
+    "compound_self_contraction_sites": 2,
+    "nominative_singular": 41,
+    "accusative_singular": 91,
+    "verbal_sentence_recasts": 5,
+    "table_label_recast": 1,
+    "output_histogram_case_insensitive": {"kontrakcij": 47, "kontrakcija": 42, "kontrakcijah": 2, "kontrakcijam": 13, "kontrakcijami": 10, "kontrakcije": 95, "kontrakcijeju": 8, "kontrakciji": 23, "kontrakciju": 96},
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167960, "sha256": "F700E7DF1519675C20FE28DB7362C8622F1AF9AF065E8177AFBD43DEFC6F56DD"},
+    "source_latin/45-isv.tex": {"bytes": 25519, "sha256": "585CA296396D6528C350DDE1A438F189C2F8185D1FAD357F3D713A5B8A638003"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898015, "sha256": "F88F5670AC50EA84C135B6E81245C178E7E6B282F838C84606FAA5DE39A28944"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "tool": {"path": "apply_contraction_family_v019.py", "bytes": 14302, "sha256": "0C416A95829D9A805E94E123EAF9398E02861AA9278757B8504340C4993E582C"},
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0041",
+    "coverage": "336/336 semantic sites: 334 whole-token forms plus two compound self-contraction forms",
+    "case_and_agreement": "41 nominative and 91 accusative ambiguous forms classified by exact locator; all feminine adjective, pronoun, predicate, participle, and oblique-case agreements repaired",
+    "independent_rejection_and_repair": "the first dry-run was rejected for four exact defects (reducibilno, ono, dualističnogo, and two hidden samosvijanjem residues); all were repaired before any source write and the independent rerun accepted the successor",
+    "residue": "zero token containing svij remains; exactly 336 kontrakc- terms occupy the adjudicated semantic layer",
+    "dry_run_then_apply": "frozen successor hashes reproduced before atomic apply and rechecked after write",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

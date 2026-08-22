@@ -1,0 +1,143 @@
+{
+  "schema": "noether-isv-edit0159-unapplied-candidate-receipt-v1",
+  "decision_id": "ISV019-EDIT-0159",
+  "date_europe_berlin": "2026-08-20",
+  "status": "FROZEN_UNAPPLIED_READY_FOR_INDEPENDENT_PREAPPLY_REVIEW",
+  "classification": "complete non-nested identity/title/venue/signature islands already delimited by TeX groups",
+  "applicator": {
+    "path": "apply_foreign_tex_group_protection_v019.py",
+    "bytes": 34921,
+    "sha256": "D5A3563E4918F1B6AEDB2DB9DECCA24EA97F29AFF854E161B583D81BD7ABA4AB"
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0158",
+    "state": {
+      "path": "00_SESSION_INDEPENDENT_STATE_v019.json",
+      "bytes": 26556,
+      "sha256": "E3E1BC27B759EF6E028CA16626D0C3C8907337D305399D4B2355BDDC873CCC5B"
+    },
+    "source": {
+      "path": "source_latin/base-papers1-43-isv.tex",
+      "bytes": 1892261,
+      "sha256": "5FBF0D95479E85C09928F152DA0CA876E9F8C3BF9D90425961395BB7448555FC"
+    }
+  },
+  "successor": {
+    "source": {
+      "path": "source_latin/base-papers1-43-isv.tex",
+      "bytes": 1892411,
+      "sha256": "2A9C1DF97C73FE75C130907F3F7829000E753F34BDCBFB5D66DA56A75855F4B8"
+    },
+    "physical_lines": 12,
+    "complete_groups": 15,
+    "projection_blockers_removed": 17,
+    "active_producer_changes": 0,
+    "identity_receipt_changes": 0
+  },
+  "manifests": {
+    "input_source_cohort": {
+      "bytes": 472,
+      "sha256": "E4CEC98983257F60BF180DCD06CDD077B811160CE9D1D67F9E51F3CB279EE04F"
+    },
+    "output_source_cohort": {
+      "bytes": 472,
+      "sha256": "80598634020D84E434B01D716ED4613069CC9269FF3A894A0E406E2ED64D3931"
+    },
+    "line_manifest": {
+      "rows": 12,
+      "bytes": 17557,
+      "sha256": "3EF3ADFA5C86CC87AC8E2EE74F2F64DECC5D9D8BA32E81B33190C2F120C8AF90"
+    },
+    "reverse_manifest": {
+      "bytes": 251,
+      "sha256": "26C541F50A1C8D74DDB00B38827348AB14CAE0CA7B8AA1714941AB57E19B1ADD"
+    }
+  },
+  "projection": {
+    "projection_v4": {
+      "path": "project_isv_cyrillic_v4.py",
+      "bytes": 34849,
+      "sha256": "A63A6F697A99F5A8D64C0B69D24875C3031C8EFE7DE8A137DE8F844CD460E341"
+    },
+    "current": {
+      "blocked_occurrences": 307,
+      "unsupported_occurrences": 307,
+      "blocked_inventory_sha256": "87576B93DC184CA5359B8A17D374A57DC790CC8B561AB6AA98651607E712F4A3"
+    },
+    "exact_subtraction": 17,
+    "projected": {
+      "blocked_occurrences": 290,
+      "unsupported_occurrences": 290,
+      "blocked_inventory_sha256": "D941934A83CD5896E2061B7B6391F4EC82CAAC53344A8CD7E703B6E633637140",
+      "report_sha256_excluding_this_field": "7A5CC12C17AC41830DBA2EF1F5908BD62BDCBC2ECF53B4356575E08DA1197E8B"
+    }
+  },
+  "frontier_evidence": {
+    "audit": {
+      "path": "audit_isv_foreign_identity_frontier_v019.py",
+      "bytes": 26316,
+      "sha256": "8789EA111B269CF3E13D482271AFF7054E666493576C63EB67BE8E3172EDB895"
+    },
+    "receipt": {
+      "path": "ISV_FOREIGN_IDENTITY_FRONTIER_INDEX_VALIDATION_RECEIPT_v019.json",
+      "bytes": 4362,
+      "sha256": "AD38136FAA5EF040AB15698E07BC8A13232A992DD21EE4B9C8515683E8D106D8"
+    },
+    "report_receipt": "B048734652E570BE86818D6EEF643AC465B27DF0BFCF0B32F1B26BFE4366D59D"
+  },
+  "transaction": {
+    "hardened_core": {
+      "path": "apply_jednoj_feminine_oblique_v019.py",
+      "bytes": 119813,
+      "sha256": "DE251FB3AABCCDFEA1A879BE22EA647489B2795E4026F1D247C179ED76AFAD6F"
+    },
+    "rollback_before_stage": true,
+    "inherited_hostile_cases": 21,
+    "one_target_cases": 2,
+    "transaction_residue": 0
+  },
+  "execution_receipts": {
+    "dry_pair": [
+      {
+        "exit_code": 0,
+        "stdout_bytes": 8653,
+        "stdout_sha256": "8D9A6E9344D1C75266F9C94B04001B63DA6945DF4AF596340AE690C486DB7D80",
+        "stderr_bytes": 0,
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      },
+      {
+        "exit_code": 0,
+        "stdout_bytes": 8653,
+        "stdout_sha256": "8D9A6E9344D1C75266F9C94B04001B63DA6945DF4AF596340AE690C486DB7D80",
+        "stderr_bytes": 0,
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    ],
+    "self_test_pair": [
+      {
+        "exit_code": 0,
+        "stdout_bytes": 10533,
+        "stdout_sha256": "E2DD09766954EF79E61C2CA29F4B07802A694FC913562B38C5F890D812D573AE",
+        "stderr_bytes": 0,
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      },
+      {
+        "exit_code": 0,
+        "stdout_bytes": 10533,
+        "stdout_sha256": "E2DD09766954EF79E61C2CA29F4B07802A694FC913562B38C5F890D812D573AE",
+        "stderr_bytes": 0,
+        "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    ]
+  },
+  "nonclaims": [
+    "source_applied=false",
+    "metadata_sealed=false",
+    "Latin_frozen=false",
+    "Cyrillic_ready=false",
+    "build_or_publication=false",
+    "this project-house protection policy is not native or community certification"
+  ],
+  "receipt_serialization": "canonical compact UTF-8 JSON with recursively sorted keys and one terminal LF; receipt hash excludes only receipt_sha256_excluding_this_field",
+  "receipt_sha256_excluding_this_field": "BC86AEC8AB2CE2051E7EE3ADBCC3D15B6EA30FBF229411A6D431E874FB9EE0D0"
+}

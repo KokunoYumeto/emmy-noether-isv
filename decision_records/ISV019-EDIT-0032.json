@@ -1,0 +1,66 @@
+{
+  "decision_id": "ISV019-EDIT-0032",
+  "recorded_at": "2026-08-13T01:32:45.8275663+02:00",
+  "epistemic_type": "manager_direct_semantic_family_normalization",
+  "scope": "All 114 live v019 whole-token proishod-/proizhod-/ishod-/izhod- occurrences in the four Latin source files.",
+  "choice": "Split the inherited source-shaped family by mathematical meaning: render initial and starting-point senses with počętkov- or odpravny punkt/točka; retain and normalize 15 genuine origin/attribution uses as official proizhoditi iz; render logical consequences with slěduje; render arising or generation with the established nastavaje/nastavajut family; and explicitly recast membership, derivation, proof, starting-basis, forthcoming-publication, emanating-ray, and reduction contexts.",
+  "motivation": "The inherited family collapsed German Ausgangs-, ausgehen von, entstehen/hervorgehen, folgt/ergibt sich, stammt/rührt her, and a forthcoming-publication construction into East-shaped izhod-/proishod- forms. Official Interslavic izhoditi means exit or quit, while official proizhoditi iz is limited to genuine origin. The semantic split restores mathematical meaning and uses forms supported across West, South, and East comparator families rather than preserving a Russian-shaped omnibus calque.",
+  "alternatives_rejected": [
+    "Normalize every token mechanically to proizhod-; that would preserve the source-language semantic collapse across logical consequence, derivation, initial-value, and starting-point contexts.",
+    "Retain unprefixed izhod- throughout; the official lemma denotes exit or quit and no audited occurrence has that meaning.",
+    "Use rezultat or vnikati uniformly; there is no live outcome noun, and the edition already uses nastavaje/nastavajut coherently for German entstehen and hervorgehen."
+  ],
+  "evidence": {
+    "bounded_agent": "/root/sovpad_family",
+    "german_meaning_authority": {
+      "path": "cum_de_Local_20260718_P04S06S07_SourceFix_after_P02.tex",
+      "bytes": 2152414,
+      "sha256": "8851AF561D7C40B2295DB5D4108684A06015756B9B6FDD7CCE67466E0F7F8134"
+    },
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "entries": [
+        "id 11566 proizhoditi iz, type 1, originate from",
+        "id 5355 izhoditi, exit or quit",
+        "id 29170 odpravny punkt, type 1, starting point",
+        "ids 10670 and 10669 počętkovy/počętkovo, initial/initially",
+        "ids 36764 and 36763 izvesti/izvoditi, derive or deduce"
+      ]
+    },
+    "native_math_corpus": {
+      "manifest_path": "C:/Users/Floris/Documents/Codex/2026-05-26/there-is-currently-an-ongoing-process/other_pc_sidebranch_worktree/language-source-bodies/slavic-non-ru-uk-20260705/MANIFEST.csv",
+      "bytes": 460558,
+      "sha256": "3BF053AABB26210539E263B33B8F12960C888118409FD4D0898D73A91F74F286",
+      "use": "Independent Belarusian, Czech, Polish, Croatian, Serbian, Slovene, Bulgarian, and Macedonian mathematical controls were treated as cohort evidence, not token-mass votes."
+    }
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 114,
+    "initial_or_starting_point": 44,
+    "true_origin_or_attribution": 15,
+    "starting_based_forthcoming_or_reduction_recasts": 17,
+    "logical_consequence": 12,
+    "arise_derive_membership_or_proof_recasts": 26,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167969, "sha256": "F6FFE8F79E708C26C699E89E476AA659DFF7ADD38267F1576C4D13E18BB32525"},
+    "source_latin/45-isv.tex": {"bytes": 25518, "sha256": "C5E82C901F92BF24EA06464119F1C00D6F8E93898BA595C02C322CE89F2CDFCA"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896428, "sha256": "C342B5B101C733214BABFF03CF6882AD8C476CCDC8A10D19EC6DB52DB4E87211"},
+    "source_latin/bib-isv.tex": {"bytes": 9578, "sha256": "E5951A6278A556003C44DE30FC0012C1421606BDB1DE3AB6CF05C01986D9613B"}
+  },
+  "tool": {
+    "path": "apply_origin_derivation_family_v019.py",
+    "bytes": 10401,
+    "sha256": "D38568B2E4EBBCF52FFB39568BE3A3A465F0EC2A75BB7870B69E4B4AFBE021A6"
+  },
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0031",
+    "coverage": "114/114 ordered whole-token occurrence IDs changed exactly once",
+    "retained_origin_forms": "exactly 10 proizhodi and 5 proizhode",
+    "residue": "zero proishod-, ishod-, unprefixed izhod-, proizhodet, proizhodit, or proizhodny residue",
+    "dry_run_then_apply": "frozen output hashes reproduced",
+    "structure": "TeX controls, references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

@@ -1,0 +1,252 @@
+% Reusable methods paper for NOETHER-ISV-v019. UTF-8/LF; build with XeLaTeX.
+\documentclass[11pt]{article}
+\usepackage{fontspec}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
+\IfFontExistsTF{Arial}{\setsansfont{Arial}}{\setsansfont{TeX Gyre Heros}}
+\IfFontExistsTF{Consolas}{\setmonofont{Consolas}}{\setmonofont{Latin Modern Mono}}
+\usepackage[a4paper,margin=2.35cm]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs,tabularx,longtable,array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{bookmark}
+\definecolor{NoetherBlue}{HTML}{1C476B}
+\hypersetup{
+  pdftitle={From a language canon to a reproducible publication: machine-assisted Interslavic editing of Emmy Noether's mathematical works},
+  pdfauthor={Machine-assisted Interslavic editorial project},
+  pdfsubject={Methods, linguistic decisions, script derivation, validation, and reproducibility for NOETHER-ISV-v019},
+  pdfkeywords={Interslavic, Emmy Noether, machine-assisted translation, linguistic normalization, reproducibility, Cyrillic projection}
+}
+\setlength{\parindent}{1.15em}
+\setlength{\parskip}{0.25em}
+\setlist{nosep,leftmargin=1.6em}
+\emergencystretch=4em
+\raggedbottom
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small NOETHER-ISV-v019 methods}
+\fancyhead[R]{\small Machine-assisted Interslavic editing}
+\fancyfoot[C]{\thepage}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\hash}[1]{\begingroup\ttfamily\footnotesize\path{#1}\endgroup}
+\newcommand{\doiurl}[1]{\href{https://doi.org/#1}{#1}}
+\newcommand{\repo}{\href{https://github.com/KokunoYumeto/emmy-noether-isv}{KokunoYumeto/emmy-noether-isv}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\title{\sffamily\bfseries\color{NoetherBlue}
+Od jezyčnogo kanona do povtorimoj publikacije:\\
+metodologija mašinno-pomaganoj medžuslovjanskoj redakcije\\[0.6em]
+\large From a language canon to a reproducible publication:\\
+machine-assisted Interslavic editing of Emmy Noether's mathematical works}
+\author{Machine-assisted Interslavic editorial project}
+\date{NOETHER-ISV-v019 --- 22 August 2026\\
+Version DOI: \doiurl{10.5281/zenodo.22050935}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent\textbf{Medžuslovjansky.}
+Tuta statja dokumentuje tvorjenje polnogo medžuslovjanskogo izdanja matematičnyh děl Emmy Noether v latinici i deterministično izvedenoj kirilici. Cělj ne jest demonstracija interesnoj mašinnoj imitacije, ale praktično čitanje govoriteljami slovjanskyh jezykov, uključajuči ljudij bez anglijskogo jezyka. Metoda razděljaje německy iztočny avtoritet, latiničny jezyčny kanon, kiriličnu projekciju, redakcijne rěšenja i publikacijske artefakty. Vse materialne popravky sut zapisane v dodatkovom, povtorimom žurnalu s iztočnikami, odklonjenymi alternativami i kontrolnymi sumami. Konečny čitateljnik obimaje 1,159 stranic; scanner jezyčnyh blokatorov imaje nulu otvorjenih slučajev. Kirilična projekcija konvertuje 164,563 slovne tokeny, a ohranjaje pregledane imena, citaty, rimske označenja i TeX-sintaksu. Odsutnost nezavisnoj rodno-govoriteljskoj i naučnoj recenzije jest javno označena, ale ne jest skryta za neobjavjenjem dokazov.
+
+\medskip
+\noindent\textbf{English.}
+This paper documents the production of a complete Interslavic edition of Emmy Noether's mathematical works in editorial Latin script and deterministically derived Cyrillic. The aim is practical reading by speakers of Slavic languages, including readers without English, rather than a demonstration of linguistic novelty. The method separates German source authority, the Latin language canon, the Cyrillic projection, editorial decisions, and publication artifacts. Every material correction is recorded in an append-only replayable ledger with evidence, rejected alternatives, and cryptographic identities. The final linked reader has 1,159 pages and zero open linguistic scanner blockers. The Cyrillic derivation converts 164,563 word tokens while preserving reviewed names, quotations, Roman labels, and TeX syntax. The absence of independent native-speaker and scholarly peer review is disclosed rather than hidden behind non-publication.
+\end{abstract}
+
+\section{Research object and intended readership}
+
+The object is one complete Interslavic language edition of a bounded Emmy Noether corpus: numbered Papers 1--43, lecture work 44, Paper 45, and the bibliography. It is not an anthology of samples and not a collection of unrelated transcriptions. The release contains two script surfaces of the same language object:
+
+\begin{itemize}
+\item \code{isv-Latn}: the canonical editorial language text;
+\item \code{isv-Cyrl}: a deterministic projection of that text, not an independent translation witness.
+\end{itemize}
+
+This distinction prevents a common failure in multilingual corpora: treating a derived spelling system as if it independently confirmed the translation. Only the Latin surface receives linguistic edits. Cyrillic is regenerated, tested, built, and visually reviewed after the Latin source is frozen.
+
+The practical heuristic for linguistic progress is not ``how Slavic-looking is the prose?'' It is the conjunction of four questions:
+
+\begin{enumerate}
+\item Can speakers of different Slavic languages plausibly parse the sentence without English?
+\item Is the selected form supported by the declared Interslavic lexicon/grammar or by an explicit project-house rule?
+\item Does the form preserve the exact mathematical referent and argument structure of the source?
+\item Is every exception, ambiguity, or foreign identity represented in a reproducible role model rather than silently ignored?
+\end{enumerate}
+
+The edition is therefore best understood as a corrigible scholarly working edition: public, inspectable, hash-bound, and open to improvement, but not represented as a native-speaker-certified or critical edition.
+
+\section{Authority architecture}
+
+The workflow uses a typed authority chain instead of a single undifferentiated ``source'' folder. Table~\ref{tab:authority} states the roles that every tool and future session must preserve.
+
+\begin{table}[ht]
+\centering
+\caption{Authority roles in NOETHER-ISV-v019.}\label{tab:authority}
+\begin{tabularx}{\textwidth}{@{}p{0.22\textwidth}YY@{}}
+\toprule
+Role & Controlling object & Consequence\\
+\midrule
+German source authority & \code{NOETH-DE-ED-0015}, pointer \code{NOETH-DE-AUTH-v052-20260815} & Controls source sense, structure, and mathematical comparison; it is never edited by the Interslavic lane.\\
+Interslavic language canon & Four frozen \code{source\_latin/*.tex} files at \code{ISV019-EDIT-0171} & All linguistic changes occur here through append-only decisions.\\
+Cyrillic surface & Projector v6 applied to the exact Latin vector & Recreated output; cannot overrule or independently validate the Latin translation.\\
+Editorial ledger & \code{NORMALIZATION\_DECISIONS\_v019.jsonl} & Gap-free record of 171 material decisions, evidence, alternatives, and successor hashes.\\
+Release products & Linked PDF, two ZIP archives, top-level SHA-256 manifest & Human-facing dissemination; cannot redefine the canon that produced it.\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The German authority used here is a project-active editorial control, not a claim of a newly certified critical German edition. Its exact text hash is
+\hash{51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907}.
+The release also records the global multilingual catalogue relation \code{IsPartOf} \doiurl{10.5281/zenodo.20412587} and the semantic \code{IsTranslationOf} relationship to the identified German object.
+
+\section{Machine-readable canon discovery}
+
+Repeatability begins with discovery. A future session should not need to infer which of several similar files is canonical. The repository therefore exposes a compact \code{CANON\_INDEX.json} with:
+
+\begin{itemize}
+\item language and BCP~47 script tags;
+\item the four Latin canonical files and four derived Cyrillic files;
+\item exact byte counts and SHA-256 values;
+\item the editorial head and ledger identity;
+\item the projector and its validation receipt;
+\item the German authority identifier and hash;
+\item the build entry points and public artifacts;
+\item explicit write boundaries and claim boundaries.
+\end{itemize}
+
+The index is deliberately declarative. It tells an agent what each object \emph{is}; executable tools then prove whether the declared identities still hold. This separates discovery from trust and avoids the circular rule ``the newest-looking file is the canon.''
+
+\section{Append-only linguistic normalization}
+
+The v019 normalization history contains 171 decisions. A decision is admissible only when it specifies a predecessor, an exact target locus, the proposed successor, relevant authority, rejected alternatives, motivation, uncertainty, and post-application validation. Applicators authenticate every input and refuse ambiguous targets. A sealer appends a decision only after the resulting source and replay identities agree.
+
+The most important linguistic classes were:
+
+\subsection{Lexical false friends and semantic partitions}
+
+Surface resemblance to Russian, Ukrainian, Polish, Czech, or South Slavic forms is not sufficient. Candidate replacements were divided by sense. For example, families corresponding to \emph{existence}, \emph{essence}, \emph{composition}, \emph{containment}, \emph{assumption}, \emph{consequence}, and \emph{correspondence} were adjudicated at sentence level rather than replaced globally. A form was retained when it carried a necessary mathematical distinction even if a more frequent pan-Slavic cognate existed.
+
+\subsection{Morphology and sentence role}
+
+Agreement, oblique forms, genitive plurals, participles, conjugational endings, ordinal forms, and copular constructions were corrected as grammatical families only after every occurrence was classified. Context-free suffix replacement was rejected because mathematical prose contains symbols, personal names, quotations, and cited titles that mimic ordinary word endings.
+
+\subsection{Connectives and proof logic}
+
+Connectives were treated as mathematical operators in prose. Causal, inferential, conditional, equivalence, contrastive, and apodosis functions were separated. The source relation between clauses controlled the choice; mere word frequency did not. This policy reduces the risk that a grammatically plausible normalization reverses implication or weakens a quantifier.
+
+\subsection{Names, titles, citations, and foreign surfaces}
+
+Complete uninflected identities and original-language bibliographic surfaces are preserved. Integrated or inflected forms are projected when they function as Interslavic morphology. The final role inventory contains:
+
+\begin{itemize}
+\item 883 styled payloads: 152 protected as complete original-language material and 731 projected as Interslavic;
+\item 616 name candidates: 242 protected complete identities and 374 projected integrated/non-name forms;
+\item 2,371 foreign-lexicon hits: 1,025 protected citation/identity tokens and 1,346 projected ambiguous or Interslavic tokens;
+\item 690 visible one-letter tokens: 449 lexical \code{I}/\code{V} words projected, and 241 reviewed initials or Roman labels preserved.
+\end{itemize}
+
+The exact occurrence-level dispositions live in the machine inventory rather than in this narrative summary.
+
+\section{Mathematical and TeX fidelity}
+
+Natural-language normalization is subordinate to mathematical identity. The workflow therefore checks both visible mathematics and the TeX program that produces it. Protected boundaries include math mode, command names, command options, labels, references, citation keys, file paths, comments, and source-controlled foreign arguments. For each Latin/Cyrillic source pair, deleting Unicode letters and combining marks yields the same non-letter stream. This proves preservation of braces, control sequences, operators, punctuation, numbers, alignment markers, and mathematical symbols across script derivation.
+
+The build also exposed why syntactic validation must follow scanner validation. Projector v5 classified numeric TeX dimension units as visible words and transformed \code{24em} into Cyrillic \code{24ем}. The linguistic scanner reported zero issues, but XeLaTeX correctly rejected the result as an illegal unit. Projector v6 therefore added an explicit numeric-dimension grammar covering TeX units such as \code{pt}, \code{cm}, \code{mm}, \code{em}, and infinite glue orders. It preserves 447 previously exposed occurrences (219 \code{em}, 228 \code{pt}) and rejects any Cyrillic unit residue. The incident is retained as adverse evidence: a clean lexical scan is not equivalent to executable-source correctness.
+
+\section{Deterministic Latin-to-Cyrillic derivation}
+
+The v6 derivation is a pure function of the frozen four-file Latin vector plus pinned role manifests and predecessor code. Its stages are:
+
+\begin{enumerate}
+\item authenticate every Latin source by byte count and SHA-256;
+\item parse TeX into visible and protected roles;
+\item merge reviewed ranges for identities, foreign payloads, Roman labels, and dimensions;
+\item project every remaining visible word with the frozen Interslavic transliterator;
+\item independently reconstruct the same output with a trace;
+\item require byte identity between the two derivations;
+\item require every remaining visible Latin token to lie inside a reviewed output range;
+\item validate TeX structure and write outputs transactionally.
+\end{enumerate}
+
+The final conversion census is 161,208 standard Interslavic word conversions plus 3,355 conversions after explicit etymological simplification, for 164,563 projected word tokens. All 449 lexical one-letter \code{I}/\code{V} occurrences convert; the 241 retained \code{I}/\code{V}/\code{M} occurrences are reviewed initials or structural Roman material. The independent harness repeats the complete derivation twice and exercises hostile source mutation, topology omission, unsafe replacement, and dimension-census mutation.
+
+\section{Build and validation}
+
+All XeLaTeX work is serial and uses two passes per document with shell escape disabled and a fixed \code{SOURCE\_DATE\_EPOCH}. Eight editable components produce two complete script readers; a final bilingual wrapper supplies public explanation, navigation, DOI links, and the two embedded volumes.
+
+\begin{table}[ht]
+\centering
+\caption{Final reader metrics.}\label{tab:metrics}
+\begin{tabular}{@{}lrrl@{}}
+\toprule
+Artifact & Pages & Bytes & SHA-256\\
+\midrule
+Latin reader & 565 & 3,000,508 & \code{5FCC44BF0D25...076FF4F}\\
+Cyrillic reader & 588 & 3,300,454 & \code{578AAB7224B4...2687B75}\\
+Linked public reader & 1,159 & 6,885,443 & \code{E14B2C9336E9...552C401}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The independent release QA contains 38 passing checks and zero errors. It covers exact source readback, surface topology, cross-script non-letter identity, fatal-log scanning, PDF hashes, page counts, text extraction, zero replacement characters, pagewise component/cumulative character identity, script census, embedded fonts, and component boundaries. Rendered visual review covers all new front matter and script boundaries plus distributed controls across both complete readers. A low-resolution serial raster census of all 1,159 pages finds no blank pages and no implausible dark-page coverage. Visual inspection remains necessary because text extraction and structural equality cannot prove legible layout.
+
+\section{Publication architecture and preservation}
+
+The public Zenodo surface has four files:
+
+\begin{enumerate}
+\item \code{00\_NOETHER\_INTERSLAVIC\_COMPLETE\_LINKED\_READER.pdf};
+\item \code{01\_NOETHER\_INTERSLAVIC\_EDITABLE\_SOURCES.zip};
+\item \code{02\_NOETHER\_INTERSLAVIC\_EVIDENCE\_AND\_PROVENANCE.zip};
+\item \code{03\_NOETHER\_INTERSLAVIC\_SHA256\_MANIFEST.txt}.
+\end{enumerate}
+
+The first file is the human product. The source archive contains the canon, the derived sources, the projector, build recipes, metadata, and member manifests. The evidence archive contains the full editorial ledger, decision sidecars, role inventory, validation receipts, this methods paper and source, QA, adverse evidence, and its own member manifest. Operational caches, credentials, raw task transcripts, and unrelated workspaces are excluded.
+
+The stable edition concept DOI is \doiurl{10.5281/zenodo.21926382}; this exact release is \doiurl{10.5281/zenodo.22050935}; the repository is \repo. Publication is followed by anonymous readback of every public file and comparison of public byte counts and SHA-256 values with the local frozen manifest.
+
+\section{Limitations and responsible claims}
+
+The edition makes strong reproducibility claims and deliberately narrower linguistic claims. It does claim an exact source vector, a replayable editorial history, zero open scanner blockers, deterministic Cyrillic derivation, clean builds, mathematical/TeX structural preservation, and passed PDF/visual QA. It does not claim:
+
+\begin{itemize}
+\item native-speaker certification or consensus across Slavic speech communities;
+\item endorsement by the Interslavic community or an official standard;
+\item independent scholarly peer review;
+\item a critical edition of the German originals;
+\item that computational validation proves idiomaticity or optimal lexical choice;
+\item that the Cyrillic output is independent evidence for the translation.
+\end{itemize}
+
+These limitations are not reasons to hide the work. Public sources, exact evidence, and corrigible versioning make disagreement actionable: a reviewer can identify a locus, propose a better reading, cite contrary evidence, and produce a monotonic successor without erasing the prior state.
+
+\section{Reusable protocol}
+
+For another transcription or translation, the reusable minimum is:
+
+\begin{enumerate}
+\item define one source authority and one target-language canon;
+\item assign explicit roles to every derived script or format;
+\item freeze source units with hashes before editing;
+\item record material decisions append-only with rejected alternatives;
+\item separate visible language from protected syntax and identity surfaces;
+\item validate language, semantics, math, syntax, builds, extraction, fonts, and rendering as distinct gates;
+\item publish a human reader, editable sources, evidence/provenance, and a top-level hash manifest;
+\item expose a machine-readable canon index and deterministic entry points;
+\item disclose absent review and unresolved uncertainty without treating silence as approval;
+\item publish immutable versions and verify the public bytes anonymously.
+\end{enumerate}
+
+The central methodological lesson is simple: an AI-produced language edition becomes useful when its choices are not trapped in the model's conversation. The canon, roles, evidence, failures, build rules, and public identities must all survive independently of the session that made them.
+
+\section*{Citation and reuse}
+
+Suggested citation: \emph{Machine-assisted Interslavic editorial project. From a language canon to a reproducible publication: machine-assisted Interslavic editing of Emmy Noether's mathematical works. NOETHER-ISV-v019.} \doiurl{10.5281/zenodo.22050935} (2026).
+
+This methods text and other project-created editorial material are offered under CC0 to the extent that rights exist. Source works and third-party materials retain their own status. The LaTeX source is included so the paper may be corrected, extended, or republished with accurate attribution and version identity.
+
+\end{document}

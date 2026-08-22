@@ -1,0 +1,67 @@
+{
+  "decision_id": "ISV019-EDIT-0041",
+  "recorded_at": "2026-08-13T02:03:40.8193494+02:00",
+  "epistemic_type": "manager_direct_semantic_verb_family_normalization",
+  "scope": "All 93 whole-token smatr- verbs and participles in live v019 Latin sources.",
+  "choice": "Replace the entire non-perceptual technical smatr- layer with the official razgledati paradigm, preserving aspect, tense, person, participial morphology, capitalization, and sentence structure.",
+  "motivation": "All 93 occurrences mean consider, regard as, treat as, or examine—not watch or look. The official smatrjati entry is an intransitive type-3 watch/look verb with weak cross-family support, while official razgledati means consider/examine and has broad independent East, West, and South support.",
+  "alternatives_rejected": [
+    "Retain smatrjati/smatrati: the official lemma denotes perceptual watching and smatrati is an unsupported backformation in this edition.",
+    "Use ględati: it likewise means look/watch.",
+    "Use razvažati: it means ponder or reflect, which does not fit the 89 classificatory or stipulative sites.",
+    "Use uvažati: it is homonymous with honour and type-2 in the relevant sense.",
+    "Use prěględati: it means review or inspect, not generally regard X as Y."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "accepted_entry": "id 11776 råzględati, transitive imperfective type 2, consider/examine; official example razgledana",
+      "rejected_entry": "id 20742 smatrjati, intransitive imperfective type 3, watch/look; profile negative in multiple West/South standards",
+      "aspect_note": "id 11777 råzględěti is perfective and rejected because every current context is ongoing, general, classificatory, or stipulative"
+    },
+    "official_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/verbs.md",
+      "bytes": 21426,
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+      "relevance": "-ati/-aj stem, contracted present forms, imperative, and participles"
+    },
+    "german_meaning_authority": {
+      "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3",
+      "finding": "aligned verbs are betrachten, auffassen, or ansehen; zero beobachten/schauen contexts"
+    },
+    "independent_math_comparators": {
+      "manifest": "C:/Users/Floris/Documents/Codex/2026-05-26/there-is-currently-an-ongoing-process/other_pc_sidebranch_worktree/language-source-bodies/slavic-non-ru-uk-20260705/MANIFEST.csv",
+      "manifest_bytes": 460558,
+      "manifest_sha256": "3BF053AABB26210539E263B33B8F12960C888118409FD4D0898D73A91F74F286",
+      "finding": "West uses uvažovat/považovat/traktować, South splits promatrati/posmatrati/obravnavati/razgleždame, and East bounded bodies abstain; the official razgled- family is the cross-family neutral, not a raw-token winner"
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0040",
+    "source_latin/44-book-isv.tex": {"bytes": 167952, "sha256": "B248363997365D903D946EE3BA3DB43D47BAD4B042BB1531D32D91DFCE998401"},
+    "source_latin/45-isv.tex": {"bytes": 25519, "sha256": "585CA296396D6528C350DDE1A438F189C2F8185D1FAD357F3D713A5B8A638003"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896768, "sha256": "694A32300D6CAC7E7B7C4303A51F8D89A55E506A833600C6BB5522A5A5002D39"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 93,
+    "semantic_partition": {"direct_consideration": 4, "classificatory_stipulative_or_evaluative": 89, "perceptual_watch_or_look": 0},
+    "output_histogram_case_insensitive": {"razgledati": 65, "razgledajut": 9, "razgledamo": 6, "razgleda": 5, "razgledane": 3, "razgledano": 2, "razgledana": 1, "razgledanym": 1, "razgledajmo": 1},
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167960, "sha256": "F700E7DF1519675C20FE28DB7362C8622F1AF9AF065E8177AFBD43DEFC6F56DD"},
+    "source_latin/45-isv.tex": {"bytes": 25519, "sha256": "585CA296396D6528C350DDE1A438F189C2F8185D1FAD357F3D713A5B8A638003"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896891, "sha256": "3E61CAD5F2EEC925E05B5195516B3C7DCA5AF7A6478A7BD1056973B533C3E9F0"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "tool": {"path": "apply_consider_regard_family_v019.py", "bytes": 5026, "sha256": "9749441700C22A6B4CDA57363227404573912705DC07E61EE2CE5C7FE6F61B73"},
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0040",
+    "coverage": "93/93 whole-token sites across every observed inflection",
+    "residue": "zero whole-token smatr-, razsmatr-, and razmatr- residue",
+    "dry_run_then_apply": "frozen output hashes reproduced immediately before and after atomic apply",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

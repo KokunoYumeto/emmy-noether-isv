@@ -1,0 +1,49 @@
+{
+  "decision_id": "ISV019-EDIT-0095",
+  "recorded_at": "2026-08-13T16:13:44.6703261+02:00",
+  "epistemic_type": "except_preposition_lexical_family_normalization",
+  "scope": "Seventeen whole-token except/apart-from forms: 15 osim and two krome in editable Interslavic prose.",
+  "choice": "Normalize all 17 audited sites to official type-1 kromě, preserving surrounding syntax and capitalization.",
+  "motivation": "Every site has the same except/apart-from function; the existing source already uses canonical kromě extensively, while osim and unaccented krome form an unnecessary mixed lexical layer.",
+  "alternatives_rejected": [
+    "Retaining osim would preserve a South-only doublet beside the established house form.",
+    "Retaining unaccented krome would preserve a noncanonical spelling of the selected lemma.",
+    "Changing semantically different poręd beside/in addition was rejected and remains outside this family."
+  ],
+  "evidence": {
+    "official_dictionary": "Official dictionary row 6207, id 318, gives kromě (+2) as type 1 meaning except.",
+    "semantic_audit": "All 17 sentences express exclusion, exception or apart-from/additive exclusion; no unrelated meaning occurs.",
+    "house_controls": "Before the edit the four sources contained 76 lowercase kromě and eight sentence-initial Kromě controls.",
+    "protected_domains": "No target occurs in a comment, foreign-language span, citation title, URL, proper name or TeX control sequence."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0094",
+    "decision_log": {"bytes": 348997, "sha256": "4E7A5765269867FB44A9DEA4CB76F34FA723CEC865059D2D5CFE6B8D13E75E0C"},
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "49B0D16935DC75F5B316922CB06914340CBB157CDEB760B1E4EBF2686654E6E1"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898309, "sha256": "C40FF3A5456FBEBEC3F93C86D3DCDC705D7F684A36D8B9D7EF72C53ED67561DF"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 17,
+    "osim_to_krome": 15,
+    "unaccented_krome_to_krome": 2,
+    "source_family_residue": 0,
+    "canonical_krome_total": 101,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168075, "sha256": "BD0EB2B94454BD08D83D3EED28A5DD0B077BCDBD0DB2462FA7B53EE3806F1633"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898331, "sha256": "93CF340A055D865AF5E5836D0CCABF8FD6F7693720B370FBFF9F56D7B81A5584"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_except_krome_v019.py", "bytes": 5200, "sha256": "2A77482C4777C55E859C7DF192421FB3B3411550A3E76B1C66AAAF6F9E2A579B"},
+  "validation": {
+    "prehashes": "All four inputs matched the frozen EDIT-0094 successor state.",
+    "coverage": "Exact pre-count 17: five book osim, ten base osim and two base krome; every target line matched exactly once.",
+    "independent_review": "A read-only lexical audit independently reproduced counts, loci, protected-domain classification and successor hashes.",
+    "postcondition": "Whole-token osim and krome are zero; canonical kromě/Kromě totals 101.",
+    "structure": "Line counts, braces, ordered TeX controls and math delimiters are invariant; 45-isv.tex and bib-isv.tex are byte-identical.",
+    "reproducibility": "The frozen dry-run successor was reproduced twice before atomic application and matched after application."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

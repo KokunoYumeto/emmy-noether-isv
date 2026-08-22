@@ -1,0 +1,20 @@
+{
+  "schema": "noether-interslavic-source-package-smoke-test/1.0",
+  "release_id": "NOETHER-ISV-v019",
+  "executed_at": "2026-08-22T00:00:00Z",
+  "status": "PASS",
+  "archive": {
+    "path": "release_v019/public/01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip",
+    "bytes": 2723746,
+    "sha256": "8D46EFBE42EAE99346EAD65B878BA21F8699E63C82A28D1083D35F44D0B5533A",
+    "member_count": 59
+  },
+  "test_environment": "fresh bounded extraction outside the live source tree",
+  "command": "python -B test_project_isv_cyrillic_v6.py",
+  "independent_test_report_sha256_excluding_this_field": "E99B7E482A302EEAFF82056F5E53B5FF810EC8AC9DBC8F26BB747BE01259093A",
+  "derived_output_manifest_sha256": "320E2F1E683F712041151503C841B493AFDE19792BDE6B4CC17D9BB1B8315613",
+  "duplicate_derivations_byte_identical": true,
+  "hostile_cases_rejected": 4,
+  "workspace_files_mutated": false,
+  "note": "The archive was expanded into a new empty task-local directory. The included v6 test authenticated the sealed head, all dependencies, all four Latin inputs, and duplicate deterministic Cyrillic outputs without consulting the live working tree."
+}

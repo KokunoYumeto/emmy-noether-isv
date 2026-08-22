@@ -1,0 +1,255 @@
+{
+  "schema": "noether-isv-edit0153-unapplied-linguistic-adjudication-v1",
+  "edit_id": "ISV019-EDIT-0153",
+  "status": "UNAPPLIED_CANDIDATE_NOT_LEDGERED_REQUIRES_INDEPENDENT_QA",
+  "date": "2026-08-18",
+  "predecessor": {
+    "registry_id": "CANON-REGISTRY-0004",
+    "registry_current": {
+      "path": "00_governance/canon_registry/CURRENT.json",
+      "bytes": 31724,
+      "sha256": "181E465A2E1280BC252D08FE5918C87B10F88BEE9ED4312971E2F207C7711D03"
+    },
+    "decision_id": "ISV019-EDIT-0152",
+    "state": {
+      "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/00_SESSION_INDEPENDENT_STATE_v019.json",
+      "bytes": 20758,
+      "sha256": "74D02BE9A3637546E0B700908DC070783A8DF8F16130A9E61E2B607EC890BE13"
+    },
+    "ledger": {
+      "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/NORMALIZATION_DECISIONS_v019.jsonl",
+      "rows": 152,
+      "bytes": 692897,
+      "sha256": "D2B129EFEB452A3D6B5A66109EE587D90C5E7CC1C276C584F7606A30A353B954"
+    },
+    "sidecar": {
+      "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/decision_records/ISV019-EDIT-0152.json",
+      "bytes": 37822,
+      "sha256": "0E62461B3EC60B2CEF1D177C7BC7517698332CC2B902E3FB82BC72AB95444D14"
+    }
+  },
+  "scope": {
+    "kind": "one_visible_prose_lexical_morphology_locus",
+    "file": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/source_latin/base-papers1-43-isv.tex",
+    "line": 24190,
+    "unit": "U217",
+    "old": "zürihsko",
+    "new": "curišsko",
+    "old_occurrences_in_target": 1,
+    "new_occurrences_in_target_before": 0,
+    "new_occurrences_in_target_after_projection": 1,
+    "semantic_gloss": "Zurich, adjectival neuter singular agreeing with predavanje",
+    "source_phrase": "moje zürihsko predavanje",
+    "projected_phrase": "moje curišsko predavanje"
+  },
+  "current_source_vector": [
+    {
+      "role": "papers_1_43_latin",
+      "bytes": 1892324,
+      "sha256": "8D8902B23C1BB2B421D5D56870369330498FDC83A8BFC1B746DEE8307C2E45B0"
+    },
+    {
+      "role": "book_44_latin",
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    {
+      "role": "paper_45_latin",
+      "bytes": 26053,
+      "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+    },
+    {
+      "role": "bibliography_latin",
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  ],
+  "projection": {
+    "changed_file": {
+      "bytes": 1892324,
+      "sha256": "9490F4C09573ABC4FFC97AE80F2DF08330488B7EA2148AD6CC1C8B39756B02E9"
+    },
+    "unchanged_roles": [
+      "book_44_latin",
+      "paper_45_latin",
+      "bibliography_latin",
+      "all_producer_units",
+      "all_Identity_receipts"
+    ],
+    "line_before": {
+      "bytes": 1149,
+      "sha256": "8198C93EBA16D75372D77E60B67818A5C3DC3DC37D640D8B513DDD0C87A82E62"
+    },
+    "line_after": {
+      "bytes": 1149,
+      "sha256": "1A740A1DD8C56BE1334EFD6DCE75FCA32B3E39C93C0C78BBE409745497137668"
+    },
+    "byte_length_delta": 0,
+    "line_count_delta": 0,
+    "exact_reverse_restores_predecessor": true,
+    "cyrillic_word_projection": "цуришско",
+    "cyrillic_projection_class": "converted_standard_isv"
+  },
+  "authority": {
+    "german_ed0015": {
+      "path": "03_projects/noether/07_german_canon_control/candidates/ED0015/noether.tex",
+      "bytes": 2154017,
+      "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+      "line": 19798,
+      "line_bytes": 2192,
+      "line_sha256": "5D58F279C0F5DEE801A6F97A55D12869BBBA2F29210C5E88B5CE4F076C1252B8",
+      "evidence": "meinen Züricher Vortrag",
+      "force": "city-specific adjectival meaning; not the country adjective Swiss"
+    },
+    "official_orthography_snapshot": {
+      "path": "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/orthography.md",
+      "bytes": 16443,
+      "sha256": "90C609CC0E8709E8395964E9F20D6D4FB4E31159CBC2B1EA515A29D9D1C72044",
+      "line": 84,
+      "line_bytes": 273,
+      "line_sha256": "AF6945D9216A6222DB245F37B2B333B49276483DF4E5DB98AB387E1224CA25D8",
+      "evidence": "the Interslavic etymological alphabet does not include special letters for non-Slavic borrowings such as German or French ü",
+      "force": "reject the current mixed German-Interslavic surface zürihsko"
+    },
+    "official_dictionary_snapshot": {
+      "path": "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/source_sheet_basic.csv",
+      "bytes": 8101157,
+      "sha256": "0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561",
+      "rows": [
+        {
+          "line": 1620,
+          "entry_id": 4730,
+          "surface": "Čeh",
+          "line_bytes": 248,
+          "line_sha256": "CA950F38DB9AA1017668158D03BB9CD993D559EB1110E3473F38513FFE131FF2"
+        },
+        {
+          "line": 1674,
+          "entry_id": 2417,
+          "surface": "češsky",
+          "example_surface": "Češsko",
+          "line_bytes": 309,
+          "line_sha256": "7E7062A2781C0FE8A56D08483ED1DFADD2E87D28FF39677CF72439A0A6575D76"
+        }
+      ],
+      "force": "pinned h-to-š adjectival alternation before -sk- and an exact neuter -sko example"
+    },
+    "registered_cross_slavic_corroboration": [
+      {
+        "language": "Russian",
+        "path": "03_projects/language_management/slavic_russian/noether_ru_v001_working/source/base-papers1-43-ru.tex",
+        "file_bytes": 2861852,
+        "file_sha256": "EAC5F03C2749F12F1D6250A2EEDF97C430B4FAFEB7576669AA55EFDC5894018B",
+        "line": 24225,
+        "line_bytes": 1903,
+        "line_sha256": "C94D062D68816C6A1352F5FA77826C13C279F18C8DB26E5A44C8291DD62B67A5",
+        "surface": "цюрихский доклад"
+      },
+      {
+        "language": "Ukrainian",
+        "path": "03_projects/language_management/slavic_ukrainian/noether_uk_v001_working/source/base-papers1-43-uk.tex",
+        "file_bytes": 2690266,
+        "file_sha256": "16CFA035A13015DBB38D6238B844D055A44D9F0978F5E55A95D241997CACF19E",
+        "line": 24185,
+        "line_bytes": 1762,
+        "line_sha256": "EF3DB6E3E1BD45F1D273FC96B03BAF0FD17BA4DA545EB06C52043CA6CC2885BD",
+        "surface": "цюрихську доповідь"
+      }
+    ],
+    "boundary": "The dictionary contains no pinned Zurich headword. The decision is therefore a project-house contextual adjudication supported by official orthographic and morphophonological evidence, not an official dictionary certification."
+  },
+  "scanner_replay": {
+    "scanner": {
+      "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/project_isv_cyrillic_v2.py",
+      "bytes": 74914,
+      "sha256": "FD51B4D9936653CB9968AF8F91BAB08E18331741BC482CCA39AEF69F0B5AF3F2"
+    },
+    "current": {
+      "blocked_union": 1096,
+      "blocked_inventory_sha256": "92ED1CF0D9607F80A0383343FCA8EA05AC28C5513538D770B6B5BC9137AD3DFD",
+      "unsupported": 490,
+      "unsupported_inventory_sha256": "0C20B094B3FD64231C6793FCE49CD7A2529B713060B48B36C6D5051CD76DED8A",
+      "roman_identity_holds": 704,
+      "roman_inventory_sha256": "8D760DF8A45E3FD68103EC237022E188CAC53AEC4677E5FEB4378EF60F2CB908",
+      "role_partition": {
+        "lexical": 1,
+        "foreign_title_citation": 307,
+        "integrated_name_eponym_place": 66,
+        "structural_roman": 722
+      }
+    },
+    "projected": {
+      "blocked_union": 1095,
+      "blocked_inventory_sha256": "52FA3D23128A090C30471F9069188E50556C7CAA010F9AE5286FD355AD2BEEB9",
+      "unsupported": 489,
+      "unsupported_inventory_sha256": "ECEBD00FF987F0A430E0C320333CBE4218C82FBCD315E7CE358E0623F62ABE9B",
+      "roman_identity_holds": 704,
+      "roman_inventory_sha256": "8D760DF8A45E3FD68103EC237022E188CAC53AEC4677E5FEB4378EF60F2CB908",
+      "parse_errors": 0,
+      "coverage_failures": 0,
+      "unknown_argument_commands": 0,
+      "role_partition": {
+        "lexical": 0,
+        "foreign_title_citation": 307,
+        "integrated_name_eponym_place": 66,
+        "structural_roman": 722
+      },
+      "status": "BLOCKED_FAIL_CLOSED"
+    },
+    "interpretation": "This closes the one explicit scanner-classified lexical hold only. It does not prove global lexical, grammatical, semantic, or stylistic completion, because allowed-letter defects can remain invisible to this scanner."
+  },
+  "adjudication": {
+    "recommended": "curišsko",
+    "confidence": 0.8,
+    "classification": "project_house_contextual_adjudication",
+    "rationale": [
+      "German ED0015 requires the city adjective Zurich, not the broader country adjective Swiss.",
+      "Official Interslavic orthography excludes German ü from the alphabet used here.",
+      "Official dictionary evidence Čeh to češsky and Češsko supports h-to-š before -sk- and the neuter -sko surface.",
+      "Registered Russian and Ukrainian readers independently preserve the same city-adjective meaning and a Slavic initial /ts/ adaptation.",
+      "The candidate is standard-projectable to Cyrillic without a special-case rule."
+    ],
+    "rejected_alternatives": [
+      {
+        "surface": "zürihsko",
+        "reason": "retains non-Interslavic German ü and remains a live mapping blocker"
+      },
+      {
+        "surface": "zurihsko",
+        "reason": "mechanically strips the umlaut but leaves German z with the wrong Interslavic value and leaves the h-plus-sk sequence unadapted"
+      },
+      {
+        "surface": "curihsko",
+        "reason": "repairs the initial consonant but ignores the pinned h-to-š adjectival alternation"
+      },
+      {
+        "surface": "cjurihsko",
+        "reason": "overfits East-Slavic phonetic spelling rather than the project house compromise"
+      },
+      {
+        "surface": "švejcarsko",
+        "reason": "changes the referent from the city Zurich to the country Switzerland"
+      }
+    ]
+  },
+  "protection_and_nonclaims": {
+    "scanner_role_at_locus": "visible_prose",
+    "math_changed": false,
+    "comments_changed": false,
+    "foreign_payloads_changed": false,
+    "tex_controls_changed": false,
+    "producer_changed": false,
+    "identity_receipt_changed": false,
+    "source_applied": false,
+    "metadata_sealed": false,
+    "registry_updated": false,
+    "build_or_render_run": false,
+    "git_run": false,
+    "network_or_publication_run": false,
+    "independent_qa_complete": false,
+    "official_or_native_certification": false,
+    "latin_freeze_claimed": false,
+    "cyrillic_release_ready_claimed": false
+  },
+  "required_next_action": "Independently rehash and review this exact candidate, including adverse alternatives and protected boundaries. Only then author a fail-closed one-target applicator, dry-run twice, apply once, reverse/replay, seal append-only metadata, and create a monotonic registry successor."
+}

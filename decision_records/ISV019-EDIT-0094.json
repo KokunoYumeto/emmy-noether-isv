@@ -1,0 +1,47 @@
+{
+  "decision_id": "ISV019-EDIT-0094",
+  "recorded_at": "2026-08-13T16:11:03.1358540+02:00",
+  "epistemic_type": "demonstrative_genitive_locative_plural_morphology_repair",
+  "scope": "Forty-two sentence-audited demonstrative genitive/locative plural tih/Tih tokens: one in 45-isv.tex and 41 in base-papers1-43-isv.tex.",
+  "choice": "Replace 41 lowercase tih tokens with tyh and the one sentence-initial Tih token with Tyh, using the exact audited locator set.",
+  "motivation": "Official demonstrative-pronoun morphology requires tyh for genitive/locative plural; every audited occurrence means of/in those and none belongs to the unrelated tihy quiet adjective.",
+  "alternatives_rejected": [
+    "Retaining tih would preserve a noncanonical demonstrative inflection.",
+    "An unrestricted future global rule was rejected because a short form of the separate adjective tihy could be legitimate in another context.",
+    "Changing the permitted alternate demonstrative těh was rejected; it is outside this exact family."
+  ],
+  "evidence": {
+    "official_grammar": "Official pronouns.md lines 68-80 gives the toj demonstrative paradigm and explicitly lists plural tyh, tym, tymi, with only těh/těm/těmi as alternates.",
+    "semantic_audit": "All 42 source sentences use the token demonstratively with an explicit plural noun or nominal antecedent; valid quiet-adjective holds in the current source set are zero.",
+    "protected_domains": "No target occurs in a TeX comment, control-sequence name or foreign-language argument."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0093",
+    "decision_log": {"bytes": 345404, "sha256": "E89085C563CB2BCCBA3F8B0C951A7735BA59903D5E5E0CBF13BEDC298E32B6B7"},
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "49B0D16935DC75F5B316922CB06914340CBB157CDEB760B1E4EBF2686654E6E1"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "B9461C7F368848CD15B3E42FEA741D88AF948CEF571F080E76CF594ACE670647"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898309, "sha256": "348A80412C1612C70B3D41817681AF8689F9E9D7BE949A15A44CA435C06DE210"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 42,
+    "lowercase_tih_to_tyh": 41,
+    "sentence_initial_Tih_to_Tyh": 1,
+    "whole_token_tih_residue": 0,
+    "case_insensitive_tyh_total": 198,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168065, "sha256": "49B0D16935DC75F5B316922CB06914340CBB157CDEB760B1E4EBF2686654E6E1"},
+    "source_latin/45-isv.tex": {"bytes": 25556, "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898309, "sha256": "C40FF3A5456FBEBEC3F93C86D3DCDC705D7F684A36D8B9D7EF72C53ED67561DF"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_demonstrative_tyh_v019.py", "bytes": 3890, "sha256": "529C9C2CEC9D093C35553DFE83EE699B66FE0C0E825EE449535E484F1335A063"},
+  "validation": {
+    "prehashes": "All four inputs matched the frozen EDIT-0093 successor state before application.",
+    "coverage": "Exact pre-count 42: 41 lowercase tih and one uppercase Tih, each selected at its audited source locator.",
+    "postcondition": "Whole-token tih/Tih is zero; case-insensitive tyh/Tyh totals 198 across the four Latin components.",
+    "structure": "Ordered TeX controls, braces, math delimiters and line counts are invariant; unchanged components are byte-identical.",
+    "reproducibility": "Frozen successor hashes reproduced before atomic replacement of the two changed source files."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

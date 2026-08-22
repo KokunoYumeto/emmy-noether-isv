@@ -1,0 +1,44 @@
+{
+  "decision_id": "ISV019-EDIT-0033",
+  "recorded_at": "2026-08-13T01:35:27.6547939+02:00",
+  "epistemic_type": "manager_direct_orthographic_normalization",
+  "scope": "All 35 residual whole-token vsagda occurrences in live v019 Latin sources.",
+  "choice": "Normalize vsagda to the official edition form vsegda, joining 155 already-canonical occurrences.",
+  "motivation": "The official dictionary headword is vsegda/vsegdy and its comparator profile crosses East, West, and South Slavic. The residual vsagda layer was source-clustered spelling variation with no semantic distinction and made the reader internally inconsistent.",
+  "alternatives_rejected": [
+    "Retain vsagda as a South-Slavic variant; the edition needs one stable lemma, and the official cross-family headword is vsegda.",
+    "Replace the family with vždy, uvijek, or another branch-specific word; that would exchange one source-shaped layer for another."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "entry": "id 780: vsegda, vsegdy; adverb; type 2; always; profile be+ bg~ cs~ hr+ pl~ ru+ sk~ sl+ sr~ uk+"
+    }
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 35,
+    "preexisting_official_form_tokens": 155,
+    "final_vsegda_family_tokens": 190,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167969, "sha256": "F6FFE8F79E708C26C699E89E476AA659DFF7ADD38267F1576C4D13E18BB32525"},
+    "source_latin/45-isv.tex": {"bytes": 25518, "sha256": "C5E82C901F92BF24EA06464119F1C00D6F8E93898BA595C02C322CE89F2CDFCA"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896428, "sha256": "2C1BB3B68605A551CDCDC8D1B07DCA4340D476BFF3DE7CC132CC13C8FD6ABC83"},
+    "source_latin/bib-isv.tex": {"bytes": 9578, "sha256": "E5951A6278A556003C44DE30FC0012C1421606BDB1DE3AB6CF05C01986D9613B"}
+  },
+  "tool": {
+    "path": "apply_vsegda_family_v019.py",
+    "bytes": 4660,
+    "sha256": "F29462517C59261C7C4015F5CBA06E66EF16E7F2A6060E5791C25BE5E9BB05D7"
+  },
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0032",
+    "coverage": "35/35 whole-token vsagda occurrences changed exactly once",
+    "protected_spans": "zero comment or foreign-span targets; one natural-language text wrapper inside display mathematics was preserved structurally",
+    "residue": "zero whole-token vsagda; exactly 190 case-insensitive vsegda tokens",
+    "dry_run_then_apply": "frozen output hashes reproduced",
+    "structure": "TeX controls, references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

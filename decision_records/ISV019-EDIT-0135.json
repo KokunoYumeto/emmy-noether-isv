@@ -1,0 +1,153 @@
+{
+  "schema": "noether-isv-normalization-decision-v1",
+  "decision_id": "ISV019-EDIT-0135",
+  "recorded_at": "2026-08-14T23:06:53+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "official_house_orthography_family_normalization",
+  "scope": "Complete four-source residual eksist-family census: 133 sites on 113 lines, confined to Paper 45 and Papers 1-43.",
+  "summary": "Normalize every live eksist- surface to official egzist- while retaining capitalization and every existing inflectional or derivational suffix.",
+  "human_companion": {
+    "path": "decision_records/ISV019-EDIT-0135.md",
+    "bytes": 3953,
+    "sha256": "A20FB38DB889F239DF6F73B94F1C41C554B358D8D210E0977E82EB65323A4390"
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0134",
+    "ledger_rows": 134,
+    "ledger_bytes": 528464,
+    "ledger_sha256": "8A8D98CDE045D6C71FF91742219FF1D7CD44BA85F91672C802DFF97E6BED8373",
+    "sidecar_bytes": 4289,
+    "sidecar_sha256": "9F25C0F1DF45E99BC3F6C8192EBAEDCF841A3F803B8EC54C5F26E9123176BC89",
+    "state_bytes": 12812,
+    "state_sha256": "B75B44EA49A927ACD20BA7F37C00DAF6DA0ABE1B5255DA676D590C08C05F28B5"
+  },
+  "mapping": {
+    "rule": "eksist- -> egzist-; Eksist- -> Egzist-",
+    "suffix_policy": "byte-preserve every suffix after the six-character prefix",
+    "retained_house_surface": "egzistencijny retains the edition's productive -cijny suffix"
+  },
+  "census": {
+    "changed_sites": 133,
+    "changed_lines": 113,
+    "file_split": {
+      "source_latin/45-isv.tex": 3,
+      "source_latin/base-papers1-43-isv.tex": 130
+    },
+    "exact_character_substitutions": 266,
+    "post_eksist_residue": 0,
+    "semantic_holds": 0
+  },
+  "source_inputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25544, "sha256": "DA94D3B387C6A1D2D2971578FF086F9C09EA4A16BB87A664D8E8E8EB242C51A1"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1899010, "sha256": "446BEC4850EE7297731DA4E1544C3733BD4D1CBA415909C027D37A248DF426CF"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "source_outputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25544, "sha256": "404BFCAF848FFF7262CC0A55262B6740DCD597E86AC21FE590C3034472FED19A"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1899010, "sha256": "2AD53E4898246A659B188FC5C0FB2E7887651ED3D4BC1E20EC0EA10396190333"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "source_replay": {
+    "base": {
+      "path": "source_latin/base-papers1-43-isv.tex",
+      "input": {"bytes": 1899010, "sha256": "446BEC4850EE7297731DA4E1544C3733BD4D1CBA415909C027D37A248DF426CF"},
+      "source_only_intermediate": {"bytes": 1899010, "sha256": "7D495463020F4C7EFA4445C99C96A17580AFB4FDFFE51CFE37C6D8C7016DF084"},
+      "output": {"bytes": 1899010, "sha256": "2AD53E4898246A659B188FC5C0FB2E7887651ED3D4BC1E20EC0EA10396190333"}
+    },
+    "component45": {
+      "path": "source_latin/45-isv.tex",
+      "input": {"bytes": 25544, "sha256": "DA94D3B387C6A1D2D2971578FF086F9C09EA4A16BB87A664D8E8E8EB242C51A1"},
+      "output": {"bytes": 25544, "sha256": "404BFCAF848FFF7262CC0A55262B6740DCD597E86AC21FE590C3034472FED19A"}
+    },
+    "reverse_replay": "PASS_ALL_FOUR"
+  },
+  "producer_sync": {
+    "reason": "Eight normalized sites belong to existing local producer shadows; their bodies and assembled identity receipts must advance together.",
+    "Paper02-Section11": {
+      "path": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "input": {"bytes": 14964, "sha256": "7590484A00AA1B57C4AC8BDB53204AA0A570FAF8DCE8E0C9DBBD6247D6CB7AD7"},
+      "output": {"bytes": 14964, "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"},
+      "changed_sites": 1,
+      "producer_body_occurrences_in_base": 1,
+      "identity_receipt_occurrences_in_base": 1
+    },
+    "Paper22": {
+      "path": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+      "input": {"bytes": 78293, "sha256": "0855C017214927DDF49EC0DD6F7A9ABA350E218F33BB9A94CE6B67E5A8FBDE25"},
+      "output": {"bytes": 78293, "sha256": "CE81C14094CF458B77A623D56AD9E25D074C7CDB201A0EF13D1C1840465FAFCC"},
+      "changed_sites": 7,
+      "producer_body_occurrences_in_base": 1,
+      "identity_receipt_occurrences_in_base": 1
+    },
+    "unsynchronized_intermediate_sealed": false
+  },
+  "authority": {
+    "official_dictionary": {
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "rows": "physical 2861-2864: egzistencija, egzistencijaľny, egzistovańje, egzistovati",
+      "row_receipt_bytes": 1947,
+      "row_receipt_sha256": "5653A7AC375CE1FB1BB4F8D073D104EF75344A2FE9614E12B95FC2346971F7E2"
+    },
+    "official_verbs_grammar": {
+      "bytes": 21426,
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+      "row_receipt_bytes": 1769,
+      "row_receipt_sha256": "CC5B063BF1BBC73A39BE0088D93D77BF1CCE03D586B66716B51DC5F2B73D8F89"
+    },
+    "active_german": {
+      "authority_id": "NOETH-DE-ED-0014",
+      "source_bytes": 2154011,
+      "source_sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "activation_version_doi": "10.5281/zenodo.21908301",
+      "anonymous_readback": "PASS_53_OF_53",
+      "role": "semantic control only; the spelling decision is official Interslavic authority"
+    }
+  },
+  "receipts": {
+    "target_locators": {"bytes": 5967, "sha256": "F0492CE998B6DC4E5A8503E42CAA5A71846EED9D72CB08750A84A30BF3CCA374"},
+    "target_contexts": {"bytes": 81379, "sha256": "56291D57D19189ECAD515EF8C749BA354160E072501EFFB2F4305CDAE11C6E55"},
+    "mapping": {"bytes": 82979, "sha256": "8D910672003D3B828D94F39C864D45FEC138630B75415B1D720DB1410B9EDBCE"},
+    "post_locators": {"bytes": 5967, "sha256": "097B1AE700F45193AF8805F7FDB4C72D336B8B1D2E9CFAAFEC5754FB5715F543"},
+    "post_contexts": {"bytes": 81379, "sha256": "5A577A690D5B4B909D7A06AA734E3F451B07425A1CE8B7670B54AC1228914160"}
+  },
+  "corpus_boundary": {
+    "catalog_bytes": 10642398,
+    "catalog_sha256": "354BE2A6EDFB9FE90CA9A42870666AF9DEB295F28D3F7ADA3DA898EC728756EC",
+    "all": {"rows": 127, "bytes": 113795, "sha256": "D289AAA535D71B9A557616617F5D0FEF246BE4976A81DE7F4F7F928BDA4CDF71", "eksist": 914, "egzist": 15},
+    "generated_publication_and_audit": {"rows": 74, "bytes": 66630, "sha256": "D2AACED78AE7EE2FE609B00316AA8770BCE805D1CAA9B8DA7E45F6800C57154A", "eksist": 751, "egzist": 0},
+    "generated_translation_or_review_support": {"rows": 48, "bytes": 43316, "sha256": "F6C9AC4917EFFAF290D6C44420EFCE28CBB2A0764AC54B682D4F7DC44163E6B7", "eksist": 161, "egzist": 0},
+    "candidate_unadmitted": {"rows": 5, "bytes": 3849, "sha256": "FE066BD901C96CE85EA95D6CDF0816402CEDAFBB277BB65B5C7F35305E414EF6", "eksist": 2, "egzist": 15},
+    "claim": "Every comparator has unknown_not_adjudicated native authorship; generated ISV is circular and candidates corroborate spelling only, never native acceptance."
+  },
+  "applicator": {
+    "path": "apply_egzist_orthography_family_v019.py",
+    "bytes": 22924,
+    "sha256": "02E136B067890E24610D0D76712B4761FC4E388A5B08425DA7661B78F6516D5F",
+    "default_mode": "strict_no_write_dry_run",
+    "apply_contract": "staged two-file replacement with exact post-commit verification and exception rollback; process-crash atomicity across both files is not claimed"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT; exact defects 0 after no-write and claim hardening",
+    "clean_tree_default_run": "PASS; zero added, removed, or changed files; no pycache",
+    "exact_nonregex_reconstruction": "PASS",
+    "protected_structure_transport": "PASS",
+    "reverse_replay": "PASS_ALL_FOUR",
+    "temporary_residue": 0,
+    "first_seal_verifier_finding": "caught two stale producer shadows before sealing; synchronized both producers and embedded identities",
+    "producer_assembled_body_identity": "PASS_BOTH_AFFECTED_PRODUCERS"
+  },
+  "open_dispositions": [],
+  "explicit_holds_after": 0,
+  "retained_authority_uncertainties": 4,
+  "build_effect": "none; same-length orthography tranche deferred to the next meaningful cumulative deterministic build",
+  "frozen_v047_unchanged": true,
+  "public_r35_unchanged": true,
+  "standalone_record_unchanged": true,
+  "working_successor_published": false,
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "native_validation_claim": false
+}

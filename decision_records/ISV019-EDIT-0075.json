@@ -1,0 +1,48 @@
+{
+  "decision_id": "ISV019-EDIT-0075",
+  "recorded_at": "2026-08-13T15:03:55.2775858+02:00",
+  "epistemic_type": "manager_dostav_obtain_supply_semantic_split",
+  "scope": "All 190 residual dostav-/dostaj- surface-family sites: 185 mathematical obtain/get/result uses and five genuine supply/submission uses.",
+  "choice": "Move the 185 obtain/result sites to official dobyvati forms while retaining exactly five dostaviti/dostavjati supply or submission sites.",
+  "motivation": "The apparent family conflated two dictionary senses. Sentence replay permits full resolution without either preserving a type-2 obtain doublet or corrupting genuine provide/submission prose.",
+  "alternatives_rejected": [
+    "A global dostav-to-dobyv substitution would corrupt three submission dates and two provide/supply clauses.",
+    "Retaining the obtain doublet preserves an unnecessary type-2 layer beside the now established type-1 dobyvati family.",
+    "Poluč- would restore the East-heavy terminology previously removed."
+  ],
+  "evidence": {
+    "official_dictionary": "isv_words_list.csv SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: id3191 dobyvati type1; id2511 dostavati type2 obtain; ids3105/20 dostaviti/dostavjati supply/provide.",
+    "semantic_review": "All 190 sites were classified; the five retained loci are three Dostavljeno submission dates, one supplied proof, and one modules-are-supplied clause.",
+    "baseline_correction": "Direct EDIT-0073 scan establishes 224 dobyv-/dobyt- tokens before this edit, not the preliminary 220 estimate; verified post-total is 409."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0074",
+    "decision_log": {"bytes": 285425, "sha256": "5926BAC23C2B65BD4F752B49AA6EF56C52CF683E90FB2C56456AC32863874099"},
+    "source_latin/44-book-isv.tex": {"bytes": 168067, "sha256": "1BC8264DF32288340D46639CC37C9219418520EC7FAA9055B5F38D988BDD40B9"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897534, "sha256": "9E90CE9910A7947C1B274AA36607CCBFE34001D0EC6526F40AF00EF98FF34653"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_reviewed": 190,
+    "sites_changed": 185,
+    "protected_supply_submission_sites": 5,
+    "file_counts": {"44-book-isv.tex": 29, "45-isv.tex": 5, "base-papers1-43-isv.tex": 151},
+    "canonical_dobyv_dobyt_family": {"before": 224, "after": 409},
+    "selected_obtain_source_residue": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168038, "sha256": "13A88CCE61F9EB56C485689AF8A2874DA549585827F52BFFAD8AF085D6787E61"},
+    "source_latin/45-isv.tex": {"bytes": 25542, "sha256": "DBFBBE448C588F09091EE27C7A2DBC31D06AD537620C47E1096198A328EEDD4B"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897547, "sha256": "BB655CD0CC734CB62C5CF825E78D56A8C992AA77910A678997376BFAB7F83996"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_dostav_obtain_split_v019.py", "bytes": 4348, "sha256": "42889F4C91B3AB24C6D14C6C7099DAC84E34E1FD36EE91DADA573349ECCF8B77"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0074",
+    "coverage": "185 selected sites plus five explicit retained semantic controls",
+    "postcondition": "selected source forms zero; five supply/submission sites byte-exact; dobyv/dobyt total 409",
+    "structure": "TeX controls, labels/refs/cites, braces, math delimiters and line counts invariant",
+    "reproducibility": "frozen successor hashes reproduced before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

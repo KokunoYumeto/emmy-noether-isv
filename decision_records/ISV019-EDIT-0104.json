@@ -1,0 +1,88 @@
+{
+  "decision_id": "ISV019-EDIT-0104",
+  "recorded_at": "2026-08-13T17:29:11.0374866+02:00",
+  "epistemic_type": "courtesy_adverb_official_orthography_singleton",
+  "scope": "The sole whole-token courtesy adverb ljubazno in the four Latin sources, at base line 6732; arbitrary-quantifier ljub- forms were already closed by EDIT-0103.",
+  "choice": "Normalize the South-shaped surface ljubazno to the official type-1 Interslavic adverb ljubezno.",
+  "motivation": "The sentence means that E. Fischer courteously permitted Noether to use unpublished theorems. Official ljubezno expresses that exact courtesy meaning and bridges East and South comparators without preserving a Croatian/Serbian-only surface in the maintained ISV layer.",
+  "alternatives_rejected": [
+    "Retaining ljubazno was rejected because it is the Croatian/Serbian comparator supplied under the official entry, not the official ISV headword.",
+    "Mapping to ljubovoljno was rejected because arbitrary/optional is the wrong semantic class; EDIT-0103 deliberately excluded this occurrence from that family.",
+    "Using an analytic paraphrase such as s dobrotoju was rejected because the exact official adverb is available and preserves the concise German courtesy formula.",
+    "Deleting the adverb was rejected because German freundlichst explicitly contributes the courtesy meaning."
+  ],
+  "evidence": {
+    "official_dictionary": "Official dictionary SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842, ID 8908, gives type-1 ljubezno, adverb, with the meanings amiably, affably and courteously. Its national columns list Croatian/Serbian ljubazno as comparators while Bulgarian, Macedonian and Russian retain the ljubezn-/ljubez- bridge.",
+    "german_authority": "Current German ED0014 noether.tex SHA-256 EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58 line 5976 and the stable public German authority 00_Noether_German_Cumulative_WorkingSourceControl_P02_P04S07_20260718.tex, 2152414 bytes, SHA-256 8851AF561D7C40B2295DB5D4108684A06015756B9B6FDD7CCE67466E0F7F8134, line 5958 both read deren Verwendung mir dieser freundlichst gestattete, exactly supporting courteously permitted.",
+    "context": "Base line 6732 credits E. Fischer, who allowed use of unpublished theorems; the adverb modifies dozvolil and has no mathematical arbitrary-quantifier sense.",
+    "cross_family_evidence": "The official row records recognition across Bulgarian, Croatian, Macedonian, Russian, Serbian and Ukrainian. This entry-level cross-family evidence is used as an authority check, not as raw token-volume voting.",
+    "protected_domains": "The target is ordinary running prose. It is not in a comment, foreign title, bibliography identity, TeX control name, citation key, label, formula or proper name."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0103",
+    "decision_log": {
+      "bytes": 387263,
+      "sha256": "2759F6CB07EABE80BA70F6F3223EA22897AAE196B8F8CF32ACCBC85B91AB18EF"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "055A3DF3E26DB72AEE376C4BCEEBF689C723A060A06E2FBE8B56E4492C16AADD"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898309,
+      "sha256": "69591D1E2C11EB86F4B4B42E37A5CDB051DBAE1298AF110350D29ECB337B5BF5"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "mapping": {
+    "ljubazno": "ljubezno"
+  },
+  "locators": {
+    "source_latin/base-papers1-43-isv.tex": [
+      "6732:488"
+    ]
+  },
+  "results": {
+    "sites_changed": 1,
+    "source_ljubazno_before": 1,
+    "source_ljubazno_after": 0,
+    "target_ljubezno_before": 0,
+    "target_ljubezno_after": 1,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168082,
+      "sha256": "055A3DF3E26DB72AEE376C4BCEEBF689C723A060A06E2FBE8B56E4492C16AADD"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "056B1EA944A6725E9996DF03EDCAF7A8C0320EFDAE361BB89981181C699EE6DB"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1898309,
+      "sha256": "87C3244CB466ABDF614E5C47A22893536EC3C9F8CEC895AAA1BA2C9514A4522D"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"
+    }
+  },
+  "tool": {
+    "path": "apply_ljubezno_singleton_v019.py",
+    "bytes": 4134,
+    "sha256": "DC93D45932F87D06C4CC4B5A7ABFDE57D72C091A8C7F1AD90E74EF51EDA18B6E"
+  },
+  "validation": {
+    "coverage": "Exactly one whole-token ljubazno exists across all four Latin sources, at the declared base locator.",
+    "postcondition": "Whole-token ljubazno becomes zero and official ljubezno becomes one.",
+    "structure": "Line count, raw brace counts, ordered TeX-control stream and math-delimiter stream are invariant; the other three source files are byte-identical.",
+    "reproducibility": "The exact predecessor and successor bytes and SHA-256 values are frozen in the deterministic applicator."
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

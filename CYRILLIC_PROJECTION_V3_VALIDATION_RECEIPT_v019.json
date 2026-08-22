@@ -1,0 +1,189 @@
+{
+  "schema": "noether-isv-cyrillic-projection-v3-validation-receipt-v1",
+  "status": "PASS_CANDIDATE_NOT_REGISTERED",
+  "date_europe_berlin": "2026-08-20",
+  "classification_head": "ISV019-EDIT-0153",
+  "registry": {
+    "registry_id": "CANON-REGISTRY-0005",
+    "path": "00_governance/canon_registry/CURRENT.json",
+    "bytes": 32333,
+    "sha256": "CE600FFE6E2CF36DFBFBB5794C6C65A4D15B9F76768B8EFD3C0AF2AC90D73F45",
+    "bounded_validator_status": "PASS",
+    "registered_projection_authority_remains": "ISV019-TOOL-CYR2-0001"
+  },
+  "candidate": {
+    "path": "project_isv_cyrillic_v3.py",
+    "bytes": 24314,
+    "sha256": "84B845424CB2501289220727B1300280894512EDD137DC13B188A577049AF1B7",
+    "writes_projected_output": false,
+    "adopted": false
+  },
+  "independent_test": {
+    "path": "test_project_isv_cyrillic_v3.py",
+    "bytes": 10239,
+    "sha256": "FA6EA677A55EC10A7375FEAADCD9C3A24F796012E5E02F9F0C08CE763D004365",
+    "imports_candidate_transform_helpers": false,
+    "bounded_files": 12,
+    "bounded_no_write_guard": true,
+    "lane_pycache_absent": true
+  },
+  "human_audit": {
+    "path": "decision_records/ISV019-CYR3-EDIT0153-STRUCTURAL-IDENTITY-AUDIT.md",
+    "bytes": 7488,
+    "sha256": "1781F132B08C498C1AA34E8FC95ED5C5812A4E3EBEA47765B372AC3B507E91C4"
+  },
+  "dependencies": {
+    "v2_scanner": {
+      "path": "project_isv_cyrillic_v2.py",
+      "bytes": 74914,
+      "sha256": "FD51B4D9936653CB9968AF8F91BAB08E18331741BC482CCA39AEF69F0B5AF3F2"
+    },
+    "manifest_builder": {
+      "path": "build_edit0153_structural_identity_manifest_v019.py",
+      "bytes": 11477,
+      "sha256": "EAE12F1B7617F6E47F2F8E8439C2F8D11C9B2ED855229992BE28C245644F42DA"
+    },
+    "structural_identity_manifest": {
+      "path": "decision_records/ISV019-CYR2-EDIT0153-STRUCTURAL-IDENTITY-MANIFEST.json",
+      "bytes": 692764,
+      "sha256": "E6249BDEFEA6713EADAE5AF23C313D38E3DB3EB0DAAC3107A161BC0A0BC3E6E9",
+      "receipt_sha256_excluding_receipt_field": "D5D33712D70B9541E2D5A05ED134291F87C141B2CE6A29212EB657C1F940D683"
+    }
+  },
+  "source_manifest": [
+    {
+      "path": "source_latin/44-book-isv.tex",
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    {
+      "path": "source_latin/45-isv.tex",
+      "bytes": 26053,
+      "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+    },
+    {
+      "path": "source_latin/base-papers1-43-isv.tex",
+      "bytes": 1892324,
+      "sha256": "9490F4C09573ABC4FFC97AE80F2DF08330488B7EA2148AD6CC1C8B39756B02E9"
+    },
+    {
+      "path": "source_latin/bib-isv.tex",
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  ],
+  "registered_head_barrier": {
+    "state": {
+      "path": "00_SESSION_INDEPENDENT_STATE_v019.json",
+      "bytes": 19818,
+      "sha256": "BFA86C58C8D165F02064D02C280D3A8AC24D2C7CE243EC166DCF90EAB8CC00FD"
+    },
+    "ledger": {
+      "path": "NORMALIZATION_DECISIONS_v019.jsonl",
+      "bytes": 710982,
+      "sha256": "3A9820DD917B8F77C2E8AFFCC8E9F6EAC86E015691EA9FF49C65F5C520B49580",
+      "rows": 153
+    },
+    "worklog": {
+      "path": "00_SESSION_INDEPENDENT_WORKLOG_v019.jsonl",
+      "bytes": 169415,
+      "sha256": "1664975401C40DF4D354DA48CE6BD1D3F5712E795AEA3DD929873FD11DD6F36E",
+      "rows": 46
+    },
+    "verifier": {
+      "path": "verify_session_independent_state_v019.ps1",
+      "bytes": 2171,
+      "sha256": "C53B64141FF99A11F3DB1BBB2D536A59BFE564FAC57D05DACDAB453F20826140",
+      "status": "PASS_REGISTERED_SUCCESSOR"
+    }
+  },
+  "census_transition": {
+    "registered_v2": {
+      "blocked_union": 1095,
+      "unsupported": 489,
+      "roman_identity_holds": 704,
+      "parse_errors": 0,
+      "coverage_failures": 0,
+      "unknown_argument_commands": 0
+    },
+    "approved_exact_structural_identities": {
+      "total": 722,
+      "multi_letter_roman": 704,
+      "single_letter_X_theorem": 18,
+      "mapping_blocking_overlap": 116
+    },
+    "candidate_v3": {
+      "blocked_union": 373,
+      "unsupported": 373,
+      "roman_identity_holds": 0,
+      "parse_errors": 0,
+      "coverage_failures": 0,
+      "unknown_argument_commands": 0,
+      "blocked_inventory_sha256": "257F1118DC0D31C708180F1AC29E2CDEFD5F257712C3E52EB9146B86ACBC0236",
+      "by_file": {
+        "44-book-isv.tex": 0,
+        "45-isv.tex": 0,
+        "base-papers1-43-isv.tex": 373,
+        "bib-isv.tex": 0
+      },
+      "status": "BLOCKED_FAIL_CLOSED"
+    }
+  },
+  "execution_receipts": {
+    "stdout_transport": "UTF-8_without_BOM_or_CR_exactly_one_terminal_LF",
+    "stderr_empty_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "default_twice": {
+      "exit_code": 0,
+      "stdout_bytes": 4207,
+      "stdout_sha256": "51E116B32A7842D46638AA3AF614EC887597C83AC1126EF2F54C1578EB9598E4",
+      "byte_identical": true
+    },
+    "self_test_twice": {
+      "exit_code": 0,
+      "stdout_bytes": 3455,
+      "stdout_sha256": "F8BFE9E0DC9114981904F62A2E18CCFA52D444401E1FF5DCA9833866DE324DC6",
+      "hostile_cases": 9,
+      "byte_identical": true
+    },
+    "require_ready": {
+      "exit_code": 2,
+      "stdout_bytes": 4207,
+      "stdout_sha256": "51E116B32A7842D46638AA3AF614EC887597C83AC1126EF2F54C1578EB9598E4"
+    },
+    "full_report": {
+      "exit_code": 0,
+      "stdout_bytes": 3419523,
+      "stdout_sha256": "897A94C436FB50A5BF500ED0F31DFC9E6E959414313C390F823C7F33245689C6"
+    },
+    "independent_test_twice": {
+      "exit_code": 0,
+      "stdout_bytes": 1753,
+      "stdout_sha256": "23CC116FAD9B22D286410D7E3C60EFB997685BB2F10C447C3685E3842848DC78",
+      "byte_identical": true
+    }
+  },
+  "portability_correction": {
+    "superseded_unregistered_candidate": {
+      "bytes": 24117,
+      "sha256": "ACF6AF277ED2C59ECEE55DA99CAA8D753E985BCCB5170B2F7249B60B813C87E6"
+    },
+    "defect": "full report inherited the Windows console code page; byte 0xF6 in Weitzenbock-with-umlaut was not valid UTF-8",
+    "clean_room_failure_offset": 456312,
+    "repair": "write canonical_json_bytes(payload) directly to sys.stdout.buffer",
+    "source_or_metadata_bytes_changed": false
+  },
+  "next_frontier": {
+    "remaining_foreign_title_citation_identities": 307,
+    "remaining_integrated_names_or_eponyms": 66,
+    "separate_one_letter_I_V_M_context_gate": 692,
+    "allowed_letter_name_completeness_gate_required": true
+  },
+  "nonclaims": [
+    "The v3 candidate is not the registered projection authority.",
+    "No Latin source, sealed metadata, producer, registry, build, render, package, GitHub, Zenodo, or public artifact was changed.",
+    "No Cyrillic output exists as a registered derived artifact.",
+    "The 373 remaining blockers prevent readiness and publication.",
+    "No native-speaker, community, official-standard, peer-review, or comprehension certification is claimed."
+  ],
+  "receipt_sha256_excluding_this_field": "20402F4F55D8150A6D64BF406BA2E9AF5DDBF69BB81A14103FBCC5681DB2DF5C"
+}

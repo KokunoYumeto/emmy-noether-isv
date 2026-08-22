@@ -1,0 +1,140 @@
+{
+  "decision_id": "ISV019-EDIT-0048",
+  "recorded_at": "2026-08-13T02:55:07.9035821+02:00",
+  "epistemic_type": "manager_direct_cross_branch_technical_terminology_normalization",
+  "scope": "All 51 whole-token sovršen-/nesovršen-/nesoveršen- forms in the live v019 Latin corpus. Every site denotes the field-theoretic terms perfect field or imperfect field; none denotes grammatical aspect, completed action, or ordinary personal perfection.",
+  "choice": "Use the official type-1 hard-adjective family doskonaly for perfect fields and nedoskonaly for imperfect fields, inflected exactly for gender, number, and case. The defining paragraph at base-papers1-43-isv.tex line 15339 remains the reader-facing semantic anchor.",
+  "motivation": "The inherited sovršen- family is an official type-2 RU/SH-derived choice with an explicitly Polish-negative profile. The official type-1 doskonaly entry connects the independent West-Slavic dokonal-/doskonał- family with Belarusian and Ukrainian cognates, while the mathematical definition makes the term recoverable for South-Slavic readers whose native sources use savršen- or the international perfekt- family. This changes the dominant-language morphology without changing Noether's field-theoretic distinction.",
+  "alternatives_rejected": [
+    "Retain sovršen-/nesovršen- and fix only nesoveršeno: this preserves the exact East/South-heavy type-2 collapse the normalization is intended to remove.",
+    "Introduce unattested official-lexicon adjective perfektny: Czech and Slovene mathematical sources support the international technical family, but the current official Interslavic lexicon contains no such adjective and perfekt also names a grammatical tense; it remains comparator evidence rather than the house lemma.",
+    "Use dokončeny or popolny: these mean completed or full/complete and would blur the algebraic definition of a perfect field.",
+    "Print a doublet at every occurrence: the definition already supplies the meaning, while repeated doublets would damage readable mathematical prose and terminology consistency.",
+    "Select by raw source-token volume: the Czech, Slovene, Bosnian, Polish, Belarusian, and Ukrainian evidence represents independent language families and is not a token vote."
+  ],
+  "evidence": {
+    "german_meaning_authority": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/candidates/ED0014/noether.tex",
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "finding": "The aligned source consistently uses the technical pair vollkommener/unvollkommener Körper, including the explicit definition, theorem headings, coefficient fields, and splitting fields."
+    },
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "accepted_entry": "id 4207 doskonaly, adjective, type 1, perfect; dictionary comparators include Belarusian дасканалы, Ukrainian досконалий, Polish doskonały, Czech/Slovak dokonalý",
+      "rejected_entries": "id 15052 sȯvŕšeny, adjective, type 2, RU/SH genesis and Polish-negative profile; id 35256 nesȯvŕšeny, adjective, type 2; dokončeny denotes completed"
+    },
+    "official_grammar": {
+      "path": "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/adjectives.md",
+      "bytes": 8142,
+      "sha256": "184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F",
+      "binding": "Hard-adjective agreement and case endings used by doskonal-/nedoskonal-."
+    },
+    "native_math_corpus": {
+      "manifest_path": "C:/Users/Floris/Documents/Codex/2026-05-26/there-is-currently-an-ongoing-process/other_pc_sidebranch_worktree/language-source-bodies/slavic-non-ru-uk-20260705/MANIFEST.csv",
+      "manifest_bytes": 460558,
+      "manifest_sha256": "3BF053AABB26210539E263B33B8F12960C888118409FD4D0898D73A91F74F286",
+      "unit_of_evidence": "independent language/source family, not raw token count",
+      "czech": {
+        "path": "source-bodies/cs-czech/czech_karlin_commutative_rings_fields__czech_karlin_commutative_rings_fields.txt",
+        "bytes": 65089,
+        "sha256": "E48CF982BC3544B714F81D6FFAEAC688CD29E6550EF5D2F6482E18C64CF9FA0A",
+        "observation": "lines 1578-1582 use perfektní/perfektního for fields"
+      },
+      "slovene": {
+        "path": "source-bodies/sl-slovenian/slovenian_uvod_v_algebro__slovenian_uvod_v_algebro.txt",
+        "bytes": 545554,
+        "sha256": "0F120EA737EC46D548FFE280A25276F254FFE3CFA5FF489D041082D4AB49EEB1",
+        "observation": "lines 10655-10657 and index line 11828 use perfektno/perfektna for fields"
+      },
+      "bosnian": {
+        "path": "source-bodies/bs-bosnian/bosnian_pmf_unsa_algebra_controls_plus_wp_and_modern_cobiss_probe__bs_pmf_unsa_matematika_i_ciklus_program_2009.pdftotext.txt",
+        "bytes": 637057,
+        "sha256": "ACE22E30638B905532B17053E51CBFAB148DC932EA14CEF2064F2993326D65BF",
+        "observation": "line 6305 uses Savršena polja"
+      },
+      "interpretation": "The technical evidence is genuinely split: Czech and Slovene use the international family, Bosnian uses savršen-, and the official dictionary supplies the doskonal-/dokonal- West plus Belarusian/Ukrainian bridge. No single native source is treated as sovereign."
+    },
+    "semantic_census": {
+      "perfect_or_imperfect_field_terms": 51,
+      "grammatical_aspect": 0,
+      "ordinary_perfection_or_completion": 0,
+      "source_lines": {
+        "44-book-isv.tex": [1558],
+        "base-papers1-43-isv.tex": [15243, 15245, 15339, 15341, 15443, 15445, 15450, 15460, 15474, 15637, 15639, 15641, 15643, 15645, 15649, 15657, 15690, 15699, 15817, 16117, 17249, 17251, 17255, 17608, 18725, 19220, 23363, 24126]
+      }
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0047",
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167959,
+      "sha256": "356D996F1E592DD857B62241F02815D42FAE54455BF46D294978767B9D7CB6D5"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "4E47FD1C693F89726DC65607A7500C9376EA0F09E8BC48EE46D48893BD580292"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1897005,
+      "sha256": "49AA9E1AC211727CB504025F705360713F12BF6A7BAB12AD81C781719B82273B"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"
+    }
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 51,
+    "mapping_histogram": {
+      "sovršeno_to_doskonalo": 15,
+      "nesovršeno_or_nesoveršeno_to_nedoskonalo": 5,
+      "sovršenom_to_doskonalom": 7,
+      "nesovršenom_to_nedoskonalom": 7,
+      "sovršenym_to_doskonalym": 4,
+      "nesovršenogo_to_nedoskonalogo": 2,
+      "sovršene_to_doskonale": 1,
+      "nesovršene_to_nedoskonale": 2,
+      "sovršenih_or_sovršenych_to_doskonalyh": 2,
+      "nesovršenych_to_nedoskonalyh": 1,
+      "sovršenomu_to_doskonalomu": 1,
+      "nesovršenoj_to_nedoskonaloj": 1,
+      "sovršenej_to_doskonaloj": 1,
+      "nesovršenej_to_nedoskonaloj": 1,
+      "sovršenu_to_doskonalu": 1
+    },
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167959,
+      "sha256": "08986E0CF140884FF8A040C338FFE377080BA3923DD0AA57C9B085402FC61F9E"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "4E47FD1C693F89726DC65607A7500C9376EA0F09E8BC48EE46D48893BD580292"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1897002,
+      "sha256": "42F90211A6DB3CC7017057237248A23BF0364F05EC08893D77845B6B1AABB0E9"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"
+    }
+  },
+  "tool": {
+    "path": "apply_perfect_field_terminology_v019.py",
+    "bytes": 8908,
+    "sha256": "3B1EFD11ACD6566548A01A19F557803D7A736A3853BD9226CD3B679C003BAFEF"
+  },
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0047",
+    "coverage": "51/51 exact whole-token sites changed once: one in 44-book-isv.tex and 50 in base-papers1-43-isv.tex",
+    "protected_spans": "zero targets in TeX comments, foreign, or foreignlanguage spans; protected values byte-identical",
+    "residue": "zero whole-token sovršen-/nesovršen-/nesoveršen- residue; exactly 51 doskonal-/nedoskonal- successor tokens and zero pre-existing family tokens",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged",
+    "successor_hashes": "4/4 direct byte/hash replay exact"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

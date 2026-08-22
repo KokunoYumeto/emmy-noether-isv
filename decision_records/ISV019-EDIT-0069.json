@@ -1,0 +1,30 @@
+{
+  "decision_id": "ISV019-EDIT-0069",
+  "recorded_at": "2026-08-13T14:45:25.9234917+02:00",
+  "epistemic_type": "manager_direct_equivalence_connective_normalization",
+  "scope": "Twenty-seven exact base-text tedy/teda sites whose clause role is equivalence, restatement, or explication.",
+  "choice": "Replace only the selected token ordinals with branch-neutral to jest; preserve adjacent same-line consequence markers.",
+  "motivation": "German and clause syntax show 'that is/in other words', not time or inference. Ordinal binding prevents corruption on lines mixing explication and consequence.",
+  "alternatives_rejected": ["zato would turn restatements into conclusions.", "togda would invent temporal meaning.", "imenno is narrower than several equivalence/restatement sites."],
+  "evidence": {"context_review": "All 27 exact occurrences were classified against German also/appositive or definitional syntax; eight adjacent consequence ordinals were explicitly guarded."},
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0068",
+    "decision_log": {"bytes": 266368, "sha256": "D67DE1CC859D54BD4A08217063F33DB74E6EF97025D6B9C366FEB02E3800B16F"},
+    "source_latin/44-book-isv.tex": {"bytes": 167995, "sha256": "492A22994045F3168995E12AE45E90D750715AF1FF42AF35FA0E1DF1BDB07BD0"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897413, "sha256": "06F23D8BFF2C9DC8BE680B9282AE790A3D1B9C4A3F0C01B63C21F24DC83AA2D2"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 27,
+    "source_histogram": {"tedy": 8, "teda": 19},
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167995, "sha256": "492A22994045F3168995E12AE45E90D750715AF1FF42AF35FA0E1DF1BDB07BD0"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897494, "sha256": "6162627607BA22C02AF544E91D7CA6499A9055876150DB000B385D2FE1BDC8B8"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_equivalence_connectives_v019.py", "bytes": 3758, "sha256": "5CB8F6D7BF500C2634D793D5633A419333F72A9071CACD9BF1ED04F4DD95F158"},
+  "validation": {"prehashes": "4/4 exact against EDIT-0068", "coverage": "27 exact line-and-ordinal sites", "guards": "adjacent consequence ordinals unchanged", "structure": "TeX controls, references, braces, math delimiters, and line counts unchanged", "reproducibility": "frozen hashes reproduced before atomic apply"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

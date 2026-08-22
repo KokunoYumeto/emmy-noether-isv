@@ -1,0 +1,126 @@
+{
+  "schema": "noether-interslavic-decision-record-v1",
+  "decision_id": "ISV019-EDIT-0128",
+  "recorded_at": "2026-08-14T14:30:12+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "cross_lane_source_fidelity_and_bounded_register_repair",
+  "scope": "Repair the accepted Paper08 scalar-coefficient reading and Paper22 B-module index in the Interslavic Latin reader, while synchronizing two local producer shadows to the live normalized assembled bodies.",
+  "summary": "Paper08 now states that c_1,c_2 are rational rather than calling theta_1,theta_2 rational integers; Paper22 now uses B_lambda in the middle member of the same lambda-indexed module sequence. Both repairs mirror accepted source-fidelity findings already proved from the print, active ED0014, and cross-lane evidence.",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0127",
+    "ledger_rows": 127,
+    "ledger_bytes": 512463,
+    "ledger_sha256": "919E67F0F44BD5DF8F4418D83DECC877875C5F89E359A276A63D44D9541CFECF",
+    "sidecar_bytes": 5367,
+    "sidecar_sha256": "7B352538B4E092039C0F17308D651F0E10D4EE35EDE87E9A1F61087B0A9FDDDB"
+  },
+  "defect_ids": [
+    "NOETH-DEF-P08-0001",
+    "NOETH-DEF-P22-0001"
+  ],
+  "exact_changes": [
+    {
+      "unit": "Paper08",
+      "producer_line": 95,
+      "assembled_line": 6797,
+      "before": "racionalno-cělyh $\\theta_1,\\theta_2$",
+      "after": "racionalnyh $c_1,c_2$"
+    },
+    {
+      "unit": "Paper22",
+      "producer_line": 181,
+      "assembled_line": 14315,
+      "before": "\\Bmod_i",
+      "after": "\\Bmod_\\lambda"
+    }
+  ],
+  "source_inputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898592, "sha256": "62310907EED17C9331C5BE5308B2E93FF0546AA8017BFFA69873C9CF69CFFCFE"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "source_outputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898372, "sha256": "ADB53DDBDD2964EC4BF09246599FFBDF19DA46CE0E85DA324E379E30161A7100"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "producer_successors": [
+    {
+      "unit": "Paper02-Section11",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+      "input": {"bytes": 14940, "sha256": "37B613F59FC8D4F101A714AF84B5DA0AE28FED93123EBA52C0363B234E3D499A"},
+      "output": {"bytes": 14964, "sha256": "7590484A00AA1B57C4AC8BDB53204AA0A570FAF8DCE8E0C9DBBD6247D6CB7AD7"},
+      "status": "unchanged_cumulative_successor"
+    },
+    {
+      "unit": "Paper08",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper08/interslavic/v001/Noether_Paper08_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper08_Interslavic_v001.tex",
+      "input": {"bytes": 23684, "sha256": "40A84F8E13423AFC923C4C0C714CBFB78C11EBD6F10343EEACA93090FCBB10C3"},
+      "reconstructed_pre_edit_shadow": {"bytes": 23910, "sha256": "873156BE5BD0F05B5EBB1CF71B8F7B1E0BC8F5A9E15264E9655AB9D73BFF1AA7"},
+      "output": {"bytes": 23894, "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"}
+    },
+    {
+      "unit": "Paper22",
+      "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper22/interslavic/v001/Noether_Paper22_Interslavic_v001.tex",
+      "local": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+      "input": {"bytes": 77611, "sha256": "6A78318258A2C609D030A248E66834055E904DC808BECA797433C461B31558B6"},
+      "reconstructed_pre_edit_shadow": {"bytes": 78287, "sha256": "6D12A492A9C0C04BD57AD3CCAF5D2DD05758AD1F52074353EC9BE0A9BFAABC14"},
+      "output": {"bytes": 78293, "sha256": "0855C017214927DDF49EC0DD6F7A9ABA350E218F33BB9A94CE6B67E5A8FBDE25"}
+    }
+  ],
+  "human_auditable_considerations": {
+    "Paper08": {
+      "reason": "The printed source, accepted checker packet, active ED0014, and corrected English source all identify c_1,c_2 as rational scalar coefficients. The inherited theta symbols and rational-integer condition change both the symbols and the mathematical condition.",
+      "rejected": [
+        "Retain theta_1,theta_2: conflicts with the primary and accepted source reading.",
+        "Keep racionalno-cělyh with c_1,c_2: adds integrality absent from the source.",
+        "Replace unrelated racionalno-cělyh phrases: outside this bounded sentence-specific repair."
+      ]
+    },
+    "Paper22": {
+      "reason": "The definition, repaired middle member, and following quotient form one lambda-indexed sequence; B_i is the sole incoherent index and contradicts the print and ED0014.",
+      "rejected": [
+        "Global i-to-lambda replacement: would corrupt legitimate generic indices.",
+        "Retain B_i: contradicts the accepted source-fidelity finding."
+      ]
+    },
+    "claim_boundary": "These are source-fidelity decisions plus an internal Interslavic register choice, not native/community validation or critical-edition certification. Categorized producer witnesses remain generated support excluded from native evidence."
+  },
+  "authority": {
+    "project_active_german_authority": {"edition": "NOETH-DE-ED-0014", "source_bytes": 2154011, "source_sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58", "version_doi": "10.5281/zenodo.21908301", "pointer_bytes": 152755, "pointer_sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE", "activation_receipt_bytes": 28837, "activation_receipt_sha256": "1F34D25C36C2ADCEDB47A58ACD4EC92A34EA2F1E88D2F85283313627EA53E436"},
+    "Paper08": "Primary print, ZHCHK-DE-P08-001 checker packet, accepted defect pointer, ED0014 line 6043, and corrected English line 5980.",
+    "Paper22": "Primary printed page, accepted defect pointer, and ED0014 lines 12839, 12841, and 12843."
+  },
+  "applicator": {
+    "path": "apply_isv_ed0014_p08_p22_fidelity_v019.py",
+    "bytes": 48522,
+    "sha256": "6ACFFF02D4542FA32E3AE9F74F6D46FC6BC5680D6A117A45BF2F54CC91D42FAC",
+    "default_mode": "dry_run",
+    "apply_mode": "explicit_one_shot"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT",
+    "independent_reconstruction": "PASS",
+    "producer_and_assembled_body_identity": "PASS",
+    "reverse_replay": "PASS",
+    "protected_structure_transport": "PASS",
+    "frozen_and_public_immutability": "PASS",
+    "no_write_dry_run_snapshot": "PASS",
+    "semantic_holds": 0
+  },
+  "preserved": [
+    "all non-target text, mathematical payloads, controls, environments, references, citations, and comments",
+    "all three untouched Latin source components",
+    "immutable producer origins, frozen v047 sources/PDF, and public r35 artifacts",
+    "all unrelated rational-integer and generic-index constructions"
+  ],
+  "publication": {
+    "working_successor_published": false,
+    "publication_effect": "none",
+    "doi_effect": "none"
+  }
+}

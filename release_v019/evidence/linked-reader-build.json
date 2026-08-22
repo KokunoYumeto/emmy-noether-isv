@@ -1,0 +1,99 @@
+{
+  "schema": "noether-interslavic-linked-reader-build/1.0",
+  "release_id": "NOETHER-ISV-v019",
+  "generated_at": "2026-08-22T00:00:00Z",
+  "source_date_epoch": 1787356800,
+  "source": {
+    "path": "release_v019/source/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.tex",
+    "bytes": 10267,
+    "sha256": "BE720AEE4ED8825C9F47590E28EB8DBC284DD95CECFA7348DF08467D447268E1"
+  },
+  "inputs": [
+    {
+      "path": "release_v019/pdf/emmy-noether-interslavic-latin-v019.pdf",
+      "bytes": 3000508,
+      "sha256": "5FCC44BF0D25C3DA0C14C8542CDFEB48419EE924ADD197227F70008FF076FF4F",
+      "pages": 565
+    },
+    {
+      "path": "release_v019/pdf/emmy-noether-interslavic-cyrillic-v019.pdf",
+      "bytes": 3300454,
+      "sha256": "578AAB7224B4192006096B231FD67A3AFEE6E22DFF0C94264102B6D192687B75",
+      "pages": 588
+    }
+  ],
+  "build": {
+    "engine": "XeLaTeX",
+    "passes": 2,
+    "serial": true,
+    "shell_escape": false,
+    "logs": [
+      {
+        "pass": 1,
+        "exit_code": 0,
+        "stdout": {
+          "path": "tmp/pdfs/isv_release_v019/linked-reader/pass1.stdout.log",
+          "bytes": 14677,
+          "sha256": "E4ED37EABB43202BAF7D0F22A39EBA4F0894C5F03C59359292FBB57321A34E2E"
+        },
+        "tex_log": {
+          "path": "tmp/pdfs/isv_release_v019/linked-reader/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.log",
+          "bytes": 536424,
+          "sha256": "5CFC607495E6BDD773AE5390B8B389FC3B4FFF89E3457D7905BFB14A1CF1F65D"
+        }
+      },
+      {
+        "pass": 2,
+        "exit_code": 0,
+        "stdout": {
+          "path": "tmp/pdfs/isv_release_v019/linked-reader/pass2.stdout.log",
+          "bytes": 14677,
+          "sha256": "E4ED37EABB43202BAF7D0F22A39EBA4F0894C5F03C59359292FBB57321A34E2E"
+        },
+        "tex_log": {
+          "path": "tmp/pdfs/isv_release_v019/linked-reader/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.log",
+          "bytes": 536424,
+          "sha256": "5CFC607495E6BDD773AE5390B8B389FC3B4FFF89E3457D7905BFB14A1CF1F65D"
+        }
+      }
+    ]
+  },
+  "output": {
+    "path": "release_v019/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf",
+    "bytes": 6885443,
+    "sha256": "E14B2C9336E94878370332913360ECC52935AE93A89701BC7A5AE22C0552C401",
+    "pages": 1159
+  },
+  "page_topology": {
+    "front_and_divider_pages": 6,
+    "embedded_reader_pages": 1153
+  },
+  "navigation": {
+    "outline_titles": [
+      "Naslov / Title",
+      "Kako čitati izdanje",
+      "How to read this edition",
+      "Sodržanje / Contents",
+      "Čest A: Latinica / Part A: Latin script",
+      "Čest B: Kirilica / Part B: Cyrillic script"
+    ],
+    "frontmatter_link_annotations": 12
+  },
+  "frontmatter_text": {
+    "path": "release_v019/evidence/linked-reader-frontmatter.txt",
+    "bytes": 11951,
+    "sha256": "03D45C5E69EB8BAD3B56E8E82467A0AD1B6D5F52588F75B103A2192DBAC4A061",
+    "required_tokens": [
+      "Polno medžuslovjansko",
+      "Complete Interslavic Corpus Edition",
+      "10.5281/zenodo.22050935",
+      "10.5281/zenodo.21926382",
+      "Kako čitati tuto izdanje",
+      "How to read this edition",
+      "isv-Latn",
+      "isv-Cyrl"
+    ],
+    "replacement_characters": 0
+  },
+  "status": "PASS"
+}

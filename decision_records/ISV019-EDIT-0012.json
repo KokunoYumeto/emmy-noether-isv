@@ -1,0 +1,135 @@
+{
+  "decision_id": "ISV019-EDIT-0012",
+  "recorded_at": "2026-08-12T21:16:50+02:00",
+  "epistemic_type": "manager_final_sentence_level_editorial_decision_from_official_grammar_dictionary_and_exact_corpus_replay",
+  "scope": "all 1034 adjudicated causal, concessive, adversative, explanatory, proof-transition, display-particle, and homograph loci in the four editable v019 Latin components",
+  "choice": "Use separate-form zato že as the default causal connective; contextually recast postpositive or explanatory bo, doubled causal markers, proof setups, and bare-display particles; use hoti for the two genuine concessives, prinajmenje for the one nonconcessive hoti, no for the one vendar, and disambiguate 21 non-adversative jednako occurrences while preserving the two genuine adversatives.",
+  "alternatives_rejected": [
+    "retain bo/ibo as an East- and Polish-weighted default",
+    "replace causal markers with South-weighted jer/jerbo",
+    "retain poneže or poněže even though the official grammar assigns poneže the contrasting sense whereas and every one of the 440 corpus occurrences is causal",
+    "blindly replace all particles without sentence-level treatment of postpositive explanations, proof commands, display introductions, and doubled causal collocations",
+    "leave the 1034 resolved loci for a hypothetical later human reviewer"
+  ],
+  "motivation": "The official conjunction grammar licenses zato že for because, and the pinned dictionary gives the zato-že family the broadest East/West/South profile among the available causal forms. Recovered Polish, Czech, Slovak, Slovene, Croatian, Serbian, Montenegrin, Bulgarian, and Macedonian mathematical prose confirms that national causal defaults diverge, so no short national particle is an honest pan-Slavic default. The transparent analytic form repairs the reader's East-heavy bo/ibo inheritance without replacing it by a South-heavy alternative. Sentence-level recasts preserve the logical force where a global token substitution would be malformed or ambiguous.",
+  "reflection": "The earlier control-heavy workflow treated semantic uncertainty as a reason to accumulate holds. This decision instead performs the manager's required final editorial work: every identified locus is resolved and applied, uncertainty is documented, and no unresolved linguistic hold is exported. The remaining lack of human testing limits claims about measured comprehension, but it is not used as an excuse to preserve a known East-heavy surface.",
+  "predecessors": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 166958,
+      "sha256": "D795B3863DF5416776053E1584AFCE060ACF75708239D1055D96939A78AB08A5"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25485,
+      "sha256": "4C6D0611054CEFB1F54081357029B085BC05FE16DF5253343521906A4F3E2F84"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1888747,
+      "sha256": "F3E1D1F040CDC7AB480D6ED4AC7DDE86CA2C10BD9BDA66E2448AD79B67A25A63"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9569,
+      "sha256": "2B5E4698ABEF605BD8899A1FB1B1AD6CF504DF5BAEFB6824D25006116A1F1E8E"
+    }
+  },
+  "evidence": {
+    "application_plan": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/isv_causal_connective_plan_v001.json",
+      "bytes": 1194229,
+      "sha256": "743CFC5F681928EEEE8ED3597BF9ACB6451D0BE8299B2F432457E6F23445E880"
+    },
+    "official_conjunction_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/conjunctions.md",
+      "bytes": 2435,
+      "sha256": "3E986444A77D27A01586B15BFDDE96937E0A265AAEDE09E3A313BE403489B2AB"
+    },
+    "official_design_criteria": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/misc/design-criteria.md",
+      "bytes": 20238,
+      "sha256": "215184553FD9BDDE4A75632B82D9880D74ABEC3776732F182B55C576B0261CC3"
+    },
+    "official_dictionary_dataset": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842"
+    },
+    "west_south_mathematical_corpus_manifest": {
+      "path": "C:/Users/Floris/Documents/Codex/2026-05-26/there-is-currently-an-ongoing-process/other_pc_sidebranch_worktree/language-source-bodies/slavic-non-ru-uk-20260705/MANIFEST.csv",
+      "bytes": 460558,
+      "sha256": "3BF053AABB26210539E263B33B8F12960C888118409FD4D0898D73A91F74F286"
+    }
+  },
+  "agent_return": {
+    "task_identity": "/root/isv_causal_connective_normalization",
+    "scope": "read-only exhaustive connective adjudication and exact current-byte plan",
+    "disposition": "accepted after parent strict-plan inspection, independent dry-run, exact output-hash replay, and post-write verification",
+    "returned_claims": "1034 resolved edits, 440/440 poneže or poněže causal, zero holds, exact four-file successor hashes"
+  },
+  "results": {
+    "edit_count": 1034,
+    "edit_counts_by_file": {
+      "source_latin/44-book-isv.tex": 146,
+      "source_latin/45-isv.tex": 5,
+      "source_latin/base-papers1-43-isv.tex": 883,
+      "source_latin/bib-isv.tex": 0
+    },
+    "edit_counts_by_class": {
+      "causal_default": 969,
+      "causal_compound_collapse": 9,
+      "postpositive_explanatory_recast": 14,
+      "proof_setup_recast": 12,
+      "display_particle_delete": 5,
+      "concessive_normalization": 2,
+      "nonconcessive_hoti_recast": 1,
+      "adversative_normalization": 1,
+      "jednako_homograph_disambiguation": 21
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167499,
+      "sha256": "0946E8D4E314238059BBE4B9B876C0B12C9D7C3B8B44C8B37C536E180632D10B"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25500,
+      "sha256": "9EFD0EFACD2F9D24D2A6D24653EF0A9485B3C86B257F7F0BA5C306A0554FA5FF"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1891562,
+      "sha256": "D282CD6531E1A55C97D029EAEE4231466014732A72289E91A8636EBAF83601C3"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9569,
+      "sha256": "2B5E4698ABEF605BD8899A1FB1B1AD6CF504DF5BAEFB6824D25006116A1F1E8E"
+    },
+    "post_inventory": {
+      "bo": 0,
+      "ibo": 0,
+      "poneže": 0,
+      "poněže": 0,
+      "pošto": 0,
+      "poněvadže": 0,
+      "zatože": 0,
+      "zato že": 982,
+      "hoti": 8,
+      "iako": 0,
+      "vendar": 0,
+      "jednako": 2,
+      "medžutym": 35,
+      "prinajmenje": 1
+    },
+    "unresolved_linguistic_holds": 0
+  },
+  "tool": {
+    "path": "apply_causal_connectives_v019.py",
+    "bytes": 11881,
+    "sha256": "A28AD7EB6C7F74004815438A16E1687D41D355B8927F047CC5FD1218E75FB023"
+  },
+  "validation": {
+    "prehashes": "4/4 exact",
+    "planned_locators": "1034/1034 old fragments, byte and scalar offsets, line hashes, columns, anchors, and non-overlap exact",
+    "protected_content": "comments and balanced foreign/foreignlanguage spans byte-identical in sequence",
+    "structure": "brace counts, math-control sequence, and label/ref/cite sequence unchanged",
+    "outputs": "4/4 byte counts and SHA-256 values independently reproduced before write and verified after write",
+    "transport": "UTF-8 without BOM, LF only, terminal LF"
+  },
+  "uncertainty": "No balanced human comprehension study exists. The selected forms are the manager's best evidence-based final editorial choices under the six-group marginal-intelligibility method, not a claim of community certification.",
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

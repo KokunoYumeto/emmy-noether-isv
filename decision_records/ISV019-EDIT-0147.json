@@ -1,0 +1,2422 @@
+{
+  "schema": "noether-isv-normalization-decision-v1",
+  "decision_id": "ISV019-EDIT-0147",
+  "recorded_at": "2026-08-17T06:40:37+02:00",
+  "status": "applied_and_independently_verified",
+  "classification": "INTERSLAVIC_OFFICIAL_FEMININE_OBLIQUE_NORMALIZATION",
+  "epistemic_type": "complete_live_family_census_plus_official_dictionary_grammar_plus_64_line_german_controls_plus_five_target_reverse_forward_replay",
+  "summary": "replace all 75 authoritative source jednej tokens and six active producer mirrors with official jednoj, refreshing only two producer Identity receipts",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0146",
+    "state": {
+      "bytes": 14933,
+      "sha256": "FBF6A052795CDC7071BFF1DE5DEBBAFC93CD9996085B55CDE7AFE493013247BA",
+      "canonical_sha256": "16391969EBB517196A284D671DE47181F038C06FB662AD583A83F27FCB85B77C"
+    },
+    "ledger": {
+      "rows": 146,
+      "bytes": 578265,
+      "sha256": "BD289967E36216623AD1509F5F04D7DDD23EE18AF5326982503C10A947667CA3"
+    },
+    "worklog": {
+      "rows": 39,
+      "bytes": 92946,
+      "sha256": "5A3051906414493B4421EA7F8399A1258B42F175202237EA07D874E136049448"
+    },
+    "sidecar": {
+      "path": "decision_records/ISV019-EDIT-0146.json",
+      "bytes": 175769,
+      "sha256": "06D2E7AC8E88D5C2E82909C28F64F99395FAF2CF2D40E1B6BA39DEADAACE7B82"
+    },
+    "human": {
+      "path": "decision_records/ISV019-EDIT-0146.md",
+      "bytes": 7850,
+      "sha256": "357E33289989D177E4380CF960F0E891D597E07C483056942F00F711CFE9DD8A"
+    },
+    "applicator": {
+      "path": "apply_imenno_adverb_standardization_v019.py",
+      "bytes": 87673,
+      "sha256": "2C58CF569804889C52BB29EB4B1EE423CE3D35492BE78480AC4460AAFA53F223"
+    },
+    "sealer": {
+      "path": "seal_isv_edit0146_v019.py",
+      "bytes": 121189,
+      "sha256": "2F0DF58C2BA72CE04A7522671E96152BA70B677241314AE54DB4E581182A74A7"
+    },
+    "verifier": {
+      "path": "verify_session_independent_state_v019.ps1",
+      "bytes": 2172,
+      "sha256": "A431E7204F8A84893A6C9F79D489EC8636A8E782D677F84CFB40E0F1E365A0F5",
+      "normalization": "replace_the_single_embedded_state_canonical_sha256_with_64_ascii_zeroes",
+      "normalized_sha256": "9BA35D24616249C60FE7A9B5B92B79CD710ABC0C8F8C6EFAEE60F1121B2D0360"
+    }
+  },
+  "transitional_checkpoint": {
+    "description": "metadata remains exact sealed EDIT0146 while the five changed live source/producer targets are exact installed EDIT0147 outputs",
+    "metadata_head": "ISV019-EDIT-0146",
+    "live_sources": {
+      "source_latin/base-papers1-43-isv.tex": {
+        "bytes": 1890935,
+        "sha256": "093B72166871227F524B041897EA28DF573D28D0AFD24386316CE7A17842B505"
+      },
+      "source_latin/44-book-isv.tex": {
+        "bytes": 168353,
+        "sha256": "586966CD5023C3F1ED0286A443C76FBB155BF165EF93AC27CC00DC5AE253D966"
+      },
+      "source_latin/45-isv.tex": {
+        "bytes": 25934,
+        "sha256": "B05CEA77F54792AF9A3507CC6C85BC2F3CAF061DE5886DF1E95DF7E6E9923268"
+      },
+      "source_latin/bib-isv.tex": {
+        "bytes": 9940,
+        "sha256": "6FFDB3D9CCA38B0971905B4151BB52564FDF7CFC9D6C3853667657A3A13896AF"
+      }
+    },
+    "live_active_producers": {
+      "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex": {
+        "bytes": 7619,
+        "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"
+      },
+      "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex": {
+        "bytes": 14964,
+        "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+      },
+      "producer_units/Noether_Paper08_Interslavic_v001.tex": {
+        "bytes": 23894,
+        "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"
+      },
+      "producer_units/Noether_Paper22_Interslavic_v001.tex": {
+        "bytes": 78294,
+        "sha256": "2BC9DA936D82535F6185578332B5D2BD9BB6A29965F6A34A623DA555567D8684"
+      },
+      "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex": {
+        "bytes": 95655,
+        "sha256": "2082B1435AAE25CD455D37293341D314709855AC8D276BBFCC3D2D80FB42E380"
+      },
+      "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex": {
+        "bytes": 4752,
+        "sha256": "E60C00BD715913C21F6DB35DE68F5677F2FC6B5D486756C565905B1EA7774DC1"
+      }
+    },
+    "inactive_shadow": {
+      "path": "producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+      "bytes": 95451,
+      "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+    },
+    "source_transaction_residue": 0,
+    "metadata_transaction_residue": 0
+  },
+  "human_companion": {
+    "path": "decision_records/ISV019-EDIT-0147.md",
+    "bytes": 9699,
+    "sha256": "3BC3F7B80D0BC526651F217DC707821AAFFE2DE4238019C122E143C6BDB201CF"
+  },
+  "applicator": {
+    "path": "apply_jednoj_feminine_oblique_v019.py",
+    "bytes": 119813,
+    "sha256": "DE251FB3AABCCDFEA1A879BE22EA647489B2795E4026F1D247C179ED76AFAD6F",
+    "default_mode": "strict_no_write_dry_run_on_exact_EDIT0146_inputs",
+    "production_apply": "exit 0; stderr 0 bytes; exact five-target successor installed_unsealed; residue zero"
+  },
+  "sealer": {
+    "path": "seal_isv_edit0147_v019.py",
+    "bytes": 87627,
+    "sha256": "39CE616A5F855956933B3A49FF4DE061A1639766C86AC317D4082899BBFD1087"
+  },
+  "verifier_identity": {
+    "path": "verify_session_independent_state_v019.ps1",
+    "bytes": 2175,
+    "normalization": "replace_the_single_embedded_state_canonical_sha256_with_64_ascii_zeroes",
+    "normalized_sha256": "92662452E1C7372045610490D4F4E7CFFE3EBDCBF4DDA16A6DE487025D255038"
+  },
+  "scope": {
+    "authoritative_source_tokens": 75,
+    "authoritative_source_lines": 62,
+    "producer_mirror_tokens": 6,
+    "producer_mirror_lines": 6,
+    "physical_lexical_edits": 81,
+    "physical_lexical_lines": 68,
+    "identity_receipt_lines": 2,
+    "changed_targets": 5,
+    "unchanged_but_pinned_source_files": 1,
+    "unchanged_but_pinned_active_producers": 4,
+    "inactive_shadow_tokens_preserved": 2,
+    "math_changes": 0,
+    "TeX_control_changes": 0,
+    "nonidentity_comment_changes": 0,
+    "source_locator_changes": 0
+  },
+  "family_census": {
+    "source_old_before": 75,
+    "source_old_after": 0,
+    "source_canonical_before": 60,
+    "source_canonical_after": 135,
+    "active_producer_mirror_old_before": 6,
+    "active_producer_mirror_old_after": 0,
+    "inactive_shadow_old_preserved": 2
+  },
+  "source_inputs": {
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1890935,
+      "sha256": "75F7A3D8BC7C947666FAFEE4413B709F8120C7C268E87F3709CDEC9995FBBB09"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168353,
+      "sha256": "586966CD5023C3F1ED0286A443C76FBB155BF165EF93AC27CC00DC5AE253D966"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25934,
+      "sha256": "C2CC41E5FCA7AAF20C502D67C468B5DF381951C30B60DE3B29D093A50DBB684F"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9940,
+      "sha256": "3BF01176A02342D20D1C0A0DD23346F4B0552408AE0F213945FDC988B602E62C"
+    }
+  },
+  "source_outputs": {
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1890935,
+      "sha256": "093B72166871227F524B041897EA28DF573D28D0AFD24386316CE7A17842B505"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168353,
+      "sha256": "586966CD5023C3F1ED0286A443C76FBB155BF165EF93AC27CC00DC5AE253D966"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25934,
+      "sha256": "B05CEA77F54792AF9A3507CC6C85BC2F3CAF061DE5886DF1E95DF7E6E9923268"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9940,
+      "sha256": "6FFDB3D9CCA38B0971905B4151BB52564FDF7CFC9D6C3853667657A3A13896AF"
+    }
+  },
+  "producer_inputs": {
+    "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex": {
+      "bytes": 7619,
+      "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"
+    },
+    "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex": {
+      "bytes": 14964,
+      "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+    },
+    "producer_units/Noether_Paper08_Interslavic_v001.tex": {
+      "bytes": 23894,
+      "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"
+    },
+    "producer_units/Noether_Paper22_Interslavic_v001.tex": {
+      "bytes": 78294,
+      "sha256": "A62399267542F5C3C37A626F8FCEAD059AF2D7DED94157D72FAE047E1BB39D8D"
+    },
+    "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex": {
+      "bytes": 95655,
+      "sha256": "11B3E43A39F0CE29B5BF61D70243290168BBF3C39D42B1720D44EDF3E48F8CDB"
+    },
+    "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex": {
+      "bytes": 4752,
+      "sha256": "E60C00BD715913C21F6DB35DE68F5677F2FC6B5D486756C565905B1EA7774DC1"
+    }
+  },
+  "producer_outputs": {
+    "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex": {
+      "bytes": 7619,
+      "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"
+    },
+    "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex": {
+      "bytes": 14964,
+      "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+    },
+    "producer_units/Noether_Paper08_Interslavic_v001.tex": {
+      "bytes": 23894,
+      "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"
+    },
+    "producer_units/Noether_Paper22_Interslavic_v001.tex": {
+      "bytes": 78294,
+      "sha256": "2BC9DA936D82535F6185578332B5D2BD9BB6A29965F6A34A623DA555567D8684"
+    },
+    "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex": {
+      "bytes": 95655,
+      "sha256": "2082B1435AAE25CD455D37293341D314709855AC8D276BBFCC3D2D80FB42E380"
+    },
+    "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex": {
+      "bytes": 4752,
+      "sha256": "E60C00BD715913C21F6DB35DE68F5677F2FC6B5D486756C565905B1EA7774DC1"
+    }
+  },
+  "inactive_shadow": {
+    "path": "producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+    "bytes": 95451,
+    "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03",
+    "old_jednej_tokens_preserved": 2,
+    "canonical_jednoj_tokens_preserved": 1,
+    "status": "inactive_historical_shadow_intentionally_unchanged"
+  },
+  "proof": {
+    "applicator_plan": {
+      "decision_id": "ISV019-EDIT-0147",
+      "mode": "strict_no_write_dry_run",
+      "input_mode": "live_sealed_EDIT0146_sources_and_producers",
+      "predecessor": {
+        "decision_id": "ISV019-EDIT-0146",
+        "sealed": true,
+        "application_enabled": true,
+        "state_canonical_sha256_excluding_only_verifier": "16391969EBB517196A284D671DE47181F038C06FB662AD583A83F27FCB85B77C",
+        "normalized_verifier_sha256": "9BA35D24616249C60FE7A9B5B92B79CD710ABC0C8F8C6EFAEE60F1121B2D0360",
+        "records": {
+          "state": {
+            "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/00_SESSION_INDEPENDENT_STATE_v019.json",
+            "bytes": 14933,
+            "sha256": "FBF6A052795CDC7071BFF1DE5DEBBAFC93CD9996085B55CDE7AFE493013247BA"
+          },
+          "ledger": {
+            "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/NORMALIZATION_DECISIONS_v019.jsonl",
+            "bytes": 578265,
+            "sha256": "BD289967E36216623AD1509F5F04D7DDD23EE18AF5326982503C10A947667CA3"
+          },
+          "sidecar": {
+            "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/decision_records/ISV019-EDIT-0146.json",
+            "bytes": 175769,
+            "sha256": "06D2E7AC8E88D5C2E82909C28F64F99395FAF2CF2D40E1B6BA39DEADAACE7B82"
+          },
+          "human": {
+            "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/decision_records/ISV019-EDIT-0146.md",
+            "bytes": 7850,
+            "sha256": "357E33289989D177E4380CF960F0E891D597E07C483056942F00F711CFE9DD8A"
+          },
+          "applicator": {
+            "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/apply_imenno_adverb_standardization_v019.py",
+            "bytes": 87673,
+            "sha256": "2C58CF569804889C52BB29EB4B1EE423CE3D35492BE78480AC4460AAFA53F223"
+          },
+          "audit_sealer": {
+            "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/seal_isv_edit0146_v019.py",
+            "bytes": 121189,
+            "sha256": "2F0DF58C2BA72CE04A7522671E96152BA70B677241314AE54DB4E581182A74A7"
+          },
+          "verifier": {
+            "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/verify_session_independent_state_v019.ps1",
+            "bytes": 2172,
+            "sha256": "A431E7204F8A84893A6C9F79D489EC8636A8E782D677F84CFB40E0F1E365A0F5"
+          },
+          "worklog": {
+            "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/00_SESSION_INDEPENDENT_WORKLOG_v019.jsonl",
+            "bytes": 92946,
+            "sha256": "5A3051906414493B4421EA7F8399A1258B42F175202237EA07D874E136049448"
+          },
+          "durable_goal": {
+            "path": "03_projects/language_management/slavic_interslavic/00_lane_control/ACTIVE_DURABLE_GOAL_NOETHER_SLAVIC_EDITIONS_20260814.md",
+            "bytes": 84398,
+            "sha256": "733BD25787D2A62C469B1E90E6D10AF218CF1FFE51FB4637A6CC65ECFB8563A6"
+          }
+        }
+      },
+      "scope": {
+        "authoritative_source_tokens": 75,
+        "authoritative_source_lines": 62,
+        "producer_mirror_tokens": 6,
+        "producer_mirror_lines": 6,
+        "physical_lexical_edits": 81,
+        "physical_lexical_lines": 68,
+        "identity_receipt_lines": 2,
+        "changed_targets": 5,
+        "unchanged_but_pinned_source_files": 1,
+        "unchanged_but_pinned_active_producers": 4,
+        "inactive_shadow_tokens_preserved": 2,
+        "math_changes": 0,
+        "TeX_control_changes": 0,
+        "nonidentity_comment_changes": 0,
+        "source_locator_changes": 0
+      },
+      "inputs": {
+        "source_latin/base-papers1-43-isv.tex": {
+          "bytes": 1890935,
+          "sha256": "75F7A3D8BC7C947666FAFEE4413B709F8120C7C268E87F3709CDEC9995FBBB09"
+        },
+        "source_latin/44-book-isv.tex": {
+          "bytes": 168353,
+          "sha256": "586966CD5023C3F1ED0286A443C76FBB155BF165EF93AC27CC00DC5AE253D966"
+        },
+        "source_latin/45-isv.tex": {
+          "bytes": 25934,
+          "sha256": "C2CC41E5FCA7AAF20C502D67C468B5DF381951C30B60DE3B29D093A50DBB684F"
+        },
+        "source_latin/bib-isv.tex": {
+          "bytes": 9940,
+          "sha256": "3BF01176A02342D20D1C0A0DD23346F4B0552408AE0F213945FDC988B602E62C"
+        },
+        "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex": {
+          "bytes": 7619,
+          "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"
+        },
+        "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex": {
+          "bytes": 14964,
+          "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+        },
+        "producer_units/Noether_Paper08_Interslavic_v001.tex": {
+          "bytes": 23894,
+          "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"
+        },
+        "producer_units/Noether_Paper22_Interslavic_v001.tex": {
+          "bytes": 78294,
+          "sha256": "A62399267542F5C3C37A626F8FCEAD059AF2D7DED94157D72FAE047E1BB39D8D"
+        },
+        "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex": {
+          "bytes": 95655,
+          "sha256": "11B3E43A39F0CE29B5BF61D70243290168BBF3C39D42B1720D44EDF3E48F8CDB"
+        },
+        "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex": {
+          "bytes": 4752,
+          "sha256": "E60C00BD715913C21F6DB35DE68F5677F2FC6B5D486756C565905B1EA7774DC1"
+        },
+        "producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex": {
+          "bytes": 95451,
+          "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+        }
+      },
+      "outputs": {
+        "source_latin/base-papers1-43-isv.tex": {
+          "bytes": 1890935,
+          "sha256": "093B72166871227F524B041897EA28DF573D28D0AFD24386316CE7A17842B505"
+        },
+        "source_latin/44-book-isv.tex": {
+          "bytes": 168353,
+          "sha256": "586966CD5023C3F1ED0286A443C76FBB155BF165EF93AC27CC00DC5AE253D966"
+        },
+        "source_latin/45-isv.tex": {
+          "bytes": 25934,
+          "sha256": "B05CEA77F54792AF9A3507CC6C85BC2F3CAF061DE5886DF1E95DF7E6E9923268"
+        },
+        "source_latin/bib-isv.tex": {
+          "bytes": 9940,
+          "sha256": "6FFDB3D9CCA38B0971905B4151BB52564FDF7CFC9D6C3853667657A3A13896AF"
+        },
+        "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex": {
+          "bytes": 7619,
+          "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"
+        },
+        "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex": {
+          "bytes": 14964,
+          "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+        },
+        "producer_units/Noether_Paper08_Interslavic_v001.tex": {
+          "bytes": 23894,
+          "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"
+        },
+        "producer_units/Noether_Paper22_Interslavic_v001.tex": {
+          "bytes": 78294,
+          "sha256": "2BC9DA936D82535F6185578332B5D2BD9BB6A29965F6A34A623DA555567D8684"
+        },
+        "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex": {
+          "bytes": 95655,
+          "sha256": "2082B1435AAE25CD455D37293341D314709855AC8D276BBFCC3D2D80FB42E380"
+        },
+        "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex": {
+          "bytes": 4752,
+          "sha256": "E60C00BD715913C21F6DB35DE68F5677F2FC6B5D486756C565905B1EA7774DC1"
+        },
+        "producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex": {
+          "bytes": 95451,
+          "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+        }
+      },
+      "line_manifest": [
+        {
+          "file": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+          "line": 65,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 1047,
+            "sha256": "C628E306271675EDCF9A9F7A3B541480D5D7EB9A16502E26FEBCFA772570C8EA"
+          },
+          "post": {
+            "bytes": 1047,
+            "sha256": "70F7441031EEDF76B7210469FBD2D73EA5389686299E2A7E21BBF0D3545ED79D"
+          },
+          "unit": null,
+          "source": null,
+          "german_lines": [],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+          "line": 69,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 378,
+            "sha256": "611B18A1670D3DD84AC6EC00F47C227D8D399EF0BA18E18BC3AFC91782934C3D"
+          },
+          "post": {
+            "bytes": 378,
+            "sha256": "31A60DCD0453B76D7DF6493E58FAFAB1432ACE3E97D580C271943827A0ACF067"
+          },
+          "unit": null,
+          "source": null,
+          "german_lines": [],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+          "line": 476,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 636,
+            "sha256": "C8AB8ED5BDD96D80016196E473B45F90A5EEA4081BB0C0A121BEB46FFAC36DF4"
+          },
+          "post": {
+            "bytes": 636,
+            "sha256": "3C33C65BFD10C6C8D047207502DD9118D834FD81F72FFDDAAA3C13FF3DC6E8C8"
+          },
+          "unit": null,
+          "source": null,
+          "german_lines": [],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+          "line": 778,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 406,
+            "sha256": "4F23DD624DCD1F1141E5C3DF8952727AD88C82DF13244964BFFBDEF90995C579"
+          },
+          "post": {
+            "bytes": 406,
+            "sha256": "028CED4E45B56B4B2B5C9DCFCCE07FD5DE4BB8328F9AE202E4C55DFA88C2A374"
+          },
+          "unit": null,
+          "source": null,
+          "german_lines": [],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+          "line": 54,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 1676,
+            "sha256": "F5B5C7DFC08BCBCFA036EA704DAEC66665D236180DEB8FA6BF70957FDAC50298"
+          },
+          "post": {
+            "bytes": 1676,
+            "sha256": "02FFC287530CD43386C23D9447BB1AAEA3201E8FBE3131DE3E7DB6175C7A5259"
+          },
+          "unit": null,
+          "source": null,
+          "german_lines": [],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+          "line": 510,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 709,
+            "sha256": "3BA93B97EDA131BC6392B980403B65CC4583C43922C3271B02A49DED462DA98F"
+          },
+          "post": {
+            "bytes": 709,
+            "sha256": "AC38709A976E08B4BEF8D52590C905F9835F971341F4B233EECD3592E5318204"
+          },
+          "unit": null,
+          "source": null,
+          "german_lines": [],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 130,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 135,
+            "sha256": "15D4CCFCB820D3B0EDB9AC68DEB91CACC18F13FE2C231DA3D6D036063E1291C3"
+          },
+          "post": {
+            "bytes": 135,
+            "sha256": "979233AC8244335EBB846E8F7F5936B37C040FC26723904BEFC2596B28B4FC80"
+          },
+          "unit": "001",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper01/interslavic/v001/Noether_Paper01_Interslavic_v001.tex",
+          "german_lines": [
+            458
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 566,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 319,
+            "sha256": "7658FCE20201EB894E1FB83EF15DD2250FD223565D7B3D3A280F3DD2100EB0A3"
+          },
+          "post": {
+            "bytes": 319,
+            "sha256": "DF365C43D4C0706D566223503B7B4E0D0D3AF5675380050498651B5A82D5C4EC"
+          },
+          "unit": "005",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section03_Interslavic_v001.tex",
+          "german_lines": [
+            852
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 574,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 504,
+            "sha256": "76F2C4508F3E5A614D8746BE2CEF8C39B94C556851E714524C18AFF0C22D649C"
+          },
+          "post": {
+            "bytes": 504,
+            "sha256": "E2A397D52793DD8A2A985EB0546617257E96E3DEF39FC5151C32E856A110302E"
+          },
+          "unit": "005",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section03_Interslavic_v001.tex",
+          "german_lines": [
+            860
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 1087,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 71,
+            "sha256": "A4FE4C5C7E153483954097AC4E3FA6EAAB1EFC037FFC8B1B6385A1B3D4C9F172"
+          },
+          "post": {
+            "bytes": 71,
+            "sha256": "07C86B7686505CA7DD8BA6E3C77725B9C46AD183AB85C9B242B029542BAC5FCD"
+          },
+          "unit": "008",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section07_Interslavic_v001.tex",
+          "german_lines": [
+            1353
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 3783,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 1188,
+            "sha256": "ADB818A66566F094F346C1448C1DE43B56B839C177780D3252A0399CCD32149B"
+          },
+          "post": {
+            "bytes": 1188,
+            "sha256": "3D5DC63040B7350AEA50AB43EFD5AC88BD81D26FDBA1D6F1E0F6E4346E9654A3"
+          },
+          "unit": "030",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper04/interslavic/v001/Noether_Paper04_Section01_Interslavic_v001.tex",
+          "german_lines": [
+            3693
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 6399,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 367,
+            "sha256": "616DFBF3500062A7E3224C56364F1167415A0F4C33327AD4BE7A909736AA0540"
+          },
+          "post": {
+            "bytes": 367,
+            "sha256": "DD33CB9898A8012EDEC15A898B33B8167F94A9CB959E189CB94E9B973E481E2D"
+          },
+          "unit": "053",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper06/interslavic/v001/Noether_Paper06_Section13_Interslavic_v001.tex",
+          "german_lines": [
+            5665
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 8723,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 684,
+            "sha256": "F54F257692D075E766908ACA1CD1BB48111210E6A885BDE0799D1E3134D56372"
+          },
+          "post": {
+            "bytes": 684,
+            "sha256": "EB74CDAE0BB0AAAA6957DCD22263F1E1AB811B0D329FB955FF7ADB774D46A4F2"
+          },
+          "unit": "073",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper11/interslavic/v001/Noether_Paper11_Interslavic_v001.tex",
+          "german_lines": [
+            7897
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 8831,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 897,
+            "sha256": "01A033957A296D1FDA6AEBC3105ED0F329196AF9797401B0389B21AF33717CDB"
+          },
+          "post": {
+            "bytes": 897,
+            "sha256": "54C790A24B285E155FA521A02D32D6D3A98BA3F632EBA52091F0DA721798ED65"
+          },
+          "unit": "073",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper11/interslavic/v001/Noether_Paper11_Interslavic_v001.tex",
+          "german_lines": [
+            8015
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 9878,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 1667,
+            "sha256": "11D172298134D31F8FAA18DB0371A28F1AFBE42DC2FCFCDE8E9E316281D9D373"
+          },
+          "post": {
+            "bytes": 1667,
+            "sha256": "BE1266ED3D447B11E615DF9891503A57C806D021B8AA85136385E9563980BF0F"
+          },
+          "unit": "076",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper14/interslavic/v001/Noether_Paper14_Interslavic_v001.tex",
+          "german_lines": [
+            9156
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 9880,
+          "occurrences": 3,
+          "pre": {
+            "bytes": 1254,
+            "sha256": "0DEFEC70476708B2BAFD359152988AB634DF39CAC9EF0A00246F7B79512AC441"
+          },
+          "post": {
+            "bytes": 1254,
+            "sha256": "CDFB0BE2A0B895F867601AA49E45809614F7FD917C39E9732CC1EF21C0525248"
+          },
+          "unit": "076",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper14/interslavic/v001/Noether_Paper14_Interslavic_v001.tex",
+          "german_lines": [
+            9158
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 9882,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 1288,
+            "sha256": "D4AD5C64243663F0E7A702600382A0743C470318CC47D419DBE2F205E2E753B4"
+          },
+          "post": {
+            "bytes": 1288,
+            "sha256": "D0C5BD752EBA0F6F1C72415053578198CE895F0163E71CCC518F02D808382509"
+          },
+          "unit": "076",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper14/interslavic/v001/Noether_Paper14_Interslavic_v001.tex",
+          "german_lines": [
+            9160
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 9906,
+          "occurrences": 2,
+          "pre": {
+            "bytes": 2218,
+            "sha256": "AA71AEA65737EA16C20191C8944D4C8858C9DCFE08AD3E738EAB6152BBC00630"
+          },
+          "post": {
+            "bytes": 2218,
+            "sha256": "2FE7E58E07516E4427AE42C17D46961DB475B7F5FF58F3F35DA309D9FD27EED3"
+          },
+          "unit": "076",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper14/interslavic/v001/Noether_Paper14_Interslavic_v001.tex",
+          "german_lines": [
+            9184
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 9909,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 1631,
+            "sha256": "360BEE1D26ECDE9098E72DDD6DC7B5BDAC88C9A4C36305BEEE85ABE9FC68E28E"
+          },
+          "post": {
+            "bytes": 1631,
+            "sha256": "6AD4AA530B2ED7189499A01E08CB467F4C89BB017C4CEC7DFDE0CF83AB03BA9E"
+          },
+          "unit": "076",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper14/interslavic/v001/Noether_Paper14_Interslavic_v001.tex",
+          "german_lines": [
+            9187
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 9966,
+          "occurrences": 2,
+          "pre": {
+            "bytes": 620,
+            "sha256": "9FCE5787231A30EDF50ECE1D16AB7E12ABD3772F86C648C09A4D8B854D8BC817"
+          },
+          "post": {
+            "bytes": 620,
+            "sha256": "45564EC70A6581012A2D81D1E0C4B9332151DB6C83FE406E737148E8B4485FFF"
+          },
+          "unit": "076",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper14/interslavic/v001/Noether_Paper14_Interslavic_v001.tex",
+          "german_lines": [
+            9224
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 9978,
+          "occurrences": 2,
+          "pre": {
+            "bytes": 1526,
+            "sha256": "CD3E595BC85FA59D970AFC2204D9A7D98B4FCA73F5345863DBA1E53215783B84"
+          },
+          "post": {
+            "bytes": 1526,
+            "sha256": "45FAD5EAC517E6834E7BB1829FEE9FB9CC49E462AE35B63EAEC47E64CD1ACFA3"
+          },
+          "unit": "076",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper14/interslavic/v001/Noether_Paper14_Interslavic_v001.tex",
+          "german_lines": [
+            9228
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 9992,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 1103,
+            "sha256": "72F55C9C1ECCA950A29DE533677B8F78C196C5C83C4350E02D8DAF1423E523C5"
+          },
+          "post": {
+            "bytes": 1103,
+            "sha256": "2D48683C62605834E8685E22A64CED3424F64FEA0B9B1C8F760E171AAE675D80"
+          },
+          "unit": "076",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper14/interslavic/v001/Noether_Paper14_Interslavic_v001.tex",
+          "german_lines": [
+            9238
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 11615,
+          "occurrences": 2,
+          "pre": {
+            "bytes": 325,
+            "sha256": "13FB8ACD0414D344CD1A2B79C172E8008BF2FF219A97AF77559090A3A1DD87F1"
+          },
+          "post": {
+            "bytes": 325,
+            "sha256": "E863536604D9D77E73B36BD0655C2F4C5D734212243134D9C04CDE594A1675BA"
+          },
+          "unit": "085",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper17/interslavic/v001/Noether_Paper17_Section08_Interslavic_v001.tex",
+          "german_lines": [
+            10624
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 11647,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 184,
+            "sha256": "6C48A92F6E7E2CE020BF97E4E4EABFF87A3A6AFAE455AC932D7E54B3423E7734"
+          },
+          "post": {
+            "bytes": 184,
+            "sha256": "AE6939C399C6FE1020CC24744C34D49895A53912E4608561B36402724E7CF497"
+          },
+          "unit": "086",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper17/interslavic/v001/Noether_Paper17_Section09_Interslavic_v001.tex",
+          "german_lines": [
+            10628
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 11649,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 397,
+            "sha256": "244BEB9EC0FAC0F3B6FC241EE45416999A936DD76E39777FD32DA74C39E46D51"
+          },
+          "post": {
+            "bytes": 397,
+            "sha256": "C8BE1BAB5D9E7ACB99D3970A0B07432BF591DCC7F70D4483346D4113912DB311"
+          },
+          "unit": "086",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper17/interslavic/v001/Noether_Paper17_Section09_Interslavic_v001.tex",
+          "german_lines": [
+            10630
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 11981,
+          "occurrences": 3,
+          "pre": {
+            "bytes": 497,
+            "sha256": "9FA67BA25AB6554AAC0A9D411552B04F872550E5DCAA1F919B06E78E574B90C5"
+          },
+          "post": {
+            "bytes": 497,
+            "sha256": "0053BAB4F43BEDA116FF967EC887683AFFBF127AAAF2F76A8A29B017E0F33CF9"
+          },
+          "unit": "088",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper17/interslavic/v001/Noether_Paper17_Section11_Interslavic_v001.tex",
+          "german_lines": [
+            10914
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 12078,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 611,
+            "sha256": "6C87B3207323E07ACE2C62FD1F759B5406AF9D84C86BA942390222CC18CD8E67"
+          },
+          "post": {
+            "bytes": 611,
+            "sha256": "9C11F335730FA2C424959568024B61A71C0D099BA1E883EA5A37FCD94C8BB0DE"
+          },
+          "unit": "089",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper17/interslavic/v001/Noether_Paper17_Section12_Interslavic_v001.tex",
+          "german_lines": [
+            10983
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 12208,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 482,
+            "sha256": "06808203208A53084CEA7BDAC8DBC8D63DE6EEC0D9BA81C383ABEB6F018D0AD3"
+          },
+          "post": {
+            "bytes": 482,
+            "sha256": "3D724E7D0DAC377926ADCC15765B797F15DEC3D1F84172BF5504FA89EED4C6A3"
+          },
+          "unit": "089",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper17/interslavic/v001/Noether_Paper17_Section12_Interslavic_v001.tex",
+          "german_lines": [
+            11113
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 12230,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 431,
+            "sha256": "3DF403E0E3F8C8C90ECB7F53F67DC91C8D699B48CCFC39016B3CE0D0C9799B69"
+          },
+          "post": {
+            "bytes": 431,
+            "sha256": "3626B89929BB2B575DEDF01DD5B3CF211F8F00E55A94A9E743A8C4E44E600ECF"
+          },
+          "unit": "089",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper17/interslavic/v001/Noether_Paper17_Section12_Interslavic_v001.tex",
+          "german_lines": [
+            11135
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 13149,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 445,
+            "sha256": "083C70ED10742D0851D24EAC285E58C833E693F106959A38C7F66075D156B54D"
+          },
+          "post": {
+            "bytes": 445,
+            "sha256": "3DDA6E7A3E414CDF6335A323613E41AED43B9E252E558DFE9E42C8A1B8ADF5B2"
+          },
+          "unit": "097",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper19/interslavic/v001/Noether_Paper19_Section06_Interslavic_v001.tex",
+          "german_lines": [
+            11888
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 13303,
+          "occurrences": 2,
+          "pre": {
+            "bytes": 1717,
+            "sha256": "54DD705DDBA8E3EBD44A12F6EF25E60A55EF0F2310BBE9755C9C37D418580134"
+          },
+          "post": {
+            "bytes": 1717,
+            "sha256": "F002D3870EB22B16542D128137C69ACCD0E71F5461503CA6E4F9CEE372669C24"
+          },
+          "unit": "099",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper19/interslavic/v001/Noether_Paper19_Section08_Interslavic_v001.tex",
+          "german_lines": [
+            12018
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 13307,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 131,
+            "sha256": "7C559E4B54F7AF618EB2C6F8D305A2453CDDA7E4D26A817F2A9C7ADCE576D03E"
+          },
+          "post": {
+            "bytes": 131,
+            "sha256": "DF4B22E40160C6F1FE776B0B1A4441A0176812FBF2F11F11CB78D201D91B545D"
+          },
+          "unit": "099",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper19/interslavic/v001/Noether_Paper19_Section08_Interslavic_v001.tex",
+          "german_lines": [
+            12025
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 13657,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 1192,
+            "sha256": "7DFDD2BBFE9D9FB7EB58E6DBE1F08246E1644106A3F8BE58A043D616A370EC7F"
+          },
+          "post": {
+            "bytes": 1192,
+            "sha256": "0295D3E9E490278D948E9AEA634BC324BB986BF71C4C0AE617A375E714D45B4E"
+          },
+          "unit": "102",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper19/interslavic/v001/Noether_Paper19_Section11_Interslavic_v001.tex",
+          "german_lines": [
+            12321
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 13802,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 787,
+            "sha256": "009FBEDDC54ADC7005C1BA7E4D4254424F26A4517E04385C08E0B23E2B3F7854"
+          },
+          "post": {
+            "bytes": 787,
+            "sha256": "E14EE26FA2658BF9C7E95956CE93224E738F9CA3161D3539E44D9C5CC4C95E63"
+          },
+          "unit": "104",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper20/interslavic/v001/Noether_Paper20_Interslavic_v001.tex",
+          "german_lines": [
+            12405
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 13806,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 194,
+            "sha256": "62BFCFC570D9E50C80D1B46C4BBF6906DD0D89AC590EF771D09AB48033D33C18"
+          },
+          "post": {
+            "bytes": 194,
+            "sha256": "4AE5D8A13B2CC45602B921E1A8850ADAFA7375FFB3B4D7779C3E77D3C1B6359A"
+          },
+          "unit": "104",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper20/interslavic/v001/Noether_Paper20_Interslavic_v001.tex",
+          "german_lines": [
+            12409
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 13866,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 223,
+            "sha256": "989DE0789DE8284D7CCBD72CEBC14B959EC61866ACF75CC066D224C23AE69E59"
+          },
+          "post": {
+            "bytes": 223,
+            "sha256": "DEAC28D6DAD1D4C50D8CEA2EA739CD00DA90EF7137428BBDFF839811DDC1D695"
+          },
+          "unit": "104",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper20/interslavic/v001/Noether_Paper20_Interslavic_v001.tex",
+          "german_lines": [
+            12454
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 13965,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 73,
+            "sha256": "BC31AC998F2942C9F1A9D9368FA6E9D43F83D633DA2F76EECDA81FA1B3E201A4"
+          },
+          "post": {
+            "bytes": 73,
+            "sha256": "11522A63C5A71B86D49FF623F570DDC9028A2AE209F639F0DF8C7FE6074DCE88"
+          },
+          "unit": "104",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper20/interslavic/v001/Noether_Paper20_Interslavic_v001.tex",
+          "german_lines": [
+            12545
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 13997,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 340,
+            "sha256": "6A4B8E1C531592931130CA31FF08D757B0D6E3C7D43EA26FDA3045983AD2FFE7"
+          },
+          "post": {
+            "bytes": 340,
+            "sha256": "58A9B0CF681EA8FA2C526DE16964241BB432056A8579AF80FED5538349D20BC4"
+          },
+          "unit": "104",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper20/interslavic/v001/Noether_Paper20_Interslavic_v001.tex",
+          "german_lines": [
+            12575
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 14221,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 1047,
+            "sha256": "C628E306271675EDCF9A9F7A3B541480D5D7EB9A16502E26FEBCFA772570C8EA"
+          },
+          "post": {
+            "bytes": 1047,
+            "sha256": "70F7441031EEDF76B7210469FBD2D73EA5389686299E2A7E21BBF0D3545ED79D"
+          },
+          "unit": "106",
+          "source": "../producer_units/Noether_Paper22_Interslavic_v001.tex",
+          "german_lines": [
+            12726
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 14225,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 378,
+            "sha256": "611B18A1670D3DD84AC6EC00F47C227D8D399EF0BA18E18BC3AFC91782934C3D"
+          },
+          "post": {
+            "bytes": 378,
+            "sha256": "31A60DCD0453B76D7DF6493E58FAFAB1432ACE3E97D580C271943827A0ACF067"
+          },
+          "unit": "106",
+          "source": "../producer_units/Noether_Paper22_Interslavic_v001.tex",
+          "german_lines": [
+            12730
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 14632,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 636,
+            "sha256": "C8AB8ED5BDD96D80016196E473B45F90A5EEA4081BB0C0A121BEB46FFAC36DF4"
+          },
+          "post": {
+            "bytes": 636,
+            "sha256": "3C33C65BFD10C6C8D047207502DD9118D834FD81F72FFDDAAA3C13FF3DC6E8C8"
+          },
+          "unit": "106",
+          "source": "../producer_units/Noether_Paper22_Interslavic_v001.tex",
+          "german_lines": [
+            13118
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 14934,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 406,
+            "sha256": "4F23DD624DCD1F1141E5C3DF8952727AD88C82DF13244964BFFBDEF90995C579"
+          },
+          "post": {
+            "bytes": 406,
+            "sha256": "028CED4E45B56B4B2B5C9DCFCCE07FD5DE4BB8328F9AE202E4C55DFA88C2A374"
+          },
+          "unit": "106",
+          "source": "../producer_units/Noether_Paper22_Interslavic_v001.tex",
+          "german_lines": [
+            13426
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 15262,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 1676,
+            "sha256": "F5B5C7DFC08BCBCFA036EA704DAEC66665D236180DEB8FA6BF70957FDAC50298"
+          },
+          "post": {
+            "bytes": 1676,
+            "sha256": "02FFC287530CD43386C23D9447BB1AAEA3201E8FBE3131DE3E7DB6175C7A5259"
+          },
+          "unit": "108",
+          "source": "../producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+          "german_lines": [
+            13673
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 15718,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 709,
+            "sha256": "3BA93B97EDA131BC6392B980403B65CC4583C43922C3271B02A49DED462DA98F"
+          },
+          "post": {
+            "bytes": 709,
+            "sha256": "AC38709A976E08B4BEF8D52590C905F9835F971341F4B233EECD3592E5318204"
+          },
+          "unit": "108",
+          "source": "../producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+          "german_lines": [
+            14114
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 15811,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 421,
+            "sha256": "D8E4A85C563D17B3FB9648BC7400EC1EADE849B81357014948D2D35949AE8DD9"
+          },
+          "post": {
+            "bytes": 421,
+            "sha256": "473ABF09E47AAA245FFC3ED236D2A3F4043C42916FEB3DCC3A43F9CD98B7F89C"
+          },
+          "unit": "109",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper25/interslavic/v001/Noether_Paper25_Interslavic_v001.tex",
+          "german_lines": [
+            14160
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 15813,
+          "occurrences": 2,
+          "pre": {
+            "bytes": 552,
+            "sha256": "E45301A7E62CB0DDC85168A28BD2261033497F4DD5AF3FF499236169C36C03D5"
+          },
+          "post": {
+            "bytes": 552,
+            "sha256": "47AD8F54B68E2E909122837038FD0D08985F8826715A2E9005265F4B8A951D47"
+          },
+          "unit": "109",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper25/interslavic/v001/Noether_Paper25_Interslavic_v001.tex",
+          "german_lines": [
+            14162
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 15827,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 1405,
+            "sha256": "07AA72D268F8FDADA4198EC8CAFEB25F59FBF56255E5A14A23198E259E679080"
+          },
+          "post": {
+            "bytes": 1405,
+            "sha256": "6A38920CD0E4905FA5FDAAD633BC517C8DDDCBA258880AEE2019E632D325975B"
+          },
+          "unit": "109",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper25/interslavic/v001/Noether_Paper25_Interslavic_v001.tex",
+          "german_lines": [
+            14176
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 15829,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 99,
+            "sha256": "D34511544753265AA42338FA91970A0ED5C62A75C60CA63F09E5BF5BE6D4EDEC"
+          },
+          "post": {
+            "bytes": 99,
+            "sha256": "10F9CA097BAA7643306858D17D914BC6B5C168732E8377730B44340EFDC04DFF"
+          },
+          "unit": "109",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper25/interslavic/v001/Noether_Paper25_Interslavic_v001.tex",
+          "german_lines": [
+            14178
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 15836,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 774,
+            "sha256": "46ADC7178BA01F188F6A301A45989937CA139B6B100653B04EBA484FC165F50E"
+          },
+          "post": {
+            "bytes": 774,
+            "sha256": "7C151610D79235E5FA4559B7460209E474F69B822DF0971D5287B68C47E1F7BC"
+          },
+          "unit": "109",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper25/interslavic/v001/Noether_Paper25_Interslavic_v001.tex",
+          "german_lines": [
+            14185
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 15848,
+          "occurrences": 2,
+          "pre": {
+            "bytes": 915,
+            "sha256": "629A541661F69B3E7E4851010F920EEF766070FF6B45F0417A61C113AD3BB3AD"
+          },
+          "post": {
+            "bytes": 915,
+            "sha256": "54EEE46B5A397C384B08F3C31A198CA03C05047B51E3A65D520D5BE58E3514FC"
+          },
+          "unit": "109",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper25/interslavic/v001/Noether_Paper25_Interslavic_v001.tex",
+          "german_lines": [
+            14197
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 16114,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 600,
+            "sha256": "F5229B21610C31D28C70C9CBC5A79035C333FEB93213AE6EE6F2B119FAB1D027"
+          },
+          "post": {
+            "bytes": 600,
+            "sha256": "86435C9D81E3CA3550231002A72BA3D1227EE4E21A2DBA7DE258B8647407641B"
+          },
+          "unit": "114",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper30/intro/interslavic/v001/Noether_Paper30_Intro_Interslavic_v001.tex",
+          "german_lines": [
+            14359
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 16400,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 233,
+            "sha256": "D6636E0FECD7627EB2ACF5C413E90F81164BF781E52E4BD03063971A898765AF"
+          },
+          "post": {
+            "bytes": 233,
+            "sha256": "2A6D1B6C966D1BBD8A8208126AA54FF178649F2597A7BB1E8F3213C866D5BF61"
+          },
+          "unit": "117",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper30/section03/interslavic/v001/Noether_Paper30_Section03_Interslavic_v001.tex",
+          "german_lines": [
+            14887
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 16402,
+          "occurrences": 2,
+          "pre": {
+            "bytes": 1155,
+            "sha256": "8B2C3430A2DF548FF188525EA589AF5C1B1655ACBED8633D80262057BCE23D67"
+          },
+          "post": {
+            "bytes": 1155,
+            "sha256": "3061D7EBD3B95E00661FE1455EE533C48E6DFFDE7B323331A7E29BEE444EC1ED"
+          },
+          "unit": "117",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper30/section03/interslavic/v001/Noether_Paper30_Section03_Interslavic_v001.tex",
+          "german_lines": [
+            14889
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 17280,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 1126,
+            "sha256": "79A6CD5B99869ABFAB06339A7E994B3D8B6A5D585754E4FE1E46D2B6CF32199A"
+          },
+          "post": {
+            "bytes": 1126,
+            "sha256": "1629FF46BAE2ED6BDD19D9B02B074763D2BB6CEB02E7F077721D7802F7527DC9"
+          },
+          "unit": "125",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper31/introduction/interslavic/v001/Noether_Paper31_Introduction_Interslavic_v001.tex",
+          "german_lines": [
+            15624
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 17703,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 1548,
+            "sha256": "0A3EE8F69BF1895DE2753E4FACBD0C84757C15DB4B0ED57471B1E0E79141C1C1"
+          },
+          "post": {
+            "bytes": 1548,
+            "sha256": "AC4060F719B177892A7E83FA81129C9C2EA8C3982A4D466A4555C61D6A01AB73"
+          },
+          "unit": "134",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper31/section03_entry03/interslavic/v001/Noether_Paper31_Section03_Entry03_Interslavic_v001.tex",
+          "german_lines": [
+            15808
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 18558,
+          "occurrences": 2,
+          "pre": {
+            "bytes": 782,
+            "sha256": "11C6C7F5D049685D31BF6F9D866CAC5B18EA46B6BA5D2CD5E8702143DD37FD3A"
+          },
+          "post": {
+            "bytes": 782,
+            "sha256": "E8944695643B81275B2A070D79D23E7E0EBA1045B805DCB459A96079C34DA2F9"
+          },
+          "unit": "156",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper31/section07_entry01/interslavic/v001/Noether_Paper31_Section07_Entry01_Interslavic_v001.tex",
+          "german_lines": [
+            16024,
+            16026
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 19845,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 264,
+            "sha256": "7A68C57DCB18998AE684AF2FF6D1D1E7D3163A41BF99E755A048C6C895C63D71"
+          },
+          "post": {
+            "bytes": 264,
+            "sha256": "EC58E20FFE5B23851BC7D234C7D913CB83D92B42A9FEC6EACAF8157ED5E0169E"
+          },
+          "unit": "186",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper34/section01/interslavic/v001/Noether_Paper34_Section01_Interslavic_v001.tex",
+          "german_lines": [
+            16423
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 24450,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 824,
+            "sha256": "44F48DE7DE08DD7A5C604EE2BCEC9CC0E3BF04171798CDB6F566AAE940CF6524"
+          },
+          "post": {
+            "bytes": 824,
+            "sha256": "B98A00A410E9EB827BB1CA92B44C4E8F6D024B564A1B8111D886FE241E309335"
+          },
+          "unit": "218",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper42/source_fidelity/interslavic/v001/Noether_Paper42_SourceFidelity_Interslavic_v001.tex",
+          "german_lines": [
+            19950
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 24527,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 270,
+            "sha256": "BA423F2B0B2D04ED40356120D3ECD9B40FA9A5A50D848EFDBB8F38F115A8A732"
+          },
+          "post": {
+            "bytes": 270,
+            "sha256": "374C6183E01FC9C37A1253985AD725C6204CDC78273AF8C6EACF0703D05F60AC"
+          },
+          "unit": "218",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper42/source_fidelity/interslavic/v001/Noether_Paper42_SourceFidelity_Interslavic_v001.tex",
+          "german_lines": [
+            20009
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 24538,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 80,
+            "sha256": "78BC10FFCB96EB6C90838BE0A0FD63193C6B90E0C2DBF1FB047B0DD30E38AB90"
+          },
+          "post": {
+            "bytes": 80,
+            "sha256": "CB2BA7705883FB87ECBD33A4664B531E2DFE5F33D17EB31EE6B7E4E5C6EB15CD"
+          },
+          "unit": "218",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper42/source_fidelity/interslavic/v001/Noether_Paper42_SourceFidelity_Interslavic_v001.tex",
+          "german_lines": [
+            20013
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 24661,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 306,
+            "sha256": "C9F150047C47AB215612673860209BF219FE5380281ED0C56932289AA26E3EF9"
+          },
+          "post": {
+            "bytes": 306,
+            "sha256": "92EE809E503A1EFB16FA3F01ECF4A7BC93B32B5FE9D69047E0118FAB0B773268"
+          },
+          "unit": "218",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper42/source_fidelity/interslavic/v001/Noether_Paper42_SourceFidelity_Interslavic_v001.tex",
+          "german_lines": [
+            20141
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 24667,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 447,
+            "sha256": "8C6D0AEC77CAE20A3C6A34A21C42B28B6535A729B46D3CC914CAD2C28C9AC037"
+          },
+          "post": {
+            "bytes": 447,
+            "sha256": "7078F12DF21082E8A653A530C1084E2C6E16C90D078995C4564C8B9C8B459F41"
+          },
+          "unit": "218",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper42/source_fidelity/interslavic/v001/Noether_Paper42_SourceFidelity_Interslavic_v001.tex",
+          "german_lines": [
+            20146
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 24754,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 202,
+            "sha256": "01519023ED18E18FED2F367C399C8D0964EE4CA2942B70E1BEAAA2585327B3DB"
+          },
+          "post": {
+            "bytes": 202,
+            "sha256": "3F54FC58478787FD7C9A40F9BB4A2E4147212251E9166D75B3BEA86C78A2EE65"
+          },
+          "unit": "219",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper43/source_fidelity/interslavic/v001/Noether_Paper43_SourceFidelity_Interslavic_v001.tex",
+          "german_lines": [
+            20198
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 24764,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 402,
+            "sha256": "29E2DFFBF3A5380B2E739C53569AF41DBA78C6390B0FCFBDF7C9F99BBC1580CB"
+          },
+          "post": {
+            "bytes": 402,
+            "sha256": "3C01BD50881B73E8A975A4C09048264343C9AFCEE864FCA31C8A3082A48A162B"
+          },
+          "unit": "219",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper43/source_fidelity/interslavic/v001/Noether_Paper43_SourceFidelity_Interslavic_v001.tex",
+          "german_lines": [
+            20206
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 24772,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 774,
+            "sha256": "8EA805B89950778F59D92334A75C701812E6FC190036D79F0AD3FFD64C183434"
+          },
+          "post": {
+            "bytes": 774,
+            "sha256": "281B869CC11A273179558ED4069C0FA9DE03A07D35D9E5AA00E8BCEAECA76045"
+          },
+          "unit": "219",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper43/source_fidelity/interslavic/v001/Noether_Paper43_SourceFidelity_Interslavic_v001.tex",
+          "german_lines": [
+            20214
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 24791,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 171,
+            "sha256": "FAD52FF8D0D96BA73B96C3389C1F38B4D9F43E7B7641255015554E0B8F9FDD39"
+          },
+          "post": {
+            "bytes": 171,
+            "sha256": "D56D05333940D9DAEA9C6B07B8FBA6E1B1D81F5EB33AA4859C63BBCB15DEF6D4"
+          },
+          "unit": "219",
+          "source": "../../../../noether/02_slavic_working_corpus/translations/paper43/source_fidelity/interslavic/v001/Noether_Paper43_SourceFidelity_Interslavic_v001.tex",
+          "german_lines": [
+            20239
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/45-isv.tex",
+          "line": 324,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 70,
+            "sha256": "00FFA8EFB3D1A3C2027BC2E86548DFDEC1B28B1B1CAA0E824DF434D6B27B00E1"
+          },
+          "post": {
+            "bytes": 70,
+            "sha256": "CB31252B07A98E434B0F973FC08BB592975E3E46AF8C1B38F72750051DB54572"
+          },
+          "unit": null,
+          "source": null,
+          "german_lines": [
+            23866
+          ],
+          "visible_prose_gate": true
+        },
+        {
+          "file": "source_latin/bib-isv.tex",
+          "line": 71,
+          "occurrences": 1,
+          "pre": {
+            "bytes": 125,
+            "sha256": "ED0A7473DA1EC59C21D82486E71AA3FAB4EEB8C241009051DB534581234D0C42"
+          },
+          "post": {
+            "bytes": 125,
+            "sha256": "FE71E9A72C274AD4F78387CCA510DAFBAA55A20B54D98C36507D3F86725922BC"
+          },
+          "unit": null,
+          "source": null,
+          "german_lines": [
+            24019,
+            9105
+          ],
+          "visible_prose_gate": true
+        }
+      ],
+      "line_manifest_sha256": "13DD0B7DE69A4F5474627409567D9B77102D001F3D7F72F529776F3EA81E922B",
+      "identity_manifest": [
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 14167,
+          "unit": "106",
+          "pre": {
+            "bytes": 94,
+            "sha256": "0EB741983BEFF889DB05369A3C4E32F7BE52DDFADE6C41F2429E16CB8D7A4D36",
+            "text": "% Identity: 78294 B / SHA-256 A62399267542F5C3C37A626F8FCEAD059AF2D7DED94157D72FAE047E1BB39D8D"
+          },
+          "post": {
+            "bytes": 94,
+            "sha256": "09167221654275E841E912396E9E887FAB21C19D4C3CDA23CB0469E12E8A5D95",
+            "text": "% Identity: 78294 B / SHA-256 2BC9DA936D82535F6185578332B5D2BD9BB6A29965F6A34A623DA555567D8684"
+          }
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 15219,
+          "unit": "108",
+          "pre": {
+            "bytes": 94,
+            "sha256": "67C2DF92243306F8400D2FBE99AA1E243E98359E6ED91980B23AFCAA0FB8C09B",
+            "text": "% Identity: 95655 B / SHA-256 11B3E43A39F0CE29B5BF61D70243290168BBF3C39D42B1720D44EDF3E48F8CDB"
+          },
+          "post": {
+            "bytes": 94,
+            "sha256": "DDE82A9029E2D4BFF21B053A8B7B8452E8EE87946495F50D5C4E877E99267361",
+            "text": "% Identity: 95655 B / SHA-256 2082B1435AAE25CD455D37293341D314709855AC8D276BBFCC3D2D80FB42E380"
+          }
+        }
+      ],
+      "identity_manifest_sha256": "B4B533F4198810993A5ACADE971DA8C585168C3F7E4A343E7A70F186F0EA010F",
+      "producer_topology": {
+        "unit_blocks": 219,
+        "changed_body_units": 26,
+        "unchanged_body_units": 193,
+        "changed_unit_token_counts": {
+          "001": 1,
+          "005": 2,
+          "008": 1,
+          "030": 1,
+          "053": 1,
+          "073": 2,
+          "076": 13,
+          "085": 2,
+          "086": 2,
+          "088": 3,
+          "089": 3,
+          "097": 1,
+          "099": 3,
+          "102": 1,
+          "104": 5,
+          "106": 4,
+          "108": 2,
+          "109": 8,
+          "114": 1,
+          "117": 3,
+          "125": 1,
+          "134": 1,
+          "156": 2,
+          "186": 1,
+          "218": 5,
+          "219": 4
+        },
+        "source_locators_changed": 0,
+        "identity_receipts_changed": [
+          "106",
+          "108"
+        ],
+        "active_producer_body_matches": [
+          "003",
+          "012",
+          "057",
+          "106",
+          "108",
+          "207"
+        ]
+      },
+      "family_census": {
+        "source_old_before": 75,
+        "source_old_after": 0,
+        "source_canonical_before": 60,
+        "source_canonical_after": 135,
+        "active_producer_mirror_old_before": 6,
+        "active_producer_mirror_old_after": 0,
+        "inactive_shadow_old_preserved": 2
+      },
+      "evidence": {
+        "dictionary": {
+          "snapshot_commit": "0fab0c5b4463118d46b1cdcd506926d8848052c9",
+          "row_id": 531,
+          "isv": "jedin",
+          "addition": "(jedna, jedno)",
+          "part_of_speech": "num.card.",
+          "english": "one"
+        },
+        "grammar": {
+          "official_site_commit": "41d94b2627dc3e5e1b48a3ebda022f7dd5172489",
+          "file": "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/numerals.md",
+          "line": 43,
+          "rule": "feminine_singular_oblique_jedna_jednoj"
+        },
+        "source_site_manifest": {
+          "rows": 62,
+          "tokens": 75,
+          "serialization": "relative_path|line_1based|scalar_columns_1based_csv|raw_logical_line_utf8_sha256; LF rows plus terminal LF; file order base, book, Work45, bibliography",
+          "receipt": {
+            "bytes": 6927,
+            "sha256": "4926EE02B1A9F13D4FD3585BDE367D01727A5B88CD1A6E9F3282DB795A08C8DC"
+          },
+          "full_token_locator_manifest": {
+            "rows": 75,
+            "serialization": "relative_path|line_1based|ordinal_on_line|scalar_column_1based|utf8_byte_column_1based|absolute_utf8_byte_offset_0based|raw_logical_line_utf8_sha256; LF rows plus terminal LF",
+            "receipt": {
+              "bytes": 9305,
+              "sha256": "719BB75335316062419CB82720205B60E2BCFC26180FE5922A9B1F41077E25A0"
+            }
+          }
+        },
+        "producer_mirror_manifest": {
+          "rows": 6,
+          "serialization": "relative_path|line_1based|ordinal_on_line|scalar_column_1based|utf8_byte_column_1based|absolute_utf8_byte_offset_0based|raw_logical_line_utf8_sha256; LF rows plus terminal LF; producer order Paper22 then active Paper24",
+          "receipt": {
+            "bytes": 880,
+            "sha256": "CE04D18A81F84A5E2E12C91FB30926983A13EEF1BCAACAFE366B357AED13BEB3"
+          }
+        },
+        "german_controls": {
+          "authority_id": "NOETH-DE-ED-0015",
+          "logical_control_lines": 64,
+          "mapped_manifest": {
+            "serialization": "source_relative_path|source_line_1based|ed0015_logical_lines_1based_csv|corresponding_raw_logical_line_utf8_sha256_csv; LF rows plus terminal LF",
+            "receipt": {
+              "bytes": 7141,
+              "sha256": "B28BB6B0D4CD8FD15CA532665F7607907AA8E0747F705BD53061D70298D64F68"
+            }
+          },
+          "unique_line_pin_set": {
+            "serialization": "UTF-8 LF; compact JSON array; recursively key-sorted dictionaries; fields bytes,line,sha256; locator order follows the 62 source line manifest rows",
+            "receipt": {
+              "bytes": 6589,
+              "sha256": "00ED678B7F6D91BD5BE3F34B730D44E28162FFB3231C5D7B3F09F0F46E9310A0"
+            }
+          },
+          "semantic_disposition": "all_source_sites_contextually_one_of_a_single_feminine_entity_or_variable_no_holds"
+        },
+        "evidence_pins": {
+          "dictionary_source_csv": {
+            "path": "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/source_sheet_basic.csv",
+            "bytes": 8101157,
+            "sha256": "0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561"
+          },
+          "dictionary_manifest": {
+            "path": "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/SNAPSHOT_MANIFEST.json",
+            "bytes": 13925,
+            "sha256": "AAC7D7192EE2B3F1346084927403176E6063E9BC2BD838C5CAB825F697C776D8"
+          },
+          "dictionary_readme": {
+            "path": "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/README_SNAPSHOT.md",
+            "bytes": 5432,
+            "sha256": "E2988A1E683B42488F2F313C9B70DB3856F1462F32A3088707B51FA3BF14463F"
+          },
+          "dictionary_alignment": {
+            "path": "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/DEPLOYED_SOURCE_ALIGNMENT.json",
+            "bytes": 44648,
+            "sha256": "0A65401D8BF362E247F1A570B4B48567EF3891AFD02975FC8EB199C0D94AF5E7"
+          },
+          "grammar_numerals": {
+            "path": "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/numerals.md",
+            "bytes": 12907,
+            "sha256": "4E0D13888444D6005CB886118726F8F8EF0BD5280434BD1EF66C9BFB3AE9A05C"
+          },
+          "grammar_fetch_receipt": {
+            "path": "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/AUTHORITY_FETCH_RECEIPT.json",
+            "bytes": 44280,
+            "sha256": "2B87832C873F3B8860F29219EF3E3E2C60665D9C237A06D53E7D82E5FF0A316A"
+          },
+          "grammar_manifest": {
+            "path": "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/AUTHORITY_SNAPSHOT_MANIFEST.json",
+            "bytes": 107058,
+            "sha256": "CFF235A721386FB74CB5970C5F7114655EA791E5CC48777CCCC4CD3F83130B9A"
+          },
+          "german_ed0015": {
+            "path": "03_projects/noether/07_german_canon_control/candidates/ED0015/noether.tex",
+            "bytes": 2154017,
+            "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907"
+          }
+        }
+      },
+      "assertions": {
+        "exact_reverse_all_five_targets": true,
+        "protected_TeX_signatures_equal": true,
+        "math_payloads_equal": true,
+        "protected_comments_equal": true,
+        "all_81_physical_targets_visible_prose": true,
+        "all_75_source_sites_German_controlled": true,
+        "official_dictionary_and_grammar_selected": true,
+        "producer_first_projection": true,
+        "active_producer_body_identity_after": true,
+        "inactive_shadow_intentionally_unchanged": true
+      },
+      "transaction": {
+        "target_order": [
+          "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper22_Interslavic_v001.tex",
+          "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+          "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/source_latin/base-papers1-43-isv.tex",
+          "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/source_latin/45-isv.tex",
+          "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/source_latin/bib-isv.tex"
+        ],
+        "architecture": "five-target rollback-first identity-bound recovery transaction",
+        "rollback_images_before_stages": true,
+        "replace_return_and_exception_reconciliation": true,
+        "third_state_preservation": true,
+        "full_vector_audit_before_recovery_destruction": true,
+        "lock_removed_last": true,
+        "cross_crash_atomicity_claim": false,
+        "uncooperative_writer_serialization_claim": false
+      },
+      "claims": {
+        "semantic_holds": 0,
+        "open_dispositions": 0,
+        "metadata_sealed": false,
+        "build": false,
+        "render": false,
+        "publication": false,
+        "native_or_community_certification": false
+      },
+      "workspace_files_mutated": false
+    },
+    "dry_run_stdout": {
+      "bytes": 58043,
+      "sha256": "341D88C726395A5954C0C84029E892D922C0B8DC794EB537966FE733E1283EB4"
+    },
+    "production_apply_stdout_reconstructed": {
+      "bytes": 58045,
+      "sha256": "0CEC9AF22EF837C73B587412EA168BBFA31982109123B00299AD5166549409D3"
+    },
+    "reverse_forward": {
+      "exact_reverse_all_five_targets": true,
+      "exact_forward_replay_all_five_targets": true,
+      "cohort_rows": [
+        {
+          "path": "source_latin/base-papers1-43-isv.tex",
+          "predecessor": {
+            "bytes": 1890935,
+            "sha256": "75F7A3D8BC7C947666FAFEE4413B709F8120C7C268E87F3709CDEC9995FBBB09"
+          },
+          "successor": {
+            "bytes": 1890935,
+            "sha256": "093B72166871227F524B041897EA28DF573D28D0AFD24386316CE7A17842B505"
+          }
+        },
+        {
+          "path": "source_latin/44-book-isv.tex",
+          "predecessor": {
+            "bytes": 168353,
+            "sha256": "586966CD5023C3F1ED0286A443C76FBB155BF165EF93AC27CC00DC5AE253D966"
+          },
+          "successor": {
+            "bytes": 168353,
+            "sha256": "586966CD5023C3F1ED0286A443C76FBB155BF165EF93AC27CC00DC5AE253D966"
+          }
+        },
+        {
+          "path": "source_latin/45-isv.tex",
+          "predecessor": {
+            "bytes": 25934,
+            "sha256": "C2CC41E5FCA7AAF20C502D67C468B5DF381951C30B60DE3B29D093A50DBB684F"
+          },
+          "successor": {
+            "bytes": 25934,
+            "sha256": "B05CEA77F54792AF9A3507CC6C85BC2F3CAF061DE5886DF1E95DF7E6E9923268"
+          }
+        },
+        {
+          "path": "source_latin/bib-isv.tex",
+          "predecessor": {
+            "bytes": 9940,
+            "sha256": "3BF01176A02342D20D1C0A0DD23346F4B0552408AE0F213945FDC988B602E62C"
+          },
+          "successor": {
+            "bytes": 9940,
+            "sha256": "6FFDB3D9CCA38B0971905B4151BB52564FDF7CFC9D6C3853667657A3A13896AF"
+          }
+        },
+        {
+          "path": "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex",
+          "predecessor": {
+            "bytes": 7619,
+            "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"
+          },
+          "successor": {
+            "bytes": 7619,
+            "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"
+          }
+        },
+        {
+          "path": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+          "predecessor": {
+            "bytes": 14964,
+            "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+          },
+          "successor": {
+            "bytes": 14964,
+            "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+          }
+        },
+        {
+          "path": "producer_units/Noether_Paper08_Interslavic_v001.tex",
+          "predecessor": {
+            "bytes": 23894,
+            "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"
+          },
+          "successor": {
+            "bytes": 23894,
+            "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"
+          }
+        },
+        {
+          "path": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+          "predecessor": {
+            "bytes": 78294,
+            "sha256": "A62399267542F5C3C37A626F8FCEAD059AF2D7DED94157D72FAE047E1BB39D8D"
+          },
+          "successor": {
+            "bytes": 78294,
+            "sha256": "2BC9DA936D82535F6185578332B5D2BD9BB6A29965F6A34A623DA555567D8684"
+          }
+        },
+        {
+          "path": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+          "predecessor": {
+            "bytes": 95655,
+            "sha256": "11B3E43A39F0CE29B5BF61D70243290168BBF3C39D42B1720D44EDF3E48F8CDB"
+          },
+          "successor": {
+            "bytes": 95655,
+            "sha256": "2082B1435AAE25CD455D37293341D314709855AC8D276BBFCC3D2D80FB42E380"
+          }
+        },
+        {
+          "path": "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+          "predecessor": {
+            "bytes": 4752,
+            "sha256": "E60C00BD715913C21F6DB35DE68F5677F2FC6B5D486756C565905B1EA7774DC1"
+          },
+          "successor": {
+            "bytes": 4752,
+            "sha256": "E60C00BD715913C21F6DB35DE68F5677F2FC6B5D486756C565905B1EA7774DC1"
+          }
+        },
+        {
+          "path": "producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+          "predecessor": {
+            "bytes": 95451,
+            "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+          },
+          "successor": {
+            "bytes": 95451,
+            "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+          }
+        }
+      ],
+      "cohort_manifest_sha256": "129C98660B1FE53676A91B66CE6A02F6CEA3C923DD72E68F26363CD88ECD3D5D"
+    }
+  },
+  "application_evidence": {
+    "preapply_default_dry_run_twice_each": {
+      "bytes": 58043,
+      "sha256": "341D88C726395A5954C0C84029E892D922C0B8DC794EB537966FE733E1283EB4",
+      "exit_code": 0,
+      "stderr_bytes": 0,
+      "byte_identical": true,
+      "workspace_mutated": false
+    },
+    "built_in_self_test_twice_each": {
+      "bytes": 1868,
+      "sha256": "92FC31B1029D25EF5DA2F22BC0DFBDF4103E4E086EC3283BD6AE1C5F29BB9E59",
+      "exit_code": 0,
+      "stderr_bytes": 0,
+      "byte_identical": true,
+      "workspace_mutated": false,
+      "cases": 21
+    },
+    "independent_hostile_matrix": {
+      "cases": 66,
+      "failures": 0,
+      "current_applicator_pin": true
+    },
+    "production_apply_stdout": {
+      "bytes": 58045,
+      "sha256": "0CEC9AF22EF837C73B587412EA168BBFA31982109123B00299AD5166549409D3",
+      "exit_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "custody": "captured tool output and independently reconstructed; no stdout file retained in the workspace"
+    },
+    "workspace_guard_preapply": {
+      "path_count": 29,
+      "paths": [
+        "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/DEPLOYED_SOURCE_ALIGNMENT.json",
+        "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/README_SNAPSHOT.md",
+        "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/SNAPSHOT_MANIFEST.json",
+        "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/source_sheet_basic.csv",
+        "03_projects/language_management/slavic_interslavic/00_lane_control/ACTIVE_DURABLE_GOAL_NOETHER_SLAVIC_EDITIONS_20260814.md",
+        "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/AUTHORITY_FETCH_RECEIPT.json",
+        "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/AUTHORITY_SNAPSHOT_MANIFEST.json",
+        "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/numerals.md",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/00_SESSION_INDEPENDENT_STATE_v019.json",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/00_SESSION_INDEPENDENT_WORKLOG_v019.jsonl",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/apply_imenno_adverb_standardization_v019.py",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/apply_jednoj_feminine_oblique_v019.py",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/decision_records/ISV019-EDIT-0146.json",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/decision_records/ISV019-EDIT-0146.md",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/NORMALIZATION_DECISIONS_v019.jsonl",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper02_Section01_Interslavic_v001.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper08_Interslavic_v001.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper22_Interslavic_v001.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/seal_isv_edit0146_v019.py",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/source_latin/44-book-isv.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/source_latin/45-isv.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/source_latin/base-papers1-43-isv.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/source_latin/bib-isv.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/verify_session_independent_state_v019.ps1",
+        "03_projects/noether/07_german_canon_control/candidates/ED0015/noether.tex"
+      ],
+      "serialization": "workspace_relative_forward_slashes|bytes|UPPER_SHA; rows sorted by path casefold; LF plus terminal LF; UTF-8 no BOM",
+      "bytes": 5642,
+      "sha256": "DA1AE4655F15515C3CEE5CEFDDDEF64B62A3B2EFBF09605FBB27D33DEAF755B2"
+    },
+    "workspace_guard_postapply": {
+      "path_count": 29,
+      "paths": [
+        "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/DEPLOYED_SOURCE_ALIGNMENT.json",
+        "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/README_SNAPSHOT.md",
+        "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/SNAPSHOT_MANIFEST.json",
+        "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/source_sheet_basic.csv",
+        "03_projects/language_management/slavic_interslavic/00_lane_control/ACTIVE_DURABLE_GOAL_NOETHER_SLAVIC_EDITIONS_20260814.md",
+        "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/AUTHORITY_FETCH_RECEIPT.json",
+        "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/AUTHORITY_SNAPSHOT_MANIFEST.json",
+        "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/numerals.md",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/00_SESSION_INDEPENDENT_STATE_v019.json",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/00_SESSION_INDEPENDENT_WORKLOG_v019.jsonl",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/apply_imenno_adverb_standardization_v019.py",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/apply_jednoj_feminine_oblique_v019.py",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/decision_records/ISV019-EDIT-0146.json",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/decision_records/ISV019-EDIT-0146.md",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/NORMALIZATION_DECISIONS_v019.jsonl",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper02_Section01_Interslavic_v001.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper08_Interslavic_v001.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper22_Interslavic_v001.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/seal_isv_edit0146_v019.py",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/source_latin/44-book-isv.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/source_latin/45-isv.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/source_latin/base-papers1-43-isv.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/source_latin/bib-isv.tex",
+        "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/verify_session_independent_state_v019.ps1",
+        "03_projects/noether/07_german_canon_control/candidates/ED0015/noether.tex"
+      ],
+      "serialization": "workspace_relative_forward_slashes|bytes|UPPER_SHA; rows sorted by path casefold; LF plus terminal LF; UTF-8 no BOM",
+      "bytes": 5642,
+      "sha256": "C96188FF000170238788660CD0BEAECD3AAF02378C413346928EAC196418922F",
+      "deterministically_reconstructed_by_sealer": true,
+      "invalidated_case_sensitive_sort_reviewer_receipt": {
+        "bytes": 5642,
+        "sha256": "04B82FD2C40C38658CA03B6D72FACD494AC1192477E271D53D1B81626995B553",
+        "serialization_error": "Python default case-sensitive path sorting used instead of sorted(path, key=str.casefold)",
+        "reproduces_under_canonical_membership_and_schema": false,
+        "classification": "reviewer_reconstruction_sort_order_error",
+        "authority": false,
+        "individual_file_pin_discrepancies": 0
+      }
+    },
+    "independent_reviews": [
+      {
+        "task_identity": "/root/qa_isv0147_independent",
+        "phase": "preapply",
+        "result": "ACCEPT_ZERO_DISCREPANCIES",
+        "message_only_report": true,
+        "durable_report_file_or_transport_hash": false,
+        "writes": false,
+        "build": false,
+        "git": false,
+        "network": false
+      },
+      {
+        "task_identity": "/root/qa_isv0147_independent",
+        "phase": "postapply_preseal",
+        "result": "ACCEPT_EXACT_FIVE_OUTPUTS_REVERSE_PROTECTED_BODY_AND_RESIDUE_GATES",
+        "message_only_report": true,
+        "durable_report_file_or_transport_hash": false,
+        "writes": false,
+        "build": false,
+        "git": false,
+        "network": false
+      }
+    ],
+    "os_temp_transcript_boundary": {
+      "preproduction_capture_files": 38,
+      "name_pattern": "isv0147-*.stdout/.stderr",
+      "location": "operating_system_temporary_directory_outside_workspace",
+      "workspace_evidence_artifact": false,
+      "sealed_artifact": false,
+      "transaction_residue": false,
+      "input_to_decision": false
+    },
+    "metadata_sealer_self_test_twice_each": {
+      "bytes": 1445,
+      "sha256": "F5B44C5301739517AD474D9680A45BD89CFCF3B10C9F040D48A8A79F2B383A40",
+      "exit_code": 0,
+      "stderr_bytes": 0,
+      "byte_identical": true,
+      "workspace_mutated": false,
+      "cases": 12
+    },
+    "planned_semantic_shadow_self_test_twice_each": {
+      "bytes": 504,
+      "sha256": "4BDFF44754EAF91CED4CDB3553EC8E747005280F8042EAE818F0B85F2CD68F8A",
+      "exit_code": 0,
+      "stderr_bytes": 0,
+      "byte_identical": true,
+      "temp_only": true,
+      "workspace_files_mutated": false,
+      "pending_audit": "MATCH_PENDING_WORKLOG",
+      "final_audit": "MATCH",
+      "hostile_regression_count": 6,
+      "verifier_path_mutation_rejected": true,
+      "verifier_extra_key_rejected": true,
+      "verifier_missing_key_rejected": true,
+      "guard_membership_mutation_rejected": true,
+      "guard_schema_mutation_rejected": true,
+      "guard_case_sensitive_sort_rejected": true
+    }
+  },
+  "applicator_review_history": [
+    {
+      "candidate": {
+        "bytes": null,
+        "sha256": null
+      },
+      "status": "REJECT_SUPERSEDED_BEFORE_FREEZE_DIGEST_NOT_DURABLY_RETAINED",
+      "finding": "naive math regular expression misclassified TeX table linebreak sequences containing backslash-parenthesis as math delimiters",
+      "repair": "replace the naive expression with the accepted command-aware math scanner",
+      "digest_policy": "do_not_invent_an_unretained_candidate_digest"
+    },
+    {
+      "candidate": {
+        "bytes": 117227,
+        "sha256": "CA77ACA5D95287ACBE525BE8FF3410F6E414806D2CFCF23E6BE1FDA735A95672"
+      },
+      "status": "WITHDRAWN_INVALID",
+      "finding": "static audit found inherited dead default references to undefined CHANGED_NAMES",
+      "repair": "bind transaction defaults to the explicit TARGET_ORDER and target input/output pin maps"
+    },
+    {
+      "candidate": {
+        "path": "apply_jednoj_feminine_oblique_v019.py",
+        "bytes": 119813,
+        "sha256": "DE251FB3AABCCDFEA1A879BE22EA647489B2795E4026F1D247C179ED76AFAD6F"
+      },
+      "status": "ACCEPT_APPLIED_AND_INDEPENDENTLY_VERIFIED",
+      "tests": {
+        "built_in_transaction_cases": 21,
+        "independent_hostile_matrix_cases": 66,
+        "independent_hostile_failures": 0,
+        "authoritative_source_tokens": 75,
+        "authoritative_source_lines": 62,
+        "producer_mirror_tokens": 6,
+        "identity_receipts_changed": 2
+      }
+    }
+  ],
+  "metadata_sealer_review_history": [
+    {
+      "baseline": {
+        "path": "seal_isv_edit0146_v019.py",
+        "bytes": 121189,
+        "sha256": "2F0DF58C2BA72CE04A7522671E96152BA70B677241314AE54DB4E581182A74A7"
+      },
+      "status": "ACCEPTED_ARCHITECTURE_REUSED_BY_PINNED_IMPORT",
+      "transaction_self_tests": 12
+    },
+    {
+      "candidate": {
+        "path": "seal_isv_edit0147_v019.py",
+        "bytes": 85602,
+        "sha256": "30A45478C52DB9E39E9E2AB9F21992A20FBAE7E290D10C8B5B5679313D967162"
+      },
+      "human_companion": {
+        "path": "decision_records/ISV019-EDIT-0147.md",
+        "bytes": 9004,
+        "sha256": "616DBA36A854858A5C30ABAE1D543B440678CADE89B4372E49462EF877EF4CDF"
+      },
+      "status": "SUPERSEDED_DOCUMENTATION_ONLY_BEFORE_INDEPENDENT_REVIEW",
+      "reason": "04B82FD2 reviewer receipt was initially described as unresolved; exact cause is default case-sensitive sorting instead of canonical casefold sorting",
+      "metadata_apply": false,
+      "worklog_append": false
+    },
+    {
+      "candidate": {
+        "path": "seal_isv_edit0147_v019.py",
+        "bytes": 87627,
+        "sha256": "39CE616A5F855956933B3A49FF4DE061A1639766C86AC317D4082899BBFD1087"
+      },
+      "status": "FROZEN_NO_WRITE_CANDIDATE_PENDING_INDEPENDENT_PREAPPLY_ACCEPTANCE"
+    }
+  ],
+  "transaction_architecture": {
+    "implementation": "pinned EDIT0146 transaction core configured for EDIT0147",
+    "attempted_before_open": true,
+    "descriptor_path_identity_binding": true,
+    "mixed_present_absent_targets": true,
+    "rollback_images_before_stages": true,
+    "install_and_rollback_attempts_preregistered": true,
+    "replace_link_and_unlink_results_reconciled": true,
+    "full_target_vector_audited_before_recovery_destruction": true,
+    "preservation_on_uncertainty": true,
+    "lock_removed_last": true,
+    "postcommit_cleanup_never_rolls_back": true,
+    "cross_token_residue_gate": "complete EDIT0147 seal and worklog lock/stage/rollback namespaces; only exact current-invocation custody allowed",
+    "cross_module_identity_boundary": "primitive (device,inode,file_type) tuples plus exact content pins",
+    "cooperative_lock_only": true,
+    "cross_crash_atomicity_claim": false,
+    "five_file_filesystem_atomicity_claim": false,
+    "uncooperative_writer_serialization_claim": false,
+    "uncooperative_pathname_race_protection_claim": false
+  },
+  "unchanged_artifacts": {
+    "projection_spec": {
+      "path": "CYRILLIC_PROJECTION_V2_SPEC_v019.md",
+      "bytes": 14643,
+      "sha256": "661DB994C1D70C70D5052E912508808F8032B342D02370EB60803430CA44BA65"
+    },
+    "durable_goal_predecessor": {
+      "path": "../00_lane_control/ACTIVE_DURABLE_GOAL_NOETHER_SLAVIC_EDITIONS_20260814.md",
+      "bytes": 84398,
+      "sha256": "733BD25787D2A62C469B1E90E6D10AF218CF1FFE51FB4637A6CC65ECFB8563A6"
+    },
+    "baseline_manifest": {
+      "path": "../noether_ru_uk_v014/manifest.json",
+      "bytes": 636761,
+      "sha256": "F13DE01A4568708CA7A8F22FBA4CE2E08F9D784AFEE3BF7F8E0B4F293829503C"
+    },
+    "rosette_asset": {
+      "path": "assets/authority_rosette_native_supported_mask.png",
+      "bytes": 797,
+      "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5"
+    },
+    "preserved_state_keys": [
+      "schema",
+      "objective",
+      "root",
+      "recovery_authority",
+      "asset_pins",
+      "explicit_holds",
+      "open_dispositions",
+      "retained_authority_uncertainties",
+      "cyrillic_projection_v2_design",
+      "witnesses",
+      "publication",
+      "project_active_german_authority",
+      "methodology_input_status",
+      "nonnegotiable_safety",
+      "work_identity"
+    ],
+    "preserved_state_fields_canonical_sha256": "14640EF8D9AA615EC822853516D48D5898CFC76B63924CE6333D16376D841AC4",
+    "German_authority": "NOETH-DE-ED-0015 unchanged",
+    "rights_and_work_identity": "unchanged"
+  },
+  "append_only_supersession": {
+    "preserved": [
+      "all decisions, records, evidence, and closed dispositions through EDIT0146",
+      "the EDIT0145 portable provenance, headers, source locators, and font fallbacks",
+      "the complete EDIT0146 imenno family",
+      "all mathematics, TeX structure, immutable public predecessors, rights boundaries, and publication state",
+      "the inactive Paper24 historical shadow"
+    ],
+    "superseded_only": [
+      "the 75 exact authoritative source jednej tokens at 62 enumerated lines",
+      "the six mirrored active-producer jednej tokens",
+      "the two exact cumulative-reader Identity receipts for changed producers",
+      "the EDIT0146 source/producer hash surface and continuation statement at the authoritative metadata head"
+    ]
+  },
+  "rejected_alternatives": [
+    "retain jednej as a feminine oblique: rejected by the pinned official grammar",
+    "blind global replacement: rejected because producer, inactive-shadow, math, TeX, comment, and exact-line boundaries must be proven",
+    "edit the inactive Paper24 working shadow: rejected because it is a preserved historical shadow, not an active producer",
+    "treat OS-temp transcripts as durable evidence: rejected because they are outside the workspace and were not sealed",
+    "treat the 04B82FD2 case-sensitive-sort reconstruction as authority: rejected because canonical guard rows use casefold ordering",
+    "claim native or community certification: no such review occurred"
+  ],
+  "claims": {
+    "semantic_holds": 0,
+    "open_dispositions": 0,
+    "build": false,
+    "render": false,
+    "publication": false,
+    "repository_or_doi_change": false,
+    "native_or_community_certification": false,
+    "blanket_rights_claim": false,
+    "cross_crash_atomicity": false,
+    "uncooperative_writer_serialization": false,
+    "five_file_filesystem_atomicity": false
+  },
+  "next_action": "Continue the complete Latin residual and projector-protection sweep to genuine closure; do not declare the Latin freeze until every residual and projection-protection gate closes."
+}

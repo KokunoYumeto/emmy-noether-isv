@@ -1,0 +1,105 @@
+{
+  "decision_id": "ISV019-EDIT-0059",
+  "recorded_at": "2026-08-13T14:11:27.4442943+02:00",
+  "epistemic_type": "manager_direct_third_person_plural_morphology_repair",
+  "scope": "All 107 sentence-verified third-person-plural verb forms missing final t in live v019 Latin sources, all in papers 1-43.",
+  "choice": "Add the required final t to each exact audited third-person-plural form while preserving its stem, aspect, orthography, capitalization, clause, and mathematical meaning.",
+  "motivation": "Official verb morphology requires third-person-plural -ut/-et and contracted -ajut. Every changed site has an overt plural subject or antecedent, whereas five separately guarded -aju forms are genuine singular authorial predicates. The repair closes a systemic agreement defect without lexical normalization or sentence recasting.",
+  "alternatives_rejected": [
+    "Treat final t as optional: this conflicts with the official third-person-plural paradigm and the edition's earlier accepted repairs.",
+    "Rewrite every token ending in -aju: that would corrupt genuine first-person-singular authorial verbs and nouns such as slučaju and algebraju.",
+    "Normalize stems at the same time: this would conflate an exact morphology repair with separate lexical and orthographic decisions."
+  ],
+  "evidence": {
+    "official_verb_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/verbs.md",
+      "bytes": 21426,
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+      "relevance": "The third-person-plural endings are -ut/-et; contracted third-conjugation forms end in -ajut."
+    },
+    "context_review": {
+      "finding": "All 107 mapped sentences were reviewed and have plural subjects, plural relative antecedents, or coordinated plural predicates.",
+      "protected_authorial_forms": [
+        "45-isv.tex:273 dodaju",
+        "base-papers1-43-isv.tex:9378 vybiraju",
+        "base-papers1-43-isv.tex:12318 naměrjaju",
+        "base-papers1-43-isv.tex:14193 podaju",
+        "base-papers1-43-isv.tex:15080 Pripominaju"
+      ],
+      "protected_nonverbs": {
+        "algebraju": 6,
+        "dvaju": 3,
+        "každaju": 1,
+        "slučaju": 254
+      }
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0058",
+    "decision_log": {
+      "bytes": 229975,
+      "sha256": "91D832358E3FCE65BF2AE8D248690AEEE393CF8FA820633FF124060A150FE701"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167968,
+      "sha256": "62378962AA5A049F6241E5054178D254F9D422D719E88B26258A3B1633A140BA"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25533,
+      "sha256": "DA03012DD88C4A096B42F2C5356B92C8C2656D4AC32501E2C54986F6861FEA1B"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896956,
+      "sha256": "61B6C0F5722A71C6D2D79C7DF5A595D34074486A2A41196C2DA2CEADB3BA34CB"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "results": {
+    "sites_changed": 107,
+    "source_type_count": 23,
+    "largest_source_families": {
+      "daju": 33,
+      "nastavaju": 21,
+      "stavaju": 14,
+      "moraju": 7,
+      "odpovědaju": 4
+    },
+    "source_family_residual": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167968,
+      "sha256": "62378962AA5A049F6241E5054178D254F9D422D719E88B26258A3B1633A140BA"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25533,
+      "sha256": "DA03012DD88C4A096B42F2C5356B92C8C2656D4AC32501E2C54986F6861FEA1B"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1897063,
+      "sha256": "399ED2E606874873FB88DC9F1CC267D934DAC3400B2A99BA4E8E64187E9635C8"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "tool": {
+    "path": "apply_missing_third_plural_t_v019.py",
+    "bytes": 8409,
+    "sha256": "7E88E122A16D0E66203353D1151B744F471AA3B3233919CD1F6B6D56C9E5B854"
+  },
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0058",
+    "coverage": "107/107 source sites mapped by exact case-sensitive 23-form histogram",
+    "residue": "zero mapped missing-t third-person-plural forms remain",
+    "target_counts": "each corrected target form increased by exactly its mapped source count",
+    "protected_forms": "five authorial singular forms and all enumerated nonverbs remain byte-exact",
+    "protected_spans": "TeX comments and foreign-language arguments unchanged",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged",
+    "reproducibility": "Frozen output hashes reproduced immediately before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

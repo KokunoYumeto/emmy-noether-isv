@@ -1,0 +1,78 @@
+{
+  "decision_id": "ISV019-EDIT-0015",
+  "recorded_at": "2026-08-12T23:56:54.9207100+02:00",
+  "scope": "The complete reviewed obć-family surface in the four post-EDIT-0014 Latin components: 576 inherited literal obč-family loci, eight contextual recasts containing those loci, three already-spelled soobć sibling recasts, and 568 standalone token edits.",
+  "choice": "Normalize obč-/občn-/obobč-/najobč- morphology to canonical obć forms, normalize voobće, and recast every sȯobć-family communication calque to the semantically exact cross-branch term publikacija, informacija, komunikacija, prědstaviti, or izvěstiti.",
+  "epistemic_type": "manager_final_lexical_morphological_and_contextual_decision_from_official_lexicon_grammar_and_german_sentence_alignment",
+  "review_state": "applied_and_hash_verified_in_v019_working_latin",
+  "motivation": "Official entries establish type-1 obći and obobć- morphology. Merely changing č to ć would preserve malformed inflections such as občosti and an East/South-skewed sȯobć communication family. The exact German sentences distinguish publications, information, communications, and examples presented by correspondents, so those eleven contexts were recast rather than flattened.",
+  "alternatives_rejected": [
+    "Retain the inherited obč spelling and mixed hard/soft morphology.",
+    "Perform only a blind č-to-ć glyph substitution, leaving malformed inflections.",
+    "Normalize soobč to soobć everywhere despite its branch-skewed type-2 profile and context-specific meanings.",
+    "Replace publication, information, and presentation contexts by one generic communication noun.",
+    "Leave the complete family unapplied for a future reviewer."
+  ],
+  "predecessors": {
+    "source_latin/44-book-isv.tex": {"bytes": 167643, "sha256": "8982C24471402B7702024F79426DD968E3E7F30E0817895A666F5E092854355E"},
+    "source_latin/45-isv.tex": {"bytes": 25504, "sha256": "AE98EB8EFCA21D8F341BD1525FBCBF048D5948BA47C509262C020901B12A683D"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1893444, "sha256": "D8027D92960EB43FAAD4C9C1F89CAB62BB806DBE1E2D34714E08646F22C7BC1E"},
+    "source_latin/bib-isv.tex": {"bytes": 9569, "sha256": "2B5E4698ABEF605BD8899A1FB1B1AD6CF504DF5BAEFB6824D25006116A1F1E8E"}
+  },
+  "evidence": {
+    "reviewed_historical_plan": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/isv_obci_full_family_plan_20260812/ISV_OBCI_EXACT_APPLICATION_PLAN_v001.json",
+      "bytes": 1611741,
+      "sha256": "6481D0185613AF61EACCF7BC8E93E1AF29881B1EFE2E33077FC7AE05D19599FB"
+    },
+    "official_dictionary_snapshot": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/isv_normalization_20260811/isv_lj_nj_morphology_triage_v001/private_rights_blocked_source_evidence/live_dictionary_basic_snapshot_20260811.json",
+      "bytes": 23675425,
+      "sha256": "BD64E8F84F94FB65BB177048BFD271105DD9C0B61C6565A72967AA410463692C",
+      "relevant_entries": ["obći", "obobćati", "obobćiti", "obobćenje", "sȯobćati", "sȯobćiti", "sȯobćenje", "vȯobće", "publikacija", "informacija", "komunikacija", "prědstaviti", "izvěstiti"]
+    },
+    "official_adjective_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/adjectives.md",
+      "bytes": 8142,
+      "sha256": "184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F"
+    },
+    "official_orthography": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/orthography.md",
+      "bytes": 16443,
+      "sha256": "90C609CC0E8709E8395964E9F20D6D4FB4E31159CBC2B1EA515A29D9D1C72044"
+    }
+  },
+  "results": {
+    "literal_loci": 576,
+    "standalone_token_edits": 568,
+    "context_recasts": 11,
+    "total_nonoverlapping_edits": 579,
+    "unresolved_linguistic_holds": 0,
+    "post_obc_residue": 0,
+    "post_soobc_residue": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167643, "sha256": "8982C24471402B7702024F79426DD968E3E7F30E0817895A666F5E092854355E", "edits": 0},
+    "source_latin/45-isv.tex": {"bytes": 25501, "sha256": "868A0492D3D68E8C6A466094F059CF6F982A2061DFA39FCC56D3E677C68A4ECE", "edits": 11},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1893461, "sha256": "623637BC6BCAAF87F77660A3D01AAC754AE5101CC6AF1228535E353D8A40368C", "edits": 564},
+    "source_latin/bib-isv.tex": {"bytes": 9568, "sha256": "5BDA7A9EFF8831847F2481DF60AE9A3F0BCCD0CEA0E86D3754B9A1AB8545F42A", "edits": 4}
+  },
+  "tool": {
+    "path": "apply_obci_full_family_v019.py",
+    "bytes": 13205,
+    "sha256": "5F84AF8D29E41013C25B32A0B6D22CFAC9FF615BF0F665AD4BA97E259937AD5D"
+  },
+  "validation": {
+    "prehashes": "4/4 exact post-EDIT-0014",
+    "rebase": "complete literal type histogram equals the reviewed plan; every recast old phrase occurs exactly once",
+    "coordinates": "579 current-coordinate edits non-overlapping and predecessor-exact",
+    "protected_content": "zero edit intersections; ordered comments and foreign/foreignlanguage spans unchanged",
+    "structure": "control-sequence, begin/end, cross-reference, brace, and math-delimiter sequences unchanged",
+    "outputs": "four successor byte counts and SHA-256 values frozen after read-only derivation, reproduced before write, and verified after write",
+    "transport": "UTF-8 without BOM, LF only, terminal LF"
+  },
+  "uncertainty": "This is the manager's final evidence-bound editorial resolution, not a claim of native certification. Rejected sȯobć-family forms and the exact German context remain preserved in the reviewed plan.",
+  "agent_return": {
+    "task_identity": "/root/obci_full_family",
+    "scope": "read-only exhaustive family audit and exact historical plan",
+    "disposition": "accepted after parent post-EDIT-0014 histogram rebase, dry run, frozen successor pins, and post-write replay"
+  }
+}

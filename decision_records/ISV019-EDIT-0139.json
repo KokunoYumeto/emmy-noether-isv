@@ -1,0 +1,639 @@
+{
+  "schema": "noether-isv-normalization-decision-v1",
+  "decision_id": "ISV019-EDIT-0139",
+  "recorded_at": "2026-08-16T17:29:13+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "official_dictionary_and_german_aligned_semantic_false_friend_split",
+  "scope": "Complete the 13-token live shvat-family by sentence sense across the Papers1-43 base and synchronize four active producer twins.",
+  "summary": "Use grupovati-family forms for seven grouping senses and pojmati-family forms for six abstract-conception senses; preserve the inactive Paper24 shadow.",
+  "work_identity": {
+    "work_language": "Emmy Noether — Interslavic working edition",
+    "canonical_hub": "deferred until the next actual public release; no internal URL invented",
+    "rights_boundary": "artifact-specific license, provenance, author/source relation, and non-endorsement preserved; no blanket public-domain or open-license claim",
+    "organization_metadata_policy": "organization attribution is reserved for one linked creator or contributor entry in public repository metadata; internal records do not repeat it"
+  },
+  "human_companion": {
+    "path": "decision_records/ISV019-EDIT-0139.md",
+    "bytes": 4688,
+    "sha256": "A9AA6ECF8B22EDA21939048CC4CB75EF1D77A1635AFB41ED2CACC22498EE8445"
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0138",
+    "ledger_rows": 138,
+    "ledger_bytes": 539383,
+    "ledger_sha256": "51561A959204387D5BF749CE218A85A748B2943249EF513D723895F9B1B18B64",
+    "sidecar_bytes": 14579,
+    "sidecar_sha256": "08D2E71E9D88C34B054C932F017BBA73F6E7DECCAF3FF8AEE24C214EAF0705B7",
+    "state_bytes": 13633,
+    "state_sha256": "F96163A1138DA52D894EDE62CA2BCBD6CC207CE3BAD9F235E9B11349D1AFD3D0"
+  },
+  "mapping": {
+    "grouping": "shvat-family → contextually inflected grupovati family",
+    "abstract_conception": "shvat-family → contextually inflected pojmati family"
+  },
+  "targets": [
+    {
+      "line": 12738,
+      "pre_column_start_1": 71,
+      "post_column_start_1": 71,
+      "old": "shvatet",
+      "new": "grupujut",
+      "paper": "P19",
+      "sense": "grouping",
+      "german_line": 11534,
+      "pre_line": {
+        "bytes": 226,
+        "sha256": "92126BF01191B443737458D26303FB1F88D6B90C647D019ED904D97802F220F6"
+      },
+      "post_line": {
+        "bytes": 227,
+        "sha256": "CE8E156B553056E04439DF791C2701D52EE66CDCE8793EE7AC05BAF7A7800F80"
+      }
+    },
+    {
+      "line": 13019,
+      "pre_column_start_1": 1244,
+      "post_column_start_1": 1244,
+      "old": "shvaćanje",
+      "new": "grupovanje",
+      "paper": "P19",
+      "sense": "grouping",
+      "german_line": 11777,
+      "pre_line": {
+        "bytes": 1624,
+        "sha256": "97A6C59D3E8FED895883E624D7478D3F3D319D2DA6C0963617AF8FEE833582EC"
+      },
+      "post_line": {
+        "bytes": 1622,
+        "sha256": "6AB0738D4798B3678DB1F4FF44588321EEC2BC99C7EAB6ED4521CBC40539142C"
+      }
+    },
+    {
+      "line": 13019,
+      "pre_column_start_1": 1308,
+      "post_column_start_1": 1309,
+      "old": "shvaćajut",
+      "new": "grupujut",
+      "paper": "P19",
+      "sense": "grouping",
+      "german_line": 11777,
+      "pre_line": {
+        "bytes": 1624,
+        "sha256": "97A6C59D3E8FED895883E624D7478D3F3D319D2DA6C0963617AF8FEE833582EC"
+      },
+      "post_line": {
+        "bytes": 1622,
+        "sha256": "6AB0738D4798B3678DB1F4FF44588321EEC2BC99C7EAB6ED4521CBC40539142C"
+      }
+    },
+    {
+      "line": 13147,
+      "pre_column_start_1": 229,
+      "post_column_start_1": 229,
+      "old": "Shvatimo",
+      "new": "Grupujemo",
+      "paper": "P19",
+      "sense": "grouping",
+      "german_line": 11888,
+      "pre_line": {
+        "bytes": 445,
+        "sha256": "B03ED280280D5CEE6836A7A5DFB50BF623703DFB24ECA2E88B808CF525CF78A1"
+      },
+      "post_line": {
+        "bytes": 446,
+        "sha256": "1D422DEDF1C6B3C9F2BC1F91D7B4A92152048BDAAB1D81ED56CBACA9BDCFA872"
+      }
+    },
+    {
+      "line": 13155,
+      "pre_column_start_1": 105,
+      "post_column_start_1": 105,
+      "old": "shvačene",
+      "new": "grupovane",
+      "paper": "P19",
+      "sense": "grouping",
+      "german_line": 11899,
+      "pre_line": {
+        "bytes": 318,
+        "sha256": "2E7369800B2534870ACE083F8DCEFCF1E0E5D771AE15BBA20B251FFCB2FD71F0"
+      },
+      "post_line": {
+        "bytes": 318,
+        "sha256": "509E0BB9E4B326A835B2C06BADD6076126177CB66A88C7B223BE2729620CA3F0"
+      }
+    },
+    {
+      "line": 13301,
+      "pre_column_start_1": 1,
+      "post_column_start_1": 1,
+      "old": "Shvatimo",
+      "new": "Grupujemo",
+      "paper": "P19",
+      "sense": "grouping",
+      "german_line": 12017,
+      "pre_line": {
+        "bytes": 1717,
+        "sha256": "0F3DF6CF0E762CA2107ADECD8B30D1F8A206B9BAB9C0AD8D59FB25DAEAE50178"
+      },
+      "post_line": {
+        "bytes": 1718,
+        "sha256": "D593C0F3ADF2ACB3B9CF53DC2D3DC9D206FB7306E1910C7D32101E0B008E2E79"
+      }
+    },
+    {
+      "line": 13800,
+      "pre_column_start_1": 722,
+      "post_column_start_1": 722,
+      "old": "shvatiti",
+      "new": "pojmati",
+      "paper": "P20",
+      "sense": "abstract_conception",
+      "german_line": 12405,
+      "pre_line": {
+        "bytes": 789,
+        "sha256": "881FDD0E26E204D0D2A322FEA7A61C099AA26FE6A886594B9C6E3E6ACDAC3CFD"
+      },
+      "post_line": {
+        "bytes": 788,
+        "sha256": "38829174C92C726388CC2E625762D895B30C59CA443291FC81E945E501CA4719"
+      }
+    },
+    {
+      "line": 14401,
+      "pre_column_start_1": 141,
+      "post_column_start_1": 141,
+      "old": "shvatiti",
+      "new": "grupovati",
+      "paper": "P22",
+      "sense": "grouping",
+      "german_line": 12906,
+      "pre_line": {
+        "bytes": 681,
+        "sha256": "C2DD41C62473E4AA61811D22EB2DAA4C889FD558016335C3C6C48B13072A4732"
+      },
+      "post_line": {
+        "bytes": 682,
+        "sha256": "447F47EA1EEF967F6FCE66DDD88D82379A5B5C5D88ECFD2EE4C947744F486BE1"
+      }
+    },
+    {
+      "line": 15304,
+      "pre_column_start_1": 111,
+      "post_column_start_1": 111,
+      "old": "shvati",
+      "new": "pojmaje",
+      "paper": "P24",
+      "sense": "abstract_conception",
+      "german_line": 13707,
+      "pre_line": {
+        "bytes": 1457,
+        "sha256": "F1E6611739D7D04C97C205EBC7D6BA2E766432590266628B4C3CB4319B389AC9"
+      },
+      "post_line": {
+        "bytes": 1458,
+        "sha256": "FF14F37D7EBCB74182D437FB98D378EF9032956ECEAF89169856FB781CE55658"
+      }
+    },
+    {
+      "line": 15387,
+      "pre_column_start_1": 332,
+      "post_column_start_1": 332,
+      "old": "shvatiti",
+      "new": "pojmati",
+      "paper": "P24",
+      "sense": "abstract_conception",
+      "german_line": 13788,
+      "pre_line": {
+        "bytes": 964,
+        "sha256": "5FE2B5BB54960A06D56229DB7DE983DB0B1BFE2AFBC3426846646CE71F9EEC52"
+      },
+      "post_line": {
+        "bytes": 963,
+        "sha256": "B30F66C6227CC439F525D7BFE8378E77B1349AB541FAB55960E8FBDF1BEED0A7"
+      }
+    },
+    {
+      "line": 15450,
+      "pre_column_start_1": 263,
+      "post_column_start_1": 263,
+      "old": "shvačeno",
+      "new": "pojmano",
+      "paper": "P24",
+      "sense": "abstract_conception",
+      "german_line": 13852,
+      "pre_line": {
+        "bytes": 706,
+        "sha256": "8505EBC3DA49842A8D92060A259AAED98B81D07EEEB57AFDC2C9A1DF131AF6C8"
+      },
+      "post_line": {
+        "bytes": 704,
+        "sha256": "A018AAE5F913A1F5BD50AA02F7C7AFA9E6DA83FA1978F9AE84DAF541B66E343A"
+      }
+    },
+    {
+      "line": 15914,
+      "pre_column_start_1": 591,
+      "post_column_start_1": 591,
+      "old": "shvatiti",
+      "new": "pojmati",
+      "paper": "P27",
+      "sense": "abstract_conception",
+      "german_line": 14225,
+      "pre_line": {
+        "bytes": 1468,
+        "sha256": "BAEE88B67775A679D19B3B77CB8178373ADB4A8076331B8474998A68BDF14E70"
+      },
+      "post_line": {
+        "bytes": 1467,
+        "sha256": "F89D1A2491A44071987FA190678756ADDA57F78B129727279B024DDBAD9FC306"
+      }
+    },
+    {
+      "line": 15945,
+      "pre_column_start_1": 83,
+      "post_column_start_1": 83,
+      "old": "shvata",
+      "new": "pojmaje",
+      "paper": "P28",
+      "sense": "abstract_conception",
+      "german_line": 14236,
+      "pre_line": {
+        "bytes": 642,
+        "sha256": "AA05779E9704C261AD579E76A57D0A8DB1D4C1A924A3E2A61F914C1CCE7D41FC"
+      },
+      "post_line": {
+        "bytes": 643,
+        "sha256": "430317A62D4D6C1DF66806C011E98718EFBEF3760A3A4B32AA178AF0E918681E"
+      }
+    }
+  ],
+  "census": {
+    "changed_source_sites": 13,
+    "changed_source_lines": 12,
+    "base_identity_comment_changes": 2,
+    "changed_active_artifact_occurrences": 17,
+    "grouping_sites": 7,
+    "abstract_conception_sites": 6,
+    "pre_shvat": 13,
+    "post_shvat": 0,
+    "active_producer_pre_shvat": 4,
+    "active_producer_post_shvat": 0,
+    "inactive_shadow_shvat_preserved": 3,
+    "successor_forms": {
+      "grupujut": 3,
+      "grupovanje": 1,
+      "grupujemo": 2,
+      "grupovane": 1,
+      "grupovati": 1,
+      "pojmati": 13,
+      "pojmaje": 3,
+      "pojmano": 1
+    },
+    "semantic_holds": 0
+  },
+  "paper_split": {
+    "P19": 6,
+    "P20": 1,
+    "P22": 1,
+    "P24": 3,
+    "P27": 1,
+    "P28": 1
+  },
+  "source_inputs": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168093,
+      "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "3C157B7B26092EFF27EDBCDFF2DB372022E467A7C7468D47621E7B9DA95E3542"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1899023,
+      "sha256": "7498851CC60F1F04C17E5F7E1CAEDBD2E9E42F1E81FD85FDE86A541ADF2E658F"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "source_outputs": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168093,
+      "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25556,
+      "sha256": "3C157B7B26092EFF27EDBCDFF2DB372022E467A7C7468D47621E7B9DA95E3542"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1899022,
+      "sha256": "617764F8C4B641067B3705ACE05CF92A964AB75399EED4BE99530B6C8B985E72"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9585,
+      "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"
+    }
+  },
+  "producer_sync": {
+    "Paper22": {
+      "path": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+      "input": {
+        "bytes": 78293,
+        "sha256": "CE81C14094CF458B77A623D56AD9E25D074C7CDB201A0EF13D1C1840465FAFCC"
+      },
+      "output": {
+        "bytes": 78294,
+        "sha256": "7A57652D07B6A71EBCCFF73466C24660E0B8C9C1CD715AF74665E3899BE1B02F"
+      },
+      "producer_line": 247,
+      "base_line": 14401,
+      "identity_line": 14165
+    },
+    "Paper24": {
+      "path": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+      "input": {
+        "bytes": 95657,
+        "sha256": "AAECAC6485F6FB59D6617245026E7D81D64DEC5DECAAB464374021E9C0BF061E"
+      },
+      "output": {
+        "bytes": 95655,
+        "sha256": "E20E3A5F790CED79FA8D55F3E34EA04C6786C0A801BBC390B30040869C2E7DF1"
+      },
+      "producer_lines": [
+        98,
+        181,
+        244
+      ],
+      "base_lines": [
+        15304,
+        15387,
+        15450
+      ],
+      "identity_line": 15217
+    },
+    "assembled_body_identity": "PASS_BEFORE_BY_EXACT_REVERSE_AND_AFTER_BY_BODY_EQUALITY"
+  },
+  "source_replay": {
+    "base": {
+      "path": "source_latin/base-papers1-43-isv.tex",
+      "input": {
+        "bytes": 1899023,
+        "sha256": "7498851CC60F1F04C17E5F7E1CAEDBD2E9E42F1E81FD85FDE86A541ADF2E658F"
+      },
+      "output": {
+        "bytes": 1899022,
+        "sha256": "617764F8C4B641067B3705ACE05CF92A964AB75399EED4BE99530B6C8B985E72"
+      }
+    },
+    "Paper22": {
+      "path": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+      "input": {
+        "bytes": 78293,
+        "sha256": "CE81C14094CF458B77A623D56AD9E25D074C7CDB201A0EF13D1C1840465FAFCC"
+      },
+      "output": {
+        "bytes": 78294,
+        "sha256": "7A57652D07B6A71EBCCFF73466C24660E0B8C9C1CD715AF74665E3899BE1B02F"
+      }
+    },
+    "Paper24": {
+      "path": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+      "input": {
+        "bytes": 95657,
+        "sha256": "AAECAC6485F6FB59D6617245026E7D81D64DEC5DECAAB464374021E9C0BF061E"
+      },
+      "output": {
+        "bytes": 95655,
+        "sha256": "E20E3A5F790CED79FA8D55F3E34EA04C6786C0A801BBC390B30040869C2E7DF1"
+      }
+    },
+    "reverse_result": "PASS exact positional reversal of 13 lexical sites, two identity comments, and four producer twins to EDIT-0138 pins"
+  },
+  "authority": {
+    "active_german": {
+      "authority_id": "NOETH-DE-ED-0015",
+      "pointer_id": "NOETH-DE-AUTH-v052-20260815",
+      "source_bytes": 2154017,
+      "source_sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+      "activation_version_doi": "10.5281/zenodo.21940320",
+      "current_pointer_bytes": 156949,
+      "current_pointer_sha256": "8F264C42E3639911DFCE651C4911FF87129046A119413DCDA189C906345B54BC",
+      "role": "project-active semantic/source control; not native-language, canonical, critical-edition, or translation certification"
+    },
+    "official_dictionary": {
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "rows": [
+        {
+          "physical_row": 3715,
+          "id": "3950",
+          "lemma": "grupovati",
+          "class": "v.tr. ipf.",
+          "english": "group"
+        },
+        {
+          "physical_row": 11463,
+          "id": "18292",
+          "lemma": "pojmati",
+          "class": "v.tr. ipf.",
+          "english": "understand, conceive, comprehend, perceive, grasp"
+        },
+        {
+          "physical_row": 14624,
+          "id": "1051",
+          "lemma": "shvatiti",
+          "class": "v.tr. pf.",
+          "english": "grab, grasp, seize"
+        }
+      ]
+    },
+    "official_verb_grammar": {
+      "bytes": 21426,
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+      "anchor_lines": [
+        72,
+        73,
+        84,
+        85,
+        180,
+        186
+      ]
+    },
+    "german_alignment": {
+      "authority_id": "NOETH-DE-ED-0015",
+      "bytes": 2154017,
+      "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+      "aligned_source_sites": 13,
+      "line_map": [
+        11534,
+        11777,
+        11777,
+        11888,
+        11899,
+        12017,
+        12405,
+        12906,
+        13707,
+        13788,
+        13852,
+        14225,
+        14236
+      ]
+    },
+    "categorized_corpus": {
+      "catalog_bytes": 10642398,
+      "catalog_sha256": "354BE2A6EDFB9FE90CA9A42870666AF9DEB295F28D3F7ADA3DA898EC728756EC",
+      "claim": "comparator evidence only; not native review, canonical approval, accepted terminology, or translation completion"
+    }
+  },
+  "producer_preservation_receipt": {
+    "count": 6,
+    "effect": "Paper22 and active Paper24 synchronized; four other active successors byte-preserved; inactive Paper24 shadow byte-preserved with three lineage tokens",
+    "entries": [
+      {
+        "unit": "Paper02-Section01",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section01_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex",
+        "input": {
+          "bytes": 6798,
+          "sha256": "393F295537ABA3C5683438CD3F9936AE88B8271D944F7B833D5C1F43924900C2"
+        },
+        "historical_body": {
+          "bytes": 6455,
+          "sha256": "52A48949BCBCC420383107854838BA517B97FB769E433344BE42EA10FC69A975"
+        },
+        "live_body_input": {
+          "bytes": 6562,
+          "sha256": "A2B8CA77B47A0914C8255AECBE92AAF6CE7EB50CEEE016CE45FD9AC00ABE5B85"
+        },
+        "reconstructed_pre_edit_shadow": {
+          "bytes": 6905,
+          "sha256": "68DBCA99A4B80DE8EFE83B2472EC53D96CFD4D880E30F2AB1E58A8A66449547A"
+        },
+        "body_output": {
+          "bytes": 6793,
+          "sha256": "AED6BFFE073F94154F974403D1D1FADE6D79A418AFBC78916A9DD6E4EFD64117"
+        },
+        "output": {
+          "bytes": 7619,
+          "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"
+        },
+        "lineage": "historical preamble shell plus live normalized Unit003 body; historical body not reused"
+      },
+      {
+        "unit": "Paper02-Section11",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section11_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+        "input": {
+          "bytes": 14940,
+          "sha256": "37B613F59FC8D4F101A714AF84B5DA0AE28FED93123EBA52C0363B234E3D499A"
+        },
+        "output": {
+          "bytes": 14964,
+          "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+        }
+      },
+      {
+        "unit": "Paper08",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper08/interslavic/v001/Noether_Paper08_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper08_Interslavic_v001.tex",
+        "input": {
+          "bytes": 23684,
+          "sha256": "40A84F8E13423AFC923C4C0C714CBFB78C11EBD6F10343EEACA93090FCBB10C3"
+        },
+        "output": {
+          "bytes": 23894,
+          "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"
+        }
+      },
+      {
+        "unit": "Paper22",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper22/interslavic/v001/Noether_Paper22_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+        "input": {
+          "bytes": 77611,
+          "sha256": "6A78318258A2C609D030A248E66834055E904DC808BECA797433C461B31558B6"
+        },
+        "output": {
+          "bytes": 78294,
+          "sha256": "7A57652D07B6A71EBCCFF73466C24660E0B8C9C1CD715AF74665E3899BE1B02F"
+        }
+      },
+      {
+        "unit": "Paper24",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper24/working/through-section07/interslavic/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+        "local": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+        "input": {
+          "bytes": 94891,
+          "sha256": "1AFB653CAD5CFE903BC80CB64DE192D22BE33579131208309844F7104CA0BC6B"
+        },
+        "reconstructed_pre_edit_shadow": {
+          "bytes": 95451,
+          "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+        },
+        "output": {
+          "bytes": 95655,
+          "sha256": "E20E3A5F790CED79FA8D55F3E34EA04C6786C0A801BBC390B30040869C2E7DF1"
+        }
+      },
+      {
+        "unit": "Paper34-Section23",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper34/source_fidelity_section23/interslavic/v001/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+        "input": {
+          "bytes": 4638,
+          "sha256": "965699990152B0707997CFE43D58300E243E690657FC85D326486A835E2AC8C0"
+        },
+        "reconstructed_pre_edit_shadow": {
+          "bytes": 4690,
+          "sha256": "BFEE5482B4B35155C44D6577D810E4CACB1932B6A9C63031266EFC2EFA7DEE6A"
+        },
+        "output": {
+          "bytes": 4752,
+          "sha256": "B811E94705075CBA321A016DD3F633B4F47041191835708A113EB6C4ADCC196B"
+        }
+      }
+    ],
+    "inactive_shadow": {
+      "path": "producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+      "bytes": 95451,
+      "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03",
+      "shvat_tokens_preserved": 3
+    }
+  },
+  "applicator": {
+    "path": "apply_shvat_false_friend_family_v019.py",
+    "bytes": 50928,
+    "sha256": "40374E8D5E61453EA4D1B238647C8392FC5444C28296D2C9B57C3B41DD5E1B52",
+    "default_mode": "strict_no_write_dry_run",
+    "production_apply": "exit 0; exact three outputs installed; transaction residue zero"
+  },
+  "verifier": {
+    "path": "verify_session_independent_state_v019.ps1",
+    "bytes": 44078,
+    "sha256": "975674783C998CEE62236AFC6D970481D510BA130BCCEE1EDF8D3041F26740C6"
+  },
+  "qa": {
+    "postapply_output_pins": "PASS",
+    "reverse_replay": "PASS_BASE_P22_P24",
+    "protected_structure_transport": "PASS_EXACT_DECLARED_CHANGES_ONLY",
+    "producer_assembled_body_identity": "PASS",
+    "semantic_holds": 0
+  },
+  "open_dispositions": [],
+  "explicit_holds_after": 0,
+  "known_pre_freeze_metadata_debt": [
+    "obsolete cumulative header claims no translated wording was edited and purely mechanical derivation",
+    "absolute source-comment paths remain",
+    "foreign-span and proper-name projection protection remains incomplete"
+  ],
+  "build_effect": "No build performed in this tranche; existing EDIT0138 cumulative build/visual evidence is predecessor evidence and does not embody EDIT0139. Rebuild is required at the next meaningful cumulative checkpoint or Latin freeze.",
+  "frozen_v047_unchanged": true,
+  "public_r35_unchanged": true,
+  "standalone_record_unchanged": true,
+  "working_successor_published": false,
+  "publication_effect": "None; no GitHub or Zenodo artifact changed. Standalone Interslavic DOI 10.5281/zenodo.21926383 remains the published predecessor; working v019/EDIT0139 is unpublished.",
+  "doi_effect": "none",
+  "native_validation_claim": false
+}

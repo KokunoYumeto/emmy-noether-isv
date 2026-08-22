@@ -1,0 +1,1828 @@
+{
+  "schema": "noether-isv-normalization-decision-v1",
+  "decision_id": "ISV019-EDIT-0150",
+  "recorded_at": "2026-08-17T20:40:00+02:00",
+  "status": "applied_and_independently_verified",
+  "classification": "OFFICIAL_INTERSLAVIC_LEXICAL_ORTHOGRAPHIC_TRANCHE",
+  "epistemic_type": "official_dictionary_and_grammar_controls_plus_ED0015_semantic_context_plus_exact_thirteen_line_reverse_forward_replay_plus_separate_Cyrillic_v2_scanner_authority_activation",
+  "summary": "repair thirteen exact Latin visible-prose loci and activate the independently validated Cyrillic-v2 preflight scanner as a separate blocked auxiliary authority",
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0149",
+    "state": {
+      "bytes": 15246,
+      "sha256": "ACCC65CAF4DBDD36591B4BFEC259B0E671B765ED43B6E5689F5EF626C0BC7F8B",
+      "canonical_sha256": "226560AF383D04BF9E646E3E53BEE7AFA7032834F0E78A9A09886E3BB9653CA7"
+    },
+    "ledger": {
+      "rows": 149,
+      "bytes": 639244,
+      "sha256": "62AE0DDA7CDB69BBB626D79917CD5EDD5DF6484510995830D5B4C63D15860D30"
+    },
+    "worklog": {
+      "rows": 42,
+      "bytes": 138326,
+      "sha256": "EFF69EF490B29915B9BC7B62FA2932BBA9A073F3D462383D404441970E090572"
+    },
+    "sidecar": {
+      "path": "decision_records/ISV019-EDIT-0149.json",
+      "bytes": 191754,
+      "sha256": "0A5AB575722152BECE2725F94C80F8653DD9E480AAF80AA2DF65E29C546BC432"
+    },
+    "human": {
+      "path": "decision_records/ISV019-EDIT-0149.md",
+      "bytes": 17686,
+      "sha256": "FF8E14E559A53CEF382F0FDA9DD9166F28489229B08BC7A6D5A0A146FFF60996"
+    },
+    "applicator": {
+      "path": "apply_uslovje_family_v019.py",
+      "bytes": 84323,
+      "sha256": "0678CF57D5C0796F67DCB336361C11A8D22160C453964C0432249EE7E52D33CF"
+    },
+    "sealer_and_transaction_delegate": {
+      "path": "seal_isv_edit0149_v019.py",
+      "bytes": 97895,
+      "sha256": "3213A6CBB722F4B34B3C9A6C5A60CE76E6E831E2405354E5C106B88975DE2663"
+    },
+    "verifier": {
+      "path": "verify_session_independent_state_v019.ps1",
+      "bytes": 2175,
+      "sha256": "5E2B3A1951D804C1CBBF33E4BF39C1FF7D24A370F9445A3A0932077C1C7F47FA",
+      "normalized_sha256": "F5C4F94A25088C16298B69098B441BA6C467D1DBC71C89AA0A4263A79C71F519"
+    },
+    "metadata_barrier": {
+      "decision_id": "ISV019-EDIT-0149",
+      "complete": true,
+      "blockers": [],
+      "apply_must_reject_before_lock": false,
+      "state_canonical_sha256_excluding_only_verifier": "226560AF383D04BF9E646E3E53BEE7AFA7032834F0E78A9A09886E3BB9653CA7",
+      "normalized_verifier_sha256": "F5C4F94A25088C16298B69098B441BA6C467D1DBC71C89AA0A4263A79C71F519",
+      "records": {
+        "state": {
+          "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/00_SESSION_INDEPENDENT_STATE_v019.json",
+          "bytes": 15246,
+          "sha256": "ACCC65CAF4DBDD36591B4BFEC259B0E671B765ED43B6E5689F5EF626C0BC7F8B"
+        },
+        "ledger": {
+          "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/NORMALIZATION_DECISIONS_v019.jsonl",
+          "bytes": 639244,
+          "sha256": "62AE0DDA7CDB69BBB626D79917CD5EDD5DF6484510995830D5B4C63D15860D30"
+        },
+        "sidecar": {
+          "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/decision_records/ISV019-EDIT-0149.json",
+          "bytes": 191754,
+          "sha256": "0A5AB575722152BECE2725F94C80F8653DD9E480AAF80AA2DF65E29C546BC432"
+        },
+        "human": {
+          "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/decision_records/ISV019-EDIT-0149.md",
+          "bytes": 17686,
+          "sha256": "FF8E14E559A53CEF382F0FDA9DD9166F28489229B08BC7A6D5A0A146FFF60996"
+        },
+        "applicator": {
+          "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/apply_uslovje_family_v019.py",
+          "bytes": 84323,
+          "sha256": "0678CF57D5C0796F67DCB336361C11A8D22160C453964C0432249EE7E52D33CF"
+        },
+        "audit_sealer": {
+          "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/seal_isv_edit0149_v019.py",
+          "bytes": 97895,
+          "sha256": "3213A6CBB722F4B34B3C9A6C5A60CE76E6E831E2405354E5C106B88975DE2663"
+        },
+        "verifier": {
+          "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/verify_session_independent_state_v019.ps1",
+          "bytes": 2175,
+          "sha256": "5E2B3A1951D804C1CBBF33E4BF39C1FF7D24A370F9445A3A0932077C1C7F47FA"
+        },
+        "worklog": {
+          "path": "03_projects/language_management/slavic_interslavic/noether_isv_v019_working/00_SESSION_INDEPENDENT_WORKLOG_v019.jsonl",
+          "bytes": 138326,
+          "sha256": "EFF69EF490B29915B9BC7B62FA2932BBA9A073F3D462383D404441970E090572"
+        },
+        "durable_goal": {
+          "path": "03_projects/language_management/slavic_interslavic/00_lane_control/ACTIVE_DURABLE_GOAL_NOETHER_SLAVIC_EDITIONS_20260814.md",
+          "bytes": 84398,
+          "sha256": "733BD25787D2A62C469B1E90E6D10AF218CF1FFE51FB4637A6CC65ECFB8563A6"
+        }
+      }
+    }
+  },
+  "transitional_checkpoint": {
+    "metadata_head": "ISV019-EDIT-0149",
+    "live_source_head": "ISV019-EDIT-0150",
+    "source_outputs": {
+      "source_latin/base-papers1-43-isv.tex": {
+        "bytes": 1892316,
+        "sha256": "79B60E7571B529E0F46D95C6E74B887D22269AE04F7490EDE2188BE9ABB6F08E"
+      },
+      "source_latin/44-book-isv.tex": {
+        "bytes": 168422,
+        "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+      },
+      "source_latin/45-isv.tex": {
+        "bytes": 26014,
+        "sha256": "20B9123DFD81C0A3B3445A6CCAE8F711843F79C8D1DF75DF02406AF3A66A480F"
+      },
+      "source_latin/bib-isv.tex": {
+        "bytes": 9939,
+        "sha256": "71E4746C77776B1E504EF79EA9C097644219BFDF482004F1D4AAE45DA1C490C5"
+      }
+    },
+    "producer_outputs": {
+      "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex": {
+        "bytes": 7664,
+        "sha256": "746C1B8CFB6A524C0348B388F373BE1A433DC6D6ABCEE0BAFEE79E56A214D47E"
+      },
+      "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex": {
+        "bytes": 14964,
+        "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+      },
+      "producer_units/Noether_Paper08_Interslavic_v001.tex": {
+        "bytes": 23977,
+        "sha256": "611FF5D4933FCA1D99D07235DE81866248F66FAE53D245C2C047C0F8795F6A74"
+      },
+      "producer_units/Noether_Paper22_Interslavic_v001.tex": {
+        "bytes": 78375,
+        "sha256": "5D1212B2E8EAD24CA130346E43B19ABFEE3095883EEEE6D1F2BFA7F29F0EF01E"
+      },
+      "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex": {
+        "bytes": 95653,
+        "sha256": "BB04481B0434D51818E128547652C79E7D67B0B1D12DC6955F98E178D9D2E019"
+      },
+      "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex": {
+        "bytes": 4752,
+        "sha256": "E60C00BD715913C21F6DB35DE68F5677F2FC6B5D486756C565905B1EA7774DC1"
+      }
+    },
+    "inactive_shadow": {
+      "path": "producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+      "bytes": 95451,
+      "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"
+    },
+    "cohort_manifest": {
+      "bytes": 1359,
+      "sha256": "938EB311D71CB2CA5226E24DEAED75DC90A0DE2873D1B7D6445ADAE5D7D9E3F0"
+    },
+    "source_transaction_residue": 0,
+    "metadata_transaction_residue": 0,
+    "pycache_residue": 0
+  },
+  "human_companion": {
+    "path": "decision_records/ISV019-EDIT-0150.md",
+    "bytes": 10231,
+    "sha256": "C3B907B9549D21904B09B43CDBCB84497DFB06C80961D7E9F60ABB6F7DE7004A"
+  },
+  "applicator": {
+    "path": "apply_official_lexical_tranche_v019.py",
+    "bytes": 73472,
+    "sha256": "4110D78533A102F4C3CA590B07A87A22FFB659FB710B5091B1942580440C6684",
+    "default_mode": "strict no-write plan on reconstructed exact EDIT0149 predecessor",
+    "captured_compact_dry": {
+      "runs": 2,
+      "byte_identical": true,
+      "bytes": 26021,
+      "sha256": "C80813281104249A0D403D21EF0EABB691F425BC263F3B6F844962E9FB969E15"
+    },
+    "self_test": {
+      "runs": 2,
+      "byte_identical": true,
+      "bytes": 29399,
+      "sha256": "7906BF6BBDB3B23FA9217BE4C025D3C9B4B6B2D021D9E7F93E50FB5248240526",
+      "embedded_receipt": {
+        "bytes": 3264,
+        "sha256": "6778310D00DD4F727DE15F1F175BB95DB07600BF2B5A66E488BFC9749FF281FB"
+      }
+    },
+    "production_apply": {
+      "exit_code": 0,
+      "stdout": {
+        "bytes": 25991,
+        "sha256": "E20D48A40530E82019F1FD9A2262DCF84AE19EF38419B2D621EB1412EEF6F600"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      },
+      "status": "APPLIED_NOT_SEALED",
+      "workspace_files_mutated": true
+    }
+  },
+  "sealer": {
+    "path": "seal_isv_edit0150_v019.py",
+    "bytes": 84099,
+    "sha256": "6234146DE6CDCE9D9BBDEAEEDCE4E29DEACB15A2CCF9195CE098B1C70484C8D5"
+  },
+  "verifier_identity": {
+    "path": "verify_session_independent_state_v019.ps1",
+    "bytes": 2171,
+    "normalization": "replace_the_single_embedded_state_canonical_sha256_with_64_ascii_zeroes",
+    "normalized_sha256": "6427ACA586AE815DDBD4131091595625F41C2E12D41B854DF17468925DF09D55"
+  },
+  "primary_decision": {
+    "classification": "OFFICIAL_INTERSLAVIC_LEXICAL_ORTHOGRAPHIC_TRANCHE",
+    "scope": {
+      "changed_files": 1,
+      "bound_files": 11,
+      "changed_physical_lines": 13,
+      "primitive_edits": 13,
+      "changed_cumulative_units": 13,
+      "active_producer_changes": 0,
+      "identity_receipt_changes": 0,
+      "kind_counts": {
+        "lexical": 3,
+        "lexical_morphology": 1,
+        "orthography": 7,
+        "orthography_authority_aligned": 1,
+        "orthography_morphology": 1
+      }
+    },
+    "source_inputs": {
+      "source_latin/base-papers1-43-isv.tex": {
+        "bytes": 1892315,
+        "sha256": "2A35A7530685CF1A32AFDF92807D9FCFDD090FF2767211ABBE8B0D8DF0E29AA3"
+      },
+      "source_latin/44-book-isv.tex": {
+        "bytes": 168422,
+        "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+      },
+      "source_latin/45-isv.tex": {
+        "bytes": 26014,
+        "sha256": "20B9123DFD81C0A3B3445A6CCAE8F711843F79C8D1DF75DF02406AF3A66A480F"
+      },
+      "source_latin/bib-isv.tex": {
+        "bytes": 9939,
+        "sha256": "71E4746C77776B1E504EF79EA9C097644219BFDF482004F1D4AAE45DA1C490C5"
+      }
+    },
+    "source_outputs": {
+      "source_latin/base-papers1-43-isv.tex": {
+        "bytes": 1892316,
+        "sha256": "79B60E7571B529E0F46D95C6E74B887D22269AE04F7490EDE2188BE9ABB6F08E"
+      },
+      "source_latin/44-book-isv.tex": {
+        "bytes": 168422,
+        "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+      },
+      "source_latin/45-isv.tex": {
+        "bytes": 26014,
+        "sha256": "20B9123DFD81C0A3B3445A6CCAE8F711843F79C8D1DF75DF02406AF3A66A480F"
+      },
+      "source_latin/bib-isv.tex": {
+        "bytes": 9939,
+        "sha256": "71E4746C77776B1E504EF79EA9C097644219BFDF482004F1D4AAE45DA1C490C5"
+      }
+    },
+    "producer_outputs": {
+      "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex": {
+        "bytes": 7664,
+        "sha256": "746C1B8CFB6A524C0348B388F373BE1A433DC6D6ABCEE0BAFEE79E56A214D47E"
+      },
+      "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex": {
+        "bytes": 14964,
+        "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"
+      },
+      "producer_units/Noether_Paper08_Interslavic_v001.tex": {
+        "bytes": 23977,
+        "sha256": "611FF5D4933FCA1D99D07235DE81866248F66FAE53D245C2C047C0F8795F6A74"
+      },
+      "producer_units/Noether_Paper22_Interslavic_v001.tex": {
+        "bytes": 78375,
+        "sha256": "5D1212B2E8EAD24CA130346E43B19ABFEE3095883EEEE6D1F2BFA7F29F0EF01E"
+      },
+      "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex": {
+        "bytes": 95653,
+        "sha256": "BB04481B0434D51818E128547652C79E7D67B0B1D12DC6955F98E178D9D2E019"
+      },
+      "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex": {
+        "bytes": 4752,
+        "sha256": "E60C00BD715913C21F6DB35DE68F5677F2FC6B5D486756C565905B1EA7774DC1"
+      }
+    },
+    "inactive_shadow": {
+      "path": "producer_units/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+      "bytes": 95451,
+      "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03",
+      "status": "inactive_historical_shadow_intentionally_unchanged"
+    },
+    "line_manifest": {
+      "rows": [
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 513,
+          "unit": "004",
+          "german_lines": [
+            812
+          ],
+          "kind": "orthography",
+          "pre": {
+            "bytes": 80,
+            "sha256": "D857AE9472CC8EC9101B9DBEA40A0B6A9C6F0848D1BA56CA102C2CE821FAB96C"
+          },
+          "post": {
+            "bytes": 80,
+            "sha256": "85725632F110E51CF525F5353D6DB4496F1DCFFEB3C11EF1A25A4F5736835198"
+          }
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 626,
+          "unit": "005",
+          "german_lines": [
+            945
+          ],
+          "kind": "orthography",
+          "pre": {
+            "bytes": 153,
+            "sha256": "6DA2B4F5CC770EB8D8D72D77C67E9588CB39BA97DC5ABF56A0E847EC6CB5E636"
+          },
+          "post": {
+            "bytes": 153,
+            "sha256": "35A29DBE1FA54EC8D39E29BF2DCB12643B81C72C1D4F686B5AA3D48452CB6B22"
+          }
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 682,
+          "unit": "006",
+          "german_lines": [
+            986
+          ],
+          "kind": "orthography",
+          "pre": {
+            "bytes": 22,
+            "sha256": "1EF6C55D13BA2D585ED59266C23C718E9EC9C1271E2326F36E20576843ECBF9E"
+          },
+          "post": {
+            "bytes": 21,
+            "sha256": "3049C550F43DD422DA376F3F5D91A5B7BF8478B67BE48A80C4F9065525F1AB96"
+          }
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 3876,
+          "unit": "031",
+          "german_lines": [
+            3779
+          ],
+          "kind": "lexical_morphology",
+          "pre": {
+            "bytes": 443,
+            "sha256": "4D747DCA8633E0D0E8567FC87CA62BE794F1AF20A6658256C019F6EC5D413E17"
+          },
+          "post": {
+            "bytes": 442,
+            "sha256": "F773905D796B335F3AC865C17646261D3A33A3935C2E0910B25D76BDA8F63F61"
+          }
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 6230,
+          "unit": "052",
+          "german_lines": [
+            5514
+          ],
+          "kind": "lexical",
+          "pre": {
+            "bytes": 594,
+            "sha256": "2D2AE2D7D6DFDDBF898267DCB1CFD72BFC08B9CE07A712B124337B0E242FCB84"
+          },
+          "post": {
+            "bytes": 594,
+            "sha256": "840CB2284231ED9699280F29F9DCD5B74468094A4AE1EB17D78AC70D3E0484E8"
+          }
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 7199,
+          "unit": "059",
+          "german_lines": [
+            7125
+          ],
+          "kind": "lexical",
+          "pre": {
+            "bytes": 1198,
+            "sha256": "D2F7B36E3AB8E0A5223F1B5584D1D04428C61B3ABC847343A6F070F58543B1C7"
+          },
+          "post": {
+            "bytes": 1200,
+            "sha256": "6634C7A9E6F110B69CA8918A3C711716DD0ADFD5B61670CCE127E880CB9F46C7"
+          }
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 8458,
+          "unit": "069",
+          "german_lines": [
+            7718
+          ],
+          "kind": "lexical",
+          "pre": {
+            "bytes": 1053,
+            "sha256": "BF403E21536F4FF9A7069197DB582C6753BCB1070DB07DB19887F72F92CEF8E3"
+          },
+          "post": {
+            "bytes": 1055,
+            "sha256": "619615D5B8F364719BAD3C6667EEFCF02C1C3ED80BFAD55E3A4E56E5DE8F6D46"
+          }
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 9687,
+          "unit": "075",
+          "german_lines": [
+            8995
+          ],
+          "kind": "orthography",
+          "pre": {
+            "bytes": 532,
+            "sha256": "A0520F2B52E4E259BD6F96D5918E5507DDA1B05B885A01DC94D16A569FE842A9"
+          },
+          "post": {
+            "bytes": 531,
+            "sha256": "163A41F3519A574321BDD7579B38E69663A94C339F431678A6F639FE86A94C78"
+          }
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 10651,
+          "unit": "077",
+          "german_lines": [
+            9849
+          ],
+          "kind": "orthography_authority_aligned",
+          "pre": {
+            "bytes": 611,
+            "sha256": "62FA462127C2375FFB570BEEE86968BBCDDDAEBD479E1444F95E6138708CB081"
+          },
+          "post": {
+            "bytes": 611,
+            "sha256": "24E78507FB816EDB2DD6C14D2693E01847941E603E8A102F08F47DB995CA4636"
+          }
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 15160,
+          "unit": "107",
+          "german_lines": [
+            13609
+          ],
+          "kind": "orthography_morphology",
+          "pre": {
+            "bytes": 789,
+            "sha256": "58549DADE865B7F25BC530F16719CD79FC7A7B25D7ABA30A84AA8D701537785C"
+          },
+          "post": {
+            "bytes": 791,
+            "sha256": "660D12122EBB9406FCDB80AF83E1D17AC5178BAAE02516EB74AC1C83ACB6E66A"
+          }
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 16407,
+          "unit": "117",
+          "german_lines": [
+            14893
+          ],
+          "kind": "orthography",
+          "pre": {
+            "bytes": 809,
+            "sha256": "442B165B7054C6FC8FEE7591A9CFFAD333D6A0EDE87CE1224038D99FE95EDA30"
+          },
+          "post": {
+            "bytes": 809,
+            "sha256": "207EF9AF8EEE29F0C7E08B75629DD15732EE4EDDF8109A95F508017052CA9F64"
+          }
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 16493,
+          "unit": "118",
+          "german_lines": [
+            14927
+          ],
+          "kind": "orthography",
+          "pre": {
+            "bytes": 633,
+            "sha256": "D08634BDA35F7E3F7D04C8A377546193C4EA90F82824AC4004D3979F6A3E5BB5"
+          },
+          "post": {
+            "bytes": 632,
+            "sha256": "0799EE82FC154FF581A50B02591E19B2E1D80258C093B84684C0C59F596B5419"
+          }
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 19395,
+          "unit": "179",
+          "german_lines": [
+            16135
+          ],
+          "kind": "orthography",
+          "pre": {
+            "bytes": 536,
+            "sha256": "9C3F10CB538EEF6FE6EF98AA0A7CCF7A6406B86ADA5EACDBCA267849FF8F58F4"
+          },
+          "post": {
+            "bytes": 535,
+            "sha256": "6CE75959928BFA601781E79A3C87796263DF617C27051676CB8FECEF7FB0349B"
+          }
+        }
+      ],
+      "serialization": "canonical compact UTF-8 JSONL; recursively sorted keys; terminal LF",
+      "bytes": 4044,
+      "sha256": "BAD12E5C8039DD978C12EAC7E6E05D4964C0A24EBF996D98B65870FADE9BF3EF"
+    },
+    "primitive_manifest": {
+      "rows": [
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 513,
+          "ordinal_on_line": 1,
+          "unit": "004",
+          "german_lines": [
+            812
+          ],
+          "kind": "orthography",
+          "old": "odpowědajut",
+          "new": "odpovědajut",
+          "pre_scalar": [
+            41,
+            52
+          ],
+          "pre_byte": [
+            42,
+            54
+          ],
+          "pre_absolute_scalar": [
+            29433,
+            29444
+          ],
+          "pre_absolute_byte": [
+            30022,
+            30034
+          ],
+          "post_scalar": [
+            41,
+            52
+          ],
+          "post_byte": [
+            42,
+            54
+          ]
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 626,
+          "ordinal_on_line": 1,
+          "unit": "005",
+          "german_lines": [
+            945
+          ],
+          "kind": "orthography",
+          "old": "biquadratičnu",
+          "new": "bikvadratičnu",
+          "pre_scalar": [
+            77,
+            90
+          ],
+          "pre_byte": [
+            80,
+            94
+          ],
+          "pre_absolute_scalar": [
+            37260,
+            37273
+          ],
+          "pre_absolute_byte": [
+            38094,
+            38108
+          ],
+          "post_scalar": [
+            77,
+            90
+          ],
+          "post_byte": [
+            80,
+            94
+          ]
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 682,
+          "ordinal_on_line": 1,
+          "unit": "006",
+          "german_lines": [
+            986
+          ],
+          "kind": "orthography",
+          "old": "Pokáže",
+          "new": "Pokaže",
+          "pre_scalar": [
+            0,
+            6
+          ],
+          "pre_byte": [
+            0,
+            8
+          ],
+          "pre_absolute_scalar": [
+            38977,
+            38983
+          ],
+          "pre_absolute_byte": [
+            39829,
+            39837
+          ],
+          "post_scalar": [
+            0,
+            6
+          ],
+          "post_byte": [
+            0,
+            7
+          ]
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 3876,
+          "ordinal_on_line": 1,
+          "unit": "031",
+          "german_lines": [
+            3779
+          ],
+          "kind": "lexical_morphology",
+          "old": "największe",
+          "new": "največše",
+          "pre_scalar": [
+            257,
+            267
+          ],
+          "pre_byte": [
+            267,
+            278
+          ],
+          "pre_absolute_scalar": [
+            192167,
+            192177
+          ],
+          "pre_absolute_byte": [
+            194823,
+            194834
+          ],
+          "post_scalar": [
+            257,
+            265
+          ],
+          "post_byte": [
+            267,
+            277
+          ]
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 6230,
+          "ordinal_on_line": 1,
+          "unit": "052",
+          "german_lines": [
+            5514
+          ],
+          "kind": "lexical",
+          "old": "pozwalja",
+          "new": "dozvalja",
+          "pre_scalar": [
+            426,
+            434
+          ],
+          "pre_byte": [
+            441,
+            449
+          ],
+          "pre_absolute_scalar": [
+            346092,
+            346100
+          ],
+          "pre_absolute_byte": [
+            352124,
+            352132
+          ],
+          "post_scalar": [
+            426,
+            434
+          ],
+          "post_byte": [
+            441,
+            449
+          ]
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 7199,
+          "ordinal_on_line": 1,
+          "unit": "059",
+          "german_lines": [
+            7125
+          ],
+          "kind": "lexical",
+          "old": "zároveň",
+          "new": "jednočasno",
+          "pre_scalar": [
+            429,
+            436
+          ],
+          "pre_byte": [
+            441,
+            450
+          ],
+          "pre_absolute_scalar": [
+            411543,
+            411550
+          ],
+          "pre_absolute_byte": [
+            419157,
+            419166
+          ],
+          "post_scalar": [
+            429,
+            439
+          ],
+          "post_byte": [
+            441,
+            452
+          ]
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 8458,
+          "ordinal_on_line": 1,
+          "unit": "069",
+          "german_lines": [
+            7718
+          ],
+          "kind": "lexical",
+          "old": "zároveň",
+          "new": "jednočasno",
+          "pre_scalar": [
+            526,
+            533
+          ],
+          "pre_byte": [
+            549,
+            558
+          ],
+          "pre_absolute_scalar": [
+            485321,
+            485328
+          ],
+          "pre_absolute_byte": [
+            494877,
+            494886
+          ],
+          "post_scalar": [
+            526,
+            536
+          ],
+          "post_byte": [
+            549,
+            560
+          ]
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 9687,
+          "ordinal_on_line": 1,
+          "unit": "075",
+          "german_lines": [
+            8995
+          ],
+          "kind": "orthography",
+          "old": "homogenná",
+          "new": "homogenna",
+          "pre_scalar": [
+            249,
+            258
+          ],
+          "pre_byte": [
+            257,
+            267
+          ],
+          "pre_absolute_scalar": [
+            592366,
+            592375
+          ],
+          "pre_absolute_byte": [
+            604369,
+            604379
+          ],
+          "post_scalar": [
+            249,
+            258
+          ],
+          "post_byte": [
+            257,
+            266
+          ]
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 10651,
+          "ordinal_on_line": 1,
+          "unit": "077",
+          "german_lines": [
+            9849
+          ],
+          "kind": "orthography_authority_aligned",
+          "old": "prevodí",
+          "new": "prěvodi",
+          "pre_scalar": [
+            53,
+            60
+          ],
+          "pre_byte": [
+            53,
+            61
+          ],
+          "pre_absolute_scalar": [
+            696291,
+            696298
+          ],
+          "pre_absolute_byte": [
+            711525,
+            711533
+          ],
+          "post_scalar": [
+            53,
+            60
+          ],
+          "post_byte": [
+            53,
+            61
+          ]
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 15160,
+          "ordinal_on_line": 1,
+          "unit": "107",
+          "german_lines": [
+            13609
+          ],
+          "kind": "orthography_morphology",
+          "old": "najwyšego",
+          "new": "najvyššego",
+          "pre_scalar": [
+            312,
+            321
+          ],
+          "pre_byte": [
+            316,
+            326
+          ],
+          "pre_absolute_scalar": [
+            1065112,
+            1065121
+          ],
+          "pre_absolute_byte": [
+            1088938,
+            1088948
+          ],
+          "post_scalar": [
+            312,
+            322
+          ],
+          "post_byte": [
+            316,
+            328
+          ]
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 16407,
+          "ordinal_on_line": 1,
+          "unit": "117",
+          "german_lines": [
+            14893
+          ],
+          "kind": "orthography",
+          "old": "najwyššej",
+          "new": "najvyššej",
+          "pre_scalar": [
+            82,
+            91
+          ],
+          "pre_byte": [
+            85,
+            96
+          ],
+          "pre_absolute_scalar": [
+            1242606,
+            1242615
+          ],
+          "pre_absolute_byte": [
+            1271201,
+            1271212
+          ],
+          "post_scalar": [
+            82,
+            91
+          ],
+          "post_byte": [
+            85,
+            96
+          ]
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 16493,
+          "ordinal_on_line": 1,
+          "unit": "118",
+          "german_lines": [
+            14927
+          ],
+          "kind": "orthography",
+          "old": "sobrané",
+          "new": "sobrane",
+          "pre_scalar": [
+            22,
+            29
+          ],
+          "pre_byte": [
+            24,
+            32
+          ],
+          "pre_absolute_scalar": [
+            1252556,
+            1252563
+          ],
+          "pre_absolute_byte": [
+            1281319,
+            1281327
+          ],
+          "post_scalar": [
+            22,
+            29
+          ],
+          "post_byte": [
+            24,
+            31
+          ]
+        },
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "line": 19395,
+          "ordinal_on_line": 1,
+          "unit": "179",
+          "german_lines": [
+            16135
+          ],
+          "kind": "orthography",
+          "old": "Pokáže",
+          "new": "Pokaže",
+          "pre_scalar": [
+            0,
+            6
+          ],
+          "pre_byte": [
+            0,
+            8
+          ],
+          "pre_absolute_scalar": [
+            1449554,
+            1449560
+          ],
+          "pre_absolute_byte": [
+            1481471,
+            1481479
+          ],
+          "post_scalar": [
+            0,
+            6
+          ],
+          "post_byte": [
+            0,
+            7
+          ]
+        }
+      ],
+      "serialization": "canonical compact UTF-8 JSONL; recursively sorted keys; terminal LF",
+      "bytes": 4346,
+      "sha256": "67A495458AB99B3DCBB89D46103550E8B93D9F0AA59C3249E2B2CF525686A12C"
+    },
+    "reverse": {
+      "files": [
+        {
+          "file": "source_latin/base-papers1-43-isv.tex",
+          "successor": {
+            "bytes": 1892316,
+            "sha256": "79B60E7571B529E0F46D95C6E74B887D22269AE04F7490EDE2188BE9ABB6F08E"
+          },
+          "predecessor": {
+            "bytes": 1892315,
+            "sha256": "2A35A7530685CF1A32AFDF92807D9FCFDD090FF2767211ABBE8B0D8DF0E29AA3"
+          },
+          "exact": true
+        }
+      ],
+      "exact": true,
+      "rows": 1,
+      "manifest_bytes": 275,
+      "manifest_sha256": "9ED2C919A9E5928979AF626ECA2CADE73B5D0324E7D9FC9495762C7996D37AD0"
+    },
+    "output_cohort_manifest": {
+      "bytes": 1359,
+      "sha256": "938EB311D71CB2CA5226E24DEAED75DC90A0DE2873D1B7D6445ADAE5D7D9E3F0"
+    },
+    "authorities": {
+      "records": {
+        "dictionary_source_csv": {
+          "path": "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/source_sheet_basic.csv",
+          "bytes": 8101157,
+          "sha256": "0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561"
+        },
+        "dictionary_manifest": {
+          "path": "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/SNAPSHOT_MANIFEST.json",
+          "bytes": 13925,
+          "sha256": "AAC7D7192EE2B3F1346084927403176E6063E9BC2BD838C5CAB825F697C776D8"
+        },
+        "dictionary_readme": {
+          "path": "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/README_SNAPSHOT.md",
+          "bytes": 5432,
+          "sha256": "E2988A1E683B42488F2F313C9B70DB3856F1462F32A3088707B51FA3BF14463F"
+        },
+        "dictionary_alignment": {
+          "path": "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/DEPLOYED_SOURCE_ALIGNMENT.json",
+          "bytes": 44648,
+          "sha256": "0A65401D8BF362E247F1A570B4B48567EF3891AFD02975FC8EB199C0D94AF5E7"
+        },
+        "grammar_adjectives": {
+          "path": "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/adjectives.md",
+          "bytes": 8142,
+          "sha256": "184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F"
+        },
+        "grammar_fetch_receipt": {
+          "path": "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/AUTHORITY_FETCH_RECEIPT.json",
+          "bytes": 44280,
+          "sha256": "2B87832C873F3B8860F29219EF3E3E2C60665D9C237A06D53E7D82E5FF0A316A"
+        },
+        "grammar_manifest": {
+          "path": "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/AUTHORITY_SNAPSHOT_MANIFEST.json",
+          "bytes": 107058,
+          "sha256": "CFF235A721386FB74CB5970C5F7114655EA791E5CC48777CCCC4CD3F83130B9A"
+        },
+        "german_ed0015": {
+          "path": "03_projects/noether/07_german_canon_control/candidates/ED0015/noether.tex",
+          "bytes": 2154017,
+          "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907"
+        },
+        "safe_parser": {
+          "path": "03_projects/language_management/slavic_interslavic/noether_slavic_v018_lineage_v001/project_isv_cyrillic.py",
+          "bytes": 15378,
+          "sha256": "9780C7AA5B9DE7590E6863218277BD03B4F4DFDDBDF9AEACE0A99C9CEC20E5DD"
+        }
+      },
+      "dictionary_controls": [
+        {
+          "physical_line": 2593,
+          "bytes": 672,
+          "sha256": "EEA8699106327BFF9BF05310A90EAC4BC2DD7D770080A73DA59541BC5B25ADF2",
+          "entry_prefix": "435,dozvaljati,"
+        },
+        {
+          "physical_line": 3933,
+          "bytes": 395,
+          "sha256": "5E7F4BDAAAA26448343524F5D4119AB12E3518D7C70DA164BA20A9B9DF673AFE",
+          "entry_prefix": "19718,homogenny,"
+        },
+        {
+          "physical_line": 5038,
+          "bytes": 420,
+          "sha256": "CC7FB692D597D2FD2B66BB30C36A93C2F779E481F97400BA67F77D9C0C83BEA6",
+          "entry_prefix": "3852,jednočasno,"
+        },
+        {
+          "physical_line": 6369,
+          "bytes": 387,
+          "sha256": "150195A4E9CA379AB86E6C62743B776A9FD06999E39362705F1A1EDA8AB72394",
+          "entry_prefix": "4416,kvadratny,"
+        },
+        {
+          "physical_line": 7999,
+          "bytes": 441,
+          "sha256": "300D06C06D8DEB84056C6FA79F41E19DE0ED87823AFF509F0773B0A68AD942D7",
+          "entry_prefix": "9364,najvęćši,"
+        },
+        {
+          "physical_line": 9757,
+          "bytes": 592,
+          "sha256": "7B68DB16E3D63AABFE80E670B3237ABE753058B42BDDC4F043D39C51D8665670",
+          "entry_prefix": "3161,odpovědati,(+3),"
+        },
+        {
+          "physical_line": 11471,
+          "bytes": 344,
+          "sha256": "B62CF141AB5E92067056E749990544A66DD1D4C6B3AA4492FE24442918C56C09",
+          "entry_prefix": "1915,pokazati,(pokaže),"
+        },
+        {
+          "physical_line": 12521,
+          "bytes": 470,
+          "sha256": "918303892734BCF33BC1DDC27B69F570B4E957F4A1F4248EEA2B9D44B304AA6B",
+          "entry_prefix": "3055,prěvoditi,"
+        },
+        {
+          "physical_line": 15075,
+          "bytes": 519,
+          "sha256": "64B1DCA18A2949314296DD79498327F45495C753C741232536382987E1238F58",
+          "entry_prefix": "1494,sȯbrati,(sbere),"
+        },
+        {
+          "physical_line": 18192,
+          "bytes": 335,
+          "sha256": "73706E788510DA5CA36AFF7872D0A2E655F8B8F7738F80D0F745D353F406CED5",
+          "entry_prefix": "409,vysoky,"
+        }
+      ],
+      "adjective_grammar_controls": [
+        {
+          "line": 16,
+          "bytes": 330,
+          "sha256": "24E496DE879380F7A27A8CA55AC6B393EE76CD1639685BAB9EEFC14BA56191E0",
+          "required_fragment": "hard stems and soft stems"
+        },
+        {
+          "line": 67,
+          "bytes": 228,
+          "sha256": "624ACFE1C2F125100CC619C25CCD7689772CDB977DDB726429FFF61CACA02459",
+          "required_fragment": ":isv[vysoky] → :isv[vysši]"
+        },
+        {
+          "line": 87,
+          "bytes": 249,
+          "sha256": "2FDC64727C97C130E4462CFEC29DC5643CB58CB59FD78481259C2F8DAF98C901",
+          "required_fragment": "prefix :isv[`naj-`] to the comparative"
+        }
+      ],
+      "german_ed0015_controls": [
+        {
+          "line": 812,
+          "bytes": 98,
+          "sha256": "374C93810D5DFFB75C67E4AFB7DC71ACB9B466EF050CD31F858A96687EDA9DCE"
+        },
+        {
+          "line": 945,
+          "bytes": 185,
+          "sha256": "DEA4E1B4B32232C0667943C521E0B93E619B72AA4E3E722D3496F73C8FBDF982"
+        },
+        {
+          "line": 986,
+          "bytes": 37,
+          "sha256": "F858DCF26C3DC78DD5F1A50943C0BD1681D77D59B2F29FAEF5CF73A00FA08B3E"
+        },
+        {
+          "line": 3779,
+          "bytes": 510,
+          "sha256": "1052F2CEF5CC31C01BF5D193DF0E5775423496159FF6273DAB443D5E56C1B681"
+        },
+        {
+          "line": 5514,
+          "bytes": 623,
+          "sha256": "8EF67F301C2EAAF6247304DBA9A5858A0ED569EBCDC3E7A1D28AF285A3DAEDA9"
+        },
+        {
+          "line": 7125,
+          "bytes": 83,
+          "sha256": "3A98BE16161AF1DA2D33D609D0CDAEF47B48EA2DEEBC875B5C2946FB3A14DA45"
+        },
+        {
+          "line": 7718,
+          "bytes": 1098,
+          "sha256": "8528B95CF9C0979CE325722D072E1BE0E9DD9310BBC317910CEEBC3813E87CC8"
+        },
+        {
+          "line": 8995,
+          "bytes": 597,
+          "sha256": "8491E63A505F2D0CB4F1A59C89FDF866A0AFD3E369125AE374262F8952C98EAE"
+        },
+        {
+          "line": 9849,
+          "bytes": 716,
+          "sha256": "D50A6F0DB0198F4F25906763E014B822CF2366F2B9E1A579466DCBA5CFDD6FE5"
+        },
+        {
+          "line": 13609,
+          "bytes": 987,
+          "sha256": "FDBFA75010B1D85CEAE1403C16F2FF27341026123F990CA3DC2C68096AA898DD"
+        },
+        {
+          "line": 14893,
+          "bytes": 896,
+          "sha256": "FBA05E048FCA2E89C131489645A3697E29A5ACB15B434F53C1E046557BB68A68"
+        },
+        {
+          "line": 14927,
+          "bytes": 677,
+          "sha256": "13DC39BEB0EF331A3016BAE3EAAD064DB535FB874D27E5537D0101DBE75C7EC5"
+        },
+        {
+          "line": 16135,
+          "bytes": 610,
+          "sha256": "14EB21EBF6AF5090B28D4E4299FA467C77201E81D82B7ADF4345805934909CFF"
+        }
+      ],
+      "prěvodi_structural_parallel": {
+        "file": "source_latin/base-papers1-43-isv.tex",
+        "line": 16053,
+        "token": "prěvodi",
+        "bytes": 303,
+        "sha256": "4D0980B8C7B2FEDAE2C675C8A3AB9DD24B65C35673E9A11A31FCB1B41D0FB79D"
+      },
+      "authority_interpretation": {
+        "prevodí_to_prěvodi": "official prěvoditi entry plus exact structural parallel",
+        "najwyšego_to_najvyššego": "official vysoky→vysši comparative plus naj- superlative; adjudicated double š retained"
+      }
+    },
+    "protected_boundaries": {
+      "target": "source_latin/base-papers1-43-isv.tex",
+      "math_payloads": 20754,
+      "math_payloads_exact": true,
+      "balanced_foreign_calls": 196,
+      "balanced_foreign_payloads_exact": true,
+      "environment_tokens": 1786,
+      "environment_topology_exact": true,
+      "tex_control_and_locator_signature_exact": true,
+      "comments": 1482,
+      "comments_exact": true,
+      "strict_utf8_nfc_lf_no_bom_files": 11,
+      "visible_prose_only": true,
+      "math_changes": 0,
+      "foreign_payload_changes": 0,
+      "comment_changes": 0
+    },
+    "producer_sync_and_identity": {
+      "unit_blocks": 219,
+      "changed_body_units": [
+        "004",
+        "005",
+        "006",
+        "031",
+        "052",
+        "059",
+        "069",
+        "075",
+        "077",
+        "107",
+        "117",
+        "118",
+        "179"
+      ],
+      "unchanged_body_units": 206,
+      "source_locators_exact": 219,
+      "source_locator_changes": 0,
+      "identity_receipts_exact": 219,
+      "identity_receipt_changes": 0,
+      "active_producer_units": {
+        "003": {
+          "producer": "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex",
+          "bytes": 7664,
+          "sha256": "746C1B8CFB6A524C0348B388F373BE1A433DC6D6ABCEE0BAFEE79E56A214D47E",
+          "reader_body_exact_before_and_after": true,
+          "identity_receipt_exact_before_and_after": true
+        },
+        "012": {
+          "producer": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+          "bytes": 14964,
+          "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD",
+          "reader_body_exact_before_and_after": true,
+          "identity_receipt_exact_before_and_after": true
+        },
+        "057": {
+          "producer": "producer_units/Noether_Paper08_Interslavic_v001.tex",
+          "bytes": 23977,
+          "sha256": "611FF5D4933FCA1D99D07235DE81866248F66FAE53D245C2C047C0F8795F6A74",
+          "reader_body_exact_before_and_after": true,
+          "identity_receipt_exact_before_and_after": true
+        },
+        "106": {
+          "producer": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+          "bytes": 78375,
+          "sha256": "5D1212B2E8EAD24CA130346E43B19ABFEE3095883EEEE6D1F2BFA7F29F0EF01E",
+          "reader_body_exact_before_and_after": true,
+          "identity_receipt_exact_before_and_after": true
+        },
+        "108": {
+          "producer": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+          "bytes": 95653,
+          "sha256": "BB04481B0434D51818E128547652C79E7D67B0B1D12DC6955F98E178D9D2E019",
+          "reader_body_exact_before_and_after": true,
+          "identity_receipt_exact_before_and_after": true
+        },
+        "207": {
+          "producer": "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+          "bytes": 4752,
+          "sha256": "E60C00BD715913C21F6DB35DE68F5677F2FC6B5D486756C565905B1EA7774DC1",
+          "reader_body_exact_before_and_after": true,
+          "identity_receipt_exact_before_and_after": true
+        }
+      },
+      "active_producer_files_changed": 0,
+      "inactive_shadow_changed": false
+    },
+    "retained_surface_controls": {
+      "before": {
+        "działa": 3,
+        "právě": 8,
+        "użyvanjem": 1
+      },
+      "after": {
+        "działa": 3,
+        "právě": 8,
+        "użyvanjem": 1
+      },
+      "byte_exact": true,
+      "surfaces": [
+        "działa",
+        "právě",
+        "użyvanjem"
+      ]
+    },
+    "rejected_variant_chronology": {
+      "status": "REJECTED",
+      "rejected_surface": "prevodi",
+      "accepted_surface": "prěvodi",
+      "file": "source_latin/base-papers1-43-isv.tex",
+      "line": 10651,
+      "line_receipt": {
+        "bytes": 610,
+        "sha256": "F6C3520B7EE590B9B1DE90FCBC74545A98E71F42A66251AFB5C50E5C5D8BA4F4"
+      },
+      "whole_file_receipt": {
+        "bytes": 1892315,
+        "sha256": "8200F3C593A138F8D4DA6955B6B71C22EA21F9E5D40C477159E2264E580B2B9C"
+      },
+      "cohort_manifest_receipt": {
+        "bytes": 1359,
+        "sha256": "34844E006A365111494E4CD7FE496C88BA4698F4357FBC54175E6D389FC38AD6"
+      },
+      "independent_analysis_receipts": {
+        "line_manifest": {
+          "bytes": 4052,
+          "sha256": "552DF189F66917E53076013B045061DABDEB2A89ED9343F4F19A463447EC63EC"
+        },
+        "primitive_manifest": {
+          "bytes": 4353,
+          "sha256": "50B0B0FEBE63A730A4FD6A0352B3E45BE8E81E210C40BB756160DC432DC436FF"
+        },
+        "reverse_manifest": {
+          "bytes": 275,
+          "sha256": "01C6D842E5214F861D0B6BCCF7B0985A19113B31887E1006CF4CEFB74FA3FC07"
+        }
+      },
+      "reason": "superseded unaccented variant; official prěvoditi and exact structural parallel require prěvodi"
+    }
+  },
+  "application_evidence": {
+    "compact_dry_reconstructed": {
+      "path": "--compact stdout UTF-8 LF",
+      "bytes": 26021,
+      "sha256": "C80813281104249A0D403D21EF0EABB691F425BC263F3B6F844962E9FB969E15"
+    },
+    "production_stdout_reconstructed": {
+      "path": "--apply --compact stdout UTF-8 LF",
+      "bytes": 25991,
+      "sha256": "E20D48A40530E82019F1FD9A2262DCF84AE19EF38419B2D621EB1412EEF6F600"
+    },
+    "captured_production": {
+      "exit_code": 0,
+      "stdout": {
+        "bytes": 25991,
+        "sha256": "E20D48A40530E82019F1FD9A2262DCF84AE19EF38419B2D621EB1412EEF6F600"
+      },
+      "stderr": {
+        "bytes": 0,
+        "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      }
+    },
+    "independent_postapply": {
+      "result": "ACCEPT_POSTAPPLY_PRESEAL",
+      "guard_manifest": {
+        "bytes": 5994,
+        "sha256": "4627D16B3C9C7C688FA4CA5C24250BEC7CC923E1AF9F78AF242129CD873D5561",
+        "files": 31
+      },
+      "canonical_guard_json": {
+        "bytes": 8361,
+        "sha256": "AB68C59D388027713DBDDE30841DD74AC96C43A6E3050F29DC35FD7FF3218455"
+      },
+      "coverage": {
+        "primitive_edits": 13,
+        "changed_lines": 13,
+        "changed_targets": 1,
+        "math_payload_stream_exact": true,
+        "foreign_payloads": 196,
+        "tex_controls": 75199,
+        "comments": 1482,
+        "environment_tokens": 1786,
+        "source_identity_pairs": 219,
+        "unit_blocks": 219,
+        "active_producers_exact": 6,
+        "inactive_shadow_exact": true,
+        "source_transaction_residue": 0,
+        "pycache_residue": 0
+      },
+      "message_only_review": true
+    },
+    "invalid_candidate_chronology": {
+      "candidate": {
+        "path": "apply_official_lexical_tranche_v019.py",
+        "bytes": 64090,
+        "sha256": "6253E3A75C524F3767E2990BAF8A487B98CE1456224DDAF61E4B78818D781BEE"
+      },
+      "status": "REJECTED_READ_ONLY_BY_INDEPENDENT_QA",
+      "defect": "install block unreachable after main/SystemExit and capable of falsely reporting mutation",
+      "production_apply_attempted": false,
+      "production_failure_receipt_exists": false,
+      "rollback_receipt_exists": false,
+      "superseded_by": {
+        "path": "apply_official_lexical_tranche_v019.py",
+        "bytes": 73472,
+        "sha256": "4110D78533A102F4C3CA590B07A87A22FFB659FB710B5091B1942580440C6684"
+      },
+      "historical_artifact_rewritten": false
+    }
+  },
+  "auxiliary_tooling_authority_activation": {
+    "authority_id": "ISV019-TOOL-CYR2-0001",
+    "classification": "CYRILLIC_V2_SCANNER_AUTHORITY_ACTIVATION",
+    "creation_validation": {
+      "schema": "noether-isv-cyrillic-projection-v2-validation-receipt/1.0",
+      "audit_head": "ISV019-EDIT-0149",
+      "status": "PASS_SCANNER_VALIDATED_CORPUS_INTENTIONALLY_BLOCKED",
+      "self_sha256": "BEC3C9DBC030CAF9D60CDB5CBA079588D02BA511E64C935B7DB04C77344D5F6E",
+      "source_manifest": [
+        {
+          "file": "44-book-isv.tex",
+          "bytes": 168422,
+          "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+        },
+        {
+          "file": "45-isv.tex",
+          "bytes": 26014,
+          "sha256": "20B9123DFD81C0A3B3445A6CCAE8F711843F79C8D1DF75DF02406AF3A66A480F"
+        },
+        {
+          "file": "base-papers1-43-isv.tex",
+          "bytes": 1892315,
+          "sha256": "2A35A7530685CF1A32AFDF92807D9FCFDD090FF2767211ABBE8B0D8DF0E29AA3"
+        },
+        {
+          "file": "bib-isv.tex",
+          "bytes": 9939,
+          "sha256": "71E4746C77776B1E504EF79EA9C097644219BFDF482004F1D4AAE45DA1C490C5"
+        }
+      ],
+      "fixture_receipt_sha256": "C21766C80B2603B4FF24D379E7219C99363ACC8E74959B10F1F6D36EB841CBD4",
+      "test_receipt_sha256": "07CC17582734C04C2FA823860BDA2D821EE194D55F70E8A78C9B1C5E559F0876",
+      "corpus_report_sha256": "D6BCFB8D804EFDDB70B3AEEFCCAEE21EE40C10433FC6C8F77E1CBFEC4B497D6D",
+      "effects": {
+        "source_mutations": 0,
+        "metadata_mutations": 0,
+        "projected_files_written": 0,
+        "builds": 0,
+        "git_commands": 0,
+        "network_calls": 0,
+        "publication_actions": 0
+      }
+    },
+    "package": {
+      "implementation": {
+        "path": "project_isv_cyrillic_v2.py",
+        "bytes": 74914,
+        "sha256": "FD51B4D9936653CB9968AF8F91BAB08E18331741BC482CCA39AEF69F0B5AF3F2"
+      },
+      "tests": {
+        "path": "test_project_isv_cyrillic_v2.py",
+        "bytes": 14194,
+        "sha256": "9542587E29BE4D7C1D4A8C3DABD828BB9DCE1C983437C36D408C3CFF6889AA23"
+      },
+      "fixtures": {
+        "path": "cyrillic_projection_v2_fixtures.json",
+        "bytes": 8910,
+        "sha256": "B0CAA4B4F018F28376CD8EE75375FFD5F999B3E0086BD030B1F796CEDE5CD87A"
+      },
+      "validation_receipt": {
+        "path": "CYRILLIC_PROJECTION_V2_VALIDATION_RECEIPT_v019.json",
+        "bytes": 9500,
+        "sha256": "2A60254E226C7E112A7EA714CA882E460F0A70AFAC4E4CFD583D5B8307069BBE"
+      },
+      "manifest": {
+        "serialization": "ordered canonical compact UTF-8 JSONL; terminal LF",
+        "rows": 4,
+        "bytes": 550,
+        "sha256": "138EEE7F6B5F079C538A24FBE044AD079793D69D38B44CFF0F347086401CA160"
+      }
+    },
+    "adoption_head": "ISV019-EDIT-0150",
+    "adoption_validation": {
+      "source_manifest": [
+        {
+          "file": "44-book-isv.tex",
+          "bytes": 168422,
+          "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+        },
+        {
+          "file": "45-isv.tex",
+          "bytes": 26014,
+          "sha256": "20B9123DFD81C0A3B3445A6CCAE8F711843F79C8D1DF75DF02406AF3A66A480F"
+        },
+        {
+          "file": "base-papers1-43-isv.tex",
+          "bytes": 1892316,
+          "sha256": "79B60E7571B529E0F46D95C6E74B887D22269AE04F7490EDE2188BE9ABB6F08E"
+        },
+        {
+          "file": "bib-isv.tex",
+          "bytes": 9939,
+          "sha256": "71E4746C77776B1E504EF79EA9C097644219BFDF482004F1D4AAE45DA1C490C5"
+        }
+      ],
+      "source_manifest_receipt": {
+        "bytes": 471,
+        "sha256": "13473AB0571C6210BBE163E65EFC19362CA367D7A3A99027C7F9E953A85A060E"
+      },
+      "full_report": {
+        "runs": 2,
+        "byte_identical": true,
+        "bytes": 3761132,
+        "sha256": "33F7B2827AF3BC3D6D6CB76735BF4B99E6EE48BEC10A7000D3C59C174D1EB3A5",
+        "report_sha256_excluding_this_field": "27FAA8C29D68457010BFDD8A98D8D0718A2031885C86E82E9205C9E1CB4242A7"
+      },
+      "compact_fresh_processes": {
+        "runs": 2,
+        "byte_identical": true,
+        "exit_code_each": 0,
+        "stderr_bytes_each": 0,
+        "stdout": {
+          "bytes": 3948,
+          "sha256": "BE00CE2673FC5AEC4B1B65C5C550338788C9B0A08760637A41E4B51D080A8B1F"
+        }
+      },
+      "require_ready": {
+        "exit_code": 2,
+        "stderr_bytes": 0,
+        "stdout_same_as_default": true
+      },
+      "fixture_processes": {
+        "runs": 2,
+        "byte_identical": true,
+        "bytes": 6493,
+        "sha256": "04B201F984D5121B3D00FB875EF99A0858EEFD8AC2DA852A3D2310CD6CDA0AD8"
+      },
+      "summary": {
+        "files": 4,
+        "blocked_occurrences": 1118,
+        "blocked_inventory_sha256": "BFF31DDC9B8CEB0AB7C8FFC9536B91FE2066F6C962458A39500F846CFC4092F6",
+        "unique_blocked_surfaces": 138,
+        "unique_blocked_casefolds": 137,
+        "unsupported_occurrences": 512,
+        "unsupported_inventory_sha256": "68C6D4414A3748396A5B3EE4A9BDC81DC4940A3D5FF2F1CA6B99A96BF127DDBC",
+        "unique_unsupported_surfaces": 132,
+        "unique_unsupported_casefolds": 131,
+        "roman_identity_hold_occurrences": 704,
+        "roman_identity_inventory_sha256": "4E87FBB7EBCF572B15CFBB219AF702A46971AC9FD5B0713B06C4794716A9E50A",
+        "unique_roman_identity_hold_surfaces": 16,
+        "unique_roman_identity_hold_casefolds": 16,
+        "parse_errors": 0,
+        "coverage_failures": 0,
+        "unknown_argument_commands": 0,
+        "by_file": {
+          "44-book-isv.tex": {
+            "blocked_occurrences": 15,
+            "blocked_inventory_sha256": "62918F074507122CB976C7948E51CC99D60AC5EB4F448669A88041BE28ADC5A9",
+            "unique_blocked_surfaces": 4,
+            "unique_blocked_casefolds": 4,
+            "unsupported_occurrences": 0,
+            "unsupported_inventory_sha256": "37517E5F3DC66819F61F5A7BB8ACE1921282415F10551D2DEFA5C3EB0985B570",
+            "unique_unsupported_surfaces": 0,
+            "unique_unsupported_casefolds": 0,
+            "roman_identity_hold_occurrences": 15,
+            "roman_identity_inventory_sha256": "62918F074507122CB976C7948E51CC99D60AC5EB4F448669A88041BE28ADC5A9",
+            "unique_roman_identity_hold_surfaces": 4,
+            "unique_roman_identity_hold_casefolds": 4,
+            "unknown_argument_commands": 0
+          },
+          "45-isv.tex": {
+            "blocked_occurrences": 23,
+            "blocked_inventory_sha256": "270AB951D91BC0168C301BB4D085E90A29BE65887881A910DB91E8717FACCBDA",
+            "unique_blocked_surfaces": 8,
+            "unique_blocked_casefolds": 8,
+            "unsupported_occurrences": 5,
+            "unsupported_inventory_sha256": "40F8C8D5B05F4A9DC374F41A35B7C6D0F67C44A81B5C33B9C70537A683EC8359",
+            "unique_unsupported_surfaces": 5,
+            "unique_unsupported_casefolds": 5,
+            "roman_identity_hold_occurrences": 18,
+            "roman_identity_inventory_sha256": "FEC522BB0A98C3A989ED188111DC923DEDF93EB130F6D428FBC8F34528D6876B",
+            "unique_roman_identity_hold_surfaces": 3,
+            "unique_roman_identity_hold_casefolds": 3,
+            "unknown_argument_commands": 0
+          },
+          "base-papers1-43-isv.tex": {
+            "blocked_occurrences": 1050,
+            "blocked_inventory_sha256": "642C25E094E6380771D45AD6B57DEEB300D21A1BAC2D9A9E9ABC216F55FFBE31",
+            "unique_blocked_surfaces": 135,
+            "unique_blocked_casefolds": 134,
+            "unsupported_occurrences": 499,
+            "unsupported_inventory_sha256": "6116F82EAFAC59D42DF5DBEE20419127FE892B60D5E9E6D31D04BFE963B84B14",
+            "unique_unsupported_surfaces": 129,
+            "unique_unsupported_casefolds": 128,
+            "roman_identity_hold_occurrences": 649,
+            "roman_identity_inventory_sha256": "98F6CD8C7783ED3C5CA7803D794AB5A004647454E8090AF0305B5282599BA59B",
+            "unique_roman_identity_hold_surfaces": 16,
+            "unique_roman_identity_hold_casefolds": 16,
+            "unknown_argument_commands": 0
+          },
+          "bib-isv.tex": {
+            "blocked_occurrences": 30,
+            "blocked_inventory_sha256": "B4FD430C21DECFC8803BC2BA382779A957BAF80299C7D093A103FBC42181EA34",
+            "unique_blocked_surfaces": 11,
+            "unique_blocked_casefolds": 11,
+            "unsupported_occurrences": 8,
+            "unsupported_inventory_sha256": "F395CCF6D78A6D032F64D3EAA37A5DE857C0CABB4D45D2E3B58AE9E2D95CD57F",
+            "unique_unsupported_surfaces": 6,
+            "unique_unsupported_casefolds": 6,
+            "roman_identity_hold_occurrences": 22,
+            "roman_identity_inventory_sha256": "440BDF74855E0195A5CB287BF9D2A6DFB3557524FE9B16C653CF47A792D6D4D9",
+            "unique_roman_identity_hold_surfaces": 5,
+            "unique_roman_identity_hold_casefolds": 5,
+            "unknown_argument_commands": 0
+          }
+        },
+        "status": "BLOCKED_FAIL_CLOSED"
+      },
+      "summary_receipt": {
+        "bytes": 3285,
+        "sha256": "A4E6121804F7A2A5AE5BD2669F872A82C4BE71F5599E2EFC42682998E4E7B3F3"
+      },
+      "segmentation": {
+        "44-book-isv.tex": {
+          "segments": 14922,
+          "segment_sha256": "C9A6E599DCC5AEFBB931B9BD139ADC39B7442668066B064A2738CD14F0185461",
+          "protected_stream_bytes": 80246,
+          "protected_stream_sha256": "7B3E712F50A753F6672DC68E423E2CA0E73AAFDE0A9F6759C817BDB2FDFCB652",
+          "foreign_spans": 16,
+          "math_spans": 2987
+        },
+        "45-isv.tex": {
+          "segments": 2031,
+          "segment_sha256": "50CEF259666A10C270F0E93AF8E8C09069C8601B4BBDFA20CBE5F9FC1A0F80AF",
+          "protected_stream_bytes": 11572,
+          "protected_stream_sha256": "AD3CC790F79FC217FC844F584265DB770A5142D2B0AEBAA1E9A68EFE35F82EB3",
+          "foreign_spans": 19,
+          "math_spans": 305
+        },
+        "base-papers1-43-isv.tex": {
+          "segments": 121567,
+          "segment_sha256": "65A01C3A8095B0391B5553C6D46A65AB94B0476F832353C36A20CDA57D1BF53D",
+          "protected_stream_bytes": 729118,
+          "protected_stream_sha256": "F63365D782867C69C2C6D64D4B7C6C46CBF4F99EE61281898907F5B907CDD8E3",
+          "foreign_spans": 196,
+          "math_spans": 21503
+        },
+        "bib-isv.tex": {
+          "segments": 960,
+          "segment_sha256": "6B59C3E243EF95B70B2623119B681470CF4D0850D730D60C6B538AD150BA4A28",
+          "protected_stream_bytes": 4025,
+          "protected_stream_sha256": "D3C12199F0A080E65F28B13071A4DB783BAFCE0407B37CC8748C2BD8B24F0706",
+          "foreign_spans": 47,
+          "math_spans": 3
+        }
+      },
+      "segmentation_receipt": {
+        "bytes": 1125,
+        "sha256": "F238E46DD4DF89D844675F9C62C651F7214EB69D34FC7598484EDAF93F4CF4AC"
+      }
+    },
+    "baseline_test_boundary": {
+      "test_stdout": {
+        "bytes": 1798,
+        "sha256": "399E1AB32ACB2F73C8F12228B3F0BAEAEEED2C52053BBE613EA677A77031EDE4"
+      },
+      "source_bound_to": "ISV019-EDIT-0149",
+      "not_reinterpreted_as_live_EDIT0150_test": true
+    },
+    "status": "ACTIVE_PRE_FREEZE_SCANNER_AUTHORITY_CORPUS_BLOCKED_FAIL_CLOSED",
+    "source_mutations": 0,
+    "projected_files_written": 0
+  },
+  "historical_components_preserved": {
+    "v018_parser": {
+      "path": "../noether_slavic_v018_lineage_v001/project_isv_cyrillic.py",
+      "bytes": 15378,
+      "sha256": "9780C7AA5B9DE7590E6863218277BD03B4F4DFDDBDF9AEACE0A99C9CEC20E5DD"
+    },
+    "standard_wrapper": {
+      "path": "../00_lane_control/isv_normalization_20260811/standard_project_isv_cyrillic.py",
+      "bytes": 12496,
+      "sha256": "D236D705C1CC8C424062E54CA29D9B4B48A8CC79F04C54662B7AE5F3BDACF720"
+    },
+    "edit0148_applicator": {
+      "path": "apply_foreign_provenance_protection_v019.py",
+      "bytes": 69319,
+      "sha256": "78EC676367BE9DE419CB314DBF3A6204D7CF8AD30C73DD7D6C31CDA1237ED144"
+    },
+    "edit0148_sealer": {
+      "path": "seal_isv_edit0148_v019.py",
+      "bytes": 97776,
+      "sha256": "DA282E18A412FDAB95293AB94E7B7C28743863B482C6E4874EF9903B00767B77"
+    }
+  },
+  "transaction_architecture": {
+    "implementation": "pin-imported sealed EDIT0149 phase-aware metadata delegate over hardened custody core, rebound for EDIT0150",
+    "seal_targets": [
+      "verify_session_independent_state_v019.ps1",
+      "decision_records/ISV019-EDIT-0150.json",
+      "NORMALIZATION_DECISIONS_v019.jsonl",
+      "00_SESSION_INDEPENDENT_STATE_v019.json"
+    ],
+    "immutable_auxiliary_preconditions": [
+      "project_isv_cyrillic_v2.py",
+      "test_project_isv_cyrillic_v2.py",
+      "cyrillic_projection_v2_fixtures.json",
+      "CYRILLIC_PROJECTION_V2_VALIDATION_RECEIPT_v019.json",
+      "CYRILLIC_PROJECTION_V2_SPEC_v019.md"
+    ],
+    "worklog_target": "00_SESSION_INDEPENDENT_WORKLOG_v019.jsonl",
+    "mixed_present_absent_targets": true,
+    "rollback_images_before_stages": true,
+    "descriptor_path_inode_identity_binding": true,
+    "successor_shadow_uses_actual_frozen_applicator_read_pin_metadata_failure_path": true,
+    "full_vector_audit_before_recovery_destruction": true,
+    "third_state_preserved_on_uncertainty": true,
+    "cross_token_residue_gate": true,
+    "lock_removed_last": true,
+    "cooperative_lock_only": true,
+    "source_plus_metadata_atomicity_claim": false,
+    "cross_crash_atomicity_claim": false,
+    "five_file_cross_phase_atomicity_claim": false,
+    "uncooperative_writer_serialization_claim": false
+  },
+  "verifier_protocol": {
+    "before_worklog_append": {
+      "mode": "two_actual_pwsh7_runs_before_exact_worklog_append",
+      "run_1": {
+        "transport": "raw_stdout_utf8_lf",
+        "bytes": 644,
+        "sha256": "1AF2A092B26E5D34DECD7882E08CB82ADCF102366484CEBDDE37B8E43B8E445B"
+      },
+      "run_2": {
+        "transport": "raw_stdout_utf8_lf",
+        "bytes": 644,
+        "sha256": "1AF2A092B26E5D34DECD7882E08CB82ADCF102366484CEBDDE37B8E43B8E445B"
+      },
+      "stderr_bytes_each": 0,
+      "exit_code_each": 0
+    },
+    "after_worklog_append_expected_and_required": {
+      "mode": "two_actual_pwsh7_runs_after_exact_worklog_append",
+      "run_1": {
+        "transport": "raw_stdout_utf8_lf",
+        "bytes": 628,
+        "sha256": "56206D90C270264245D15A4112425903E1238393F8FDB186A80F805798B546FB"
+      },
+      "run_2": {
+        "transport": "raw_stdout_utf8_lf",
+        "bytes": 628,
+        "sha256": "56206D90C270264245D15A4112425903E1238393F8FDB186A80F805798B546FB"
+      },
+      "stderr_bytes_each": 0,
+      "exit_code_each": 0
+    },
+    "actual_postappend_runs_checked_by_append_mode_not_retroactively_written": true
+  },
+  "append_only_supersession": {
+    "preserved": [
+      "all decisions and records through EDIT0149",
+      "the exact EDIT0145-EDIT0149 source and metadata history",
+      "historical v018 parser and wrapper",
+      "sealed EDIT0148 artifacts",
+      "immutable EDIT0149 scanner creation receipt and source-bound test expectations",
+      "all mathematics, TeX/foreign topology, producer identities, public predecessors, rights boundaries, and publication state"
+    ],
+    "superseded_only": [
+      "thirteen exact Latin visible-prose loci and the EDIT0149 source hash surface",
+      "earlier ad hoc v019 scanning authority; forward v019 preflight authority is ISV019-TOOL-CYR2-0001"
+    ]
+  },
+  "claims": {
+    "semantic_holds": 0,
+    "open_dispositions": 0,
+    "build": false,
+    "render": false,
+    "publication": false,
+    "repository_or_doi_change": false,
+    "projected_files_written": false,
+    "native_or_community_certification": false,
+    "blanket_rights_claim": false,
+    "Latin_freeze": false,
+    "scanner_ready": false,
+    "cross_crash_atomicity": false,
+    "five_file_cross_phase_atomicity": false
+  },
+  "next_action": "Continue the complete Latin residual and projection-protection sweep, then close the exact blocked and identity inventories under ISV019-TOOL-CYR2-0001 before any four-source Latin freeze or Cyrillic projection."
+}

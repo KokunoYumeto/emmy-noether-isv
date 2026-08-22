@@ -1,0 +1,1919 @@
+{
+  "schema": "noether-interslavic-v019-release-qa/1.0",
+  "release_id": "NOETHER-ISV-v019",
+  "generated_at": "2026-08-21T00:00:00Z",
+  "pass": true,
+  "scope": "frozen Latin edition and deterministic Cyrillic projection; two cumulative pre-publication readers",
+  "build_manifest": {
+    "path": "release_v019/evidence/build-manifest.json",
+    "bytes": 26095,
+    "sha256": "FF83E4E2890F2CDD3B6E2F91E5C39CFF5B073F387CEB9F0B7C068DD21CCD3C0C",
+    "internal_release_id": "NOETHER-ISV-v019"
+  },
+  "checks": [
+    {
+      "code": "release-id",
+      "pass": true,
+      "detail": "NOETHER-ISV-v019"
+    },
+    {
+      "code": "serial-build-policy",
+      "pass": true,
+      "detail": {
+        "engine": "XeLaTeX",
+        "passes_per_document": 2,
+        "serial": true,
+        "shell_escape": false,
+        "release_blockers": [
+          "nonzero engine exit",
+          "missing glyph",
+          "undefined reference",
+          "undefined citation",
+          "cumulative page mismatch"
+        ]
+      }
+    },
+    {
+      "code": "surface-topology",
+      "pass": true,
+      "detail": [
+        "cyrl",
+        "latn"
+      ]
+    },
+    {
+      "code": "authenticated-source-readback",
+      "pass": true,
+      "detail": [
+        {
+          "source": "source_latin/44-book-isv.tex",
+          "expected": {
+            "bytes": 168422,
+            "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+          },
+          "actual": {
+            "path": "source_latin/44-book-isv.tex",
+            "bytes": 168422,
+            "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+          },
+          "pass": true
+        },
+        {
+          "source": "source_latin/45-isv.tex",
+          "expected": {
+            "bytes": 26053,
+            "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+          },
+          "actual": {
+            "path": "source_latin/45-isv.tex",
+            "bytes": 26053,
+            "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+          },
+          "pass": true
+        },
+        {
+          "source": "source_latin/base-papers1-43-isv.tex",
+          "expected": {
+            "bytes": 1894721,
+            "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"
+          },
+          "actual": {
+            "path": "source_latin/base-papers1-43-isv.tex",
+            "bytes": 1894721,
+            "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"
+          },
+          "pass": true
+        },
+        {
+          "source": "source_latin/bib-isv.tex",
+          "expected": {
+            "bytes": 10019,
+            "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+          },
+          "actual": {
+            "path": "source_latin/bib-isv.tex",
+            "bytes": 10019,
+            "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+          },
+          "pass": true
+        },
+        {
+          "source": "source_cyrillic/44-book-isv-cyrl.tex",
+          "expected": {
+            "bytes": 230370,
+            "sha256": "13E2391567A522038C3F959C22FA2FAC164D032F82DA811C6447560F5680C9F0"
+          },
+          "actual": {
+            "path": "source_cyrillic/44-book-isv-cyrl.tex",
+            "bytes": 230370,
+            "sha256": "13E2391567A522038C3F959C22FA2FAC164D032F82DA811C6447560F5680C9F0"
+          },
+          "pass": true
+        },
+        {
+          "source": "source_cyrillic/45-isv-cyrl.tex",
+          "expected": {
+            "bytes": 35902,
+            "sha256": "E1568BAB1E389E07816178A2FBDEE3833508C79BF0C7C19DD5120812E24646FE"
+          },
+          "actual": {
+            "path": "source_cyrillic/45-isv-cyrl.tex",
+            "bytes": 35902,
+            "sha256": "E1568BAB1E389E07816178A2FBDEE3833508C79BF0C7C19DD5120812E24646FE"
+          },
+          "pass": true
+        },
+        {
+          "source": "source_cyrillic/base-papers1-43-isv-cyrl.tex",
+          "expected": {
+            "bytes": 2706660,
+            "sha256": "23C242AABD938C605A4B2293ED6E68B723F94DBD23279FD8E75CB50CAEF099F1"
+          },
+          "actual": {
+            "path": "source_cyrillic/base-papers1-43-isv-cyrl.tex",
+            "bytes": 2706660,
+            "sha256": "23C242AABD938C605A4B2293ED6E68B723F94DBD23279FD8E75CB50CAEF099F1"
+          },
+          "pass": true
+        },
+        {
+          "source": "source_cyrillic/bib-isv-cyrl.tex",
+          "expected": {
+            "bytes": 13255,
+            "sha256": "5A6AE75FF94360BC104CE240E0EC18A2329C5229F68B198F763EDF7E786B816B"
+          },
+          "actual": {
+            "path": "source_cyrillic/bib-isv-cyrl.tex",
+            "bytes": 13255,
+            "sha256": "5A6AE75FF94360BC104CE240E0EC18A2329C5229F68B198F763EDF7E786B816B"
+          },
+          "pass": true
+        },
+        {
+          "source": "assets/authority_rosette_native_supported_mask.png",
+          "expected": {
+            "bytes": 797,
+            "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5"
+          },
+          "actual": {
+            "path": "assets/authority_rosette_native_supported_mask.png",
+            "bytes": 797,
+            "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5"
+          },
+          "pass": true
+        }
+      ]
+    },
+    {
+      "code": "cross-script-nonletter-structure",
+      "pass": true,
+      "detail": [
+        {
+          "latin": "44-book-isv.tex",
+          "cyrillic": "44-book-isv-cyrl.tex",
+          "latin_nonletter_sha256": "BAC32A07661EB5D575B1533EF6A6A10CEEE300E5B5CAD3532C07208EAF588DF8",
+          "cyrillic_nonletter_sha256": "BAC32A07661EB5D575B1533EF6A6A10CEEE300E5B5CAD3532C07208EAF588DF8",
+          "pass": true
+        },
+        {
+          "latin": "45-isv.tex",
+          "cyrillic": "45-isv-cyrl.tex",
+          "latin_nonletter_sha256": "A37B79CAC6D88C60AD163B3EA01BD88C9DB6F6A2395C94F5EFEEB8AD2E6CF5CE",
+          "cyrillic_nonletter_sha256": "A37B79CAC6D88C60AD163B3EA01BD88C9DB6F6A2395C94F5EFEEB8AD2E6CF5CE",
+          "pass": true
+        },
+        {
+          "latin": "base-papers1-43-isv.tex",
+          "cyrillic": "base-papers1-43-isv-cyrl.tex",
+          "latin_nonletter_sha256": "B09D747E9D80A0EBC7EA35C44CECC02E36DA68D398E0B89F4E5D66FB4908D694",
+          "cyrillic_nonletter_sha256": "B09D747E9D80A0EBC7EA35C44CECC02E36DA68D398E0B89F4E5D66FB4908D694",
+          "pass": true
+        },
+        {
+          "latin": "bib-isv.tex",
+          "cyrillic": "bib-isv-cyrl.tex",
+          "latin_nonletter_sha256": "FB42DFB53AF130975C5920E62D3585DC42CE8DF88E97D5CFA79EE49B399C3447",
+          "cyrillic_nonletter_sha256": "FB42DFB53AF130975C5920E62D3585DC42CE8DF88E97D5CFA79EE49B399C3447",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "code": "build-log-fatal-scan",
+      "pass": true,
+      "detail": [
+        {
+          "surface": "latn",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/latn/base-papers1-43/base-papers1-43-isv-latn.log",
+            "bytes": 47764,
+            "sha256": "A385FB4234317534CC910B0A00160A3E38DDAA6298D4A8262BBE182FB4007FF0"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "latn",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/latn/base-papers1-43/base-papers1-43-isv-latn.log",
+            "bytes": 47764,
+            "sha256": "A385FB4234317534CC910B0A00160A3E38DDAA6298D4A8262BBE182FB4007FF0"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "latn",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/latn/44-book/44-book-isv-latn.log",
+            "bytes": 25515,
+            "sha256": "C885CC4A111E12C7414C3FFA6BA9BB50DE3930A97768FDF545601594A093CDBA"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "latn",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/latn/44-book/44-book-isv-latn.log",
+            "bytes": 25515,
+            "sha256": "C885CC4A111E12C7414C3FFA6BA9BB50DE3930A97768FDF545601594A093CDBA"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "latn",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/latn/45/45-isv-latn.log",
+            "bytes": 23312,
+            "sha256": "06C2D402928872F7215BE8A5EEC71C3929105FDC2455ACD7386F8856124B6C30"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "latn",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/latn/45/45-isv-latn.log",
+            "bytes": 23312,
+            "sha256": "06C2D402928872F7215BE8A5EEC71C3929105FDC2455ACD7386F8856124B6C30"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "latn",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/latn/bib/bib-isv-latn.log",
+            "bytes": 22882,
+            "sha256": "489ADF06964AB8334F30EB2E606EB3784C97B6CA1EF1AE895251E7C28DE2157B"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "latn",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/latn/bib/bib-isv-latn.log",
+            "bytes": 22882,
+            "sha256": "489ADF06964AB8334F30EB2E606EB3784C97B6CA1EF1AE895251E7C28DE2157B"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "latn",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/readers/latn/emmy-noether-interslavic-latin-v019.log",
+            "bytes": 247825,
+            "sha256": "D0C996F5449124E3634B7B40C8D7434FCE015E42F0728F60599EE9D3F465E439"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "latn",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/readers/latn/emmy-noether-interslavic-latin-v019.log",
+            "bytes": 247825,
+            "sha256": "D0C996F5449124E3634B7B40C8D7434FCE015E42F0728F60599EE9D3F465E439"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "cyrl",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/cyrl/base-papers1-43/base-papers1-43-isv-cyrl.log",
+            "bytes": 166268,
+            "sha256": "F0B3F75A83685209E3E7D30175A9636BE004C4D1AF73FE8FAEEC274138E80A9D"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 4,
+            "undefined_citation": 0,
+            "overfull_hbox": 1,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "cyrl",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/cyrl/base-papers1-43/base-papers1-43-isv-cyrl.log",
+            "bytes": 166268,
+            "sha256": "F0B3F75A83685209E3E7D30175A9636BE004C4D1AF73FE8FAEEC274138E80A9D"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 1,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "cyrl",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/cyrl/44-book/44-book-isv-cyrl.log",
+            "bytes": 25531,
+            "sha256": "EF0FC5E98F9A846C508F7D624BC00FC1EC125265EA522CD839A2FD3F5C3AF9F1"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "cyrl",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/cyrl/44-book/44-book-isv-cyrl.log",
+            "bytes": 25531,
+            "sha256": "EF0FC5E98F9A846C508F7D624BC00FC1EC125265EA522CD839A2FD3F5C3AF9F1"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "cyrl",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/cyrl/45/45-isv-cyrl.log",
+            "bytes": 23323,
+            "sha256": "E090C1A8FDFAE1719FE06B0F38D954220066FF31EB07F6F5F8BAE922FA383895"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 40,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "cyrl",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/cyrl/45/45-isv-cyrl.log",
+            "bytes": 23323,
+            "sha256": "E090C1A8FDFAE1719FE06B0F38D954220066FF31EB07F6F5F8BAE922FA383895"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "cyrl",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/cyrl/bib/bib-isv-cyrl.log",
+            "bytes": 22893,
+            "sha256": "5D80AB868ADE6BA42B1FFB23CA70C7F2BDA9634461B89466881D3F84CC778CB2"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "cyrl",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/components/cyrl/bib/bib-isv-cyrl.log",
+            "bytes": 22893,
+            "sha256": "5D80AB868ADE6BA42B1FFB23CA70C7F2BDA9634461B89466881D3F84CC778CB2"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "cyrl",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/readers/cyrl/emmy-noether-interslavic-cyrillic-v019.log",
+            "bytes": 257659,
+            "sha256": "075695D85EBD435103EFA837454053C6C5348EEFA858C1552C993B57A34CF022"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "surface": "cyrl",
+          "log": {
+            "path": "tmp/pdfs/isv_release_v019/readers/cyrl/emmy-noether-interslavic-cyrillic-v019.log",
+            "bytes": 257659,
+            "sha256": "075695D85EBD435103EFA837454053C6C5348EEFA858C1552C993B57A34CF022"
+          },
+          "fatal_patterns": [],
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        }
+      ]
+    },
+    {
+      "code": "reader-hash-latn",
+      "pass": true,
+      "detail": {
+        "path": "release_v019/pdf/emmy-noether-interslavic-latin-v019.pdf",
+        "bytes": 3000508,
+        "sha256": "5FCC44BF0D25C3DA0C14C8542CDFEB48419EE924ADD197227F70008FF076FF4F",
+        "pages": 565,
+        "encrypted": false,
+        "media_boxes": {
+          "612.000x792.000": 565
+        },
+        "rotations": {
+          "0": 565
+        },
+        "annotations": 0,
+        "pages_without_content_object": 0,
+        "metadata": {
+          "/Creator": " XeTeX output 2026.08.21:0000",
+          "/Producer": "MiKTeX-dvipdfmx (20260404)",
+          "/CreationDate": "D:20260821000000Z"
+        }
+      }
+    },
+    {
+      "code": "reader-pages-latn",
+      "pass": true,
+      "detail": {
+        "path": "release_v019/pdf/emmy-noether-interslavic-latin-v019.pdf",
+        "bytes": 3000508,
+        "sha256": "5FCC44BF0D25C3DA0C14C8542CDFEB48419EE924ADD197227F70008FF076FF4F",
+        "pages": 565,
+        "encrypted": false,
+        "media_boxes": {
+          "612.000x792.000": 565
+        },
+        "rotations": {
+          "0": 565
+        },
+        "annotations": 0,
+        "pages_without_content_object": 0,
+        "metadata": {
+          "/Creator": " XeTeX output 2026.08.21:0000",
+          "/Producer": "MiKTeX-dvipdfmx (20260404)",
+          "/CreationDate": "D:20260821000000Z"
+        }
+      }
+    },
+    {
+      "code": "reader-font-embedding-latn",
+      "pass": true,
+      "detail": {
+        "font_rows": 83,
+        "all_embedded": true,
+        "unicode_mapped_rows": 74,
+        "unicode_unmapped_math_symbol_rows": 9,
+        "stderr": ""
+      }
+    },
+    {
+      "code": "reader-text-page-count-latn",
+      "pass": true,
+      "detail": {
+        "text_pages": 565,
+        "pdf_pages": 565
+      }
+    },
+    {
+      "code": "reader-text-integrity-latn",
+      "pass": true,
+      "detail": {
+        "path": "release_v019/evidence/text/reader-latn.txt",
+        "bytes": 2047910,
+        "sha256": "27664FBDB07701906ACA1814733618CB9F2FD60A8B28EF0A105528C4408E4080",
+        "characters": 1930132,
+        "non_whitespace_characters": 1201152,
+        "replacement_characters": 0,
+        "form_feeds": 565,
+        "stderr": ""
+      }
+    },
+    {
+      "code": "component-hash-latn-base-papers1-43",
+      "pass": true,
+      "detail": {
+        "path": "release_v019/pdf/components/base-papers1-43-isv-latn.pdf",
+        "bytes": 2194037,
+        "sha256": "9B52DC91FD3A3F4E14BB7BE8CB0854C7CCC7F3B244C78D4F275FB7AFE049FD22",
+        "pages": 509,
+        "encrypted": false,
+        "media_boxes": {
+          "595.280x841.890": 509
+        },
+        "rotations": {
+          "0": 507,
+          "90": 2
+        },
+        "annotations": 0,
+        "pages_without_content_object": 0,
+        "metadata": {
+          "/Creator": " XeTeX output 2026.08.21:0000",
+          "/Producer": "MiKTeX-dvipdfmx (20260404)",
+          "/CreationDate": "D:20260821000000Z"
+        }
+      }
+    },
+    {
+      "code": "component-text-pages-latn-base-papers1-43",
+      "pass": true,
+      "detail": {
+        "text_pages": 509,
+        "pdf_pages": 509
+      }
+    },
+    {
+      "code": "component-hash-latn-44-book",
+      "pass": true,
+      "detail": {
+        "path": "release_v019/pdf/components/44-book-isv-latn.pdf",
+        "bytes": 330925,
+        "sha256": "8C30D2141B643E9DCAE2D341A83673E210CD041B5945BD1F31BDF56EE8CFBB74",
+        "pages": 44,
+        "encrypted": false,
+        "media_boxes": {
+          "595.280x841.890": 44
+        },
+        "rotations": {
+          "0": 44
+        },
+        "annotations": 8,
+        "pages_without_content_object": 0,
+        "metadata": {
+          "/Creator": "LaTeX with hyperref",
+          "/Producer": "MiKTeX-dvipdfmx (20260404)",
+          "/CreationDate": "D:20260821000000Z"
+        }
+      }
+    },
+    {
+      "code": "component-text-pages-latn-44-book",
+      "pass": true,
+      "detail": {
+        "text_pages": 44,
+        "pdf_pages": 44
+      }
+    },
+    {
+      "code": "component-hash-latn-45",
+      "pass": true,
+      "detail": {
+        "path": "release_v019/pdf/components/45-isv-latn.pdf",
+        "bytes": 143886,
+        "sha256": "A830C07B136E3927E7BD0D5D879557A539F5C23DE5DF005A766916395641A2CD",
+        "pages": 7,
+        "encrypted": false,
+        "media_boxes": {
+          "595.280x841.890": 7
+        },
+        "rotations": {
+          "0": 7
+        },
+        "annotations": 0,
+        "pages_without_content_object": 0,
+        "metadata": {
+          "/Creator": " XeTeX output 2026.08.21:0000",
+          "/Producer": "MiKTeX-dvipdfmx (20260404)",
+          "/CreationDate": "D:20260821000000Z"
+        }
+      }
+    },
+    {
+      "code": "component-text-pages-latn-45",
+      "pass": true,
+      "detail": {
+        "text_pages": 7,
+        "pdf_pages": 7
+      }
+    },
+    {
+      "code": "component-hash-latn-bib",
+      "pass": true,
+      "detail": {
+        "path": "release_v019/pdf/components/bib-isv-latn.pdf",
+        "bytes": 100010,
+        "sha256": "7EB247280E3D6D7934161AECD9BB6F366956922F8BCB1D8F4F6355C3C69B9921",
+        "pages": 5,
+        "encrypted": false,
+        "media_boxes": {
+          "595.280x841.890": 5
+        },
+        "rotations": {
+          "0": 5
+        },
+        "annotations": 0,
+        "pages_without_content_object": 0,
+        "metadata": {
+          "/Creator": " XeTeX output 2026.08.21:0000",
+          "/Producer": "MiKTeX-dvipdfmx (20260404)",
+          "/CreationDate": "D:20260821000000Z"
+        }
+      }
+    },
+    {
+      "code": "component-text-pages-latn-bib",
+      "pass": true,
+      "detail": {
+        "text_pages": 5,
+        "pdf_pages": 5
+      }
+    },
+    {
+      "code": "cumulative-pagewise-character-identity-latn",
+      "pass": true,
+      "detail": {
+        "component_pages": 565,
+        "reader_pages": 565,
+        "layout_sequence_identical": false,
+        "note": "pdfpages coordinate transforms can change pdftotext -layout ordering; the exact non-whitespace character multiset is required page by page"
+      }
+    },
+    {
+      "code": "reader-script-census-latn",
+      "pass": true,
+      "detail": {
+        "Latin": 1042295,
+        "Cyrillic": 12
+      }
+    },
+    {
+      "code": "component-boundary-text-latn",
+      "pass": true,
+      "detail": [
+        {
+          "component": "base-papers1-43",
+          "first_page_non_whitespace": 2919,
+          "last_page_non_whitespace": 2015
+        },
+        {
+          "component": "44-book",
+          "first_page_non_whitespace": 2854,
+          "last_page_non_whitespace": 2943
+        },
+        {
+          "component": "45",
+          "first_page_non_whitespace": 2716,
+          "last_page_non_whitespace": 1667
+        },
+        {
+          "component": "bib",
+          "first_page_non_whitespace": 1602,
+          "last_page_non_whitespace": 332
+        }
+      ]
+    },
+    {
+      "code": "reader-hash-cyrl",
+      "pass": true,
+      "detail": {
+        "path": "release_v019/pdf/emmy-noether-interslavic-cyrillic-v019.pdf",
+        "bytes": 3300454,
+        "sha256": "578AAB7224B4192006096B231FD67A3AFEE6E22DFF0C94264102B6D192687B75",
+        "pages": 588,
+        "encrypted": false,
+        "media_boxes": {
+          "612.000x792.000": 588
+        },
+        "rotations": {
+          "0": 588
+        },
+        "annotations": 0,
+        "pages_without_content_object": 0,
+        "metadata": {
+          "/Creator": " XeTeX output 2026.08.21:0000",
+          "/Producer": "MiKTeX-dvipdfmx (20260404)",
+          "/CreationDate": "D:20260821000000Z"
+        }
+      }
+    },
+    {
+      "code": "reader-pages-cyrl",
+      "pass": true,
+      "detail": {
+        "path": "release_v019/pdf/emmy-noether-interslavic-cyrillic-v019.pdf",
+        "bytes": 3300454,
+        "sha256": "578AAB7224B4192006096B231FD67A3AFEE6E22DFF0C94264102B6D192687B75",
+        "pages": 588,
+        "encrypted": false,
+        "media_boxes": {
+          "612.000x792.000": 588
+        },
+        "rotations": {
+          "0": 588
+        },
+        "annotations": 0,
+        "pages_without_content_object": 0,
+        "metadata": {
+          "/Creator": " XeTeX output 2026.08.21:0000",
+          "/Producer": "MiKTeX-dvipdfmx (20260404)",
+          "/CreationDate": "D:20260821000000Z"
+        }
+      }
+    },
+    {
+      "code": "reader-font-embedding-cyrl",
+      "pass": true,
+      "detail": {
+        "font_rows": 83,
+        "all_embedded": true,
+        "unicode_mapped_rows": 74,
+        "unicode_unmapped_math_symbol_rows": 9,
+        "stderr": ""
+      }
+    },
+    {
+      "code": "reader-text-page-count-cyrl",
+      "pass": true,
+      "detail": {
+        "text_pages": 588,
+        "pdf_pages": 588
+      }
+    },
+    {
+      "code": "reader-text-integrity-cyrl",
+      "pass": true,
+      "detail": {
+        "path": "release_v019/evidence/text/reader-cyrl.txt",
+        "bytes": 2910846,
+        "sha256": "DD9DCC28BC8C135D2D0880486DD6D9406F2BACC60B07AA452F9051477FCE15D0",
+        "characters": 1894058,
+        "non_whitespace_characters": 1189320,
+        "replacement_characters": 0,
+        "form_feeds": 588,
+        "stderr": ""
+      }
+    },
+    {
+      "code": "component-hash-cyrl-base-papers1-43",
+      "pass": true,
+      "detail": {
+        "path": "release_v019/pdf/components/base-papers1-43-isv-cyrl.pdf",
+        "bytes": 2421247,
+        "sha256": "96768DE0EA8DFE36189D62E0C569AC8214F88514D18817766D02A0A38A4A92B1",
+        "pages": 531,
+        "encrypted": false,
+        "media_boxes": {
+          "595.280x841.890": 531
+        },
+        "rotations": {
+          "0": 529,
+          "90": 2
+        },
+        "annotations": 0,
+        "pages_without_content_object": 0,
+        "metadata": {
+          "/Creator": " XeTeX output 2026.08.21:0000",
+          "/Producer": "MiKTeX-dvipdfmx (20260404)",
+          "/CreationDate": "D:20260821000000Z"
+        }
+      }
+    },
+    {
+      "code": "component-text-pages-cyrl-base-papers1-43",
+      "pass": true,
+      "detail": {
+        "text_pages": 531,
+        "pdf_pages": 531
+      }
+    },
+    {
+      "code": "component-hash-cyrl-44-book",
+      "pass": true,
+      "detail": {
+        "path": "release_v019/pdf/components/44-book-isv-cyrl.pdf",
+        "bytes": 361464,
+        "sha256": "ABFAE3D2F2218DED3D86A322459AA591E7C4B54395C363A22FC387DD0A1130AB",
+        "pages": 45,
+        "encrypted": false,
+        "media_boxes": {
+          "595.280x841.890": 45
+        },
+        "rotations": {
+          "0": 45
+        },
+        "annotations": 8,
+        "pages_without_content_object": 0,
+        "metadata": {
+          "/Creator": "LaTeX with hyperref",
+          "/Producer": "MiKTeX-dvipdfmx (20260404)",
+          "/CreationDate": "D:20260821000000Z"
+        }
+      }
+    },
+    {
+      "code": "component-text-pages-cyrl-44-book",
+      "pass": true,
+      "detail": {
+        "text_pages": 45,
+        "pdf_pages": 45
+      }
+    },
+    {
+      "code": "component-hash-cyrl-45",
+      "pass": true,
+      "detail": {
+        "path": "release_v019/pdf/components/45-isv-cyrl.pdf",
+        "bytes": 161864,
+        "sha256": "1B8D675806A60A7D17727462BC41A549CE8D87868AFCF96097CC0DB42313C93A",
+        "pages": 7,
+        "encrypted": false,
+        "media_boxes": {
+          "595.280x841.890": 7
+        },
+        "rotations": {
+          "0": 7
+        },
+        "annotations": 0,
+        "pages_without_content_object": 0,
+        "metadata": {
+          "/Creator": " XeTeX output 2026.08.21:0000",
+          "/Producer": "MiKTeX-dvipdfmx (20260404)",
+          "/CreationDate": "D:20260821000000Z"
+        }
+      }
+    },
+    {
+      "code": "component-text-pages-cyrl-45",
+      "pass": true,
+      "detail": {
+        "text_pages": 7,
+        "pdf_pages": 7
+      }
+    },
+    {
+      "code": "component-hash-cyrl-bib",
+      "pass": true,
+      "detail": {
+        "path": "release_v019/pdf/components/bib-isv-cyrl.pdf",
+        "bytes": 114571,
+        "sha256": "9C8D751EDE062ECC2CC65D5CA8E1309EB307166BB21F648AF076CF39FE100178",
+        "pages": 5,
+        "encrypted": false,
+        "media_boxes": {
+          "595.280x841.890": 5
+        },
+        "rotations": {
+          "0": 5
+        },
+        "annotations": 0,
+        "pages_without_content_object": 0,
+        "metadata": {
+          "/Creator": " XeTeX output 2026.08.21:0000",
+          "/Producer": "MiKTeX-dvipdfmx (20260404)",
+          "/CreationDate": "D:20260821000000Z"
+        }
+      }
+    },
+    {
+      "code": "component-text-pages-cyrl-bib",
+      "pass": true,
+      "detail": {
+        "text_pages": 5,
+        "pdf_pages": 5
+      }
+    },
+    {
+      "code": "cumulative-pagewise-character-identity-cyrl",
+      "pass": true,
+      "detail": {
+        "component_pages": 588,
+        "reader_pages": 588,
+        "layout_sequence_identical": false,
+        "note": "pdfpages coordinate transforms can change pdftotext -layout ordering; the exact non-whitespace character multiset is required page by page"
+      }
+    },
+    {
+      "code": "reader-script-census-cyrl",
+      "pass": true,
+      "detail": {
+        "Cyrillic": 939874,
+        "Latin": 91623
+      }
+    },
+    {
+      "code": "component-boundary-text-cyrl",
+      "pass": true,
+      "detail": [
+        {
+          "component": "base-papers1-43",
+          "first_page_non_whitespace": 2891,
+          "last_page_non_whitespace": 877
+        },
+        {
+          "component": "44-book",
+          "first_page_non_whitespace": 2755,
+          "last_page_non_whitespace": 1190
+        },
+        {
+          "component": "45",
+          "first_page_non_whitespace": 2600,
+          "last_page_non_whitespace": 1722
+        },
+        {
+          "component": "bib",
+          "first_page_non_whitespace": 1590,
+          "last_page_non_whitespace": 330
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "source_readback": [
+    {
+      "source": "source_latin/44-book-isv.tex",
+      "expected": {
+        "bytes": 168422,
+        "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+      },
+      "actual": {
+        "path": "source_latin/44-book-isv.tex",
+        "bytes": 168422,
+        "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+      },
+      "pass": true
+    },
+    {
+      "source": "source_latin/45-isv.tex",
+      "expected": {
+        "bytes": 26053,
+        "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+      },
+      "actual": {
+        "path": "source_latin/45-isv.tex",
+        "bytes": 26053,
+        "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+      },
+      "pass": true
+    },
+    {
+      "source": "source_latin/base-papers1-43-isv.tex",
+      "expected": {
+        "bytes": 1894721,
+        "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"
+      },
+      "actual": {
+        "path": "source_latin/base-papers1-43-isv.tex",
+        "bytes": 1894721,
+        "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"
+      },
+      "pass": true
+    },
+    {
+      "source": "source_latin/bib-isv.tex",
+      "expected": {
+        "bytes": 10019,
+        "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+      },
+      "actual": {
+        "path": "source_latin/bib-isv.tex",
+        "bytes": 10019,
+        "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+      },
+      "pass": true
+    },
+    {
+      "source": "source_cyrillic/44-book-isv-cyrl.tex",
+      "expected": {
+        "bytes": 230370,
+        "sha256": "13E2391567A522038C3F959C22FA2FAC164D032F82DA811C6447560F5680C9F0"
+      },
+      "actual": {
+        "path": "source_cyrillic/44-book-isv-cyrl.tex",
+        "bytes": 230370,
+        "sha256": "13E2391567A522038C3F959C22FA2FAC164D032F82DA811C6447560F5680C9F0"
+      },
+      "pass": true
+    },
+    {
+      "source": "source_cyrillic/45-isv-cyrl.tex",
+      "expected": {
+        "bytes": 35902,
+        "sha256": "E1568BAB1E389E07816178A2FBDEE3833508C79BF0C7C19DD5120812E24646FE"
+      },
+      "actual": {
+        "path": "source_cyrillic/45-isv-cyrl.tex",
+        "bytes": 35902,
+        "sha256": "E1568BAB1E389E07816178A2FBDEE3833508C79BF0C7C19DD5120812E24646FE"
+      },
+      "pass": true
+    },
+    {
+      "source": "source_cyrillic/base-papers1-43-isv-cyrl.tex",
+      "expected": {
+        "bytes": 2706660,
+        "sha256": "23C242AABD938C605A4B2293ED6E68B723F94DBD23279FD8E75CB50CAEF099F1"
+      },
+      "actual": {
+        "path": "source_cyrillic/base-papers1-43-isv-cyrl.tex",
+        "bytes": 2706660,
+        "sha256": "23C242AABD938C605A4B2293ED6E68B723F94DBD23279FD8E75CB50CAEF099F1"
+      },
+      "pass": true
+    },
+    {
+      "source": "source_cyrillic/bib-isv-cyrl.tex",
+      "expected": {
+        "bytes": 13255,
+        "sha256": "5A6AE75FF94360BC104CE240E0EC18A2329C5229F68B198F763EDF7E786B816B"
+      },
+      "actual": {
+        "path": "source_cyrillic/bib-isv-cyrl.tex",
+        "bytes": 13255,
+        "sha256": "5A6AE75FF94360BC104CE240E0EC18A2329C5229F68B198F763EDF7E786B816B"
+      },
+      "pass": true
+    },
+    {
+      "source": "assets/authority_rosette_native_supported_mask.png",
+      "expected": {
+        "bytes": 797,
+        "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5"
+      },
+      "actual": {
+        "path": "assets/authority_rosette_native_supported_mask.png",
+        "bytes": 797,
+        "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5"
+      },
+      "pass": true
+    }
+  ],
+  "cross_script_structure": [
+    {
+      "latin": "44-book-isv.tex",
+      "cyrillic": "44-book-isv-cyrl.tex",
+      "latin_nonletter_sha256": "BAC32A07661EB5D575B1533EF6A6A10CEEE300E5B5CAD3532C07208EAF588DF8",
+      "cyrillic_nonletter_sha256": "BAC32A07661EB5D575B1533EF6A6A10CEEE300E5B5CAD3532C07208EAF588DF8",
+      "pass": true
+    },
+    {
+      "latin": "45-isv.tex",
+      "cyrillic": "45-isv-cyrl.tex",
+      "latin_nonletter_sha256": "A37B79CAC6D88C60AD163B3EA01BD88C9DB6F6A2395C94F5EFEEB8AD2E6CF5CE",
+      "cyrillic_nonletter_sha256": "A37B79CAC6D88C60AD163B3EA01BD88C9DB6F6A2395C94F5EFEEB8AD2E6CF5CE",
+      "pass": true
+    },
+    {
+      "latin": "base-papers1-43-isv.tex",
+      "cyrillic": "base-papers1-43-isv-cyrl.tex",
+      "latin_nonletter_sha256": "B09D747E9D80A0EBC7EA35C44CECC02E36DA68D398E0B89F4E5D66FB4908D694",
+      "cyrillic_nonletter_sha256": "B09D747E9D80A0EBC7EA35C44CECC02E36DA68D398E0B89F4E5D66FB4908D694",
+      "pass": true
+    },
+    {
+      "latin": "bib-isv.tex",
+      "cyrillic": "bib-isv-cyrl.tex",
+      "latin_nonletter_sha256": "FB42DFB53AF130975C5920E62D3585DC42CE8DF88E97D5CFA79EE49B399C3447",
+      "cyrillic_nonletter_sha256": "FB42DFB53AF130975C5920E62D3585DC42CE8DF88E97D5CFA79EE49B399C3447",
+      "pass": true
+    }
+  ],
+  "build_logs": [
+    {
+      "surface": "latn",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/latn/base-papers1-43/base-papers1-43-isv-latn.log",
+        "bytes": 47764,
+        "sha256": "A385FB4234317534CC910B0A00160A3E38DDAA6298D4A8262BBE182FB4007FF0"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "latn",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/latn/base-papers1-43/base-papers1-43-isv-latn.log",
+        "bytes": 47764,
+        "sha256": "A385FB4234317534CC910B0A00160A3E38DDAA6298D4A8262BBE182FB4007FF0"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "latn",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/latn/44-book/44-book-isv-latn.log",
+        "bytes": 25515,
+        "sha256": "C885CC4A111E12C7414C3FFA6BA9BB50DE3930A97768FDF545601594A093CDBA"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "latn",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/latn/44-book/44-book-isv-latn.log",
+        "bytes": 25515,
+        "sha256": "C885CC4A111E12C7414C3FFA6BA9BB50DE3930A97768FDF545601594A093CDBA"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "latn",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/latn/45/45-isv-latn.log",
+        "bytes": 23312,
+        "sha256": "06C2D402928872F7215BE8A5EEC71C3929105FDC2455ACD7386F8856124B6C30"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "latn",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/latn/45/45-isv-latn.log",
+        "bytes": 23312,
+        "sha256": "06C2D402928872F7215BE8A5EEC71C3929105FDC2455ACD7386F8856124B6C30"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "latn",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/latn/bib/bib-isv-latn.log",
+        "bytes": 22882,
+        "sha256": "489ADF06964AB8334F30EB2E606EB3784C97B6CA1EF1AE895251E7C28DE2157B"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "latn",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/latn/bib/bib-isv-latn.log",
+        "bytes": 22882,
+        "sha256": "489ADF06964AB8334F30EB2E606EB3784C97B6CA1EF1AE895251E7C28DE2157B"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "latn",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/readers/latn/emmy-noether-interslavic-latin-v019.log",
+        "bytes": 247825,
+        "sha256": "D0C996F5449124E3634B7B40C8D7434FCE015E42F0728F60599EE9D3F465E439"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "latn",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/readers/latn/emmy-noether-interslavic-latin-v019.log",
+        "bytes": 247825,
+        "sha256": "D0C996F5449124E3634B7B40C8D7434FCE015E42F0728F60599EE9D3F465E439"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "cyrl",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/cyrl/base-papers1-43/base-papers1-43-isv-cyrl.log",
+        "bytes": 166268,
+        "sha256": "F0B3F75A83685209E3E7D30175A9636BE004C4D1AF73FE8FAEEC274138E80A9D"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 4,
+        "undefined_citation": 0,
+        "overfull_hbox": 1,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "cyrl",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/cyrl/base-papers1-43/base-papers1-43-isv-cyrl.log",
+        "bytes": 166268,
+        "sha256": "F0B3F75A83685209E3E7D30175A9636BE004C4D1AF73FE8FAEEC274138E80A9D"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 1,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "cyrl",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/cyrl/44-book/44-book-isv-cyrl.log",
+        "bytes": 25531,
+        "sha256": "EF0FC5E98F9A846C508F7D624BC00FC1EC125265EA522CD839A2FD3F5C3AF9F1"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "cyrl",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/cyrl/44-book/44-book-isv-cyrl.log",
+        "bytes": 25531,
+        "sha256": "EF0FC5E98F9A846C508F7D624BC00FC1EC125265EA522CD839A2FD3F5C3AF9F1"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "cyrl",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/cyrl/45/45-isv-cyrl.log",
+        "bytes": 23323,
+        "sha256": "E090C1A8FDFAE1719FE06B0F38D954220066FF31EB07F6F5F8BAE922FA383895"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 40,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "cyrl",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/cyrl/45/45-isv-cyrl.log",
+        "bytes": 23323,
+        "sha256": "E090C1A8FDFAE1719FE06B0F38D954220066FF31EB07F6F5F8BAE922FA383895"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "cyrl",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/cyrl/bib/bib-isv-cyrl.log",
+        "bytes": 22893,
+        "sha256": "5D80AB868ADE6BA42B1FFB23CA70C7F2BDA9634461B89466881D3F84CC778CB2"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "cyrl",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/components/cyrl/bib/bib-isv-cyrl.log",
+        "bytes": 22893,
+        "sha256": "5D80AB868ADE6BA42B1FFB23CA70C7F2BDA9634461B89466881D3F84CC778CB2"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "cyrl",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/readers/cyrl/emmy-noether-interslavic-cyrillic-v019.log",
+        "bytes": 257659,
+        "sha256": "075695D85EBD435103EFA837454053C6C5348EEFA858C1552C993B57A34CF022"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "surface": "cyrl",
+      "log": {
+        "path": "tmp/pdfs/isv_release_v019/readers/cyrl/emmy-noether-interslavic-cyrillic-v019.log",
+        "bytes": 257659,
+        "sha256": "075695D85EBD435103EFA837454053C6C5348EEFA858C1552C993B57A34CF022"
+      },
+      "fatal_patterns": [],
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    }
+  ],
+  "surfaces": {
+    "latn": {
+      "reader": {
+        "path": "release_v019/pdf/emmy-noether-interslavic-latin-v019.pdf",
+        "bytes": 3000508,
+        "sha256": "5FCC44BF0D25C3DA0C14C8542CDFEB48419EE924ADD197227F70008FF076FF4F",
+        "pages": 565,
+        "encrypted": false,
+        "media_boxes": {
+          "612.000x792.000": 565
+        },
+        "rotations": {
+          "0": 565
+        },
+        "annotations": 0,
+        "pages_without_content_object": 0,
+        "metadata": {
+          "/Creator": " XeTeX output 2026.08.21:0000",
+          "/Producer": "MiKTeX-dvipdfmx (20260404)",
+          "/CreationDate": "D:20260821000000Z"
+        }
+      },
+      "fonts": {
+        "font_rows": 83,
+        "all_embedded": true,
+        "unicode_mapped_rows": 74,
+        "unicode_unmapped_math_symbol_rows": 9,
+        "stderr": ""
+      },
+      "text": {
+        "path": "release_v019/evidence/text/reader-latn.txt",
+        "bytes": 2047910,
+        "sha256": "27664FBDB07701906ACA1814733618CB9F2FD60A8B28EF0A105528C4408E4080",
+        "characters": 1930132,
+        "non_whitespace_characters": 1201152,
+        "replacement_characters": 0,
+        "form_feeds": 565,
+        "stderr": ""
+      },
+      "script_census": {
+        "Latin": 1042295,
+        "Cyrillic": 12
+      },
+      "pagewise_component_character_identity": true,
+      "pagewise_layout_sequence_identity": false,
+      "boundaries": [
+        {
+          "component": "base-papers1-43",
+          "first_page_non_whitespace": 2919,
+          "last_page_non_whitespace": 2015
+        },
+        {
+          "component": "44-book",
+          "first_page_non_whitespace": 2854,
+          "last_page_non_whitespace": 2943
+        },
+        {
+          "component": "45",
+          "first_page_non_whitespace": 2716,
+          "last_page_non_whitespace": 1667
+        },
+        {
+          "component": "bib",
+          "first_page_non_whitespace": 1602,
+          "last_page_non_whitespace": 332
+        }
+      ],
+      "components": [
+        {
+          "component": "base-papers1-43",
+          "pdf": {
+            "path": "release_v019/pdf/components/base-papers1-43-isv-latn.pdf",
+            "bytes": 2194037,
+            "sha256": "9B52DC91FD3A3F4E14BB7BE8CB0854C7CCC7F3B244C78D4F275FB7AFE049FD22",
+            "pages": 509,
+            "encrypted": false,
+            "media_boxes": {
+              "595.280x841.890": 509
+            },
+            "rotations": {
+              "0": 507,
+              "90": 2
+            },
+            "annotations": 0,
+            "pages_without_content_object": 0,
+            "metadata": {
+              "/Creator": " XeTeX output 2026.08.21:0000",
+              "/Producer": "MiKTeX-dvipdfmx (20260404)",
+              "/CreationDate": "D:20260821000000Z"
+            }
+          },
+          "text": {
+            "path": "release_v019/evidence/text/component-latn-base-papers1-43.txt",
+            "bytes": 1849121,
+            "sha256": "61E2F0DA20E7F028BB286B1CB0F5113AE8FB26087C6234F42DD0A4B69A1B9174",
+            "characters": 1742527,
+            "non_whitespace_characters": 1091803,
+            "replacement_characters": 0,
+            "form_feeds": 509,
+            "stderr": ""
+          }
+        },
+        {
+          "component": "44-book",
+          "pdf": {
+            "path": "release_v019/pdf/components/44-book-isv-latn.pdf",
+            "bytes": 330925,
+            "sha256": "8C30D2141B643E9DCAE2D341A83673E210CD041B5945BD1F31BDF56EE8CFBB74",
+            "pages": 44,
+            "encrypted": false,
+            "media_boxes": {
+              "595.280x841.890": 44
+            },
+            "rotations": {
+              "0": 44
+            },
+            "annotations": 8,
+            "pages_without_content_object": 0,
+            "metadata": {
+              "/Creator": "LaTeX with hyperref",
+              "/Producer": "MiKTeX-dvipdfmx (20260404)",
+              "/CreationDate": "D:20260821000000Z"
+            }
+          },
+          "text": {
+            "path": "release_v019/evidence/text/component-latn-44-book.txt",
+            "bytes": 168951,
+            "sha256": "3AE57DBDE2FA41A6216E20E0D55E10D013B56E2925C6CD3E2FF7C57854551789",
+            "characters": 159512,
+            "non_whitespace_characters": 89216,
+            "replacement_characters": 0,
+            "form_feeds": 44,
+            "stderr": ""
+          }
+        },
+        {
+          "component": "45",
+          "pdf": {
+            "path": "release_v019/pdf/components/45-isv-latn.pdf",
+            "bytes": 143886,
+            "sha256": "A830C07B136E3927E7BD0D5D879557A539F5C23DE5DF005A766916395641A2CD",
+            "pages": 7,
+            "encrypted": false,
+            "media_boxes": {
+              "595.280x841.890": 7
+            },
+            "rotations": {
+              "0": 7
+            },
+            "annotations": 0,
+            "pages_without_content_object": 0,
+            "metadata": {
+              "/Creator": " XeTeX output 2026.08.21:0000",
+              "/Producer": "MiKTeX-dvipdfmx (20260404)",
+              "/CreationDate": "D:20260821000000Z"
+            }
+          },
+          "text": {
+            "path": "release_v019/evidence/text/component-latn-45.txt",
+            "bytes": 22130,
+            "sha256": "AEFE38B7079E6E0D5498A634DF496C716A11B17213993A9B108B4413836EBF20",
+            "characters": 20779,
+            "non_whitespace_characters": 14421,
+            "replacement_characters": 0,
+            "form_feeds": 7,
+            "stderr": ""
+          }
+        },
+        {
+          "component": "bib",
+          "pdf": {
+            "path": "release_v019/pdf/components/bib-isv-latn.pdf",
+            "bytes": 100010,
+            "sha256": "7EB247280E3D6D7934161AECD9BB6F366956922F8BCB1D8F4F6355C3C69B9921",
+            "pages": 5,
+            "encrypted": false,
+            "media_boxes": {
+              "595.280x841.890": 5
+            },
+            "rotations": {
+              "0": 5
+            },
+            "annotations": 0,
+            "pages_without_content_object": 0,
+            "metadata": {
+              "/Creator": " XeTeX output 2026.08.21:0000",
+              "/Producer": "MiKTeX-dvipdfmx (20260404)",
+              "/CreationDate": "D:20260821000000Z"
+            }
+          },
+          "text": {
+            "path": "release_v019/evidence/text/component-latn-bib.txt",
+            "bytes": 7876,
+            "sha256": "CFE64845CC4A0DDD2EF3F0919FACD705A09CBF58F318172C6ED68A0CCDB67111",
+            "characters": 7470,
+            "non_whitespace_characters": 5712,
+            "replacement_characters": 0,
+            "form_feeds": 5,
+            "stderr": ""
+          }
+        }
+      ]
+    },
+    "cyrl": {
+      "reader": {
+        "path": "release_v019/pdf/emmy-noether-interslavic-cyrillic-v019.pdf",
+        "bytes": 3300454,
+        "sha256": "578AAB7224B4192006096B231FD67A3AFEE6E22DFF0C94264102B6D192687B75",
+        "pages": 588,
+        "encrypted": false,
+        "media_boxes": {
+          "612.000x792.000": 588
+        },
+        "rotations": {
+          "0": 588
+        },
+        "annotations": 0,
+        "pages_without_content_object": 0,
+        "metadata": {
+          "/Creator": " XeTeX output 2026.08.21:0000",
+          "/Producer": "MiKTeX-dvipdfmx (20260404)",
+          "/CreationDate": "D:20260821000000Z"
+        }
+      },
+      "fonts": {
+        "font_rows": 83,
+        "all_embedded": true,
+        "unicode_mapped_rows": 74,
+        "unicode_unmapped_math_symbol_rows": 9,
+        "stderr": ""
+      },
+      "text": {
+        "path": "release_v019/evidence/text/reader-cyrl.txt",
+        "bytes": 2910846,
+        "sha256": "DD9DCC28BC8C135D2D0880486DD6D9406F2BACC60B07AA452F9051477FCE15D0",
+        "characters": 1894058,
+        "non_whitespace_characters": 1189320,
+        "replacement_characters": 0,
+        "form_feeds": 588,
+        "stderr": ""
+      },
+      "script_census": {
+        "Cyrillic": 939874,
+        "Latin": 91623
+      },
+      "pagewise_component_character_identity": true,
+      "pagewise_layout_sequence_identity": false,
+      "boundaries": [
+        {
+          "component": "base-papers1-43",
+          "first_page_non_whitespace": 2891,
+          "last_page_non_whitespace": 877
+        },
+        {
+          "component": "44-book",
+          "first_page_non_whitespace": 2755,
+          "last_page_non_whitespace": 1190
+        },
+        {
+          "component": "45",
+          "first_page_non_whitespace": 2600,
+          "last_page_non_whitespace": 1722
+        },
+        {
+          "component": "bib",
+          "first_page_non_whitespace": 1590,
+          "last_page_non_whitespace": 330
+        }
+      ],
+      "components": [
+        {
+          "component": "base-papers1-43",
+          "pdf": {
+            "path": "release_v019/pdf/components/base-papers1-43-isv-cyrl.pdf",
+            "bytes": 2421247,
+            "sha256": "96768DE0EA8DFE36189D62E0C569AC8214F88514D18817766D02A0A38A4A92B1",
+            "pages": 531,
+            "encrypted": false,
+            "media_boxes": {
+              "595.280x841.890": 531
+            },
+            "rotations": {
+              "0": 529,
+              "90": 2
+            },
+            "annotations": 0,
+            "pages_without_content_object": 0,
+            "metadata": {
+              "/Creator": " XeTeX output 2026.08.21:0000",
+              "/Producer": "MiKTeX-dvipdfmx (20260404)",
+              "/CreationDate": "D:20260821000000Z"
+            }
+          },
+          "text": {
+            "path": "release_v019/evidence/text/component-cyrl-base-papers1-43.txt",
+            "bytes": 2638513,
+            "sha256": "845D70840340F0270811092D359BEA3570FBC84FEC849A4C1E93E9DE79E818C2",
+            "characters": 1708841,
+            "non_whitespace_characters": 1081094,
+            "replacement_characters": 0,
+            "form_feeds": 531,
+            "stderr": ""
+          }
+        },
+        {
+          "component": "44-book",
+          "pdf": {
+            "path": "release_v019/pdf/components/44-book-isv-cyrl.pdf",
+            "bytes": 361464,
+            "sha256": "ABFAE3D2F2218DED3D86A322459AA591E7C4B54395C363A22FC387DD0A1130AB",
+            "pages": 45,
+            "encrypted": false,
+            "media_boxes": {
+              "595.280x841.890": 45
+            },
+            "rotations": {
+              "0": 45
+            },
+            "annotations": 8,
+            "pages_without_content_object": 0,
+            "metadata": {
+              "/Creator": "LaTeX with hyperref",
+              "/Producer": "MiKTeX-dvipdfmx (20260404)",
+              "/CreationDate": "D:20260821000000Z"
+            }
+          },
+          "text": {
+            "path": "release_v019/evidence/text/component-cyrl-44-book.txt",
+            "bytes": 229114,
+            "sha256": "641C75B5D0BDA7BD80188CEC7587C3AC4BAB68C68EA72265BF064196ADCBFDBE",
+            "characters": 156920,
+            "non_whitespace_characters": 88245,
+            "replacement_characters": 0,
+            "form_feeds": 45,
+            "stderr": ""
+          }
+        },
+        {
+          "component": "45",
+          "pdf": {
+            "path": "release_v019/pdf/components/45-isv-cyrl.pdf",
+            "bytes": 161864,
+            "sha256": "1B8D675806A60A7D17727462BC41A549CE8D87868AFCF96097CC0DB42313C93A",
+            "pages": 7,
+            "encrypted": false,
+            "media_boxes": {
+              "595.280x841.890": 7
+            },
+            "rotations": {
+              "0": 7
+            },
+            "annotations": 0,
+            "pages_without_content_object": 0,
+            "metadata": {
+              "/Creator": " XeTeX output 2026.08.21:0000",
+              "/Producer": "MiKTeX-dvipdfmx (20260404)",
+              "/CreationDate": "D:20260821000000Z"
+            }
+          },
+          "text": {
+            "path": "release_v019/evidence/text/component-cyrl-45.txt",
+            "bytes": 31864,
+            "sha256": "F07E46ADFF68174FD29B9AF342B2EAE14CE307C6EE142E6DBDD47AADD6F291FF",
+            "characters": 20543,
+            "non_whitespace_characters": 14312,
+            "replacement_characters": 0,
+            "form_feeds": 7,
+            "stderr": ""
+          }
+        },
+        {
+          "component": "bib",
+          "pdf": {
+            "path": "release_v019/pdf/components/bib-isv-cyrl.pdf",
+            "bytes": 114571,
+            "sha256": "9C8D751EDE062ECC2CC65D5CA8E1309EB307166BB21F648AF076CF39FE100178",
+            "pages": 5,
+            "encrypted": false,
+            "media_boxes": {
+              "595.280x841.890": 5
+            },
+            "rotations": {
+              "0": 5
+            },
+            "annotations": 0,
+            "pages_without_content_object": 0,
+            "metadata": {
+              "/Creator": " XeTeX output 2026.08.21:0000",
+              "/Producer": "MiKTeX-dvipdfmx (20260404)",
+              "/CreationDate": "D:20260821000000Z"
+            }
+          },
+          "text": {
+            "path": "release_v019/evidence/text/component-cyrl-bib.txt",
+            "bytes": 10959,
+            "sha256": "AF5E9BACDA57ED5D30119D9A11047A04959847CAAFF47C69B311B5EBF86111C5",
+            "characters": 7336,
+            "non_whitespace_characters": 5669,
+            "replacement_characters": 0,
+            "form_feeds": 5,
+            "stderr": ""
+          }
+        }
+      ]
+    }
+  },
+  "claim_boundary": {
+    "cyrillic": "deterministic script projection; not an independent translation witness",
+    "review": "model/agent-produced and machine-assisted; no native-speaker or community certification claimed",
+    "visual": "rendered-page review is a separate required receipt"
+  }
+}

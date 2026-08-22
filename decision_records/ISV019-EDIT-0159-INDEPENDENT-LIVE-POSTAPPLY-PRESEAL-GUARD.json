@@ -1,0 +1,124 @@
+{
+  "schema": "noether-isv-edit0159-independent-live-postapply-preseal-guard-v1",
+  "decision_id": "ISV019-EDIT-0159",
+  "date_europe_berlin": "2026-08-20",
+  "status": "ACCEPT_POSTAPPLY_PRESEAL",
+  "classification": "complete non-nested identity/title/venue/signature islands already delimited by TeX groups",
+  "production_apply": {
+    "invocations": 1,
+    "argv": [
+      "python",
+      "-B",
+      "apply_foreign_tex_group_protection_v019.py",
+      "--apply",
+      "--compact"
+    ],
+    "exit_code": 0,
+    "stdout_reconstructed_from_frozen_plan_and_live_successor": {
+      "bytes": 8625,
+      "sha256": "2EA39656E05A4DBFBD6642581ACD1CF2E0B3B2DFFA865372301F76694F74FCD7"
+    },
+    "stderr": {
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
+  },
+  "applicator": {
+    "path": "apply_foreign_tex_group_protection_v019.py",
+    "bytes": 34921,
+    "sha256": "D5A3563E4918F1B6AEDB2DB9DECCA24EA97F29AFF854E161B583D81BD7ABA4AB"
+  },
+  "candidate_receipt": {
+    "path": "decision_records/ISV019-EDIT-0159-UNAPPLIED-CANDIDATE-RECEIPT.json",
+    "bytes": 5241,
+    "sha256": "ADF2C1E46EBC72760F6B4EFB027CFF6AC2AD82B748BFCC01145E444C0D0DD565",
+    "internal_receipt": "BC86AEC8AB2CE2051E7EE3ADBCC3D15B6EA30FBF229411A6D431E874FB9EE0D0"
+  },
+  "live_source": {
+    "path": "source_latin/base-papers1-43-isv.tex",
+    "bytes": 1892411,
+    "sha256": "2A9C1DF97C73FE75C130907F3F7829000E753F34BDCBFB5D66DA56A75855F4B8"
+  },
+  "reverse_and_forward": {
+    "predecessor": {
+      "bytes": 1892261,
+      "sha256": "5FBF0D95479E85C09928F152DA0CA876E9F8C3BF9D90425961395BB7448555FC"
+    },
+    "reverse_exact": true,
+    "forward_replay_exact": true,
+    "line_manifest": {
+      "rows": 12,
+      "bytes": 17557,
+      "sha256": "3EF3ADFA5C86CC87AC8E2EE74F2F64DECC5D9D8BA32E81B33190C2F120C8AF90"
+    },
+    "reverse_manifest": {
+      "bytes": 251,
+      "sha256": "26C541F50A1C8D74DDB00B38827348AB14CAE0CA7B8AA1714941AB57E19B1ADD"
+    }
+  },
+  "tranche": {
+    "physical_lines": 12,
+    "complete_groups": 15,
+    "projection_blockers_removed": 17,
+    "commands": {
+      "mbox": 8,
+      "emph": 6,
+      "textsc": 1
+    },
+    "active_producer_changes": 0,
+    "identity_receipt_changes": 0
+  },
+  "projection": {
+    "status": "BLOCKED_FAIL_CLOSED",
+    "blocked_occurrences": 290,
+    "unsupported_occurrences": 290,
+    "roman_identity_hold_occurrences": 0,
+    "approved_structural_identities": 722,
+    "blocked_inventory_sha256": "D941934A83CD5896E2061B7B6391F4EC82CAAC53344A8CD7E703B6E633637140",
+    "report_sha256_excluding_this_field": "7A5CC12C17AC41830DBA2EF1F5908BD62BDCBC2ECF53B4356575E08DA1197E8B",
+    "parse_errors": 0,
+    "coverage_failures": 0,
+    "unknown_argument_commands": 0
+  },
+  "protection": {
+    "preexisting_foreign_islands_preserved_in_order": 196,
+    "new_complete_foreign_islands": 15,
+    "nested_foreign_islands": 0,
+    "math_payloads_exact": true,
+    "comments_exact": true,
+    "only_added_control_sequence": {
+      "foreign": 15
+    }
+  },
+  "preserved": {
+    "other_three_latin_sources_exact": true,
+    "all_seven_producer_files_exact": true,
+    "metadata_head": "ISV019-EDIT-0158",
+    "state": {
+      "bytes": 26556,
+      "sha256": "E3E1BC27B759EF6E028CA16626D0C3C8907337D305399D4B2355BDDC873CCC5B"
+    },
+    "ledger": {
+      "bytes": 733564,
+      "sha256": "7BD4045A5C284E99D3321413993E79B6856D0B58F645E2D329B7E9ED5D8F6693"
+    },
+    "worklog": {
+      "bytes": 180353,
+      "sha256": "82F37FDE74F7BECBD21A7D040DF321762E28071199DE1CAFAE47500571C13B90"
+    },
+    "verifier": {
+      "bytes": 2171,
+      "sha256": "C0F0649C0BFD09A7713199018317601CD9B3286710EA99403E8A152DA901075C"
+    }
+  },
+  "custody": {
+    "transaction_residue": 0,
+    "pycache_residue": 0,
+    "source_applied": true,
+    "metadata_sealed": false,
+    "build_or_publication": false
+  },
+  "next_action": "freeze and independently audit an append-only EDIT0159 metadata sealer; then pending verifier pair, one worklog append, final verifier pair, and current-head scanner adoption",
+  "receipt_serialization": "canonical compact UTF-8 JSON with recursively sorted keys and one terminal LF; receipt hash excludes only receipt_sha256_excluding_this_field",
+  "receipt_sha256_excluding_this_field": "5ABC0556E1628179FFD01C4A2D7C44A9B2F0742D7C218C786DE42AD79CE13F96"
+}

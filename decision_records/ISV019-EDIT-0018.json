@@ -1,0 +1,28 @@
+{
+  "decision_id": "ISV019-EDIT-0018",
+  "recorded_at": "2026-08-13T00:30:32.6815840+02:00",
+  "epistemic_type": "manager_direct_residual_canonicalization",
+  "scope": "All 136 remaining whole-token gdje, neha, and kak variants in the four editable Latin components.",
+  "choice": "Normalize gdje to official kde, neha to official nehaj, and standalone kak to official kako, preserving capitalization.",
+  "motivation": "The reader had already selected kde, nehaj, and kako as its canonical all-corpus surfaces but earlier batches missed these spelling variants. Official kde is type 1 with positive evidence across every listed Slavic standard; official nehaj is the declared jussive; official phrase and conjunction entries use kako. Leaving the variants would preserve an unjustified Croatian/Russian-shaped mixture.",
+  "alternatives_rejected": ["Keep residual national variants as unexplained doublets.", "Wait for human review of already-established reader policy."],
+  "predecessors": {
+    "source_latin/44-book-isv.tex": {"bytes": 167881, "sha256": "0996C298F86FF48658FAAED3C46595AD474166566B04BC8B4AC2101E6F338AA4"},
+    "source_latin/45-isv.tex": {"bytes": 25503, "sha256": "FEA709F181E64292D4EB2C9B17A0E094C09EBDC2E0079E2D722A55C162B758AA"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1894681, "sha256": "099144049CDA1FAB9EAFFEB997F345C24C1378DC433ED9C33015B8ED23FE17FE"},
+    "source_latin/bib-isv.tex": {"bytes": 9572, "sha256": "409004504F14342DD2AD2A5359FD2392D2B2DD79CB3D343E076139472036A0B2"}
+  },
+  "results": {
+    "edit_histogram": {"Kak": 5, "Neha": 34, "gdje": 39, "kak": 38, "neha": 20},
+    "total_edits": 136,
+    "source_latin/44-book-isv.tex": {"bytes": 167871, "edits": 10, "sha256": "EE07B6A9885C2F8293D8D5A5E6860D180CF3FC0AF499850D0E84624732824845"},
+    "source_latin/45-isv.tex": {"bytes": 25503, "edits": 0, "sha256": "FEA709F181E64292D4EB2C9B17A0E094C09EBDC2E0079E2D722A55C162B758AA"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1894749, "edits": 126, "sha256": "C6ABE5C684B0C7DB3CF43DE9BF2F4EDFC0318CABF9621F52D234676BF064807C"},
+    "source_latin/bib-isv.tex": {"bytes": 9572, "edits": 0, "sha256": "409004504F14342DD2AD2A5359FD2392D2B2DD79CB3D343E076139472036A0B2"},
+    "post_residual_count": 0,
+    "unresolved_linguistic_holds": 0
+  },
+  "tool": {"path": "apply_residual_canonical_batch_v019.py", "bytes": 4068, "sha256": "0FB82829F511230BA8BF58BA603E4E9755F38553C413ACA20D2A82EF244D7128"},
+  "validation": {"prehashes": "4/4 exact", "protected_content": "comments and foreign arguments unchanged", "structure": "TeX controls, references, braces, and math delimiters unchanged", "outputs": "dry-run hashes frozen before write and reproduced after write"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

@@ -1,0 +1,99 @@
+{
+  "build_or_publication": false,
+  "decision_id": "ISV019-EDIT-0166",
+  "frozen_candidate": {
+    "applicator": {
+      "bytes": 26245,
+      "path": "apply_complete_foreign_surface_tranche7_v019.py",
+      "sha256": "CF0EACA6C14EDBEFF4DC60914FD4DD8E6FFBCAB7058ABDFDA683CA98B994D1F8"
+    },
+    "receipt": {
+      "bytes": 5245,
+      "path": "decision_records/ISV019-EDIT-0166-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "sha256": "B599245C6EA651BF03D80DAB1B7E7553D76D1C99B7C83EEBBC2DE20A6C905C73"
+    }
+  },
+  "metadata_sealed": false,
+  "preservation": {
+    "active_producer_changes": 0,
+    "comments_exact": true,
+    "math_payloads_exact": true,
+    "preexisting_foreign_islands_preserved_in_order": 326,
+    "producer_files": 7,
+    "sealed_predecessor_metadata_files": 10
+  },
+  "production_apply": {
+    "argv": [
+      "python",
+      "-B",
+      "apply_complete_foreign_surface_tranche7_v019.py",
+      "--apply",
+      "--compact"
+    ],
+    "exit": 0,
+    "invocations": 1,
+    "stderr": {
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "stdout": {
+      "bytes": 17119,
+      "sha256": "0AAB132206BDF29A494EA76350DEF9DB9E86CD2E4A32C66752A11C108FF1BB5E"
+    },
+    "working_directory": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\slavic_interslavic\\noether_isv_v019_working"
+  },
+  "projection": {
+    "approved_structural_identities": 722,
+    "blocked_occurrences": 150,
+    "coverage_failures": 0,
+    "inventory_sha256": "B25C11FBFFB0A43EB6A9E29D5D3E87F4BA0912A5BE78528413222AC80745DAA5",
+    "parse_errors": 0,
+    "report_sha256_excluding_this_field": "1C8AF9A5DF93062E177A80A65C3E181E48638E8D45AECCB8C13B8CDE3FD98104",
+    "status": "BLOCKED_FAIL_CLOSED",
+    "unknown_argument_commands": 0,
+    "unsupported_occurrences": 150,
+    "upstream_v2": {
+      "blocked_inventory_sha256": "7BDC362387C044C1FFFACB3A472554A2F5727D2CABCF6272DEB37A3BB2381539",
+      "blocked_occurrences": 872,
+      "coverage_failures": 0,
+      "parse_errors": 0,
+      "roman_identity_hold_occurrences": 704,
+      "roman_identity_inventory_sha256": "FC20FEAA50820D123E234994AC797EE5E6FFD91CE4E3FCAC773E3559CC36B535",
+      "unknown_argument_commands": 0,
+      "unsupported_inventory_sha256": "85795074DB4174306C0CB8CDB18F0F9815965F6877A5E103809A3175C5A1A7B1",
+      "unsupported_occurrences": 266
+    }
+  },
+  "pycache_residue": 0,
+  "receipt_sha256_excluding_this_field": "72247133C2353215044C927BC672C18658870F8050DA6C9BC243A9D7550B9033",
+  "schema": "noether-isv-edit0166-independent-live-postapply-preseal-guard-v1",
+  "source": {
+    "cohort": {
+      "bytes": 472,
+      "sha256": "A4F359CD04B350C4457EAB32BFCF4CD8E60C8E8C246F11840FCE7A6F655344F6"
+    },
+    "complete_islands": 11,
+    "exact_forward_replay": true,
+    "exact_reverse": true,
+    "line_manifest": {
+      "bytes": 21341,
+      "sha256": "7C92F351E8A7543BFC7003F7A0C643A7C7F3464AD35A628AEB159BD9045A0B0A"
+    },
+    "physical_lines": 6,
+    "predecessor": {
+      "bytes": 1893561,
+      "sha256": "6BF7B94EAB07DD6A30D5C164CE1052161C2A5ADB30A96195BE6B98CF4A394C0D"
+    },
+    "projection_blockers_removed": 20,
+    "reverse_manifest": {
+      "bytes": 251,
+      "sha256": "E9F2553AD3B1DC59A64C7C76C2A8A4EB59C46D731046E59EA97A23ECA5999740"
+    },
+    "successor": {
+      "bytes": 1893671,
+      "sha256": "B466F0DC43FE9980B863361DC9BB72DB0C1C70F208AFE7FCF838ACCCEFB9CD1B"
+    }
+  },
+  "status": "PASS_SOURCE_AHEAD_OF_METADATA",
+  "transaction_residue": 0
+}

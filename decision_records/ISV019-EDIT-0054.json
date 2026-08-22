@@ -1,0 +1,100 @@
+{
+  "decision_id": "ISV019-EDIT-0054",
+  "recorded_at": "2026-08-13T13:48:37.7696603+02:00",
+  "epistemic_type": "manager_direct_residual_semantic_and_case_government_normalization",
+  "scope": "All 34 residual udovletvor-/udovolja mathematical-satisfaction sites in live v019 Latin sources, all in base-papers1-43-isv.tex.",
+  "choice": "Complete the established EDIT-0038 policy by rendering every residual formal satisfy/fulfil predicate with official type-1 izpolnjati/izpolniti morphology and by recasting inherited dative or relative complements into grammatical transitive accusative constructions.",
+  "motivation": "Every residual site concerns an equation, relation, condition, algebraic number, basis, or formal definition. Leaving a second Russian-shaped udovletvor- layer would preserve exactly the dominant-language collapse that v019 is correcting. A stem-only replacement would leave ungrammatical case government, so each complete clause was resolved at its exact predecessor line.",
+  "alternatives_rejected": [
+    "Keep udovletvor- as an intelligible regional synonym: it is not the pinned official bridge chosen for this mathematical sense and would retain an avoidable East-Slavic layer.",
+    "Change only the predicate stem: this would preserve dative and relative government inherited from the rejected construction.",
+    "Use zadovalj-: the official family also covers pleasing or making content and was already rejected for formal mathematical fulfilment in EDIT-0038.",
+    "Defer the 34 sites for later human review: this edition is required to resolve known defects before handoff rather than export them as work for a future reviewer."
+  ],
+  "evidence": {
+    "controlling_precedent": {
+      "path": "decision_records/ISV019-EDIT-0038.json",
+      "bytes": 5866,
+      "sha256": "B67356AC4031F3F728EBE476CEFF557832AA15D459F5FAAA1CF9175EEB6C66CB",
+      "relevance": "Established izpolnjati/izpolniti and accusative government for the same formal mathematical satisfaction sense."
+    },
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "accepted_entries": "id 597 izpȯlniti and id 2501 izpȯlnjati, both type 1; id 36609 izpȯlnjeńje",
+      "rejected_entries": "id 444 zadovaljati and id 3356 zadovoliti cover satisfy/please rather than the narrower formal fulfilment policy"
+    },
+    "official_verb_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/verbs.md",
+      "bytes": 21426,
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+      "relevance": "Aspect, present-stem contraction, and inflection of the accepted verb family."
+    },
+    "german_semantic_authority": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/07_german_canon_control/candidates/ED0014/noether.tex",
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "semantic_classes": "Formal satisfaction of equations, relations, conditions, and definitions; no human-contentment sense."
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0053",
+    "decision_log": {
+      "bytes": 209222,
+      "sha256": "97FB15B39E6165695C1857F7B6B0A5CB95F73106D5FB60F3A0CDAE61D4DB60A3"
+    },
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167963,
+      "sha256": "1A24249284FB5B95396E29991F697E0F0246697CCF03C8B0ABF4DFF7E9E810D3"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "81C90B9013261D41392153F5A9BBB1D52A7F36F35CC23A4DE1DDE1E6A6DBD5DE"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896879,
+      "sha256": "6839B28A8F50A91FDCCE996C0DBBADC5CEC0617C97E92C0536EEEADD1877577F"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "results": {
+    "source_sites_changed": 34,
+    "line_bound_edit_operations": 38,
+    "source_family_residual": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {
+      "bytes": 167963,
+      "sha256": "1A24249284FB5B95396E29991F697E0F0246697CCF03C8B0ABF4DFF7E9E810D3"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 25526,
+      "sha256": "81C90B9013261D41392153F5A9BBB1D52A7F36F35CC23A4DE1DDE1E6A6DBD5DE"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1896714,
+      "sha256": "CDFDD90667F69121A13303612E9F2D0BC43F10600185C2B193CD6A95CC2DC03D"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 9583,
+      "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"
+    }
+  },
+  "tool": {
+    "path": "apply_udovletvor_satisfaction_residual_v019.py",
+    "bytes": 10176,
+    "sha256": "0D78CCED7601DE94655A970D299ED6C476201FC4F1684DB79BA21983527C21DD"
+  },
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0053",
+    "coverage": "34/34 residual family sites changed through 38 exact line-bound fragment operations",
+    "residue": "zero case-insensitive whole-token udov-family residue across all four Latin sources",
+    "protected_spans": "TeX comments and foreign-language command arguments unchanged",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged",
+    "reproducibility": "Frozen successor bytes and hashes reproduced in dry run immediately before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

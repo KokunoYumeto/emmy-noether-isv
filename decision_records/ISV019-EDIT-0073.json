@@ -1,0 +1,50 @@
+{
+  "decision_id": "ISV019-EDIT-0073",
+  "recorded_at": "2026-08-13T14:59:31.1178000+02:00",
+  "epistemic_type": "manager_obtain_derive_family_normalization",
+  "scope": "All 197 whole-token dobiv- forms in the Latin Noether reader: 188 finite obtain/get/derive/result forms and nine passive obtained/derived participles.",
+  "choice": "Normalize finite forms to official dobyvati and passive forms to the dobyti participial paradigm, preserving inflection and capitalization.",
+  "motivation": "Every occurrence denotes mathematical obtaining or derivation. Official type-1 dobyvati/dobyti spans West, South, and East comparators; no official dobiv- headword exists.",
+  "alternatives_rejected": [
+    "Retaining dobiv- preserves a zero-headword source layer.",
+    "Dostav- is semantically overloaded with deliver/download/suffice.",
+    "Poluč- would reverse the established anti-East-collapse terminology decision.",
+    "A blind i-to-y spelling substitution would create malformed passive forms instead of dobyty/dobyta/dobyte."
+  ],
+  "evidence": {
+    "official_dictionary": "isv_words_list.csv SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: ids3191 dobyvati and 3192 dobyti, both type 1.",
+    "semantic_review": "All 197 sites were replayed in sentence context; none means win, delivery, download, or sufficiency.",
+    "cohort_evidence": "Czech, Slovene and Bosnian mathematical sources independently support obtain/result cognates or participles; official Belarusian evidence supplies the East bridge without token-mass voting.",
+    "baseline_correction": "Direct exact scan found 27 pre-existing dobyv-/dobyt- tokens, correcting a preliminary 23-token estimate; the asserted post-total is therefore 224."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0072",
+    "decision_log": {"bytes": 278531, "sha256": "93653EE6947B36CCF277F1936D57500B817D0DFD308B74D170CE9C5A81052D7A"},
+    "source_latin/44-book-isv.tex": {"bytes": 168051, "sha256": "06260D2CA973CB9A0E0CD7B7A7E82A36773A4B3443F1A43542545F9D4476BC43"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897550, "sha256": "6C59F77422D9183F85B1F62353E0CB28D9361ECA11326B997152781C4E014F57"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "results": {
+    "sites_changed": 197,
+    "finite_sites": 188,
+    "passive_participle_sites": 9,
+    "file_counts": {"base-papers1-43-isv.tex": 197},
+    "canonical_dobyv_dobyt_family": {"before": 27, "after": 224},
+    "dobiv_residue": 0,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168051, "sha256": "06260D2CA973CB9A0E0CD7B7A7E82A36773A4B3443F1A43542545F9D4476BC43"},
+    "source_latin/45-isv.tex": {"bytes": 25547, "sha256": "5E3740B347C253D2384EDECA24B1126F1E9F67A709CC7AC6108A1F06861F2D19"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1897534, "sha256": "9E90CE9910A7947C1B274AA36607CCBFE34001D0EC6526F40AF00EF98FF34653"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "D2E62446768F39661A7091CA15B51E1ED07594D1545A9DB61ED82D5D8F1C15D4"}
+  },
+  "tool": {"path": "apply_obtain_family_v019.py", "bytes": 4138, "sha256": "B10CFAA29E594158EBE878149BD380E0C0B933E1365F6BEC8C57B88F4EB41080"},
+  "validation": {
+    "prehashes": "4/4 exact against EDIT-0072",
+    "coverage": "197/197 whole-token sites and exact 16-form source histogram",
+    "protected_spans": "zero comment, foreign, or foreignlanguage targets",
+    "structure": "TeX controls, labels/refs/cites, braces, math delimiters, newlines, UTF-8 and final LF invariant",
+    "reproducibility": "frozen successor hashes reproduced before atomic apply"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

@@ -1,0 +1,76 @@
+{
+  "decision_id": "ISV019-EDIT-0119",
+  "recorded_at": "2026-08-13T22:45:37.1211087+02:00",
+  "epistemic_type": "row_order_series_family_lexical_surface_and_false_friend_terminology_normalization",
+  "scope": "The complete bounded 886-token red-/rěd-/rjad-/ręd- row, series, order and rank census in the four Latin sources after EDIT-0118: 393 selected sites on 286 lines, 488 already-canonical ręd-family controls, and five protected formula abbreviations.",
+  "choice": "Normalize 356 ordinary legacy row/order inflections to the official type-1 ręd paradigm; repair two malformed rędku row forms to rędu; recast 35 rędny/rędovy/redny/rednost false-friend tokens into explicit series decompositions, determinant or matrix rank phrases, or porędok order language; preserve the five exact mathematical identifiers \\rm red.",
+  "motivation": "Official type-1 ręd covers row, queue, order, arrangement and sequence and already has 488 canonical controls in this edition. Derivatives rędny and rędovy do not mean n-rowed or row-wise: the official entries mean regular and military private. Explicit constructions with ręda preserve the German reihig rank semantics, while razloženje v rędy preserves Reihenentwicklung and porędok preserves Reihenfolge. The five formula tokens are mathematical identifiers, not prose, and therefore remain untouched.",
+  "alternatives_rejected": [
+    "Retaining red-/rěd-/rjad- was rejected because it leaves three mixed source strata beside the established official ręd family.",
+    "Blindly changing every red token was rejected because five occurrences are formula identifiers written as \\rm red.",
+    "Blindly accenting rędny/rędovy derivatives was rejected because their official meanings are regular and military private, not matrix rank or series decomposition.",
+    "Using rędny for German reihig was rejected in favor of explicit determinant/matrix + ręda constructions that preserve the mathematical meaning and avoid the false friend.",
+    "Retaining rędovo razloženje was rejected because it can read as a private's decomposition; razloženje v rędy states expansion into series directly.",
+    "Retaining rednost was rejected because official rędnosť means regularity; the context means in some order and therefore uses v někom porędku.",
+    "A cross-span lazy math regex was rejected because it could bridge separate inline-math atoms; every rank recast is exact and bounded."
+  ],
+  "evidence": {
+    "official_dictionary": "Official isv_words_list.csv, 7993414 bytes, SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: physical row 13986 / ID 2283 gives ręd, type 1, row or queue; row 13987 / ID 3798 gives ręd, type 1, order, arrangement or sequence; row 11714 / ID 3145 gives porędȯk for order. Rows 13999-14002 show why rędnosť, rędny and rędovy are false friends here: regularity, regular and military private.",
+    "official_grammar": "Official nouns.md, 12310 bytes, SHA-256 BCE65A602F5DAFFF86BD132C6CBD0F5F1A4D5BDE9750A0394F78E5D4A8E9F09E, governs the regular masculine consonant-stem ręd paradigm used by the direct map.",
+    "german_authority": "German ED0014 noether.tex, 2154011 bytes, SHA-256 EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58: all selected contexts were replayed against Reihe, Reihenfolge, Reihenentwicklung and n-/rho-reihig controls. Representative aligned controls include lines 9205, 10036, 13327, 13722, 16120, 16493, 17786 and 18421.",
+    "semantic_audit": "All 393 sites were inspected by complete-family replay. The 356 direct legacy forms denote rows, series or order. The two rędku forms mean each row and therefore take dative/locative rędu, not the separate rędȯk line/verse lemma. The 35 derivative sites divide into eight series-expansion phrases, 26 determinant/matrix rank tokens and one order phrase. No prose target has a different meaning and no linguistic hold remains.",
+    "target_context_receipt": {"sites": 393, "distinct_lines": 286, "utf8_bytes": 227974, "sha256": "110A67C229CFA0EA814DE0D464D669B7A048F6575BB41FFBB249ABA822FEBDBD"},
+    "target_locator_receipt": {"utf8_bytes": 15041, "sha256": "14F3D66869487B45AD619E6470A76F4AABC6F2E821C7E336AAC6640A6D861F02"},
+    "broad_context_receipt": {"sites": 886, "distinct_lines": 493, "utf8_bytes": 569830, "sha256": "61FBAEBF7AA4287E976FE99F2B009978BF228C1675BC7A1B475E7FD5BBE75E5F"},
+    "broad_locator_receipt": {"utf8_bytes": 34183, "sha256": "FCF967A14971C9FE338475EF997B7A114C22195FCF97A61588C3D687EAA66AC5"},
+    "direct_subset_receipts": {"sites": 356, "distinct_lines": 264, "context_bytes": 197171, "context_sha256": "E7D5104750118553754D9EBDDCAA110082747B99FC48CBD715009B92DB46351A", "locator_bytes": 13506, "locator_sha256": "310D005A743F9E65CB6050D4E54F2F2DF2F44A277FAF135029B7E21C45663F2F"},
+    "derived_subset_receipts": {"sites": 37, "distinct_lines": 28, "context_bytes": 30803, "context_sha256": "070F1766FA2369300B6AFB8E59D6C636663E2ED678E19F0CE586CE034A320CEC", "locator_bytes": 1535, "locator_sha256": "FB7178A6D4D6B51DC63654AF7AB30AE921F447D80C8E7BBFDBAEDDBB2B2FF551"},
+    "protected_subset_receipts": {"sites": 5, "context_bytes": 471, "context_sha256": "3B6CFFB00C09A6362EC26420EFBC25E5572192596ACD6E427A230E23FF3AE83C", "locator_bytes": 185, "locator_sha256": "4F8CF4786BAA9162F9DAD6918FDE85ACE6A852D6088E4B2E4526425BFA008BC9"},
+    "protected_domains": "No selected target lies in comments, foreign/foreignlanguage, URL/href/path, label/ref/pageref/eqref/cite or bibliography-identity payloads. Bibliography targets are translated title text. The five protected red identifiers are exact raw-math controls at base lines 22196, 22198, 22202, 22203 and 22384.",
+    "independent_qa": "An independent read-only reviewer reproduced all aggregate and subset receipts, every phrase/rank recast, official and German evidence, formula protection, output hashes, zero residue and structural gates; it reviewed the final 20321-byte applicator and returned ACCEPT with no defect."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0118",
+    "decision_log": {"bytes": 474746, "sha256": "FFD0852190B77E1AD9ABB74CC119F682988EBB4586C4AEC5BC436487B9BF0942"},
+    "source_latin/44-book-isv.tex": {"bytes": 168080, "sha256": "0C52974FA7C43A531E3038EB78B5C070C7806F45BB21B6EF965AA8007AAB3093"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898424, "sha256": "1AE144963D3D06B2B6315E06BF62A0C9274CBBBB5779C00BFA26CC27C93AC59E"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "direct_mapping": {
+    "Red": "Ręd", "red": "ręd", "reda": "ręda", "redu": "rędu", "redom": "rędom", "redy": "rędy", "redov": "rędov", "redam": "rędam", "redami": "rędami", "redah": "rędah",
+    "rěd": "ręd", "rěda": "ręda", "rědu": "rędu", "rědom": "rędom", "rědy": "rędy", "rědam": "rędam",
+    "rjad": "ręd", "rjada": "ręda", "rjadom": "rędom", "rjady": "rędy", "rędku": "rędu"
+  },
+  "phrase_policy": {
+    "series_expansion": ["rędovo razloženje -> razloženje v rędy", "rędovogo razloženja -> razloženja v rędy", "rędovyh razloženij -> razloženij v rędy", "redovymi razloženjami -> razloženjami v rędy"],
+    "rank": "Rewrite MATH-rędny/redny determinant or matrix adjectives as determinant/matrix + ręda MATH, with exact case agreement and exact math atoms preserved.",
+    "order": "v někoj rednosti -> v někom porędku"
+  },
+  "protected_formula_locators": ["base:22196:32", "base:22198:65", "base:22202:32", "base:22203:32", "base:22384:16"],
+  "results": {
+    "sites_changed": 393,
+    "distinct_lines_changed": 286,
+    "file_partition": {"44-book-isv.tex": 17, "45-isv.tex": 0, "base-papers1-43-isv.tex": 374, "bib-isv.tex": 2},
+    "operation_partition": {"direct_token_operations": 358, "phrase_replacement_events": 34, "phrase_family_tokens": 35},
+    "broad_before": 886,
+    "canonical_controls_before": 488,
+    "protected_formula_controls": 5,
+    "source_targets_before_after": [393, 0],
+    "canonical_ręd_family_after": 880,
+    "porędku_before_after": [42, 43],
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168097, "sha256": "89E5A8FCB7EBD5149F181E9E2F09F8B375C267F8ED9C96FFF07E511444A12CFC"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898624, "sha256": "72BA98D8372D6FD64B02A6C05E03F111624F538A7E6A0D9F7A3739821F266175"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "tool": {"path": "apply_red_row_order_family_v019.py", "bytes": 20321, "sha256": "4FBBE0C6C4387AFD79774D9AC0A5677031282188C9FA275AC93FEFFC852768F3"},
+  "validation": {
+    "coverage": "The broad, target, direct, derived and protected censuses and all ten receipts match the hash-gated EDIT-0118 inputs.",
+    "postcondition": "All selected source and false-friend derivative shapes are zero; exactly five protected red identifiers remain; the canonical ręd histogram totals 880 and porędku increments by one.",
+    "structure": "UTF-8 NFC/no-BOM/LF transport, terminal LF, line count, braces, ordered TeX controls, environments, label/ref/cite sequence, math-delimiter stream, exact math-payload multiset, comments and protected payloads are invariant. Only 44, base and bibliography change.",
+    "reproducibility": "Independent replay reproduces all three changed output hashes and proves Paper 45 byte-identical."
+  },
+  "review_state": "applied_independently_qa_accepted_and_hash_verified_in_v019_working_latin"
+}

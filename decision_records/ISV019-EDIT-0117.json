@@ -1,0 +1,86 @@
+{
+  "decision_id": "ISV019-EDIT-0117",
+  "recorded_at": "2026-08-13T22:10:51.3708984+02:00",
+  "epistemic_type": "czech_surface_residual_orthographic_and_present_form_normalization",
+  "scope": "The complete Unicode-wide whole-token census of Czech-shaped ještě and jde plus malformed accented idé in the four Latin sources after EDIT-0116: 56 sites on 50 lines, all in base-papers1-43-isv.tex.",
+  "choice": "Normalize all 27 ještě tokens to official type-1 ješče and all 29 jde/Jde/idé/Idé finite-verb tokens to the official idti present forms ide/Ide, preserving sentence capitalization.",
+  "motivation": "The official dictionary identifies ješče as the type-1 Interslavic adverb and lists Czech ještě only as a national comparator. It identifies idti with present ide; every selected verb context is third-person singular running prose, overwhelmingly the fixed construction ide o meaning concerns or is about. The change closes two coherent Czech-shaped source residues without altering syntax or meaning.",
+  "alternatives_rejected": [
+    "Retaining ještě was rejected because it is the Czech comparator surface while official type-1 ješče is already established 187 times in the edition before this edit.",
+    "Retaining jde was rejected because the official Interslavic present supplied with idti is ide; jde is the Czech national form.",
+    "Retaining idé was rejected because the accent is unsupported and the same contexts require the official finite form ide.",
+    "Replacing the ide o construction with a semantic paraphrase was rejected because the official verb form gives a minimal exact normalization and every audited clause remains grammatical.",
+    "A blind substring replacement was rejected in favor of Unicode whole-token matching, exact source hashes, a complete locator receipt and protected-domain checks."
+  ],
+  "evidence": {
+    "official_dictionary": "Official isv_words_list.csv, 7993414 bytes, SHA-256 072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842: physical row 5124 / ID 1076 gives ješče, adverb type 1, still/even/yet, with Czech national comparator ještě; physical row 4106 / ID 2104 gives idti (ide; šėl), intransitive imperfective type 1, go.",
+    "official_grammar": "Official verbs.md, 21426 bytes, SHA-256 3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD, lines 56-78 and 225-229, supports dictionary-supplied present stems and the irregular idti family.",
+    "german_authority": "German ED0014 noether.tex, 2154011 bytes, SHA-256 EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58: representative verb controls at lines 4619, 11319, 13667, 18375 and 18381 use Es handelt sich/da es sich, and representative adverb controls at lines 4159 and 18385 use noch/Es sei noch bemerkt.",
+    "semantic_audit": "All 56 sites were inspected in full sentence context. The 27 adverb sites mean still, even, yet, further or additionally within the official ješče range. The 29 verb sites are third-person singular ide, overwhelmingly ide o. No motion-sense recast, quotation, title, bibliographic identity, foreign literal or semantic exception occurs.",
+    "context_receipt": {
+      "algorithm": "For each file in order 44-book, 45, base, bib, scan every line for the exact Unicode whole tokens ještě, Ještě, jde, Jde, idé and Idé; serialize filename<TAB>line<TAB>column<TAB>token<TAB>full-line<LF>.",
+      "sites": 56,
+      "distinct_lines": 50,
+      "utf8_bytes": 54249,
+      "sha256": "85E1BE423D77A6D71DF2E7F3FD6C6A54AF77E53C00B407180438303B0A750D5D"
+    },
+    "ordered_locator_receipt": {
+      "sites": 56,
+      "utf8_bytes": 2222,
+      "sha256": "F2449026A157010093FC25D33D145C2C2E691169C9ED85F7BA63CC07B11888FD"
+    },
+    "protected_domains": "A brace-aware independent scan found all 56 sites outside comments, math, control names, foreign/foreignlanguage, URL/href/path, label/ref/eqref/cite and bibliography-identity payloads. Protected payload sequences remain byte-identical.",
+    "independent_qa": "A separate read-only agent independently reproduced the sealed inputs, complete 56-site/50-line census, both receipts, every context classification, official and German evidence, target-control counts, output hashes, zero residue and all structural/protected-domain invariants and returned ACCEPT with no defect."
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0116",
+    "decision_log": {
+      "bytes": 466957,
+      "sha256": "EC0873B50427362FA7656F5F8B4934517E238D56CE5FBC8D07D7F8958EDCB548"
+    },
+    "source_latin/44-book-isv.tex": {"bytes": 168080, "sha256": "0C52974FA7C43A531E3038EB78B5C070C7806F45BB21B6EF965AA8007AAB3093"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898415, "sha256": "1D409FA05FFF160D7C45557584FE996FB87F1C06DDEBA2C37066C7C3A0F64129"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "mapping": {
+    "ještě": "ješče",
+    "jde": "ide",
+    "Jde": "Ide",
+    "idé": "ide",
+    "Idé": "Ide"
+  },
+  "locators": {
+    "ještě": ["2462:11", "2594:183", "10491:309", "10545:108", "11955:563", "12413:187", "12417:278", "14323:642", "14944:926", "14948:266", "14977:559", "14995:20", "16112:219", "16151:1893", "16210:588", "16374:135", "16592:1459", "16611:188", "20845:78", "22514:7", "22644:52", "22766:229", "22766:607", "23213:36", "23215:709", "23215:1061", "24522:24"],
+    "jde": ["5036:14", "9887:966", "9916:9", "10545:374", "10942:154", "11067:329", "11547:122", "12399:201", "12425:549", "13003:668", "14378:14", "14907:622", "15234:14", "15310:310", "15805:1149", "15826:547", "16151:323", "16151:1772", "17250:175", "17252:454", "17258:265", "20389:18", "24169:166"],
+    "Jde": ["12453:278"],
+    "idé": ["22510:219", "22564:5", "22564:647", "22573:28"],
+    "Idé": ["22504:1"]
+  },
+  "results": {
+    "sites_changed": 56,
+    "distinct_lines_changed": 50,
+    "source_histogram": {"ještě": 27, "jde": 23, "Jde": 1, "idé": 4, "Idé": 1},
+    "semantic_partition": {"ješče_adverb": 27, "ide_third_person_singular": 29},
+    "source_family_before_after": [56, 0],
+    "target_counts_before": {"ješče": 183, "Ješče": 4, "ide": 100, "Ide": 11},
+    "target_counts_after": {"ješče": 210, "Ješče": 4, "ide": 127, "Ide": 13},
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 168080, "sha256": "0C52974FA7C43A531E3038EB78B5C070C7806F45BB21B6EF965AA8007AAB3093"},
+    "source_latin/45-isv.tex": {"bytes": 25555, "sha256": "9620D6D712C4FAADCB72C40BDFE20386B217ACB59ACB89192C7F41942D19D4EF"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898410, "sha256": "0EAEBBA34A88A57D124622344A968CB396C561B39985F29BE267EB6DA3A219F3"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "F84959C222B53196ECCE9E0977B7B2CD13AD984CF26D79EF5A34AC16AB121EE0"}
+  },
+  "tool": {
+    "path": "apply_czech_surface_residuals_v019.py",
+    "bytes": 6013,
+    "sha256": "B0BD87D99270091C66DE067776BFF857A81E2EB4FCE7C92542B5534E559DC748"
+  },
+  "validation": {
+    "coverage": "The exact 56-site context receipt, five-form histogram, 50-line partition and all-base file partition match the hash-gated input.",
+    "postcondition": "All whole-token ještě, jde and idé source variants are zero, including capitalization variants; canonical target counts match exactly.",
+    "structure": "UTF-8 NFC/no-BOM/LF transport, terminal LF, line count, raw braces, ordered TeX controls, environments, math delimiters, comments and protected payload streams are invariant; only base changes.",
+    "reproducibility": "Independent replay reproduces base 1898410 bytes / 0EAEBBA34A88A57D124622344A968CB396C561B39985F29BE267EB6DA3A219F3 and proves the other three sources byte-identical."
+  },
+  "review_state": "applied_independently_qa_accepted_and_hash_verified_in_v019_working_latin"
+}

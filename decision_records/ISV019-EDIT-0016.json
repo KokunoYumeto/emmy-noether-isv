@@ -1,0 +1,45 @@
+{
+  "decision_id": "ISV019-EDIT-0016",
+  "recorded_at": "2026-08-13T00:22:27.5101390+02:00",
+  "epistemic_type": "manager_final_corpus_wide_lexical_and_morphological_normalization",
+  "scope": "All 1519 noncanonical predstav-family tokens in the four post-EDIT-0015 editable Latin components.",
+  "choice": "Normalize the complete family to official prědstav- forms. Correct the 55 malformed or nationally shaped predstavlj-/predstavlaj-/predstavaj- derivatives to project morphology, including prědstavja, prědstavjajut, prědstavjaje, prědstavjene, prědstavjena, prědstavjeno, prědstavjajuči, and contextual prědstavime.",
+  "motivation": "The official type-1 family uses prědstaviti, prědstavjati, and prědstavjenje with broad cross-branch support. The inherited corpus mixed that family with 1519 unmarked predstav- spellings and 55 malformed or South-shaped derivatives. A single official family improves corpus-wide coherence and recognizability without altering the mathematical sense.",
+  "alternatives_rejected": [
+    "Retain both predstav- and prědstav- as an unexplained reader-wide doublet.",
+    "Blindly add only the etymological vowel while preserving malformed predstavlj- morphology.",
+    "Leave the known inconsistency for a later human reviewer."
+  ],
+  "predecessors": {
+    "source_latin/44-book-isv.tex": {"bytes": 167643, "sha256": "8982C24471402B7702024F79426DD968E3E7F30E0817895A666F5E092854355E"},
+    "source_latin/45-isv.tex": {"bytes": 25501, "sha256": "868A0492D3D68E8C6A466094F059CF6F982A2061DFA39FCC56D3E677C68A4ECE"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1893461, "sha256": "623637BC6BCAAF87F77660A3D01AAC754AE5101CC6AF1228535E353D8A40368C"},
+    "source_latin/bib-isv.tex": {"bytes": 9568, "sha256": "5BDA7A9EFF8831847F2481DF60AE9A3F0BCCD0CEA0E86D3754B9A1AB8545F42A"}
+  },
+  "evidence": {
+    "official_dictionary_dataset": {"bytes": 7993414, "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842", "rows": [12247, 12249, 12251], "headwords": ["prědstaviti", "prědstavjati", "prědstavjenje"]},
+    "observed_preexisting_canonical_family": 7,
+    "protected_scope": "TeX comments and balanced foreign/foreignlanguage arguments"
+  },
+  "results": {
+    "total_edits": 1519,
+    "irregular_morphology_edits": 55,
+    "post_noncanonical_predstav_family": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167881, "edits": 248, "sha256": "0996C298F86FF48658FAAED3C46595AD474166566B04BC8B4AC2101E6F338AA4"},
+    "source_latin/45-isv.tex": {"bytes": 25503, "edits": 4, "sha256": "FEA709F181E64292D4EB2C9B17A0E094C09EBDC2E0079E2D722A55C162B758AA"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1894681, "edits": 1263, "sha256": "3161097067E5DD36172D9214A0CB2C9DD2EA45CB046223D5A9CD70122A73A5E6"},
+    "source_latin/bib-isv.tex": {"bytes": 9572, "edits": 4, "sha256": "409004504F14342DD2AD2A5359FD2392D2B2DD79CB3D343E076139472036A0B2"},
+    "unresolved_linguistic_holds": 0
+  },
+  "tool": {"path": "apply_predstav_family_v019.py", "bytes": 8922, "sha256": "C24F5C26C3DB9C09C70B417FCE6CDDC7C5E1C3B6622C3962CBF97D46DB95FCC4"},
+  "validation": {
+    "prehashes": "4/4 exact",
+    "coverage": "1519/1519 current tokens, including exact irregular histogram",
+    "protected_content": "ordered comments and foreign/foreignlanguage spans byte-identical",
+    "structure": "control sequence, begin/end, cross-reference, brace, and math-delimiter signatures unchanged",
+    "outputs": "four dry-run SHA-256 values frozen before write and reproduced after write",
+    "transport": "UTF-8 without BOM, LF only, terminal LF"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin",
+  "uncertainty": "No human comprehension experiment exists; this is the manager's final evidence-based editorial normalization, not a claim of community certification."
+}

@@ -1,0 +1,26 @@
+{
+  "decision_id": "ISV019-EDIT-0037",
+  "recorded_at": "2026-08-13T01:46:35.4213163+02:00",
+  "epistemic_type": "manager_direct_orthographic_terminology_normalization",
+  "scope": "All 119 residual celočisl- mathematical terminology forms in live v019 Latin sources.",
+  "choice": "Normalize the full compound family to cěločisl-, preserving all 19 observed case-sensitive inflectional types and joining 138 already-canonical forms.",
+  "motivation": "The official terminology is cělo čislo and the edition already predominantly compounds it as cěločisl-. The residual celočisl- layer was inconsistent and weakened the edition's adopted ě orthography in a central algebraic term.",
+  "alternatives_rejected": ["Retain mixed celo-/cělo- spellings; they denote one mathematical concept and provide no intelligibility benefit.", "Expand every compound to a two-word phrase; that would require broad syntactic rewriting and break established adjectival terminology."],
+  "evidence": {
+    "official_dictionary": {"path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv", "bytes": 7993414, "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842", "entry": "id 36585 cělo čislo, noun, type 1, integer; profile bg/cs/hr/pl/ru/sk/sr/uk"}
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 119,
+    "case_sensitive_types": 19,
+    "preexisting_canonical_family_tokens": 138,
+    "final_canonical_family_tokens": 257,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167969, "sha256": "461B7777C97A1CF89A92A22E9C888140064408DD19F9FCE5969FF44D23F13164"},
+    "source_latin/45-isv.tex": {"bytes": 25518, "sha256": "44EF1048C8053608C476FA4CB3EC3D102CDC4472431F046337C4B1BC4603BEE1"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1896583, "sha256": "7EBBF015B197DFC190F044AA82D9A29CDA15418CBEBDA8B27F2A8B33827CAB37"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "tool": {"path": "apply_integer_family_v019.py", "bytes": 3169, "sha256": "6C53D01467AFA8119C6C3DD5074EFD78536C4312F1F94D8B3417D27FB0CCA479"},
+  "validation": {"prehashes": "4/4 exact after EDIT-0036", "coverage": "119/119 whole-token forms across 19 types changed exactly once", "residue": "zero celočisl- residue; exactly 257 canonical cěločisl- forms", "dry_run_then_apply": "frozen output hashes reproduced", "structure": "TeX controls, references/citations, braces, math delimiters, and line counts unchanged"},
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

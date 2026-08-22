@@ -1,0 +1,65 @@
+{
+  "decision_id": "ISV019-EDIT-0043",
+  "recorded_at": "2026-08-13T02:25:04.7659307+02:00",
+  "epistemic_type": "manager_direct_assumption_family_canonicalization",
+  "scope": "All 165 live v019 Latin prěd-/pred-polag-, -poklad-, and -polož- assumption-family tokens; 107 noncanonical or source-shaped forms changed.",
+  "choice": "Use official prědpoklad- for the imperfective assume/presume family and official prědpolož- for its perfective, passive, adjectival, and supposition-noun family. Preserve each suffix, aspect, case, number, gender, and initial capitalization.",
+  "motivation": "The live edition mixed four shapes for one mathematical assumption family, including unaccented pred- and the East-shaped polag- doublet. The 44-book portion already used prědpoklad- consistently for the imperfective verb. Official type-1 prědpokladati and prědpoložiti/prědpoloženje provide a coherent edition-wide split without changing meaning or syntax.",
+  "alternatives_rejected": [
+    "Retain pred- spellings: they violate the edition's accepted prěd- orthography and leave an accidental cross-file doublet.",
+    "Retain prědpolag- as a parallel official variant: it is grammatical, but preserving both it and prědpoklad- would keep an unnecessary East-shaped inconsistency in a single edition.",
+    "Replace every prědpolož- form with prědpoklad-: that would destroy the official perfective, passive, adjectival, and noun family and its aspectual distinctions."
+  ],
+  "evidence": {
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "entries": [
+        "id 3130 prědpokladati, transitive imperfective type 1, assume/suppose/presume/take for granted",
+        "id 5324 prědpoklad, assumption",
+        "id 11247 prědpoloženje, supposition",
+        "id 18400 prědpoložiti, transitive perfective type 1",
+        "id 20062 prědpolagati, grammatical doublet rejected only for edition-level canonical consistency"
+      ]
+    },
+    "official_grammar": {
+      "path": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/grammar/verbs.md",
+      "bytes": 21426,
+      "sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+      "relevance": "-ati stems, contracted present forms, participles, and verbal nouns"
+    },
+    "context_review": {
+      "classification": {"imperfective_assume": 36, "perfective_assume": 11, "supposition_noun": 43, "passive_or_adjectival_assumed": 17},
+      "finding": "all 107 changed sites are logical or mathematical assumption/supposition contexts; zero physical lay/put contexts and zero protected spans"
+    }
+  },
+  "input_state": {
+    "decision_head": "ISV019-EDIT-0042",
+    "source_latin/44-book-isv.tex": {"bytes": 167960, "sha256": "F700E7DF1519675C20FE28DB7362C8622F1AF9AF065E8177AFBD43DEFC6F56DD"},
+    "source_latin/45-isv.tex": {"bytes": 25519, "sha256": "585CA296396D6528C350DDE1A438F189C2F8185D1FAD357F3D713A5B8A638003"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898015, "sha256": "F88F5670AC50EA84C135B6E81245C178E7E6B282F838C84606FAA5DE39A28944"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "results": {
+    "family_total": 165,
+    "tokens_reviewed_and_changed": 107,
+    "change_partition": {"bare_predpolag_to_prědpoklad": 33, "accented_prědpolag_to_prědpoklad": 3, "bare_predpolož_to_prědpolož": 71},
+    "post_partition": {"prědpoklad_family": 53, "prědpolož_family": 112},
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167960, "sha256": "F700E7DF1519675C20FE28DB7362C8622F1AF9AF065E8177AFBD43DEFC6F56DD"},
+    "source_latin/45-isv.tex": {"bytes": 25526, "sha256": "4E47FD1C693F89726DC65607A7500C9376EA0F09E8BC48EE46D48893BD580292"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898148, "sha256": "335B29763ECA8FC9BCEACA4DB71F549AC0AB60022FA480FE933CF4EE0704CAE3"},
+    "source_latin/bib-isv.tex": {"bytes": 9583, "sha256": "E594A5C28BCF319760254CE36E6CF85558C2C70DD401BD8A630E4F81EC59B76E"}
+  },
+  "tool": {"path": "apply_assumption_family_v019.py", "bytes": 6357, "sha256": "6F1C4EA51F36FD9793DCB824FA8D613BB483348609DF62C3DA1282718BC329E3"},
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0042",
+    "coverage": "107/107 changed whole-token sites plus 58 already-canonical family sites",
+    "independent_context_check": "all 17 changed passive/adjectival contexts were inspected and are assumed/supposed, not physical positioning",
+    "residue": "zero bare pred- assumption form and zero prědpolag- form; exact 53/112 accepted-family partition",
+    "dry_run_then_apply": "frozen output hashes reproduced before and after atomic apply",
+    "structure": "TeX controls, labels/references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

@@ -1,0 +1,45 @@
+{
+  "decision_id": "ISV019-EDIT-0027",
+  "recorded_at": "2026-08-13T01:11:04.9956613+02:00",
+  "epistemic_type": "manager_direct_semantic_and_lexical_normalization",
+  "scope": "Every one of the 103 live v019 sovpad- tokens, with all contexts inspected and German meaning checked for the noun distinctions.",
+  "choice": "Use official type-1 sběgati sę for 88 mathematical coincide/converge predicates; use identičnosť/identičnosti for thirteen exact-identity nouns; use Soglasnosť in two headings whose German source explicitly says Übereinstimmung of definitions. Remove the entire East-shaped sovpad- family.",
+  "motivation": "The inherited family collapsed mathematical identity, agreement, equality, and coincidence under a Russian-shaped root. The official reflexive predicate is branch-transparent and type 1; explicit identity and agreement nouns preserve the mathematical distinctions. No context denotes random chance, so the official type-2 chance noun sȯvpadeńje is inapplicable.",
+  "alternatives_rejected": [
+    "Keep sȯvpadati/sȯvpadeńje; the verb is unranked and the noun's official meaning is coincidence/chance, false for all fifteen noun contexts.",
+    "Use one noun for all fifteen contexts; German distinguishes exact identity/Zusammentreffen from definitional Übereinstimmung.",
+    "Use prěkryvańje or a convergence-specific recast; the audited corpus contains no geometric overlap and no limiting-convergence noun context.",
+    "Let raw Macedonian or East-Slavic token volume decide; independent language families were weighted once each."
+  ],
+  "evidence": {
+    "bounded_agent": "/root/sovpad_family",
+    "official_dictionary": {
+      "path": "C:/Users/Floris/Documents/CLAUDE PLEASE DONT DELETE WINDOWS 32/_claude_aid/interlingua_program_20260704/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "entries": ["id 18677 sběgati sę, type 1, coincide/converge", "id 35748 identičnosť, type 1, identity", "id 6301 sȯglåsnosť/sųglåsnosť, type 1, agreement/concordance", "id 35382 sȯvpadeńje, type 2, coincidence/chance, rejected"]
+    },
+    "semantic_census": {"exact_identity": 71, "paired_scalar_or_cardinality_equality": 24, "content_or_definition_agreement": 8, "geometric_overlap": 0, "limiting_convergence": 0, "random_chance": 0},
+    "german_checks": "The two headings use Übereinstimmung der Differentialdefinition; the exact-identity heading uses Zusammentreffen der beiden komplementären Moduln."
+  },
+  "results": {
+    "tokens_reviewed_and_changed": 103,
+    "predicate_edits": 88,
+    "identity_nouns": 13,
+    "definition_agreement_nouns": 2,
+    "unresolved_linguistic_holds": 0,
+    "source_latin/44-book-isv.tex": {"bytes": 167967, "sha256": "2EB5AB332276EFE1B579FB273F093DE5ECAE2E35B8FF9909E8E83301B6244DB9"},
+    "source_latin/45-isv.tex": {"bytes": 25507, "sha256": "93CF9796801EC73EB5817132B71F92CB077D8218CE0ED54C2A9C605BBFA4611F"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1895860, "sha256": "421F75AA94AABC8793FA19C09E939765621B095EBDD9ED71AC98AB04A29EE403"},
+    "source_latin/bib-isv.tex": {"bytes": 9578, "sha256": "E5951A6278A556003C44DE30FC0012C1421606BDB1DE3AB6CF05C01986D9613B"}
+  },
+  "tool": {"path": "apply_coincidence_identity_family_v019.py", "bytes": 5998, "sha256": "BF3948A3C4B566F43ACF104048E9FF71EF9B5CC43A077A5112EB742EF408C758"},
+  "validation": {
+    "prehashes": "4/4 exact after EDIT-0026",
+    "partition": "88 predicates + 13 identity nouns + 2 agreement nouns = 103",
+    "residue": "zero whole-token sovpad- residue",
+    "dry_run_then_apply": "frozen output hashes reproduced",
+    "structure": "TeX controls, references/citations, braces, math delimiters, and line counts unchanged"
+  },
+  "review_state": "applied_and_hash_verified_in_v019_working_latin"
+}

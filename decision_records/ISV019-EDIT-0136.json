@@ -1,0 +1,231 @@
+{
+  "schema": "noether-isv-normalization-decision-v1",
+  "decision_id": "ISV019-EDIT-0136",
+  "recorded_at": "2026-08-14T23:38:23+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "official_lexeme_and_established_house_surface_completion",
+  "scope": "Complete the four-source live jednotliv-family census: 15 sites on 13 lines, confined to Papers 2, 15, 17, and 37 in the Papers 1-43 base.",
+  "summary": "Replace every live Czech/Slovak jednotliv- adjective surface with the corresponding established pojedin- house surface while preserving case and number.",
+  "project_identity": {
+    "umbrella": "TTP",
+    "discoverability_expansion": "Translation and Transcription Project",
+    "work_language": "Emmy Noether — Interslavic working edition",
+    "canonical_hub": "to be bound at the next public release; no URL is invented by this internal seal",
+    "rights_boundary": "preserve each work's exact license, provenance, author/source relation, and non-endorsement; no blanket public-domain or open-license claim"
+  },
+  "human_companion": {
+    "path": "decision_records/ISV019-EDIT-0136.md",
+    "bytes": 3233,
+    "sha256": "4C25F24CE48E08C2DA1C3FD1C63B14A3EE5BA32A1A8DF71BAD93F7A61B8A923A"
+  },
+  "predecessor": {
+    "decision_id": "ISV019-EDIT-0135",
+    "ledger_rows": 135,
+    "ledger_bytes": 531478,
+    "ledger_sha256": "7D929BE5400D7326856C3F370741CA059B1EE8C73E59EE66D441926B87DAD361",
+    "sidecar_bytes": 8772,
+    "sidecar_sha256": "250446D8CE55E66F4F301F2E8A979D91F94BE62E74CEE17EDB8DC99F3855CF81",
+    "state_bytes": 13753,
+    "state_sha256": "68BB3244206A4B3F477CB5CE7DFB753FFA7360EC5EF8F38BA5D000C7B611F5AD"
+  },
+  "mapping": {
+    "jednotlivyh": "pojedinyh",
+    "jednotlivymi": "pojedinymi",
+    "jednotlivoj": "pojedinoj",
+    "jednotlive": "pojedine",
+    "jednotlivé": "pojedine"
+  },
+  "morphology": {
+    "jednotlivyh_to_pojedinyh": "7 genitive/locative plural",
+    "jednotlivymi_to_pojedinymi": "1 instrumental plural",
+    "jednotlivoj_to_pojedinoj": "4 feminine genitive/dative/locative singular",
+    "jednotlive_or_jednotlivé_to_pojedine": "3 nominative/accusative plural"
+  },
+  "census": {
+    "changed_sites": 15,
+    "changed_lines": 13,
+    "file_split": {
+      "source_latin/base-papers1-43-isv.tex": 15
+    },
+    "paper_split": {
+      "Paper02": 2,
+      "Paper15": 8,
+      "Paper17": 4,
+      "Paper37": 1
+    },
+    "preexisting_broad_pojedin_family": 129,
+    "preexisting_exact_successor_surfaces_case_insensitive": 70,
+    "preexisting_exact_successor_surfaces_lowercase": 66,
+    "preexisting_initial_capital_pojedine": 4,
+    "preexisting_other_broad_family_forms": 59,
+    "post_pojedin_family": 144,
+    "post_exact_successor_surfaces_case_insensitive": 85,
+    "post_other_broad_family_forms": 59,
+    "post_jednotliv_residue": 0,
+    "semantic_holds": 0
+  },
+  "source_inputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25544, "sha256": "404BFCAF848FFF7262CC0A55262B6740DCD597E86AC21FE590C3034472FED19A"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1899010, "sha256": "2AD53E4898246A659B188FC5C0FB2E7887651ED3D4BC1E20EC0EA10396190333"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "source_outputs": {
+    "source_latin/44-book-isv.tex": {"bytes": 168093, "sha256": "7686A65DE405183E303FAF33FD3C361BC9979D75010699A1ED7BCF1406B03D4E"},
+    "source_latin/45-isv.tex": {"bytes": 25544, "sha256": "404BFCAF848FFF7262CC0A55262B6740DCD597E86AC21FE590C3034472FED19A"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1898979, "sha256": "73BD055E7CCF3A882FE457D472CF6FFE804803A0469D217871119D31F5F25C95"},
+    "source_latin/bib-isv.tex": {"bytes": 9585, "sha256": "0809C9368174F5817B6CA4798C6CA652CBBC76805478A67BC681B217EBD22EA3"}
+  },
+  "source_replay": {
+    "base": {
+      "path": "source_latin/base-papers1-43-isv.tex",
+      "input": {"bytes": 1899010, "sha256": "2AD53E4898246A659B188FC5C0FB2E7887651ED3D4BC1E20EC0EA10396190333"},
+      "output": {"bytes": 1898979, "sha256": "73BD055E7CCF3A882FE457D472CF6FFE804803A0469D217871119D31F5F25C95"}
+    },
+    "exact_positional_reverse_receipt": {
+      "bytes": 472,
+      "sha256": "07F5078DA8F31400D271B899D69DAB50E581B3CB8C1EB757893223D0E25045DC"
+    },
+    "reverse_result": "PASS to exact EDIT-0135 base 1899010/2AD53E4898246A659B188FC5C0FB2E7887651ED3D4BC1E20EC0EA10396190333"
+  },
+  "receipts": {
+    "target_locators": {"bytes": 684, "sha256": "BF7A51B230768544B42540853E47EAFC891010A15FF6BDFF13437B009948352F"},
+    "target_contexts": {"bytes": 10350, "sha256": "4A117C57D764C463F622976328D7FF98CD6AB44156B0B8886EB4574FB29F6D24"},
+    "mapping": {"bytes": 10498, "sha256": "486F10EB3FF3B8959768EBCE4481E596C40A476475764C696820CBCA567AF835"},
+    "pre_control_locators": {"bytes": 5539, "sha256": "31FC963D191D99F6EB91A71FA6A0C8ECACF1A6490A44364CAB33CC928DEB8EA0"},
+    "pre_control_contexts": {"bytes": 90842, "sha256": "E3CD9180B245D3F98787E56F6CCDB0633A067918CA0972B17C32253009313376"},
+    "post_family_locators": {"bytes": 6192, "sha256": "0B8F21DC2147705C59B4239BAD4F325AE208746CE94DEBDC77C504518871EC81"},
+    "post_family_contexts": {"bytes": 101108, "sha256": "EB8E7D67766AB4C02ECF7BEFD9252A92B26DFE2C88394C774C339FA5B1D555CF"},
+    "german_alignment_locators": {"bytes": 1256, "sha256": "A5C162F758629B43A8760CF1B5FF20CA95B6B95BB3E2CF224AC17F8EB4CBA509"},
+    "german_alignment_contexts": {"bytes": 21444, "sha256": "429F9B49EC9F3E4E0EC3873D2DA06EC9CEC223A0F3987BBB30185C44E42DAABB"}
+  },
+  "authority": {
+    "official_dictionary": {
+      "path": "01_methodology/claude_fable_program/data/isv_words_list.csv",
+      "bytes": 7993414,
+      "sha256": "072DE8E512EB386780D199FBD6F0ACF2639D3096EA920F1AF2D0AFCC5535E842",
+      "row": "physical 11455: pojedinny; single, individual; Czech jednotlivý; Slovak pojediný and jednotlivý; German einzeln, individuell",
+      "row_receipt_bytes": 517,
+      "row_receipt_sha256": "FD623645D3BC731E5E1B2CE20B1FED88EE9B8FBA6B8ABD95106434E708FD2881"
+    },
+    "official_adjective_grammar": {
+      "bytes": 8142,
+      "sha256": "184348005ACB532868DAEB35DBFB7A8E05A493D550B4D6FA2E1A3BCFC906D84F",
+      "row_receipt_bytes": 1127,
+      "row_receipt_sha256": "64CDDE41951671813FB51EAE166AA3BB2606733628F7B804B2ED2DEFF4116B49"
+    },
+    "active_german": {
+      "authority_id": "NOETH-DE-ED-0014",
+      "source_bytes": 2154011,
+      "source_sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "activation_version_doi": "10.5281/zenodo.21908301",
+      "aligned_sites": 15,
+      "aligned_surface": "einzelnen",
+      "role": "semantic control only; not native-language certification"
+    }
+  },
+  "dictionary_surface_boundary": "The official dictionary establishes lemma pojedinny and its sense; the exact single-n inflected surfaces are established edition-house forms with 70 case-insensitive controls (66 lowercase plus 4 initial-capital Pojedine) inside the broader 129-token pojedin-family census; the other 59 controls are related forms.",
+  "corpus_boundary": {
+    "catalog_bytes": 10642398,
+    "catalog_sha256": "354BE2A6EDFB9FE90CA9A42870666AF9DEB295F28D3F7ADA3DA898EC728756EC",
+    "all": {"rows": 221, "bytes": 191348, "sha256": "DD72767C2C710B4EA35B3525066093573EA9AAC99A5040A0357289000E12DF42", "jednotliv": 379, "pojedin": 1031},
+    "generated_support_excluded_from_native_evidence": {"rows": 155, "bytes": 140420, "sha256": "C062004A17AE07743A57BD1D9D15139236F64894E35D1DDC24738FA7CC8FAD58", "jednotliv": 111, "pojedin": 983},
+    "candidate_unadmitted_source_witness": {"rows": 65, "bytes": 50163, "sha256": "3357D05825C9B1B9C4549F99E2AD2AA4AA9CCDABA97C47F82DED18351EA11B24", "jednotliv": 260, "pojedin": 48},
+    "historical_superseded_or_unreconciled": {"rows": 1, "bytes": 765, "sha256": "BDA68AE667851FA4AC6295C53E096D6997A9B176EE92DAAA3BEF89954C02A3DA", "jednotliv": 8, "pojedin": 0},
+    "claim": "All 221 comparator files are unknown_not_adjudicated for native authorship and provide distribution/internal corroboration only, never native review or canonical approval."
+  },
+  "paper45_uncertainty_gate": {
+    "path": "../00_lane_control/P45_FOUR_AUTHORITY_UNCERTAINTIES_ADJUDICATION_20260814.json",
+    "bytes": 25915,
+    "sha256": "C9646D4027BE13D3F4DF77343A5D550D1C7605C25D32EEEA66010288E156D5C8",
+    "change_dispositions": 2,
+    "keep_dispositions": 2,
+    "german_successor_activation_gate": "CLOSED",
+    "projected_german_successor_sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+    "preserved": true
+  },
+  "applicator": {
+    "path": "apply_jednotliv_pojedin_family_v019.py",
+    "bytes": 31237,
+    "sha256": "F109BF698754360C79E94A81005DD380B642B1D6CE476AB82848CF63ECBC39B4",
+    "default_mode": "strict_no_write_dry_run",
+    "apply_contract": "one affected file staged and installed by one same-directory os.replace, with exact post-commit verification and exception rollback; cross-crash durability is not claimed"
+  },
+  "qa": {
+    "preapply_default_runs": "PASS twice; exit 0/0; byte-identical stdout 5025 B / E11A0B273E9AF1B00411C0A26CD8E4F9D9B7E15055454587209BB3C54D5FD56D",
+    "preapply_recursive_manifest": "PASS; 382-file content manifest unchanged before, between, and after",
+    "independent_preapply_verdict": "ACCEPT; exact defects 0",
+    "independent_recursive_entries": "407 entries byte-identical; no new pyc, stage, rollback, or temporary residue",
+    "postapply_independent_reverse_replay": "PASS",
+    "postapply_protected_structure_transport": "PASS; 22301 protected spans before and after",
+    "postapply_target_residue": 0,
+    "postapply_family_total": 144,
+    "semantic_holds": 0
+  },
+  "producer_preservation_receipt": {
+    "count": 6,
+    "effect": "preserved byte-exact; EDIT-0136 target units are disjoint from all six local producer successors",
+    "entries": [
+      {
+        "unit": "Paper02-Section01",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section01_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper02_Section01_Interslavic_v001.tex",
+        "input": {"bytes": 6798, "sha256": "393F295537ABA3C5683438CD3F9936AE88B8271D944F7B833D5C1F43924900C2"},
+        "output": {"bytes": 7619, "sha256": "5F9A23EE89CEDA37F8B9739614CCE7EB8C15F46717EE6F94C59467A0E62755DB"},
+        "historical_body": {"bytes": 6455, "sha256": "52A48949BCBCC420383107854838BA517B97FB769E433344BE42EA10FC69A975"},
+        "live_body_input": {"bytes": 6562, "sha256": "A2B8CA77B47A0914C8255AECBE92AAF6CE7EB50CEEE016CE45FD9AC00ABE5B85"},
+        "reconstructed_pre_edit_shadow": {"bytes": 6905, "sha256": "68DBCA99A4B80DE8EFE83B2472EC53D96CFD4D880E30F2AB1E58A8A66449547A"},
+        "body_output": {"bytes": 6793, "sha256": "AED6BFFE073F94154F974403D1D1FADE6D79A418AFBC78916A9DD6E4EFD64117"}
+      },
+      {
+        "unit": "Paper02-Section11",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper02/interslavic/v001/Noether_Paper02_Section11_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper02_Section11_Interslavic_v001.tex",
+        "input": {"bytes": 14940, "sha256": "37B613F59FC8D4F101A714AF84B5DA0AE28FED93123EBA52C0363B234E3D499A"},
+        "output": {"bytes": 14964, "sha256": "780FB348B52249F810F176B8B7015B83EE48CBB719D8EE4204D34A1AF8FA8DBD"}
+      },
+      {
+        "unit": "Paper08",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper08/interslavic/v001/Noether_Paper08_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper08_Interslavic_v001.tex",
+        "input": {"bytes": 23684, "sha256": "40A84F8E13423AFC923C4C0C714CBFB78C11EBD6F10343EEACA93090FCBB10C3"},
+        "output": {"bytes": 23894, "sha256": "83EAEF04EED1CE93376708A8E28CF242B6973AB8489B765B1F98211634E0A16B"}
+      },
+      {
+        "unit": "Paper22",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper22/interslavic/v001/Noether_Paper22_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper22_Interslavic_v001.tex",
+        "input": {"bytes": 77611, "sha256": "6A78318258A2C609D030A248E66834055E904DC808BECA797433C461B31558B6"},
+        "output": {"bytes": 78293, "sha256": "CE81C14094CF458B77A623D56AD9E25D074C7CDB201A0EF13D1C1840465FAFCC"}
+      },
+      {
+        "unit": "Paper24",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper24/working/through-section07/interslavic/Noether_Paper24_Through_Section07_Interslavic_working.tex",
+        "local": "producer_units/Noether_Paper24_Through_Section07_Interslavic_p24_source_fidelity.tex",
+        "input": {"bytes": 94891, "sha256": "1AFB653CAD5CFE903BC80CB64DE192D22BE33579131208309844F7104CA0BC6B"},
+        "output": {"bytes": 95655, "sha256": "86B7421845EBA641A6171D03E26015598E605404FA02928833F3CA699E634D42"},
+        "reconstructed_pre_edit_shadow": {"bytes": 95451, "sha256": "871CD6E83833631A63986D8801E1A122B433FE5AECF37AE3641CF407EE8A5C03"}
+      },
+      {
+        "unit": "Paper34-Section23",
+        "origin": "C:/Users/Floris/Documents/interlanguage/03_projects/noether/02_slavic_working_corpus/translations/paper34/source_fidelity_section23/interslavic/v001/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+        "local": "producer_units/Noether_Paper34_Section23_SourceFidelity_Interslavic_v001.tex",
+        "input": {"bytes": 4638, "sha256": "965699990152B0707997CFE43D58300E243E690657FC85D326486A835E2AC8C0"},
+        "output": {"bytes": 4752, "sha256": "B811E94705075CBA321A016DD3F633B4F47041191835708A113EB6C4ADCC196B"},
+        "reconstructed_pre_edit_shadow": {"bytes": 4690, "sha256": "BFEE5482B4B35155C44D6577D810E4CACB1932B6A9C63031266EFC2EFA7DEE6A"}
+      }
+    ]
+  },
+  "producer_effect": "none; all six independently receipted producer successors and embedded identity receipts are preserved",
+  "open_dispositions": [],
+  "explicit_holds_after": 0,
+  "retained_authority_uncertainties": 4,
+  "build_effect": "none; next meaningful cumulative deterministic build",
+  "frozen_v047_unchanged": true,
+  "public_r35_unchanged": true,
+  "standalone_record_unchanged": true,
+  "working_successor_published": false,
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "native_validation_claim": false
+}
