@@ -1,0 +1,630 @@
+    Od jezyčnogo kanona do povtorimoj publikacije:
+   metodologija mašinno-pomaganoj medžuslovjanskoj
+                       redakcije
+             From a language canon to a reproducible publication:
+   machine-assisted Interslavic editing of Emmy Noether’s mathematical works
+
+                               Machine-assisted Interslavic editorial project
+
+                            NOETHER-ISV-v020 - 22 avgusta / August 2026
+                               Version DOI: 10.5281/zenodo.22058530
+                              Concept DOI: 10.5281/zenodo.21926382
+
+                                                         Abstract
+      Medžuslovjansky. Tuta statja dokumentuje tvorjenje polnogo medžuslovjanskogo izdanja matem-
+      atičnyh děl Emmy Noether v redakcijnoj latinici i deterministično izvedenoj kirilici. Cělj jest praktično
+      čitanje govoriteljami slovjanskyh jezykov, uključajuči čitateljev bez anglijskogo jezyka, a ne sama
+      demonstracija jezyčnogo eksperimenta. Izdanje v020 ne prěpisuje latiničny kanon: ono popravjaje
+      role, ktore upravljajut izvedenjem kirilice. Bylo pregledano vseh 4 560 naslědženyh zapisov rolij po
+      pojavjenju; popravljeno bylo 364 klasifikacij i dodano 8 nedostajučih granic polnyh neizměnjenyh
+      identitetov. Projektor v7 dokazano izvršaje vseh 372 efektov: 346 ohranjajut latinny tekst, a 26
+      projicirajut go v kirilicu. Skutočna izhodna razlika sodrži 125 linij vnutri licencovanogo množstva od
+      309 linij i nulu izměn izvan njega. Dva polna čitateljnika imajut 565 i 588 stranic; relizna kontrola
+      imaje 38 uspěšnyh prověrok i nulu pogrěšek. “Nula nejasnostij” znači samo, že v manifestu ne ostalo
+      nerěšenyh klasifikacij rolij. Ona ne znači rodno-govoriteljsku, obćinsku ili naučnu certifikaciju. Vse
+      iztočniki, rěšenja, programy, kontrolne sumy, ograničenja i javne adresy sut ostavljene tako, da druga
+      sesija ili recenzent može povtoriti, kritikovati ili monotono prodolžiti izdanje.
+      English. This paper documents the production of a complete Interslavic edition of Emmy Noether’s
+      mathematical works in editorial Latin script and deterministically derived Cyrillic. The purpose is prac-
+      tical reading by speakers of Slavic languages, including readers without English, rather than a display
+      of linguistic experimentation. Release v020 does not rewrite the Latin canon; it corrects the roles that
+      govern Cyrillic derivation. All 4,560 inherited role records were reviewed occurrence by occurrence;
+      364 classifications were corrected and 8 missing boundaries for complete uninflected identities were
+      added. Projector v7 demonstrably realizes all 372 effects: 346 preserve Latin material and 26 project
+      it into Cyrillic. The actual output delta comprises 125 lines within a licensed set of 309 lines and zero
+      changes outside it. The two complete readers contain 565 and 588 pages; release QA reports 38 pass-
+      ing checks and zero errors. “Zero ambiguity” means only that the role manifest contains no unresolved
+      classifications. It is not native-speaker, community, or scholarly certification. Sources, decisions, soft-
+      ware, hashes, limitations, and public access points are retained so that another session or reviewer can
+      reproduce, challenge, or monotonically extend the edition.
+
+
+
+Čest I - Polny medžuslovjansky tekst
+1 Predmet, cělj i čitatelji
+Predmet jest jedno polno medžuslovjansko jezyčno izdanje ograničenogo korpusa Emmy Noether:
+numerovane Statje 1–43, lekcijno dělo 44, Statja 45 i bibliografija. To ne jest antologija priměrov i ne jest
+zbirka nevezanyh transkripcij. Javny čitateljnik dava dva pisemne vida jedinogo jezyčnogo objekta:
+
+                                                          1
+NOETHER-ISV-v020 metodologija / methods                                           Medžuslovjansky / Interslavic
+
+
+  • isv‐Latn jest kanoničny redakcijny jezyčny tekst;
+  • isv‐Cyrl jest deterministična projekcija togo teksta, a ne nezavisny svědok prěvoda.
+   Toto razděljenje jest metodologično važno. Izvedena azbuka ne može sama potvrditi pravilnost prěvoda,
+iz ktorego jest stvorjena. Jezyčne popravky vhodet jedino v latinny kanon; kirilica mora byti ponovno izve-
+dena, testovana, sgrađena i vizualno prověrjena po zamrznutju vhodnyh bajtov. V020 jest osobito jasny
+slučaj: latinny tekst ostavaje bajt-po-bajtu ravny v019, ale izvedena kirilica se popravjaje, ibo pregled rolij
+odkryl pogrěšne granice medžu jezyčnym tekstom, imenami, citatami i rimskymi označenjami.
+   Praktična heuristika jezyčnogo napredka ne jest pytanje “koliko tekst izgleda slovjansky?” Uporabjajemo
+sojedinjenje četyrěh pytanj:
+ 1. Može li govoritelj različnogo slovjanskogo jezyka pravděpodobno razobrati větu bez anglijskogo teksta?
+ 2. Jest li izbrana forma podprta deklarovanym medžuslovjanskim slovnikom ili gramatikoju, albo jasno
+     zapisanym domovym pravilom projekta?
+ 3. Ohranjaje li forma točny matematičny predmet, kvantifikaciju i odnos argumentov německogo
+     iztočnika?
+ 4. Jest li vsaky slučaj izključka, identiteta, citaty ili nejasnosti reprezentovany povtorimoju roloju, vměsto
+     bezglasnogo izostavjenja?
+   Zato izdanje jest najbolje razuměti kako popravljivo naučno rabotno izdanje: javno, pregledljivo,
+vezano kontrolnymi sumami i otvorjeno za ulučšenje, ale bez tvrdženja o rodno-govoriteljskoj ili
+kritično-izdateljskoj certifikaciji.
+
+
+2 Arhitektura avtoriteta i kustodije
+Metoda razděljaje iztočny avtoritet, jezyčny kanon, izvedenu azbuku, redakcijne dokazy i javne produkte.
+Nijedin sloj ne smije samovoljno prěvzeti funkciju drugogo.
+
+                             Table 1: Role avtoriteta v NOETHER-ISV-v020.
+Rola                      Upravljajuči objekt                   Poslědstvo
+Německy iztočny av- Naslědženy objekt                                 Upravjaje iztočnym smyslom,
+toritet             NOETH‐DE‐ED‐0015, pokazatelj                      strukturoju i matematičnym
+                    NOETH‐DE‐AUTH‐v052‐20260815                       sravnjenjem; medžuslovjanska linija go
+                                                                      ne rediguje.
+Latiničny      jezyčny    Četyri source_latin/*.tex fajly             Jedino město jezyčnyh redakcij. V020
+kanon                     pri glave ISV019‐EDIT‐0171                  ne měnjaje nijedin jego bajt.
+Manifest rolij            ISV020‐REVIEWED‐PROJECTION‐ROLE‐M           Veže 4 560 pregledanyh zapisov, 8
+                          ANIFEST.json                                dodatkovyh granic i nulu nerěšenyh
+                                                                      klasifikacij k točnym iztočnym
+                                                                      lokatoram.
+Kirilična površina        Projektor v7 nad točnym latinnym            Povtorimo tvorjeny izhod; ne može
+                          vektorom i manifestom                       nadglasovati latinny kanon niti
+                                                                      nezavisno potvrditi prěvod.
+Relizne produkty          Dva čitateljnika, vezany čitateljnik, dva   Člověku dostupno razprostranjenje;
+                          ZIP-arhiva i SHA-256 manifest               produkt ne može redefinovati kanon, iz
+                                                                      ktorego byl stvorjen.
+
+   Německy objekt naslědženy iz v019 imaje SHA-256 51A25101C04877AE740989E72B2AD65A7A7E65B081077C
+4A518BF1737AD5B907. Ta identiteta označaje kontrolny iztočnik prěma kojemu latinny kanon byl zamrznuty;
+ona ne jest tvrdženje, že projekt publikoval novy kritičny německy tekst. Globalna mnogojezyčna zbirka
+jest povezana odnosom IsPartOf s 10.5281/zenodo.20412587, a identificirany německy objekt odnosom
+IsTranslationOf.
+
+
+
+                                                      2
+NOETHER-ISV-v020 metodologija / methods                                           Medžuslovjansky / Interslavic
+
+
+3 Mašinno čitljivo odkryvanje kanona
+Povtorimost začinaje s odkryvanjem. Buduća sesija ne smije ugadyvati ktory iz podobnyh fajlov jest kanon.
+Zato koren repozitorija imaje CANON_INDEX.json, ktory deklaruje:
+  • jezyk i BCP 47 označenja pisma;
+  • četyri kanonične latinne fajly i četyri izvedene kirilične fajly;
+  • točne bajtove i SHA-256 vsakej upravljajučej jedinice;
+  • latinnu redakcijnu glavu i identitet žurnala, do ktorogo se može samo dodavati;
+  • manifest rolij, projektor, test i prověrčny dokument;
+  • německy avtoritet, granice pisanja i granice dozvoljenyh tvrdženj;
+  • deterministične komandy sgrađanja i imena javnyh artefaktov.
+   Indeks jest deklarativny, a ne samopotvrđajuči. On govori agentu čto objekty sut; izvršive prověrky
+dokazujut, jest li deklarovana identiteta ješče pravdiva. Tuto razděljenje odklanjaje kružno pravilo “na-
+jnověje izgledajuči fajl jest kanon” i dava osnovu, k ktoroj druga transkripcija, prěvod ili azbučna projekcija
+može bezpečno pridati novy sloj.
+
+
+4 Čto AI děla i čto ne može rěšiti samo
+Projekt uporablja AI kako redakcijny instrument, ne kako iztočny avtoritet. Mašinny trud obimaje sravnjenje
+větnyh kontekstov, tvorjenje kandidatnyh inventarov, klasifikaciju pojavjenj, formulovanje alternativ, gen-
+erovanje strukturnyh testov i tvorjenje javnoj dokumentacije. Deterministične programy potom autentifikuju
+vhody, priměnjajut samo zamrznute rěšenja i odklanjajut nepredvidženu izměnu.
+   Metoda ima slědujuči cikl:
+ 1. zamrznuti iztočny i ciljevy bajtovy vektor;
+ 2. najdti materialne jezyčne ili rolne kandidaty bez avtomatičnogo globalnogo zaměnjenja;
+ 3. pregledati vsako pojavjenje v větnom, bibliografičnom, matematičnom i TeX-kontekstu;
+ 4. zapisati izbranu rolu, dokaz, odklonjene alternativy, neuvěrjenost i poslědstva;
+ 5. napraviti manifest ili redakcijno rěšenje, vezano k točnomu lokatoru i kontrolnoj sumě;
+ 6. izvesti izhod čistym programom i dokazati dopuščeny obseg razlike;
+ 7. sgraditi, iztegnuti tekst, prověriti fonty, navigaciju, strukturu i vizualne stranice;
+ 8. publikovati izvorniki, dokazy i haše zajedno s čitateljnikom, potom anonimno pročitati javne bajty nazad.
+   AI-prědlog ne stavaje kanonom zato, že zvuči uvěrlivo. On stavaje dopustimym samo kogda jest lokali-
+zovany, podporjen deklarovanym dokazom, ograničeny v obsegu i povtorimo prověrjen. Kde dokaz ne jest
+dostatočny, pravilen rezultat jest ograničeno tvrdženje ili zapisano nerěšeno pytanje, a ne izmišljena certi-
+fikacija.
+
+
+5 Polny pregled rolij i korekcija v020
+V019 već imalo funkcionalnu kiriličnu projekciju, ale naslědženy inventar byl stvorjen iz kandidatskyh sken-
+erov, ktore mogut smatrati inojezyčno izgledajuči token, stilizovany tekst ili jedin znak za avtomatično ohran-
+jajemy material. V020 zato je pregledalo vse 4 560 zapisy po pojavjenju, ne samo evidentne pogrěšky.
+    Kromě 364 popravjenyh klasifikacij, pregled je dodal 8 nedostajučih rasponov za polne neizměnjene
+identitety. Tako obstajajut 372 vezane efekty. Projektor v7 prověrjaje vsaky efekt odvojeno: 346 rasponov
+mora ohraniti latinny tekst i 26 mora go projicirati. Nula efektov ostavaje neprověrjena.
+    Licenca izměn ne jest slobodna lista cijelyh fajlov. Manifest izračunava 309 linij, na ktoryh nějakovy
+pregledany efekt može zakonno izměniti izhod. Skutočna razlika imaje 125 linij: 0 v dělu 44, 6 v statji 45,
+115 v statjah 1–43 i 4 v bibliografiji. Nijedna linija se ne měnjaje izvan licencovanogo množstva. Četyri
+latinne izvorniky imajut nulu izměnjenyh bajtov.
+    Status “nula nejasnostij” treba čitati operacionno: vsaky zapis inventara imaje jednu završenu projekcijnu
+
+
+                                                      3
+NOETHER-ISV-v020 metodologija / methods                                             Medžuslovjansky / Interslavic
+
+
+
+                                     Table 2: Pregled klasifikacij rolij.
+            Kategorija                             Pregledane zapisy        Popravjene klasifikacije
+            Stilizovane površiny                                  883                             1
+            Kandidaty imen                                        616                             0
+            Pojavjenja inojezyčnogo leksikona                   2 371                           270
+            Vidime jedno-bukvene tokeny                           690                            93
+            Vse skupaj                                          4 560                           364
+
+
+rolu i točny lokator. On ne govori, že prirodny jezyk ne imaje polisemije, že vsaky govoritelj izbere tu samu
+formu, ili že někoj rodny govoritelj pregledal cijely korpus.
+
+
+6 Jezyčna normalizacija latinnogo kanona s žurnalom, do ktorogo se može
+  samo dodavati
+Latinna glava naslědžuje 171 materialnyh rěšenj iz v019. Rěšenje jest dopustimo samo ako imenuje prědhod-
+nika, točnu ciljnu poziciju, prědlagany naslědnik, relevantny avtoritet, odklonjene alternativy, motivaciju,
+neuvěrjenost i poslědnu prověrku. Aplikator autentifikuje vsaky vhod i odklanjaje mnogoznačny cilj. V
+žurnal se može samo dodavati: pogrěšny ili pozdněje zaměnjeny postup ne izčezaje, ale ostavaje čitljivym s
+novym poslědnikom.
+   Glavne jezyčne klasy sut:
+  • Lažni prijatelji i smyslove razděljenja. Podobnost s ruskym, ukrajinskym, poljskym, češskym ili
+    južnoslovjanskym oblikom sama ne dostaje. Obstajanje, sučnost, sostav, sodržanje, prědpoloženje,
+    poslědstvo i odgovaranje sut rěšene po větnom i matematičnom smyslu.
+  • Morfologija i větny položaj. Soglasovanje, kosy padeži, genitiv množiny, pričestja, glagolne koncovky
+    i poredkove formy sut klasifikovane prěd popravkoju. Globalna zaměna koncovky jest odklonjena, ibo
+    formuly, imena i citaty mogut imitovati običny morfem.
+  • Vezy i logika dokaza. Uzročne, zaključne, uslovne, ekvivalentne, protivne i apodozne vezy sut sravn-
+    jene s odnosom iztočnyh klauz. Čestost slova ne smije obrnuti implikaciju ili oslabiti kvantifikator.
+  • Imena, naslovi i citaty. Polny neizměnjeny identitet i izvornojezyčna bibliografična površina sut ohran-
+    jene. Integrirana ili sklanjana forma projiciraje se kogda funkcionuje kako medžuslovjanska morfologija.
+   V020 ne otvara te latinne rěšenja ponovno. Ono popravjaje samo mašinno tolkovanje, ktory časti zam-
+rznutogo teksta sut vidimy medžuslovjansky tekst, a ktore sut zaštićene identitete ili struktura.
+
+
+7 Matematična i TeX-věrnost
+Prirodnojezyčna normalizacija jest podredžena matematičnoj identitetě. Zaštićene granice obimajut matem-
+atičny režim, imena komand, opcije komand, oznaky, odkazy, ključe citat, puti, komentare i dokazano
+izvornojezyčne argumenty. Za vsaky latinni/kiriličny par odstranjenje Unicode-bukv i kombinovanyh
+znakov dava tu samu ne-bukvenu struju. Taka prověrka ohranjaje zagrady, kontrolne slova, operatory, čisla,
+poravnateljne znaky i matematične symbole.
+   Ranějši neuspěh pokazuje, začto jezyčny skener ne dostaje. Projektor v5 je pogrěšno čital TeX-jedinicu
+24em kako vidimo slovo i stvoril kiriličnu jedinicu, ktora ne jest zakonny TeX. Projektor v6 je zato dobil
+eksplicitnu gramatiku numeričnyh razměrov, a v7 ju naslědžuje i ponovno prověrjaje. Ohranjeno jest 447
+raněje izloženih pojavjenj: 219 em i 228 pt; kiriličny ostatok razměrne jedinice jest nula. Neuspěh ostavaje
+v dokazah, ibo “čisty” leksičny rezultat ne dokazuje izvršivu pravilnost iztočnogo programa.
+
+
+
+
+                                                      4
+NOETHER-ISV-v020 metodologija / methods                                            Medžuslovjansky / Interslavic
+
+
+8 Determinističny izvod v7
+V7 jest čista funkcija četyrěh zamrznutyh latinnyh fajlov, pregledanogo manifesta rolij i pinovanyh zavis-
+nostij. On:
+ 1. autentifikuje razměr i SHA-256 vsakoj latiničnoj jedinice;
+ 2. prověrjaje točnu topologiju iztočnikov i manifesta;
+ 3. razděljuje TeX na vidime i zaštićene role;
+ 4. sjedinjuje pregledane granice imen, citat, rimskyh označenj i razměrov;
+ 5. projiciraje ostale vidime riječi zamrznutym medžuslovjanskim transliteratorom;
+ 6. nezavisno rekonstruuje izhod s tragom i zahtěvaje bajtnu identitetu dvoh izvodov;
+ 7. dokazuje vsaky iz 372 efektov i vsaku izměnjenu liniju;
+ 8. piše izhody transakcijno samo poslě vseh prověrok.
+    Hostilny testovi naměrno měnjajut iztočny bajt, izostavljajut jedinicu topologije, prědlagajut nebezpečny
+cilj izhoda, kvarjajut pin manifesta i kvarjajut pin starogo izhoda. Vse pet slučajev bylo odklonjeno prě
+pisanjem. Dva nezavisna izračuna dajut bajt-po-bajtu ravne četyri kirilične izhody. Test i projektor sami sut
+hašovani, tako že “isti postup” znači identičny program, ne samo podobno opisanje.
+
+
+9 Sgrađanje i mnogoslojna kontrola
+Vse XeLaTeX-operacije tečut serijno, s dvoma prohodami po vsakom dokumentu, s izključenym shell escape
+i fiksovanym SOURCE_DATE_EPOCH. Osm redaktabilnyh komponentov davajut dva polna čitateljnika.
+
+                            Table 3: Prověrjene komponentne čitateljniki v020.
+Artefakt                                     Stranice          Bajty    SHA-256
+Latiničny čitateljnik                            565        3 000 522   B27278EA138724ED258CFE5089CABA70A7
+                                                                        9C640D0B71CCD9836CA3C8CB8BCD13
+Kiriličny čitateljnik                            588        3 300 221   4AE9847672AB53F1D5B54468ED9B202D45
+                                                                        EF5969C7A34B1CE380B28C6516DB29
+
+
+    Relizna kontrola imaje 38 uspěšnyh prověrok i nulu pogrěšek. Ona obimaje točno povratno čitanje iz-
+točnikov, TeX i ne-bukvenu strukturu, fatalne žurnale, straničnu topologiju, fonty, pdftotext, popis pisem
+i identitet teksta medžu komponentami i kumulativnymi čitateljnikami. Vezany javny čitateljnik mora imati
+6 uvodnyh/razdělnyh stranic plus 565 latiničnyh i 588 kiriličnyh stranic, vkupno 1 159. Njegov graditelj
+odklanjaje drugu topologiju.
+    Strukturny test ne dokazuje krasivy izgled. Zato finalna relizna kontrola takože zahtěvaje serijno ren-
+derovanje i vizualny pregled novogo uvoda, vsakej izměnjene stranice i susědnyh kontrolnyh stranic, plus
+razdělnyh granic dvoh pisem. Tekstny izteg ne može sam odkryti prěkryvanje, obrezanje ili nečitljivu glifnu
+zaměnu.
+
+
+10 Publikacija, dostup i ohranjanje
+Javna površina Zenodo imaje četyri produkta:
+ 1. 00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf;
+ 2. 01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip;
+ 3. 02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip;
+ 4. 03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt.
+   Prvy fajl jest ljudsky čitateljnik. Iztočny arhiv sodrži latinni kanon, izvedene kirilične izvorniky, projek-
+tor, testy, graditelje, metadane i členske manifesty. Dokazny arhiv sodrži redakcijny žurnal, do ktorogo se
+može samo dodavati, bočne zapisy rěšenj, polny manifest rolij, prověrčne dokumenty, tuta metodologična
+
+                                                        5
+NOETHER-ISV-v020 metodologija / methods                                          Medžuslovjansky / Interslavic
+
+
+statja s LaTeX-iztočnikom, QA i zadržane dokazy neuspěhov. Operacijske predpomněti, tajne ključe, surove
+razgovorne zapisy i nevezane rabotne oblasti ne sut javny dokazny produkt.
+   Stabilny koncept izdanja jest 10.5281/zenodo.21926382; verzijny DOI v020 jest 10.5281/zen-
+odo.22058530; javny repozitorij jest KokunoYumeto/emmy-noether-isv. Opis v repozitoriju i metadane
+Zenodo stavjajut najprvo polny medžuslovjansky uvod, potom polnu anglijsku paralelnu verziju. Pub-
+likacija završaje se anonimnym povratnym čitanjem vsakego javnogo fajla i sravnjenjem bajtov i SHA-256
+s lokalnym zamrznutym manifestom.
+
+
+11 Ograničenja, ljudsky pregled i odgovorne tvrdženja
+Izdanje može s uvěrjenostju tvrdžiti točny vhodny vektor, povtorimu redakcijnu historiju, polny pregled
+projektorskih rolij, determinističny kiriličny izvod, ograničenu izhodnu razliku, sgrađanja bez pogrěšek i
+prověrjenu PDF-strukturu. Ono ne tvrdži:
+  • rodno-govoriteljsku certifikaciju ili soglasje medžu slovjanskymi obćinami;
+  • potvrđenje medžuslovjanskoj obćiny ili oficialnogo standarda;
+  • nezavisnu naučnu recenziju;
+  • novu kritičnu redakciju německyh originalov;
+  • že računalna prověrka dokazuje idiomatičnost ili optimalny leksičny izbor;
+  • že kirilica jest nezavisny dokaz pravilnosti prěvoda.
+   Člověčsky vlastnik projekta je oprědělil obseg, kustodiju, dostup i publikacijne cěljy. Dostupny dokaz
+ne opravdava tvrdženje, že člověk ili rodny govoritelj je liniju-po-liniji recenzoval cěly jezyčny korpus.
+Slova “polny pregled” v v020 zato označajut završenu pojavjenjsko-rolnu klasifikaciju, izvedenu mašinno-
+pomaganym trudom i prověrjenu determinističnymi kontrolami. Ona ne značet ljudsku jezyčnu certifikaciju.
+   Ta ograničenja ne sut razlog skryti dělo. Javny izvorniky, lokatory i kontrolne sumy prětvarjajut neso-
+glasje v izvršivu popravku: recenzent može imenovati město, prědložiti lučše čitanje, citovati protivny dokaz
+i napraviti naslědno izdanje, ktore dodava popravku bez izbrisanja prědhodnogo stanja.
+
+
+12 Povtorimy protokol za druge jezyky i transkripcije
+Najmenši prěnosimy protokol jest:
+ 1. oprěděliti jedin iztočny avtoritet i jedin ciljevy jezyčny kanon;
+ 2. pridati eksplicitnu rolu vsakoj izvedenoj azbukě, transkripciji ili formatu;
+ 3. zamrznuti iztočne jedinice s bajtami i hašami prěd redakcijeju;
+ 4. zapisovati materialne rěšenja v žurnal, do ktorogo se može samo dodavati, zajedno s odklonjenymi al-
+    ternativami;
+ 5. razděliti vidimy jezyk od zaštićenoj sintakse, matematike i identitetov;
+ 6. pregledati kandidaty po pojavjenju i vezati klasifikacije k stabilnym lokatoram;
+ 7. prověriti smysl, jezyk, matematiku, sintaksu, sgrađanje, izteg, fonty i renderovanje kako različne vorota;
+ 8. publikovati ljudsky čitateljnik, redaktabilne izvorniky, dokazy i vrhnji haš-manifest;
+ 9. izložiti mašinno čitljiv indeks kanona i deterministične vhody;
+10. javno priznati odsutny pregled i ostalu neuvěrjenost;
+11. izdavati neměnljive verzije i anonimno prověriti javne bajty.
+   Glavna lekcija jest prosta: AI-stvorjeno jezyčno izdanje stavaje naučno uporabljivo togda, kogda njegovi
+izbori ne ostavajut v razgovoru modela. Kanon, role, dokazy, neuspěhi, komandy sgrađanja i javne identitety
+morajut živěti nezavisno od sesije, ktora jih je stvorila.
+
+
+
+
+                                                      6
+NOETHER-ISV-v020 metodologija / methods                                           Medžuslovjansky / Interslavic
+
+
+Citovanje, dostupnost i ponovno uporabjenje
+Prědlagano citovanje: Machine-assisted Interslavic editorial project. Od jezyčnogo kanona do povtorimoj
+publikacije: metodologija mašinno-pomaganoj medžuslovjanskoj redakcije / From a language canon to
+a reproducible publication: machine-assisted Interslavic editing of Emmy Noether’s mathematical works.
+NOETHER-ISV-v020. 10.5281/zenodo.22058530 (2026).
+   Tuta metodologična statja i druge projektom stvorjene redakcijne materialy sut ponudžene pod CC0 v
+měrě, v ktorej prava obstajajut. Iztočne děla i materialy tretjih stran zadrživajut svoj vlastny pravny status.
+LaTeX-iztočnik jest vključen, da tekst može byti popravljany, razširjany ili ponovno publikovany s točnym
+avtorstvom, verzijnoju identitetoju i odkrytym rodoslovjem dokazov.
+
+
+
+
+                                                      7
+NOETHER-ISV-v020 metodologija / methods                                             Medžuslovjansky / Interslavic
+
+
+
+Part II - Complete English counterpart
+13 Object, purpose, and readership
+The object is one complete Interslavic language edition of a bounded Emmy Noether corpus: numbered
+Papers 1–43, lecture work 44, Paper 45, and the bibliography. It is not an anthology of samples and not
+a collection of unrelated transcriptions. The public reader provides two writing surfaces of one language
+object:
+  • isv‐Latn is the canonical editorial language text;
+  • isv‐Cyrl is a deterministic projection of that text, not an independent translation witness.
+   This distinction is methodologically important. A derived script cannot itself confirm the translation from
+which it was created. Linguistic corrections enter only the Latin canon; Cyrillic must be regenerated, tested,
+built, and visually reviewed after the input bytes are frozen. V020 is an especially clear case: the Latin text
+remains byte-identical to v019, but the derived Cyrillic is corrected because the role review found wrong
+boundaries among language text, names, quotations, and Roman labels.
+   The practical heuristic for linguistic progress is not “how Slavic-looking is the prose?” It is the conjunction
+of four questions:
+ 1. Can speakers of different Slavic languages plausibly parse the sentence without English?
+ 2. Is the selected form supported by the declared Interslavic lexicon or grammar, or by a clearly recorded
+    project-house rule?
+ 3. Does the form preserve the exact mathematical referent, quantification, and argument relation of the
+    German source?
+ 4. Is every exception, identity, quotation, or ambiguity represented by a reproducible role rather than silently
+    omitted?
+   The edition is therefore best understood as a corrigible scholarly working edition: public, inspectable,
+hash-bound, and open to improvement, but not represented as native-speaker-certified or as a critical edition.
+
+
+14 Authority and custody architecture
+The method separates source authority, language canon, derived script, editorial evidence, and public prod-
+ucts. No layer may silently assume the function of another.
+    The German object inherited from v019 has SHA-256 51A25101C04877AE740989E72B2AD65A7A7E65B081
+077C4A518BF1737AD5B907. This identity marks the control source against which the Latin canon was frozen;
+it is not a claim that this project published a new critical German text. The global multilingual collection
+is related by IsPartOf to 10.5281/zenodo.20412587, and the identified German object by the semantic
+relation IsTranslationOf.
+
+
+15 Machine-readable canon discovery
+Repeatability begins with discovery. A future session must not infer which of several similar files is canon-
+ical. The repository root therefore exposes CANON_INDEX.json, which declares:
+  • language and BCP 47 script tags;
+  • the four canonical Latin files and four derived Cyrillic files;
+  • exact byte counts and SHA-256 values for every controlling unit;
+  • the Latin editorial head and append-only ledger identity;
+  • the role manifest, projector, test, and validation receipt;
+  • German authority, write boundaries, and claim boundaries;
+  • deterministic build commands and public artifact names.
+
+
+                                                        8
+NOETHER-ISV-v020 metodologija / methods                                            Medžuslovjansky / Interslavic
+
+
+
+                             Table 4: Authority roles in NOETHER-ISV-v020.
+Role                      Controlling object                          Consequence
+German source author- Inherited object NOETH‐DE‐ED‐0015,              Controls source sense, structure, and
+ity                   pointer                                         mathematical comparison; the
+                      NOETH‐DE‐AUTH‐v052‐20260815                     Interslavic lane does not edit it.
+Latin language canon Four source_latin/*.tex files at                 The only surface for linguistic edits.
+                      head ISV019‐EDIT‐0171                           V020 changes zero of its bytes.
+Role manifest         ISV020‐REVIEWED‐PROJECTION‐ROLE‐M               Binds 4,560 reviewed records, 8
+                          ANIFEST.json                                additional boundaries, and zero
+                                                                      unresolved classifications to exact
+                                                                      source locators.
+Cyrillic surface          Projector v7 over the exact Latin vector    Reproducibly generated output; cannot
+                          and manifest                                overrule the Latin canon or
+                                                                      independently validate the translation.
+Release products          Two readers, linked reader, two ZIP         Human-facing dissemination; products
+                          archives, and SHA-256 manifest              cannot redefine the canon that
+                                                                      produced them.
+
+
+    The index is declarative, not self-authenticating. It tells an agent what the objects are; executable checks
+prove whether the declared identities still hold. This separation rejects the circular rule “the newest-looking
+file is the canon” and provides a base to which another transcription, translation, or script projection can
+safely add a new layer.
+
+
+16 What AI does and what it cannot decide alone
+The project uses AI as an editorial instrument, not as source authority. Machine work includes sentence-level
+comparison, candidate inventory construction, occurrence classification, formulation of alternatives, gener-
+ation of structural tests, and production of public documentation. Deterministic programs then authenticate
+inputs, apply only frozen decisions, and reject unintended changes.
+   The method follows this cycle:
+ 1. freeze source and target byte vectors;
+ 2. locate material linguistic or role candidates without automatic global replacement;
+ 3. review every occurrence in sentence, bibliography, mathematics, and TeX context;
+ 4. record the chosen role, evidence, rejected alternatives, uncertainty, and consequences;
+ 5. produce a manifest or editorial decision bound to an exact locator and hash;
+ 6. derive output with a pure program and prove the allowed delta;
+ 7. build, extract text, inspect fonts, navigation, structure, and rendered pages;
+ 8. publish sources, evidence, and hashes with the reader, then anonymously read the public bytes back.
+   An AI proposal does not become canonical because it sounds plausible. It becomes admissible only when
+localized, supported by declared evidence, bounded in scope, and reproducibly verified. Where evidence is
+insufficient, the proper output is a narrow claim or a recorded open question, not invented certification.
+
+
+17 Complete role review and the v020 correction
+V019 already had a functional Cyrillic projection, but its inherited inventory originated in candidate scanners
+that can mistake a foreign-looking token, styled text, or a single letter for material that should automatically
+be preserved. V020 therefore reviewed all 4,560 records occurrence by occurrence, not only obvious defects.
+   In addition to the 364 corrected classifications, the review added 8 missing spans for complete uninflected
+
+
+                                                       9
+NOETHER-ISV-v020 metodologija / methods                                           Medžuslovjansky / Interslavic
+
+
+
+                                     Table 5: Role-classification review.
+               Category                        Records reviewed Classifications corrected
+               Styled surfaces                                883                           1
+               Name candidates                                616                           0
+               Foreign-lexicon occurrences                  2,371                         270
+               Visible one-letter tokens                      690                          93
+               Total                                        4,560                         364
+
+
+identities. There are therefore 372 bound effects. Projector v7 checks each effect independently: 346 ranges
+must preserve Latin material and 26 must project it. Zero effects remain unverified.
+   The change licence is not a free list of whole files. The manifest computes 309 lines on which a reviewed
+effect could lawfully change output. The actual delta contains 125 lines: 0 in work 44, 6 in paper 45, 115 in
+papers 1–43, and 4 in the bibliography. Zero lines change outside the licensed set. The four Latin sources
+have zero changed bytes.
+   The status “zero ambiguity” must be read operationally: every inventory record has one completed pro-
+jection role and an exact locator. It does not assert that natural language has no polysemy, that every speaker
+would choose the same form, or that a native speaker reviewed the complete corpus.
+
+
+18 Append-only linguistic normalization of the Latin canon
+The Latin head inherits 171 material decisions from v019. A decision is admissible only when it identifies
+a predecessor, exact target locus, proposed successor, relevant authority, rejected alternatives, motivation,
+uncertainty, and post-application validation. An applicator authenticates every input and rejects ambiguous
+targets. The ledger is append-only: a failed or superseded approach remains readable with its successor
+instead of disappearing.
+   The main linguistic classes are:
+  • False friends and semantic partitions. Resemblance to Russian, Ukrainian, Polish, Czech, or South
+    Slavic forms is insufficient. Existence, essence, composition, containment, assumption, consequence,
+    and correspondence are adjudicated by sentence and mathematical sense.
+  • Morphology and sentence role. Agreement, oblique cases, genitive plurals, participles, verb endings,
+    and ordinal forms are classified before correction. Global suffix replacement is rejected because formu-
+    las, names, and quotations can imitate an ordinary morpheme.
+  • Connectives and proof logic. Causal, inferential, conditional, equivalence, contrastive, and apodosis
+    functions are compared with the relation between source clauses. Word frequency must not reverse
+    implication or weaken a quantifier.
+  • Names, titles, and quotations. A complete uninflected identity and an original-language bibliographic
+    surface are preserved. An integrated or inflected form is projected when it functions as Interslavic mor-
+    phology.
+   V020 does not reopen those Latin decisions. It corrects only the machine interpretation of which portions
+of the frozen text are visible Interslavic and which are protected identity or structure.
+
+
+19 Mathematical and TeX fidelity
+Natural-language normalization is subordinate to mathematical identity. Protected boundaries include math
+mode, command names, command options, labels, references, citation keys, paths, comments, and demon-
+strated original-language arguments. For every Latin/Cyrillic pair, removing Unicode letters and combining
+marks yields the same non-letter stream. This check preserves braces, control words, operators, numbers,
+alignment marks, and mathematical symbols.
+
+                                                      10
+NOETHER-ISV-v020 metodologija / methods                                           Medžuslovjansky / Interslavic
+
+
+   An earlier failure demonstrates why a linguistic scanner is insufficient. Projector v5 misread the TeX unit
+24em as a visible word and created a Cyrillic unit that is not legal TeX. V6 therefore acquired an explicit
+grammar for numeric dimensions, which v7 inherits and rechecks. It preserves 447 previously exposed
+occurrences: 219 em and 228 pt; Cyrillic dimension-unit residue is zero. The failure remains in the evidence
+because a clean lexical result does not prove that the source program is executable.
+
+
+20 Deterministic v7 derivation
+V7 is a pure function of the four frozen Latin files, the reviewed role manifest, and pinned dependencies. It:
+ 1. authenticates every Latin unit by byte count and SHA-256;
+ 2. verifies exact source and manifest topology;
+ 3. parses TeX into visible and protected roles;
+ 4. merges reviewed boundaries for names, quotations, Roman labels, and dimensions;
+ 5. projects every remaining visible word with the frozen Interslavic transliterator;
+ 6. independently reconstructs the output with a trace and requires byte identity between both derivations;
+ 7. proves every one of the 372 effects and every changed line;
+ 8. writes output transactionally only after every gate passes.
+   Hostile tests deliberately mutate a source byte, omit a topology member, propose an unsafe output target,
+corrupt the manifest pin, and corrupt an old-output pin. All five cases are rejected before writing. Two inde-
+pendent calculations return byte-identical sets of four Cyrillic outputs. The test and projector are themselves
+hashed, so “the same procedure” means identical code, not merely a similar description.
+
+
+21 Build and multilayer validation
+All XeLaTeX operations run serially, with two passes per document, shell escape disabled, and a fixed
+SOURCE_DATE_EPOCH. Eight editable components produce two complete readers.
+
+                                 Table 6: Verified v020 component readers.
+Artifact                                     Pages         Bytes   SHA-256
+Latin reader                                   565    3,000,522    B27278EA138724ED258CFE5089CABA70A79C
+                                                                   640D0B71CCD9836CA3C8CB8BCD13
+Cyrillic reader                                588    3,300,221    4AE9847672AB53F1D5B54468ED9B202D45EF
+                                                                   5969C7A34B1CE380B28C6516DB29
+
+
+   Release QA reports 38 passing checks and zero errors. It covers exact source readback, TeX and non-letter
+structure, fatal logs, page topology, fonts, pdftotext, script census, and text identity between component
+and cumulative readers. The linked public reader must contain 6 front/divider pages plus 565 Latin and 588
+Cyrillic pages, for a total of 1,159. Its builder rejects any other topology.
+   A structural test does not prove good appearance. The final release gate therefore also requires serial
+rendering and visual review of the new front matter, every changed page and adjacent control pages, plus the
+boundaries between scripts. Text extraction alone cannot reveal overlap, clipping, or an unreadable glyph
+substitution.
+
+
+22 Publication, access, and preservation
+The public Zenodo surface contains four products:
+ 1. 00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf;
+ 2. 01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip;
+
+
+                                                      11
+NOETHER-ISV-v020 metodologija / methods                                            Medžuslovjansky / Interslavic
+
+
+ 3. 02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip;
+ 4. 03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt.
+   The first file is the human reader. The source archive contains the Latin canon, derived Cyrillic sources,
+projector, tests, builders, metadata, and member manifests. The evidence archive contains the append-only
+editorial ledger, decision sidecars, complete role manifest, validation receipts, this methods paper and its La-
+TeX source, QA, retained adverse evidence, and its own member manifest. Operational caches, credentials,
+raw conversation records, and unrelated workspaces are not public evidence products.
+   The stable edition concept is 10.5281/zenodo.21926382; the v020 version DOI is 10.5281/zen-
+odo.22058530; the public repository is KokunoYumeto/emmy-noether-isv. The repository introduction
+and Zenodo metadata place a complete Interslavic presentation before a complete English counterpart.
+Publication concludes with anonymous readback of every public file and comparison of its bytes and
+SHA-256 with the locally frozen manifest.
+
+
+23 Limitations, human review, and responsible claims
+The edition can make strong claims about an exact input vector, replayable editorial history, complete
+projector-role review, deterministic Cyrillic derivation, bounded output delta, clean builds, and verified PDF
+structure. It does not claim:
+  • native-speaker certification or consensus among Slavic communities;
+  • endorsement by the Interslavic community or an official standard;
+  • independent scholarly peer review;
+  • a new critical edition of the German originals;
+  • that computational validation proves idiomaticity or an optimal lexical choice;
+  • that Cyrillic is independent evidence for the translation.
+   A human project owner set scope, custody, access, and publication goals. The available evidence does not
+justify claiming that a human or native speaker reviewed the entire language corpus line by line. “Complete
+review” in v020 therefore denotes completed occurrence-level role classification performed with machine
+assistance and verified by deterministic controls. It does not denote human linguistic certification.
+   These limitations are not reasons to hide the work. Public sources, locators, and hashes turn disagreement
+into an executable correction: a reviewer can identify a locus, propose a better reading, cite contrary evidence,
+and produce a monotonic successor without erasing the prior state.
+
+
+24 Reusable protocol for other languages and transcriptions
+The minimum transferable protocol is:
+ 1. define one source authority and one target-language canon;
+ 2. assign an explicit role to every derived script, transcription, or format;
+ 3. freeze source units with byte counts and hashes before editing;
+ 4. record material decisions append-only with rejected alternatives;
+ 5. separate visible language from protected syntax, mathematics, and identities;
+ 6. review candidates occurrence by occurrence and bind classifications to stable locators;
+ 7. validate meaning, language, mathematics, syntax, builds, extraction, fonts, and rendering as distinct
+    gates;
+ 8. publish a human reader, editable sources, evidence, and a top-level hash manifest;
+ 9. expose a machine-readable canon index and deterministic entry points;
+10. disclose absent review and remaining uncertainty;
+11. issue immutable versions and anonymously verify public bytes.
+   The central lesson is simple: an AI-produced language edition becomes scholarly usable when its choices
+are not trapped in a model conversation. The canon, roles, evidence, failures, build commands, and public
+identities must survive independently of the session that created them.
+
+                                                       12
+NOETHER-ISV-v020 metodologija / methods                                         Medžuslovjansky / Interslavic
+
+
+Citation, availability, and reuse
+Suggested citation: Machine-assisted Interslavic editorial project. Od jezyčnogo kanona do povtorimoj
+publikacije: metodologija mašinno-pomaganoj medžuslovjanskoj redakcije / From a language canon to
+a reproducible publication: machine-assisted Interslavic editing of Emmy Noether’s mathematical works.
+NOETHER-ISV-v020. 10.5281/zenodo.22058530 (2026).
+   This methods paper and other project-created editorial material are offered under CC0 to the extent that
+rights exist. Source works and third-party materials retain their own status. The LaTeX source is included
+so that the paper can be corrected, extended, or republished with accurate attribution, version identity, and
+an inspectable evidence lineage.
+
+
+
+
+                                                    13
+

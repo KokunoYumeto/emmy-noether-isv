@@ -1,7 +1,7 @@
 {
   "schema": "noether-interslavic-release-scope/1.0",
-  "release_id": "NOETHER-ISV-v019",
-  "version": "2026.08.22-v019",
+  "release_id": "NOETHER-ISV-v020",
+  "version": "2026.08.22-v020",
   "publication_date": "2026-08-22",
   "language": "isv",
   "scripts": [
@@ -25,6 +25,16 @@
     "latin_pages": 565,
     "cyrillic_pages": 588,
     "front_and_divider_pages": 6
+  },
+  "v020_correction": {
+    "latin_bytes_changed": 0,
+    "inherited_role_records_reviewed": 4560,
+    "classification_defects_corrected": 364,
+    "missing_identity_boundaries_added": 8,
+    "verified_effects": 372,
+    "changed_lines": 125,
+    "licensed_lines": 309,
+    "unlicensed_changed_lines": 0
   },
   "review_status": "model/agent-produced and machine-assisted; no independent native-speaker, community, official-standard, or scholarly-peer-review certification claimed",
   "unresolved_release_blockers": 0,

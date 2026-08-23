@@ -1,0 +1,73 @@
+{
+  "schema": "noether-isv-role-category-review/1.0",
+  "release_id": "NOETHER-ISV-v020",
+  "category": "unprotected_style_payloads",
+  "status": "FULL_INDEPENDENT_REVIEW_COMPLETE",
+  "review_agent": "/root/isv020_style_manifest",
+  "review_mode": "bounded read-only exact-source review",
+  "records_reviewed": 883,
+  "defects": 1,
+  "ambiguities": 0,
+  "predecessor_subinventory": {
+    "canonical_bytes": 784111,
+    "sha256": "4517933328DD9F5CE71558565E89B6390B13A7E7DE421FC8DC64DCB8627C600C"
+  },
+  "reviewed_subinventory_projection": {
+    "canonical_bytes": 784117,
+    "sha256": "B1E84841EBE6406D408129438C34721D38750B5FCE2A90381ECEC95898655E37"
+  },
+  "disposition_counts": {
+    "before": {
+      "KEEP_PROJECTABLE_INTERSLAVIC_STYLE_PAYLOAD": 731,
+      "PROTECT_COMPLETE_ORIGINAL_LANGUAGE_STYLE_PAYLOAD": 152
+    },
+    "after": {
+      "KEEP_PROJECTABLE_INTERSLAVIC_STYLE_PAYLOAD": 730,
+      "PROTECT_COMPLETE_ORIGINAL_LANGUAGE_STYLE_PAYLOAD": 153
+    }
+  },
+  "corrections": {
+    "path": "ISV020-STYLE-CORRECTIONS.json",
+    "bytes": 134,
+    "sha256": "CF778DD7CB2F5219A63B2ED303941C42474AA066828C88384AF9001B3C83F1F3"
+  },
+  "defect_evidence": {
+    "category_index0": 152,
+    "file": "45-isv.tex",
+    "line": 253,
+    "column": 24,
+    "byte_offset": 11240,
+    "scalar_span": [10977, 10984],
+    "surface": "in inf.",
+    "surface_sha256": "05A59BDB96DE1D8EF4D2A3C1A8D2CDE3E0E0EBD10AC28652F908A11386A49E9E",
+    "line_sha256": "210497B30E07D7B1D02828B1AEF2EDF0DFC569FD3B283DE9E32F29BA210B967D",
+    "old_disposition": "KEEP_PROJECTABLE_INTERSLAVIC_STYLE_PAYLOAD",
+    "new_disposition": "PROTECT_COMPLETE_ORIGINAL_LANGUAGE_STYLE_PAYLOAD",
+    "reason": "Complete italicized Latin abbreviation in infinitum, without Interslavic morphology, syntactically bracketed by Interslavic prose.",
+    "visible_v019_effect": "in inf. was incorrectly rendered as ин инф."
+  },
+  "source_pins": [
+    {"file": "44-book-isv.tex", "bytes": 168422, "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"},
+    {"file": "45-isv.tex", "bytes": 26053, "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"},
+    {"file": "base-papers1-43-isv.tex", "bytes": 1894721, "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"},
+    {"file": "bib-isv.tex", "bytes": 10019, "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"}
+  ],
+  "duplicate_and_overlap_audit": {
+    "duplicate_locator_keys": 0,
+    "duplicate_scalar_span_keys": 0,
+    "category_internal_span_overlaps": 0,
+    "cross_category_broader_containing_overlaps": 0,
+    "cross_category_partial_overlaps": 0,
+    "cross_category_exact_span_overlaps": 26,
+    "narrower_protection_edges_inside_styles": 311,
+    "defect_already_covered_by_other_protection": false
+  },
+  "parent_verification": {
+    "inventory_record_exact_match": true,
+    "source_line_exact_match": true,
+    "v019_cyrillic_output_effect_confirmed": true,
+    "correction_file_hash_recomputed": true,
+    "accepted": true
+  },
+  "claim_boundary": "Role-classification review only; not native-speaker, community, official-standard, or scholarly-peer-review certification."
+}

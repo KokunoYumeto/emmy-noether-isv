@@ -1,0 +1,712 @@
+{
+  "schema": "noether-interslavic-linked-reader-visual-assets/1.0",
+  "release_id": "NOETHER-ISV-v020",
+  "inputs": {
+    "linked_reader": {
+      "path": "release_v020/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf",
+      "bytes": 6885841,
+      "sha256": "7DCB4C852BF3CCE5928921E13F73FA34E80EA4FEB2A82F967FEE29657150AE20",
+      "pages": 1159
+    },
+    "rendered_delta": {
+      "path": "release_v020/evidence/cyrillic-rendered-page-delta-v019-to-v020.json",
+      "bytes": 65031,
+      "sha256": "51858018D2BF796F0620B216BF6C932C9E1D839402A6031EC12334E57B477A55"
+    }
+  },
+  "coverage": {
+    "changed_pages": [
+      572,
+      573,
+      574,
+      576,
+      577,
+      578,
+      585,
+      587,
+      589,
+      602,
+      607,
+      621,
+      622,
+      627,
+      628,
+      658,
+      662,
+      666,
+      681,
+      682,
+      684,
+      693,
+      694,
+      701,
+      702,
+      703,
+      704,
+      706,
+      707,
+      710,
+      718,
+      741,
+      754,
+      764,
+      767,
+      769,
+      778,
+      779,
+      792,
+      812,
+      817,
+      819,
+      823,
+      828,
+      829,
+      831,
+      834,
+      851,
+      852,
+      853,
+      876,
+      892,
+      898,
+      900,
+      907,
+      920,
+      921,
+      922,
+      924,
+      925,
+      930,
+      990,
+      992,
+      994,
+      1003,
+      1004,
+      1006,
+      1012,
+      1013,
+      1018,
+      1043,
+      1047,
+      1049,
+      1052,
+      1053,
+      1054,
+      1055,
+      1066,
+      1075,
+      1097,
+      1148,
+      1150,
+      1151,
+      1154,
+      1158,
+      1159
+    ],
+    "changed_page_count": 86,
+    "adjacent_unchanged_control_pages": [
+      575,
+      579,
+      584,
+      586,
+      588,
+      590,
+      601,
+      603,
+      606,
+      608,
+      620,
+      623,
+      626,
+      629,
+      657,
+      659,
+      661,
+      663,
+      665,
+      667,
+      680,
+      683,
+      685,
+      692,
+      695,
+      700,
+      705,
+      708,
+      709,
+      711,
+      717,
+      719,
+      740,
+      742,
+      753,
+      755,
+      763,
+      765,
+      766,
+      768,
+      770,
+      777,
+      780,
+      791,
+      793,
+      811,
+      813,
+      816,
+      818,
+      820,
+      822,
+      824,
+      827,
+      830,
+      832,
+      833,
+      835,
+      850,
+      854,
+      875,
+      877,
+      891,
+      893,
+      897,
+      899,
+      901,
+      906,
+      908,
+      919,
+      923,
+      926,
+      929,
+      931,
+      989,
+      991,
+      993,
+      995,
+      1002,
+      1005,
+      1007,
+      1011,
+      1014,
+      1017,
+      1019,
+      1042,
+      1044,
+      1046,
+      1048,
+      1050,
+      1051,
+      1056,
+      1065,
+      1067,
+      1074,
+      1076,
+      1096,
+      1098,
+      1147,
+      1149,
+      1152,
+      1153,
+      1155,
+      1157
+    ],
+    "adjacent_unchanged_control_page_count": 103,
+    "front_and_boundaries": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      570,
+      571,
+      572,
+      1159
+    ]
+  },
+  "render": {
+    "engine": "PyMuPDF 1.27.2.3",
+    "matrix": [
+      1.25,
+      1.25
+    ],
+    "colorspace": "RGB",
+    "contact_sheet_format": "PNG"
+  },
+  "contact_sheets": [
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/front-and-boundaries.png",
+      "bytes": 1225820,
+      "sha256": "AF98294640FB43FB15EF9BA24273992AA390CC0647D378219431F7D5F7721809",
+      "represented_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        570,
+        571,
+        572,
+        1159
+      ],
+      "dimensions": [
+        1156,
+        4246
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-01.png",
+      "bytes": 1032225,
+      "sha256": "41E5F6993BFBA6E74028CC5F1E6DF94889E3F720165E9797813413DAF3D5C38F",
+      "represented_pages": [
+        572,
+        573,
+        574,
+        576,
+        577,
+        578
+      ],
+      "dimensions": [
+        1548,
+        1562
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-02.png",
+      "bytes": 653226,
+      "sha256": "1CC0315EB9F1DB6D91D4DB5041270E0D544646F54F22EA6F18322B32C2FF5350",
+      "represented_pages": [
+        585,
+        587,
+        589,
+        602,
+        607,
+        621
+      ],
+      "dimensions": [
+        1548,
+        1562
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-03.png",
+      "bytes": 848803,
+      "sha256": "27E85DF8860442ADBA6CCDAC46A05F81704655B5116AB544A98A5A794A17C80E",
+      "represented_pages": [
+        622,
+        627,
+        628,
+        658,
+        662,
+        666
+      ],
+      "dimensions": [
+        1548,
+        1562
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-04.png",
+      "bytes": 1142251,
+      "sha256": "D3ACE6922B95A8251B934CE835B8F58DB7D8130B20D88749DAD40E98161AB8EA",
+      "represented_pages": [
+        681,
+        682,
+        684,
+        693,
+        694,
+        701
+      ],
+      "dimensions": [
+        1548,
+        1562
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-05.png",
+      "bytes": 1230138,
+      "sha256": "D8B1CAE6C5A54802326CC0190827463165CADBB66B7E42B2636CB7D24E16992A",
+      "represented_pages": [
+        702,
+        703,
+        704,
+        706,
+        707,
+        710
+      ],
+      "dimensions": [
+        1548,
+        1562
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-06.png",
+      "bytes": 1214179,
+      "sha256": "B50DB3CA90AA3DE8A4A5AA776785EE768041691CECFDB000BB92907EFA8D41C5",
+      "represented_pages": [
+        718,
+        741,
+        754,
+        764,
+        767,
+        769
+      ],
+      "dimensions": [
+        1548,
+        1562
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-07.png",
+      "bytes": 1271397,
+      "sha256": "17C3920057E8334A0C270B7D303D1F387E6121B3D114B5BEFCC8281E80998CCF",
+      "represented_pages": [
+        778,
+        779,
+        792,
+        812,
+        817,
+        819
+      ],
+      "dimensions": [
+        1548,
+        1562
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-08.png",
+      "bytes": 1152344,
+      "sha256": "6797FC6F678A42FFC6C6941A53400E737EC446A6A0FDA5D9670E9B3E75203195",
+      "represented_pages": [
+        823,
+        828,
+        829,
+        831,
+        834,
+        851
+      ],
+      "dimensions": [
+        1548,
+        1562
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-09.png",
+      "bytes": 1153171,
+      "sha256": "1B21A21F8EDAC3C8CCDC152A8E5E97DFDBFADF8B179D5DC179AF4CD66C076D46",
+      "represented_pages": [
+        852,
+        853,
+        876,
+        892,
+        898,
+        900
+      ],
+      "dimensions": [
+        1548,
+        1562
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-10.png",
+      "bytes": 966520,
+      "sha256": "44D6ECD0229AD75BA9D64FA6B9F7D00C42C349AAFB8983F0D424882D58FFCC9F",
+      "represented_pages": [
+        907,
+        920,
+        921,
+        922,
+        924,
+        925
+      ],
+      "dimensions": [
+        1548,
+        1562
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-11.png",
+      "bytes": 1025668,
+      "sha256": "02DF38F972C0BCC588959B8C11F9263B88ED6E25461A10B3B44862DCD4717C3B",
+      "represented_pages": [
+        930,
+        990,
+        992,
+        994,
+        1003,
+        1004
+      ],
+      "dimensions": [
+        1548,
+        1562
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-12.png",
+      "bytes": 941252,
+      "sha256": "7B0A9078DB8F7FF11564C2BF93F36F8818CE466FA10813C4BAF0451078CE5EC7",
+      "represented_pages": [
+        1006,
+        1012,
+        1013,
+        1018,
+        1043,
+        1047
+      ],
+      "dimensions": [
+        1548,
+        1562
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-13.png",
+      "bytes": 1182074,
+      "sha256": "C07FEDCE0D7DFDF58E7AD1B183AC24C161BDBCA5E40B03F20077D7F26A0C340D",
+      "represented_pages": [
+        1049,
+        1052,
+        1053,
+        1054,
+        1055,
+        1066
+      ],
+      "dimensions": [
+        1548,
+        1562
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-14.png",
+      "bytes": 1008619,
+      "sha256": "569EC9063C29A049796F79084D8B958FA014F3D5899ADD72B31B9B4B3C762C67",
+      "represented_pages": [
+        1075,
+        1097,
+        1148,
+        1150,
+        1151,
+        1154
+      ],
+      "dimensions": [
+        1548,
+        1562
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/changed-pages-15.png",
+      "bytes": 166396,
+      "sha256": "98AC6893054629A03749DF56B06AAE2ED8A977A82743BA02BDD463982EEF4EA1",
+      "represented_pages": [
+        1158,
+        1159
+      ],
+      "dimensions": [
+        1548,
+        809
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/adjacent-controls-01.png",
+      "bytes": 669235,
+      "sha256": "F0F4958EED087FC414DE95CCAF12A4B1BC21352DD796B729A537BE2C3557F548",
+      "represented_pages": [
+        575,
+        579,
+        584,
+        586,
+        588,
+        590,
+        601,
+        603,
+        606,
+        608,
+        620,
+        623
+      ],
+      "dimensions": [
+        1460,
+        1679
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/adjacent-controls-02.png",
+      "bytes": 624725,
+      "sha256": "42481EA4410A5535CF56315FBDEB4718F152A7F18AA8B05B1E7DBB8CF76D45F7",
+      "represented_pages": [
+        626,
+        629,
+        657,
+        659,
+        661,
+        663,
+        665,
+        667,
+        680,
+        683,
+        685,
+        692
+      ],
+      "dimensions": [
+        1460,
+        1679
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/adjacent-controls-03.png",
+      "bytes": 1031832,
+      "sha256": "BD2D993E291FB63EB9E51380D0689A286DC800CBD366D8834C257D83673DBC3F",
+      "represented_pages": [
+        695,
+        700,
+        705,
+        708,
+        709,
+        711,
+        717,
+        719,
+        740,
+        742,
+        753,
+        755
+      ],
+      "dimensions": [
+        1460,
+        1679
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/adjacent-controls-04.png",
+      "bytes": 1052572,
+      "sha256": "FDFA80F9D7C3DF704A4C0326314353256293181D50ED1A400B518E17BA2C9349",
+      "represented_pages": [
+        763,
+        765,
+        766,
+        768,
+        770,
+        777,
+        780,
+        791,
+        793,
+        811,
+        813,
+        816
+      ],
+      "dimensions": [
+        1460,
+        1679
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/adjacent-controls-05.png",
+      "bytes": 912663,
+      "sha256": "894D6D91E4BDF239590606309521F344C034EDB957E34CE1DE423BFB1B0DC422",
+      "represented_pages": [
+        818,
+        820,
+        822,
+        824,
+        827,
+        830,
+        832,
+        833,
+        835,
+        850,
+        854,
+        875
+      ],
+      "dimensions": [
+        1460,
+        1679
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/adjacent-controls-06.png",
+      "bytes": 1076737,
+      "sha256": "A1EAACA70B5A180FE2CB5CA5719162E465E6CFB3F41255EB757E24FB5C8A6FF2",
+      "represented_pages": [
+        877,
+        891,
+        893,
+        897,
+        899,
+        901,
+        906,
+        908,
+        919,
+        923,
+        926,
+        929
+      ],
+      "dimensions": [
+        1460,
+        1679
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/adjacent-controls-07.png",
+      "bytes": 885368,
+      "sha256": "A2A43D9B1125C5023BA0AB549E505A36C79479DDFFCC176877D066C1424D7562",
+      "represented_pages": [
+        931,
+        989,
+        991,
+        993,
+        995,
+        1002,
+        1005,
+        1007,
+        1011,
+        1014,
+        1017,
+        1019
+      ],
+      "dimensions": [
+        1460,
+        1679
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/adjacent-controls-08.png",
+      "bytes": 1081846,
+      "sha256": "DDA2CBD60C35B43CAA4649C164693C8B130D264D6E66AD9674C5EC742AC1DE08",
+      "represented_pages": [
+        1042,
+        1044,
+        1046,
+        1048,
+        1050,
+        1051,
+        1056,
+        1065,
+        1067,
+        1074,
+        1076,
+        1096
+      ],
+      "dimensions": [
+        1460,
+        1679
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/linked-reader/adjacent-controls-09.png",
+      "bytes": 433212,
+      "sha256": "B03F1A261661FE1A19497C459A2B9DF2B94959C38CFAC76BE8375BD2A98D5C8A",
+      "represented_pages": [
+        1098,
+        1147,
+        1149,
+        1152,
+        1153,
+        1155,
+        1157
+      ],
+      "dimensions": [
+        1460,
+        1138
+      ]
+    }
+  ],
+  "status": "ASSETS_RENDERED_AWAITING_MANUAL_REVIEW"
+}

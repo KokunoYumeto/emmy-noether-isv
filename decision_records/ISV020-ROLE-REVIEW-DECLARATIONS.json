@@ -1,0 +1,76 @@
+{
+  "schema": "noether-isv-role-review-declarations/1.0",
+  "status": "FULL_INDEPENDENT_REVIEW_COMPLETE_ZERO_AMBIGUITY",
+  "successor": "NOETHER-ISV-v020",
+  "source_policy": "unchanged v019 Latin source bytes; reviewed role policy controls only deterministic Cyrillic derivation",
+  "categories": {
+    "unprotected_style_payloads": {
+      "status": "FULL_INDEPENDENT_REVIEW_COMPLETE",
+      "records_reviewed": 883,
+      "defects": 1,
+      "ambiguities": 0,
+      "receipt": {
+        "path": "decision_records/ISV020-STYLE-REVIEW.json",
+        "bytes": 3199,
+        "sha256": "CBBA3978C8BEFC24D3F177316EA79868055C721A008D7C9B4F1C252E03D14413"
+      }
+    },
+    "unprotected_name_candidates": {
+      "status": "FULL_INDEPENDENT_REVIEW_COMPLETE",
+      "records_reviewed": 616,
+      "defects": 0,
+      "ambiguities": 0,
+      "receipt": {
+        "path": "decision_records/ISV020-NAME-REVIEW.json",
+        "bytes": 2464,
+        "sha256": "CA6AC395B9BDA107531EBCF0D15CB7D4F60E22D6C90F20405E823C20A8AF0672"
+      }
+    },
+    "unprotected_foreign_lexicon_hits": {
+      "status": "FULL_INDEPENDENT_REVIEW_COMPLETE",
+      "records_reviewed": 2371,
+      "defects": 270,
+      "ambiguities": 0,
+      "receipt": {
+        "path": "decision_records/ISV020-LEXICON-REVIEW.json",
+        "bytes": 3696,
+        "sha256": "9EBF29599A84D2009D12DF00047CB053E1092DBC03179409C69F521497146E3A"
+      },
+      "parent_adjudication": "two capitalized citation-month Jan records and five undeclined Noether identity records retain protection; all seven held alternatives are resolved"
+    },
+    "visible_one_letter_tokens": {
+      "status": "FULL_INDEPENDENT_REVIEW_COMPLETE",
+      "records_reviewed": 690,
+      "defects": 93,
+      "ambiguities": 0,
+      "receipt": {
+        "path": "decision_records/ISV020-ONE-LETTER-REVIEW-VERIFICATION.json",
+        "bytes": 1705,
+        "sha256": "0E75CC5F16CC38164423892C7AAF5EE1578006646EE14B575493415EC0BBD523"
+      }
+    }
+  },
+  "additional_protection_spans": {
+    "status": "FULL_INDEPENDENT_REVIEW_COMPLETE",
+    "records_added": 8,
+    "ambiguities": 0,
+    "receipt": {
+      "path": "decision_records/ISV020-NAME-REVIEW.json",
+      "bytes": 2464,
+      "sha256": "CA6AC395B9BDA107531EBCF0D15CB7D4F60E22D6C90F20405E823C20A8AF0672"
+    },
+    "manifest": {
+      "path": "decision_records/ISV020-ADDITIONAL-PROTECTION-SPANS.json",
+      "bytes": 4510,
+      "sha256": "40C4CF5EEBAA3BF2A769CA81C5C49142C46A059D8DD735A4D86AC92473523D71"
+    }
+  },
+  "totals": {
+    "inherited_records_reviewed": 4560,
+    "classification_defects_corrected": 364,
+    "coverage_defects_corrected": 8,
+    "total_defects_corrected": 372,
+    "ambiguities": 0
+  },
+  "claim_boundary": "exhaustive source-bound role classification for this deterministic projection; not native-speaker, community, official-standard, or external scholarly-peer-review certification"
+}

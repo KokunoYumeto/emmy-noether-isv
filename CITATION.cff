@@ -1,26 +1,39 @@
 cff-version: 1.2.0
 message: "Citujte točno izdanje s DOI / Please cite the exact release DOI."
 title: "Emmy Noether: Polno medžuslovjansko izdanje korpusa / Complete Interslavic Corpus Edition"
-type: book
+type: dataset
 authors:
   - family-names: Noether
     given-names: Emmy
-version: "NOETHER-ISV-v019"
+version: "NOETHER-ISV-v020"
 date-released: 2026-08-22
-doi: 10.5281/zenodo.22050935
-url: "https://doi.org/10.5281/zenodo.22050935"
+doi: 10.5281/zenodo.22058530
+url: "https://doi.org/10.5281/zenodo.22058530"
 repository-code: "https://github.com/KokunoYumeto/emmy-noether-isv"
 license: CC0-1.0
+preferred-citation:
+  type: book
+  title: "Emmy Noether: Polno medžuslovjansko izdanje korpusa / Complete Interslavic Corpus Edition"
+  authors:
+    - family-names: Noether
+      given-names: Emmy
+  year: 2026
+  doi: 10.5281/zenodo.22058530
 abstract: >-
-  Complete machine-assisted Interslavic scholarly working edition of Papers
-  1-43, lecture work 44, Paper 45, and the bibliography, in canonical Latin
-  script and a deterministic Cyrillic representation. No native-speaker,
-  community, official-standard, or independent scholarly certification is
-  claimed.
+  Polno naučno rabotno medžuslovjansko izdanje statij 1–43, lekcijskogo
+  děla 44, statje 45 i bibliografije, izrabotano s mašinnoju pomočju.
+  Latiničny tekst jest jezyčny kanon; kiriličny tekst jest deterministično
+  izvedeny zapis. Izdanje ne tvrdi nezavisnu rodno-govoriteljsku, obćinsku,
+  oficialno-standardnu ili naučno-recenzijsku potvrdu. Complete
+  machine-assisted Interslavic scholarly working edition of Papers 1–43,
+  lecture work 44, Paper 45, and the bibliography. Latin is the language
+  canon; Cyrillic is a deterministic representation. No independent
+  native-speaker, community, official-standard, or scholarly certification
+  is claimed.
 keywords:
   - Emmy Noether
-  - Interslavic
   - Medžuslovjansky
+  - Interslavic
   - mathematics
   - machine-assisted translation
   - Latin script

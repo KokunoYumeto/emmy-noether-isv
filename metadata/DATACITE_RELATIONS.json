@@ -1,8 +1,8 @@
 {
   "schema": "noether-interslavic-datacite-relations/1.0",
-  "release_id": "NOETHER-ISV-v019",
+  "release_id": "NOETHER-ISV-v020",
   "subject": {
-    "identifier": "10.5281/zenodo.22050935",
+    "identifier": "10.5281/zenodo.22058530",
     "identifierType": "DOI",
     "title": "Emmy Noether: Polno medžuslovjansko izdanje korpusa / Complete Interslavic Corpus Edition"
   },

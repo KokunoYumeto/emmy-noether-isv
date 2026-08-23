@@ -1,0 +1,96 @@
+{
+  "schema": "noether-interslavic-methods-visual-assets/1.0",
+  "release_id": "NOETHER-ISV-v020",
+  "input": {
+    "path": "release_v020/evidence/methods/AI_INTERSLAVIC_NOETHER_METHODS_v020.pdf",
+    "bytes": 178720,
+    "sha256": "DA45E0B1C4D40B6582C312C578812E709C5E42C6FCEE663FF0599DCAFC39AED7",
+    "pages": 13
+  },
+  "coverage": {
+    "all_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "page_count": 13
+  },
+  "render": {
+    "engine": "PyMuPDF 1.27.2.3",
+    "matrix": [
+      1.5,
+      1.5
+    ],
+    "colorspace": "RGB"
+  },
+  "contact_sheets": [
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/methods/methods-pages-01.png",
+      "bytes": 1566590,
+      "sha256": "681A7744770D8CBE9A4EA7E56DD13DE2375173D3684F7CBAD7E36FA4EF4FA1E6",
+      "represented_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "dimensions": [
+        1442,
+        2144
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/methods/methods-pages-02.png",
+      "bytes": 1232581,
+      "sha256": "1E564DC4920072A687C41D2C6934D4CBC7F3D09EDAD4A232396559ADB5D64774",
+      "represented_pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "dimensions": [
+        1442,
+        2144
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/methods/methods-pages-03.png",
+      "bytes": 1527138,
+      "sha256": "0B567230F166AA7375B0E09D44BD5843373D03385AD6DC1A272393C0EEB610AD",
+      "represented_pages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "dimensions": [
+        1442,
+        2144
+      ]
+    },
+    {
+      "path": "tmp/pdfs/isv_release_v020/visual/methods/methods-pages-04.png",
+      "bytes": 115944,
+      "sha256": "B60B32C0910A70E7235977F5A0E21182B61622601FC8CABE73EB5026AF992712",
+      "represented_pages": [
+        13
+      ],
+      "dimensions": [
+        1442,
+        1102
+      ]
+    }
+  ],
+  "status": "ASSETS_RENDERED_AWAITING_MANUAL_REVIEW"
+}

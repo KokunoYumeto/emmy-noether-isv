@@ -1,0 +1,18 @@
+{
+  "schema": "noether-interslavic-evidence-archive-validation/1.0",
+  "release_id": "NOETHER-ISV-v020",
+  "generated_at": "2026-08-22T00:00:00Z",
+  "status": "PASS",
+  "archive": {
+    "path": "release_v020/public/02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip",
+    "bytes": 39069241,
+    "sha256": "DECF214BE73A342DDEE5ACE26719F23E8934D34B5A534FBB23159F6573280010"
+  },
+  "member_count": 192,
+  "uncompressed_member_bytes": 62553637,
+  "crc_test": "PASS",
+  "inventory_and_member_byte_readback": "PASS",
+  "member_inventory_sha256": "913DB28D9EDADC21CA2DA30A4DEA679450A2C6FFC5CCDCE5D7B725D8D22C7F92",
+  "deterministic_duplicate_byte_identical": true,
+  "note": "This external receipt is intentionally not a member of the evidence ZIP, avoiding a self-hash cycle."
+}

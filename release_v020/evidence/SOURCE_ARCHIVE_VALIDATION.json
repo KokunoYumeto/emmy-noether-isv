@@ -1,0 +1,23 @@
+{
+  "schema": "noether-interslavic-source-archive-validation/1.0",
+  "release_id": "NOETHER-ISV-v020",
+  "generated_at": "2026-08-22T00:00:00Z",
+  "status": "PASS",
+  "metadata_validation": {
+    "json_files_parsed": 5,
+    "cff_parsed": true,
+    "interslavic_first_english_counterpart": true,
+    "doi_and_release_metrics_consistent": true
+  },
+  "archive": {
+    "path": "release_v020/public/01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip",
+    "bytes": 11147398,
+    "sha256": "D6570B2D1275F096BD0539CA6E9F8D524C14AD5DE3F5A28DFAC9566221F6686C"
+  },
+  "member_count": 114,
+  "uncompressed_member_bytes": 27076560,
+  "crc_test": "PASS",
+  "inventory_and_member_byte_readback": "PASS",
+  "member_inventory_sha256": "567538F59783EEA6EB785BDA426B2A27CEFD405639DBAF1B6E59D38B2E371B94",
+  "deterministic_duplicate_byte_identical": true
+}

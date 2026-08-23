@@ -1,7 +1,16 @@
 {
-  "schema": "noether-language-canon-index/1.0",
-  "release_id": "NOETHER-ISV-v019",
+  "schema": "noether-language-canon-index/1.1",
+  "release_id": "NOETHER-ISV-v020",
   "release_date": "2026-08-22",
+  "machine_discovery": {
+    "index_role": "authoritative entry point for locating, authenticating, reproducing, and extending this language edition",
+    "read_first": true,
+    "edition_family": "Emmy Noether complete maintained corpus",
+    "language_key": "isv",
+    "canonical_language_surface": "isv-Latn",
+    "derived_surface": "isv-Cyrl",
+    "rule": "Never infer canon from filename or script alone; use the roles and exact hashes in this index."
+  },
   "language": {
     "name_english": "Interslavic",
     "name_in_language": "Medžuslovjansky",
@@ -13,7 +22,7 @@
     "author": "Emmy Noether and named co-authors where applicable",
     "contents": "complete maintained corpus: numbered Papers 1-43, lecture work 44, Paper 45, and bibliography",
     "object_model": "one Interslavic language edition with two script surfaces",
-    "version_doi": "10.5281/zenodo.22050935",
+    "version_doi": "10.5281/zenodo.22058530",
     "concept_doi": "10.5281/zenodo.21926382",
     "global_catalogue_concept_doi": "10.5281/zenodo.20412587",
     "repository": "https://github.com/KokunoYumeto/emmy-noether-isv"
@@ -28,8 +37,9 @@
       "claim_boundary": "project-active editorial authority; not a critical-edition certification"
     },
     "interslavic_canon": {
-      "role": "sole editable linguistic canon for this language edition",
+      "role": "sole editable linguistic canon for the Interslavic edition",
       "editorial_head": "ISV019-EDIT-0171",
+      "v020_latin_change": "none; all four files are byte-identical to the public v019 editorial head",
       "files": [
         {
           "path": "source_latin/base-papers1-43-isv.tex",
@@ -55,14 +65,24 @@
     },
     "cyrillic_projection": {
       "role": "deterministic script projection; never an independent translation witness or linguistic authority",
-      "generator": "project_isv_cyrillic_v6.py",
-      "generator_bytes": 13333,
-      "generator_sha256": "C7AE344B1E01DC0A8B655067173B66550D93E4D357CEB4FDB9713E80F9B9C0D6",
+      "generator": "project_isv_cyrillic_v7.py",
+      "generator_bytes": 27666,
+      "generator_sha256": "51E467EDD8F0B8F44F62D60C4F5D35EAB5BA80EEFA1B0BFCBC1A2EF0B3538915",
+      "reviewed_role_manifest": {
+        "path": "decision_records/ISV020-REVIEWED-PROJECTION-ROLE-MANIFEST.json",
+        "bytes": 3577349,
+        "sha256": "192BAE284EDC9BBA4A458EEBA9F7541CE16CA377A68668A70F5CFD0A2E182462",
+        "inherited_records_reviewed": 4560,
+        "classification_defects_corrected": 364,
+        "missing_identity_boundaries_added": 8,
+        "total_verified_effects": 372,
+        "ambiguities": 0
+      },
       "files": [
         {
           "path": "source_cyrillic/base-papers1-43-isv-cyrl.tex",
-          "bytes": 2706660,
-          "sha256": "23C242AABD938C605A4B2293ED6E68B723F94DBD23279FD8E75CB50CAEF099F1"
+          "bytes": 2706558,
+          "sha256": "8BB578C1B2D7B48E52A425D40039FE5A6B79FF1ED26E825A6BDA7EE736341277"
         },
         {
           "path": "source_cyrillic/44-book-isv-cyrl.tex",
@@ -71,62 +91,85 @@
         },
         {
           "path": "source_cyrillic/45-isv-cyrl.tex",
-          "bytes": 35902,
-          "sha256": "E1568BAB1E389E07816178A2FBDEE3833508C79BF0C7C19DD5120812E24646FE"
+          "bytes": 35895,
+          "sha256": "F94F731110DA94B30B9243C67587CB6A1B6E6478A046F08C617271A0B188CCFB"
         },
         {
           "path": "source_cyrillic/bib-isv-cyrl.tex",
-          "bytes": 13255,
-          "sha256": "5A6AE75FF94360BC104CE240E0EC18A2329C5229F68B198F763EDF7E786B816B"
+          "bytes": 13206,
+          "sha256": "4E74B8EA52C9B37209345B7E9A0B6BD7330D8EA0570E6D0C164FEA113511613D"
         }
       ]
     }
   },
   "editorial_lineage": {
-    "ledger": {
-      "path": "NORMALIZATION_DECISIONS_v019.jsonl",
+    "latin_decision_ledger": {
+      "path": "predecessor_v019/NORMALIZATION_DECISIONS_v019.jsonl",
       "rows": 171,
       "bytes": 771044,
-      "sha256": "4391C7FE0B81253F599118EED95927CDBA9B66A6C9644FECEEE98F5F53FC50F3"
+      "sha256": "4391C7FE0B81253F599118EED95927CDBA9B66A6C9644FECEEE98F5F53FC50F3",
+      "note": "retained because v020 makes no Latin linguistic edit"
     },
-    "head_sidecar": {
-      "path": "decision_records/ISV019-EDIT-0171.json",
+    "latin_head_sidecar": {
+      "path": "predecessor_v019/decision_records/ISV019-EDIT-0171.json",
       "bytes": 24735,
       "sha256": "178088D7090D0A3FA701FB13F4FA157BD26E7E546A4AEE9DDD4F723EC2BABBB4"
     },
-    "role_inventory": {
-      "path": "decision_records/ISV019-FINAL-PROJECTION-COMPLETENESS-INVENTORY.json",
+    "predecessor_role_inventory": {
+      "path": "predecessor_v019/decision_records/ISV019-FINAL-PROJECTION-COMPLETENESS-INVENTORY.json",
       "bytes": 3505137,
       "sha256": "E7B8CDE438E9B72A61F6FA3AE0422AF6CBFBCBB7965E139BD123709CC1EEF818"
+    },
+    "v020_projection_review": {
+      "validation_receipt": {
+        "path": "decision_records/ISV020-CYRILLIC-V7-VALIDATION-RECEIPT.json",
+        "bytes": 4120,
+        "sha256": "9B88F066C331B9035A0FCFCBDD9EC40231509C773C51CFD2E7D036E64BBBF1C8"
+      },
+      "effects_verified": 372,
+      "changed_source_lines": 125,
+      "licensed_source_lines": 309,
+      "unlicensed_changed_lines": 0,
+      "latin_bytes_changed": 0
     },
     "open_linguistic_scanner_blockers": 0,
     "open_unsupported_projection_tokens": 0
   },
   "entry_points": {
     "read_first": [
-      "README.md",
+      "PUBLIC_RELEASE_README.md",
       "CANON_INDEX.json"
     ],
-    "verify_projection": "python test_project_isv_cyrillic_v6.py",
-    "derive_cyrillic_read_only": "python project_isv_cyrillic_v6.py --require-ready",
-    "build_script_readers": "python build_isv_release_v019.py --build",
-    "build_linked_reader": "python build_linked_reader_v019.py",
-    "run_release_qa": "python qa_isv_release_v019.py",
-    "methods_source": "docs/METHODS_AI_INTERSLAVIC_NOETHER_v019.tex",
-    "methods_pdf": "docs/AI_INTERSLAVIC_NOETHER_METHODS_v019.pdf"
+    "verify_projection": "python test_project_isv_cyrillic_v7.py",
+    "derive_cyrillic_read_only": "python project_isv_cyrillic_v7.py --full-report",
+    "install_authenticated_cyrillic": "python project_isv_cyrillic_v7.py --write-output-dir source_cyrillic",
+    "build_script_readers": "python build_isv_release_v020.py --build",
+    "build_linked_reader": "python build_linked_reader_v020.py",
+    "run_release_qa": "python qa_isv_release_v020.py",
+    "build_methods_paper": "python build_methods_v020.py",
+    "compare_rendered_successor": "python analyze_cyrillic_pdf_delta_v020.py",
+    "render_linked_reader_review_assets": "python render_linked_reader_visual_assets_v020.py",
+    "render_methods_review_assets": "python render_methods_visual_assets_v020.py",
+    "seal_visual_qa": "python build_visual_qa_receipt_v020.py",
+    "build_public_packages": "python build_release_packages_v020.py",
+    "verify_public_packages": "python verify_release_packages_v020.py",
+    "v019_rendered_comparator": "comparison/v019-linked-reader.pdf",
+    "methods_source": "docs/METHODS_AI_INTERSLAVIC_NOETHER_v020.tex",
+    "methods_pdf": "docs/AI_INTERSLAVIC_NOETHER_METHODS_v020.pdf"
   },
   "machine_action_rules": [
     "Treat only source_latin as editable Interslavic language canon.",
-    "Never edit source_cyrillic as an independent translation; regenerate it from authenticated Latin sources.",
+    "Never edit source_cyrillic as an independent translation; regenerate it from authenticated Latin sources and the reviewed role manifest.",
     "Do not edit the German authority from this language lane.",
-    "Append a source-pinned decision with evidence and rejected alternatives for every material linguistic change.",
-    "Preserve mathematics, TeX syntax, complete foreign identities, citations, and reviewed Roman structures according to the role inventory.",
-    "After a Latin change: replay/verify the ledger, rerun the completeness audit, derive Cyrillic, build both scripts serially, then rerun text/math/font/visual QA.",
+    "Append a source-pinned decision with evidence and rejected alternatives for every material Latin linguistic change.",
+    "Preserve mathematics, TeX syntax, complete foreign identities, citations, Roman structures, style surfaces, and one-letter roles according to the reviewed role manifest.",
+    "After a Latin change: replay and verify the editorial ledger, rerun the complete role census, derive Cyrillic twice, prove that every delta is licensed, build both scripts serially, and rerun text, math, TeX, font, link, and changed-page visual QA.",
+    "Do not silently reuse v020 role decisions when source hashes or locators drift; fail closed and review the affected records again.",
     "Do not claim native-speaker, community, official-standard, or scholarly-peer-review certification without an authentic receipt."
   ],
   "claim_boundaries": {
     "translation": "machine-assisted scholarly working edition",
-    "review": "no independent native-speaker/community/scholarly peer review claimed",
+    "review": "no independent native-speaker, community, official-standard, or scholarly peer review claimed",
     "cyrillic": "deterministic representation of Latin Interslavic, not independent evidence",
     "rights": "CC0 only to the extent rights exist in project-created translation, editorial work, metadata, manifests, tools, and evidence; third-party material retains its own status"
   }

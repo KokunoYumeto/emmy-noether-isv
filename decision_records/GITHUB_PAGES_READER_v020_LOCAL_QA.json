@@ -1,0 +1,68 @@
+{
+  "schema": "noether-interslavic-github-pages-reader-qa/1.0",
+  "release_id": "NOETHER-ISV-v020",
+  "checked_at": "2026-08-23T21:25:25+02:00",
+  "status": "PASS_LOCAL_PREPUBLICATION",
+  "target_url": "https://kokunoyumeto.github.io/emmy-noether-isv/",
+  "files": {
+    "html": {
+      "path": "docs/index.html",
+      "bytes": 7176,
+      "sha256": "85AF44D652C2DEC3989DBFAAFD3961CCA7D77B13C0C03B6D3B48BA12FA461E88"
+    },
+    "css": {
+      "path": "docs/reader.css",
+      "bytes": 9000,
+      "sha256": "F2D58D1B53611F0446C905D2E7229203D282D839B550B4344DBA0B50835246C0"
+    },
+    "javascript": {
+      "path": "docs/reader.js",
+      "bytes": 1786,
+      "sha256": "CFA7782FCD0FD100F95DA06542FEB240550838BF3BC7B10422EE9E8DA1DAA888"
+    },
+    "embedded_reader": {
+      "path": "docs/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf",
+      "bytes": 6885841,
+      "sha256": "7DCB4C852BF3CCE5928921E13F73FA34E80EA4FEB2A82F967FEE29657150AE20"
+    },
+    "methods_pdf": {
+      "path": "docs/AI_INTERSLAVIC_NOETHER_METHODS_v020.pdf",
+      "bytes": 178720,
+      "sha256": "DA45E0B1C4D40B6582C312C578812E709C5E42C6FCEE663FF0599DCAFC39AED7"
+    },
+    "pages_workflow": {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 781,
+      "sha256": "76EA744353C624EAD4472B67FEFAEE7D6EE9776C3E9F67896F057DDD31DEFB18"
+    }
+  },
+  "content": {
+    "document_language": "isv-Latn",
+    "interslavic_first": true,
+    "complete_english_counterpart_characters": 667,
+    "exact_version_doi": "10.5281/zenodo.22058530",
+    "exact_concept_doi": "10.5281/zenodo.21926382",
+    "total_reader_pages": 1159,
+    "latin_divider_page": 5,
+    "cyrillic_divider_page": 571,
+    "direct_pdf_fallback": true,
+    "source_evidence_methods_and_manifest_links_present": true
+  },
+  "desktop_functional_qa": {
+    "viewport": "1280px wide",
+    "horizontal_overflow": false,
+    "default_hash": "#latn",
+    "default_pdf_page": 5,
+    "cyrillic_control_result": "#cyrl and PDF page 571",
+    "arbitrary_page_control_result": "#page-777 and PDF page 777",
+    "reader_frame_height_pixels": 1088
+  },
+  "mobile_functional_qa": {
+    "viewport": "390x844",
+    "horizontal_overflow": false,
+    "reader_width_pixels": 359,
+    "reader_frame_height_pixels": 608,
+    "resource_grid_columns": 1
+  },
+  "publication_gate": "A public deployment and anonymous byte and functional readback remain required; this local pass alone is not publication completion."
+}

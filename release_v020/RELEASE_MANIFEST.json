@@ -1,0 +1,126 @@
+{
+  "schema": "noether-interslavic-release-manifest/1.0",
+  "release_id": "NOETHER-ISV-v020",
+  "publication_date": "2026-08-22",
+  "language": "isv",
+  "scripts": [
+    "isv-Latn",
+    "isv-Cyrl"
+  ],
+  "concept_doi": "10.5281/zenodo.21926382",
+  "version_doi": "10.5281/zenodo.22058530",
+  "global_catalogue_concept_doi": "10.5281/zenodo.20412587",
+  "repository": "https://github.com/KokunoYumeto/emmy-noether-isv",
+  "latin_editorial_head": "ISV019-EDIT-0171",
+  "public_files": [
+    {
+      "path": "release_v020/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf",
+      "bytes": 6885841,
+      "sha256": "7DCB4C852BF3CCE5928921E13F73FA34E80EA4FEB2A82F967FEE29657150AE20"
+    },
+    {
+      "path": "release_v020/public/01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip",
+      "bytes": 11147398,
+      "sha256": "D6570B2D1275F096BD0539CA6E9F8D524C14AD5DE3F5A28DFAC9566221F6686C"
+    },
+    {
+      "path": "release_v020/public/02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip",
+      "bytes": 39069241,
+      "sha256": "DECF214BE73A342DDEE5ACE26719F23E8934D34B5A534FBB23159F6573280010"
+    },
+    {
+      "path": "release_v020/public/03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt",
+      "bytes": 366,
+      "sha256": "17C27E6848BA3683125CF8C35E5235BBA2627493A10E02A256C575E4732E58A5"
+    }
+  ],
+  "source_archive_validation": {
+    "schema": "noether-interslavic-source-archive-validation/1.0",
+    "release_id": "NOETHER-ISV-v020",
+    "generated_at": "2026-08-22T00:00:00Z",
+    "status": "PASS",
+    "metadata_validation": {
+      "json_files_parsed": 5,
+      "cff_parsed": true,
+      "interslavic_first_english_counterpart": true,
+      "doi_and_release_metrics_consistent": true
+    },
+    "archive": {
+      "path": "release_v020/public/01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip",
+      "bytes": 11147398,
+      "sha256": "D6570B2D1275F096BD0539CA6E9F8D524C14AD5DE3F5A28DFAC9566221F6686C"
+    },
+    "member_count": 114,
+    "uncompressed_member_bytes": 27076560,
+    "crc_test": "PASS",
+    "inventory_and_member_byte_readback": "PASS",
+    "member_inventory_sha256": "567538F59783EEA6EB785BDA426B2A27CEFD405639DBAF1B6E59D38B2E371B94",
+    "deterministic_duplicate_byte_identical": true
+  },
+  "evidence_archive_validation": {
+    "schema": "noether-interslavic-evidence-archive-validation/1.0",
+    "release_id": "NOETHER-ISV-v020",
+    "generated_at": "2026-08-22T00:00:00Z",
+    "status": "PASS",
+    "archive": {
+      "path": "release_v020/public/02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip",
+      "bytes": 39069241,
+      "sha256": "DECF214BE73A342DDEE5ACE26719F23E8934D34B5A534FBB23159F6573280010"
+    },
+    "member_count": 192,
+    "uncompressed_member_bytes": 62553637,
+    "crc_test": "PASS",
+    "inventory_and_member_byte_readback": "PASS",
+    "member_inventory_sha256": "913DB28D9EDADC21CA2DA30A4DEA679450A2C6FFC5CCDCE5D7B725D8D22C7F92",
+    "deterministic_duplicate_byte_identical": true,
+    "note": "This external receipt is intentionally not a member of the evidence ZIP, avoiding a self-hash cycle."
+  },
+  "reader": {
+    "path": "release_v020/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf",
+    "bytes": 6885841,
+    "sha256": "7DCB4C852BF3CCE5928921E13F73FA34E80EA4FEB2A82F967FEE29657150AE20",
+    "pages": 1159,
+    "latin_pages": 565,
+    "cyrillic_pages": 588,
+    "front_and_divider_pages": 6
+  },
+  "methods_paper": {
+    "path": "release_v020/evidence/methods/AI_INTERSLAVIC_NOETHER_METHODS_v020.pdf",
+    "bytes": 178720,
+    "sha256": "DA45E0B1C4D40B6582C312C578812E709C5E42C6FCEE663FF0599DCAFC39AED7",
+    "pages": 13
+  },
+  "v020_correction": {
+    "latin_bytes_changed": 0,
+    "role_records_reviewed": 4560,
+    "classification_defects_corrected": 364,
+    "missing_identity_boundaries_added": 8,
+    "verified_effects": 372,
+    "changed_lines": 125,
+    "licensed_lines": 309,
+    "unlicensed_changed_lines": 0
+  },
+  "qa": {
+    "release_report": {
+      "path": "release_v020/evidence/qa-report.json",
+      "bytes": 59934,
+      "sha256": "D6DB990D0A0567209080F1B15EF1B88B595D21CDE92F243FC2B768E7CF2CB2C2"
+    },
+    "visual_receipt": {
+      "path": "release_v020/evidence/visual-qa-receipt.json",
+      "bytes": 19972,
+      "sha256": "B008658DCBB5C26184C5EF78E318CD5370D439F5DC0FC6C4A99446AA751DCF18"
+    },
+    "projection_v7_receipt": {
+      "path": "decision_records/ISV020-CYRILLIC-V7-VALIDATION-RECEIPT.json",
+      "bytes": 4120,
+      "sha256": "9B88F066C331B9035A0FCFCBDD9EC40231509C773C51CFD2E7D036E64BBBF1C8"
+    },
+    "release_checks": 38,
+    "release_errors": 0,
+    "changed_pages_visually_reviewed": 86,
+    "adjacent_controls_visually_reviewed": 103
+  },
+  "review_and_claim_boundary": "Machine-assisted scholarly working edition. No independent native-speaker, community, official-standard, or scholarly-peer-review certification is claimed. Cyrillic is a deterministic representation, not an independent witness.",
+  "repository_identity_note": "The immutable release tag and commit are recorded after public push in PUBLICATION_RECEIPT.json to avoid a self-referential file/commit hash cycle."
+}

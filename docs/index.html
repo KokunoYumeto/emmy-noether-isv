@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="isv-Latn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#152f4f">
+  <meta name="description" content="Živy HTML-čitateljnik polnogo medžuslovjanskogo izdanja matematičnogo korpusa Emmy Noether, v latinici i kirilici.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'; frame-src 'self'; img-src 'self' data:; object-src 'self'; base-uri 'none'; form-action 'none'">
+  <link rel="canonical" href="https://kokunoyumeto.github.io/emmy-noether-isv/">
+  <link rel="stylesheet" href="reader.css">
+  <title>Emmy Noether — medžuslovjansky živy čitateljnik</title>
+</head>
+<body>
+  <a class="skip-link" href="#reader">Prějdite k čitateljniku / Skip to reader</a>
+
+  <header class="masthead">
+    <div>
+      <p class="eyebrow">NOETHER-ISV-v020 · isv-Latn + isv-Cyrl</p>
+      <h1>Emmy Noether<br><span>Polno medžuslovjansko izdanje korpusa</span></h1>
+      <p class="dek">Živy čitateljnik za praktično čitanje govoriteljami slovjanskyh jezykov. Latinica jest redagovateljny kanon; kirilica jest deterministično izvedeny zapis togo samogo teksta.</p>
+    </div>
+    <div class="release-card" aria-label="Identifikacija izdanja">
+      <span>Točny DOI izdanja</span>
+      <a href="https://doi.org/10.5281/zenodo.22058530">10.5281/zenodo.22058530</a>
+      <span>Stabilny DOI koncepta</span>
+      <a href="https://doi.org/10.5281/zenodo.21926382">10.5281/zenodo.21926382</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="reader-shell" aria-labelledby="reader-title">
+      <aside class="reader-nav">
+        <h2 id="reader-title">Čitajte izdanje</h2>
+        <p class="muted">1 159 stranic · dvě zapisy · jedno izdanje</p>
+
+        <nav aria-label="Česti čitateljnika / Reader sections">
+          <button type="button" class="section-button" data-section="front" data-page="1">
+            <span>Uvod i sodržanje</span><small>stranica 1</small>
+          </button>
+          <button type="button" class="section-button active" data-section="latn" data-page="5">
+            <span>Čest A · Latinica</span><small>razděl na stranici 5</small>
+          </button>
+          <button type="button" class="section-button" data-section="cyrl" data-page="571">
+            <span>Čest B · Kirilica</span><small>razděl na stranici 571</small>
+          </button>
+        </nav>
+
+        <form class="page-form" id="page-form">
+          <label for="page-number">Prějdite k stranici PDF</label>
+          <div>
+            <input id="page-number" name="page" type="number" min="1" max="1159" value="5" inputmode="numeric">
+            <button type="submit">Otvori</button>
+          </div>
+        </form>
+
+        <div class="reader-actions">
+          <a id="reader-open" class="primary-link" href="00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf#page=5" target="_blank" rel="noopener">Otvori PDF v novom okně</a>
+          <a href="00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf" download>Prenesti PDF · 6,885,841 B</a>
+        </div>
+
+        <p class="hash"><span>SHA-256</span><code>7DCB4C852BF3CCE5928921E13F73FA34E80EA4FEB2A82F967FEE29657150AE20</code></p>
+      </aside>
+
+      <div class="reader-stage" id="reader">
+        <iframe
+          id="pdf-frame"
+          title="Polny povezany medžuslovjansky PDF-čitateljnik"
+          src="00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf#page=5&amp;zoom=page-width&amp;view=FitH"
+          loading="eager"
+          referrerpolicy="no-referrer">
+          Vaš preglednik ne pokazuje PDF v ramě. <a href="00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf">Otvori PDF neposrědno.</a>
+        </iframe>
+        <noscript><p class="fallback">JavaScript ne jest potrěbny za sam PDF: <a href="00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf">otvorite polny čitateljnik neposrědno</a>.</p></noscript>
+      </div>
+    </section>
+
+    <section class="resource-grid" aria-labelledby="resources-title">
+      <div class="section-heading">
+        <p class="eyebrow">Otevrene i prověrlive</p>
+        <h2 id="resources-title">Iztočniki, metody i dokazy</h2>
+      </div>
+      <a class="resource-card" href="https://zenodo.org/api/records/22058530/files/01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip/content">
+        <span>01</span><h3>Redagovateljne iztočniki</h3><p>Latiničny kanon, deterministična kirilica i povtorime orudja.</p>
+      </a>
+      <a class="resource-card" href="https://zenodo.org/api/records/22058530/files/02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip/content">
+        <span>02</span><h3>Dokazy i pohođenje</h3><p>Rěšenja, validacija, QA, granice tvrdženij i negativne dokazy.</p>
+      </a>
+      <a class="resource-card" href="AI_INTERSLAVIC_NOETHER_METHODS_v020.pdf">
+        <span>03</span><h3>Publikacija o metodah</h3><p>Polna medžuslovjanska čest i polny anglijsky paralelny tekst.</p>
+      </a>
+      <a class="resource-card" href="https://zenodo.org/api/records/22058530/files/03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt/content">
+        <span>04</span><h3>SHA-256 manifest</h3><p>Točne kontrolne sumy četyreh javnyh fajlov izdanja.</p>
+      </a>
+    </section>
+
+    <section class="status-panel">
+      <div>
+        <h2>Status i granice</h2>
+        <p>To jest naučno rabotno izdanje. Ono ne tvrdži, že jest potvrđeno rodnymi govoriteljami, medžuslovjanskoju obćinoju, oficialnym standardom ili nezavisnoju institucijeju. Ne bylo provedeno razuměnje čitateljami ili nezavisna naučna recenzija.</p>
+        <p>CC0 priměnjaje se samo tam, kde obstajajut prava na projektom stvorjeny prěklad, redakciju, metadane, manifesty, orudja i dokazy. Material tretjih stran ohranjaje svoj pravny status i licencije.</p>
+      </div>
+      <details>
+        <summary>Complete English counterpart</summary>
+        <div lang="en">
+          <h2>Live Interslavic reader</h2>
+          <p>This page provides the complete 1,159-page linked edition in Latin and Cyrillic script. The Latin sources are the sole editable language canon. Cyrillic is a deterministic representation of the same Interslavic text, not a separate translation or independent witness.</p>
+          <p>This is a scholarly working edition. It does not claim native-speaker, community, official-standard, institutional, comprehension-study, or independent peer-review certification. CC0 applies only where rights exist in project-created translation, editing, metadata, tools, manifests, and evidence; third-party material retains its own status and licences.</p>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <p>Emmy Noether — Polno medžuslovjansko izdanje korpusa</p>
+    <nav aria-label="Dopolniteljne veze">
+      <a href="https://github.com/KokunoYumeto/emmy-noether-isv">GitHub</a>
+      <a href="https://zenodo.org/records/22058530">Zenodo</a>
+      <a href="https://doi.org/10.5281/zenodo.20412587">Globalny katalog</a>
+    </nav>
+  </footer>
+
+  <script src="reader.js" defer></script>
+</body>
+</html>

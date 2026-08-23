@@ -1,0 +1,198 @@
+{
+  "schema": "noether-interslavic-methods-build/1.0",
+  "release_id": "NOETHER-ISV-v020",
+  "generated_at": "2026-08-22T00:00:00Z",
+  "source_date_epoch": 1787356800,
+  "source": {
+    "path": "docs/METHODS_AI_INTERSLAVIC_NOETHER_v020.tex",
+    "bytes": 42931,
+    "sha256": "3D374F31126EE2C6BC5523768399491E310E37EB94CE102D9E71611A1B534119"
+  },
+  "build": {
+    "engine": "xelatex.EXE",
+    "passes": 2,
+    "serial": true,
+    "shell_escape": false,
+    "logs": [
+      {
+        "pass": 1,
+        "exit_code": 0,
+        "stdout": {
+          "path": "tmp/pdfs/isv_release_v020/methods/pass1.stdout.log",
+          "bytes": 7827,
+          "sha256": "3B964975AD84C7E53A91A65E1D19B7662FB6073363A567B0EAFFBC33DADF621B"
+        },
+        "tex_log": {
+          "path": "tmp/pdfs/isv_release_v020/methods/pass1.tex.log",
+          "bytes": 31590,
+          "sha256": "17C5FFE07DB9ABAFDA9061BB6D8A564A36BDAD2FAC5CDD1E6F1D08DEBED9930D"
+        }
+      },
+      {
+        "pass": 2,
+        "exit_code": 0,
+        "stdout": {
+          "path": "tmp/pdfs/isv_release_v020/methods/pass2.stdout.log",
+          "bytes": 7827,
+          "sha256": "3B964975AD84C7E53A91A65E1D19B7662FB6073363A567B0EAFFBC33DADF621B"
+        },
+        "tex_log": {
+          "path": "tmp/pdfs/isv_release_v020/methods/pass2.tex.log",
+          "bytes": 31590,
+          "sha256": "17C5FFE07DB9ABAFDA9061BB6D8A564A36BDAD2FAC5CDD1E6F1D08DEBED9930D"
+        }
+      }
+    ]
+  },
+  "output": {
+    "path": "release_v020/evidence/methods/AI_INTERSLAVIC_NOETHER_METHODS_v020.pdf",
+    "bytes": 178720,
+    "sha256": "DA45E0B1C4D40B6582C312C578812E709C5E42C6FCEE663FF0599DCAFC39AED7",
+    "pages": 13,
+    "metadata": {
+      "title": "Od jezyčnogo kanona do povtorimoj publikacije: mašinno-pomagana medžuslovjanska redakcija matematičnyh děl Emmy Noether / From a language canon to a reproducible publication: machine-assisted Interslavic editing of Emmy Noether's mathematical works",
+      "author": "Machine-assisted Interslavic editorial project"
+    },
+    "navigation": {
+      "outline_titles": [
+        "Čest I - Polny medžuslovjansky tekst",
+        "Predmet, cělj i čitatelji",
+        "Arhitektura avtoriteta i kustodije",
+        "Mašinno čitljivo odkryvanje kanona",
+        "Čto AI děla i čto ne može rěšiti samo",
+        "Polny pregled rolij i korekcija v020",
+        "Jezyčna normalizacija latinnogo kanona s žurnalom, do ktorogo se može samo dodavati",
+        "Matematična i TeX-věrnost",
+        "Determinističny izvod v7",
+        "Sgrađanje i mnogoslojna kontrola",
+        "Publikacija, dostup i ohranjanje",
+        "Ograničenja, ljudsky pregled i odgovorne tvrdženja",
+        "Povtorimy protokol za druge jezyky i transkripcije",
+        "Part II - Complete English counterpart",
+        "Object, purpose, and readership",
+        "Authority and custody architecture",
+        "Machine-readable canon discovery",
+        "What AI does and what it cannot decide alone",
+        "Complete role review and the v020 correction",
+        "Append-only linguistic normalization of the Latin canon",
+        "Mathematical and TeX fidelity",
+        "Deterministic v7 derivation",
+        "Build and multilayer validation",
+        "Publication, access, and preservation",
+        "Limitations, human review, and responsible claims",
+        "Reusable protocol for other languages and transcriptions"
+      ],
+      "link_annotations": 14,
+      "external_uris": [
+        "https://doi.org/10.5281/zenodo.20412587",
+        "https://doi.org/10.5281/zenodo.21926382",
+        "https://doi.org/10.5281/zenodo.22058530",
+        "https://github.com/KokunoYumeto/emmy-noether-isv"
+      ]
+    },
+    "fonts": [
+      {
+        "base_font": "/EFMBCT+TimesNewRomanPSMT",
+        "subtype": "/Type0",
+        "embedded": true,
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "base_font": "/TKCQRD+Consolas",
+        "subtype": "/Type0",
+        "embedded": true,
+        "pages": [
+          2,
+          3,
+          4,
+          5,
+          8,
+          9,
+          11,
+          12
+        ]
+      },
+      {
+        "base_font": "/TWFGQU+TimesNewRomanPS-BoldMT",
+        "subtype": "/Type0",
+        "embedded": true,
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "base_font": "/XQCXQP+Arial-BoldMT",
+        "subtype": "/Type0",
+        "embedded": true,
+        "pages": [
+          1
+        ]
+      },
+      {
+        "base_font": "/YENUUX+TimesNewRomanPS-ItalicMT",
+        "subtype": "/Type0",
+        "embedded": true,
+        "pages": [
+          3,
+          7,
+          9,
+          13
+        ]
+      }
+    ],
+    "extracted_text": {
+      "path": "release_v020/evidence/methods/AI_INTERSLAVIC_NOETHER_METHODS_v020.txt",
+      "bytes": 44569,
+      "sha256": "96109E8E6188DDF821FB144253438E723071E240C5EC1E9B4A9C1585D1120952",
+      "characters": 43050,
+      "replacement_characters": 0,
+      "required_tokens": [
+        "NOETHER-ISV-v020",
+        "Čest I - Polny medžuslovjansky tekst",
+        "Part II - Complete English counterpart",
+        "4,560",
+        "372",
+        "125",
+        "309",
+        "10.5281/zenodo.22058530",
+        "10.5281/zenodo.21926382",
+        "native-speaker certification",
+        "CC0"
+      ],
+      "interslavic_precedes_english": true
+    },
+    "declared_public_copy": {
+      "path": "docs/AI_INTERSLAVIC_NOETHER_METHODS_v020.pdf",
+      "bytes": 178720,
+      "sha256": "DA45E0B1C4D40B6582C312C578812E709C5E42C6FCEE663FF0599DCAFC39AED7"
+    }
+  },
+  "claim_boundary": "Methods and reproducibility report; not native-speaker, community, official-standard, or independent scholarly-peer-review certification.",
+  "status": "PASS"
+}

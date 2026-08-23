@@ -1,6 +1,6 @@
 {
   "schema": "noether-interslavic-source-authority/1.0",
-  "release_id": "NOETHER-ISV-v019",
+  "release_id": "NOETHER-ISV-v020",
   "german": {
     "edition_id": "NOETH-DE-ED-0015",
     "pointer_id": "NOETH-DE-AUTH-v052-20260815",
@@ -12,9 +12,12 @@
   },
   "interslavic": {
     "editorial_head": "ISV019-EDIT-0171",
+    "release_successor": "NOETHER-ISV-v020",
+    "v020_latin_change": "none; source_latin is byte-identical to the v019 head",
     "canonical_script": "isv-Latn",
     "derived_script": "isv-Cyrl",
+    "projection_policy": "v7 fail-closed derivation from the exhaustively reviewed v020 role manifest",
     "semantic_relation": "IsTranslationOf the identified German source object",
-    "verification": "see CANON_INDEX.json, LATIN_FREEZE_RECEIPT_v019.json, and NORMALIZATION_DECISIONS_v019.jsonl"
+    "verification": "see CANON_INDEX.json, decision_records/ISV020-REVIEWED-PROJECTION-ROLE-MANIFEST.json, decision_records/ISV020-CYRILLIC-V7-VALIDATION-RECEIPT.json, and predecessor_v019/NORMALIZATION_DECISIONS_v019.jsonl"
   }
 }
