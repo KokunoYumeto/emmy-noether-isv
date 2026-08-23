@@ -1,7 +1,7 @@
 {
   "schema": "noether-isv-session-independent-state-v1",
-  "updated_at": "2026-08-23T21:25:25+02:00",
-  "status": "ISV020_ZENODO_COMPLETE_GITHUB_PUBLICATION_IN_PROGRESS",
+  "updated_at": "2026-08-23T21:44:51+02:00",
+  "status": "ISV020_PUBLICATION_COMPLETE_ZENODO_GITHUB_PAGES_ANONYMOUS_READBACK_PASS",
   "objective": "Create, QA, package, and publish a monotonic Interslavic successor that preserves the exact v019 Latin canon while correcting the deterministic Cyrillic role-classification defects found by independent post-publication review.",
   "root": "C:/Users/Floris/Documents/interlanguage/03_projects/language_management/slavic_interslavic/noether_isv_v020_working",
   "predecessor": {
@@ -448,11 +448,11 @@
     }
   },
   "publication": {
-    "status": "ZENODO_COMPLETE_GITHUB_V020_PUBLICATION_IN_PROGRESS",
+    "status": "ZENODO_GITHUB_RELEASE_AND_LIVE_READER_COMPLETE_ANONYMOUS_READBACK_PASS",
     "receipt": {
       "path": "release_v020/evidence/PUBLICATION_RECEIPT.json",
-      "bytes": 4161,
-      "sha256": "73EC676783FF96C12E1514A065B99E17BDDA9864BCDEA37C944AA6CB6BBBA880"
+      "bytes": 8837,
+      "sha256": "4DF5CED8E6A75AA335914C8893DC3EC568390AB6D0EA8A4A8590B758A0295B7E"
     },
     "zenodo": {
       "status": "PUBLISHED_AND_ANONYMOUSLY_READ_BACK",
@@ -465,37 +465,44 @@
     },
     "github": {
       "repository": "https://github.com/KokunoYumeto/emmy-noether-isv",
-      "status": "AUTHENTICATION_RESTORED_V020_PUBLICATION_IN_PROGRESS",
+      "status": "PUBLISHED_RELEASE_PAGES_AND_ANONYMOUS_READBACK_PASS",
       "cli_authentication": "PASS_RESTORED_TARGET_ACCOUNT",
       "repository_access": "PASS_PUBLIC_NONARCHIVED_MAIN",
       "narrow_clone_predecessor_head": "10128a5a723b88567700ce3b96cbcbf0d32f7e64",
       "public_predecessor_tag": "v2026.08.22-v019",
-      "planned_successor_tag": "v2026.08.22-v020",
-      "live_reader_candidate": {
+      "release_commit": "8c347d8bbc11e57001ad1cf267371ebd7e43fdea",
+      "release_tree": "425e6708041f13c15046db720b8ef3f07d57b517",
+      "successor_tag": "v2026.08.22-v020",
+      "annotated_tag_object": "6489655997955950ded32da157bb53bbe3018658",
+      "release_url": "https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/v2026.08.22-v020",
+      "release_assets": {
+        "count": 4,
+        "anonymous_byte_and_sha256_identity": "PASS"
+      },
+      "live_reader": {
         "url": "https://kokunoyumeto.github.io/emmy-noether-isv/",
-        "status": "LOCAL_FILES_FROZEN_PUBLIC_DEPLOYMENT_PENDING",
+        "status": "DEPLOYED_PUBLIC_FUNCTIONAL_AND_BYTE_READBACK_PASS",
+        "deployment_run_id": 32662036934,
+        "deployment_head": "8c347d8bbc11e57001ad1cf267371ebd7e43fdea",
         "html_sha256": "85AF44D652C2DEC3989DBFAAFD3961CCA7D77B13C0C03B6D3B48BA12FA461E88",
         "css_sha256": "F2D58D1B53611F0446C905D2E7229203D282D839B550B4344DBA0B50835246C0",
         "javascript_sha256": "CFA7782FCD0FD100F95DA06542FEB240550838BF3BC7B10422EE9E8DA1DAA888",
-        "embedded_reader_sha256": "7DCB4C852BF3CCE5928921E13F73FA34E80EA4FEB2A82F967FEE29657150AE20"
+        "embedded_reader_sha256": "7DCB4C852BF3CCE5928921E13F73FA34E80EA4FEB2A82F967FEE29657150AE20",
+        "desktop_and_mobile_functional_qa": "PASS",
+        "public_http_status": 200
       },
-      "v020_assets_ready": true
+      "anonymous_public_readback": "PASS_12_OF_12_EXACT",
+      "predecessor_history_preserved": true,
+      "force_push": false
     }
   },
   "explicit_holds": [],
-  "open_dispositions": [
-    {
-      "id": "ISV020-GITHUB-PUBLICATION",
-      "status": "IN_PROGRESS",
-      "next_condition": "Successful narrow push, tag, release, GitHub Pages deployment, and anonymous byte and functional readback",
-      "resume_action": "Use only the narrow emmy-noether-isv repository; publish the prepared v020 source tree and exact four release assets; deploy the live reader; then anonymously read back and hash every public file."
-    }
-  ],
+  "open_dispositions": [],
   "next_work": [
     {
       "priority": 1,
-      "stage": "github_publication",
-      "task": "Publish the already frozen v020 source tree and exact public four to https://github.com/KokunoYumeto/emmy-noether-isv, create tag v2026.08.22-v020 and its release, deploy the Interslavic-first GitHub Pages reader, then anonymously read back and hash every public byte and functionally verify the reader. Zenodo v020 is already complete and must not be republished."
+      "stage": "prospective_v021_linguistic_normalization",
+      "task": "Continue only from the exact independently authenticated v021 state in noether_isv_v021_working. Apply no candidate until its source pins, locators, protected-span boundaries, semantic evidence, reverse replay, and append-only sealing gates pass. Update GitHub Pages and the existing Zenodo lineage only at the next meaningful frozen release."
     }
   ],
   "publication_policy": {
