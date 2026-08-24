@@ -5,10 +5,10 @@ type: dataset
 authors:
   - family-names: Noether
     given-names: Emmy
-version: "NOETHER-ISV-v020"
-date-released: 2026-08-22
-doi: 10.5281/zenodo.22058530
-url: "https://doi.org/10.5281/zenodo.22058530"
+version: "NOETHER-ISV-v021"
+date-released: 2026-08-24
+doi: 10.5281/zenodo.22077468
+url: "https://doi.org/10.5281/zenodo.22077468"
 repository-code: "https://github.com/KokunoYumeto/emmy-noether-isv"
 license: CC0-1.0
 preferred-citation:
@@ -18,18 +18,22 @@ preferred-citation:
     - family-names: Noether
       given-names: Emmy
   year: 2026
-  doi: 10.5281/zenodo.22058530
+  doi: 10.5281/zenodo.22077468
 abstract: >-
   Polno naučno rabotno medžuslovjansko izdanje statij 1–43, lekcijskogo
   děla 44, statje 45 i bibliografije, izrabotano s mašinnoju pomočju.
-  Latiničny tekst jest jezyčny kanon; kiriličny tekst jest deterministično
-  izvedeny zapis. Izdanje ne tvrdi nezavisnu rodno-govoriteljsku, obćinsku,
-  oficialno-standardnu ili naučno-recenzijsku potvrdu. Complete
-  machine-assisted Interslavic scholarly working edition of Papers 1–43,
-  lecture work 44, Paper 45, and the bibliography. Latin is the language
-  canon; Cyrillic is a deterministic representation. No independent
-  native-speaker, community, official-standard, or scholarly certification
-  is claimed.
+  Latiničny tekst pri glave ISV021-EDIT-0012 jest jediny jezyčny kanon;
+  kiriličny tekst jest deterministično izvedeny zapis projektora v8.
+  Versija v021 imaje 12 zamrznutyh rěšenij, 4 053 lokalizovane popravky
+  i nula otvorenih projekcijnyh pogrěšek. Izdanje ne tvrdi nezavisnu
+  rodno-govoriteljsku, obćinsku, oficialno-standardnu, institucionalnu
+  ili naučno-recenzijsku potvrdu. Complete machine-assisted Interslavic
+  scholarly working edition of Papers 1–43, lecture work 44, Paper 45,
+  and the bibliography. Latin at head ISV021-EDIT-0012 is the sole
+  language canon; Cyrillic is a deterministic v8 representation. V021
+  contains 12 sealed decisions, 4,053 localized corrections, and zero
+  open projection errors. No independent native-speaker, community,
+  official-standard, institutional, or scholarly certification is claimed.
 keywords:
   - Emmy Noether
   - Medžuslovjansky

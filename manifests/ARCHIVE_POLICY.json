@@ -1,0 +1,12 @@
+{
+  "schema": "noether-interslavic-deterministic-zip-policy/1.0",
+  "release_id": "NOETHER-ISV-v021",
+  "archive_role": "editable_sources",
+  "fixed_member_timestamp": "2026-08-24T00:00:00",
+  "compression": "ZIP_DEFLATED level 9",
+  "member_order": "UTF-8 path lexical order",
+  "member_permissions": "regular file 0644",
+  "member_manifest": "manifests/SOURCE_MEMBER_SHA256.tsv",
+  "member_manifest_excludes_itself": true,
+  "credentials_and_task_transcripts_excluded": true
+}

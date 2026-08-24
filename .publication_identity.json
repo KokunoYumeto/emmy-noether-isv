@@ -2,12 +2,12 @@
   "concept_doi": "10.5281/zenodo.21926382",
   "language": "isv",
   "live_reader": "https://kokunoyumeto.github.io/emmy-noether-isv/",
-  "release_tag": "v2026.08.22-v020",
+  "release_tag": "v2026.08.24-v021",
   "repository": "https://github.com/KokunoYumeto/emmy-noether-isv",
   "schema": "emmy-noether-language-repository-identity/1.1",
   "scripts": [
     "isv-Latn",
     "isv-Cyrl"
   ],
-  "version_doi": "10.5281/zenodo.22058530"
+  "version_doi": "10.5281/zenodo.22077468"
 }

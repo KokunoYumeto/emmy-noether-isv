@@ -1,0 +1,70 @@
+{
+  "schema": "noether-isv-v021-rejected-applicator/1.0",
+  "edit_id": "ISV021-EDIT-0002",
+  "recorded_at": "2026-08-23T22:02:00+02:00",
+  "status": "REJECTED_PREAPPLY_NO_SOURCE_MUTATION",
+  "rejected_applicator": {
+    "path": "apply_residual_orthography_semantics_v021.py",
+    "bytes": 21538,
+    "sha256": "A872C49B2C7DA2F2290AAEF83035FA931325929B85193161D72360EA608F1F3F"
+  },
+  "preserved_candidate_receipt": {
+    "path": "decision_records/ISV021-EDIT-0002-UNAPPLIED-CANDIDATE-RECEIPT.json",
+    "bytes": 52752,
+    "sha256": "432F1DC674F54AB722BF4395D12E50DA60040C6664B311F5A6F9932106632C9F"
+  },
+  "linguistic_projection": {
+    "status": "MATCHED_INDEPENDENT_RECONSTRUCTION",
+    "sites": 235,
+    "physical_lines": 191,
+    "locator_canonical_bytes": 31440,
+    "locator_sha256": "979566CAC52BD2005F4141681500C7FB364F92AE9686072C520C22AB03A4EF97",
+    "projected_successor_pins_matched": true,
+    "exact_reverse_and_structural_signatures_passed": true
+  },
+  "transaction_defects": [
+    {
+      "id": "R1-CLEANUP-LOCK-LOSS",
+      "severity": "REJECT_PREAPPLY",
+      "description": "The applicator set its coherent flag before deleting rollback images. If rollback deletion failed after partial cleanup, the exception path could preserve a mixed or uncertain state while finally removed the lock on the stale flag.",
+      "required_correction": "Treat installed-successor coherence separately from cleanup completion; never partially restore a coherent successor after cleanup failure; retain the lock and remaining evidence unless the exact successor or exact restored predecessor plus residue cleanup is proved."
+    },
+    {
+      "id": "R1-INSTALL-TOCTOU",
+      "severity": "REJECT_PREAPPLY",
+      "description": "The applicator performed one cohort check before the install loop but did not recheck lock, target, stage, and rollback identities and payloads immediately before each os.replace.",
+      "required_correction": "Pin filesystem identities and payloads after lock acquisition and stage creation; recheck all installed and pending targets and owned transaction artifacts before each replacement; preserve third-state evidence."
+    }
+  ],
+  "independent_reviewer": {
+    "task": "/root/edit0002_review",
+    "binary_verdict": "REJECT_PREAPPLY_R1"
+  },
+  "source_cohort_after_rejection": {
+    "44-book-isv.tex": {
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    "45-isv.tex": {
+      "bytes": 26053,
+      "sha256": "A52ADE5B028E40677D7C689C5C6E63C9FE7102F543B8BF7FFFCB0E19576A44CF"
+    },
+    "base-papers1-43-isv.tex": {
+      "bytes": 1894703,
+      "sha256": "041FFBA15D5333962D9E1B2DE6925E1372446F5996F3DC2AA57A67F9B9113AA9"
+    },
+    "bib-isv.tex": {
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  },
+  "transaction_residue_after_rejection": 0,
+  "claims": {
+    "source_mutation": false,
+    "build": false,
+    "render": false,
+    "git": false,
+    "network": false,
+    "publication": false
+  }
+}

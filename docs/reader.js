@@ -1,6 +1,7 @@
 (() => {
   "use strict";
 
+  const RELEASE_ID = "NOETHER-ISV-v021";
   const PDF_PATH = "00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf";
   const MAX_PAGE = 1159;
   const sections = { front: 1, latn: 5, cyrl: 571 };
@@ -8,6 +9,8 @@
   const pageInput = document.getElementById("page-number");
   const openLink = document.getElementById("reader-open");
   const sectionButtons = [...document.querySelectorAll("[data-page]")];
+
+  document.documentElement.dataset.release = RELEASE_ID;
 
   const clampPage = (value) => Math.min(MAX_PAGE, Math.max(1, Number(value) || 1));
   const pdfTarget = (page) => `${PDF_PATH}#page=${page}&zoom=page-width&view=FitH`;

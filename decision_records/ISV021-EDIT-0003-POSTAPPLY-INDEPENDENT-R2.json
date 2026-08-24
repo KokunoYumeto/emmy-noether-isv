@@ -1,0 +1,71 @@
+{
+  "schema": "noether-isv-v021-edit0003-independent-live-postapply-v1",
+  "decision_id": "ISV021-EDIT-0003",
+  "recorded_at": "2026-08-23T23:28:03.8374540+02:00",
+  "status": "PASS_SUCCESSOR",
+  "application_executions": 1,
+  "live_sources": {
+    "44-book-isv.tex": {
+      "bytes": 168422,
+      "sha256": "1B7432A5D2D8BF31D286CCDE43D6935BE3619C06D6C3582B60BF680591625A68"
+    },
+    "45-isv.tex": {
+      "bytes": 26043,
+      "sha256": "403E22F8770C9180ED2A54430CDE0E09F6E3DDF919115413E11A05CFA16B8C11"
+    },
+    "base-papers1-43-isv.tex": {
+      "bytes": 1894577,
+      "sha256": "EACFE1473BBF5D82A4B07309C33787A198FE9B111F2228323D4A6076578D389E"
+    },
+    "bib-isv.tex": {
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  },
+  "coverage": {
+    "sites": 17,
+    "physical_lines": 16,
+    "locator_manifest_bytes": 1966,
+    "locator_manifest_sha256": "46D716A8490E90C5514775664E312C1495EC517527645B476CA68393CBDA165A"
+  },
+  "replay": {
+    "opposite_predecessor_bytes": 26038,
+    "opposite_predecessor_sha256": "636E873287E0127A58DCBF014CB3C0343EF9D4545D90C2A6475E9F1E5F8B8ADD",
+    "exact_roundtrip": true,
+    "structure_equal": true,
+    "visible_text_only": true
+  },
+  "self_verification": {
+    "receipt": "decision_records/ISV021-EDIT-0003-POSTAPPLY-SELF-R2.json",
+    "receipt_bytes": 2375,
+    "receipt_sha256": "2887204EAFB2558C10C88BA4CA584CA7DC05409C25AC6A52D26E22AD444A3DB8",
+    "runs": 3,
+    "each_stdout_bytes": 2054,
+    "each_stdout_sha256": "3C833AC7F9EDBECBE8FED85C6C9C66BE04ADA5FBE93AA6B099F12637B16B9842",
+    "each_stderr_bytes": 0
+  },
+  "independent_verification": {
+    "tool": "verify_paper45_high_confidence_v021.py",
+    "tool_bytes": 12954,
+    "tool_sha256": "34A30C7D3BD0000DF39D2192DEBFF74673AB7CB8F1C80343ACF0EE45B87BEC36",
+    "runs": 3,
+    "each_status": "PASS_SUCCESSOR",
+    "each_stdout_bytes": 1935,
+    "each_stdout_sha256": "4AF2E31D8914210CA2FF2CDF5C5B22B52AC6CDFADBBAF327A565C9835EACE018",
+    "each_stderr_bytes": 0
+  },
+  "authority": {
+    "german_ed0015_sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+    "official_dictionary_sha256": "0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561",
+    "dictionary_component_row": "komponent, masculine"
+  },
+  "transaction_residue": 0,
+  "claims": {
+    "build": false,
+    "render": false,
+    "git": false,
+    "network": false,
+    "publication": false,
+    "native_or_community_certification": false
+  }
+}

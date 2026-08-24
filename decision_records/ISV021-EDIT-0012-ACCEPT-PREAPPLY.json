@@ -1,0 +1,113 @@
+{
+  "schema": "noether-isv-v021-edit0012-preapply-review-v1",
+  "decision_id": "ISV021-EDIT-0012",
+  "revision": "R1",
+  "recorded_at": "2026-08-24T08:39:52.7895495+02:00",
+  "status": "ACCEPT_PREAPPLY",
+  "applied": false,
+  "scope": "Complete the declared standard/basic reader-facing Latin surface by omitting the optional diacritic at exactly 1798 local Interslavic sites: 1716 ę-to-e, 13 ų-to-u, two ė-to-e, five ľ-to-l, 59 ť-to-t, and three ś-to-s sites on 1042 physical lines. Preserve four foreign è spellings byte-identically.",
+  "motivation": "Official orthography lines 69-80 define these as optional extensions and line 80 gives the standard representation as the same letter without the diacritic. Lines 102-106 discourage an unexplained extended surface for ordinary readers and identify ľ/ť/è as sanctioned alternate glyphs of the same optional layer. The pinned dictionary implementation and generated basic display independently encode the exact mappings. The edition already declares its public Latin surface standard/basic, so retaining a mixed extended layer is inconsistent and less accessible.",
+  "alternatives_rejected": [
+    "Retain the mixed extended spellings: rejected because that contradicts the edition's declared standard/basic reader-facing surface and the controlling official display rule.",
+    "Apply generic Unicode accent stripping: rejected because only the exact six-codepoint allowlist is authorized and generic stripping would corrupt standard letters and foreign spellings.",
+    "Convert all raw è occurrences: rejected because Liège, système, algèbre, and Cavaillès are French payloads inside balanced foreign custody, not Interslavic alternate ė spellings.",
+    "Partition the local forms by lexeme or mathematical context: rejected because every local occurrence is the same optional display layer; the 20 math-zone sites are exclusively reader text in text/hbox, never mathematical symbols."
+  ],
+  "coverage": {
+    "sites": 1798,
+    "physical_lines": 1042,
+    "characters": {
+      "ę_to_e": 1716,
+      "ų_to_u": 13,
+      "ė_to_e": 2,
+      "ľ_to_l": 5,
+      "ť_to_t": 59,
+      "ś_to_s": 3
+    },
+    "roles": {
+      "visible_prose": 1778,
+      "visible_math_text": 20
+    },
+    "by_file": {
+      "44-book-isv.tex": 72,
+      "45-isv.tex": 7,
+      "base-papers1-43-isv.tex": 1715,
+      "bib-isv.tex": 4
+    },
+    "protected_foreign": [
+      "base-papers1-43-isv.tex:6753:1232 Liège",
+      "base-papers1-43-isv.tex:10729:1083 système",
+      "base-papers1-43-isv.tex:24453:119 algèbre",
+      "bib-isv.tex:220:90 Cavaillès"
+    ],
+    "locator_manifest_bytes": 291190,
+    "locator_manifest_sha256": "D41F4B6588FA74D999DE749D46DC507F27600651CCC7B00E9E1DC86005A64994",
+    "projected_visible_optional_residue": 0,
+    "projected_global_optional_residue": {
+      "protected_foreign_è": 4
+    }
+  },
+  "authority": {
+    "official_orthography": "16443/90C609CC0E8709E8395964E9F20D6D4FB4E31159CBC2B1EA515A29D9D1C72044; controlling lines 69-80,102-106",
+    "upstream_archive": "11271766/E02AA89235E4A7B536F3D762126293A3E348319CA1B11CBF8D219A65D03172BE",
+    "generated_basic_snapshot_entry": "16930150/DB40B9256BF257A0CEA44931A450C0B268BC81897CADEE9ECCD545FE0F4DEACC",
+    "dictionary_implementation_entry": "26926/60C09F2C2B3015033F1342BEA95FC48A1C36772F75880F669FB14C110577101D; mapping lines 64-75"
+  },
+  "predecessor": {
+    "44-book-isv.tex": "168456/DAF592E5F9D92186B1B7E8E7D64288D04053CE3C1FE10A48C96082F6E52F8103",
+    "45-isv.tex": "26043/FEF628A7947285FAE15C7F5724BD3C87F027911D2C36E16A546CCEB69AF5CC33",
+    "base-papers1-43-isv.tex": "1894798/03995C2AC0455516F370C9752903D9826B8B1CF6FA4981BEEF90B40AC34CD6FE",
+    "bib-isv.tex": "10020/FFA7F9FD323A7C0B134986EDFE0E1484C04C61ECA576B60DB6E2C2B70B9778E3"
+  },
+  "successor": {
+    "44-book-isv.tex": "168384/FFEAE898972515A69D9BCD4930ECEEF2C91DD7114E0CA0B0F64E2157ED32E698",
+    "45-isv.tex": "26036/E49033F3C3004F921CD234610425905FF1D46405107D8EB99BC431864BB4473D",
+    "base-papers1-43-isv.tex": "1893083/237FFE1460816EAF8CCD6E00F9500F816A285830CE62E28E49CECB94685B16E9",
+    "bib-isv.tex": "10016/D14F600C71E911F49F0A81B85B2C476F7BED490D597E2045AC55744774D201B1"
+  },
+  "tools": {
+    "audit": "18616/3D7514BB1D2A736C045FCBDBE8665849DE80326CFB31BD9763B006229FE53E79",
+    "applicator": "9837/D95530A3E10D73E906D14D50C1A6C7A623412EB63D2909D1E57EF6F7ADD44A94",
+    "independent_verifier": "19488/C5B6752CEB1821BB8EFF2E676703ED12A2CD6B55FF7E7C8E3CE2C8C10898B57F",
+    "transaction_test": "6622/4D7016828C4329833BC844BD4A3FCA80F681ADC13399090D732C9183F37F94ED",
+    "candidate_receipt": "504696/D9519C0677BA506F421C0E44F4EC5850A290D1C0153B021E0BBF483371A88345",
+    "transaction_core": "29146/C47DBFC4221DC99B2072491034ECDB9FD0C7ADE6D1BD4800333CB82FBAC4EB87",
+    "projected_cyrillic_frontier_audit": "7354/8D1930119D7A85FE7AFAF3356C2D212973A53241C08F1D84F0E5F76CA042A640"
+  },
+  "runtime_validation": {
+    "audit_compact_runs": "3 identical PASS_READ_ONLY_PROJECTED_CANDIDATE; exit 0; stdout 326322 B / F8D1AA6C2D902E45FC2DD31F8BD00650CF521A471B382A4430CAA2C14703ADB1; stderr 0",
+    "applicator_dry_runs": "3 identical FROZEN_UNAPPLIED_HASH_GATED_CANDIDATE; exit 0; stdout 327209 B / 5682651CEF71C948ADD98C7A10FF4E486CE8A36BC374D93D6C850E0DFD5A7DD1; stderr 0",
+    "independent_verifier_runs": "3 PASS_PREDECESSOR; exact forward/reverse, locators, authority, math-text, protected foreign, UTF-8, and TeX structure pass; stderr 0",
+    "transaction_test_runs": "3 PASS; clean install, mid-install rollback, and coherent-successor cleanup-failure evidence cases; live source writes 0",
+    "projected_frontier": "The exact successor leaves 722 projection blocks across 17 casefolds, all Roman numerals I-XXII; 704 identity holds and 116 mapping blocks overlap. There are zero non-Roman lexical projection blocks, zero coverage failures, zero parse errors, and zero unknown argument commands. This is a deterministic projection-policy queue, not a remaining Latin linguistic defect queue."
+  },
+  "independent_agent_reviews": [
+    {
+      "task_identity": "/root/edit0012_nasal_vowels_audit",
+      "brief": "Independently inventory and adjudicate all ę/ų sites against exact standard/basic authority; no writes.",
+      "return": "ACCEPT 1729 sites: 1716 ę-to-e and 13 ų-to-u, all reader-visible local Interslavic; 19 math-zone sites are reader text; no protected, foreign, name, comment, command, or mathematical-symbol exceptions.",
+      "parent_disposition": "Accepted after parent full-manifest reconstruction, exact authority authentication, bidirectional replay, and producer-independent verification."
+    },
+    {
+      "task_identity": "/root/edit0012_minor_letters_audit",
+      "brief": "Independently inventory and adjudicate ė/ľ/ť/ś plus raw è boundaries; no writes.",
+      "return": "ACCEPT 69 local sites and PRESERVE all four foreign è. Supplied exact family/locator inventory, authority witnesses, projected hashes, and structural proof.",
+      "parent_disposition": "Accepted after parent full-manifest reconstruction, foreign-span replay, exact authority authentication, and producer-independent verification."
+    },
+    {
+      "task_identity": "/root/edit0012_policy_review",
+      "brief": "Independently decide whether the declared basic surface requires one complete six-codepoint transform or a partition; no writes.",
+      "return": "ACCEPT the exact 1798-site allowlist and preserve four foreign è; no semantic, mathematical, name, or consistency exception; generic diacritic stripping explicitly rejected.",
+      "parent_disposition": "Accepted after direct parent census, source/authority rehash, exact projection, and frontier scan."
+    },
+    {
+      "task_identity": "/root/edit0012_applicator_review",
+      "brief": "Independently audit tool/source pins, manifest, protected boundary, successor replay, and transaction safety without apply mode or writes.",
+      "return": "ACCEPT_PREAPPLY; reproduced all 1798 locators and four successor hashes, exact reverse, protected four è, structural signatures, and safe transaction ownership/reconciliation behavior.",
+      "parent_disposition": "Accepted after direct parent transaction-test replay in three isolated TemporaryDirectory cases and exact tool rehashing."
+    }
+  ],
+  "supersession": "This edit supersedes only optional-extended-letter spelling-layer choices in prior v021 decisions. All lexical, semantic, mathematical, source, uncertainty, and adverse-history findings remain active. Foreign spellings remain protected.",
+  "confidence": 0.997,
+  "authorization": "Execute this exact hash-gated transaction once, then seal live self and producer-independent successor verification. No generic normalization, lexical change, protected foreign edit, Git, network, build, or publication mutation is authorized by this record."
+}

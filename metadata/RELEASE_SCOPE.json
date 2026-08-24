@@ -1,8 +1,10 @@
 {
-  "schema": "noether-interslavic-release-scope/1.0",
-  "release_id": "NOETHER-ISV-v020",
-  "version": "2026.08.22-v020",
-  "publication_date": "2026-08-22",
+  "schema": "noether-interslavic-release-scope/1.1",
+  "release_id": "NOETHER-ISV-v021",
+  "version": "2026.08.24-v021",
+  "publication_date": "2026-08-24",
+  "version_doi": "10.5281/zenodo.22077468",
+  "concept_doi": "10.5281/zenodo.21926382",
   "language": "isv",
   "scripts": [
     "isv-Latn",
@@ -24,20 +26,53 @@
     "pages": 1159,
     "latin_pages": 565,
     "cyrillic_pages": 588,
-    "front_and_divider_pages": 6
+    "front_and_divider_pages": 6,
+    "candidate_bytes": 6878076,
+    "candidate_sha256": "C296AFCAB42B68E228B4438B11D6BBF6B6054DC48683B13BFC31EB4132C8E8D1"
   },
-  "v020_correction": {
-    "latin_bytes_changed": 0,
-    "inherited_role_records_reviewed": 4560,
-    "classification_defects_corrected": 364,
-    "missing_identity_boundaries_added": 8,
-    "verified_effects": 372,
-    "changed_lines": 125,
-    "licensed_lines": 309,
-    "unlicensed_changed_lines": 0
+  "methods_publication": {
+    "pages": 13,
+    "bytes": 182587,
+    "sha256": "931C14ED6AF93B7B59FC538D6A68BB986B016E018F37BDC920BAB63C973675DC",
+    "interslavic_first_english_parallel": true
   },
-  "review_status": "model/agent-produced and machine-assisted; no independent native-speaker, community, official-standard, or scholarly-peer-review certification claimed",
-  "unresolved_release_blockers": 0,
-  "linguistic_scanner_blockers": 0,
-  "unsupported_projectable_tokens": 0
+  "v021_correction": {
+    "latin_head": "ISV021-EDIT-0012",
+    "sealed_decisions": 12,
+    "localized_sites_changed": 4053,
+    "byte_delta_from_predecessor": -1696,
+    "non_roman_projection_blockers": 0,
+    "protected_foreign_e_grave_spellings": 4,
+    "generic_diacritic_stripping": false
+  },
+  "cyrillic_projection": {
+    "projector": "project_isv_cyrillic_v8.py",
+    "role_records": 5290,
+    "roman_identity_sites": 722,
+    "projection_issues": 0,
+    "unlicensed_output_changes": 0
+  },
+  "structural_qa": {
+    "checks": 38,
+    "failed_checks": 0,
+    "errors": 0
+  },
+  "visual_qa": {
+    "status": "PASS",
+    "receipt_path": "release_v021/evidence/visual-qa-receipt.json",
+    "receipt_bytes": 19409,
+    "receipt_sha256": "D70F9DD6FF1466158C51835C8FCDA1A612B7E32B8CB2F07AA59E55E206935B18",
+    "authenticated_pages": 1159,
+    "changed_page_samples": 129,
+    "adjacent_unchanged_controls": 60,
+    "methods_pages_reviewed": 13,
+    "visual_defects": 0
+  },
+  "non_self_referential_publication_authorities": {
+    "package_pins": "release_v021/RELEASE_MANIFEST.json and 03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt",
+    "repository_commit_and_tag": "release_v021/evidence/PUBLICATION_RECEIPT.json after public push and anonymous readback",
+    "policy": "ZIP payloads deliberately do not embed their own final byte hashes."
+  },
+  "review_status": "model/agent-produced and machine-assisted; no independent native-speaker, community, official-standard, institutional, or scholarly-peer-review certification claimed",
+  "rights": "CC0 only to the extent rights exist in project-created translation, editorial work, metadata, manifests, tools, and evidence; third-party material retains its own status"
 }

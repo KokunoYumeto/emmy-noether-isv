@@ -1,0 +1,84 @@
+{
+  "schema": "noether-isv-v021-edit0001-independent-live-postapply-guard-v1",
+  "edit_id": "ISV021-EDIT-0001",
+  "recorded_at": "2026-08-22T18:50:00+02:00",
+  "reviewer_task": "/root/isv021_residual_audit",
+  "mode": "bounded read-only live successor verification",
+  "binary_verdict": "PASS",
+  "live_sources": {
+    "44-book-isv.tex": {
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    "45-isv.tex": {
+      "bytes": 26053,
+      "sha256": "A52ADE5B028E40677D7C689C5C6E63C9FE7102F543B8BF7FFFCB0E19576A44CF"
+    },
+    "base-papers1-43-isv.tex": {
+      "bytes": 1894703,
+      "sha256": "041FFBA15D5333962D9E1B2DE6925E1372446F5996F3DC2AA57A67F9B9113AA9"
+    },
+    "bib-isv.tex": {
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  },
+  "coverage": {
+    "source_residue": {
+      "dvuh": 0,
+      "dveh": 0,
+      "dvěh": 0,
+      "dvaju": 0,
+      "dvěma": 0,
+      "dvije": 0
+    },
+    "targets": {
+      "dvoh": 197,
+      "dvom": 3,
+      "dvoma": 24,
+      "dvě_exact_lower": 74,
+      "dvě_casefold": 81
+    },
+    "holds": {
+      "obadvuh": "base-papers1-43-isv.tex:22486:284",
+      "dvoju": "base-papers1-43-isv.tex:21831:101",
+      "dvojim": "base-papers1-43-isv.tex:573:97"
+    }
+  },
+  "replay": {
+    "forward_from_exact_v020_predecessor_equals_live_successor": true,
+    "locator_bound_reverse_restores_all_four_v020_pins": true,
+    "source_manifest": {
+      "format": "filename<TAB>line<TAB>column<TAB>old<TAB>new<LF>",
+      "bytes": 4007,
+      "sha256": "F9FC43567A4E71E456E7F563F48B89A09152ADDF48B09D117DB5998381585C93"
+    },
+    "reverse_manifest": {
+      "bytes": 4007,
+      "sha256": "79C81321C4B090528F9AAF01485FF5368C1347668F9F81F1354108BEC4985A4B"
+    }
+  },
+  "structure": {
+    "line_counts_equal": true,
+    "terminal_lf_equal": true,
+    "brace_stream_equal": true,
+    "ordered_control_stream_equal": true,
+    "environment_stream_equal": true,
+    "math_delimiter_stream_equal": true,
+    "comment_stream_equal": true,
+    "foreign_stream_equal": true
+  },
+  "transaction_residue": {
+    "lock_present": false,
+    "stage_paths_present": 0,
+    "rollback_paths_present": 0
+  },
+  "claims": {
+    "files_written_by_reviewer": false,
+    "git": false,
+    "network": false,
+    "build": false,
+    "render": false,
+    "publication": false
+  }
+}

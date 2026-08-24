@@ -1,0 +1,90 @@
+{
+  "schema": "noether-isv-edit-preapply-review-v1",
+  "edit_id": "ISV021-EDIT-0002",
+  "recorded_at": "2026-08-23T22:38:20.9355044+02:00",
+  "verdict": "ACCEPT_PREAPPLY",
+  "review_task": "/root/edit0002_review",
+  "review_model": "not exposed",
+  "scope": "Independent bounded review of the frozen 235-site, five-family Interslavic normalization and its hardened transactional applicator.",
+  "frozen_inputs": {
+    "applicator": {
+      "path": "apply_residual_orthography_semantics_v021.py",
+      "bytes": 29146,
+      "sha256": "C47DBFC4221DC99B2072491034ECDB9FD0C7ADE6D1BD4800333CB82FBAC4EB87"
+    },
+    "verifier": {
+      "path": "verify_residual_orthography_semantics_v021.py",
+      "bytes": 18266,
+      "sha256": "D425DB23F0D9560AA5F6C07744E2CCCB3B9D07208EC944DE162F5B3043C96F54"
+    },
+    "transaction_test": {
+      "path": "test_residual_orthography_semantics_transaction_v021.py",
+      "bytes": 9010,
+      "sha256": "4F109E3D35ECA42305ECB2A3B3BEACFA141AD9943D74203F6A33A86ECD5399A5"
+    },
+    "candidate_receipt": {
+      "path": "decision_records/ISV021-EDIT-0002-UNAPPLIED-CANDIDATE-RECEIPT-R2.json",
+      "bytes": 52752,
+      "sha256": "89C5B59B43699C0C58AEB962CC745B21FA6209BEC88A743049517CB9F6206DDF"
+    },
+    "rejected_r1_record": {
+      "path": "decision_records/ISV021-EDIT-0002-REJECTED-APPLICATOR-R1.json",
+      "bytes": 3075,
+      "sha256": "39F981D9D82AEA3B832AACD5AE6C2CD5AC93A56DC7D70492F53DDE4510818571"
+    }
+  },
+  "coverage": {
+    "sites": 235,
+    "physical_lines": 191,
+    "families": {
+      "pomoč_to_pomoć": 96,
+      "celost_to_cělost": 5,
+      "imenujuče_to_imenno": 4,
+      "vrědnost_noun_to_cěnnost": 125,
+      "cěločislovn_to_cěločislov": 5
+    },
+    "files": {
+      "44-book-isv.tex": 1,
+      "45-isv.tex": 20,
+      "base-papers1-43-isv.tex": 214,
+      "bib-isv.tex": 0
+    },
+    "locator_manifest_bytes": 31440,
+    "locator_manifest_sha256": "979566CAC52BD2005F4141681500C7FB364F92AE9686072C520C22AB03A4EF97"
+  },
+  "fresh_parent_checks": {
+    "three_identical_read_only_applicator_runs": {
+      "exit": 0,
+      "stdout_bytes": 37451,
+      "stdout_sha256": "3F00C79C5C8DD012121FA4FB281F9A24C3C1068074CE1E4D7BE8990ED3336A24",
+      "stderr_bytes": 0
+    },
+    "two_identical_transaction_test_runs": {
+      "exit": 0,
+      "stdout_bytes": 799,
+      "stdout_sha256": "F920F9C0AEBC802FFEA1F7AAD7225AC5240FEABF56D70BC3FBD4B58FB531A035",
+      "stderr_bytes": 0
+    },
+    "three_identical_independent_verifier_runs": {
+      "exit": 0,
+      "status": "PASS_PREDECESSOR",
+      "stdout_bytes": 4654,
+      "stdout_sha256": "CD090EDCF416207E35C2DF45FBF0E1BD5A0AFCD2436EFCC7D24C8AE68DBE7276",
+      "stderr_bytes": 0
+    }
+  },
+  "review_findings": {
+    "exact_predecessor_authenticated": true,
+    "projected_successor_authenticated": true,
+    "exact_reverse_replay": true,
+    "tex_structure_preserved": true,
+    "visible_prose_only": true,
+    "semantic_evidence_supports_all_five_families": true,
+    "transaction_identity_rechecked_before_each_replace": true,
+    "cleanup_failure_retains_lock_and_evidence": true,
+    "uncertain_third_states_preserved": true,
+    "remaining_preapply_safety_defect": false
+  },
+  "documentation_note": "The live corpus contains two cělosť spellings; describe the house surface as predominant rather than fully consistent. This does not affect the five accepted celost-to-cělost edits.",
+  "authorization_boundary": "This receipt accepts only the exact frozen R2 applicator and candidate bytes for the designed one-time apply and postapply verification workflow."
+}

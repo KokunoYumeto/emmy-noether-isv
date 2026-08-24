@@ -1,6 +1,6 @@
 __pycache__/
 *.pyc
 tmp/
-github_repository_v020/
-release_v020/pdf/
-release_v020/evidence/text/
+release_v021/pdf/
+release_v021/evidence/text/
+*.new

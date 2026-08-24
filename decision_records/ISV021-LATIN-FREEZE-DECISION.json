@@ -1,0 +1,101 @@
+{
+  "schema": "noether-isv-v021-latin-freeze-decision-v1",
+  "decision_id": "ISV021-LATIN-FREEZE",
+  "recorded_at": "2026-08-24T08:59:10.6362053+02:00",
+  "status": "ACCEPT_LATIN_FREEZE_ZERO_NON_ROMAN_PROJECTION_BLOCKS",
+  "latin_head": "ISV021-EDIT-0012",
+  "sealed_decisions": 12,
+  "cumulative_v021_sites_changed": 4053,
+  "source_latin": {
+    "44-book-isv.tex": "168384/FFEAE898972515A69D9BCD4930ECEEF2C91DD7114E0CA0B0F64E2157ED32E698",
+    "45-isv.tex": "26036/E49033F3C3004F921CD234610425905FF1D46405107D8EB99BC431864BB4473D",
+    "base-papers1-43-isv.tex": "1893083/237FFE1460816EAF8CCD6E00F9500F816A285830CE62E28E49CECB94685B16E9",
+    "bib-isv.tex": "10016/D14F600C71E911F49F0A81B85B2C476F7BED490D597E2045AC55744774D201B1"
+  },
+  "frontier_audit": {
+    "tool": "10041/CC5C6F3139FB1142513E2F1AC1517181AEFBCC71734CABF16F143D93EF3E4744",
+    "accepted_receipt": "360147/C0584834AF4A2638E763BCEEEA92D0A5C43F40380BC97B36A98BC4D25D6B686B",
+    "status": "PASS_LIVE_SEALED_LATIN_ZERO_NON_ROMAN_PROJECTION_BLOCKS",
+    "parse_errors": 0,
+    "coverage_failures": 0,
+    "unknown_argument_commands": 0,
+    "blocked_occurrences": 722,
+    "non_roman_block_occurrences": 0,
+    "roman_identity_occurrences": 722,
+    "roman_identity_unique_casefolds": 17,
+    "blocked_and_roman_inventory_sha256": "B4791B7F5B769381C258C7EE1AFDE631F04808AC4047AD501E58F2E0E6D22D49",
+    "empty_non_roman_inventory_sha256": "37517E5F3DC66819F61F5A7BB8ACE1921282415F10551D2DEFA5C3EB0985B570"
+  },
+  "roman_identity_policy": {
+    "casefold_allowlist": [
+      "ii",
+      "iii",
+      "iv",
+      "ix",
+      "vi",
+      "vii",
+      "viii",
+      "x",
+      "xi",
+      "xii",
+      "xiii",
+      "xiv",
+      "xix",
+      "xv",
+      "xvi",
+      "xvii",
+      "xxii"
+    ],
+    "observed_counts": {
+      "II": 215,
+      "III": 165,
+      "IV": 103,
+      "VI": 40,
+      "VII": 44,
+      "VIII": 39,
+      "IX": 19,
+      "X": 18,
+      "XI": 20,
+      "XII": 11,
+      "XIII": 10,
+      "XIV": 12,
+      "XV": 7,
+      "XVI": 6,
+      "XVII": 9,
+      "XIX": 3,
+      "XXII": 1
+    },
+    "roles": {
+      "visible_prose": 705,
+      "visible_math_text": 17
+    },
+    "disposition": "Preserve these exact structural theorem and section numerals byte-identically in the deterministic Cyrillic representation; they are not Interslavic lexical text."
+  },
+  "adverse_evidence": {
+    "initial_live_receipt": "359492/35B50F342D9ADFA780B3BC11E103610CE758E500C81B1554ECD15DA3A5B9F439",
+    "finding": "The predecessor scanner natively marked 704 Roman holds but classified 18 standalone X theorem labels only as unmapped. The first live wrapper therefore truthfully returned REVIEW rather than silently accepting them.",
+    "resolution": "All 18 exact X locators were manually inspected and independently replayed; four are theorem headings and fourteen are references to those numbered theorems. R2 adds only the exact finite 17-form Roman allowlist and leaves lexical mapping unchanged."
+  },
+  "independent_review": {
+    "identity": "/root/latin_freeze_independent",
+    "verdict": "ACCEPT_LATIN_FREEZE",
+    "scope": "Read-only replay of the sealed head, all 722 issue locators, all 17 Roman forms, and all 18 standalone X contexts.",
+    "results": "Zero line-hash, line/column, byte-offset, or scalar-offset failures; exact 15+18+667+22 per-file census; 705 visible-prose and 17 visible-math-text Roman sites; zero non-Roman exception.",
+    "parent_disposition": "Accepted after parent-side inspection of all 18 standalone X contexts and exact source-pin replay."
+  },
+  "freeze_boundary": {
+    "editable_canon": "The four Latin TeX files above are the frozen v021 linguistic head.",
+    "derived_representation": "Cyrillic must be regenerated deterministically and is not an independent translation witness.",
+    "remaining_work": "Rebase the reviewed role manifest, apply the explicit finite Roman identity policy, generate and verify Cyrillic, then complete reader/methods/build/render/package/publication gates.",
+    "human_review_gate": false
+  },
+  "claims": {
+    "latin_linguistic_frontier_complete": true,
+    "cyrillic_regenerated": false,
+    "build": false,
+    "render": false,
+    "git": false,
+    "publication": false,
+    "native_or_community_certification": false
+  }
+}

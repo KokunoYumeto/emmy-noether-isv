@@ -1,0 +1,89 @@
+{
+  "schema": "noether-isv-v021-edit0009-postapply-independent-v1",
+  "edit_id": "ISV021-EDIT-0009",
+  "recorded_at": "2026-08-24T04:58:19.1838714+02:00",
+  "status": "PASS_SUCCESSOR",
+  "sources": {
+    "44-book-isv.tex": {
+      "bytes": 168427,
+      "sha256": "39FC522BFABDCA4F61A08ED5654224122AC0C64299F078FB16D31A90F3662415"
+    },
+    "45-isv.tex": {
+      "bytes": 26039,
+      "sha256": "E578FC6A58094F2B1F22BCC3CC40B9521A23F8A324FB66F84CC582583E6A9990"
+    },
+    "base-papers1-43-isv.tex": {
+      "bytes": 1894613,
+      "sha256": "C1B9BAC6DC890F8544A8661712B0B87FFC854871BFB52792FD11FAFA82358719"
+    },
+    "bib-isv.tex": {
+      "bytes": 10020,
+      "sha256": "7A45365DC7C9408CF3D50FDAA4C35081E032CC6F07D73A9954D3B1DDF18C9EC7"
+    }
+  },
+  "evidence": {
+    "candidate_receipt": {
+      "bytes": 42803,
+      "sha256": "93B324FA5EA72692C2029FE025DC885E2EDD1E98953B430A1BEBA98906101CE5"
+    },
+    "accept_preapply": {
+      "bytes": 6299,
+      "sha256": "D039A65BB3E17C9378D408601EA57E39D877C8B4AE06CE162BD18E7430D8BB33"
+    },
+    "self_postapply_receipt": {
+      "bytes": 11941,
+      "sha256": "4FD5A1F787CFF4B4F3A81443FDADD595B8395B8A56F72D271FCDDE0CD9A9D211"
+    },
+    "independent_verifier": {
+      "bytes": 18389,
+      "sha256": "402C699419A59279D03EA46D66ED8D2B45F19603A513102FB206128D05120004",
+      "three_identical_runs": true,
+      "stdout_bytes": 3689,
+      "stdout_sha256": "3EAB3F82645C068DA1F0599612C973ADFACBD99CCAB6825A557E9A5A957F1F15",
+      "stderr_bytes": 0
+    },
+    "applicator_successor_report": {
+      "three_identical_runs": true,
+      "stdout_bytes": 8760,
+      "stdout_sha256": "B7C4C4D3F2991818A71F8E729E54D15DFC006ED24AD9966BC28032961C646B8D",
+      "stderr_bytes": 0
+    },
+    "official_dictionary": {
+      "bytes": 8101157,
+      "sha256": "0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561"
+    }
+  },
+  "coverage": {
+    "sites": 100,
+    "physical_lines": 92,
+    "families": 19,
+    "manifest_bytes": 17301,
+    "manifest_sha256": "83A94BB35B3D977455F92441FCD462CDD2B98B1DB78C0BFCAA4BF3DFF8EB5333",
+    "successor_target_residue": 0,
+    "transaction_residue_count": 0
+  },
+  "lexical_successor_lines": {
+    "4906": [674, "37F65DBB10BDE0E5B8B481BBB762D62C27B31BFD1088572BB415D3CAE53AEDB2"],
+    "4910": [413, "4EDC5D40EFB45319E9ECE74E28D8B0AA208230C9D76D4A115CE79214CEA71069"],
+    "5130": [585, "96B3AB0E13378CB8E267E6CD4E9734FDA890E646E115FAEC12642945C78F813A"],
+    "11993": [133, "9161C611D2F8B9F55299CC97C3F2723BF7125B6261FB719EF64BDC85DAA451BC"]
+  },
+  "validation": {
+    "independent_reverse_to_exact_predecessor": true,
+    "independent_forward_replay_to_live_successor": true,
+    "line_column_byte_locators": true,
+    "strict_utf8": true,
+    "protected_tex_structure_equal": true,
+    "protected_official_minority_forms_preserved": 37,
+    "source_writes_by_verifier": 0
+  },
+  "claims": {
+    "latin_edit_applied": true,
+    "cyrillic_regenerated": false,
+    "build_complete": false,
+    "render_complete": false,
+    "git_published": false,
+    "zenodo_published": false,
+    "native_or_community_certification": false
+  }
+}

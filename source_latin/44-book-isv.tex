@@ -48,7 +48,7 @@
 \tocsec{1}{Definicija direktnogo prědstavjenja --- definicija recipročnogo prědstavjenja}{3}
 \tocsec{2}{Klasy prědstavjenij}{4}
 \tocsec{3}{Moduly prědstavjenij}{4}
-\tocsec{4}{Svęz medžu modulami prědstavjenij i prědstavjenjami}{5}
+\tocsec{4}{Svez medžu modulami prědstavjenij i prědstavjenjami}{5}
 \medskip
 \tocline{\textbf{Glava II: Galoisova teorija komutativnyh polj}}{7}
 \tocsec{5}{Razširjenje koeficientnogo polja hiperkompleksnyh sistemov}{7}
@@ -59,10 +59,10 @@
 \tocsec{10}{Galoisova grupa}{9}
 \tocsec{11}{Glavny teorem Galoisovoj teorije}{9}
 \tocsec{12}{Formalno značenje komponentov $e_i$}{11}
-\tocsec{13}{Obći teorem o prodolženju}{12}
+\tocsec{13}{Obči teorem o prodolženju}{12}
 \medskip
 \tocline{\textbf{Glava III: Abelove grupy}}{13}
-\tocsec{14}{Grupovo prsten}{13}
+\tocsec{14}{Grupovy prsten}{13}
 \tocsec{15}{Grupove prsteny abelovyh grup}{14}
 \tocsec{16}{Relacije karakterov}{15}
 \tocsec{17}{Galoisova teorija abelovyh grup}{15}
@@ -78,10 +78,10 @@
 \tocsec{23}{Faktorne sistemy}{30}
 \tocsec{24}{Množenje faktornyh sistemov}{33}
 \tocsec{25}{Normalno prědstavjenje $\mathfrak K_r$ s Galoisovymi maksimalnymi komutativnymi podpoljami}{39}
-\tocsec{26}{Množenje skrěženyh prědstavjenij}{43}
+\tocsec{26}{Množenje prěkriženyh prědstavjenij}{43}
 \medskip
-\tocline{\textbf{Glava VI: Teorija skrěženyh produktov}}{44}
-\tocsec{27}{Prědstavjenja $\mathfrak R_r$ kako skrěžene produkty}{44}
+\tocline{\textbf{Glava VI: Teorija prěkriženyh produktov}}{44}
+\tocsec{27}{Prědstavjenja $\mathfrak R_r$ kako prěkrižene produkty}{44}
 \tocsec{28}{Produktny teorem za faktorne sistemy}{47}
 \tocsec{29}{Teorem o glavnom rodu v minimalnom}{50}
 \tocsec{30}{Specializacija na ciklične razpadne polja}{50}
@@ -91,24 +91,24 @@
 \clearpage
 \section*{Uvod}\label{einleitung}
 
-Ta lekcija obrabja obću teoriju prědstavjenij prstenov, ktora vznikla s
+Ta lekcija obrabja obču teoriju prědstavjenij prstenov, ktora vznikla s
 jednoj strany iz teorije prědstavjenij konečnyh grup, a s drugoj strany
 iz algebraičnoj i aritmetičnoj teorije hiperkompleksnyh čislovyh
-sistemov. To obćejše razuměnje teorije prědstavjenij imaje slědne
+sistemov. To občejše razuměnje teorije prědstavjenij imaje slědne
 prědnosti nad dosěgašnjim pristupom (\foreign{Frobenius},
 \foreign{Schur}):
 
-Zato že razgledamo ne samu grupu, ale grupovo prsten, a obćejše
-hiperkompleksny sistem ili libovoljno prsten, možno priměniti
+Zato že razgledamo ne samu grupu, ale grupovy prsten, a občejše
+hiperkompleksny sistem ili libovoljny prsten, možno priměniti
 teoriju prstenov i idealov i tym osvoboditi teoriju od mnogyh nejasnyh
-izčislenij. To priměnjenje obćej teorije prstenov i idealov ne samo
+izčislenij. To priměnjenje občej teorije prstenov i idealov ne samo
 uproščaje teoriju, ale takože vodi ju dalje --- napr. v pytanju o
 odnošenjah grupy s jej podgrupami --- i otvara jej nove oblasti
-priměnjenja. Pomocju obćej teorije prědstavjenij možno dati novo, vrlo
+priměnjenja. Pomočju občej teorije prědstavjenij možno dati novo, vrlo
 elegantno osnovanje Galoisovoj teoriji i --- možda ješče važnějše ---
 ustanoviti Galoisovu teoriju nekomutativnyh těl.
 
-Osnovne pojmy teorije grup, prstenov i idealov i obće teoremy iz teorije
+Osnovne pojmy teorije grup, prstenov i idealov i obče teoremy iz teorije
 prědstavjenij možno najdti v dělu gospodičny \foreign{Noether}
 \foreign{Hyperkomplexe Größen und Darstellungstheorie},
 \foreign{Mathematische Zeitschrift} 30, str.~641. To dělo, citovano
@@ -123,8 +123,8 @@ prědstavjenja, ktore sut nove samo formalno.
 
 \section*{Glava I. Prědstavjenja}\label{kapitel-i.-darstellungen}
 
-$\mathfrak{o}$ nehaj bude prsten --- prsten, ktore se prědstavja --- a
-$\mathsf T$ drugo prsten --- to, v ktorom se prědstavja.
+$\mathfrak{o}$ nehaj bude prsten --- prsten, ktory se prědstavja --- a
+$\mathsf T$ drugi prsten --- toj, v ktorom se prědstavja.
 
 % BEGIN BOOK_S01
 \subsection*{§ 1. Definicija prěmogo prědstavjenja}\label{definition-der-direkten-darstellung}
@@ -137,17 +137,17 @@ $\mathsf T$ drugo prsten --- to, v ktorom se prědstavja.
 
 \subsection*{Definicija recipročnogo prědstavjenja}\label{definition-der-reziproken-darstellung}
 
-\emph{Recipročno prědstavjenje} \(n\)-togo stupenja od \(\mathfrak{o}\) v \(\mathsf T^*\) jest podprsten \(\mathfrak D^*\) prstena \(\mathsf T_n^*\) matric \(n\)-togo stupenja s elementami iz \(\mathsf T^*\), na ktoro jest \(\mathfrak{o}\) obrazovano recipročnym prstenovym homomorfizmom. Recipročny prstenovy homomorfizm znači slědujuće: ako elementam iz \(\mathfrak{o}\), \(c,d\), odpovědajut elementi iz \(\mathfrak D^*\), \(c^*,d^*\), to elementu iz \(\mathfrak{o}\), \(cd\), trěba odpovědati element iz \(\mathfrak D^*\), \(d^*\cdot c^*\), a elementu iz \(\mathfrak{o}\), \(c+d\), element iz \(\mathfrak D^*\), \(c^*+d^*\). V znakah
+\emph{Recipročno prědstavjenje} \(n\)-togo stupenja od \(\mathfrak{o}\) v \(\mathsf T^*\) jest podprsten \(\mathfrak D^*\) prstena \(\mathsf T_n^*\) matric \(n\)-togo stupenja s elementami iz \(\mathsf T^*\), na ktoro jest \(\mathfrak{o}\) obrazovano recipročnym prstenovym homomorfizmom. Recipročny prstenovy homomorfizm znači slědujuče: ako elementam iz \(\mathfrak{o}\), \(c,d\), odpovědajut elementi iz \(\mathfrak D^*\), \(c^*,d^*\), to elementu iz \(\mathfrak{o}\), \(cd\), trěba odpovědati element iz \(\mathfrak D^*\), \(d^*\cdot c^*\), a elementu iz \(\mathfrak{o}\), \(c+d\), element iz \(\mathfrak D^*\), \(c^*+d^*\). V znakah
 
 \[
 \mathfrak{o}\nrightarrow\mathfrak D^*\subseteq\mathsf T_n^*.
 \]
 
-Kako priměr pojma recipročnogo homomorfizma: ako matricam ręda \(n\) nad komutativnym poljem priręditi jih transponovane matrice, to priręđenje jest recipročny izomorfizm prstenov.
+Kako priměr pojma recipročnogo homomorfizma: ako matricam reda \(n\) nad komutativnym poljem prirediti jih transponovane matrice, to priredženje jest recipročny izomorfizm prstenov.
 
-Obće možno k libovoljnomu prstenu \(\mathsf T\) konstruovati recipročno izomorfno prsten \(\mathsf T^*\) slědujućim načinom:
+Obče možno k libovoljnomu prstenu \(\mathsf T\) konstruovati recipročno izomorfny prsten \(\mathsf T^*\) slědujučim načinom:
 
-Vsakomu elementu iz \(\mathsf T\), \(c\), prirędimo simbol \(c^*\) i definirujemo složenje tyh simbolov formulom \(c^*+d^*=(c+d)^*\), a množenje formulom
+Vsakomu elementu iz \(\mathsf T\), \(c\), priredimo simbol \(c^*\) i definirujemo složenje tyh simbolov formulom \(c^*+d^*=(c+d)^*\), a množenje formulom
 
 \[
 c^*\cdot d^*=(dc)^*.
@@ -159,13 +159,13 @@ Množstvo simbolov \(c^*\) jest prsten, recipročno izomorfno s \(\mathsf T\), i
 % BEGIN BOOK_S02
 \subsection*{§ 2. Klasy prědstavjenij}\label{darstellungsklassen}
 
-Prěmo prědstavjenje \(\mathfrak D\) od \(\mathfrak{o}\) v \(\mathsf T\) možno prětvoriti v izomorfno prědstavjenje \(\mathfrak D'\) tako, že se ono po elementah transformuje regularnoj matricoju \(P\), t.~j. elementu iz \(\mathfrak{o}\), \(c\), vměsto \(C\subseteq\mathfrak D\) prirędi se \(P^{-1}CP\subseteq P^{-1}\mathfrak D P\).
+Prěmo prědstavjenje \(\mathfrak D\) od \(\mathfrak{o}\) v \(\mathsf T\) možno prětvoriti v izomorfno prědstavjenje \(\mathfrak D'\) tako, že se ono po elementah transformuje regularnoj matricoju \(P\), t.~j. elementu iz \(\mathfrak{o}\), \(c\), vměsto \(C\subseteq\mathfrak D\) priredi se \(P^{-1}CP\subseteq P^{-1}\mathfrak D P\).
 
 Dva prědstavjenja, ktore možno tako transformovati jedno v drugo, nazyvajut se \emph{ekvivalentnymi}.
 
-Vsa prědstavjenja, ekvivalentne jednomu prědstavjenju, tvoręt \emph{klasu prědstavjenij} (k. p.).
+Vsa prědstavjenja, ekvivalentne jednomu prědstavjenju, tvoret \emph{klasu prědstavjenij} (k. p.).
 
-Tako samo definujeme ekvivalentnost recipročnyh prědstavjenij; dva recipročna prědstavjenja nazyvajut se ekvivalentnymi, ako jedno možno dostati iz drugogo transformacijoju regularnoj matricoju. Vsa prědstavjenja, ekvivalentne jednomu ustanovjenomu recipročnomu prědstavjenju, tvoręt \emph{klasu recipročnyh prědstavjenij}.
+Tako samo definujeme ekvivalentnost recipročnyh prědstavjenij; dva recipročna prědstavjenja nazyvajut se ekvivalentnymi, ako jedno možno dostati iz drugogo transformacijoju regularnoj matricoju. Vsa prědstavjenja, ekvivalentne jednomu ustanovjenomu recipročnomu prědstavjenju, tvoret \emph{klasu recipročnyh prědstavjenij}.
 % END BOOK_S02
 
 % BEGIN BOOK_S03
@@ -189,13 +189,13 @@ Recipročny modul prědstavjenja od \(\mathfrak{o}\) po odnošenju k \(\mathsf T
 % END BOOK_S03
 
 % BEGIN BOOK_S04
-\subsection*{§ 4. Svęz medžu modulami prědstavjenij i prědstavjenjami}\label{der-zusammenhang-zwischen-darstellungsmoduln-und-darstellungen}
+\subsection*{§ 4. Svez medžu modulami prědstavjenij i prědstavjenjami}\label{der-zusammenhang-zwischen-darstellungsmoduln-und-darstellungen}
 
 \textbf{1.} \emph{Vsaky modul prědstavjenja jednoznačno vodi k klase prědstavjenij (p. m. p. k prěmoj klase prědstavjenij, r. m. p. k recipročnoj klase prědstavjenij).}
 
-I to slědujućim načinom:
+I to slědujučim načinom:
 
-Množenje prěmogo modula prědstavjenja \(\mathfrak M\) elementom iz \(\mathfrak{o}\), \(c\), znači homomorfizm od \(\mathfrak M\) na sebe samogo, ktory zaradi zakona asociativnosti \((cm)\tau=c(m\tau)\) dopušča elementy iz \(\mathsf T\) kako operatory. Ono jest zato \emph{linearna transformacija} od \(\mathfrak M\) v sebe, t.~j. priręđenje \(m\mapsto cm=m'\) imaje svojstvo:
+Množenje prěmogo modula prědstavjenja \(\mathfrak M\) elementom iz \(\mathfrak{o}\), \(c\), znači homomorfizm od \(\mathfrak M\) na sebe samogo, ktory zaradi zakona asociativnosti \((cm)\tau=c(m\tau)\) dopušča elementy iz \(\mathsf T\) kako operatory. Ono jest zato \emph{linearna transformacija} od \(\mathfrak M\) v sebe, t.~j. priredženje \(m\mapsto cm=m'\) imaje svojstvo:
 
 \[
 \text{Ako } y_i\mapsto y_i'(=cy_i) \text{ jest, to takože }
@@ -218,9 +218,9 @@ Nyně izberimo libovoljnu bazu \(x_1,\ldots,x_n\) modula \(\mathfrak M\). Linear
 x'_j=cx_j=\sum x_i\gamma_{ij}
 \]
 
-zato že za druge elementy \(x=\sum x_j\tau_j\) prosto jest \(x'=\sum x'_j\tau_j\). Te matrice \(C\) sut jednoznačno priręđene različnym linearnym transformacijam (zato že jedne oprěděljajut druge) i, kako se vidi neposrědnje, tvoręt prsten izomorfno s \(\overline{\mathfrak D}\), to jest prstenovo homomorfny obraz od \(\mathfrak{o}\), prědstavjenje \(n\)-togo stupnja od \(\mathfrak{o}\).
+zato že za druge elementy \(x=\sum x_j\tau_j\) prosto jest \(x'=\sum x'_j\tau_j\). Te matrice \(C\) sut jednoznačno priredžene različnym linearnym transformacijam (zato že jedne oprěděljajut druge) i, kako se vidi neposrědnje, tvoret prsten izomorfno s \(\overline{\mathfrak D}\), to jest prstenovo homomorfny obraz od \(\mathfrak{o}\), prědstavjenje \(n\)-togo stupnja od \(\mathfrak{o}\).
 
-Izomorfizm medžu \(\overline{\mathfrak D}\) i prědstavjenjem sodrživan jest v slědujućih formulah: ako linearnoj transformaciji, stvorjenoj elementom \(c\in\mathfrak{o}\), odpovědaje matrica \(C\), to
+Izomorfizm medžu \(\overline{\mathfrak D}\) i prědstavjenjem sodrživan jest v slědujučih formulah: ako linearnoj transformaciji, stvorjenoj elementom \(c\in\mathfrak{o}\), odpovědaje matrica \(C\), to
 
 \[
 c(x_1,\ldots,x_n)=(x_1,\ldots,x_n)C
@@ -258,7 +258,7 @@ Ako \((y_1,\ldots,y_n)\) jest druga baza modula \(\mathfrak M\), ona nastava iz 
 
 \[(y_1,\ldots,y_n)=(x_1,\ldots,x_n)P\]
 
-Ako linearnaja transformacija od \(\mathfrak M\) po odnošenju k baze \(x_\nu\) jest realizovana matricoju \(C\), togda po odnošenju k baze \(y_\nu\) ona jest realizovana matricoju \(P^{-1}CP\), zato že ako
+Ako linearna transformacija od \(\mathfrak M\) po odnošenju k baze \(x_\nu\) jest realizovana matricoju \(C\), togda po odnošenju k baze \(y_\nu\) ona jest realizovana matricoju \(P^{-1}CP\), zato že ako
 
 \[c(x_1,\ldots,x_n)=(x_1,\ldots,x_n)C\]
 to imaje město
@@ -284,11 +284,11 @@ Iz toga neposrědnje slěduje:
   \emph{Vsaka klasa prědstavjenij jest stvorjena modulom prědstavjenja na način ukazany pod 1.} (Ponovno se ograničujemo na prěme prědstavjenja.)
 \end{enumerate}
 
-\emph{Dokaz.} Izberemo ustanovjeno prědstavjenje iz klasy; nehaj ono bude zadano homomorfnym priręđenjem \(c\mapsto C\). Ako \(n\) jest stupenj prědstavjenja, to s \(n\) neizvěstnymi \(x_1,\ldots,x_n\) obrazujemo pravy \(\mathsf T\)-modul
+\emph{Dokaz.} Izberemo ustanovjeno prědstavjenje iz klasy; nehaj ono bude zadano homomorfnym priredženjem \(c\mapsto C\). Ako \(n\) jest stupenj prědstavjenja, to s \(n\) neizvěstnymi \(x_1,\ldots,x_n\) obrazujemo pravy \(\mathsf T\)-modul
 
 \[\mathfrak{M} = x_1 \mathsf{T} + \dots + x_n \mathsf{T}\]
 
-(s obyčnymi pravilami računanja \(\sum x_i\tau_i+\sum x_i\overline{\tau}_i=\sum x_i(\tau_i+\overline{\tau}_i)\), \(\sum x_i\tau_i=\sum x_i\overline{\tau}_i\) togda i samo togda, ako \(\tau_i=\overline{\tau}_i\) za vse \(i\), \((\sum x_i\tau_i)\varrho=\sum x_i\tau_i\varrho\)), i činimo ga lěvym \(\mathfrak{o}\)-modulom ustanovjenjem \(c\sum x_i\tau_i=\sum x_i'\tau_i\), ako \((x_1',\ldots,x_n')=(x_1,\ldots,x_n)C\), pričem pod \(C\) razumějemo matricu prědstavjenja, priręđenu elementu iz \(\mathfrak{o}\), \(c\).
+(s obyčnymi pravilami računanja \(\sum x_i\tau_i+\sum x_i\overline{\tau}_i=\sum x_i(\tau_i+\overline{\tau}_i)\), \(\sum x_i\tau_i=\sum x_i\overline{\tau}_i\) togda i samo togda, ako \(\tau_i=\overline{\tau}_i\) za vse \(i\), \((\sum x_i\tau_i)\varrho=\sum x_i\tau_i\varrho\)), i činimo ga lěvym \(\mathfrak{o}\)-modulom ustanovjenjem \(c\sum x_i\tau_i=\sum x_i'\tau_i\), ako \((x_1',\ldots,x_n')=(x_1,\ldots,x_n)C\), pričem pod \(C\) razumějemo matricu prědstavjenja, priredženu elementu iz \(\mathfrak{o}\), \(c\).
 
 Tym ustanovjenjem \(\mathfrak M\) jest učinjeno dvojnym \(\mathfrak{o}\)-\(\mathsf T\)-modulom, zato že prvo iz relacij homomorfizma slěduje
 
@@ -318,7 +318,7 @@ Za recipročna prědstavjenja i module prědstavjenij vse ide tak samo; dobyva s
 
 \[\mathfrak{M}^* = \mathsf{T}^* x_1^* + \dots + \mathsf{T}^* x_n^*\]
 
-stvarja recipročno prědstavjenje od \(\mathfrak{o}\) v \(\mathsf T^*\) tako, že elementu iz \(\mathfrak{o}\), \(c\), priręđuje matricu \(C\) v jednačenju
+stvarja recipročno prědstavjenje od \(\mathfrak{o}\) v \(\mathsf T^*\) tako, že elementu iz \(\mathfrak{o}\), \(c\), priredžuje matricu \(C\) v jednačenju
 
 \[
 c\begin{pmatrix}x_1\\ \vdots\\ x_n\end{pmatrix}
@@ -330,13 +330,13 @@ Različne bazy ponovno davajut različna prědstavjenja jednoj klasy.
 
 \section*{Glava II. Galoisova teorija komutativnyh polj}\label{kapitel-ii.-galoissche-theorie-kommutativer-koerper}
 
-Dosěga razvijena teorija prědstavjenij jest dostatočna za osnovanje Galoisovoj teoriji, ktora imaje prědnost nad obyčnoj teorijeju, že ne potrěbuje specialne sistemy tvorečih elementov ni teoremy o polinomah neizvěstnyh.\srcfn{1}{Za slědujuće sravni M. Z. §§ 15 --- 20. M. Z. § 21 sodrživaje prve teoremy slědujućego odděla o Galoisovoj teoriji. Za definiciju hiperkompleksnyh sistemov vidi M. Z. § 6.}
+Dosěga razvijena teorija prědstavjenij jest dostatočna za osnovanje Galoisovoj teoriji, ktora imaje prědnost nad obyčnoj teorijeju, že ne potrěbuje specialne sistemy tvorečih elementov ni teoremy o polinomah neizvěstnyh.\srcfn{1}{Za slědujuče sravni M. Z. §§ 15 --- 20. M. Z. § 21 sodrživaje prve teoremy slědujučego odděla o Galoisovoj teoriji. Za definiciju hiperkompleksnyh sistemov vidi M. Z. § 6.}
 % END BOOK_S04
 
 % BEGIN BOOK_S05
 \subsection*{§ 5. Razširjenje koeficientov hiperkompleksnyh sistemov}\label{koeffizientenerweiterung-hyperkomplexer-systeme}
 
-Formulujemo slědujući obći teorem, čij dokaz ostavjamo neizvedenym, zato že on jest skoro samorazumny. Nehaj \(\mathfrak{o}=c_1\mathsf P+\cdots+c_n\mathsf P\) bude hiperkompleksny sistem nad komutativnym poljem \(\mathsf P\). Nehaj \(\Omega\) bude razširjujuće prsten od \(\mathsf P\), čiji centar sodrživaje \(\mathsf P\). Definujemo \emph{razširjeny sistem} \(\mathfrak{o}_{\Omega}\) kako množstvo vsih formalnyh sum \(\sum c_i\omega_i\), \(\omega_i\in\Omega\), ktoro najprvo ustanovjenjami
+Formulujemo slědujuči obči teorem, čij dokaz ostavjamo neizvedenym, zato že on jest skoro samorazumny. Nehaj \(\mathfrak{o}=c_1\mathsf P+\cdots+c_n\mathsf P\) bude hiperkompleksny sistem nad komutativnym poljem \(\mathsf P\). Nehaj \(\Omega\) bude razširjujuči prsten od \(\mathsf P\), čiji centar sodrživaje \(\mathsf P\). Definujemo \emph{razširjeny sistem} \(\mathfrak{o}_{\Omega}\) kako množstvo vsih formalnyh sum \(\sum c_i\omega_i\), \(\omega_i\in\Omega\), ktoro najprvo ustanovjenjami
 
 \[
 \begin{array}{l}
@@ -348,14 +348,14 @@ Formulujemo slědujući obći teorem, čij dokaz ostavjamo neizvedenym, zato že
 \end{array}
 \]
 
-postavaje \(\Omega\)-modulom, komutativno svęzanym s \(\Omega\), a daljšim ustanovjenjem
+postavaje \(\Omega\)-modulom, komutativno svezanym s \(\Omega\), a daljšim ustanovjenjem
 
 \[
 \sum c_i\omega_i\cdot \sum c_i\omega_i
 =\sum_i\sum_j c_ic_j\omega_i\omega_j
 \]
 
---- pričem \(c_ic_j\) jest už definovany kako element iz \(\mathfrak{o}\) --- postavaje razširjujućim prstenom od \(\mathfrak{o}\). \(\mathfrak{o}_{\Omega}\) imaje rang \(n\) nad \(\Omega\) i možno ga v formě
+--- pričem \(c_ic_j\) jest už definovany kako element iz \(\mathfrak{o}\) --- postavaje razširjujučim prstenom od \(\mathfrak{o}\). \(\mathfrak{o}_{\Omega}\) imaje rang \(n\) nad \(\Omega\) i možno ga v formě
 
 \[
 \mathfrak{o}_{\Omega}=c_1\Omega+\cdots+c_n\Omega
@@ -417,7 +417,7 @@ Polja \(Z_i\) sut ireducibilna prědstavjenja od \(\mathfrak Z\) v \(\Omega\). A
 % BEGIN BOOK_S10
 \subsection*{§ 10. Galoisova grupa}\label{die-galoissche-gruppe}
 
-Ako \(\mathfrak Z\) jest Galoisovo polje, to jest ako polja \(Z_i\) sběgajut sę kako množstva elementov, to \(S_i\) tvoręt grupu vsih izomorfizmov, ktore ostavjajut \(\mathsf P\) nepodvižnym, od \(Z\) na sebe. Zato že vsaky produkt \(S_iS_j\) jest avtomorfizm od \(Z\), a zato že ne imaje drugyh kromě \(S_i\), \(S_iS_j\) jest ravny nekomu \(S_k\). zato \(S_i\) tvoręt grupu vsih avtomorfizmov, ktore ostavjajut vsaky element iz \(\mathsf P\) nepodvižnym, od \(Z\); to jest \emph{Galoisova grupa od \(Z\) po odnošenju k \(\mathsf P\)}.
+Ako \(\mathfrak Z\) jest Galoisovo polje, to jest ako polja \(Z_i\) sběgajut se kako množstva elementov, to \(S_i\) tvoret grupu vsih izomorfizmov, ktore ostavjajut \(\mathsf P\) nepodvižnym, od \(Z\) na sebe. Zato že vsaky produkt \(S_iS_j\) jest avtomorfizm od \(Z\), a zato že ne imaje drugyh kromě \(S_i\), \(S_iS_j\) jest ravny nekomu \(S_k\). zato \(S_i\) tvoret grupu vsih avtomorfizmov, ktore ostavjajut vsaky element iz \(\mathsf P\) nepodvižnym, od \(Z\); to jest \emph{Galoisova grupa od \(Z\) po odnošenju k \(\mathsf P\)}.
 % END BOOK_S10
 
 % BEGIN BOOK_S11
@@ -425,7 +425,7 @@ Ako \(\mathfrak Z\) jest Galoisovo polje, to jest ako polja \(Z_i\) sběgajut s�
 
 Nyně nehaj \(\mathfrak Z\) bude Galoisovo razširjenje prvogo roda od \(\mathsf P\). Dokazujemo glavny teorem Galoisovoj teorije:
 
-\emph{Polja \(\Gamma\) medžu \(\mathsf P\) i \(\mathfrak Z\) možno jednoznačno vzajemno priręditi podgrupam \(\mathfrak H\) Galoisovoj grupy \(\mathfrak G\) od \(Z\) po odnošenju k \(\mathsf P\) tako, že polju \(\Gamma\) priręđena grupa \(\mathfrak H\) sostoji se iz vsih avtomorfizmov od \(Z\), ktore ostavjajut vsaky element iz \(\Gamma\) nepodvižnym, a \(\Gamma\) jest množstvo vsih elementov iz \(Z\), ktore ostavajut nepodvižne pri vsih avtomorfizmah, sodrživanyh v \(\mathfrak H\).}
+\emph{Polja \(\Gamma\) medžu \(\mathsf P\) i \(\mathfrak Z\) možno jednoznačno vzajemno prirediti podgrupam \(\mathfrak H\) Galoisovoj grupy \(\mathfrak G\) od \(Z\) po odnošenju k \(\mathsf P\) tako, že polju \(\Gamma\) priredžena grupa \(\mathfrak H\) sostoji se iz vsih avtomorfizmov od \(Z\), ktore ostavjajut vsaky element iz \(\Gamma\) nepodvižnym, a \(\Gamma\) jest množstvo vsih elementov iz \(Z\), ktore ostavajut nepodvižne pri vsih avtomorfizmah, sodrživanyh v \(\mathfrak H\).}
 
 Kratko to formulujemo tako:
 
@@ -434,13 +434,13 @@ Kratko to formulujemo tako:
 \item \emph{Ako \(\Gamma\) jest invariantno polje od \(\mathfrak H\), to \(\mathfrak H\) jest invariantna grupa od \(\Gamma\).}
 \end{enumerate}
 
-\paragraph{1. možno svesti na pomoćnu lemu:}\label{laesst-sich-zurueckfuehren-auf-den-hilfssatz}
+\paragraph{1. možno svesti na pomočnu lemu:}\label{laesst-sich-zurueckfuehren-auf-den-hilfssatz}
 
 \emph{Ako \(\mathsf P \subseteq \Sigma \subseteq \mathsf T \subseteq \mathsf Z\) i \(\mathsf T\) imaje stupenj \(t\) nad \(\Sigma\), to vsaky izomorfizm od \(\Sigma\) na neko konjugovano polje (potrěbno sodrživano v \(\mathsf Z\)) možno prodolžiti do \(t\) različnyh izomorfizmov od \(\mathsf T\) na konjugovana polja.}
 
-Ako prědpoložimo, že \(\mathfrak H\) jest invariantna grupa od \(\Sigma\), a \(\mathsf T\) jest invariantno polje od \(\mathfrak H\), možno zaključiti slědujuće: Elementi iz \(\mathfrak H\) sut prodolženja na cělo \(\mathsf Z\) identičnogo izomorfizma od \(\Sigma\). Ako te prodolženja priměnimo samo na \(\mathsf T\), iz pomoćnoj lemy slěduje, že ona razpadajut se na \(t\) klas tako, že izomorfizmy iste klasy sut identične na \(\mathsf T\), a izomorfizmy različnyh klas sut različne na \(\mathsf T\). Ale zato že \(\mathsf T\) jest invariantno polje od \(\mathfrak H\), mora byti \(t=1\), \(\mathsf T=\Sigma\), tym jest dokazano.
+Ako prědpoložimo, že \(\mathfrak H\) jest invariantna grupa od \(\Sigma\), a \(\mathsf T\) jest invariantno polje od \(\mathfrak H\), možno zaključiti slědujuče: Elementi iz \(\mathfrak H\) sut prodolženja na cělo \(\mathsf Z\) identičnogo izomorfizma od \(\Sigma\). Ako te prodolženja priměnimo samo na \(\mathsf T\), iz pomočnoj lemy slěduje, že ona razpadajut se na \(t\) klas tako, že izomorfizmy iste klasy sut identične na \(\mathsf T\), a izomorfizmy različnyh klas sut različne na \(\mathsf T\). Ale zato že \(\mathsf T\) jest invariantno polje od \(\mathfrak H\), mora byti \(t=1\), \(\mathsf T=\Sigma\), tym jest dokazano.
 
-Za dokaz pomoćnoj lemy vrnemo se k poljam \(\mathfrak S\), \(\mathfrak T\) medžu \(\mathsf P\) i \(\mathsf Z\), ktorym sut \(\Sigma\) i \(\mathsf T\) priręđene posrědstvom \(\Theta_1\). Togda trěba dokazati:
+Za dokaz pomočnoj lemy vrnemo se k poljam \(\mathfrak S\), \(\mathfrak T\) medžu \(\mathsf P\) i \(\mathsf Z\), ktorym sut \(\Sigma\) i \(\mathsf T\) priredžene posrědstvom \(\Theta_1\). Togda trěba dokazati:
 
 \emph{Vsaky izomorfizm \(H_i\) od \(\mathfrak S\) na neko \(\Sigma_i\) možno na točno \(t\) različnyh načinov prodolžiti do izomorfizmov od \(\mathfrak T\) na podpolja \(\mathsf T_i\) od \(\mathsf Z\).}
 
@@ -473,7 +473,7 @@ i zato že suma vsih stupnjev \([\mathfrak T_\Omega E_\nu:\Omega]\) mora byti ra
 [\mathfrak T_\Omega\cdot E_\nu:\Omega]=t,\qquad
 E_\nu\mathfrak T_\Omega=e_\nu^{(1)}\cdot\Omega+\cdots+e_\nu^{(t)}\Omega .
 \]
-Vsaky \(e_\nu^{(i)}\Omega\) davaje ireducibilno prědstavjenje od \(\mathfrak T_\Omega\). \emph{Pokažimo ješče}, že vsa ta prědstavjenja, ako jih priměnimo samo na \(\mathfrak S_\Omega\), sběgajut sę s prědstavjenjem, stvorjenym posrědstvom \(E_\nu\cdot\Omega\); togda jesmo gotovi. To ale jest jasno, zato že iz
+Vsaky \(e_\nu^{(i)}\Omega\) davaje ireducibilno prědstavjenje od \(\mathfrak T_\Omega\). \emph{Pokažimo ješče}, že vsa ta prědstavjenja, ako jih priměnimo samo na \(\mathfrak S_\Omega\), sběgajut se s prědstavjenjem, stvorjenym posrědstvom \(E_\nu\cdot\Omega\); togda jesmo gotovi. To ale jest jasno, zato že iz
 \[
 s\cdot E_\nu=E_\nu\sigma_\nu\quad
 (s\in\mathfrak S_\Omega\text{ imaje }\sigma_\nu\text{ kako prědstavjenje})
@@ -486,7 +486,7 @@ zato zaradi jednoznačnosti zapisa sumy
 \[
 s\cdot e_\nu^{(i)}=e_\nu^{(i)}\sigma_\nu,
 \]
-nove prědstavjenja takože prirędžajut elementu \(s\) element \(\sigma_\nu\).
+nove prědstavjenja takože priredžajut elementu \(s\) element \(\sigma_\nu\).
 
 \paragraph{2. Nehaj \(\mathsf T\) bude invariantno polje od \(\mathfrak H\).}
 Hočemo poznati \(\mathfrak H\) kako invariantnu grupu od \(\mathsf T\); za to \emph{jest dostatočno} pokazati element iz \(\mathsf T\), ktory ne ostavaje nepodvižnym pri nekom avtomorfizmu, ne naležečem k \(\mathfrak H\).
@@ -576,13 +576,13 @@ To znači: Matrice
 \varrho_n^{(1)} & \cdots & \varrho_n^{(n)}
 \end{pmatrix}
 \]
-sut vzajemno obratne. To možno takože izraziti slědujuće: \(\varrho_1^{(i)},\ldots,\varrho_n^{(i)}\) jest baza komplementarna k \(\zeta_1^{(i)},\ldots,\zeta_n^{(i)}\). Ona imaje rolu v teoriji diferenty čislovogo polja.
+sut vzajemno obratne. To možno takože izraziti slědujuče: \(\varrho_1^{(i)},\ldots,\varrho_n^{(i)}\) jest baza komplementarna k \(\zeta_1^{(i)},\ldots,\zeta_n^{(i)}\). Ona imaje rolu v teoriji diferenty čislovogo polja.
 % END BOOK_S12
 
 % BEGIN BOOK_S13
-\subsection*{§ 13. Obći teorem o prodolženju}\label{der-allgemeine-fortsetzungssatz}
+\subsection*{§ 13. Obči teorem o prodolženju}\label{der-allgemeine-fortsetzungssatz}
 
-Teorem o prodolženju iz \(H_i\), dokazan na str.~10, možno obćiti.
+Teorem o prodolženju iz \(H_i\), dokazan na str.~10, možno občiti.
 
 Nehaj \(\mathfrak Z=z_1\mathsf P+\cdots+z_n\mathsf P\) bude komutativny, hiperkompleksny, polno reducibilny sistem. Nehaj \(\mathfrak S\) i \(\mathfrak T\) budut -- v toj situaciji potrěbno takože polno reducibilne -- podsistemy od \(\mathfrak Z\):
 \[
@@ -592,16 +592,16 @@ Po M. Z. § 13 vsaky iz troh sistemov imaje jedinicu. Ale te tri jedinice nikako
 \[
 E\mathfrak T=a_1\mathfrak S+\cdots+a_t\mathfrak S
 \]
-(\(\mathfrak T\) obće ne jest!).
+(\(\mathfrak T\) obče ne jest!).
 
-\emph{Dokaz.} \(\mathfrak S\) jest prěma suma polj: \(\mathfrak S=\mathfrak K_1+\cdots+\mathfrak K_r\). Tomu odpovědaje razklad od \(\mathfrak T E\) na prěmu sumu. Vsaky sumand od \(\mathfrak T E\) mora sodrživati jedno iz polj \(\mathfrak K_i\), inače by \(E\) anulovalo go, ale \(E\) jest jedinica od \(\mathfrak T E\). Zato \(\mathfrak T E\) jest prěma suma razširjujućih prstenov od \(\mathfrak K_i\), t.~j. prěma suma formy
+\emph{Dokaz.} \(\mathfrak S\) jest prěma suma polj: \(\mathfrak S=\mathfrak K_1+\cdots+\mathfrak K_r\). Tomu odpovědaje razklad od \(\mathfrak T E\) na prěmu sumu. Vsaky sumand od \(\mathfrak T E\) mora sodrživati jedno iz polj \(\mathfrak K_i\), inače by \(E\) anulovalo go, ale \(E\) jest jedinica od \(\mathfrak T E\). Zato \(\mathfrak T E\) jest prěma suma razširjujučih prstenov od \(\mathfrak K_i\), t.~j. prěma suma formy
 \[
 \mathfrak T E=a_{11}\mathfrak K_1+\cdots+a_{1p_1}\mathfrak K_1+\cdots+a_{rp_r}\mathfrak K_r,
 \]
 ili \(E\mathfrak T=a_{11}\mathfrak S+\cdots+a_{rp_r}\mathfrak S\), tym jest dokazano.
 
 \begin{center}
-Obći teorem o prodolženju.
+Obči teorem o prodolženju.
 \end{center}
 
 \emph{Vsako ireducibilno prědstavjenje od \(\mathfrak S\) v \(\Omega\), zadano homomorfizmom \(H_i\), možno na točno \(t\) različnyh načinov prodolžiti do prědstavjenij od \(\mathfrak T\).}
@@ -640,18 +640,18 @@ zato
 % END BOOK_S13
 
 % BEGIN BOOK_S14
-\subsection*{§ 14. Grupovo prsten}\label{der-gruppenring}
+\subsection*{§ 14. Grupovy prsten}\label{der-gruppenring}
 
 Nehaj \(\mathfrak G\) bude konečna grupa s elementami \(a_1,\ldots,a_h\), a \(\mathsf P\) komutativno polje. S grupovym množenjem kako množenjem obrazujemo hiperkompleksny sistem
 \[
 \mathfrak o[\mathfrak G]=a_1\mathsf P+\cdots+a_h\mathsf P
 \]
-\emph{grupovo prsten od \(\mathfrak G\) v \(\mathsf P\)}. (M. Z. § 6, Speiser, Theorie d. Gruppen end. Ord. § 48).
+\emph{grupovy prsten od \(\mathfrak G\) v \(\mathsf P\)}. (M. Z. § 6, Speiser, Theorie d. Gruppen end. Ord. § 48).
 
-Pytajemo za prědstavjenja od \(\mathfrak o[\mathfrak G]\) v \(\mathsf P\) ili v algebraično zatvorjenom polju \(\Omega\) nad \(\mathsf P\). Kako už bylo spomenuto, ireducibilna prědstavjenja sut stvorjena prostymi lěvymi idealami od \(\mathfrak o[\mathfrak G]/\mathfrak C\). Zato nas -- kako v Galoisovoj teoriji -- interesuje pytanje, kogda \(\mathfrak o[\mathfrak G]\) imaje radikal. O tom imaje město obći teorem:
+Pytajemo za prědstavjenja od \(\mathfrak o[\mathfrak G]\) v \(\mathsf P\) ili v algebraično zatvorjenom polju \(\Omega\) nad \(\mathsf P\). Kako už bylo spomenuto, ireducibilna prědstavjenja sut stvorjena prostymi lěvymi idealami od \(\mathfrak o[\mathfrak G]/\mathfrak C\). Zato nas -- kako v Galoisovoj teoriji -- interesuje pytanje, kogda \(\mathfrak o[\mathfrak G]\) imaje radikal. O tom imaje město obči teorem:
 
 \begin{center}
-\emph{\(\mathfrak o[\mathfrak G]\) jest togda i samo togda polno reducibilno, ako ręd \(h\) od \(\mathfrak G\) ne jest dělivy karakteristikoju \(p\) od \(\mathsf P\).}
+\emph{\(\mathfrak o[\mathfrak G]\) jest togda i samo togda polno reducibilno, ako red \(h\) od \(\mathfrak G\) ne jest dělivy karakteristikoju \(p\) od \(\mathsf P\).}
 \end{center}
 
 Najprvo dokazujemo:
@@ -684,28 +684,28 @@ Obratno tvrdženje:
 \[
 \text{Iz } h\not\equiv0(p) \text{ slěduje } \mathfrak C=0,
 \]
-nyně dokazujemo samo za Abelove grupy. (V M. Z. § 26 ta čest teorema jest dokazana obće.)
+nyně dokazujemo samo za Abelove grupy. (V M. Z. § 26 ta čest teorema jest dokazana obče.)
 % END BOOK_S14
 
 % BEGIN BOOK_S15
 \subsection*{§ 15. Grupove prsteny Abelovyh grup}\label{die-gruppenringe-abelscher-gruppen}
 
-Pod \(\mathfrak A=\{a_1,\ldots,a_h\}\) razumějemo Abelovu grupu. Togda \(\mathfrak o\) jest komutativno, zato možno priměniti obće teoremy o komutativnyh hiperkompleksnyh sistemah.
+Pod \(\mathfrak A=\{a_1,\ldots,a_h\}\) razumějemo Abelovu grupu. Togda \(\mathfrak o\) jest komutativno, zato možno priměniti obče teoremy o komutativnyh hiperkompleksnyh sistemah.
 
 \emph{Ako \(h\) ne jest dělivy karakteristikoju \(p\) od \(\mathsf P\), to \(\mathfrak o[\mathfrak A]\) imaje točno \(h\) različnyh ireducibilnyh prědstavjenij v \(\Omega\). (Ona sut prvogo stupenja, zato že \(\mathfrak o\) jest komutativno.)}
 
 Iz toga slěduje, že \(\mathfrak o[\mathfrak A]/\mathfrak C\) imaje tojže rang kako \(\mathfrak o\), a tym samym \(\mathfrak C=0\); to jest vtora čest poprědnogo, ostavjenogo bez dokaza teorema za Abelove grupy.
 
-\emph{Dokaz.} \(\mathfrak A\) jest prěmy produkt cikličnyh grup \(\mathfrak Z_i\) rędov \(h_i\)
+\emph{Dokaz.} \(\mathfrak A\) jest prěmy produkt cikličnyh grup \(\mathfrak Z_i\) redov \(h_i\)
 \[
 \mathfrak A=\mathfrak Z_1\times\cdots\times\mathfrak Z_t,\qquad
 h=h_1h_2\cdots h_t .
 \]
-Ako \(z_i\) jest tvoreči element od \(\mathfrak Z_i\), to jemu odgovarjajuči element ireducibilnogo prědstavjenja (prvogo stupenja) mora byti \(h_i\)-ty korenj iz jedinice \(\varepsilon_\nu^{(h_i)}\). S drugoj strany, ako vsakomu \(z_i\) prirędimo \(h_i\)-ty korenj iz jedinice \(\varepsilon_\nu^{(h_i)}\), dobyva se ireducibilno prědstavjenje od \(\mathfrak o\) v \(\Omega\). Zato že nyně \(h\not\equiv0(p)\), a tym vyše \(h_i\not\equiv0(p)\), obstajajut točno \(h_1h_2\cdots h_t=h\) različne prědstavjenja od \(\mathfrak o\), tym jest dokazano.
+Ako \(z_i\) jest tvoreči element od \(\mathfrak Z_i\), to jemu odgovarjajuči element ireducibilnogo prědstavjenja (prvogo stupenja) mora byti \(h_i\)-ty korenj iz jedinice \(\varepsilon_\nu^{(h_i)}\). S drugoj strany, ako vsakomu \(z_i\) priredimo \(h_i\)-ty korenj iz jedinice \(\varepsilon_\nu^{(h_i)}\), dobyva se ireducibilno prědstavjenje od \(\mathfrak o\) v \(\Omega\). Zato že nyně \(h\not\equiv0(p)\), a tym vyše \(h_i\not\equiv0(p)\), obstajajut točno \(h_1h_2\cdots h_t=h\) različne prědstavjenja od \(\mathfrak o\), tym jest dokazano.
 
 (Takože jest legko viděti: ako \(h=0(p)\), to \(h_i=0(p)\) za prinajmenje jedno \(h_i\), obstajajut najvyše \(h_i/p\) različne \(\varepsilon_\nu^{(h_i)}\), zato menje než \(h\) prědstavjenij, zato \(\mathfrak o_\Omega\) mora sodrživati nenulovy radikal. Ale iz toga bezposrědnje ne slěduje ničto o radikalu od \(\mathfrak o\).)
 
-Te \(h\) različne homomorfizmy od \(\mathfrak o_\Omega\) na podprsteny od \(\Omega\) označimo s \(\Theta_1,\ldots,\Theta_h\); vsakomu \(\Theta_i\) odpovědaje sumand \(e_i\Omega\) od \(\mathfrak o_\Omega\) kako modul prědstavjenja. Někdy priměnjujemo \(\Theta_i\) samo na \(\mathfrak A\) i togda govorimo o prědstavjenju od \(\mathfrak A\). Te homomorfizmy od \(\mathfrak A\) na grupy korenjev iz jedinice sut \emph{\(h\) karakterov od \(\mathfrak A\)}. Specialny karakter jest \emph{glavny karakter}, ktory vsakomu elementu iz \(\mathfrak A\) prirędžaje \(1\). Nehaj prinaležeči \(\Theta_i\) bude \(\Theta_1\).
+Te \(h\) različne homomorfizmy od \(\mathfrak o_\Omega\) na podprsteny od \(\Omega\) označimo s \(\Theta_1,\ldots,\Theta_h\); vsakomu \(\Theta_i\) odpovědaje sumand \(e_i\Omega\) od \(\mathfrak o_\Omega\) kako modul prědstavjenja. Někdy priměnjujemo \(\Theta_i\) samo na \(\mathfrak A\) i togda govorimo o prědstavjenju od \(\mathfrak A\). Te homomorfizmy od \(\mathfrak A\) na grupy korenjev iz jedinice sut \emph{\(h\) karakterov od \(\mathfrak A\)}. Specialny karakter jest \emph{glavny karakter}, ktory vsakomu elementu iz \(\mathfrak A\) priredžaje \(1\). Nehaj prinaležeči \(\Theta_i\) bude \(\Theta_1\).
 
 Prědstavjenje glavnym karakterom možno za vsaku grupu, ne samo za Abelove grupy. Zato že to prědstavjenje už leži v \(\mathsf P\), v slučaju, kogda \(\mathfrak o\) jest polno reducibilno, \(\mathfrak o\) mora odcěpiti prosty sumand \(E\cdot\mathfrak o\), ktory davaje to prědstavjenje. \(E\) možno bezposrědnje izračunati. Mora byti \(E=\sum x_i a_i\). Prvo jest
 \[
@@ -770,9 +770,9 @@ To sut poznate relacije karakterov:
 % BEGIN BOOK_S17
 \subsection*{§ 17. Galoisova teorija Abelovyh grup}\label{die-galoissche-theorie-abelscher-gruppen}
 
-Za grupove prsteny Abelovyh grup možno ustanoviti teoremy podobne onym, ktore sut dokazivane v Galoisovoj teoriji komutativnyh polj. V Galoisovoj teoriji \(\Theta_i\Theta_1^{-1}\) tvorili sut grupu \(\mathfrak{G}\). Glavny teorem izražaje jednoznačno vzajemno priręđenje, osnovano na ustanovjenyh invariantnyh svojstvah, medžu podgrupami od \(\mathfrak{G}\) i podpoljami od \(Z\).
+Za grupove prsteny Abelovyh grup možno ustanoviti teoremy podobne onym, ktore sut dokazivane v Galoisovoj teoriji komutativnyh polj. V Galoisovoj teoriji \(\Theta_i\Theta_1^{-1}\) tvorili sut grupu \(\mathfrak{G}\). Glavny teorem izražaje jednoznačno vzajemno priredženje, osnovano na ustanovjenyh invariantnyh svojstvah, medžu podgrupami od \(\mathfrak{G}\) i podpoljami od \(Z\).
 
-Homomorfizmy \(\Theta_i\) od \(\mathfrak{o}[\mathfrak{A}]\) možno sjediniti v grupu \(\mathsf A\), čije podgrupy stojęt v podobnom odnošenju k podgrupam od \(\mathfrak{A}\).
+Homomorfizmy \(\Theta_i\) od \(\mathfrak{o}[\mathfrak{A}]\) možno sjediniti v grupu \(\mathsf A\), čije podgrupy stojet v podobnom odnošenju k podgrupam od \(\mathfrak{A}\).
 
 \emph{Ako produkt \(\Theta_i \Theta_k = \Theta\) definujemo formulom}
 
@@ -788,7 +788,7 @@ Homomorfizmy \(\Theta_i\) od \(\mathfrak{o}[\mathfrak{A}]\) možno sjediniti v g
 &= \Theta_i a b \cdot \Theta_k a b = \Theta a b
 \end{aligned}\]
 
-homomorfizm od \(\mathfrak A\) na \(\mathsf A\), a zato že kromě \(\Theta_i\) ne imaje drugyh homomorfizmov od \(\mathfrak A\), \(\Theta\) jest ravny nekomu \(\Theta_j\); zato \(\Theta_i\) naistino tvoręt grupu iz \(h\) elementov.
+homomorfizm od \(\mathfrak A\) na \(\mathsf A\), a zato že kromě \(\Theta_i\) ne imaje drugyh homomorfizmov od \(\mathfrak A\), \(\Theta\) jest ravny nekomu \(\Theta_j\); zato \(\Theta_i\) naistino tvoret grupu iz \(h\) elementov.
 
 Nyně pod \(\varepsilon_{h_\nu}\) razumějemo primitivny \(h_\nu\)-ty korenj iz jedinice. Togda \(\Theta_i\) obrazuje tvoreči element \(z_\nu\) cikličnogo faktora \(\mathfrak Z_\nu\) od \(\mathfrak A\) na potenciju od \(\varepsilon_{h_\nu}\)
 
@@ -796,7 +796,7 @@ Nyně pod \(\varepsilon_{h_\nu}\) razumějemo primitivny \(h_\nu\)-ty korenj iz 
 \Theta_i z_\nu=\varepsilon_{h_\nu}^{\varrho_\nu^{(i)}}.
 \]
 
-Homomorfizmu \(\Theta_i\) prirędžajemo element \(\prod_\nu z_\nu^{\varrho_\nu^{(i)}}\) od \(\mathfrak A\). To jest jednoznačno vzajemno priręđenje od \(\mathsf A\) na \(\mathfrak A\), zato že \(\Theta_i\) jest oprěděljen posrědstvom \(\varrho_\nu^{(i)}\), različnym \(\Theta_i\) odpovědajut različne \(\prod_\nu z_\nu^{\varrho_\nu^{(i)}}\). Priręđenje jest izomorfno. Zato že s jednoj strany
+Homomorfizmu \(\Theta_i\) priredžajemo element \(\prod_\nu z_\nu^{\varrho_\nu^{(i)}}\) od \(\mathfrak A\). To jest jednoznačno vzajemno priredženje od \(\mathsf A\) na \(\mathfrak A\), zato že \(\Theta_i\) jest oprěděljen posrědstvom \(\varrho_\nu^{(i)}\), različnym \(\Theta_i\) odpovědajut različne \(\prod_\nu z_\nu^{\varrho_\nu^{(i)}}\). Priredženje jest izomorfno. Zato že s jednoj strany
 
 \[
 \Theta_i\Theta_j z_\nu=\Theta_i z_\nu\cdot \Theta_j z_\nu
@@ -824,7 +824,7 @@ Podgrupa \(\mathsf B\) elementov od \(\mathsf A\), ktore obrazujut vsaky \(a\in\
 
 i formulujemo glavny teorem:
 
-\emph{Podgrupy \(\mathfrak B\) od \(\mathfrak A\) i podgrupy \(\mathsf B\) od \(\mathsf A\) možno jednoznačno vzajemno priręditi tako, že ako \(\mathfrak B\) i \(\mathsf B\) odpovědajut jedna drugoj, \(\mathsf B\) jest invariantna grupa od \(\mathfrak B\), a \(\mathfrak B\) jest invariantna oblast od \(\mathsf B\).}
+\emph{Podgrupy \(\mathfrak B\) od \(\mathfrak A\) i podgrupy \(\mathsf B\) od \(\mathsf A\) možno jednoznačno vzajemno prirediti tako, že ako \(\mathfrak B\) i \(\mathsf B\) odpovědajut jedna drugoj, \(\mathsf B\) jest invariantna grupa od \(\mathfrak B\), a \(\mathfrak B\) jest invariantna oblast od \(\mathsf B\).}
 
 Trěba jest zato pokazati:
 
@@ -834,7 +834,7 @@ Trěba jest zato pokazati:
 \end{enumerate}
 
 \paragraph{1.}
-slěduje kako na str.~10 iz obćego teorema o prodolženju. Prědpokladamo, že \(\mathsf B\) jest invariantna grupa od \(\mathfrak B\), \(\mathfrak B'\) invariantna oblast od \(\mathsf B\), a \(\mathfrak B'\) sodrživaje \(\mathfrak B\). Elementi od \(\mathsf B\) sut prodolženja na cělu \(\mathfrak A\) jednogo homomorfizma od \(\mathfrak B\), ktory obrazuje \(\mathfrak B\) na 1. Ako te prodolženja priměnimo samo na \(\mathfrak B'\), iz obćego teorema o prodolženju slěduje, že ona razpadajut se na \(t\) klas tako, že homomorfizmy iste klasy sut identične, a homomorfizmy različnyh klas sut različne na \(\mathfrak B'\); pri tom \(t\) jest stupenj od \(\mathfrak o[\mathfrak B']\) nad \(\mathfrak o[\mathfrak B]\), to jest indeks od \(\mathfrak B\) v \(\mathfrak B'\), zato že \(\mathfrak o[\mathfrak B]\) i \(\mathfrak o[\mathfrak B']\) imajut tojže element jedinice, jmenno element jedinice od cěloj \(\mathfrak A\). Ale zato že \(\mathfrak B'\) jest invariantna oblast od \(\mathsf B\), mora byti \(t=1\), zato \(\mathfrak B'=\mathfrak B\), tym jest dokazano.
+slěduje kako na str.~10 iz občego teorema o prodolženju. Prědpokladamo, že \(\mathsf B\) jest invariantna grupa od \(\mathfrak B\), \(\mathfrak B'\) invariantna oblast od \(\mathsf B\), a \(\mathfrak B'\) sodrživaje \(\mathfrak B\). Elementi od \(\mathsf B\) sut prodolženja na cělu \(\mathfrak A\) jednogo homomorfizma od \(\mathfrak B\), ktory obrazuje \(\mathfrak B\) na 1. Ako te prodolženja priměnimo samo na \(\mathfrak B'\), iz občego teorema o prodolženju slěduje, že ona razpadajut se na \(t\) klas tako, že homomorfizmy iste klasy sut identične, a homomorfizmy različnyh klas sut različne na \(\mathfrak B'\); pri tom \(t\) jest stupenj od \(\mathfrak o[\mathfrak B']\) nad \(\mathfrak o[\mathfrak B]\), to jest indeks od \(\mathfrak B\) v \(\mathfrak B'\), zato že \(\mathfrak o[\mathfrak B]\) i \(\mathfrak o[\mathfrak B']\) imajut tojže element jedinice, jmenno element jedinice od cěloj \(\mathfrak A\). Ale zato že \(\mathfrak B'\) jest invariantna oblast od \(\mathsf B\), mora byti \(t=1\), zato \(\mathfrak B'=\mathfrak B\), tym jest dokazano.
 
 \textbf{2.} svodimo na 1.
 
@@ -894,11 +894,11 @@ Suma vsih karakterov nad grupovym elementom jest nula, kromě elementa jedinice,
 % END BOOK_S17
 
 % BEGIN BOOK_S18
-\subsection*{§ 18. Pomoćna lema}\label{ein-hilfssatz}
+\subsection*{§ 18. Pomočna lema}\label{ein-hilfssatz}
 
 Pod \(\mathsf K\) razumějemo tělo, a pod \(\mathfrak G\) grupu avtomorfizmov (izomorfnyh obrazovanij na sebe) od \(\mathsf K\). Množstvo elementov od \(\mathsf K\), ktore ostavajut neizměnjene pri vsakom avtomorfizmu naležečem k \(\mathfrak G\), jest podtělo \(\mathsf P\) od \(\mathsf K\), \emph{invariantno tělo od} \(\mathfrak G\).
 
-Ako \(\tau\ne 0\) jest libovoljny element od \(\mathsf K\), avtomorfizm od \(\mathsf K\) dobyva se tako, že elementu od \(\mathsf K\), \(\alpha\), prirędimo element \(\tau^{-1}\alpha\tau\); po odgovarjajučem nazvanju iz teorije grup tako avtomorfizm nazyvamo \emph{vnutrnym avtomorfizmom}. Invariantno tělo \(\mathsf P\) grupy vsih vnutrnyh avtomorfizmov těla \(\mathsf K\) jest njegov centar.
+Ako \(\tau\ne 0\) jest libovoljny element od \(\mathsf K\), avtomorfizm od \(\mathsf K\) dobyva se tako, že elementu od \(\mathsf K\), \(\alpha\), priredimo element \(\tau^{-1}\alpha\tau\); po odgovarjajučem nazvanju iz teorije grup tako avtomorfizm nazyvamo \emph{vnutrnym avtomorfizmom}. Invariantno tělo \(\mathsf P\) grupy vsih vnutrnyh avtomorfizmov těla \(\mathsf K\) jest njegov centar.
 
 Nyně nehaj budut zadane tělo \(\mathsf K\), grupa avtomorfizmov \(\mathfrak G\) od \(\mathsf K\) i njeno invariantno tělo \(\mathsf P\).
 
@@ -934,7 +934,7 @@ jest podmodul od \(\mathfrak M_{\mathsf K}\), ktory vsaky element iz \(\mathfrak
 \]
 \endgroup
 
-\emph{Dokaz.} 1. Poprědna pripomněnka: Mora byti \(\mathfrak c=\mathfrak C\cap\mathfrak M\). Zato že obće imaje město
+\emph{Dokaz.} 1. Poprědna pripomněnka: Mora byti \(\mathfrak c=\mathfrak C\cap\mathfrak M\). Zato že obče imaje město
 \[
 \mathfrak c=\mathfrak c_{\mathsf K}\cap\mathfrak M.
 \]
@@ -995,7 +995,7 @@ x_i=z_i-\sum_{j=r+1}^{n}x_j\chi_j^{(i)},\qquad
 z_i\in\mathfrak C,\quad \chi_j^{(i)}\in\mathsf K.
 \]
 
-Zato že \(z_i\) zajedno s \(x_{r+1},\ldots,x_n\) očevidno tvoręt bazu od \(\mathfrak M_{\mathsf K}\), oni sut linearno nezavisne; zato \(z_1,\ldots,z_r\) jest baza od \(\mathfrak C\). \(z_1,\ldots,z_r\) jest baza iskanoj formy, čiji \(z_i\) naležet k \(\mathfrak M\):
+Zato že \(z_i\) zajedno s \(x_{r+1},\ldots,x_n\) očevidno tvoret bazu od \(\mathfrak M_{\mathsf K}\), oni sut linearno nezavisne; zato \(z_1,\ldots,z_r\) jest baza od \(\mathfrak C\). \(z_1,\ldots,z_r\) jest baza iskanoj formy, čiji \(z_i\) naležet k \(\mathfrak M\):
 
 Nehaj \(\gamma\) bude element iz \(\mathfrak G\). Togda s jednoj strany
 
@@ -1057,7 +1057,7 @@ nehaj bude dvustranno prosty, zato polno reducibilny hiperkompleksny sistem, a \
 
 \emph{Dokaz} 1. Vsaky dvustranny \(\mathfrak S_{\mathsf K}\)-ideal \(\mathfrak a\) jest invariantny po odnošenju k grupě \(\mathfrak G\) vnutrnyh avtomorfizmov od \(\mathsf K\). Zato že ako, pod \(\chi\) razumějuči nenulovy element od \(\mathsf K\), položimo \(\chi^{-1}\mathfrak a\chi=\bar{\mathfrak a}\), to \(\bar{\mathfrak a}\subseteq\mathfrak a\) zaradi svojstva ideala od \(\mathfrak a\); ale zato že \(\bar{\mathfrak a}\), razgledany kako \(\mathsf K\)-modul, imaje nad \(\mathsf K\) tojže rang kako \(\mathfrak a\), mora byti \(\bar{\mathfrak a}=\mathfrak a\).
 
-\textbf{2.} Po upravo ustanovjenoj pomoćnoj lemi dvustranny \(\mathfrak S_{\mathsf K}\)-ideal \(\mathfrak a\) mora zato byti razširjeny ideal nekogo podmodula \(\mathfrak A\) od \(\mathfrak S\), \(\mathfrak a=\mathfrak A_{\mathsf K}\). \(\mathfrak A\) jest dvustranny ideal od \(\mathfrak S\), zato že iz \(\mathfrak A=\mathfrak S\cap\mathfrak a\) dobyva se
+\textbf{2.} Po upravo ustanovjenoj pomočnoj lemi dvustranny \(\mathfrak S_{\mathsf K}\)-ideal \(\mathfrak a\) mora zato byti razširjeny ideal nekogo podmodula \(\mathfrak A\) od \(\mathfrak S\), \(\mathfrak a=\mathfrak A_{\mathsf K}\). \(\mathfrak A\) jest dvustranny ideal od \(\mathfrak S\), zato že iz \(\mathfrak A=\mathfrak S\cap\mathfrak a\) dobyva se
 \[
 \mathfrak S\mathfrak A\subseteq\mathfrak S\mathfrak S\cap\mathfrak S\mathfrak a\subseteq\mathfrak S\cap\mathfrak a=\mathfrak A
 \]
@@ -1067,7 +1067,7 @@ nehaj bude dvustranno prosty, zato polno reducibilny hiperkompleksny sistem, a \
 
 Ale zato že \(\mathfrak S\) sodrživaje samo dvustranne idealy 0 i \(\mathfrak S\), v \(\mathfrak S_{\mathsf K}\) takože obstajajut samo dva dvustranna ideala 0 i \(\mathfrak S_{\mathsf K}\), tym jest dokazano.
 
-Nyně razgledajemo ireducibilna prědstavjenja od \(\mathfrak S\) v \(\mathsf K\), i hočemo ustanoviti recipročna prědstavjenja; to imaje formalnu prědnost. V konečnom jest vsejedno, izbirajemo li prěma ili recipročna prědstavjenja, zato že ona sut jednoznačno vzajemno priręđena.
+Nyně razgledajemo ireducibilna prědstavjenja od \(\mathfrak S\) v \(\mathsf K\), i hočemo ustanoviti recipročna prědstavjenja; to imaje formalnu prědnost. V konečnom jest vsejedno, izbirajemo li prěma ili recipročna prědstavjenja, zato že ona sut jednoznačno vzajemno priredžena.
 
 Nehaj \(\mathfrak M\) bude recipročny modul prědstavjenja od \(\mathfrak S\) v \(\mathsf K\), to jest lěvy \(\mathfrak S\)-modul i lěvy \(\mathsf K\)-modul konečnogo ranga,
 \[
@@ -1082,7 +1082,7 @@ Dokazujemo, že \(\mathfrak M\) možno takože razgledati kako lěvy \(\mathfrak
 \[
 sx\cdot m=s\cdot(x\cdot m)
 \]
-i analogično za obći \(\mathfrak S_{\mathsf K}\)-element \(\sum s_ix_i\)
+i analogično za obči \(\mathfrak S_{\mathsf K}\)-element \(\sum s_ix_i\)
 \[
 \sum s_ix_i\cdot m=\sum s_i\cdot(x_i\cdot m).
 \]
@@ -1205,7 +1205,7 @@ Nyně pod
 \mathfrak K=y_1\mathsf P+\cdots+y_m\mathsf P
 \]
 
-razumějemo nekomutativno tělo s centrom \(\mathsf P\). Za \(\mathfrak K\) razvijemo ręd teoremov, analognyh teoremam iz teorije komutativnyh konečnyh algebraičnyh razširjenij polj.
+razumějemo nekomutativno tělo s centrom \(\mathsf P\). Za \(\mathfrak K\) razvijemo red teoremov, analognyh teoremam iz teorije komutativnyh konečnyh algebraičnyh razširjenij polj.
 
 Ako \(Z=\xi_1\mathsf P+\cdots+\xi_n\mathsf P\) označaje hiperkompleksny sistem nad \(\mathsf P\), dva razširjena sistema \(\mathfrak K_Z\) i \(Z_{\mathfrak K}\) sut identične, zato že za \(\mathfrak K_Z\) možno zapisati
 
@@ -1221,7 +1221,7 @@ Z_{\mathfrak K}=\xi_1y_1\mathsf P+\cdots+\xi_ny_m\mathsf P
 
 ale oba izraza sut identične zaradi \(y_i\xi_j=\xi_jy_i\).
 
-V slědujućem \(Z\) vsečasno bude komutativno polje, zato možno priměniti teoremy iz § 19. Po teoremu 1 iz § 19 \(\mathfrak K_Z\) jest vsečasno dvustranno prosto.
+V slědujučem \(Z\) vsečasno bude komutativno polje, zato možno priměniti teoremy iz § 19. Po teoremu 1 iz § 19 \(\mathfrak K_Z\) jest vsečasno dvustranno prosto.
 
 \textbf{Teorem 1.} \emph{Nehaj \(\Omega\) bude algebraično zatvorjeno razširjeno polje od \(\mathsf P\). Togda centar od \(\mathfrak K_\Omega\) jest ravny \(\Omega\).}
 
@@ -1233,9 +1233,9 @@ Na sovsěm podobny način dokazujemo
 
 \emph{Dokaz.} Nehaj \(\mathfrak a=z_1\Omega+\cdots+z_r\Omega\) bude dvustranny ideal. Koeficienty od \(z_1,\ldots,z_r\) naležet k nekomu konečnomu razširjenomu polju \(Z\) od \(\mathsf P\); v \(\mathfrak K_Z\) jest \(\mathfrak a'=z_1Z+\cdots+z_rZ\) dvustranny ideal, a zato že \(\mathfrak K_Z\) jest dvustranno prosto, \(\mathfrak a'\) jest ili nula ili cělo \(\mathfrak K_Z\); zato \(\mathfrak a\) jest ili 0 ili cělo \(\mathfrak K_\Omega\), t.~j. \(\mathfrak K_\Omega\) jest dvustranno prosto, tym jest dokazano.
 
-Po tom teoremu \(\mathfrak K_\Omega\) jest matricno prsten nad nekym razširjenym poljem svojego centra \(\Omega\). To polje kako podprsten cělogo \(\mathfrak K_\Omega\) mora iměti konečny stupenj nad \(\Omega\), zato mora byti ravno \(\Omega\):
+Po tom teoremu \(\mathfrak K_\Omega\) jest matričny prsten nad nekym razširjenym poljem svojego centra \(\Omega\). To polje kako podprsten cělogo \(\mathfrak K_\Omega\) mora iměti konečny stupenj nad \(\Omega\), zato mora byti ravno \(\Omega\):
 
-\textbf{Teorem 3.} \emph{\(\mathfrak K_\Omega\) jest matricno prsten nad \(\Omega\),}
+\textbf{Teorem 3.} \emph{\(\mathfrak K_\Omega\) jest matričny prsten nad \(\Omega\),}
 
 \[
 \mathfrak K_\Omega=\sum\Omega c_{ik}
@@ -1279,7 +1279,7 @@ zato
 
 čislo elementov \(c_{ik}\) mora zato byti ravno \(t^2\), tym jest dokazano.
 
-\textbf{Teorem 5.} \emph{Ireducibilno prědstavjenje \(\mathfrak Z\) razpadnogo polja \(Z\) od \(\mathfrak K\) v \(\mathfrak K\) -- po teoremu 2 na str.~22 obstaja samo jedna klasa ireducibilnyh prědstavjenij -- jest maksimalno komutativno podpolje matricnogo prstena \(\mathfrak K_r\) (\(r\) jest stupenj ireducibilnogo prědstavjenja od \(Z\)).}
+\textbf{Teorem 5.} \emph{Ireducibilno prědstavjenje \(\mathfrak Z\) razpadnogo polja \(Z\) od \(\mathfrak K\) v \(\mathfrak K\) -- po teoremu 2 na str.~22 obstaja samo jedna klasa ireducibilnyh prědstavjenij -- jest maksimalno komutativno podpolje matričnogo prstena \(\mathfrak K_r\) (\(r\) jest stupenj ireducibilnogo prědstavjenja od \(Z\)).}
 
 \emph{Ako obratno ireducibilno prědstavjenje \(\mathfrak Z\) komutativnogo razširjenogo polja \(Z\) od \(\mathsf P\) jest maksimalno komutativno podpolje od \(\mathfrak K_r\), to \(Z\) jest razpadno}
 
@@ -1311,17 +1311,17 @@ Iz teorema 5 bezposrědnje slěduje
 
 \textbf{Teorem 6.} \emph{Maksimalna komutativna podpolja od \(\mathfrak K\) imajut stupenj \(t\) nad \(\mathsf P\) i sut razpadna polja\srcfn{1}{Prědpoloženje, že vsako razpadno polje takože sodrživaje neko maksimalno komutativno podpolje od \(\mathfrak K\), ne jest pravilno; mogut obstajati razpadna polja bez toga svojstva, a odgovarjajuči \(r\) sigurno jest vyše od 1. Vidi: \foreign{R. Brauer} i \foreign{E. Noether}, \foreign{Über minimale Zerfällungskörper irreduzibler Darstellungen; Sitzungsberichte d. preuss. Akademie der Wisssch. 1927 XXXII, str.~221.}}.}
 
-Nyně razvijemo teorem o izomorfizmu podprstenov jednogo \(\mathfrak K_r\), na ktorom osnovana jest podrobnėjša znajemost struktury Galoisovoj grupy od \(\mathfrak K\) i s tym svęzanyh faktov.
+Nyně razvijemo teorem o izomorfizmu podprstenov jednogo \(\mathfrak K_r\), na ktorom osnovana jest podrobnejša znajemost struktury Galoisovoj grupy od \(\mathfrak K\) i s tym svezanyh faktov.
 
-\textbf{Teorem 7.} \emph{Nehaj \(\mathfrak S_1\) i \(\mathfrak S_2\) budut dvustranno proste, \(\mathsf P\) sodrživajuće podprsteny matricnogo prstena \(\mathfrak K_r\) nad \(\mathfrak K\), i nehaj medžu nimi obstaja izomorfizm, ostavjajuči \(\mathsf P\) po elementah nepodvižnym, \(\mathfrak S_1\cong\mathfrak S_2\). Togda toj izomorfizm jest transformacija regularnym \(\mathfrak K_r\)-elementom \(\tau\).}
+\textbf{Teorem 7.} \emph{Nehaj \(\mathfrak S_1\) i \(\mathfrak S_2\) budut dvustranno proste, \(\mathsf P\) sodrživajuče podprsteny matričnogo prstena \(\mathfrak K_r\) nad \(\mathfrak K\), i nehaj medžu nimi obstaja izomorfizm, ostavjajuči \(\mathsf P\) po elementah nepodvižnym, \(\mathfrak S_1\cong\mathfrak S_2\). Togda toj izomorfizm jest transformacija regularnym \(\mathfrak K_r\)-elementom \(\tau\).}
 
-\emph{Ako \(\sigma_1\in\mathfrak S_1\) i \(\sigma_2\in\mathfrak S_2\) sut vzajemno priręđene, to jest}
+\emph{Ako \(\sigma_1\in\mathfrak S_1\) i \(\sigma_2\in\mathfrak S_2\) sut vzajemno priredžene, to jest}
 
 \[
 \tau^{-1}\sigma_1\tau=\sigma_2.
 \]
 
-\emph{Dokaz.} Konstruujemo s \(\mathfrak S_1\) i \(\mathfrak S_2\) recipročno izomorfno prsten \(\Sigma\), čije podpolje izomorfno s \(\mathsf P\) identifikujemo s \(\mathsf P\). \(\mathfrak S_1,\mathfrak S_2\) sut togda dva recipročna prědstavjenja jednakogo stupenja \(r\) od \(\Sigma\) v \(\mathfrak K\). Zato že po teoremu 2 na str.~22 obstaja samo jedna klasa ireducibilnyh recipročnyh prědstavjenij, zato takože samo jedna klasa prědstavjenij zadanogo stupenja od \(\Sigma\) v \(\mathfrak K\) (kratny od ireducibilnoj klasy), \(\mathfrak S_1\) i \(\mathfrak S_2\) morajut naležati k istoj klase; zato jedno nastava iz drugogo transformacijoju, tym jest dokazano.
+\emph{Dokaz.} Konstruujemo s \(\mathfrak S_1\) i \(\mathfrak S_2\) recipročno izomorfny prsten \(\Sigma\), čije podpolje izomorfno s \(\mathsf P\) identifikujemo s \(\mathsf P\). \(\mathfrak S_1,\mathfrak S_2\) sut togda dva recipročna prědstavjenja jednakogo stupenja \(r\) od \(\Sigma\) v \(\mathfrak K\). Zato že po teoremu 2 na str.~22 obstaja samo jedna klasa ireducibilnyh recipročnyh prědstavjenij, zato takože samo jedna klasa prědstavjenij zadanogo stupenja od \(\Sigma\) v \(\mathfrak K\) (kratny od ireducibilnoj klasy), \(\mathfrak S_1\) i \(\mathfrak S_2\) morajut naležati k istoj klase; zato jedno nastava iz drugogo transformacijoju, tym jest dokazano.
 
 Iz teorema 7 neposrědnje slěduje
 
@@ -1329,13 +1329,11 @@ Iz teorema 7 neposrědnje slěduje
 
 V teoremu 7 trěba samo položiti \(r=1\) i \(\mathfrak S_1=\mathfrak S_2=\mathfrak K\).
 
-Slědujuća dva teorema pokazyvajut upotrěbljivost dosěga razvitoj obćej teorije za razgledanje specialnyh pytanij.
+Slědujuča dva teorema pokazyvajut upotrěbljivost dosěga razvitoj občej teorije za razgledanje specialnyh pytanij.
 
 \textbf{Teorem 9.} \emph{Jedino nekomutativno tělo konečnogo stupenja, čiji centar jest polje \(R\) realnyh čisl, jest tělo kvaternionov.}
 
-\emph{Dokaz.} Nehaj \(\mathfrak K\) bude nekomutativno tělo s centrom \(R\) (konečnogo ranga nad \(R\)). Po teoremu 6 stupenj od \(\mathfrak K\) nad \(R\) jest kvadrat stupenja \(t\) nekogo maksimalnogo komutativnogo podpolja od \(\mathfrak K\); a zato že ono može byti samo polje izomorfno s poljem kompleksnyh čisl, jest \(t=2\), a \(\mathfrak K\) imaje stupenj 4 nad \(R\). Nehaj \(\mathfrak Z_1\) bude maksimalno komutativno podpolje od \(\mathfrak K\); togda možno položiti \(\mathfrak Z_1=R(i)\), kde \(i^2=-1\). Ale togda takože \(\mathfrak Z_2=R(-i)\) jest -- kako množstvo sběgajuće sę s \(\mathfrak Z_1\) -- polje izomorfno s \(\mathfrak Z_1\), a izo-
-
-morfizm jest zadany posrědstvom \(i\mapsto -i\). Po teoremu 7 obstaja zato element \(j^*\in\mathfrak K\) s
+\emph{Dokaz.} Nehaj \(\mathfrak K\) bude nekomutativno tělo s centrom \(R\) (konečnogo ranga nad \(R\)). Po teoremu 6 stupenj od \(\mathfrak K\) nad \(R\) jest kvadrat stupenja \(t\) nekogo maksimalnogo komutativnogo podpolja od \(\mathfrak K\); a zato že ono može byti samo polje izomorfno s poljem kompleksnyh čisl, jest \(t=2\), a \(\mathfrak K\) imaje stupenj 4 nad \(R\). Nehaj \(\mathfrak Z_1\) bude maksimalno komutativno podpolje od \(\mathfrak K\); togda možno položiti \(\mathfrak Z_1=R(i)\), kde \(i^2=-1\). Ale togda takože \(\mathfrak Z_2=R(-i)\) jest -- kako množstvo sběgajuče se s \(\mathfrak Z_1\) -- polje izomorfno s \(\mathfrak Z_1\), a izomorfizm jest zadany posrědstvom \(i\mapsto -i\). Po teoremu 7 obstaja zato element \(j^*\in\mathfrak K\) s
 
 \[
 j^{*-1}ij^*=-i.
@@ -1364,16 +1362,16 @@ Dokaz očevidno imaje město za vsako algebraično realno zatvorjeno polje vměs
 
 \textbf{Teorem 10 (teorem od Vedderburna).} \emph{Vsako tělo iz konečnogo čisla elementov jest komutativno.}
 
-\emph{Dokaz.} Nehaj \(\mathfrak K\) bude tělo s konečnym čislom elementov, a \(\mathsf P\) jego centar. Nehaj \(t^2\) bude stupenj od \(\mathfrak K\) nad \(\mathsf P\). Vsa maksimalna komutativna podpolja od \(\mathfrak K\) imajut stupenj \(t\) nad \(\mathsf P\), zato imajut ravnako mnogo elementov; po poznatom teoremu iz teorije Galoisovyh polj (teorem od Moorea) ona sut izomorfne, a te izomorfizmy, zato že vsako Galoisovo polje jest Galoisovo razširjenje svojego prostogo polja, možno izbrati tako, že vsaky element od \(\mathsf P\) odpovědaje samomu sebe. Po teoremu 7 vsa maksimalna komutativna podpolja od \(\mathfrak K\) nastavajut zato iz jednogo \(\mathfrak Z\) transformacijoju. Ale \(\mathfrak K\) jest množstvo sjedinenja vsih svojih maksimalnyh komutativnyh podpolj. (Priloženje \emph{jednogo} elementa k \(\mathsf P\) stvarjaje komutativno polje). Ako nyně razgledamo samo multiplikativnu grupu \(\mathfrak K^*\) od \(\mathfrak K\) (\(\mathfrak K\) bez nuly), dostali jesmo, že \(\mathfrak K^*\) jest množstvo sjedinenja podgrup konjugovanyh podgrupě \(\mathfrak Z^*\). Ale v slučaju \(t>1\) to davaje protivrěčnost. Zato že ako \(\mathfrak K^*\) sodrživaje \(M\) elementov, \(\mathfrak Z^*\) \(N\) elementov, a \(L\) jest indeks od \(\mathfrak Z^*\) v \(\mathfrak K^*\), to imaje město \(M=NL\), a čislo različnyh konjugovanyh podgrup jest najvyše \(L\). Čak ako to čislo bylo by ravno \(L\), da by vse konjugovane podgrupy zajedno izčrpale cělu grupu, nikake dvě iz njih ne směli by iměti obći element. Ale vse imajut obći element jedinice.
+\emph{Dokaz.} Nehaj \(\mathfrak K\) bude tělo s konečnym čislom elementov, a \(\mathsf P\) jego centar. Nehaj \(t^2\) bude stupenj od \(\mathfrak K\) nad \(\mathsf P\). Vsa maksimalna komutativna podpolja od \(\mathfrak K\) imajut stupenj \(t\) nad \(\mathsf P\), zato imajut ravnako mnogo elementov; po poznatom teoremu iz teorije Galoisovyh polj (teorem od Moorea) ona sut izomorfne, a te izomorfizmy, zato že vsako Galoisovo polje jest Galoisovo razširjenje svojego prostogo polja, možno izbrati tako, že vsaky element od \(\mathsf P\) odpovědaje samomu sebe. Po teoremu 7 vsa maksimalna komutativna podpolja od \(\mathfrak K\) nastavajut zato iz jednogo \(\mathfrak Z\) transformacijoju. Ale \(\mathfrak K\) jest množstvo sjedinenja vsih svojih maksimalnyh komutativnyh podpolj. (Priloženje \emph{jednogo} elementa k \(\mathsf P\) stvarjaje komutativno polje). Ako nyně razgledamo samo multiplikativnu grupu \(\mathfrak K^*\) od \(\mathfrak K\) (\(\mathfrak K\) bez nuly), dostali jesmo, že \(\mathfrak K^*\) jest množstvo sjedinenja podgrup konjugovanyh podgrupě \(\mathfrak Z^*\). Ale v slučaju \(t>1\) to davaje protivrěčnost. Zato že ako \(\mathfrak K^*\) sodrživaje \(M\) elementov, \(\mathfrak Z^*\) \(N\) elementov, a \(L\) jest indeks od \(\mathfrak Z^*\) v \(\mathfrak K^*\), to imaje město \(M=NL\), a čislo različnyh konjugovanyh podgrup jest najvyše \(L\). Čak ako to čislo bylo by ravno \(L\), da by vse konjugovane podgrupy zajedno izčrpale cělu grupu, nikake dvě iz njih ne směli by iměti obči element. Ale vse imajut obči element jedinice.
 % END BOOK_S20
 
 % BEGIN BOOK_S21
 \subsection*{§ 21. Galoisova teorija nekomutativnyh těl}\label{die-galoissche-theorie-der-nichtkommutativen-koerper}
 
-Pod \(G\) razumějemo Galoisovu grupu od \(\mathfrak K\) po odnošenju k njegovomu centru \(\mathsf P\). Po teoremu 8 \(G\) jest izomorfna s \(\overline G=\mathfrak K^*/\mathsf P^*\); razgledamo toj izomorfizm ustanovjenym. Podgrupu \(H\) od \(G\) nazyvamo \emph{zatvorjenoj}, ako posrědstvom izomorfizma \(G\simeq\mathfrak K^*/\mathsf P^*\) jej priręđena podgrupa \(\mathfrak H^*\) od \(\mathfrak K^*\) po dodanju \emph{nuly} postavaje tělom.
+Pod \(G\) razumějemo Galoisovu grupu od \(\mathfrak K\) po odnošenju k njegovomu centru \(\mathsf P\). Po teoremu 8 \(G\) jest izomorfna s \(\overline G=\mathfrak K^*/\mathsf P^*\); razgledamo toj izomorfizm ustanovjenym. Podgrupu \(H\) od \(G\) nazyvamo \emph{zatvorjenoj}, ako posrědstvom izomorfizma \(G\simeq\mathfrak K^*/\mathsf P^*\) jej priredžena podgrupa \(\mathfrak H^*\) od \(\mathfrak K^*\) po dodanju \emph{nuly} postavaje tělom.
 
 
-\textbf{Teorem 11. Glavny teorem Galoisovoj teorije.} \emph{Zatvorjene podgrupy \(H\) od \(G\) i těla \(\mathfrak S\) medžu \(\mathsf P\) i \(\mathfrak K\) možno jednoznačno vzajemno priręditi tako, že ako \(H\) i \(\mathfrak S\) odpovědajut jedno drugomu, \(H\) jest invariantna grupa od \(\mathfrak S\), a \(\mathfrak S\) invariantno tělo od \(H\).}
+\textbf{Teorem 11. Glavny teorem Galoisovoj teorije.} \emph{Zatvorjene podgrupy \(H\) od \(G\) i těla \(\mathfrak S\) medžu \(\mathsf P\) i \(\mathfrak K\) možno jednoznačno vzajemno prirediti tako, že ako \(H\) i \(\mathfrak S\) odpovědajut jedno drugomu, \(H\) jest invariantna grupa od \(\mathfrak S\), a \(\mathfrak S\) invariantno tělo od \(H\).}
 
 \emph{Dokaz.} Razděljamo naš teorem na tri čestne teoremy
 \begin{enumerate}
@@ -1383,9 +1381,9 @@ Pod \(G\) razumějemo Galoisovu grupu od \(\mathfrak K\) po odnošenju k njegovo
 \end{enumerate}
 
 \begin{enumerate}
-\item Invariantnoj grupě \(H\) těla \(\mathfrak S\) posrědstvom izomorfizma \(G\simeq \mathfrak K^*/\mathsf P^*\) priręđeno jest množstvo \(\mathfrak H^*\) vsih nenulovyh elementov od \(\mathfrak K\), ktore sut po elementah komutativne s \(\mathfrak S\). Zajedno s 0 ona očevidno tvoręt tělo, t.~j. \(H\) jest zatvorjena.
+\item Invariantnoj grupě \(H\) těla \(\mathfrak S\) posrědstvom izomorfizma \(G\simeq \mathfrak K^*/\mathsf P^*\) priredženo jest množstvo \(\mathfrak H^*\) vsih nenulovyh elementov od \(\mathfrak K\), ktore sut po elementah komutativne s \(\mathfrak S\). Zajedno s 0 ona očevidno tvoret tělo, t.~j. \(H\) jest zatvorjena.
 
-\item Treti čestny teorem svodimo na vtory. Tělu \(\mathfrak S\) priręđena jest podgrupa \(S\) od \(G\), jmenno podgrupa, prinaležeča k \(\mathfrak S^*/\mathsf P^*\), od \(G\). Tak samo grupě \(H\) prinaleži podtělo \(\mathfrak H\) od \(\mathfrak K\), i jest \(H\simeq \mathfrak H^*/\mathsf P^*\). Ako \(\mathfrak S\) jest invariantno tělo od \(H\), to \(\mathfrak S\) sostoji se iz vsih s \(\mathfrak H\) po elementah komutativnyh elementov od \(\mathfrak K\); možno to jest takože kazati: \(S\) jest invariantna grupa od \(\mathfrak H\). Analogično: Ako \(H\) jest invariantna grupa od \(\mathfrak S\), to \(\mathfrak H\) jest invariantno tělo od \(S\). Zato treti čestny teorem možno formulovati takože ovako:
+\item Treti čestny teorem svodimo na vtory. Tělu \(\mathfrak S\) priredžena jest podgrupa \(S\) od \(G\), jmenno podgrupa, prinaležeča k \(\mathfrak S^*/\mathsf P^*\), od \(G\). Tak samo grupě \(H\) prinaleži podtělo \(\mathfrak H\) od \(\mathfrak K\), i jest \(H\simeq \mathfrak H^*/\mathsf P^*\). Ako \(\mathfrak S\) jest invariantno tělo od \(H\), to \(\mathfrak S\) sostoji se iz vsih s \(\mathfrak H\) po elementah komutativnyh elementov od \(\mathfrak K\); možno to jest takože kazati: \(S\) jest invariantna grupa od \(\mathfrak H\). Analogično: Ako \(H\) jest invariantna grupa od \(\mathfrak S\), to \(\mathfrak H\) jest invariantno tělo od \(S\). Zato treti čestny teorem možno formulovati takože ovako:
 
 \item[\(3'\).] Ako \(\mathfrak H\) imaje invariantnu grupu \(S\), to \(\mathfrak H\) jest invariantno tělo od \(S\), a to jest ravno vtoromu čestnomu teoremu, ktory ješče trěba dokazati.
 
@@ -1394,7 +1392,7 @@ Pod \(G\) razumějemo Galoisovu grupu od \(\mathfrak K\) po odnošenju k njegovo
 
 Konstruujemo s \(\mathfrak K\) recipročno izomorfno tělo \(K\), čiji centar identifikujemo s \(\mathsf P\). Vměsto avtomorfizmov od \(\mathfrak K\) možno razgledati recipročne izomorfizmy od \(\mathfrak S\) s \(K\).
 
-Ponovno hočemo dokazati pomoćnu lemu, analognu teoremu o prodolženju, upotrěbjenomu v komutativnom slučaju:
+Ponovno hočemo dokazati pomočnu lemu, analognu teoremu o prodolženju, upotrěbjenomu v komutativnom slučaju:
 
 Nehaj \(\mathfrak S\) i \(\mathfrak T\) budut těla medžu \(\mathsf P\) i \(\mathfrak K\),
 \[
@@ -1451,7 +1449,7 @@ e_i^{(\nu)}e_j^{(\nu)}=0
 \]
 drugi raz 0 kako prědstavjajuči element od \(e_i^{(\nu)}\); oba prědstavjenja sut zato naistino različne. (Točno teže zaključky možno priměniti takože v komutativnom slučaju, ale tam sut nepotrěbne).
 
-Od nyně zaključujemo točno kako na str.~10 i str.~16. Nehaj \(H\) bude invariantna grupa od \(\mathfrak S\), a \(\mathfrak T\) invariantno tělo od \(H\). Elementi od \(H\) sut vsa prodolženja identičnogo avtomorfizma od \(\mathfrak S\) na cělo \(\mathfrak K\). Zato že po upravo dokazanoj pomoćnoj lemi medžu nimi obstajajut prinajmenje \(s\) različne na \(\mathfrak T\), mora byti \(s=1\), \(\mathfrak T=\mathfrak S\), tym jest dokazano.
+Od nyně zaključujemo točno kako na str.~10 i str.~16. Nehaj \(H\) bude invariantna grupa od \(\mathfrak S\), a \(\mathfrak T\) invariantno tělo od \(H\). Elementi od \(H\) sut vsa prodolženja identičnogo avtomorfizma od \(\mathfrak S\) na cělo \(\mathfrak K\). Zato že po upravo dokazanoj pomočnoj lemi medžu nimi obstajajut prinajmenje \(s\) različne na \(\mathfrak T\), mora byti \(s=1\), \(\mathfrak T=\mathfrak S\), tym jest dokazano.
 
 \section*{Glava V. Faktorne sistemy}\label{kapitel-v.-faktorensysteme}
 % END BOOK_S21
@@ -1459,7 +1457,7 @@ Od nyně zaključujemo točno kako na str.~10 i str.~16. Nehaj \(H\) bude invari
 % BEGIN BOOK_S22
 \subsection*{§ 22. Grupa těl s danym centrom}\label{die-gruppe-der-koerper-mit-gegebenem-zentrum}
 
-Za osnovu našego razgledanja izberemo ustanovjeno komutativno polje \(\mathsf P\). Množstvo vsih matricnyh prstenov \(\mathfrak K_r\), čija těla avtomorfizmov \(\mathfrak K\) sut těla konečnogo ranga nad \(\mathsf P\) s samym \(\mathsf P\) kako centrom, jest multiplikativno zatvorjeny sistem po odnošenju k ,,obrazovanju prěmogo produkta``. Prěmy produkt dvoh takyh prstenov \(\mathfrak K_r\) i \(\mathfrak L_s\) jest prosto prsten \(\mathfrak K_r\cdot\mathfrak L_s\), ktoro nastava iz \(\mathfrak K_r\) razširjenjem osnovnogo polja do \(\mathfrak L_s\):
+Za osnovu našego razgledanja izberemo ustanovjeno komutativno polje \(\mathsf P\). Množstvo vsih matričnyh prstenov \(\mathfrak K_r\), čija těla avtomorfizmov \(\mathfrak K\) sut těla konečnogo ranga nad \(\mathsf P\) s samym \(\mathsf P\) kako centrom, jest multiplikativno zatvorjeny sistem po odnošenju k ,,obrazovanju prěmogo produkta``. Prěmy produkt dvoh takyh prstenov \(\mathfrak K_r\) i \(\mathfrak L_s\) jest prosto prsten \(\mathfrak K_r\cdot\mathfrak L_s\), ktory nastava iz \(\mathfrak K_r\) razširjenjem osnovnogo polja do \(\mathfrak L_s\):
 \[
 \mathfrak K_r\times\mathfrak L_s=\mathfrak K_r\cdot\mathfrak L_s.
 \]
@@ -1467,16 +1465,16 @@ Po pripomněnke na str.~22 to obrazovanje prěmogo produkta jest komutativno:
 \[
 \mathfrak K_r\times\mathfrak L_s=\mathfrak L_s\times\mathfrak K_r.
 \]
-Tvrdženje, že sistem vsih \(\mathfrak K_r\) jest multiplikativno zatvorjeny, ne znači ničto drugo než, že \(\mathfrak K_r\times\mathfrak L_s=\mathfrak K_r\mathfrak L_s\) jest vsečasno ponovno matricno prsten, čije tělo avtomorfizmov \(\mathfrak M\) imaje centar \(\mathsf P\) -- konečny rang po odnošenju k \(\mathsf P\) razuměje se sam soboju. Po teoremu 1 na str.~20 \(\mathfrak K_r\times\mathfrak L_s\) jest dvustranno prosto i polno reducibilno, zato matricno prsten nad nekym razširjenym tělom \(\mathfrak M\) od \(\mathsf P\). Fakt, že centar od \(\mathfrak M\) jest ravny \(\mathsf P\), neposrědnje slěduje iz toga, že prvo \(\mathsf P\) sigurno jest sodrživano v centru, a drugo ono mora byti sodrživano v centru \(\mathsf P\) od \(\mathfrak K\) (ili od \(\mathfrak L\)). Množenje \(\mathfrak K_r\times\mathfrak L_s\) očevidno jest asociativno. \(\mathfrak K_r\) tvoręt multiplikativno zatvorjeny sistem, ale ne grupu, zato že ako \(\mathfrak K_r\times\mathfrak L_s=\mathfrak M_m\), to sigurno \(m\geq rs\); zato ne bude možno najdti \(\mathfrak L_s\), ktoro izpolnja jednačenje \(\mathfrak K_r\times\mathfrak L_s=\mathfrak M_m\), ako \(r>m\).
+Tvrdženje, že sistem vsih \(\mathfrak K_r\) jest multiplikativno zatvorjeny, ne znači ničto drugo než, že \(\mathfrak K_r\times\mathfrak L_s=\mathfrak K_r\mathfrak L_s\) jest vsečasno ponovno matričny prsten, čije tělo avtomorfizmov \(\mathfrak M\) imaje centar \(\mathsf P\) -- konečny rang po odnošenju k \(\mathsf P\) razuměje se sam soboju. Po teoremu 1 na str.~20 \(\mathfrak K_r\times\mathfrak L_s\) jest dvustranno prosto i polno reducibilno, zato matričny prsten nad nekym razširjenym tělom \(\mathfrak M\) od \(\mathsf P\). Fakt, že centar od \(\mathfrak M\) jest ravny \(\mathsf P\), neposrědnje slěduje iz toga, že prvo \(\mathsf P\) sigurno jest sodrživano v centru, a drugo ono mora byti sodrživano v centru \(\mathsf P\) od \(\mathfrak K\) (ili od \(\mathfrak L\)). Množenje \(\mathfrak K_r\times\mathfrak L_s\) očevidno jest asociativno. \(\mathfrak K_r\) tvoret multiplikativno zatvorjeny sistem, ale ne grupu, zato že ako \(\mathfrak K_r\times\mathfrak L_s=\mathfrak M_m\), to sigurno \(m\geq rs\); zato ne bude možno najdti \(\mathfrak L_s\), ktoro izpolnja jednačenje \(\mathfrak K_r\times\mathfrak L_s=\mathfrak M_m\), ako \(r>m\).
 
-Nyně sdružujemo vse \(\mathfrak K_r\) s jednakym \(\mathfrak K\) v klasu \(\{\mathfrak K\}\). Togda imaje město: Ako \(\mathfrak K_r\) i \(\mathfrak K_{r'}\) naležet k istoj klase \(\{\mathfrak K\}\), a \(\mathfrak L_s\) i \(\mathfrak L_{s'}\) k istoj klase \(\{\mathfrak L\}\), to takože \(\mathfrak K_r\times\mathfrak L_s\) i \(\mathfrak K_{r'}\times\mathfrak L_{s'}\) naležet k istoj klase. Dostatočno jest pokazati, že \(\mathfrak K_r\times\mathfrak L_s\) naleži k istoj klase kako \(\mathfrak K\times\mathfrak L\), to jest že ako \(\mathfrak K\times\mathfrak L=\mathfrak M_m\), to takože \(\mathfrak K_r\times\mathfrak L_s\) jest matricno prsten nad \(\mathfrak M\). To jest legko viděti: Jest
+Nyně sdružujemo vse \(\mathfrak K_r\) s jednakym \(\mathfrak K\) v klasu \(\{\mathfrak K\}\). Togda imaje město: Ako \(\mathfrak K_r\) i \(\mathfrak K_{r'}\) naležet k istoj klase \(\{\mathfrak K\}\), a \(\mathfrak L_s\) i \(\mathfrak L_{s'}\) k istoj klase \(\{\mathfrak L\}\), to takože \(\mathfrak K_r\times\mathfrak L_s\) i \(\mathfrak K_{r'}\times\mathfrak L_{s'}\) naležet k istoj klase. Dostatočno jest pokazati, že \(\mathfrak K_r\times\mathfrak L_s\) naleži k istoj klase kako \(\mathfrak K\times\mathfrak L\), to jest že ako \(\mathfrak K\times\mathfrak L=\mathfrak M_m\), to takože \(\mathfrak K_r\times\mathfrak L_s\) jest matričny prsten nad \(\mathfrak M\). To jest legko viděti: Jest
 \[
 \mathfrak K_r\times\mathfrak L
 =\left(\sum_1^r\mathfrak K c_{ik}\right)\mathfrak L
 =\sum_1^r\mathfrak K_{\mathfrak L}c_{ik}
 =\sum_1^r\mathfrak M_m c_{ik}.
 \]
-Matricno prsten \(r\)-togo stupenja nad \(\mathfrak M_m\), a to očevidno jest matricno prsten \(mr\)-togo stupenja nad \(\mathfrak M\). Togda prodolžujemo točno tako
+Matričny prsten \(r\)-togo stupenja nad \(\mathfrak M_m\), a to očevidno jest matričny prsten \(mr\)-togo stupenja nad \(\mathfrak M\). Togda prodolžujemo točno tako
 \[
 \mathfrak K_r\times\mathfrak L_s
 =\left(\sum_1^s\mathfrak L d_{ik}\right)_{\mathfrak K_r}
@@ -1488,9 +1486,9 @@ Matricno prsten \(r\)-togo stupenja nad \(\mathfrak M_m\), a to očevidno jest m
 
 Iz dokazanogo slěduje: ako produkt dvoh klas \(\{\mathfrak K\}\) i \(\{\mathfrak L\}\) definujemo kako klasu produkta jednogo reprezentanta od \(\{\mathfrak K\}\) s jednim reprezentantom od \(\{\mathfrak L\}\), ta definicija ne zavisi od izbora reprezentantov.
 
-Priręđenje \(\mathfrak K_r\mapsto\{\mathfrak K\}\) jest zato homomorfizm sistema vsih \(\mathfrak K_r\) na množstvo vsih klas \(\{\mathfrak K\}\); množstvo \(\mathscr K\) klas \(\{\mathfrak K\}\) jest zato multiplikativno zatvorjeny sistem. Dokazujemo, že \(\mathscr K\) jest grupa. Kako se neposrědnje vidi, element jedinice jest klasa \(\{\mathsf P\}\), \(\mathfrak K_r\times\mathsf P=\mathfrak K_r\).
+Priredženje \(\mathfrak K_r\mapsto\{\mathfrak K\}\) jest zato homomorfizm sistema vsih \(\mathfrak K_r\) na množstvo vsih klas \(\{\mathfrak K\}\); množstvo \(\mathscr K\) klas \(\{\mathfrak K\}\) jest zato multiplikativno zatvorjeny sistem. Dokazujemo, že \(\mathscr K\) jest grupa. Kako se neposrědnje vidi, element jedinice jest klasa \(\{\mathsf P\}\), \(\mathfrak K_r\times\mathsf P=\mathfrak K_r\).
 
-Ostaje samo dokazati za vsaku klasu \(\{\mathfrak K\}\) obstajanje klasy \(\{\mathfrak K\}^{-1}\). Pokazuje se, že trěba položiti \(\{\mathfrak K\}^{-1}=\{\overline{\mathfrak K}\}\), kde \(\{\overline{\mathfrak K}\}\) označaje tělo recipročno izomorfno s \(\mathfrak K\). Drugymi slovami: \(\mathfrak K\times\overline{\mathfrak K}\) mora byti matricno prsten nad \(\mathsf P\), ili ako \(\mathfrak K\) imaje rang \(t^2\), zato \(\mathfrak K\times\overline{\mathfrak K}\) rang \(t^4\) nad \(\mathsf P\), to \(\mathfrak K\times\overline{\mathfrak K}\) mora razpadati se na \(t^2\) prostyh lěvyh idealov. To slěduje iz toga, že prosty lěvy ideal od \(\mathfrak K\times\overline{\mathfrak K}\), kako modul prědstavjenja nekogo ireducibilnogo recipročnogo prědstavjenja od \(\overline{\mathfrak K}\) v \(\mathfrak K\) -- ktoro jest prvogo stupenja -- imaje rang 1 nad \(\mathfrak K\), to jest rang \(t^2\) nad \(\mathsf P\).
+Ostaje samo dokazati za vsaku klasu \(\{\mathfrak K\}\) obstajanje klasy \(\{\mathfrak K\}^{-1}\). Pokazuje se, že trěba položiti \(\{\mathfrak K\}^{-1}=\{\overline{\mathfrak K}\}\), kde \(\{\overline{\mathfrak K}\}\) označaje tělo recipročno izomorfno s \(\mathfrak K\). Drugymi slovami: \(\mathfrak K\times\overline{\mathfrak K}\) mora byti matričny prsten nad \(\mathsf P\), ili ako \(\mathfrak K\) imaje rang \(t^2\), zato \(\mathfrak K\times\overline{\mathfrak K}\) rang \(t^4\) nad \(\mathsf P\), to \(\mathfrak K\times\overline{\mathfrak K}\) mora razpadati se na \(t^2\) prostyh lěvyh idealov. To slěduje iz toga, že prosty lěvy ideal od \(\mathfrak K\times\overline{\mathfrak K}\), kako modul prědstavjenja nekogo ireducibilnogo recipročnogo prědstavjenja od \(\overline{\mathfrak K}\) v \(\mathfrak K\) -- ktoro jest prvogo stupenja -- imaje rang 1 nad \(\mathfrak K\), to jest rang \(t^2\) nad \(\mathsf P\).
 
 \(\mathfrak K\) hočemo nazyvati \emph{prostym tělom}, ako medžu \(\mathsf P\) i \(\mathfrak K\) ne imaje těla, čiji centar takože jest \(\mathsf P\).
 
@@ -1523,7 +1521,7 @@ Togda jest
 \qquad
 t^2=\text{rang od }\mathfrak K^{(1)}.
 \]
-Ale \(\mathfrak K^{(1)}\times\mathfrak S_\lambda\) jest matricno prsten stupenja prinajmenje ravnogo \(\lambda\), zato \(\lambda\leq t^2\). \(\mathfrak S_\lambda=\overline{\mathfrak K^{(1)}}\times\mathfrak K\) mora razpadati se na proste idealy ranga 1 nad \(\mathfrak K\), zato že \(\overline{\mathfrak K^{(1)}}\) dopušča recipročna prědstavjenja prvogo stupenja v \(\mathfrak K\); zato \(\lambda\geq t^2\), \(\lambda=t^2\),
+Ale \(\mathfrak K^{(1)}\times\mathfrak S_\lambda\) jest matričny prsten stupenja prinajmenje ravnogo \(\lambda\), zato \(\lambda\leq t^2\). \(\mathfrak S_\lambda=\overline{\mathfrak K^{(1)}}\times\mathfrak K\) mora razpadati se na proste idealy ranga 1 nad \(\mathfrak K\), zato že \(\overline{\mathfrak K^{(1)}}\) dopušča recipročna prědstavjenja prvogo stupenja v \(\mathfrak K\); zato \(\lambda\geq t^2\), \(\lambda=t^2\),
 \[
 \mathfrak K_{t^2}=\mathfrak K^{(1)}\times\mathfrak S_{t^2}.
 \]
@@ -1557,14 +1555,14 @@ zato
 % BEGIN BOOK_S23
 \subsection*{§ 23. Faktorne sistemy}\label{faktorensysteme}
 
-V slědujućih razgledanjah prědpokladamo, že osnovno polje \(\mathsf P\) jest doskonalo; vměsto toga možno učiniti obćejše prědpoloženje, že razgledajut se samo taka nekomutativna \(\mathfrak K\) s centrom \(\mathsf P\), ktore imajut svojstvo, že vsako \(\mathfrak K_r\) sodrživaje maksimalno komutativno podpolje prvogo roda nad \(\mathsf P\). (Kako medžutym pokazal \foreign{Köthe}, to imaje město za vsako \(\mathfrak K\).)
+V slědujučih razgledanjah prědpokladamo, že osnovno polje \(\mathsf P\) jest doskonalo; vměsto toga možno učiniti občejše prědpoloženje, že razgledajut se samo taka nekomutativna \(\mathfrak K\) s centrom \(\mathsf P\), ktore imajut svojstvo, že vsako \(\mathfrak K_r\) sodrživaje maksimalno komutativno podpolje prvogo roda nad \(\mathsf P\). (Kako medžutym pokazal \foreign{Köthe}, to imaje město za vsako \(\mathfrak K\).)
 
 Pod \(Z\) razumějemo razpadno polje nekomutativnogo těla \(\mathfrak K\) s centrom \(\mathsf P\); nehaj ireducibilno prědstavjenje \(\mathfrak Z\) od \(Z\) v \(\mathfrak K\) bude stupenja \(r\), togda ono jest maksimalno komutativno podpolje od \(\mathfrak K_r\). Nehaj \(\Gamma\) bude Galoisovo polje od \(Z\), zato
 \[
 \mathfrak Z_\Gamma=e_1\Gamma+\cdots+e_n\Gamma
 \qquad\text{(str.~9)}
 \]
-\(n\) jest stupenj od \(Z\) nad \(\mathsf P\). Za s \(\Gamma\) razširjeno prsten \(\mathfrak K_r\) dobyva se takože razklad
+\(n\) jest stupenj od \(Z\) nad \(\mathsf P\). Za s \(\Gamma\) razširjeny prsten \(\mathfrak K_r\) dobyva se takože razklad
 \[
 \mathfrak K_{r\Gamma}=\mathfrak K_{r\Gamma}e_1+\cdots+\mathfrak K_{r\Gamma}e_n
 \]
@@ -1572,7 +1570,7 @@ Pod \(Z\) razumějemo razpadno polje nekomutativnogo těla \(\mathfrak K\) s cen
 \mathfrak K_{r\Gamma}=\mathfrak l_1+\cdots+\mathfrak l_n,\qquad
 \mathfrak l_i=\mathfrak K_{r\Gamma}e_i.
 \]
-\(\mathfrak l_i\) očevidno sut lěvi idealy. Oni sut čak prosti lěvi idealy, zato že \(Z\) jest razpadno polje, \(\mathfrak K_{r\Gamma}\) jest matricno prsten stupenja \(r\cdot t=n\) nad \(\Gamma\). (Teorem 4, str.~23, \(n=rt\) na str.~22.) Tako dostany razklad od \(\mathfrak K_{r\Gamma}\) na proste lěve idealy osoblivo jest prilagodženy algebraičnym svojstvam od \(\mathfrak K\) i \(Z\). Ako, kako na str.~18, dějstvo substitucije \(S\) iz Galoisovoj grupy \(\mathfrak G\) od \(\Gamma/\mathsf P\) na vse elementy od \(\mathfrak K_{r\Gamma}\) definujemo tako, že za vsaky \(\mathfrak K_r\)-element \(z\) položimo
+\(\mathfrak l_i\) očevidno sut lěvi idealy. Oni sut čak prosti lěvi idealy, zato že \(Z\) jest razpadno polje, \(\mathfrak K_{r\Gamma}\) jest matričny prsten stupenja \(r\cdot t=n\) nad \(\Gamma\). (Teorem 4, str.~23, \(n=rt\) na str.~22.) Tako dostany razklad od \(\mathfrak K_{r\Gamma}\) na proste lěve idealy osoblivo jest prilagodženy algebraičnym svojstvam od \(\mathfrak K\) i \(Z\). Ako, kako na str.~18, dějstvo substitucije \(S\) iz Galoisovoj grupy \(\mathfrak G\) od \(\Gamma/\mathsf P\) na vse elementy od \(\mathfrak K_{r\Gamma}\) definujemo tako, že za vsaky \(\mathfrak K_r\)-element \(z\) položimo
 \[
 S(z)=z
 \]
@@ -1580,7 +1578,7 @@ to idealy \(\mathfrak l_i\) sut konjugovane, t.~j. priměnjenje jednogo \(S\) na
 \[
 S(\mathfrak l_j)=\mathfrak l_i,
 \]
-zato že vsaka nerazloživa komponenta jedinice \(e_j\) mora prěhoditi v neku drugu \(e_i\). (Vidi takože str.~11.)
+zato že vsaka nerazloživa komponenta jedinice \(e_j\) mora prěhoditi v něku drugu \(e_i\). (Vidi takože str.~11.)
 
 Modul prědstavjenja \(e_i\Gamma\) obrazuje \(\mathfrak Z\) na podpolje \(Z_i\) od \(\Gamma\). \(e_i\) už leži v \(\mathfrak Z_{Z_i}\), zato že prědstavjenje \(Z_i\) od \(\mathfrak Z\) už jest sodrživano v \(Z_i\), zato \(\mathfrak Z_{Z_i}\) mora odcěpiti modul prědstavjenja \(e_iZ_i\). Nehaj \(\{Z_i,Z_k\}\) bude kompozitum od \(Z_i\) i \(Z_k\). \(\mathfrak K_{r\{Z_i,Z_k\}}\) odcěpja dva lěva ideala
 \[
@@ -1592,7 +1590,7 @@ ktore sut proste, zato že imaje město \(\mathfrak l_i=\mathfrak K_{r\Gamma}\ba
 \bar{\mathfrak l}_i=\sum_{\lambda=1}^m\{Z_i,Z_k\}c_{\lambda i}^{(ik)},\qquad
 \bar{\mathfrak l}_k=\sum_{\lambda}\{Z_i,Z_k\}c_{\lambda k}^{(ik)}.
 \]
-\(c_{\lambda\rho}^{(ik)}\) jest sistem matricnyh jedinic od \(\mathfrak K_{r\{Z_i,Z_k\}}\).
+\(c_{\lambda\rho}^{(ik)}\) jest sistem matričnyh jedinic od \(\mathfrak K_{r\{Z_i,Z_k\}}\).
 
 Vsaky izomorfizm \(a_i\mapsto a_k\) od \(\bar{\mathfrak l}_i\) na \(\bar{\mathfrak l}_k\) s \(\mathfrak K_{r\{Z_i,Z_k\}}\) kako oblastju operatorov oprěděljen jest elementom \(p_{ik}\) s \(e_i\mapsto p_{ik}\), zato že togda jest \(a_i=a_ie_i\mapsto a_ip_{ik}\), zato \(\bar{\mathfrak l}_i\cdot p_{ik}=\bar{\mathfrak l}_k\). Vsi možne taki \(p_{ik}\) očevidno sut
 \[
@@ -1628,7 +1626,7 @@ a_\nu\mapsto a_\nu p_{\nu\mu},\qquad\text{specialno}\qquad e_\nu\mapsto p_{\nu\m
 \quad\text{od }\bar{\mathfrak l}_\nu\text{ na }\bar{\mathfrak l}_\mu.
 \]
 
-Ako pod \(c_{\lambda\rho}\) razumějemo sistem matricnyh jedinic od \(\mathfrak K_{r\Gamma}\), jasno jest, že \(p_{\nu\mu}\) možno takože zapisati v formě
+Ako pod \(c_{\lambda\rho}\) razumějemo sistem matričnyh jedinic od \(\mathfrak K_{r\Gamma}\), jasno jest, že \(p_{\nu\mu}\) možno takože zapisati v formě
 \[
 p_{\nu\mu}=c_{\nu\mu}\bar\gamma_{\nu\mu}
 \]
@@ -1643,10 +1641,10 @@ imajut zato kako poslědicu relacije
 \begin{aligned}
 p_{ij}p_{1k}&=0,\quad &&\text{ako }j\ne1,\\
 p_{ij}p_{jk}&=\alpha_{ik}^{(j)}p_{ik},\quad
-&&\alpha_{ik}^{(j)}\text{ iz }\Gamma\text{ (točnėje iz }\{Z_i,Z_j,Z_k\}\text{)}
+&&\alpha_{ik}^{(j)}\text{ iz }\Gamma\text{ (točneje iz }\{Z_i,Z_j,Z_k\}\text{)}
 \end{aligned}
 \]
-Te \(n^3\) veličiny \(\alpha\) tvoręt \emph{faktorny sistem od \(\mathfrak K\) pri izbranju od \(Z\)}, ktory prinaleži k sistemu \(p_{ik}\) ,,\emph{pseudomatricnyh jedinic}``.
+Te \(n^3\) veličiny \(\alpha\) tvoret \emph{faktorny sistem od \(\mathfrak K\) pri izbranju od \(Z\)}, ktory prinaleži k sistemu \(p_{ik}\) ,,\emph{pseudomatricnyh jedinic}``.
 
 \(\alpha\) sut konjugovane: Iz \(S(i,k,j)=(\nu,\mu,\tau)\) slěduje
 \[
@@ -1670,7 +1668,7 @@ s \(\delta_{\nu\mu}\) iz \(\{Z_\nu,Z_\mu\}\); \(\delta_{\nu\mu}\) sut konjugovan
 \alpha_{ik}^{(j)*}=\frac{\delta_{ij}\delta_{jk}}{\delta_{ik}}\alpha_{ik}^{(j)}.
 \]
 
-Faktorne sistemy \(\alpha^*\) i \(\alpha\) nazyvajut se \emph{asociovanymi} (tak samo \(p_{ik}^*\) i \(p_{ik}\)); vsi faktorne sistemy od \(\mathfrak K\) pri izbranju od \(Z\) tvoręt klasu \(\{\alpha\}\) asociovanyh faktornyh sistemov.
+Faktorne sistemy \(\alpha^*\) i \(\alpha\) nazyvajut se \emph{asociovanymi} (tak samo \(p_{ik}^*\) i \(p_{ik}\)); vsi faktorne sistemy od \(\mathfrak K\) pri izbranju od \(Z\) tvoret klasu \(\{\alpha\}\) asociovanyh faktornyh sistemov.
 
 Klasa \(\{\alpha\}\) ne zavisi od toga, ktoro prědstavjenje \(\mathfrak Z\) od \(Z\) v \(\mathfrak K_r\) izberemo za osnovu jej definicije. Zato že prěhod od jednogo \(\mathfrak Z\) k drugomu možno učiniti transformacijoju elementom \(\lambda\) iz \(\mathfrak K_r\), ktory jest zato \(\mathfrak G\)-invariantny; zato iz sistema \(p_{ik}\), prinaležečego k \(\mathfrak Z\), nastava sistem
 \[
@@ -1684,17 +1682,17 @@ Faktorny sistem ne jest ničto drugo než tablica množenja od \(\mathfrak K_{n\
 % BEGIN BOOK_S24
 \subsection*{§ 24. Množenje faktornyh sistemov}\label{multiplikation-von-faktorensystemen}
 
-Vměsto o razpadnom polju nekomutativnogo těla \(\mathfrak K\) govorimo takože o razpadnom polju od \(\{\mathfrak K\}\); to imaje smysl, zato že spolu s \(\mathfrak K_Z\) takože vsako prsten \(\mathfrak K_{rZ}\) razpada se na absolutno ireducibilne komponenty, i obratno.
+Vměsto o razpadnom polju nekomutativnogo těla \(\mathfrak K\) govorimo takože o razpadnom polju od \(\{\mathfrak K\}\); to imaje smysl, zato že spolu s \(\mathfrak K_Z\) takože vsaky prsten \(\mathfrak K_{rZ}\) razpada se na absolutno ireducibilne komponenty, i obratno.
 
-Vsaka dva těla \(\mathfrak K\), \(\mathfrak S\) s centrom \(\mathsf P\) imajut obća razpadna polja, napr. kompozitum razpadnogo polja od \(\mathfrak K\) i razpadnogo polja od \(\mathfrak S\).
+Vsaka dva těla \(\mathfrak K\), \(\mathfrak S\) s centrom \(\mathsf P\) imajut obča razpadna polja, napr. kompozitum razpadnogo polja od \(\mathfrak K\) i razpadnogo polja od \(\mathfrak S\).
 
-\textbf{Teorem 1.} \emph{Klasy \(\{\mathfrak K\}\), ktore imajut polje \(Z\) kako razpadno polje, tvoręt podgrupu \(\mathscr K_Z\) grupy \(\mathscr K\) vsih \(\{\mathfrak K\}\).}
+\textbf{Teorem 1.} \emph{Klasy \(\{\mathfrak K\}\), ktore imajut polje \(Z\) kako razpadno polje, tvoret podgrupu \(\mathscr K_Z\) grupy \(\mathscr K\) vsih \(\{\mathfrak K\}\).}
 
 \emph{Dokaz.} Ako \(\mathfrak K\) i \(\mathfrak S\) imajut \(Z\) kako razpadno polje, to \(\mathfrak K_Z\) i \(\mathfrak S_Z\), zato takože \((\mathfrak K\times\mathfrak S)_Z\), razpadajut se na absolutno ireducibilne komponenty, t.~j. \(Z\) jest razpadno polje od \(\{\mathfrak K\times\mathfrak S\}\) (teorem 4 na str.~23).
 
-Recipročno izomorfne těla imajut vsa razpadna polja obće.
+Recipročno izomorfne těla imajut vsa razpadna polja obče.
 
-Pomoćno razgledanje.
+Pomočno razgledanje.
 \[
 \mathfrak K_r=\mathfrak L_1+\cdots+\mathfrak L_r,\qquad
 \mathsf P_m=\mathfrak z_1+\cdots+\mathfrak z_m
@@ -1704,7 +1702,7 @@ nehaj budut razklady od \(\mathfrak K_r\), \(\mathsf P_m\) na proste lěve ideal
 \mathfrak K_{rm}=\mathfrak K_r\times\mathsf P_m
 =\mathfrak L_1\mathfrak z_1+\cdots+\mathfrak L_i\mathfrak z_j+\cdots+\mathfrak L_r\mathfrak z_m
 \]
-jest razklad od \(\mathfrak K_{rm}\) na \(rm\) nenulovyh, zato prostyh lěvyh idealov. Zato vsaky \(r\)-členny lěvy ideal \(A\) od \(\mathfrak K_{rm}\) jest svęzany s \(r\)-člennym lěvym idealom
+jest razklad od \(\mathfrak K_{rm}\) na \(rm\) nenulovyh, zato prostyh lěvyh idealov. Zato vsaky \(r\)-členny lěvy ideal \(A\) od \(\mathfrak K_{rm}\) jest svezany s \(r\)-člennym lěvym idealom
 \[
 \mathfrak L_1\mathfrak z_1+\cdots+\mathfrak L_r\mathfrak z_1=\mathfrak K_r\mathfrak z_1
 \]
@@ -1747,14 +1745,14 @@ na konjugovane lěve idealy nastava iz (1) transformacijoju s \(\mathfrak K_{rm}
 e_i^*=\lambda^{-1}e'_iE'\lambda.
 \]
 
-Dokaz jest neposrědnja poslědica slědujućej pomoćnoj lemy:
+Dokaz jest neposrědnja poslědica slědujučej pomočnoj lemy:
 
-\textbf{Pomoćna lema.} \emph{Nehaj \(A\) bude lěvy ideal iz \(\mathfrak K_n\), i nehaj}
+\textbf{Pomočna lema.} \emph{Nehaj \(A\) bude lěvy ideal iz \(\mathfrak K_n\), i nehaj}
 \[
 A=\mathfrak l_1+\cdots+\mathfrak l_n
 =\mathfrak K_{n\Gamma}e_1+\cdots+\mathfrak K_{n\Gamma}e_n
 \]
-\emph{bude -- po prědpoloženju obstajajuči -- razklad na konjugovane lěve idealy; pri tom možno -- bez ograničenja obćosti -- prědpokladati, že \(\mathfrak l_i\) sut konjugovane.}
+\emph{bude -- po prědpoloženju obstajajuči -- razklad na konjugovane lěve idealy; pri tom možno -- bez ograničenja občosti -- prědpokladati, že \(\mathfrak l_i\) sut konjugovane.}
 
 \emph{Nehaj \(\mathfrak z\) bude operatorno izomorfny s \(A\); i nehaj budut izpolnjene teže prědpoloženja:}
 \[
@@ -1765,9 +1763,9 @@ A=\mathfrak l_1+\cdots+\mathfrak l_n
 
 \emph{Dokaz. 1. Fakt, že \(e_i\) možno prědpokladati konjugovanymi, slěduje tako:} Ako \(e_1\) jest libovoljny tvoreči idempotent od \(\mathfrak l_1\), to \(\mathfrak l_1=\mathfrak K_{n\Gamma}e_1\), priměnjenjem avtomorfizma na \(\Gamma\) slěduje \(\mathfrak l_i=\mathfrak K_{n\Gamma}e_i\), kde \(e_i\) jest konjugovany s \(e_1\) i ponovno tvoreči idempotent.
 
-2. \emph{Vsako \(\mathfrak l\) jest izomorfno s vsakym \(\mathfrak q\);} zato že \(\mathfrak l\), kako konjugovane, vse imajut jednaku (absolutnu) dolžinu, čisla od \(\mathfrak l\) i \(\mathfrak q\) sut jednaka, a \(\mathfrak z\) i \(A\) sut po prědpoloženju izomorfne.
+2. \emph{Vsaky \(\mathfrak l\) jest izomorfny s vsakym \(\mathfrak q\);} zato že \(\mathfrak l\), kako konjugovane, vse imajut jednaku (absolutnu) dolžinu, čisla od \(\mathfrak l\) i \(\mathfrak q\) sut jednaka, a \(\mathfrak z\) i \(A\) sut po prědpoloženju izomorfne.
 
-3. Priręđenjem
+3. Priredženjem
 \[
 \tag{3}
 e_1\mapsto s_1=e_1s_1;\qquad
@@ -1848,17 +1846,17 @@ Ako izberemo sistem pseudomatricnyh jedinic \(p_{ik}\) od \(\mathfrak K\), to
 \[
 r_{ik}=\tau^{-1}p_{ik}\tau\cdot E'
 \]
-jest \(r_{ik}\)-sistem od \(A_\Gamma\) s jednakym faktornym sistemom. zato imajemo pomoćnu lemu:
+jest \(r_{ik}\)-sistem od \(A_\Gamma\) s jednakym faktornym sistemom. zato imajemo pomočnu lemu:
 
-\textbf{Teorem.} \emph{Faktorne sistemy od \(A_\Gamma\), obrazovane s pomoćju libovoljnogo razklada}
+\textbf{Teorem.} \emph{Faktorne sistemy od \(A_\Gamma\), obrazovane s pomočju libovoljnogo razklada}
 \[
 A_\Gamma=\mathfrak q_1+\cdots+\mathfrak q_n
 \]
 \emph{od \(A_\Gamma\) na konjugovane lěve idealy, sut jednaka faktornym sistemam od \(\mathfrak K_r\).}
 
-Slědujući teorem pokazuje, že ako \(\alpha_{ik}^{(j)}\), \(\beta_{ik}^{(j)}\) sut faktorne sistemy od \(\{\mathfrak K\}\), \(\{\mathfrak S\}\) pri izbranju od \(Z\), to \(\varepsilon_{ik}^{(j)}=\alpha_{ik}^{(j)}\cdot\beta_{ik}^{(j)}\) jest faktorny sistem od \(\{\mathfrak K\times\mathfrak S\}\) pri izbranju od \(Z\). Zato imaje smysl definirati \emph{produkt \(\{\alpha\}\times\{\beta\}\) dvoh klas asociovanyh faktornyh sistemov} \(\{\alpha\}\), \(\{\beta\}\) kako klasu \(\{\alpha_{ik}^{(j)}\beta_{ik}^{(j)}\}\).
+Slědujuči teorem pokazuje, že ako \(\alpha_{ik}^{(j)}\), \(\beta_{ik}^{(j)}\) sut faktorne sistemy od \(\{\mathfrak K\}\), \(\{\mathfrak S\}\) pri izbranju od \(Z\), to \(\varepsilon_{ik}^{(j)}=\alpha_{ik}^{(j)}\cdot\beta_{ik}^{(j)}\) jest faktorny sistem od \(\{\mathfrak K\times\mathfrak S\}\) pri izbranju od \(Z\). Zato imaje smysl definirati \emph{produkt \(\{\alpha\}\times\{\beta\}\) dvoh klas asociovanyh faktornyh sistemov} \(\{\alpha\}\), \(\{\beta\}\) kako klasu \(\{\alpha_{ik}^{(j)}\beta_{ik}^{(j)}\}\).
 
-\textbf{Teorem 2.} \emph{Nehaj \(\{\mathfrak K\}\) pri izbranju od \(Z\) imaje klasu \(\{\alpha\}\) asociovanyh faktornyh sistemov. Klasy \(\{\alpha\}\) vsih \(\{\mathfrak K\}\) s razpadnym poljem \(Z\) tvoręt grupu, ktora jest posrědstvom \(\{\mathfrak K\}\mapsto\{\alpha\}\) izomorfno odnesena na \(\mathscr K_Z\).}
+\textbf{Teorem 2.} \emph{Nehaj \(\{\mathfrak K\}\) pri izbranju od \(Z\) imaje klasu \(\{\alpha\}\) asociovanyh faktornyh sistemov. Klasy \(\{\alpha\}\) vsih \(\{\mathfrak K\}\) s razpadnym poljem \(Z\) tvoret grupu, ktora jest posrědstvom \(\{\mathfrak K\}\mapsto\{\alpha\}\) izomorfno odnesena na \(\mathscr K_Z\).}
 
 \textbf{Za dokaz} trěba pokazati dvoje:
 
@@ -1885,9 +1883,9 @@ ideal absolutnoj dolžiny \(n\). \(A_1\) jest invariantny pri vsih \(S\), zato �
 \[
 A_1=A_\Gamma
 \]
-(pomoćna lema, str.~18).
+(pomočna lema, str.~18).
 
-Ako \(u\) jest stupenj ireducibilnogo prědstavjenja od \(\mathfrak Z\) v tělu avtomorfizmov \(\mathfrak M\) prostyh idealov od \(\mathfrak K\times\mathfrak S\), to \(A\) razpada se na \(u\) prostyh idealov (zato že absolutna dolžina jest \(n\)). Naša pomoćna lema davaje zato, že faktorne sistemy od \(A\) sut takože faktorne sistemy od \(\mathfrak M\).
+Ako \(u\) jest stupenj ireducibilnogo prědstavjenja od \(\mathfrak Z\) v tělu avtomorfizmov \(\mathfrak M\) prostyh idealov od \(\mathfrak K\times\mathfrak S\), to \(A\) razpada se na \(u\) prostyh idealov (zato že absolutna dolžina jest \(n\)). Naša pomočna lema davaje zato, že faktorne sistemy od \(A\) sut takože faktorne sistemy od \(\mathfrak M\).
 
 Ale razklad od \(A_\Gamma\) na konjugovane idealy, upotrěbjeny za definiciju, jest:
 \[
@@ -1921,7 +1919,7 @@ S\Omega=\mathfrak l_ip_{i1}\sum_\mu p_{1\mu}
 \]
 zato \(\Omega=\mathfrak l_\Gamma\), \emph{kde \(\mathfrak l\) označaje \(\mathfrak K_r\)-ideal \(n\)-togo ranga.}
 
-\textbf{Teorem 3.} \emph{Vsaky element \(\{\mathfrak K\}\) grupy \(\mathscr K\) imaje konečny ręd \(\lambda\), ktory jest dělitelj absolutnogo čisla komponentov \(t\) od \(\mathfrak K\).}
+\textbf{Teorem 3.} \emph{Vsaky element \(\{\mathfrak K\}\) grupy \(\mathscr K\) imaje konečny red \(\lambda\), ktory jest dělitelj absolutnogo čisla komponentov \(t\) od \(\mathfrak K\).}
 
 \emph{Prvy dokaz (Brauer).} Izberemo dva razklady od \(\mathfrak K_{r\Gamma}\) na konjugovane lěve idealy
 \[
@@ -1972,9 +1970,9 @@ Ako položimo \(\delta_{\nu\mu}=\prod_{\lambda}\xi_{\nu\mu}^{(\lambda)}\), to \(
        {\prod_{\lambda}\xi_{ij}^{(\lambda)}\prod_{\lambda}\xi_{jk}^{(\lambda)}}
 =\frac{\delta_{ik}}{\delta_{ij}\delta_{jk}}
 \]
-iz formuly za asociovane faktorne sistemy (str.~32) slěduje, že \(\alpha_{ik}^{(j)n}\) jest asociovany s sistemom \(\beta_{ik}^{(j)}=1\); zato, zato že ręd od \(\{\mathfrak K\}\) jest ravny rędu od \(\{\alpha\}\), ręd od \(\{\mathfrak K\}\) jest dělitelj od \(n\). Ako osoblivo izberemo \(\mathfrak Z\) kako maksimalno komutativno podpolje od \(\mathfrak K\), to jest \(n=t\), to \(\lambda\) jest dělitelj od \(t\).
+iz formuly za asociovane faktorne sistemy (str.~32) slěduje, že \(\alpha_{ik}^{(j)n}\) jest asociovany s sistemom \(\beta_{ik}^{(j)}=1\); zato, zato že red od \(\{\mathfrak K\}\) jest ravny redu od \(\{\alpha\}\), red od \(\{\mathfrak K\}\) jest dělitelj od \(n\). Ako osoblivo izberemo \(\mathfrak Z\) kako maksimalno komutativno podpolje od \(\mathfrak K\), to jest \(n=t\), to \(\lambda\) jest dělitelj od \(t\).
 
-\emph{Drugy dokaz (Schur).} Toj dokaz osnovan jest na prědstavjenju \(p_{ik}\) posrědstvom regularnyh matric ręda \(n\), \(P_{ik}\), v \(\Gamma\), ktore izpolnjajut jednake uslovja konjugovanosti kako \(p_{ik}\). \(P_{ik}\) leži v \(\{Z_i,Z_k\}\); ako \(p_{ik}\) prinaleži k \(P_{ik}\), to \(S(p_{ik})\) prinaleži k \(S(P_{ik})\). To prědstavjenje jest homomorfno; t.~j. ako \(P_{ik}\) prinaleži k \(p_{ik}\), a \(P_{kj}\) k \(p_{kj}\), to \(P_{ik}P_{kj}\) prinaleži k \(p_{ik}p_{kj}\), ili
+\emph{Drugy dokaz (Schur).} Toj dokaz osnovan jest na prědstavjenju \(p_{ik}\) posrědstvom regularnyh matric reda \(n\), \(P_{ik}\), v \(\Gamma\), ktore izpolnjajut jednake uslovja konjugovanosti kako \(p_{ik}\). \(P_{ik}\) leži v \(\{Z_i,Z_k\}\); ako \(p_{ik}\) prinaleži k \(P_{ik}\), to \(S(p_{ik})\) prinaleži k \(S(P_{ik})\). To prědstavjenje jest homomorfno; t.~j. ako \(P_{ik}\) prinaleži k \(p_{ik}\), a \(P_{kj}\) k \(p_{kj}\), to \(P_{ik}P_{kj}\) prinaleži k \(p_{ik}p_{kj}\), ili
 \[
 P_{ik}P_{kj}=\alpha_{ij}^{(k)}P_{ij}
 \]
@@ -2050,11 +2048,11 @@ P_{ik}P_{kj}(k_\varrho e_j)
 
 Teorem 3 možno posiliti:
 
-\textbf{Teorem 4.} \emph{Ako \(p\) jest prosty faktor absolutnogo čisla komponentov \(t\) od \(\mathfrak K\), to \(p\) vhodi takože v ręd \(\lambda\) od \(\{\mathfrak K\}\). (Brauer)}
+\textbf{Teorem 4.} \emph{Ako \(p\) jest prosty faktor absolutnogo čisla komponentov \(t\) od \(\mathfrak K\), to \(p\) vhodi takože v red \(\lambda\) od \(\{\mathfrak K\}\). (Brauer)}
 
-\emph{Dokaz.} Nehaj \(p^\sigma\) bude najvyšša potencija od \(p\), ktora se nalazi v stupenju \(n\) razpadnogo polja \(Z\), \(\mathfrak H\) podgrupa ręda \(p^\sigma\) od \(\mathfrak G\) (ona obstaja po \emph{teoremu od Sylova}, Speiser 1. izd. § 19, str.~42, teorem 43), a \(T\) invariantno polje od \(\mathfrak H\).
+\emph{Dokaz.} Nehaj \(p^\sigma\) bude najvyšša potencija od \(p\), ktora se nalazi v stupenju \(n\) razpadnogo polja \(Z\), \(\mathfrak H\) podgrupa reda \(p^\sigma\) od \(\mathfrak G\) (ona obstaja po \emph{teoremu od Sylova}, Speiser 1. izd. § 19, str.~42, teorem 43), a \(T\) invariantno polje od \(\mathfrak H\).
 
-Togda \([\Gamma:T]=p^\sigma\) i \([T:\mathsf P]=n/p^\sigma\) ne jest dělivy posrědstvom \(p\), a tym vyše ne posrědstvom \(t\). \(T\) zato ne jest razpadno polje; tělo avtomorfizmov \(\mathfrak S\) od \(\mathfrak K_T=\mathfrak S_m\) jest različno od \(\mathsf P\). Ale zato že \(\mathfrak S\) imaje razpadno polje \(\Gamma\), čiji stupenj nad centrom \(T\) od \(\mathfrak S\) jest ravny \(p^\sigma\), absolutno čislo komponentov od \(\mathfrak S\) jest potencija \(p^\beta>1\), zato po teoremu 3 ręd od \(\{\mathfrak S\}\) jest potencija \(p^\alpha>1\) od \(p\). Zato že iz
+Togda \([\Gamma:T]=p^\sigma\) i \([T:\mathsf P]=n/p^\sigma\) ne jest dělivy posrědstvom \(p\), a tym vyše ne posrědstvom \(t\). \(T\) zato ne jest razpadno polje; tělo avtomorfizmov \(\mathfrak S\) od \(\mathfrak K_T=\mathfrak S_m\) jest različno od \(\mathsf P\). Ale zato že \(\mathfrak S\) imaje razpadno polje \(\Gamma\), čiji stupenj nad centrom \(T\) od \(\mathfrak S\) jest ravny \(p^\sigma\), absolutno čislo komponentov od \(\mathfrak S\) jest potencija \(p^\beta>1\), zato po teoremu 3 red od \(\{\mathfrak S\}\) jest potencija \(p^\alpha>1\) od \(p\). Zato že iz
 \[
 \{\mathfrak K\}^{\lambda}=\{\mathsf P\},
 \qquad
@@ -2064,11 +2062,11 @@ slěduje, to \(\lambda\equiv0\pmod {p^\alpha}\), tym jest dokazano. (Brauer dal 
 
 \textbf{Teorem 5.} \emph{Nehaj \(t\), razloženo na proste faktory, bude \(t=\prod_i p_i^{\varrho_i}\), \(\varrho_i\ge1\), \(p_i\ne p_j\), ako \(i\ne j\). Togda jest \(\mathfrak K=\mathfrak K^{(1)}\times\mathfrak K^{(2)}\times\cdots\), kde \(\mathfrak K^{(i)}\) jest tělo s absolutnym čislom komponentov \(p_i^{\varrho_i}\).}
 
-\emph{Dokaz.} Po teoremah 3 i 4 ręd \(\lambda\) od \(\{\mathfrak K\}\) jest
+\emph{Dokaz.} Po teoremah 3 i 4 red \(\lambda\) od \(\{\mathfrak K\}\) jest
 \[
 \lambda=\prod_i p_i^{\alpha_i},\qquad 1\le\alpha_i\le\varrho_i.
 \]
-Posrědstvom \(\{\mathfrak K\}\) stvorjena ciklična podgrupa \(\mathfrak Z\) od \(\mathscr K\) jest prěmy produkt podgrup \(\mathfrak Z_i\) rędov \(p_i^{\alpha_i}\), to jest
+Posrědstvom \(\{\mathfrak K\}\) stvorjena ciklična podgrupa \(\mathfrak Z\) od \(\mathscr K\) jest prěmy produkt podgrup \(\mathfrak Z_i\) redov \(p_i^{\alpha_i}\), to jest
 \[
 \{\mathfrak K\}=\prod_i\{\mathfrak K^{(i)}\},
 \]
@@ -2096,9 +2094,9 @@ Nehaj maksimalno komutativno podpolje \(\mathfrak Z\) od \(\mathfrak K_r\) bude 
 \[
 H_i z=u_i^{-1}zu_i\quad\text{za vse }z\text{ iz }\mathfrak Z.
 \]
-Vsaky \(u_i\) jest oprěděljen do nenulovogo faktora \(y\) iz \(\mathfrak Z\). Zato že ako \(u^{-1}zu=u'^{-1}zu'\) za vse \(z\) iz \(\mathfrak Z\), to slěduje \((u^{-1}u')^{-1}z(u^{-1}u')=z\) za vse \(z\in\mathfrak Z\). Priloženje od \(u^{-1}u'\) k \(\mathfrak Z\) davaje zato komutativno podpolje od \(\mathfrak K_r\), ktoro zaradi maksimalnosti od \(\mathfrak Z\) sběgaje sę s \(\mathfrak Z\). zato \(u^{-1}u'\) leži v \(\mathfrak Z\).
+Vsaky \(u_i\) jest oprěděljen do nenulovogo faktora \(y\) iz \(\mathfrak Z\). Zato že ako \(u^{-1}zu=u'^{-1}zu'\) za vse \(z\) iz \(\mathfrak Z\), to slěduje \((u^{-1}u')^{-1}z(u^{-1}u')=z\) za vse \(z\in\mathfrak Z\). Priloženje od \(u^{-1}u'\) k \(\mathfrak Z\) davaje zato komutativno podpolje od \(\mathfrak K_r\), ktoro zaradi maksimalnosti od \(\mathfrak Z\) sběgaje se s \(\mathfrak Z\). zato \(u^{-1}u'\) leži v \(\mathfrak Z\).
 
-Dokazujemo slědujući teorem:
+Dokazujemo slědujuči teorem:
 \[
 \mathfrak K_r=u_1\mathfrak Z+\cdots+u_n\mathfrak Z.
 \]
@@ -2172,7 +2170,7 @@ S drugoj strany imajemo
 u_T=\sum_S S(p_{E,T}e_T)=\sum_S S(p_{E,T})e_{ST}
 \]
 
-i imaje město slědujuće jednačenje za dějstvo na elementy od \(\mathfrak Z\)
+i imaje město slědujuče jednačenje za dějstvo na elementy od \(\mathfrak Z\)
 
 \[
 \Theta_S H_T=\Theta_S\Theta_E^{-1}\Theta_{T^{-1}}
@@ -2217,7 +2215,7 @@ zaradi \(z=\sum_S\Theta_S(z)e_S\) slěduje
 
 zato: \(z_T=0\).
 
-Od nyně vměsto \(H_S(z)\) pišemo \(z^S\), ,,simbolična potencija``. Za \(u_S\) morajut byti izpolnjene relacije slědujućego vida
+Od nyně vměsto \(H_S(z)\) pišemo \(z^S\), ,,simbolična potencija``. Za \(u_S\) morajut byti izpolnjene relacije slědujučego vida
 
 \[
 u_Ru_T=u_{RT}a_{R,T},\qquad a_{R,T}\ne0\quad\text{iz }\mathfrak Z.
@@ -2247,7 +2245,7 @@ slěduje
 
 \[\Theta_{SRT}(a_{R,\,T}) = \alpha_{S,SRT}^{(SR)}, ~~ a_{R,\,T} = \sum\limits_{S} e_{SRT} \alpha_{S,SRT}^{(SR)} = \sum\limits_{L} e_{L} \alpha_{LT^{-1}R^{-1},L}^{(LT^{-1})}.\]
 
-Sistem od \(a_{R,\,T}\) hočemo nazyvati malym faktornym sistemom od \(\mathfrak K_r\); veliki faktorny sistem \(\alpha_{BC}^{(A)}\) i mali faktorny sistem \(a_{R,\,T}\) oprěděljajut se vzajemno. K produktu \(\varepsilon_{BC}^{(A)} = \alpha_{BC}^{(A)} \beta_{BC}^{(A)}\) dvoh velikyh faktornyh sistemov prinaleži produkt \(f_{R,\,T} = a_{R,\,T}b_{R,\,T}\) malyh faktornyh sistemov \(a_{R,\,T}\), \(b_{R,\,T}\), priręđenyh k \(\alpha_{BC}^{(A)}\), \(\beta_{BC}^{(A)}\); to neposrědnje slěduje iz gornjih formul. K velikomu jedinčnomu faktornomu sistemu \(\alpha_{BC}^{(A)} = 1\) prinaleži mali jedinčny faktorny sistem \(a_{R,\,T} = 1\), i obratno.
+Sistem od \(a_{R,\,T}\) hočemo nazyvati malym faktornym sistemom od \(\mathfrak K_r\); veliki faktorny sistem \(\alpha_{BC}^{(A)}\) i mali faktorny sistem \(a_{R,\,T}\) oprěděljajut se vzajemno. K produktu \(\varepsilon_{BC}^{(A)} = \alpha_{BC}^{(A)} \beta_{BC}^{(A)}\) dvoh velikyh faktornyh sistemov prinaleži produkt \(f_{R,\,T} = a_{R,\,T}b_{R,\,T}\) malyh faktornyh sistemov \(a_{R,\,T}\), \(b_{R,\,T}\), priredženyh k \(\alpha_{BC}^{(A)}\), \(\beta_{BC}^{(A)}\); to neposrědnje slěduje iz gornjih formul. K velikomu jedinčnomu faktornomu sistemu \(\alpha_{BC}^{(A)} = 1\) prinaleži mali jedinčny faktorny sistem \(a_{R,\,T} = 1\), i obratno.
 
 Možno zaměniti \(u_S\) i \(u_S'=u_Sr_S\), kde \(r_S\neq 0\) jest izbrano libovoljno iz \(\mathfrak Z\). K \(u_S'\) prinaleži mali faktorny sistem \(a_{R,T}'\)
 
@@ -2267,13 +2265,13 @@ iz čego
 
 slěduje.
 
-K \(u_S' = u_S r_S\) prinaleži slědujući sistem pseudomatricnyh jedinic
+K \(u_S' = u_S r_S\) prinaleži slědujuči sistem pseudomatricnyh jedinic
 
 \[p_{S,ST}^{\prime}=p_{S,ST}r_{T}\]
 
-mali faktorny sistem \(a'_{R,\,T}\) prinaleži zato k velikomu faktornomu sistemu \(\alpha^{(A)\prime}_{BC}\), ktory jest asociovany s faktornym sistemom \(\alpha^{(A)}_{BC}\), prinaležečim k \(a_{R,\,T}\); asociovane male faktorne sistemy odpovědajut asociovanym velikym faktornym sistemam i obratno. Priręđenje klas \(\{\alpha\}\) asociovanyh velikyh faktornyh sistemov k prinaležečim klasam asociovanyh malyh faktornyh sistemov, \(\{a\}\), jest izomorfizm grup.
+mali faktorny sistem \(a'_{R,\,T}\) prinaleži zato k velikomu faktornomu sistemu \(\alpha^{(A)\prime}_{BC}\), ktory jest asociovany s faktornym sistemom \(\alpha^{(A)}_{BC}\), prinaležečim k \(a_{R,\,T}\); asociovane male faktorne sistemy odpovědajut asociovanym velikym faktornym sistemam i obratno. Priredženje klas \(\{\alpha\}\) asociovanyh velikyh faktornyh sistemov k prinaležečim klasam asociovanyh malyh faktornyh sistemov, \(\{a\}\), jest izomorfizm grup.
 
-Nyně prěhodimo k prědstavjenju od \(u_S\) posrědstvom matric ręda n v \(\mathfrak{Z}\), ktore se sućstveno razlikuje od dosěga razgledanyh prědstavjenij.
+Nyně prěhodimo k prědstavjenju od \(u_S\) posrědstvom matric reda n v \(\mathfrak{Z}\), ktore se sučstveno razlikuje od dosěga razgledanyh prědstavjenij.
 
 Ako \(\mathfrak Z\)-bazu
 
@@ -2293,7 +2291,7 @@ od \(\mathfrak K_r\) množimo s prava posrědstvom \(u_S\), nastava
 \text{(III)}\qquad (k_{S_1}u_S, \ldots, k_{S_n}u_S) = (k_{S_1}, \ldots, k_{S_n})A_S
 \]
 
-nazyvamo matricoju, ktora prědstavja \(u_S\). Prědstavjenje se odnosi na vse elementy od \(\mathfrak K_{r}\), ktore kako \(u_S\) stvarjajut avtomorfizm od \(\mathfrak Z/P\), t.~j. na vse elementy \(u_Sr_S\), kde \(r_S \neq 0\) jest izbrano libovoljno iz \(\mathfrak Z\). Vsi ti elementi tvoręt grupu \(\mathfrak G^*\), ktora kako normalnu podgrupu sodrživaje multiplikativnu grupu \(\mathfrak Z^*\) od \(\mathfrak Z\); faktorna grupa \(\mathfrak G^*/\mathfrak Z^*\) jest izomorfna s Galoisovoj grupoju \(\mathfrak G\) od \(\mathfrak Z/P\) tako, že vsaky element jednogo pobočnogo klasa od \(\mathfrak G^*\) po odnošenju k \(\mathfrak Z^*\) stvarjaje avtomorfizm od \(\mathfrak Z\), priręđeny tomu klasu. Ta grupa \(\mathfrak G^*\) prědstavja se upravo ukazanym načinom
+nazyvamo matricoju, ktora prědstavja \(u_S\). Prědstavjenje se odnosi na vse elementy od \(\mathfrak K_{r}\), ktore kako \(u_S\) stvarjajut avtomorfizm od \(\mathfrak Z/P\), t.~j. na vse elementy \(u_Sr_S\), kde \(r_S \neq 0\) jest izbrano libovoljno iz \(\mathfrak Z\). Vsi ti elementi tvoret grupu \(\mathfrak G^*\), ktora kako normalnu podgrupu sodrživaje multiplikativnu grupu \(\mathfrak Z^*\) od \(\mathfrak Z\); faktorna grupa \(\mathfrak G^*/\mathfrak Z^*\) jest izomorfna s Galoisovoj grupoju \(\mathfrak G\) od \(\mathfrak Z/P\) tako, že vsaky element jednogo pobočnogo klasa od \(\mathfrak G^*\) po odnošenju k \(\mathfrak Z^*\) stvarjaje avtomorfizm od \(\mathfrak Z\), priredženy tomu klasu. Ta grupa \(\mathfrak G^*\) prědstavja se upravo ukazanym načinom
 
 \(u_S \mapsto A_S\)
 
@@ -2339,10 +2337,10 @@ nastupaje.
 
 Prěkriženo prědstavjenje od \(\mathfrak{G}^*\) možno takože obrazovati posrědstvom bazy nekogo pravogo ideala \(\mathfrak r\) od \(\mathfrak{K}_r\). Vsaky pravy ideal od \(\mathfrak{K}_r\) stvarjaje na toj način klasu ekvivalentnyh prědstavjenij; pri tom prědstavjenja \(u_S \mapsto A_S, u_S \mapsto B_S\) nazyvajut se ekvivalentnymi, ako obstaja matrica \(M\) s \(B_S = M^{-1}A_SM^S\).
 
-Vměsto ograničenja na prědstavjenja od \(\mathfrak G^*\) v \(\mathfrak Z\), stvorjene pravymi idealami od \(\mathfrak K_r\), nyně možno obće definirati prěkriženo prědstavjenje \(m\)-togo stupenja od \(\mathfrak G^*\) v \(\mathfrak Z\) tako:
+Vměsto ograničenja na prědstavjenja od \(\mathfrak G^*\) v \(\mathfrak Z\), stvorjene pravymi idealami od \(\mathfrak K_r\), nyně možno obče definirati prěkriženo prědstavjenje \(m\)-togo stupenja od \(\mathfrak G^*\) v \(\mathfrak Z\) tako:
 
 \begin{enumerate}
-\item Vsakomu \(u_S\) odpovědaje matrica \(A_S\) ręda \(m\) nad \(\mathfrak Z\).
+\item Vsakomu \(u_S\) odpovědaje matrica \(A_S\) reda \(m\) nad \(\mathfrak Z\).
 \item Iz \(u_S \mapsto A_S\), \(u_T \mapsto A_T\) slěduje \(u_Su_T \mapsto A_TA_S^T\).
 \end{enumerate}
 
@@ -2362,7 +2360,7 @@ cělkom analogno konstrukciji modula prědstavjenja k zadanomu prědstavjenju na
 
 \[m \cdot z u_S = mz \cdot u_S = mu_S \cdot z^S\]
 
-obće
+obče
 
 \[m \cdot \sum z_S u_S = \sum m z_S \cdot u_S = \sum m u_S \cdot z_S^S.\]
 
@@ -2386,13 +2384,13 @@ ili \(n \cdot t = (\mathfrak{r}: \mathfrak Z) \cdot n\) slěduje zato \((\mathfr
 % BEGIN BOOK_S26
 \subsection*{§ 26. Množenje prěkriženyh prědstavjenij}\label{multiplikation-der-verschraenkten-darstellungen}
 
-Doseli jesmo vsegda razgledali prěkriženo prědstavjenje kako prědstavjenje od \(\mathfrak{G}^*\). Ale jego možno razgledati takože kako prědstavjenje Galoisovoj grupy \(\mathfrak{G}\) od \(\mathfrak Z/P\), i to tako, že vsakomu elementu \(S\) od \(\mathfrak{G}\) priręđajemo matricu \(A_S\), ktora prědstavja element \(u_S\) iz \(\mathfrak K_r\), stvarjajuči avtomorfizm \(S\) posrědstvom transformacije -- \(u_S^{-1}zu_S=z^S\) --.
+Doseli jesmo vsegda razgledali prěkriženo prědstavjenje kako prědstavjenje od \(\mathfrak{G}^*\). Ale jego možno razgledati takože kako prědstavjenje Galoisovoj grupy \(\mathfrak{G}\) od \(\mathfrak Z/P\), i to tako, že vsakomu elementu \(S\) od \(\mathfrak{G}\) priredžajemo matricu \(A_S\), ktora prědstavja element \(u_S\) iz \(\mathfrak K_r\), stvarjajuči avtomorfizm \(S\) posrědstvom transformacije -- \(u_S^{-1}zu_S=z^S\) --.
 
 Za označenje takogo prědstavjenja \(S\mapsto A_S\)\srcfn{1}{Tako prědstavjenje (nezavisno od hiperkompleksnyh sistemov)
 \[
 S\mapsto A_S;\quad T\mapsto A_T;\quad ST\mapsto A_TA_S^T=A_{ST}\cdot a_{S,T}^{-1}
 \]
-(ili transponovano prědstavjenje) bylo odpravnym punktom Speisera (Math. Zschr. 5) pri oprěděljenju faktornyh sistemov \(a_{S,T}\). Te faktorne sistemy pokazyvajut se zato identičnymi s tu iz drugoj osnovy uvedenymi.} trěba skazati, v ktorom \(\mathfrak K_r\) ono jest vzęto, ktore \(u_S\) i ktore \(k_{S_1},\ldots,k_{S_n}\) od \(\mathfrak K\) nad \(\mathfrak Z\) sut upotrěbjene. Zaměna bazy davaje ekvivalentno prědstavjenje, a zaměna od \(u\) davaje asociovane faktorne sistemy \(a_{S,\,T}\); sućstvene sut to jest \(\mathfrak K_r\), v ktoryh prědstavjenje jest vzęto, t.~j. klasa \(\{a_{S,\,T}\}\) asociovanyh faktornyh sistemov.
+(ili transponovano prědstavjenje) bylo odpravnym punktom Speisera (Math. Zschr. 5) pri oprěděljenju faktornyh sistemov \(a_{S,T}\). Te faktorne sistemy pokazyvajut se zato identičnymi s tu iz drugoj osnovy uvedenymi.} trěba skazati, v ktorom \(\mathfrak K_r\) ono jest vzeto, ktore \(u_S\) i ktore \(k_{S_1},\ldots,k_{S_n}\) od \(\mathfrak K\) nad \(\mathfrak Z\) sut upotrěbjene. Zaměna bazy davaje ekvivalentno prědstavjenje, a zaměna od \(u\) davaje asociovane faktorne sistemy \(a_{S,\,T}\); sučstvene sut to jest \(\mathfrak K_r\), v ktoryh prědstavjenje jest vzeto, t.~j. klasa \(\{a_{S,\,T}\}\) asociovanyh faktornyh sistemov.
 
 Nehaj nyně budut dane dva taka prědstavjenja od \(\mathfrak G\).
 
@@ -2421,9 +2419,9 @@ zato trěba dokazati:
 (A_T\times B_T)(A_S\times B_S)^T a_{S,T}^{-1}b_{S,T}^{-1}
 =(A_TA_S^T\times B_TB_S^T)a_{S,T}^{-1}b_{S,T}^{-1}.
 \]
-To ale slěduje iz slědujućego razvažanja:
+To ale slěduje iz slědujučego razvažanja:
 
-Ako matrice \(A\) i \(B\) prědstavimo posrědstvom matričnyh jedinic \(c_{ik}\) i \(d_{\mu\nu}\) (ktore ne imajut ničto obće s matričnymi jedinicami od \(\mathfrak K_r\) ili \(\mathfrak S_s\))
+Ako matrice \(A\) i \(B\) prědstavimo posrědstvom matričnyh jedinic \(c_{ik}\) i \(d_{\mu\nu}\) (ktore ne imajut ničto obče s matričnymi jedinicami od \(\mathfrak K_r\) ili \(\mathfrak S_s\))
 \[
 A=\sum c_{ik}\alpha_{ik};\qquad
 B=\sum d_{\mu\nu}\beta_{\mu\nu},\qquad\text{togda}
@@ -2538,9 +2536,9 @@ bude oprěděljena kako prsten posrědstvom relacij: \(zu_S=u_Sz^S\), \(u_Su_T=a
 \]
 tym \(\mathfrak M\) postavaje asociativnym prstenom.
 
-\noindent\textbf{Obratny teorem 2.} \emph{Prěkriženy produkt \(\mathfrak Z\cdot\mathfrak G\) jest dvustranno prosty, s \(P\) kako centrom (po pristupah R. Brauera).} Dokaz osnovyvaje se na slědujućih pomoćnyh lemah:
+\noindent\textbf{Obratny teorem 2.} \emph{Prěkriženy produkt \(\mathfrak Z\cdot\mathfrak G\) jest dvustranno prosty, s \(P\) kako centrom (po pristupah R. Brauera).} Dokaz osnovyvaje se na slědujučih pomočnyh lemah:
 
-\noindent\textbf{Pomoćna lema 1.} \emph{Vsaky element, ktory jest po elementah komutativny s \(\mathfrak Z\), prinaleži k \(\mathfrak Z\).}
+\noindent\textbf{Pomočna lema 1.} \emph{Vsaky element, ktory jest po elementah komutativny s \(\mathfrak Z\), prinaleži k \(\mathfrak Z\).}
 
 \noindent\emph{Dokaz.} Nehaj \(w=\sum_S c_{\lambda_S}u_S\), (\(c_{\lambda_S}\) v \(\mathfrak Z\)) i nehaj bude prědpoloženo: \(wz=zw\) za vsako \(z\) iz \(\mathfrak Z\). zato
 \[
@@ -2550,19 +2548,19 @@ tym \(\mathfrak M\) postavaje asociativnym prstenom.
 \]
 zato \(zc_{\lambda_S}=c_{\lambda_S}z^{S^{-1}}\), ili \(c_{\lambda_S}(z-z^{S^{-1}})=0\), za vsako \(z\) i \(S\) (linearna nezavisnost od \(u\)!). Iz toga ale slěduje: \(c_{\lambda_S}=0\) za \(S\neq E\), zato že za vsako tako \(S\) obstaja prinajmenje \emph{jedno} \(z\), tako že \(z-z^{S^{-1}}\neq0\); zato \(w\) jest v \(\mathfrak Z\).
 
-\noindent\textbf{Pomoćna lema 2.} \emph{Vsaky \(\mathfrak Z\)-dvojny modul \(\mathfrak A\), ktory jest dvojno izomorfny s \(\mathfrak Zu_S=u_S\mathfrak Z\) (za \(\mathfrak Z\) kako lěvy i pravy operator), jest identičny s \(\mathfrak Zu_S\).}
+\noindent\textbf{Pomočna lema 2.} \emph{Vsaky \(\mathfrak Z\)-dvojny modul \(\mathfrak A\), ktory jest dvojno izomorfny s \(\mathfrak Zu_S=u_S\mathfrak Z\) (za \(\mathfrak Z\) kako lěvy i pravy operator), jest identičny s \(\mathfrak Zu_S\).}
 
 \noindent\emph{Dokaz 2.} \(\mathfrak A\) jest izomorfny s \(\mathfrak Zu_S\) kako lěvy modul; ako zato \(u_S\mapsto a\) iz \(\mathfrak A\), to \(\mathfrak Zu_S\mapsto\mathfrak Za\), to \(\mathfrak A=\mathfrak Za\). Iz dvojnogo izomorfizma slěduje (1) \(za=az^S\) (zaradi \(u_Sz\mapsto az\)); i iz toga \(\mathfrak A=\mathfrak Zu_S\). Ako imenno položimo: \(a=u_Su_S^{-1}a=u_Sw\), dobyva se: \(za=zu_Sw=u_Sz^Sw\), ale zaradi (1): \(za=u_Swz^S\), zato (po množenju s \(u_S\)): \(z^Sw=wz^S\) za vsako \(z\) iz \(\mathfrak Z\). Zato takože \(z^S\) proběgaje cělo \(\mathfrak Z\), \(w\) jest po elementah komutativny s \(\mathfrak Z\), zato po 1. prinaleži k \(\mathfrak Z\).
 
-\noindent\textbf{Pomoćna lema 3.} \emph{Vsaky \(\mathfrak Z\)-dvojny modul iz \(\mathfrak Z\cdot\mathfrak G\) imaje formu: \(\mathfrak Zu_{S_1}+\cdots+\mathfrak Zu_{S_k}\), kde \(u_{S_1}\) označaje nykoje \(k\) različne iz \(u_S,\ldots,u_T\).}
+\noindent\textbf{Pomočna lema 3.} \emph{Vsaky \(\mathfrak Z\)-dvojny modul iz \(\mathfrak Z\cdot\mathfrak G\) imaje formu: \(\mathfrak Zu_{S_1}+\cdots+\mathfrak Zu_{S_k}\), kde \(u_{S_1}\) označaje někoje \(k\) različne iz \(u_S,\ldots,u_T\).}
 
 \noindent\emph{Dokaz.} Prěkriženy produkt \(\mathfrak Z\cdot\mathfrak G\) jest polno reducibilny kako \(\mathfrak Z\)-dvojny modul, zato že vsaky sumand \(\mathfrak Zu_S\) imaje rang 1. Kako dvojne moduly, vsi sumandy takože prinaležet k različnym klasam, zato ne sut dvojno izomorfne. Zaradi polnoj reducibilnosti vsaky \(\mathfrak Z\)-dvojny modul \(\mathfrak M\) jest prěmy sumand i sam polno reducibilny. \(\mathfrak M=\sum\mathfrak A_{S_i}\), kde \(\mathfrak A_{S_i}\) jest izomorfny s \(\mathfrak Zu_{S_i}\); i zato po 2. jest identičny s \(\mathfrak Zu_{S_i}\). (Vsi \(\mathfrak A_{S_i}\) prinaležet k različnym klasam.)
 
-\noindent\textbf{Pomoćna lema 4.} \emph{Vsako prsten iz \(\mathfrak Z\cdot\mathfrak G\), ktoro sodrživaje \(\mathfrak Z\), osoblivo samo \(\mathfrak Z\cdot\mathfrak G\), jest dvustranno prosto. --- Podprsteny, ktore sodrživajut \(\mathfrak Z\), jednoznačno odpovědajut podgrupam od \(\mathfrak G\).}
+\noindent\textbf{Pomočna lema 4.} \emph{Vsaky prsten iz \(\mathfrak Z\cdot\mathfrak G\), ktory sodrživaje \(\mathfrak Z\), osoblivo samo \(\mathfrak Z\cdot\mathfrak G\), jest dvustranno prosty. --- Podprsteny, ktore sodrživajut \(\mathfrak Z\), jednoznačno odpovědajut podgrupam od \(\mathfrak G\).}
 
-\noindent\emph{Dokaz.} Vsako prsten \(\mathfrak o\), ktoro sodrživaje \(\mathfrak Z\), jest \(\mathfrak Z\)-dvojny modul, zato po 3. imaje formu \(\sum\mathfrak Z\cdot u_{S_i}\); zato že \(\mathfrak o\) jest prsten, produkt dvoh \(u_{S_i}\) ponovno prinaleži k \(\mathfrak o\), zato takože prinaležeči \(\mathfrak Z\)-modul. Zato \(u_{S_i}\) tvoręt grupu do faktornyh sistemov, zato že jih jest konečno mnogo. zato \(\mathfrak o=\mathfrak Z\cdot\mathfrak H\), kde \(\mathfrak H\) jest podgrupa od \(\mathfrak G\). (Točnije, \(\mathfrak Z\cdot u_{S_i}\) tvoręt multiplikativny sistem.) Ako nyně \(\mathfrak a\) jest libovoljny dvustranny ideal \(\neq0\) iz \(\mathfrak o\), to on jest \(\mathfrak o\)-dvojny modul, i tym \(\mathfrak Z\)-dvojny modul i podmodul od \(\mathfrak o\). zato vměstě s \(\mathfrak Zu_{S_i}\) sodrživaje cělu grupu \(\mathfrak H\), i zato postavaje \(\mathfrak o=\mathfrak Z\cdot\mathfrak H\).
+\noindent\emph{Dokaz.} Vsaky prsten \(\mathfrak o\), ktory sodrživaje \(\mathfrak Z\), jest \(\mathfrak Z\)-dvojny modul, zato po 3. imaje formu \(\sum\mathfrak Z\cdot u_{S_i}\); zato že \(\mathfrak o\) jest prsten, produkt dvoh \(u_{S_i}\) ponovno prinaleži k \(\mathfrak o\), zato takože prinaležeči \(\mathfrak Z\)-modul. Zato \(u_{S_i}\) tvoret grupu do faktornyh sistemov, zato že jih jest konečno mnogo. zato \(\mathfrak o=\mathfrak Z\cdot\mathfrak H\), kde \(\mathfrak H\) jest podgrupa od \(\mathfrak G\). (Točnije, \(\mathfrak Z\cdot u_{S_i}\) tvoret multiplikativny sistem.) Ako nyně \(\mathfrak a\) jest libovoljny dvustranny ideal \(\neq0\) iz \(\mathfrak o\), to on jest \(\mathfrak o\)-dvojny modul, i tym \(\mathfrak Z\)-dvojny modul i podmodul od \(\mathfrak o\). zato vměstě s \(\mathfrak Zu_{S_i}\) sodrživaje cělu grupu \(\mathfrak H\), i zato postavaje \(\mathfrak o=\mathfrak Z\cdot\mathfrak H\).
 
-\noindent\textbf{Pomoćna lema 5.} \emph{\(P\) jest centar od \(\mathfrak Z\cdot\mathfrak G\).}
+\noindent\textbf{Pomočna lema 5.} \emph{\(P\) jest centar od \(\mathfrak Z\cdot\mathfrak G\).}
 
 \noindent\emph{Dokaz.} Ako \(w\) jest po elementah komutativny s \(\mathfrak Z\cdot\mathfrak G\), to osoblivo s \(\mathfrak Z\), zato po 1. prinaleži k \(\mathfrak Z\). Zato iz \(wu_S=u_Sw^S\) slěduje \(w=w^S\), ako jest komutativny. zato \(w\) prinaleži k \(P\).
 
@@ -2570,7 +2568,7 @@ zato \(zc_{\lambda_S}=c_{\lambda_S}z^{S^{-1}}\), ili \(c_{\lambda_S}(z-z^{S^{-1}
 
 Samo pri 4. trěba za \(\mathfrak o\) prědpoložiti \(\mathfrak o=\mathfrak Z\cdot\mathfrak H\), a to vsegda imaje město za polny produkt \(\mathfrak Z\cdot\mathfrak G\), zato že iz naleženja od \(u_{S_i}u_{S_k}\) nyně ne možno zaključiti grupovo svojstvo sistema, ako \(\mathfrak o\) jest beskonečno nad \(\mathfrak Z\).
 
-\noindent\emph{Primětka 2.} Pri prěmom osnovanju tu trěba prisojediniti teoriju prěkriženogo matričnogo prědstavjenja, razvijenu v §§ 25/26. V slědujućem, na koncu § 28, upotrěbja se, že ireducibilno prěkriženo prědstavjenje imaje stupenj \(t\), kde \(t\) jest absolutno čislo komponentov (indeks) od \(\mathfrak K\). Ponovno trěba ukazati, že ta teorija prědstavjenja davaje identitet faktornyh sistemov, uvedenyh tu kako konstanty množenja, s pojmom obyčnym v literaturě.
+\noindent\emph{Primětka 2.} Pri prěmom osnovanju tu trěba prisojediniti teoriju prěkriženogo matričnogo prědstavjenja, razvijenu v §§ 25/26. V slědujučem, na koncu § 28, upotrěbja se, že ireducibilno prěkriženo prědstavjenje imaje stupenj \(t\), kde \(t\) jest absolutno čislo komponentov (indeks) od \(\mathfrak K\). Ponovno trěba ukazati, že ta teorija prědstavjenja davaje identitet faktornyh sistemov, uvedenyh tu kako konstanty množenja, s pojmom obyčnym v literaturě.
 % END BOOK_S27
 
 % BEGIN BOOK_S28
@@ -2600,21 +2598,21 @@ s \(\tilde u_S\tilde u_T=\tilde u_{ST}\tilde c_{S,T}\) (\(\widetilde{\mathfrak Z
 
 \noindent\textbf{Tvrdženje.} \emph{Dobyva se \(\tilde c_{S,T}=\tilde a_{S,T}\tilde b_{S,T}\), kde \(\tilde a,\tilde b\) sut s \(a\) i \(\bar b\) izomorfne elementi v \(\widetilde{\mathfrak Z}\).}
 
-Dokaz osnovyvaje se na tom, že prsten avtomorfizmov libovoljnogo lěvogo ideala iz \(\mathfrak A_j\), ktory imaje absolutnu dolžinu \(n\), jest izomorfno s \(\mathfrak A_f=\widetilde{\mathfrak Z}\widetilde{\mathfrak G}\), i že to prsten avtomorfizmov možno prěmo oprěděliti pri pogodnom lěvom idealu iz \(\mathfrak A_j\). Obće imaje město slědujući teorem, imenno s \(s\) vměsto \(n\), ale zaradi udobnosti izrečeny za \(\mathfrak K_r\):
+Dokaz osnovyvaje se na tom, že prsten avtomorfizmov libovoljnogo lěvogo ideala iz \(\mathfrak A_j\), ktory imaje absolutnu dolžinu \(n\), jest izomorfny s \(\mathfrak A_f=\widetilde{\mathfrak Z}\widetilde{\mathfrak G}\), i že toj prsten avtomorfizmov možno prěmo oprěděliti pri pogodnom lěvom idealu iz \(\mathfrak A_j\). Obče imaje město slědujuči teorem, imenno s \(s\) vměsto \(n\), ale zaradi udobnosti izrečeny za \(\mathfrak K_r\):
 
-\noindent\textbf{1. Teorem 1.} \emph{Prsten avtomorfizmov lěvogo ideala \(\mathfrak l\) absolutnoj dolžiny \(n\) iz \(\mathfrak K_{rs}=\mathfrak K_r\times P_s\) jest izomorfno s \(\mathfrak K_r\).}
+\noindent\textbf{1. Teorem 1.} \emph{Prsten avtomorfizmov lěvogo ideala \(\mathfrak l\) absolutnoj dolžiny \(n\) iz \(\mathfrak K_{rs}=\mathfrak K_r\times P_s\) jest izomorfny s \(\mathfrak K_r\).}
 
-Dokaz slěduje iz slědujućih pomoćnyh lem.
+Dokaz slěduje iz slědujučih pomočnyh lem.
 
-\noindent\textbf{Pomoćna lema 1.} \emph{Vsi lěve idealy absolutnoj dolžiny \(n\) iz \(\mathfrak K_{rs}\) sut operatorno izomorfne. Njih prsteny avtomorfizmov sut zato prstenovo izomorfne. Osoblivo \(\mathfrak l=\mathfrak K_r\times\mathfrak b\) imaje absolutnu dolžinu \(n\), pri čem pod \(\mathfrak b\) razumějemo prosty ideal iz \(P_s\).}
+\noindent\textbf{Pomočna lema 1.} \emph{Vsi lěve idealy absolutnoj dolžiny \(n\) iz \(\mathfrak K_{rs}\) sut operatorno izomorfne. Njih prsteny avtomorfizmov sut zato prstenovo izomorfne. Osoblivo \(\mathfrak l=\mathfrak K_r\times\mathfrak b\) imaje absolutnu dolžinu \(n\), pri čem pod \(\mathfrak b\) razumějemo prosty ideal iz \(P_s\).}
 
 \noindent\emph{Dokaz.} To, že lěve idealy imajut absolutnu dolžinu \(n\), t.~j. razpadajut se na \(n\) absolutno nerazložimyh prostyh idealov, imaje za poslědicu jednaku dolžinu v \(\mathfrak K_{rs}\), t.~j. v \(\mathfrak K_{rs}\) nastupaje ravnako mnogo prostyh idealnyh sumandov. Iz toga slěduje njih operatorny izomorfizm, a tym i prstenovy izomorfizm prstenov avtomorfizmov. Dalje \(\mathfrak K_r=\mathfrak Z\cdot\mathfrak G\) imaje absolutnu dolžinu \(n\), t.~j. rang jest \(n^2\), zato \(\mathfrak K_r\times P_s\) imaje absolutnu dolžinu \(n\cdot s\), i zato \(\mathfrak K_r\times\mathfrak b\) imaje absolutnu dolžinu \(n\).
 
-\noindent\textbf{Pomoćna lema 2.} \emph{Ako \(\mathfrak o\) jest prsten s jedinicoju, \(\mathfrak l=\mathfrak o e_1\) jest lěvy ideal i prěmy sumand, to jest \(e_1\) jest idempotent, to prsten avtomorfizmov od \(\mathfrak l\) jest izomorfno s \(e_1\mathfrak o e_1\).}
+\noindent\textbf{Pomočna lema 2.} \emph{Ako \(\mathfrak o\) jest prsten s jedinicoju, \(\mathfrak l=\mathfrak o e_1\) jest lěvy ideal i prěmy sumand, to jest \(e_1\) jest idempotent, toj prsten avtomorfizmov od \(\mathfrak l\) jest izomorfny s \(e_1\mathfrak o e_1\).}
 
-\noindent\emph{Dokaz.} Množenje s elementom \(e_1re_1\) davaje operatorny homomorfizm od \(\mathfrak l\) v sebe; različne elementi \(e_1re_1\) davajut različne homomorfizmy, zato že pri tom k \(e_1\) sut priręđene različne elementi, i vsaky homomorfizm jest stvorjen tako: \(e_1\mapsto re_1\) i \(re_1=e_1re_1\) zaradi \(e_1e_1=e_1\). Suma i produkt v \(e_1\mathfrak o e_1\) ale odpovědajut sumi i produktu priręđenyh homomorfizmov.
+\noindent\emph{Dokaz.} Množenje s elementom \(e_1re_1\) davaje operatorny homomorfizm od \(\mathfrak l\) v sebe; različne elementi \(e_1re_1\) davajut različne homomorfizmy, zato že pri tom k \(e_1\) sut priredžene različne elementi, i vsaky homomorfizm jest stvorjen tako: \(e_1\mapsto re_1\) i \(re_1=e_1re_1\) zaradi \(e_1e_1=e_1\). Suma i produkt v \(e_1\mathfrak o e_1\) ale odpovědajut sumi i produktu priredženyh homomorfizmov.
 
-\noindent\textbf{Pomoćna lema 3.} \emph{Ako položimo \(P_s=\sum_1^s c_{ik}P\) s matričnymi jedinicami \(c_{ik}\) i \(\mathfrak b=c_{11}P+\cdots+c_{s1}P\), to kako prsten avtomorfizmov od \(\mathfrak K_r\times\mathfrak b\) dobyva se prsten \(\mathfrak K_rc_{11}\), ktoro jest izomorfno s \(\mathfrak K_r\).}
+\noindent\textbf{Pomočna lema 3.} \emph{Ako položimo \(P_s=\sum_1^s c_{ik}P\) s matričnymi jedinicami \(c_{ik}\) i \(\mathfrak b=c_{11}P+\cdots+c_{s1}P\), to kako prsten avtomorfizmov od \(\mathfrak K_r\times\mathfrak b\) dobyva se prsten \(\mathfrak K_rc_{11}\), ktory jest izomorfny s \(\mathfrak K_r\).}
 
 \noindent\emph{Dokaz.} Zato že \(c_{11}\) jest po elementah komutativny s \(\mathfrak K_r\) i nijedin element iz \(\mathfrak K_r\) ne jest anulovany, zato že \(c_{11}\) jest stvarjajuči idempotent od \(\mathfrak K_r\times P_s\), i jest
 \[
@@ -2622,7 +2620,7 @@ c_{11}\cdot\mathfrak K_r\times P_s\cdot c_{11}
 =\mathfrak K_r\times c_{11}P_sc_{11}
 =\mathfrak K_rc_{11}.
 \]
-Iz tyh pomoćnyh lem prěmo slěduje teorem 1.
+Iz tyh pomočnyh lem prěmo slěduje teorem 1.
 
 \noindent\textbf{2. Oprěděljenje i razklad od \(\mathfrak K_r\times\overline{\mathfrak K}_r\) na lěve idealy absolutnoj dolžiny \(n\).} Po definiciji dobyva se
 \[
@@ -2635,7 +2633,7 @@ pri čem element s črtoju jest po elementah komutativny s elementom bez črty, 
 =(\mathfrak G\times\overline{\mathfrak G})\cdot(\mathfrak Z\times\overline{\mathfrak Z})
 =\mathfrak G\times\overline{\mathfrak G}\cdot(\mathfrak Ze_1+\cdots+\mathfrak Ze_n)
 \]
-s \(\mathfrak Ze_i=\overline{\mathfrak Z}e_i\), (množenje Galoisovogo polja samogo s soboju). Zato že vsi sumandy imajut jednaky rang po odnošenju k \(\mathfrak Z\), a zato takože jednaku absolutnu dolžinu --- absolutna dolžina od \(\mathfrak A_f\) ale jest \(=n^2\) --- vsaky sumand imaje absolutnu dolžinu \(n\). V slědujućem za osnovu bude vzęto
+s \(\mathfrak Ze_i=\overline{\mathfrak Z}e_i\), (množenje Galoisovogo polja samogo s soboju). Zato že vsi sumandy imajut jednaky rang po odnošenju k \(\mathfrak Z\), a zato takože jednaku absolutnu dolžinu --- absolutna dolžina od \(\mathfrak A_f\) ale jest \(=n^2\) --- vsaky sumand imaje absolutnu dolžinu \(n\). V slědujučem za osnovu bude vzeto
 \[
 \mathfrak l=(\mathfrak G\times\overline{\mathfrak G})\mathfrak Ze_1,
 \]
@@ -2652,7 +2650,7 @@ tako že s \(\tilde a_{S,T}=a_{S,T}e_1\) i \(\tilde b_{S,T}=\bar b_{S,T}e_1\) pr
 
 \noindent\emph{Dokaz.} \(e_1\) postavaje jedinica prstena; elementi konjugovane s \(\tilde z=ze_1\) sut zato dane posrědstvom \(\tilde z^Se_1\); trěba pokazati, že elementi \(u_S\bar u_Se_1\) inducirajut te substitucije, čime bude dokazano prěkriženo prědstavjenje.
 
-\noindent\textbf{Pomoćna lema 1.} \(e_1u_S\bar u_S=u_S\bar u_Se_1\), zato \(=e_1u_S\bar u_Se_1\).
+\noindent\textbf{Pomočna lema 1.} \(e_1u_S\bar u_S=u_S\bar u_Se_1\), zato \(=e_1u_S\bar u_Se_1\).
 
 \noindent\emph{Dokaz.} Položimo \(u_S^{-1}e_1u_S=e^S\)\srcfn{1}{Tym ustanovjenjem dobyva se \(e_1=e^E\).} ili \(e_1u_S=u_Se^S\); togda \(e^S\) proběgajut konjugovane \(e_1,e_2,\ldots,e_n\). Togda imaje město (1)\srcfn{2}{zaradi \(\sum a_i\bar A_i\bar u_R=\sum a_i\bar u_R\bar A_i^R=\bar u_R\sum(a_i^R)^{R^{-1}}\bar A_i^{-R}\).}
 \[
@@ -2662,21 +2660,21 @@ Zato že \(e_1=\sum a_i\bar A_i=\sum a_i^R\bar A_i^R\), kde \(a_i\) proběgaje l
 \[
 e_1u_S\bar u_S=u_Se^S\bar u_S=u_S\bar u_S\cdot e^{SS^{-1}}=u_S\bar u_Se_1,
 \]
-čime jest dokazana pomoćna lema 1.
+čime jest dokazana pomočna lema 1.
 
-\noindent\textbf{Pomoćna lema 2.} \(ze_1\cdot e_1u_S\bar u_Se_1=e_1u_S\bar u_Se_1\cdot z^Se_1\).
+\noindent\textbf{Pomočna lema 2.} \(ze_1\cdot e_1u_S\bar u_Se_1=e_1u_S\bar u_Se_1\cdot z^Se_1\).
 
 \noindent\emph{Dokaz.} 
 \[
 ze_1\cdot e_1u_S\bar u_Se_1
-=zu_S\bar u_Se_1\quad(\text{Pomoćna lema 1})
+=zu_S\bar u_Se_1\quad(\text{Pomočna lema 1})
 =u_Sz^S\bar u_Se_1
 =u_S\bar u_Se_1\cdot z^Se_1
 =b=e_1b,
 \]
-(\(z\) jest komutativny s \(\bar u\) i \(e_1\)). --- Nehaj \(u'=u_S\bar u_Se_1\). Pomoćna lema 2 izreka, že \(u'\) indiciraje substitucije od \(\mathfrak Ze_1\), tako že imaje město prěkriženo prědstavjenje podano v teoremu.
+(\(z\) jest komutativny s \(\bar u\) i \(e_1\)). --- Nehaj \(u'=u_S\bar u_Se_1\). Pomočna lema 2 izreka, že \(u'\) indiciraje substitucije od \(\mathfrak Ze_1\), tako že imaje město prěkriženo prědstavjenje podano v teoremu.
 
-\noindent\textbf{Pomoćna lema 3.} \emph{Faktorny sistem postavaje ravny \(a_{S,T}e_1\cdot\bar b_{S,T}e_1\).}
+\noindent\textbf{Pomočna lema 3.} \emph{Faktorny sistem postavaje ravny \(a_{S,T}e_1\cdot\bar b_{S,T}e_1\).}
 
 \noindent\emph{Dokaz.}
 \[
@@ -2701,7 +2699,7 @@ u\bar ue_1=vc\cdot\bar v\bar de_1=v\bar v\cdot c\bar de_1=v\bar ve_1\cdot c\bar 
 
 \noindent\textbf{5.} Ako \(\{a\}\) jest faktorny sistem od \(\{\mathfrak K\}\), a \(t\) jest indeks od \(\{\mathfrak K\}\), to \(\{a\}^t\) jest ravny jedinčnomu klasu. To slěduje iz toga, že ireducibilno prěkriženo prědstavjenje od \(\mathfrak G\) imaje stupenj \(t\), upravo kako Šurov dokaz po prědstavjenju od \(p_{ik}\) (§ 24, str. 37).
 
-\noindent\textbf{6.} Izomorfizm medžu grupoju \(\mathscr K_{\mathfrak Z}\) od \(\{\mathfrak K\}\) k \(\mathfrak Z\), t.~j. s \(\mathfrak Z\) kako razpadnym poljem, i grupoju klas \(\{a_{S,T}\}\) asociovanyh faktornyh sistemov. Po konstrukciji v § 27 obstaja jednoznačna korespondencija medžu \(\{\mathfrak K\}\) i \(\{a_{S,T}\}\); po 4. priręđenje jest homomorfno, zato imamo izomorfizm. Iz toga osoblivo slěduje, že jedinčne klasy odpovědajut jedne drugim:
+\noindent\textbf{6.} Izomorfizm medžu grupoju \(\mathscr K_{\mathfrak Z}\) od \(\{\mathfrak K\}\) k \(\mathfrak Z\), t.~j. s \(\mathfrak Z\) kako razpadnym poljem, i grupoju klas \(\{a_{S,T}\}\) asociovanyh faktornyh sistemov. Po konstrukciji v § 27 obstaja jednoznačna korespondencija medžu \(\{\mathfrak K\}\) i \(\{a_{S,T}\}\); po 4. priredženje jest homomorfno, zato imamo izomorfizm. Iz toga osoblivo slěduje, že jedinčne klasy odpovědajut jedne drugim:
 
 \noindent\emph{Prěkriženy produkt jest togda i samo togda ravny \(P\), to jest matričnomu prstenu v centru, kogda faktorny sistem jest asociovany s jedinčnym sistemom.}
 % END BOOK_S28
@@ -2713,9 +2711,9 @@ Nehaj \(\mathfrak K_r=\mathfrak Z\cdot\mathfrak G\) bude prěkriženy produkt, a
 
 \noindent\textbf{Definicija.} „\emph{Glavny rod v minimalnom}“ \(\mathscr H\) sostoji se iz vsih grupovyh avtomorfizmov od \(\mathfrak G^*\), ktore sut prodolženje identiteta na \(\mathfrak Z^*\). Razlog za to nazvanje slěduje iz specializacije na ciklične polja. Vidi § 30.
 
-\noindent\textbf{Teorem.} \emph{Vsaky avtomorfizm glavnogo roda imaje formu \(u_S\mapsto u_S\cdot b^Sb^{-1}=u_Sb^{S-1}\), kde \(b\) jest v \(\mathfrak Z\), i obratno, vsako tako priręđenje stvarjaje avtomorfizm glavnogo roda.}
+\noindent\textbf{Teorem.} \emph{Vsaky avtomorfizm glavnogo roda imaje formu \(u_S\mapsto u_S\cdot b^Sb^{-1}=u_Sb^{S-1}\), kde \(b\) jest v \(\mathfrak Z\), i obratno, vsako tako priredženje stvarjaje avtomorfizm glavnogo roda.}
 
-\noindent\emph{Dokaz.} Nehaj pri grupovom avtomorfizmu bude \(u_S\mapsto v_S\), \(z\mapsto z\), za vsako \(z\) iz \(\mathfrak Z\), i nehaj pri tom produkty odpovědajut jedni drugim; togda avtomorfizm možno dopolniti do avtomorfizma prstena \(\mathfrak K_r\) posrědstvom priręđenja
+\noindent\emph{Dokaz.} Nehaj pri grupovom avtomorfizmu bude \(u_S\mapsto v_S\), \(z\mapsto z\), za vsako \(z\) iz \(\mathfrak Z\), i nehaj pri tom produkty odpovědajut jedni drugim; togda avtomorfizm možno dopolniti do avtomorfizma prstena \(\mathfrak K_r\) posrědstvom priredženja
 \[
 \sum u_Sc_{\lambda_S}\mapsto\sum v_Sc_{\lambda_S},
 \]
@@ -2735,33 +2733,33 @@ Ako prěkriženy produkt obrazujemo osoblivo s cikličnym poljem \(\mathfrak Z\)
 
 \noindent\textbf{Teorem 1.} \emph{Grupa \(\mathscr K_{\mathfrak Z}\) od \(\{\mathfrak K\}\) s ustanovjenym cikličnym razpadnym poljem \(\mathfrak Z\) nad \(P\) jest izomorfna s grupoju \(P^*/N\mathfrak Z^*\), kde \(N\mathfrak Z^*\) proběgaje grupu vsih norm \(Nz\) elementov \(z\neq0\) iz \(\mathfrak Z\).}
 
-\noindent\emph{Dokaz.} Dokaz osnovyvaje se na normovanju prěkriženogo prědstavjenja i na několiko pomoćnyh lemah o tom.
+\noindent\emph{Dokaz.} Dokaz osnovyvaje se na normovanju prěkriženogo prědstavjenja i na několiko pomočnyh lemah o tom.
 
 \noindent\textbf{Definicija.} Ciklično prěkriženo prědstavjenje nazyvaje se \emph{normovanym}, ako imaje formu
 \[
 \mathfrak K_r=\mathfrak Z+\mathfrak Zu+\cdots+\mathfrak Zu^{n-1},
 \]
-s \(zu=uz^S\), \(u^n=a\), kde \(S\) jest stvarjajuči element iz \(\mathfrak G\) (ako zato položimo \(u_{S^r}=u^r\), \(r=0,\ldots,n-1\), vměsto obćego \(u_{S^r}=b_ru^r\) s \(b_r\) v \(\mathfrak Z\)).
+s \(zu=uz^S\), \(u^n=a\), kde \(S\) jest stvarjajuči element iz \(\mathfrak G\) (ako zato položimo \(u_{S^r}=u^r\), \(r=0,\ldots,n-1\), vměsto občego \(u_{S^r}=b_ru^r\) s \(b_r\) v \(\mathfrak Z\)).
 
-\noindent\textbf{Pomoćna lema 1.} \emph{Ciklično prěkriženo prědstavjenje možno vsegda vzęti normovanym. Pri tom \(a\) leži v \(P\), i vsako \(a\) iz \(P\) davaje tako prědstavjenje.}
+\noindent\textbf{Pomočna lema 1.} \emph{Ciklično prěkriženo prědstavjenje možno vsegda vzeti normovanym. Pri tom \(a\) leži v \(P\), i vsako \(a\) iz \(P\) davaje tako prědstavjenje.}
 
 \noindent\emph{Dokaz.} Prva čest jest jasna, zato že iz \(u^{-1}zu=z^S\) slěduje \(u^{-r}zu^r=z^{S^r}\), zato \(u^r\) stvarjaje substituciju \(z\mapsto z^{S^r}\). Dalje, zato že \(u^n\) induciraje identitet \(z\mapsto z^{S^n}\), dobyva se \(u^n=a\) s \(a\) v \(\mathfrak Z\). Ale \(u^n\) jest komutativny so vsimi \(u^r\), to samo imaje město za \(a\), i zato \(a^{S^r}=a\); zato \(a\) leži v \(P\).
 
-zato \(a\) jest jedina sućstvena konstanta množenja. Zato uslovja asociativnosti ne imajut sodržanje; vsako \(a\) iz \(P\) davaje asociativny sistem, a tym i neko \(\mathfrak K_r\).
+zato \(a\) jest jedina sučstvena konstanta množenja. Zato uslovja asociativnosti ne imajut sodržanje; vsako \(a\) iz \(P\) davaje asociativny sistem, a tym i neko \(\mathfrak K_r\).
 
-\noindent\textbf{Pomoćna lema 2.} \emph{Vměsto polnogo klasa \(\{a_{S,T}\}\) asociovanyh faktornyh sistemov dostatočno jest razgledati normovane faktorne sistemy, ktore sut sodrživane v klasu --- t.~j. ktore nastavajut iz normovanyh prědstavjenij. Tu podmnožinu klasa nazyvamo normovanym klasom. Grupa polnyh klas \(\{a_{S,T}\}\) jest izomorfna s grupoju normovanyh klas.}
+\noindent\textbf{Pomočna lema 2.} \emph{Vměsto polnogo klasa \(\{a_{S,T}\}\) asociovanyh faktornyh sistemov dostatočno jest razgledati normovane faktorne sistemy, ktore sut sodrživane v klasu --- t.~j. ktore nastavajut iz normovanyh prědstavjenij. Tu podmnožinu klasa nazyvamo normovanym klasom. Grupa polnyh klas \(\{a_{S,T}\}\) jest izomorfna s grupoju normovanyh klas.}
 
-\noindent\emph{Dokaz.} Zato že po pomoćnoj lemi 1 nijedin normovany klas ne jest prazdny, priręđenje jest zato jednoznačno. Operacija ostavaje ista, zato že jest oprěděljena posrědstvom libovoljnogo prědstavitelja.
+\noindent\emph{Dokaz.} Zato že po pomočnoj lemi 1 nijedin normovany klas ne jest prazdny, priredženje jest zato jednoznačno. Operacija ostavaje ista, zato že jest oprěděljena posrědstvom libovoljnogo prědstavitelja.
 
-\noindent\textbf{Pomoćna lema 3.} \emph{Grupa normovanyh faktornyh sistemov jest izomorfna s multiplikativnoj grupoju \(P^*\), a grupa normovanyh klas jest izomorfna s \(P^*/N\mathfrak Z^*\).}
+\noindent\textbf{Pomočna lema 3.} \emph{Grupa normovanyh faktornyh sistemov jest izomorfna s multiplikativnoj grupoju \(P^*\), a grupa normovanyh klas jest izomorfna s \(P^*/N\mathfrak Z^*\).}
 
-\noindent\emph{Dokaz.} Iz pomoćnoj lemy 1 slěduje, že vsaky normovany faktorny sistem imaje vid \([1,1,\ldots,a,a,\ldots]\), zato že
+\noindent\emph{Dokaz.} Iz pomočnoj lemy 1 slěduje, že vsaky normovany faktorny sistem imaje vid \([1,1,\ldots,a,a,\ldots]\), zato že
 \[
 u^\nu\cdot u^\mu=u^{\nu+\mu}\quad(\nu+\mu<n),
 \qquad
 u^\nu\cdot u^\mu=au^\varrho\quad(\nu+\mu=n+\varrho,\ 0\leq\varrho\leq n-2).
 \]
-Ale priręđenje
+Ale priredženje
 \[
 [1,\ldots,a,a,\ldots]\mapsto a,
 \qquad
@@ -2770,7 +2768,7 @@ Ale priręđenje
 \[
 [1,\ldots,ab,\ldots]\mapsto ab,
 \]
-jest grupovy izomorfizm na \(P^*\), zato že, ponovno po pomoćnoj lemi 1, \(a\) proběgaje vse elementy iz \(P^*\). --- Dva asociovane normovane faktorne sistemy nastavajut jeden iz drugogo posrědstvom transformacije \(v=uc\) (\(c\) v \(\mathfrak Z\)). To ale davaje
+jest grupovy izomorfizm na \(P^*\), zato že, ponovno po pomočnoj lemi 1, \(a\) proběgaje vse elementy iz \(P^*\). --- Dva asociovane normovane faktorne sistemy nastavajut jeden iz drugogo posrědstvom transformacije \(v=uc\) (\(c\) v \(\mathfrak Z\)). To ale davaje
 \[
 v=uc,\qquad v^2=u^2\cdot c^S\cdot c;
 \]
@@ -2779,13 +2777,13 @@ v^r=u^r c^{S^{r-1}}c^{S^{r-2}}\cdots c;
 \qquad
 v^n=u^nN(c).
 \]
-Iz \(u^n=a\) zato slěduje \(v^n=aN(c)\). Normovany klas sostoji se zato iz faktornyh sistemov \([1,\ldots,aN(c),aN(c),\ldots]\), kde \(c\) proběgaje vse elementy \(\neq0\) iz \(\mathfrak Z\). Tym jest dokazana druga čest pomoćnoj lemy.
+Iz \(u^n=a\) zato slěduje \(v^n=aN(c)\). Normovany klas sostoji se zato iz faktornyh sistemov \([1,\ldots,aN(c),aN(c),\ldots]\), kde \(c\) proběgaje vse elementy \(\neq0\) iz \(\mathfrak Z\). Tym jest dokazana druga čest pomočnoj lemy.
 
-Iz pomoćnyh lem 2 i 3 slěduje gornji teorem 1, s obzirom na izomorfizm tamošnjih \(\{\mathfrak K\}\) s klasami \(\{a_{S,T}\}\).
+Iz pomočnyh lem 2 i 3 slěduje gornji teorem 1, s obzirom na izomorfizm tamošnjih \(\{\mathfrak K\}\) s klasami \(\{a_{S,T}\}\).
 
 \noindent\textbf{Teorem 2.} \emph{Grupa glavnogo roda v minimalnom jest izomorfna s grupoju tyh elementov \(c\) iz \(\mathfrak Z\), za ktore \(N(c)=1\). Iz \(N(c)=1\) zato slěduje obstajanje nekogo \(b\neq0\) iz \(\mathfrak Z\), tako že \(c=b^S\cdot b^{-1}=b^{S-1}\) (simbolična \(S-1\)-ta potencija).}
 
-\noindent\emph{Dokaz.} Pri dokazu pomoćnoj lemy 3 dostalo se: \(N(c)=1\) jest identično s tym, že transformacija \(v=uc\) prědstavja avtomorfizm glavnogo roda; različnym \(c\) odpovědajut različne avtomorfizmy i obratno, a produktu odpovědaje produkt.
+\noindent\emph{Dokaz.} Pri dokazu pomočnoj lemy 3 dostalo se: \(N(c)=1\) jest identično s tym, že transformacija \(v=uc\) prědstavja avtomorfizm glavnogo roda; različnym \(c\) odpovědajut različne avtomorfizmy i obratno, a produktu odpovědaje produkt.
 
 \noindent\textbf{Primětka.} Teorem 2 opravdava nazvanje glavny rod. Po smyslu faktorgrupu
 \[
@@ -2835,7 +2833,7 @@ To jest po koncu § 30 prěma poslědica „teorije klasovyh polj v malom“, kt
 P^*/N\mathfrak Z^*\cong\mathfrak G.
 \]
 
-\noindent\textbf{Primětka k 3.} Slěduje, že grupovy ręd elementov iz \(\mathscr K_{\mathfrak Z}\), to jest eksponent od \(\{\mathfrak K\}\), postavaje ravny jego indeksu. Zato že eksponent stvarjajučego elementa od \(\mathscr K_{\mathfrak Z}\) postavaje \(=n\), zato takože indeks kako dělitelj od \(n\) i mnogokratnik eksponenta; grupa \(\mathscr K_{\mathfrak Z}\) sodrživaje zato samo klasy, ktoryh indeks jest dělitelj od \(n\), i za ktore \(\mathfrak Z\) jest razpadno polje. Nadto H. Hasse pokazal, Math. Ann. 104, že \(\mathscr K_{\mathfrak Z}\) sostoji se iz vsih klas \(\{\mathfrak K\}\), za ktore indeks jest dělitelj od \(n\). Vsako ciklično razpadno polje \(\mathfrak Z\) \(n\)-togo stupenja nad \(p\)-adičnym \(P\) vodi zato k toj samoj grupě \(\mathscr K_{\mathfrak Z}\) klas těl \(\{\mathfrak K\}\).
+\noindent\textbf{Primětka k 3.} Slěduje, že grupovy red elementov iz \(\mathscr K_{\mathfrak Z}\), to jest eksponent od \(\{\mathfrak K\}\), postavaje ravny jego indeksu. Zato že eksponent stvarjajučego elementa od \(\mathscr K_{\mathfrak Z}\) postavaje \(=n\), zato takože indeks kako dělitelj od \(n\) i mnogokratnik eksponenta; grupa \(\mathscr K_{\mathfrak Z}\) sodrživaje zato samo klasy, ktoryh indeks jest dělitelj od \(n\), i za ktore \(\mathfrak Z\) jest razpadno polje. Nadto H. Hasse pokazal, Math. Ann. 104, že \(\mathscr K_{\mathfrak Z}\) sostoji se iz vsih klas \(\{\mathfrak K\}\), za ktore indeks jest dělitelj od \(n\). Vsako ciklično razpadno polje \(\mathfrak Z\) \(n\)-togo stupenja nad \(p\)-adičnym \(P\) vodi zato k toj samoj grupě \(\mathscr K_{\mathfrak Z}\) klas těl \(\{\mathfrak K\}\).
 
 Dva fakta:
 
@@ -2843,7 +2841,7 @@ Dva fakta:
 
 \noindent\textbf{2.} Vsako ciklično razpadno polje \(n\)-togo stupenja nad \(P\) stvarjaje polnu grupu od \(\{\mathfrak K\}\).
 
-možno razgledati sućstvenym sodržanjem obratnogo teorema teorije klasovyh polj v malom.
+možno razgledati sučstvenym sodržanjem obratnogo teorema teorije klasovyh polj v malom.
 
 
 \clearpage

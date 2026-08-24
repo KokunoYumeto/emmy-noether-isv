@@ -1,0 +1,2092 @@
+{
+  "schema": "noether-isv-v021-residual-orthography-semantics-candidate-v1",
+  "edit_id": "ISV021-EDIT-0002",
+  "recorded_at": "2026-08-22T19:35:00+02:00",
+  "status": "FROZEN_UNAPPLIED_HASH_GATED_CANDIDATE",
+  "scope": {
+    "sites": 235,
+    "physical_lines": 191,
+    "families": {
+      "pomoč_to_pomoć": 96,
+      "celost_to_cělost": 5,
+      "imenujuče_to_imenno": 4,
+      "vrědnost_noun_to_cěnnost": 125,
+      "cěločislovn_to_cěločislov": 5
+    },
+    "sites_by_file": {
+      "44-book-isv.tex": 1,
+      "45-isv.tex": 20,
+      "base-papers1-43-isv.tex": 214,
+      "bib-isv.tex": 0
+    }
+  },
+  "authority_and_house_policy": {
+    "official_snapshot": {
+      "path": "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/source_sheet_basic.csv",
+      "rows": {
+        "pomoć": "CSV physical line 11615 / dictionary id 3945",
+        "pomoćny": "CSV physical line 11618 / dictionary id 100",
+        "imenno": "CSV physical line 4155 / dictionary id 17486",
+        "cěnnosť": "CSV physical line 1486 / dictionary id 2281",
+        "cělosť": "CSV physical line 1478 / dictionary id 19667"
+      }
+    },
+    "surface_policy": "The edition consistently writes productive -ost noun surfaces without final soft-sign diacritics, hence house cělost/cěnnost while retaining the official roots and meanings.",
+    "semantic_boundary": "Only noun vrědnost- in value contexts is changed; adjective vrědnostny is held. Only the five attested cěločislovn- compounds are regularized; unrelated bare čislovno is held."
+  },
+  "independent_audit_reconstruction": {
+    "disposition": "ACCEPT_EXACT_FIVE_FAMILY_TRANCHE",
+    "adverse_evidence": "No claim of native/community certification; current official dictionary headwords and established edition-wide controls are editorial evidence, not a comprehension study."
+  },
+  "locators": [
+    {
+      "file": "44-book-isv.tex",
+      "line": 71,
+      "column": 13,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočna",
+      "after": "Pomoćna"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 58,
+      "column": 1,
+      "family": "celost_to_cělost",
+      "before": "celost",
+      "after": "cělost"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 64,
+      "column": 1,
+      "family": "celost_to_cělost",
+      "before": "celost",
+      "after": "cělost"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 89,
+      "column": 33,
+      "family": "imenujuče_to_imenno",
+      "before": "imenujuče",
+      "after": "imenno"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 206,
+      "column": 9,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočny",
+      "after": "Pomoćny"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 209,
+      "column": 49,
+      "family": "imenujuče_to_imenno",
+      "before": "imenujuče",
+      "after": "imenno"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 250,
+      "column": 9,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočny",
+      "after": "Pomoćny"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 264,
+      "column": 27,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnoho",
+      "after": "pomoćnoho"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 266,
+      "column": 25,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnom",
+      "after": "pomoćnom"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 270,
+      "column": 25,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnoho",
+      "after": "pomoćnoho"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 292,
+      "column": 44,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 305,
+      "column": 38,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 429,
+      "column": 1,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnoho",
+      "after": "pomoćnoho"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 532,
+      "column": 12,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnym",
+      "after": "pomoćnym"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 534,
+      "column": 53,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnoho",
+      "after": "pomoćnoho"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 553,
+      "column": 48,
+      "family": "imenujuče_to_imenno",
+      "before": "imenujuče",
+      "after": "imenno"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 561,
+      "column": 12,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnoho",
+      "after": "pomoćnoho"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 572,
+      "column": 14,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnoho",
+      "after": "pomoćnoho"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 573,
+      "column": 60,
+      "family": "imenujuče_to_imenno",
+      "before": "imenujuče",
+      "after": "imenno"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 590,
+      "column": 55,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnom",
+      "after": "pomoćnom"
+    },
+    {
+      "file": "45-isv.tex",
+      "line": 605,
+      "column": 13,
+      "family": "celost_to_cělost",
+      "before": "celost",
+      "after": "cělost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 132,
+      "column": 107,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 180,
+      "column": 143,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 922,
+      "column": 220,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 922,
+      "column": 278,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 1575,
+      "column": 14,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 1690,
+      "column": 19,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 1778,
+      "column": 22,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 1787,
+      "column": 22,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 2762,
+      "column": 25,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 3655,
+      "column": 726,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 3662,
+      "column": 746,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 3673,
+      "column": 449,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 3701,
+      "column": 1367,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 3707,
+      "column": 1007,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 3782,
+      "column": 636,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 3805,
+      "column": 1150,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "Vrědnost",
+      "after": "Cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4155,
+      "column": 174,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4202,
+      "column": 55,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4372,
+      "column": 268,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4386,
+      "column": 174,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4398,
+      "column": 40,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4409,
+      "column": 768,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4653,
+      "column": 559,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4655,
+      "column": 42,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4655,
+      "column": 96,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4656,
+      "column": 50,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4657,
+      "column": 52,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4678,
+      "column": 3,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4687,
+      "column": 80,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4718,
+      "column": 111,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4718,
+      "column": 167,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4731,
+      "column": 3,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4822,
+      "column": 36,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4841,
+      "column": 27,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4870,
+      "column": 69,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4897,
+      "column": 102,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4897,
+      "column": 351,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4897,
+      "column": 426,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4898,
+      "column": 18,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4904,
+      "column": 18,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4904,
+      "column": 332,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4906,
+      "column": 203,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4906,
+      "column": 322,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4973,
+      "column": 14,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 4973,
+      "column": 250,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 5029,
+      "column": 11,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočno",
+      "after": "pomoćno"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 5035,
+      "column": 455,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočna",
+      "after": "pomoćna"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 5154,
+      "column": 18,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočna",
+      "after": "Pomoćna"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 5156,
+      "column": 6,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnu",
+      "after": "pomoćnu"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 5221,
+      "column": 11,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočna",
+      "after": "Pomoćna"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 5278,
+      "column": 4,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnoj",
+      "after": "pomoćnoj"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 5290,
+      "column": 79,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnoj",
+      "after": "pomoćnoj"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 5296,
+      "column": 4,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnoj",
+      "after": "pomoćnoj"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 5335,
+      "column": 53,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnoj",
+      "after": "pomoćnoj"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 5366,
+      "column": 4,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnoj",
+      "after": "pomoćnoj"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 6004,
+      "column": 133,
+      "family": "pomoč_to_pomoć",
+      "before": "pomoču",
+      "after": "pomoću"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 6125,
+      "column": 78,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 6127,
+      "column": 64,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 6322,
+      "column": 215,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 6579,
+      "column": 61,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočno",
+      "after": "pomoćno"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 7232,
+      "column": 716,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočne",
+      "after": "pomoćne"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 7502,
+      "column": 24,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočna",
+      "after": "pomoćna"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 7503,
+      "column": 74,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočna",
+      "after": "pomoćna"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8445,
+      "column": 239,
+      "family": "pomoč_to_pomoć",
+      "before": "pomoču",
+      "after": "pomoću"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8448,
+      "column": 365,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8452,
+      "column": 106,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8452,
+      "column": 162,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8487,
+      "column": 180,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8487,
+      "column": 967,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8491,
+      "column": 634,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8491,
+      "column": 1238,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8491,
+      "column": 2068,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8491,
+      "column": 2143,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8525,
+      "column": 36,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8601,
+      "column": 352,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8601,
+      "column": 445,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8601,
+      "column": 894,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8605,
+      "column": 331,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8617,
+      "column": 99,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8640,
+      "column": 107,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8642,
+      "column": 95,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8642,
+      "column": 190,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "Vrědnosti",
+      "after": "Cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8646,
+      "column": 61,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8676,
+      "column": 89,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8690,
+      "column": 627,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8754,
+      "column": 37,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8754,
+      "column": 391,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8754,
+      "column": 752,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8801,
+      "column": 45,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8801,
+      "column": 135,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8801,
+      "column": 412,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8801,
+      "column": 548,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8801,
+      "column": 631,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostjam",
+      "after": "cěnnostjam"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8803,
+      "column": 46,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8821,
+      "column": 80,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8830,
+      "column": 428,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8832,
+      "column": 650,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 8834,
+      "column": 105,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9103,
+      "column": 61,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9118,
+      "column": 436,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9130,
+      "column": 70,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9217,
+      "column": 446,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9297,
+      "column": 140,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9297,
+      "column": 303,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9297,
+      "column": 426,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9359,
+      "column": 319,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9361,
+      "column": 315,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9516,
+      "column": 277,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostjah",
+      "after": "cěnnostjah"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9559,
+      "column": 101,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostju",
+      "after": "cěnnostju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9776,
+      "column": 21,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9864,
+      "column": 600,
+      "family": "pomoč_to_pomoć",
+      "before": "pomoču",
+      "after": "pomoću"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9937,
+      "column": 40,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočno",
+      "after": "pomoćno"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9958,
+      "column": 838,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9958,
+      "column": 968,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9967,
+      "column": 189,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9969,
+      "column": 281,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9969,
+      "column": 429,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9969,
+      "column": 458,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9977,
+      "column": 172,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9979,
+      "column": 163,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9979,
+      "column": 1028,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9979,
+      "column": 1117,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9979,
+      "column": 1446,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9981,
+      "column": 511,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9981,
+      "column": 693,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9981,
+      "column": 747,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 9983,
+      "column": 186,
+      "family": "pomoč_to_pomoć",
+      "before": "pomoču",
+      "after": "pomoću"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 10028,
+      "column": 187,
+      "family": "pomoč_to_pomoć",
+      "before": "pomoču",
+      "after": "pomoću"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 10028,
+      "column": 599,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnyh",
+      "after": "pomoćnyh"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 10033,
+      "column": 528,
+      "family": "pomoč_to_pomoć",
+      "before": "pomoču",
+      "after": "pomoću"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 10749,
+      "column": 635,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočna",
+      "after": "pomoćna"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 10769,
+      "column": 529,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 11288,
+      "column": 249,
+      "family": "pomoč_to_pomoć",
+      "before": "pomoču",
+      "after": "pomoću"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 11415,
+      "column": 341,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 11935,
+      "column": 9,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočny",
+      "after": "Pomoćny"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 11949,
+      "column": 1256,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnom",
+      "after": "pomoćnom"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 12019,
+      "column": 82,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 12028,
+      "column": 43,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 12030,
+      "column": 85,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 12030,
+      "column": 139,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 12032,
+      "column": 188,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 12515,
+      "column": 262,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočny",
+      "after": "pomoćny"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 12602,
+      "column": 19,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 13466,
+      "column": 45,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 13805,
+      "column": 413,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 13859,
+      "column": 642,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 13861,
+      "column": 421,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 13861,
+      "column": 1355,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 13900,
+      "column": 91,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 13942,
+      "column": 61,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 13948,
+      "column": 79,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 13954,
+      "column": 323,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 13977,
+      "column": 50,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15166,
+      "column": 233,
+      "family": "cěločislovn_to_cěločislov",
+      "before": "cěločislovnyh",
+      "after": "cěločislovyh"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15166,
+      "column": 598,
+      "family": "cěločislovn_to_cěločislov",
+      "before": "cěločislovna",
+      "after": "cěločislova"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15166,
+      "column": 815,
+      "family": "cěločislovn_to_cěločislov",
+      "before": "cěločislovno",
+      "after": "cěločislovo"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15166,
+      "column": 916,
+      "family": "cěločislovn_to_cěločislov",
+      "before": "cěločislovnoj",
+      "after": "cěločislovoj"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15166,
+      "column": 1082,
+      "family": "cěločislovn_to_cěločislov",
+      "before": "cěločislovna",
+      "after": "cěločislova"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15484,
+      "column": 248,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15484,
+      "column": 281,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15496,
+      "column": 834,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15637,
+      "column": 236,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15655,
+      "column": 9,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočna",
+      "after": "Pomoćna"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15665,
+      "column": 225,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočnoj",
+      "after": "Pomoćnoj"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15665,
+      "column": 801,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočnoj",
+      "after": "Pomoćnoj"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15673,
+      "column": 9,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočna",
+      "after": "Pomoćna"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15677,
+      "column": 939,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočnoj",
+      "after": "Pomoćnoj"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15725,
+      "column": 192,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočna",
+      "after": "pomoćna"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 15828,
+      "column": 500,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16084,
+      "column": 126,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16399,
+      "column": 636,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16759,
+      "column": 70,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočne",
+      "after": "pomoćne"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16774,
+      "column": 29,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočno",
+      "after": "pomoćno"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16792,
+      "column": 69,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnom",
+      "after": "pomoćnom"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16800,
+      "column": 370,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnom",
+      "after": "pomoćnom"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16849,
+      "column": 10,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočny",
+      "after": "Pomoćny"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16855,
+      "column": 23,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnom",
+      "after": "pomoćnom"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16870,
+      "column": 74,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnym",
+      "after": "pomoćnym"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16872,
+      "column": 7,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočny",
+      "after": "Pomoćny"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16886,
+      "column": 10,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnogo",
+      "after": "pomoćnogo"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16912,
+      "column": 87,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnom",
+      "after": "pomoćnom"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16920,
+      "column": 200,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočny",
+      "after": "pomoćny"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16922,
+      "column": 10,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočny",
+      "after": "Pomoćny"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16923,
+      "column": 17,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnogo",
+      "after": "pomoćnogo"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16923,
+      "column": 66,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnogo",
+      "after": "pomoćnogo"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16924,
+      "column": 1,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočny",
+      "after": "Pomoćny"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16924,
+      "column": 27,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnogo",
+      "after": "pomoćnogo"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16930,
+      "column": 24,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnom",
+      "after": "pomoćnom"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16938,
+      "column": 13,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočny",
+      "after": "pomoćny"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 16949,
+      "column": 99,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnom",
+      "after": "pomoćnom"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 17133,
+      "column": 18,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnom",
+      "after": "pomoćnom"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 17281,
+      "column": 770,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočna",
+      "after": "pomoćna"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 18895,
+      "column": 313,
+      "family": "celost_to_cělost",
+      "before": "celosti",
+      "after": "cělosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 18932,
+      "column": 262,
+      "family": "celost_to_cělost",
+      "before": "celost",
+      "after": "cělost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 19244,
+      "column": 1506,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 19614,
+      "column": 44,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnostij",
+      "after": "cěnnostij"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 19746,
+      "column": 1483,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočno",
+      "after": "pomoćno"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 21851,
+      "column": 433,
+      "family": "pomoč_to_pomoć",
+      "before": "pomoču",
+      "after": "pomoću"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 22238,
+      "column": 254,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 23022,
+      "column": 216,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 23031,
+      "column": 809,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 23044,
+      "column": 254,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočju",
+      "after": "pomoćju"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 23137,
+      "column": 611,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 23152,
+      "column": 320,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 23157,
+      "column": 19,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 24264,
+      "column": 12,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnost",
+      "after": "cěnnost"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 24339,
+      "column": 44,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočne",
+      "after": "pomoćne"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 24341,
+      "column": 12,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočny",
+      "after": "Pomoćny"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 24358,
+      "column": 12,
+      "family": "pomoč_to_pomoć",
+      "before": "Pomočny",
+      "after": "Pomoćny"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 24379,
+      "column": 39,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnogo",
+      "after": "pomoćnogo"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 24396,
+      "column": 9,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnyh",
+      "after": "pomoćnyh"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 24396,
+      "column": 300,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnogo",
+      "after": "pomoćnogo"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 24400,
+      "column": 137,
+      "family": "pomoč_to_pomoć",
+      "before": "pomočnogo",
+      "after": "pomoćnogo"
+    },
+    {
+      "file": "base-papers1-43-isv.tex",
+      "line": 25012,
+      "column": 163,
+      "family": "vrědnost_noun_to_cěnnost",
+      "before": "vrědnosti",
+      "after": "cěnnosti"
+    }
+  ],
+  "locator_manifest": {
+    "canonical_bytes": 31440,
+    "sha256": "979566CAC52BD2005F4141681500C7FB364F92AE9686072C520C22AB03A4EF97"
+  },
+  "sources": {
+    "44-book-isv.tex": {
+      "input": {
+        "bytes": 168422,
+        "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+      },
+      "output": {
+        "bytes": 168422,
+        "sha256": "1B7432A5D2D8BF31D286CCDE43D6935BE3619C06D6C3582B60BF680591625A68"
+      },
+      "sites": 1,
+      "safeguards": {
+        "reverse_replay_exact": true,
+        "structural_signature": {
+          "line_count": 2853,
+          "open_braces": 2170,
+          "close_braces": 2170,
+          "percent_count": 64,
+          "commands_count": 11814,
+          "commands_sha256": "781AAA91A0DF30EA19519DEA67E4D04875F330DC3E40C6BEDE84E958B89FA88F",
+          "environments_count": 96,
+          "environments_sha256": "CEB0A0E83EC7C640701AB15BAC349DE705CBAEAF1CE8D715F15057139FB9680A",
+          "labels_count": 39,
+          "labels_sha256": "A1327E92587EE6C00BC1E0318E3A8ADC88BC42F326A33BD8DEAE98D7DAF983B8",
+          "math_delimiters_count": 5899,
+          "math_delimiters_sha256": "EC68E88CB77073202AF8B5C24E1E3AA5C122B3C54E67AFA742F4D3500728543C"
+        }
+      }
+    },
+    "45-isv.tex": {
+      "input": {
+        "bytes": 26053,
+        "sha256": "A52ADE5B028E40677D7C689C5C6E63C9FE7102F543B8BF7FFFCB0E19576A44CF"
+      },
+      "output": {
+        "bytes": 26038,
+        "sha256": "636E873287E0127A58DCBF014CB3C0343EF9D4545D90C2A6475E9F1E5F8B8ADD"
+      },
+      "sites": 20,
+      "safeguards": {
+        "reverse_replay_exact": true,
+        "structural_signature": {
+          "line_count": 614,
+          "open_braces": 731,
+          "close_braces": 731,
+          "percent_count": 2,
+          "commands_count": 738,
+          "commands_sha256": "7804C90EA3C87ABC873B20057F92A24F8B5ACAA1F4AE22FA9AAE061F9C16A5B7",
+          "environments_count": 34,
+          "environments_sha256": "79BACCA871E693A639729494D75CFEC34437F5BEEB2F3E2337E0D898FF9101F5",
+          "labels_count": 47,
+          "labels_sha256": "4BF53D153E8B75FC7BEAACD40F4FC7F8FA80F6B472ABFF3A0C0270152D8301B9",
+          "math_delimiters_count": 599,
+          "math_delimiters_sha256": "BB6AB4A30A766804256A17EEA356275E3C79A709BCA9FC98ADD17827620EAE8B"
+        }
+      }
+    },
+    "base-papers1-43-isv.tex": {
+      "input": {
+        "bytes": 1894703,
+        "sha256": "041FFBA15D5333962D9E1B2DE6925E1372446F5996F3DC2AA57A67F9B9113AA9"
+      },
+      "output": {
+        "bytes": 1894577,
+        "sha256": "EACFE1473BBF5D82A4B07309C33787A198FE9B111F2228323D4A6076578D389E"
+      },
+      "sites": 214,
+      "safeguards": {
+        "reverse_replay_exact": true,
+        "structural_signature": {
+          "line_count": 25179,
+          "open_braces": 20181,
+          "close_braces": 20173,
+          "percent_count": 1482,
+          "commands_count": 75445,
+          "commands_sha256": "C7B099984ACB44241B055BEC64FB9802D226BEDC256BC4F546EB365529DD5F20",
+          "environments_count": 1786,
+          "environments_sha256": "51CFDA355287F23F97FE4B2DB96CE619D8BBEB3036B3D5BFB83CBC01B6988835",
+          "labels_count": 4,
+          "labels_sha256": "BB3DCCF5194317A838A51444F7330BBAD6CF7E42AA9E22E90E9F2B10834EF5DA",
+          "math_delimiters_count": 41782,
+          "math_delimiters_sha256": "026AF898D834D4B3010EB7EFD0EE0F4A2A5591301B2221A89079F55D3EF7C243"
+        }
+      }
+    },
+    "bib-isv.tex": {
+      "input": {
+        "bytes": 10019,
+        "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+      },
+      "output": {
+        "bytes": 10019,
+        "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+      },
+      "sites": 0,
+      "safeguards": {
+        "reverse_replay_exact": true,
+        "structural_signature": {
+          "line_count": 233,
+          "open_braces": 175,
+          "close_braces": 175,
+          "percent_count": 2,
+          "commands_count": 420,
+          "commands_sha256": "D457E4544F0F714355E6427FA273A3F12AC318A5D87FEC367A270A6D50F087AC",
+          "environments_count": 12,
+          "environments_sha256": "348805FEECF31F9BB09DA53DEBAAB4F657EAB07B54B6CAEDDCA028168E0B51B1",
+          "labels_count": 0,
+          "labels_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "math_delimiters_count": 9,
+          "math_delimiters_sha256": "36702CE49BDCA0B3E3CC816AAB3C634FD636B57A733D1B106C3F7FABA0ADD83D"
+        }
+      }
+    }
+  },
+  "root_counts_before": {
+    "pomoč": 96,
+    "pomoć": 104,
+    "celost": 5,
+    "cělost": 132,
+    "imenujuče": 4,
+    "imenno": 160,
+    "vrědnost_noun": 125,
+    "cěnnost": 2,
+    "cěločislovn": 5,
+    "cěločislov": 111
+  },
+  "root_counts_after": {
+    "pomoč": 0,
+    "pomoć": 200,
+    "celost": 0,
+    "cělost": 137,
+    "imenujuče": 0,
+    "imenno": 164,
+    "vrědnost_noun": 0,
+    "cěnnost": 127,
+    "cěločislovn": 0,
+    "cěločislov": 116
+  },
+  "holds": {
+    "counts_unchanged": {
+      "vrědnostny": 1,
+      "bare_čislovno": 1
+    },
+    "reason": "Different morphology or semantics; excluded from this exact transform."
+  },
+  "validation": {
+    "strict_utf8": true,
+    "targets_after_comments_or_inside_inline_math_rejected": true,
+    "exact_reverse_replay": true,
+    "tex_command_environment_label_math_brace_line_signatures_unchanged": true,
+    "source_residue": 0
+  },
+  "tool": {
+    "path": "apply_residual_orthography_semantics_v021.py",
+    "bytes": 29146,
+    "sha256": "C47DBFC4221DC99B2072491034ECDB9FD0C7ADE6D1BD4800333CB82FBAC4EB87"
+  },
+  "claims": {
+    "applied": false,
+    "build": false,
+    "render": false,
+    "git": false,
+    "network": false,
+    "publication": false
+  }
+}

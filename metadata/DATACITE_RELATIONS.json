@@ -1,8 +1,8 @@
 {
-  "schema": "noether-interslavic-datacite-relations/1.0",
-  "release_id": "NOETHER-ISV-v020",
+  "schema": "noether-interslavic-datacite-relations/1.1",
+  "release_id": "NOETHER-ISV-v021",
   "subject": {
-    "identifier": "10.5281/zenodo.22058530",
+    "identifier": "10.5281/zenodo.22077468",
     "identifierType": "DOI",
     "title": "Emmy Noether: Polno medžuslovjansko izdanje korpusa / Complete Interslavic Corpus Edition"
   },
@@ -24,7 +24,7 @@
       "relatedIdentifier": "NOETH-DE-ED-0015",
       "relatedIdentifierType": "Other",
       "relatedIdentifierHash": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
-      "status": "DataCite intent recorded in prose and sidecar; Zenodo relation vocabulary does not encode this local source-object identifier"
+      "status": "semantic source relation recorded in prose and this sidecar; Zenodo relation vocabulary does not encode the local source-object identifier"
     },
     {
       "relationType": "IsSupplementedBy",
@@ -35,6 +35,6 @@
   ],
   "reciprocal_intent": [
     "The global catalogue may encode HasPart for concept DOI 10.5281/zenodo.21926382.",
-    "The German authority catalogue may encode HasTranslation for concept DOI 10.5281/zenodo.21926382."
+    "The identified German source catalogue may encode HasTranslation for concept DOI 10.5281/zenodo.21926382."
   ]
 }

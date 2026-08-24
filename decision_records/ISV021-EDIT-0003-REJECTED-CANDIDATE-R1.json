@@ -1,0 +1,43 @@
+{
+  "schema": "noether-isv-rejected-candidate-v1",
+  "edit_id": "ISV021-EDIT-0003",
+  "recorded_at": "2026-08-23T22:58:49.9285845+02:00",
+  "status": "REJECTED_PREAPPLY_NEVER_APPLIED",
+  "candidate_r1": {
+    "applicator": {
+      "path": "apply_paper45_high_confidence_v021.py",
+      "bytes": 16974,
+      "sha256": "3304F7A7793A87F83497875BAB8813C051C29B3548489CD057504983ADEEE9E5"
+    },
+    "receipt": {
+      "path": "decision_records/ISV021-EDIT-0003-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "bytes": 8969,
+      "sha256": "BEB63AF421F86A0036BC3B80EFCB86BFEE1A26B22F21E3AB07A2655F6B8DED23"
+    },
+    "projected_paper45": {
+      "bytes": 26042,
+      "sha256": "7D4FCC06C06D01D30925343D031610ABEEC7B09F6F7EB0BFF53B00011CB996D8"
+    },
+    "locator_manifest": {
+      "canonical_bytes": 1949,
+      "sha256": "0EF618428F4CF6E4BEBF2A4B7E54C0B4E27775EC06601710DF9C43A23390FF29"
+    }
+  },
+  "review_task": "/root/edit0002_review",
+  "defects": [
+    {
+      "type": "authority_semantics",
+      "finding": "R1 changed official masculine genitive plural komponentov to komponent to agree with a locally inconsistent feminine singular. Official dictionary row 20148 gives masculine komponent; the correct repair is instead primarna komponenta to primarny komponent at Paper 45 line 489."
+    },
+    {
+      "type": "authenticated_code_loading",
+      "finding": "R1 hashed the transaction-core path and then reopened it through the import loader, leaving a check-to-load race. The successor must compile and execute the already authenticated bytes in memory and reauthenticate the disk pin immediately before apply."
+    }
+  ],
+  "live_source_unchanged": {
+    "path": "source_latin/45-isv.tex",
+    "bytes": 26038,
+    "sha256": "636E873287E0127A58DCBF014CB3C0343EF9D4545D90C2A6475E9F1E5F8B8ADD"
+  },
+  "disposition": "Preserve this receipt as adverse history. R1 is not authorized for application; build and independently review an exact R2 successor."
+}

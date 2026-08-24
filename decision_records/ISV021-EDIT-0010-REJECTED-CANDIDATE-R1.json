@@ -1,0 +1,64 @@
+{
+  "schema": "noether-isv-v021-edit0010-rejected-candidate-v1",
+  "decision_id": "ISV021-EDIT-0010",
+  "revision": "R1",
+  "recorded_at": "2026-08-24T05:29:42.7608056+02:00",
+  "status": "REJECTED_BEFORE_APPLY_WRONG_ORTHOGRAPHY_LAYER",
+  "source_writes": 0,
+  "proposal": "Normalize 99 existing basic-reader č surfaces to etymological ć in the dopušč-, skrač-, and vrač-/vozvrač- families.",
+  "rejection_reason": "The proposal treated the raw source-sheet isv column as the edition's display standard. Official orthography line 80 instead requires etymological ć to become standard č, and the frozen upstream implementation plus generated basic display make the same conversion. The edition already declares a basic reader-facing house surface. Therefore all 99 R1 targets are correct controls, not errors.",
+  "decisive_authority": {
+    "official_orthography": {
+      "workspace_relative_path": "03_projects/language_management/slavic_interslavic/00_lane_control/marginal_intelligibility_20260811/authority_snapshots/snapshots/official_site/docs/learn/orthography.md",
+      "bytes": 16443,
+      "sha256": "90C609CC0E8709E8395964E9F20D6D4FB4E31159CBC2B1EA515A29D9D1C72044",
+      "lines": [69, 77, 80, 102, 104]
+    },
+    "upstream_archive": {
+      "workspace_relative_path": "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/upstream_repository_0fab0c5b4463118d46b1cdcd506926d8848052c9.zip",
+      "bytes": 11271766,
+      "sha256": "E02AA89235E4A7B536F3D762126293A3E348319CA1B11CBF8D219A65D03172BE"
+    },
+    "generated_snapshot_entry": {
+      "entry": "interslavic-0fab0c5b4463118d46b1cdcd506926d8848052c9/src/services/dictionary-test/snapshot.json",
+      "bytes": 16930150,
+      "sha256": "DB40B9256BF257A0CEA44931A450C0B268BC81897CADEE9ECCD545FE0F4DEACC",
+      "finding": "Generated original fields expose dopuščati, skračati/skračenje/skračeny, vračati/vozvračati/vozvračenje, and sučstveno/sučstveny while preserving etymological isv values separately."
+    },
+    "dictionary_implementation_entry": {
+      "entry": "interslavic-0fab0c5b4463118d46b1cdcd506926d8848052c9/src/services/dictionary.ts",
+      "bytes": 26926,
+      "sha256": "60C09F2C2B3015033F1342BEA95FC48A1C36772F75880F669FB14C110577101D",
+      "control_lines": [58, 763],
+      "finding": "The standard flavorization map contains ['ć', 'č']; ć is not an exempt standard letter."
+    },
+    "raw_source_sheet": {
+      "workspace_relative_path": "01_methodology/claude_fable_program/data/interslavic_dictionary_official_snapshot_20260816/source_sheet_basic.csv",
+      "bytes": 8101157,
+      "sha256": "0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561",
+      "disposition": "Retained as the etymological source layer, not discarded and not promoted directly to the basic reader."
+    }
+  },
+  "rejected_candidate": {
+    "receipt": {
+      "path": "decision_records/ISV021-EDIT-0010-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "bytes": 34939,
+      "sha256": "7223BC416806FF195C35BE8ECA9CD294160DC285AFAF467486C8E4DEA9118FFB"
+    },
+    "audit": "11858/E2F803BD8E836E643FFDFB7DE362DD68FF37E7095930C45BB24E594CC28CF9D9",
+    "applicator": "9442/0F4BE6582FE28D158C085751582583847E81E38249430F26C7B86BD1F53BD809",
+    "independent_verifier": "16473/07153A4169D07FDA80E1F7868341D8AB2E3D48A6A70EEEFC1E5ACEB1BFD56045",
+    "transaction_test": "6575/32E22F31913CDC4768C58F8B94B25D13E7B779B9F56D7C5B175D302AFB89A9AE",
+    "projected_but_never_installed": {
+      "44-book-isv.tex": "168427/233A76BFBC11C21C0A8EEDCB74D6C6208D7A37B1085BFD7ED3D817A17B4C5793",
+      "base-papers1-43-isv.tex": "1894613/71D7297364CFC43BD45DAE6D61E252A6351EAE116C076C8F7A58649B0E5BB4E2"
+    }
+  },
+  "unchanged_live_sources": {
+    "44-book-isv.tex": "168427/39FC522BFABDCA4F61A08ED5654224122AC0C64299F078FB16D31A90F3662415",
+    "45-isv.tex": "26039/E578FC6A58094F2B1F22BCC3CC40B9521A23F8A324FB66F84CC582583E6A9990",
+    "base-papers1-43-isv.tex": "1894613/C1B9BAC6DC890F8544A8661712B0B87FFC854871BFB52792FD11FAFA82358719",
+    "bib-isv.tex": "10020/7A45365DC7C9408CF3D50FDAA4C35081E032CC6F07D73A9954D3B1DDF18C9EC7"
+  },
+  "supersession": "R1 is permanently adverse history. Corrected R2 reverses direction only for 42 extant minority ć surfaces and does not authorize a global consonant rewrite."
+}

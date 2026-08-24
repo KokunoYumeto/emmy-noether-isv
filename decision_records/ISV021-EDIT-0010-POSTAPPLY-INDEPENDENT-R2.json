@@ -1,0 +1,77 @@
+{
+  "schema": "noether-isv-v021-basic-consonant-surface-independent-verification-v1",
+  "edit_id": "ISV021-EDIT-0010",
+  "revision": "R2",
+  "status": "PASS_SUCCESSOR",
+  "live_sources": {
+    "44-book-isv.tex": {"bytes": 168427, "sha256": "F8A278F67B87AE86C8F3CCE3F78EE32265986F0251EE8430F73BACCE20694E71"},
+    "45-isv.tex": {"bytes": 26039, "sha256": "E578FC6A58094F2B1F22BCC3CC40B9521A23F8A324FB66F84CC582583E6A9990"},
+    "base-papers1-43-isv.tex": {"bytes": 1894613, "sha256": "34540C032E966C54E44BEDCB45902161A978051F13A7ABA07CDA1925A418E594"},
+    "bib-isv.tex": {"bytes": 10020, "sha256": "7A45365DC7C9408CF3D50FDAA4C35081E032CC6F07D73A9954D3B1DDF18C9EC7"}
+  },
+  "candidate_receipt": {
+    "path": "decision_records/ISV021-EDIT-0010-UNAPPLIED-CANDIDATE-RECEIPT-R2.json",
+    "bytes": 20541,
+    "sha256": "1593BC6ACDE603BA8EAA26E5F31774F240441A3D07EC230D341F622C4D67D2AD"
+  },
+  "authority": {
+    "official_orthography": "16443/90C609CC0E8709E8395964E9F20D6D4FB4E31159CBC2B1EA515A29D9D1C72044; line 80",
+    "raw_dictionary": "8101157/0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561",
+    "generated_snapshot_entry": "16930150/DB40B9256BF257A0CEA44931A450C0B268BC81897CADEE9ECCD545FE0F4DEACC",
+    "dictionary_implementation": "26926/60C09F2C2B3015033F1342BEA95FC48A1C36772F75880F669FB14C110577101D; mapping line 58",
+    "return_sense_control_lines": [15099, 20089, 22686],
+    "rejected_r1": "34939/7223BC416806FF195C35BE8ECA9CD294160DC285AFAF467486C8E4DEA9118FFB"
+  },
+  "coverage": {
+    "sites": 42,
+    "physical_lines": 40,
+    "source_distribution": {"44-book-isv.tex": 4, "base-papers1-43-isv.tex": 38},
+    "predecessor_target_census": {
+      "dopušća": 26,
+      "dopušćajut": 6,
+      "dopušćati": 1,
+      "skraćenja": 1,
+      "skraćeno": 1,
+      "sućstvena": 1,
+      "sućstvene": 1,
+      "sućstveno": 1,
+      "sućstvenym": 1,
+      "vozvraća": 1,
+      "vraćajemo": 1,
+      "vraćajuči": 1
+    },
+    "successor_relevant_census": {
+      "dopušča": 81,
+      "dopuščajut": 27,
+      "dopuščati": 1,
+      "skračenja": 2,
+      "skračeno": 7,
+      "sučstvena": 4,
+      "sučstvene": 1,
+      "sučstveno": 37,
+      "sučstvenym": 1,
+      "vozvrača": 2,
+      "vračajemo": 1,
+      "vračajuči": 3
+    },
+    "successor_target_residue": 0
+  },
+  "validation": {
+    "independent_forward": true,
+    "independent_reverse": true,
+    "exact_byte_replay": true,
+    "line_column_byte_locators": true,
+    "comment_and_inline_math_boundaries": true,
+    "utf8": true,
+    "protected_tex_structure_equal": true,
+    "transaction_residue": 0,
+    "source_writes_by_verifier": 0
+  },
+  "runtime": {
+    "runs": 3,
+    "each_exit_code": 0,
+    "each_stdout_bytes": 3355,
+    "each_stdout_sha256": "D308F6433C46B400C793154192A5C0409B87639A726046489B50022C199BFBA2",
+    "each_stderr_bytes": 0
+  }
+}

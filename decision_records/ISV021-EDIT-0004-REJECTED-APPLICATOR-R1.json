@@ -1,0 +1,29 @@
+{
+  "schema": "noether-isv-v021-edit0004-rejected-applicator-v1",
+  "decision_id": "ISV021-EDIT-0004",
+  "recorded_at": "2026-08-23T23:23:48.2058160+02:00",
+  "status": "REJECTED_BEFORE_APPLY",
+  "applied": false,
+  "review_task": "/root/edit0004_crossreview",
+  "rejected_tool": {
+    "path": "apply_work44_high_confidence_v021.py",
+    "bytes": 22500,
+    "sha256": "574CC728F81AD26CF8BC00747CCF628E2CBFAAC13B5F5644D20135B076DE9004"
+  },
+  "defect": {
+    "scope": "candidate-report metadata only",
+    "locator": "apply_work44_high_confidence_v021.py:354",
+    "before": "lineаrna",
+    "after": "linearna",
+    "explanation": "The semantic-basis prose contained Cyrillic U+0430 in an otherwise Latin Interslavic word. The R011 source locator and proposed source output were already all-Latin and were not defective."
+  },
+  "source_transform_review": {
+    "status": "SUBSTANTIVE_TRANSFORM_CLEAR_PENDING_TOOL_REFREEZE",
+    "sites": 44,
+    "projected_work44_sha256": "D3029CFFB856ACF30E55DEA6086AE3E63F90AA733BBD1B2F0E4DC19D9CB05F88",
+    "exact_reverse": true,
+    "structure_delta": "Only the intended R018 page-break join changes LF 2852 to 2850 and double-LF 629 to 628.",
+    "transaction_probe": "A bounded temporary full transaction against a synthesized exact EDIT0003 predecessor passed with no live change or residue."
+  },
+  "disposition": "Preserve this exact rejected identity as adverse history; repair the one metadata character, re-freeze, and require renewed exact review before application."
+}

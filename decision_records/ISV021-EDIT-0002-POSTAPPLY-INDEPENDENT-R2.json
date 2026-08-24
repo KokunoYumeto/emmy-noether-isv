@@ -1,0 +1,89 @@
+{
+  "schema": "noether-isv-edit-postapply-independent-verification-v1",
+  "edit_id": "ISV021-EDIT-0002",
+  "recorded_at": "2026-08-23T22:40:13.7432804+02:00",
+  "status": "PASS_SUCCESSOR",
+  "application": {
+    "executions": 1,
+    "exit": 0,
+    "status": "APPLIED_AND_HASH_VERIFIED",
+    "stdout_bytes": 907,
+    "stdout_sha256": "BDFD27F3DEE0AEFCE18FBD7B37FFA3636F3022CED273593850CC786B0D0900CF",
+    "stderr_bytes": 0
+  },
+  "live_successor": {
+    "44-book-isv.tex": {
+      "bytes": 168422,
+      "sha256": "1B7432A5D2D8BF31D286CCDE43D6935BE3619C06D6C3582B60BF680591625A68"
+    },
+    "45-isv.tex": {
+      "bytes": 26038,
+      "sha256": "636E873287E0127A58DCBF014CB3C0343EF9D4545D90C2A6475E9F1E5F8B8ADD"
+    },
+    "base-papers1-43-isv.tex": {
+      "bytes": 1894577,
+      "sha256": "EACFE1473BBF5D82A4B07309C33787A198FE9B111F2228323D4A6076578D389E"
+    },
+    "bib-isv.tex": {
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  },
+  "self_verification": {
+    "three_identical_runs": true,
+    "exit": 0,
+    "status": "APPLIED_AND_HASH_VERIFIED",
+    "stdout_bytes": 907,
+    "stdout_sha256": "BDFD27F3DEE0AEFCE18FBD7B37FFA3636F3022CED273593850CC786B0D0900CF",
+    "stderr_bytes": 0,
+    "receipt": {
+      "path": "decision_records/ISV021-EDIT-0002-POSTAPPLY-SELF-R2.json",
+      "bytes": 1163,
+      "sha256": "1B794EFFC88A2BC4C88DF9BBDAF1228F027F0E02D7C71ECAD33E029B171C33F9"
+    }
+  },
+  "independent_verification": {
+    "tool": {
+      "path": "verify_residual_orthography_semantics_v021.py",
+      "bytes": 18266,
+      "sha256": "D425DB23F0D9560AA5F6C07744E2CCCB3B9D07208EC944DE162F5B3043C96F54"
+    },
+    "three_identical_runs": true,
+    "exit": 0,
+    "status": "PASS_SUCCESSOR",
+    "stdout_bytes": 3510,
+    "stdout_sha256": "93037688A8B04BB765CF30C35DDC95EC6D17DCA29FE0330976909D6AD3779D12",
+    "stderr_bytes": 0,
+    "candidate_authenticated_for_live_reverse": true,
+    "exact_reverse": true,
+    "structure_equal": true,
+    "visible_prose_only": true
+  },
+  "coverage": {
+    "sites": 235,
+    "physical_lines": 191,
+    "families": {
+      "pomoč_to_pomoć": 96,
+      "celost_to_cělost": 5,
+      "imenujuče_to_imenno": 4,
+      "vrědnost_noun_to_cěnnost": 125,
+      "cěločislovn_to_cěločislov": 5
+    },
+    "residual_in_scope_targets": 0,
+    "intentional_exclusions": {
+      "vrědnostny": 1,
+      "bare_čislovno": 1
+    }
+  },
+  "transaction_residue": {
+    "named_lock": 0,
+    "stage": 0,
+    "rollback": 0
+  },
+  "claims": {
+    "build": false,
+    "render": false,
+    "publication": false,
+    "native_or_community_certification": false
+  }
+}

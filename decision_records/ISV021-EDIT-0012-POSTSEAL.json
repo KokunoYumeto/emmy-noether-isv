@@ -1,0 +1,76 @@
+{
+  "schema": "noether-isv-v021-edit0012-postseal-v1",
+  "edit_id": "ISV021-EDIT-0012",
+  "revision": "R1",
+  "recorded_at": "2026-08-24T08:46:37.8620724+02:00",
+  "status": "SEALED_SUCCESSOR",
+  "applied": true,
+  "preapply_decision": {
+    "path": "decision_records/ISV021-EDIT-0012-ACCEPT-PREAPPLY.json",
+    "bytes": 8893,
+    "sha256": "EF7FA682C5BBE8E61FACB7EE6C0D35A6FD335BF03D4171C10880CDCC90C1B38C"
+  },
+  "candidate_receipt": {
+    "path": "decision_records/ISV021-EDIT-0012-UNAPPLIED-CANDIDATE-RECEIPT.json",
+    "bytes": 504696,
+    "sha256": "D9519C0677BA506F421C0E44F4EC5850A290D1C0153B021E0BBF483371A88345"
+  },
+  "postapply_receipt": {
+    "path": "decision_records/ISV021-EDIT-0012-POSTAPPLY-RECEIPT.json",
+    "bytes": 4480,
+    "sha256": "B73BFA4A894794FA31713C440DA975102726780A6A5FB0896EF6E4EFAFDFBAE4"
+  },
+  "transaction": {
+    "invocations_with_apply": 1,
+    "exit": 0,
+    "stdout_bytes": 3807,
+    "stdout_sha256": "D1F257ADA4160847C5E0334B2C2352D09A8355E0A1C29BDF79E6E3841A5D8FBB",
+    "stderr_bytes": 0,
+    "installed_sites": 1798,
+    "installed_physical_lines": 1042,
+    "transaction_residue": 0
+  },
+  "successor": {
+    "44-book-isv.tex": "168384/FFEAE898972515A69D9BCD4930ECEEF2C91DD7114E0CA0B0F64E2157ED32E698",
+    "45-isv.tex": "26036/E49033F3C3004F921CD234610425905FF1D46405107D8EB99BC431864BB4473D",
+    "base-papers1-43-isv.tex": "1893083/237FFE1460816EAF8CCD6E00F9500F816A285830CE62E28E49CECB94685B16E9",
+    "bib-isv.tex": "10016/D14F600C71E911F49F0A81B85B2C476F7BED490D597E2045AC55744774D201B1"
+  },
+  "coverage": {
+    "sites": 1798,
+    "physical_lines": 1042,
+    "characters": {
+      "ė": 2,
+      "ę": 1716,
+      "ľ": 5,
+      "ś": 3,
+      "ť": 59,
+      "ų": 13
+    },
+    "protected_foreign_e_grave": 4
+  },
+  "postapply_validation": {
+    "self_verifier": "Three recorded hash-identical APPLIED_AND_HASH_VERIFIED checks; exact successor quartet and zero reader-visible optional-letter residue.",
+    "producer_independent_verifier": "Fresh PASS_SUCCESSOR with exact reverse and forward replay, line/column/byte locators, official authority pins, UTF-8, comment/math-text boundaries, four protected foreign è spellings, and protected TeX structure.",
+    "reader_visible_optional_letter_residue": 0,
+    "protected_foreign_e_grave": 4,
+    "transaction_lock_stage_rollback_residue": 0
+  },
+  "policy": {
+    "surface": "standard/basic reader-facing Latin",
+    "rule": "Omit the six optional extended letters in reader-visible Interslavic while preserving four foreign-source è spellings byte-identically.",
+    "exact_allowlist": ["ė", "ę", "ľ", "ś", "ť", "ų"],
+    "generic_diacritic_stripping": false
+  },
+  "claims": {
+    "source_edit_complete": true,
+    "latin_frontier_complete": true,
+    "cyrillic_regenerated": false,
+    "reader_built": false,
+    "pdf_built": false,
+    "git_published": false,
+    "zenodo_published": false,
+    "native_or_community_certification": false
+  },
+  "next_action": "Freeze the exact EDIT0012 Latin quartet after a final deterministic projection-frontier scan, then rebase the v020/v7 reviewed-role projector and preserve the finite Roman-numeral identity allowlist in the v021 Cyrillic successor."
+}

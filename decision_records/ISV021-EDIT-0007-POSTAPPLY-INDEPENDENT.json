@@ -1,0 +1,59 @@
+{
+  "schema": "noether-isv-v021-edit0007-independent-postapply-v1",
+  "decision_id": "ISV021-EDIT-0007",
+  "recorded_at": "2026-08-24T03:51:12.7609848+02:00",
+  "status": "PASS_SUCCESSOR",
+  "verification_boundary": "Independent verifier imports neither the audit, applicator, nor transaction core and performs no source writes.",
+  "verifier": {
+    "path": "verify_cest_family_basic_orthography_v021.py",
+    "bytes": 14316,
+    "sha256": "72788487605210FEE6FFF0717B6DDF2ED541188E3A101F03178FD0F3DBAE3B1D"
+  },
+  "candidate_receipt": {
+    "path": "decision_records/ISV021-EDIT-0007-UNAPPLIED-CANDIDATE-RECEIPT.json",
+    "bytes": 9761,
+    "sha256": "8F846BBF54C0CB5352934B842B153E2B71A862994C3A965FD7ABFB0DA4AD52D9"
+  },
+  "live_successor": {
+    "source_latin/44-book-isv.tex": {"bytes": 168410, "sha256": "77A0DA8AE3385520C12D91795CE645944AE7CE60F7F7831D3A7CE47BC76A27F5"},
+    "source_latin/45-isv.tex": {"bytes": 26039, "sha256": "E578FC6A58094F2B1F22BCC3CC40B9521A23F8A324FB66F84CC582583E6A9990"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1894581, "sha256": "C33CF08D12E98E198C6BCAB122567930DD2466F2A5115E450A4C16274CED44C8"},
+    "source_latin/bib-isv.tex": {"bytes": 10019, "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"}
+  },
+  "coverage": {
+    "sites": 12,
+    "physical_lines": 8,
+    "successor_target_residue": 0,
+    "family_tokens": 156,
+    "retained_separate_lexemes": {"sčestnikov": 1, "učestjem": 1}
+  },
+  "validation": {
+    "independent_reverse_to_exact_predecessor": true,
+    "independent_forward_replay_to_exact_successor": true,
+    "utf8": true,
+    "protected_tex_structure_equal": true,
+    "transaction_residue": 0,
+    "source_writes_by_verifier": 0
+  },
+  "runtime": {
+    "runs": 3,
+    "each_exit_code": 0,
+    "each_stdout_bytes": 3005,
+    "each_stdout_sha256": "E94FAB33C6CF8195E1DECD1FA78F62945E2232BEA9F2FC6BD5D9EDB36B00959D",
+    "each_stderr_bytes": 0,
+    "outputs_byte_identical": true
+  },
+  "self_postapply": {
+    "path": "decision_records/ISV021-EDIT-0007-POSTAPPLY-SELF.json",
+    "bytes": 5243,
+    "sha256": "AD14F6E84E9C468D06EF6BEA1CABA95F7CDC598318C508E0879BBAD30CF43C0B"
+  },
+  "claims": {
+    "build": false,
+    "render": false,
+    "git": false,
+    "network": false,
+    "publication": false,
+    "native_or_community_certification": false
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "noether-isv-v021-edit0010-preapply-review-v2",
+  "decision_id": "ISV021-EDIT-0010",
+  "revision": "R2",
+  "recorded_at": "2026-08-24T05:29:42.7608056+02:00",
+  "status": "ACCEPT_PREAPPLY",
+  "applied": false,
+  "scope": "Normalize exactly 42 remaining optional-etymological ć surfaces to standard basic-reader č: 33 dopušć-family sites, two skrać-family sites, three return-sense vrać/vozvrać sites, and four sućstven-family sites.",
+  "motivation": "The edition's established house policy is basic reader-facing Latin. Official orthography line 80 explicitly maps optional ć to standard č. The pinned upstream dictionary implementation contains the same map, and its generated basic-display original fields provide the exact four lexical families. All 42 minority sites are visible prose and their 99/12/8/54 corresponding č surfaces already form the controlling corpus majorities.",
+  "alternatives_rejected": [
+    "Apply R1's 99 č-to-ć projection: rejected before application because it reverses the official standard-display rule and the declared reader-facing house policy.",
+    "Retain a mixed ć/č surface in these four families: rejected because official generated display and exact same-corpus family controls resolve every site without semantic ambiguity.",
+    "Apply a global ć-to-č rewrite: rejected because this decision authenticates only four exact lexical families; unrelated families require their own generated-display and context evidence."
+  ],
+  "coverage": {
+    "sites": 42,
+    "physical_lines": 40,
+    "by_file": {
+      "44-book-isv.tex": 4,
+      "45-isv.tex": 0,
+      "base-papers1-43-isv.tex": 38,
+      "bib-isv.tex": 0
+    },
+    "families": {
+      "dopušć_to_dopušč": 33,
+      "skrać_to_skrač": 2,
+      "return_vrać_or_vozvrać_to_vrač_or_vozvrač": 3,
+      "sućstven_to_sučstven": 4
+    },
+    "locator_manifest_bytes": 7322,
+    "locator_manifest_sha256": "6CC2C6ABDDCCE011BB3400056E13910D0C8D2A78927798674E0FEBAE4DE3B0AD"
+  },
+  "authority": {
+    "official_orthography": "16443/90C609CC0E8709E8395964E9F20D6D4FB4E31159CBC2B1EA515A29D9D1C72044; controlling lines 69,77,80,102,104",
+    "raw_source_sheet": "8101157/0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561; etymological layer retained",
+    "upstream_archive": "11271766/E02AA89235E4A7B536F3D762126293A3E348319CA1B11CBF8D219A65D03172BE",
+    "generated_basic_snapshot_entry": "16930150/DB40B9256BF257A0CEA44931A450C0B268BC81897CADEE9ECCD545FE0F4DEACC",
+    "dictionary_implementation_entry": "26926/60C09F2C2B3015033F1342BEA95FC48A1C36772F75880F669FB14C110577101D; mapping line 58, flavor rule line 763"
+  },
+  "predecessor": {
+    "44-book-isv.tex": "168427/39FC522BFABDCA4F61A08ED5654224122AC0C64299F078FB16D31A90F3662415",
+    "45-isv.tex": "26039/E578FC6A58094F2B1F22BCC3CC40B9521A23F8A324FB66F84CC582583E6A9990",
+    "base-papers1-43-isv.tex": "1894613/C1B9BAC6DC890F8544A8661712B0B87FFC854871BFB52792FD11FAFA82358719",
+    "bib-isv.tex": "10020/7A45365DC7C9408CF3D50FDAA4C35081E032CC6F07D73A9954D3B1DDF18C9EC7"
+  },
+  "successor": {
+    "44-book-isv.tex": "168427/F8A278F67B87AE86C8F3CCE3F78EE32265986F0251EE8430F73BACCE20694E71",
+    "45-isv.tex": "26039/E578FC6A58094F2B1F22BCC3CC40B9521A23F8A324FB66F84CC582583E6A9990",
+    "base-papers1-43-isv.tex": "1894613/34540C032E966C54E44BEDCB45902161A978051F13A7ABA07CDA1925A418E594",
+    "bib-isv.tex": "10020/7A45365DC7C9408CF3D50FDAA4C35081E032CC6F07D73A9954D3B1DDF18C9EC7"
+  },
+  "tools": {
+    "audit": "16244/D7B1D7186603DED07B17DCDAE5B6BF83916F6C57D763A11FDDA2259CE6CAA433",
+    "applicator": "9521/1EBEC3C973900CBCF6D32FA39AFB6D94804173AE44C837901210008CBA5CF1F8",
+    "independent_verifier": "17757/D7D6D11D720CE2A2F12B941F1EB58D055F56478E8237A9DAC5487C165F83E8A0",
+    "transaction_test": "6587/9BC8915867C51A67137FBBD2F8E6A4846D91625A35989FBE59DB4C6860741D7A",
+    "candidate_receipt": "20541/1593BC6ACDE603BA8EAA26E5F31774F240441A3D07EC230D341F622C4D67D2AD",
+    "rejected_r1_receipt": "34939/7223BC416806FF195C35BE8ECA9CD294160DC285AFAF467486C8E4DEA9118FFB"
+  },
+  "runtime_validation": {
+    "audit_compact_runs": "3 identical; exit 0; stdout 14649 B / 70795FF6C3EF971EBC30BECF4F9F237F10139CD767B76F7245784DF72E394CB6; stderr 0",
+    "applicator_dry_runs": "3 identical; exit 0; stdout 15520 B / C03028D91F7D5E434B273FC0728138733E0083B76A466FA045234219D0FC8BA6; stderr 0",
+    "independent_verifier_runs": "3 identical PASS_PREDECESSOR; stdout 3357 B / 0016414A40E926AF6F399B8C36AB801B751E93ECC1B41A8006D13ED5AEF67F89; stderr 0",
+    "transaction_test_runs": "3 identical PASS; stdout 531 B / AAC48B72FFBC57789E57388BF97E3FD382A7CF0BF45D69C4DF854C64B3665C7B; stderr 0; clean install, mid-install rollback, coherent-successor cleanup-failure evidence cases"
+  },
+  "independent_agent_reviews": [
+    {
+      "task_identity": "/root/official_consonant_majority_policy",
+      "brief": "Adjudicate raw-headword versus generated-basic display and enumerate the corrected inverse candidate; exact sources and authority only; no writes.",
+      "return": "Corrected verdict REJECT R1 and ACCEPT exactly 42 R2 sites; supplied per-form locators, contexts, projected source hashes, family closure, and global-rewrite caveat.",
+      "parent_disposition": "Accepted after direct orthography-line inspection, archive-entry authentication, generated-row replay, source census, audit projection, exact reverse, and producer-independent verifier. The agent's preliminary R1 acceptance is preserved as superseded adverse analysis."
+    },
+    {
+      "task_identity": "/root/edit0010_exact_inventory",
+      "brief": "Independently enumerate target locators and zones, then reconcile the official generated display layer; no writes.",
+      "return": "Rejected 99-site R1; accepted 42-site R2 on 40 lines; zero math/comment/foreign/protected sites; projected hashes independently matched; identified dictionary implementation lines 58 and 763.",
+      "parent_disposition": "Accepted after direct parent replay of all 42 locators and exact authority/source hashes."
+    }
+  ],
+  "confidence": 0.99,
+  "authorization": "Execute the exact R2 hash-gated transaction once, then seal live self and producer-independent successor verification. No other family is authorized by this decision."
+}

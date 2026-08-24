@@ -2,16 +2,16 @@
 
 [**Čitajte izdanje neposrědno v živom HTML-čitateljniku — latinica i kirilica**](https://kokunoyumeto.github.io/emmy-noether-isv/)
 
-[**Čitajte polny povezany PDF-čitateljnik — latinica i kirilica**](release_v020/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf)
+[**Čitajte polny povezany PDF-čitateljnik — latinica i kirilica**](release_v021/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf)
 
-To jest polno medžuslovjansko izdanje matematičnogo korpusa Emmy Noether: statje 1–43, lekcijsko dělo 44, statja 45 i bibliografija. Ono jest prědvidženo za praktično čitanje govoriteljami slovjanskyh jezykov, vključajuči čitateljev bez anglijskogo jezyka; ne jest samo lingvističny eksperiment.
+To jest polno medžuslovjansko izdanje matematičnogo korpusa Emmy Noether: statje 1–43, lekcijsko dělo 44, statja 45 i bibliografija. Ono jest prědvidženo za praktično čitanje govoriteljami slovjanskyh jezykov, uključajuči čitateljev bez anglijskogo jezyka; ne jest samo lingvističny eksperiment.
 
-- Točny DOI izdanja: [10.5281/zenodo.22058530](https://doi.org/10.5281/zenodo.22058530)
+- Točny DOI izdanja: [10.5281/zenodo.22077468](https://doi.org/10.5281/zenodo.22077468)
 - Stabilny DOI koncepta: [10.5281/zenodo.21926382](https://doi.org/10.5281/zenodo.21926382)
 - Globalny katalog: [10.5281/zenodo.20412587](https://doi.org/10.5281/zenodo.20412587)
 - Jezyk: Medžuslovjansky (`isv`)
 - Zapisy: `isv-Latn` i `isv-Cyrl`
-- Redakcijna versija: `NOETHER-ISV-v020`
+- Redakcijna versija: `NOETHER-ISV-v021`
 
 ## Čto jest kanon?
 
@@ -22,27 +22,27 @@ Ako hočete prodolžiti redakciju:
 1. prěčitajte `CANON_INDEX.json`;
 2. autentifikujte zamrznute latinične fajly;
 3. zapišite vsako materialno jezyčno rěšenje s točnym lokatorom, iztočnikami, neizvěstnostju i odklonjenymi alternativami;
-4. ne redagujte kirilicu ručno — izvedite ju fail-closed projektorom v7;
-5. poslě změny povtorite pregled vsih rolij, dvojnu derivaciju i jezyčnu, matematičnu, TeX, fontovu, linkovu i vizualnu kontrolu.
+4. ne redagujte kirilicu ručno — izvedite ju fail-closed projektorom v8;
+5. poslě změny povtorite pregled rolij, dvojnu derivaciju i jezyčnu, matematičnu, TeX, fontovu, linkovu i vizualnu kontrolu.
 
-## Čto prinosi v020
+## Čto prinosi v021
 
-Latiničny kanon ostavaje bajt-po-bajtu jednakovy s v019. Popravka se odnosi na pravila, ktore rěšajut, ktore vidime česti teksta trěba transliterovati i ktore trěba ohraniti — na priměr obykle medžuslovjanske slova, imena, rimske označenja, originalne citaty i bibliografične zapisy.
+Versija v021 zamrzuje novu latiničnu glavu `ISV021-EDIT-0012`. Dvanadset zamrznutyh rěšenij priměnilo 4 053 lokalizovane popravky. Poslědnje dvije velike normalizacije zaměnile sut 1 599 pojavjenj opcionalnyh soglasnyh znakov standardnymi formami i 1 798 pojavjenj šestih opcionalnyh proširenih bukv osnovnymi čitateljskymi formami. Četyri originalne tuđe formy s `è` sut ohranjene bajt-po-bajtu; generično odstranjenje diakritik ne jest upotrěbjeno.
 
-Vseh 4 560 naslědženyh zapisov rolij bylo pregledano. Popravljeno bylo 364 nepravilnyh klasifikacij i dodano osam nedostajučih granic imen. Vseh 372 efektov bylo prověrjeno: 346 označajut ohranjenje i 26 projekciju. Izvod změnil 125 linij, vse izključivo v 309 iztočnikovyh linijah dozvoljenyh pregledom; latinične fajly ne sut změnjene. V rezultatu obične medžuslovjanske slova više ne ostavajut slučajno latiničnymi, a originalne imena, rimske označenja i podobne funkcionalne elementy više ne sut slučajno pokiriljene.
+Finalny pregled latiničnogo teksta našel nula ne-rimskyh projekcijnyh blokatorov. Projektor v8 veže 5 290 zapisov rolij k novym lokatoram, uključajuči 722 točno prověrjene rimske označenja, i deterministično tvori kirilicu bez neprědvidženyh izměn. Vseh izhodnyh změn jest licencirano izměnami latiničnogo kanona; otvorenih projekcijnyh pogrěšek jest nula.
 
 ## Sostav izdanja
 
 - [`docs/index.html`](docs/index.html) — živa GitHub Pages čitateljska površina s neposrědno pokazyvanim polnym PDF, skokami k latinici i kirilici, i rezervnymi vezami za dostavanje;
-- `release_v020/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf` — glavno čitateljsko izdanje, 1 159 stranic;
+- `release_v021/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf` — glavno čitateljsko izdanje, 1 159 stranic;
 - `source_latin/` — latinično medžuslovjansko izdanje, ktore možno redagovati;
 - `source_cyrillic/` — deterministična kirilična projekcija;
-- `docs/AI_INTERSLAVIC_NOETHER_METHODS_v020.pdf` — publikacijska metodologija o jezyčnyh rěšenjah, avtoritetah, algoritmu, popravkah, validaciji i granicah tvrdženij;
-- `decision_records/` i `release_v020/evidence/` — pregled rolij, validacijske potvrđenja, sgrađanja i QA;
+- `docs/AI_INTERSLAVIC_NOETHER_METHODS_v021.pdf` — 13-stranična publikacija o jezyčnyh rěšenjah, avtoritetah, algoritmu, validaciji i granicah tvrdženij, s polnym medžuslovjanskim tekstom i polnym anglijskym paralelnym tekstom;
+- `decision_records/` i `release_v021/evidence/` — zamrznute rěšenja, validacijske potvrđenja, sgrađanja i QA;
 - `metadata/` — citovanje, Zenodo/DataCite odnosenja, iztočnik i obim;
 - koren repozitorija — povtorime projektory, testy i build/QA orudja.
 
-Sgrađanje dvoh samostojnyh čitateljnikov teče serijno v dvoh prohodah; rezultat imaje 565 latiničnyh i 588 kiriličnyh stranic. Povezany čitateljnik imaje 1 159 stranic. Strukturna kontrola imaje 38 uspěšnyh kontrol i nula pogrěšek. Vizualna kontrola pokryvaje vseh 86 izměnjenyh kiriličnyh stranic, 103 susědne neizměnjene kontrolne stranice i novy uvodny material.
+Dva samostojna čitateljnika sut sgrađene serijno v dvoh prohodah: 565 latiničnyh i 588 kiriličnyh stranic. Povezany čitateljnik imaje 1 159 stranic. Strukturna kontrola imaje 38 uspěšnyh kontrol i nula pogrěšek. Vizualna kontrola autentifikovala vseh 1 159 stranic i pregledala 129 reprezentativnyh izměnjenyh stranic, 60 susědnyh kontrol i vseh 13 stranic metodologije; vidimyh defektov ne najdeno.
 
 ## Status, avtorstvo i prava
 
@@ -58,16 +58,16 @@ CC0 jest priměnjen samo v toj měrě, v ktoroju obstajajut prava na projektom s
 
 [**Read the edition in the live HTML reader — Latin and Cyrillic**](https://kokunoyumeto.github.io/emmy-noether-isv/)
 
-[**Read the complete linked Interslavic PDF — Latin and Cyrillic**](release_v020/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf)
+[**Read the complete linked Interslavic PDF — Latin and Cyrillic**](release_v021/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf)
 
 This is the complete Interslavic edition of Emmy Noether's mathematical corpus: Papers 1–43, lecture work 44, Paper 45, and the bibliography. It is intended for practical reading by speakers of Slavic languages, including readers without English; it is not merely a linguistic experiment.
 
-- Exact release DOI: [10.5281/zenodo.22058530](https://doi.org/10.5281/zenodo.22058530)
+- Exact release DOI: [10.5281/zenodo.22077468](https://doi.org/10.5281/zenodo.22077468)
 - Stable concept DOI: [10.5281/zenodo.21926382](https://doi.org/10.5281/zenodo.21926382)
 - Global catalogue: [10.5281/zenodo.20412587](https://doi.org/10.5281/zenodo.20412587)
 - Language: Interslavic (`isv`)
 - Scripts: `isv-Latn` and `isv-Cyrl`
-- Editorial release: `NOETHER-ISV-v020`
+- Editorial release: `NOETHER-ISV-v021`
 
 ## What is canonical?
 
@@ -78,27 +78,27 @@ To extend the edition:
 1. read `CANON_INDEX.json`;
 2. authenticate the frozen Latin files;
 3. record every material linguistic choice with an exact locator, sources, uncertainty, and rejected alternatives;
-4. never edit Cyrillic independently—regenerate it with the fail-closed v7 projector;
-5. after a change, repeat the complete role review, double derivation, and linguistic, mathematical, TeX, font, link, and visual validation.
+4. never edit Cyrillic independently—regenerate it with the fail-closed v8 projector;
+5. after a change, repeat the role review, double derivation, and linguistic, mathematical, TeX, font, link, and visual validation.
 
-## What v020 changes
+## What v021 changes
 
-The Latin canon remains byte-for-byte identical to v019. The correction concerns the rules that decide which visible text should be transliterated and which should be preserved—for example ordinary Interslavic words, names, Roman labels, original quotations, and bibliographic forms.
+Version v021 freezes a new Latin head, `ISV021-EDIT-0012`. Twelve sealed decisions apply 4,053 localized corrections. The final two large normalizations replace 1,599 occurrences of optional consonant spellings with standard forms and 1,798 occurrences of six optional extended letters with basic reader-facing forms. Four original foreign-source spellings containing `è` remain byte-identical; no generic diacritic stripping is used.
 
-All 4,560 inherited role records were reviewed. The review corrected 364 misclassifications and added eight missing name boundaries. All 372 effects were verified: 346 preservation decisions and 26 projection decisions. The derivation changed 125 lines, all exclusively within 309 source lines licensed by the review; no Latin source byte changed. As a result, ordinary Interslavic words no longer remain accidentally Latin, while original names, Roman labels, and similar functional material are no longer accidentally Cyrillicized.
+The final Latin review finds zero non-Roman projection blockers. Projector v8 binds 5,290 role records to the new locators, including 722 exactly verified Roman labels, and generates Cyrillic deterministically without unintended changes. Every output change is licensed by a Latin-canon change; open projection errors are zero.
 
 ## Release contents
 
 - [`docs/index.html`](docs/index.html) — the live GitHub Pages surface, embedding the complete reader with Latin/Cyrillic jumps and direct-download fallbacks;
-- `release_v020/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf` — the 1,159-page human-facing edition;
+- `release_v021/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf` — the 1,159-page human-facing edition;
 - `source_latin/` — editable Latin-script Interslavic;
 - `source_cyrillic/` — deterministic Cyrillic projection;
-- `docs/AI_INTERSLAVIC_NOETHER_METHODS_v020.pdf` — publication-style methodology covering linguistic decisions, authorities, algorithm, corrections, validation, and claim boundaries;
-- `decision_records/` and `release_v020/evidence/` — role review, validation receipts, builds, and QA;
+- `docs/AI_INTERSLAVIC_NOETHER_METHODS_v021.pdf` — a 13-page publication-style methodology with complete Interslavic and complete parallel English texts;
+- `decision_records/` and `release_v021/evidence/` — sealed decisions, validation receipts, builds, and QA;
 - `metadata/` — citation, Zenodo/DataCite relations, source authority, and scope;
 - repository root — reproducible projection, test, build, and QA tools.
 
-The two component readers build serially in two passes: 565 Latin pages and 588 Cyrillic pages. The linked reader contains 1,159 pages. Structural QA reports 38 passing checks and zero errors. Visual QA covers all 86 changed Cyrillic pages, 103 adjacent unchanged controls, and the new front matter.
+The two component readers build serially in two passes: 565 Latin pages and 588 Cyrillic pages. The linked reader contains 1,159 pages. Structural QA reports 38 passing checks and zero errors. Visual QA authenticated all 1,159 pages and inspected 129 representative changed pages, 60 adjacent controls, and all 13 methods pages; no visible defects were found.
 
 ## Status, authorship, and rights
 

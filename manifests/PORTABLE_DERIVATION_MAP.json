@@ -1,0 +1,922 @@
+{
+  "schema": "noether-interslavic-portable-derivation-map/1.0",
+  "release_id": "NOETHER-ISV-v021",
+  "status": "PASS_NO_LOCAL_PROFILE_IDENTITY",
+  "placeholders": {
+    "<TASK_ROOT>": "root of the extracted v021 source/evidence tree",
+    "<WORKSPACE_ROOT>": "workspace root containing 03_projects",
+    "<USER_PROFILE>": "local operating-system user profile",
+    "<LOCAL_USER>": "local operating-system account name"
+  },
+  "source_authority_rule": "Original local hashes remain provenance; portable hashes authenticate public derivatives. The portable role manifest has a recomputed internal digest. Invalidated compact-report digests are renamed and a derivative digest is added instead of making a false original-report claim.",
+  "portable_replay": {
+    "verifier": {
+      "bytes": 13112,
+      "sha256": "CEFEEF1957D9E65C0B20295CDB9CD8052026F9E4DDAC6A6A8DBDC2CF90F8B775"
+    },
+    "v2": {
+      "bytes": 74914,
+      "sha256": "FD51B4D9936653CB9968AF8F91BAB08E18331741BC482CCA39AEF69F0B5AF3F2"
+    },
+    "role_manifest": {
+      "bytes": 4177721,
+      "sha256": "E5F629E2EC381A7D3247F30CBE7FBD03815639E2C6057E39BB13E8D1E427DD4B",
+      "internal_sha256": "1C20345E4F52A3936FCF103358D7B4B6938A67355F7AAA46AC4DC37715F08546"
+    }
+  },
+  "derivatives": [
+    {
+      "source_path": "CANON_INDEX.json",
+      "source": {
+        "bytes": 11144,
+        "sha256": "BFBF28F1F64AFBE1A98D9E02F0FE6C5C0E3176645CCE18A6F499AE127A9EDB4E"
+      },
+      "transformation": "portable role-manifest and replay authority pins",
+      "portable": {
+        "bytes": 13176,
+        "sha256": "F7BB9B1D81775CB49990979AB6E8A8A5274B24ABAB775AEF0EDC6F56405591C6"
+      }
+    },
+    {
+      "source_path": "apply_base_residual_families_v021.py",
+      "source": {
+        "bytes": 22486,
+        "sha256": "570E44B6943DDB5C2DF876B1012D7EA49A24F22BEBCD2BA9B2024502BB33D29F"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 22463,
+        "sha256": "BB187B633B75C6F717C6C827869C9809FC4743A1F120A3F541DAFD9CCB70819B"
+      }
+    },
+    {
+      "source_path": "apply_paper45_high_confidence_v021.py",
+      "source": {
+        "bytes": 17269,
+        "sha256": "D45050E5EEA9EEB72ADDD0A11C93BBF66E757BF20AACDFE91C9A0A3CA243A0E8"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 17246,
+        "sha256": "F98F286FCA934E69942063B9F492033BAA2D16AD3BA240D43FCE4F8308365594"
+      }
+    },
+    {
+      "source_path": "apply_work44_high_confidence_v021.py",
+      "source": {
+        "bytes": 22499,
+        "sha256": "2AE08D6DE859C162C5A8987B15E0D8AA594EA4D3486DACDA31358B2EB8355027"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 22476,
+        "sha256": "E43FB70F78F20FED6873CAD675190EE25719A5B1DB33C23963C2E396C38117D4"
+      }
+    },
+    {
+      "source_path": "audit_basic_consonant_surface_v021.py",
+      "source": {
+        "bytes": 16244,
+        "sha256": "D7B1D7186603DED07B17DCDAE5B6BF83916F6C57D763A11FDDA2259CE6CAA433"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 16221,
+        "sha256": "0648E763D45776FFA30FB5F2E19477CE0D91C9008F50AFA3B520708113C4B6A1"
+      }
+    },
+    {
+      "source_path": "audit_cest_family_basic_orthography_v021.py",
+      "source": {
+        "bytes": 19428,
+        "sha256": "7C3A0550A610394513E4CC3344AAA63DA6B89930A9B2FA4EC2FAC8C4282E451D"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 19405,
+        "sha256": "14A296F2685526999A052D7281D08D0157F7810B193EE2C196CCD5EBE5F30753"
+      }
+    },
+    {
+      "source_path": "audit_complete_basic_extended_letters_v021.py",
+      "source": {
+        "bytes": 18616,
+        "sha256": "3D7514BB1D2A736C045FCBDBE8665849DE80326CFB31BD9763B006229FE53E79"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 18593,
+        "sha256": "657F10BD2A4D8E0F07AA10FAED71DD6534E22CC9677E593363207885D35E9753"
+      }
+    },
+    {
+      "source_path": "audit_official_vowel_families_v021.py",
+      "source": {
+        "bytes": 14950,
+        "sha256": "E4BCFE2C2B02D30C8A3403CACB49B1C33638B86F9939A6B34856273C49F5E6F2"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 14927,
+        "sha256": "37A469D47D6E98F4EC1A7213F5D44ABE4C79061857E3A343DF35FCC167DB9DEA"
+      }
+    },
+    {
+      "source_path": "audit_standard_verb_endings_v021.py",
+      "source": {
+        "bytes": 18792,
+        "sha256": "DC78093DE25CDC9CF411B6C1A691BDEC7573C206B1004B6DEC16508D2BD97DD7"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 18769,
+        "sha256": "2EB628A65654C5BAF2CFD0D65CC7919043BA7F4A84BB86B0CFBC420D8C018B3B"
+      }
+    },
+    {
+      "source_path": "audit_sumand_family_v021.py",
+      "source": {
+        "bytes": 15000,
+        "sha256": "43C8B3CCCF826CF366ECE3493A11241997211908842EB13B584BA925BA527CC2"
+      },
+      "substitutions": {
+        "workspace_root": 2
+      },
+      "portable": {
+        "bytes": 14954,
+        "sha256": "A0339B47E718C766AB519338FA072E30E8487C574517B9646D12F6DE7A480A54"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-CYRILLIC-V8-POSTINSTALL-RECEIPT.json",
+      "source": {
+        "bytes": 7409,
+        "sha256": "96E43014737AB5DAC36E76A3F55C9BAFAF45CCDEA411D83CE5B204607D6440EE"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [
+          "$.predecessor_reproduction.report_sha256_excluding_this_field",
+          "$.report_sha256_excluding_this_field"
+        ],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 7889,
+        "sha256": "5F9CA809B51A1C217272DA433D3D079BA220439B220319CE9C5702DE4D36A863"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0001-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "source": {
+        "bytes": 20691,
+        "sha256": "9283CAF70D05CB613782A9332EEA66177EFE866BE86673AA9A1619BDC28665C0"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 14625,
+        "sha256": "D03C6D0DF919E24043B2C9AEBCDFC6E4284E7365895C4A981D585E86D0815C02"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0003-POSTAPPLY-SELF-R2.json",
+      "source": {
+        "bytes": 2375,
+        "sha256": "2887204EAFB2558C10C88BA4CA584CA7DC05409C25AC6A52D26E22AD444A3DB8"
+      },
+      "substitutions": {
+        "task_root": 2,
+        "workspace_root": 1
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 2093,
+        "sha256": "6BC6498AD0BB75CF5C0608DCE9C4938F9FEC547AA75F406E91E2E22AC761D8EC"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0003-UNAPPLIED-CANDIDATE-RECEIPT-R2.json",
+      "source": {
+        "bytes": 9159,
+        "sha256": "C7F2AD8E72446B89EA4817523D286FA2464C3A51B25C5A4E852F38754E63A38B"
+      },
+      "substitutions": {
+        "task_root": 2,
+        "workspace_root": 1
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 6698,
+        "sha256": "31F512582F8A41C6728316059E5850A20562BFDE1B281E0183F966F75C914840"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0003-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "source": {
+        "bytes": 8969,
+        "sha256": "BEB63AF421F86A0036BC3B80EFCB86BFEE1A26B22F21E3AB07A2655F6B8DED23"
+      },
+      "substitutions": {
+        "task_root": 2,
+        "workspace_root": 1
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 6522,
+        "sha256": "607CE251DD50E59A04D913207723C22BF39AF9A191AACF887DD1F207DC257A80"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0004-POSTAPPLY-SELF-R2.json",
+      "source": {
+        "bytes": 2167,
+        "sha256": "CC04F7577B81167C2349F7BDCAAF553D0B0AD60959D59AE9AA2F684CB01E1F25"
+      },
+      "substitutions": {
+        "task_root": 2,
+        "workspace_root": 1
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 1941,
+        "sha256": "E35D5F76772F4CDA59A48F489D20F5E30A723566117A8EDA78407E0E9937E576"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0004-UNAPPLIED-CANDIDATE-RECEIPT-R2.json",
+      "source": {
+        "bytes": 15824,
+        "sha256": "621CD16085DE0C873D17C675867E9A63884F6B8F50F4D294A2D52F0EDEA0C15B"
+      },
+      "substitutions": {
+        "task_root": 2,
+        "workspace_root": 1
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 10866,
+        "sha256": "AAF484E84A97F0BD1A3FF85FBEF5C9FBEA27A06074D9B25AE73C02F9FFEC5A50"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0005-POSTAPPLY-SELF.json",
+      "source": {
+        "bytes": 2660,
+        "sha256": "F7D4CEC44260E4BFB8F49FF2F4A03DC297BE462F1374B6D1D64846530F638654"
+      },
+      "substitutions": {
+        "task_root": 2,
+        "workspace_root": 1
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 2236,
+        "sha256": "8B5E7BDC66B5207D20FF444A2BDB92E13011903C4379331C876DAEDBF4C77947"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0005-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "source": {
+        "bytes": 16901,
+        "sha256": "41B5810822907F1C5A0783F9CDFB0A37FECCC7219640D65B9A34DC6E5BA84D3A"
+      },
+      "substitutions": {
+        "task_root": 2,
+        "workspace_root": 1
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 11876,
+        "sha256": "97C415013E9008E2AB3C634F3396065245ACD1A7019B9917843DE2D546D727E8"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0006-ACCEPT-PREAPPLY.json",
+      "source": {
+        "bytes": 8898,
+        "sha256": "2AFA9278DC1BDFEEC47FD6EACC52A1D43879E356354046628870E112F6A9E07F"
+      },
+      "substitutions": {
+        "workspace_root": 2
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 8118,
+        "sha256": "9B7899643F1D0A904BFEF6D96FE2962F2D61B04186B82A67E1E5BEA1B0B15840"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0006-POSTAPPLY-SELF.json",
+      "source": {
+        "bytes": 4118,
+        "sha256": "13C9540EE442E0823249DF833B0EC8B8B69175A0CF0CD21640961AB28F365C47"
+      },
+      "substitutions": {
+        "task_root": 3,
+        "workspace_root": 3
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 3374,
+        "sha256": "4C6727BD8A2CF1378415CFAFC9C7707ED123E8E292B12E664D78011EACE0A93A"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0006-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "source": {
+        "bytes": 69344,
+        "sha256": "DE3986DB5A0EA5F96EFE17EEB70A013E550E1C2BD8F55CBF1FD6F930A93CB1F8"
+      },
+      "substitutions": {
+        "task_root": 5,
+        "workspace_root": 3
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 58611,
+        "sha256": "6E1EAF99C090D567071EE97BA9CC62C30A4089D7E7FAE6DAF6006EAE7EFF2609"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0007-ACCEPT-PREAPPLY.json",
+      "source": {
+        "bytes": 9387,
+        "sha256": "6E1908211AA53EC970B7A6DA271FB663E3B485E78DEAFBB1A116B6C81E6F0597"
+      },
+      "substitutions": {
+        "workspace_root": 4
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 8889,
+        "sha256": "138F7EDF0009AE0B550A65D589A4C83C5AB5B89293BCE25A55DAB4FABB26A016"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0007-POSTAPPLY-SELF.json",
+      "source": {
+        "bytes": 5243,
+        "sha256": "AD14F6E84E9C468D06EF6BEA1CABA95F7CDC598318C508E0879BBAD30CF43C0B"
+      },
+      "substitutions": {
+        "task_root": 5,
+        "workspace_root": 4
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 4078,
+        "sha256": "AD19C7084642DE61C5A41D4D75474884BEB939267C2A63050359216BD86A495C"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0007-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "source": {
+        "bytes": 9761,
+        "sha256": "8F846BBF54C0CB5352934B842B153E2B71A862994C3A965FD7ABFB0DA4AD52D9"
+      },
+      "substitutions": {
+        "task_root": 5,
+        "workspace_root": 4
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 7226,
+        "sha256": "C4BCDEC7E078D89D050FCAEF5E46F6CF7D47C0BBFE427C208394F41B64012799"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0008-ACCEPT-PREAPPLY.json",
+      "source": {
+        "bytes": 9063,
+        "sha256": "619B5424DCD056B5460D2DB0AA6C0A68DFC1CBD242748BB08778C019CC97AE5A"
+      },
+      "substitutions": {
+        "workspace_root": 2
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 8678,
+        "sha256": "BEA0DC4308A4AE8F04843D5994E4339E51EDE73840B71B5BB00F748B6E49E570"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0008-POSTAPPLY-SELF.json",
+      "source": {
+        "bytes": 4801,
+        "sha256": "1876A2E1F13FD6F5FC96DDB1BBBAAC8AFD3074FB8007F65ED5E8C45632A8B06D"
+      },
+      "substitutions": {
+        "workspace_root": 2
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 4502,
+        "sha256": "03C9A79F418C9CDA379C45437739935AAE33D56973CEB84BE8312E1D9D7D9F45"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0008-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "source": {
+        "bytes": 6701,
+        "sha256": "ECF461D81F9C81F84D905FB1EA631F11FA2EB544FC72B9FBAE8D7AEABB1B1E4F"
+      },
+      "substitutions": {
+        "task_root": 3,
+        "workspace_root": 2
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 5245,
+        "sha256": "3482EF889D0C866BB76840E028E3C0E300DE31ADF03B65F0D64E75B87C4F4654"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0009-ACCEPT-PREAPPLY.json",
+      "source": {
+        "bytes": 6299,
+        "sha256": "D039A65BB3E17C9378D408601EA57E39D877C8B4AE06CE162BD18E7430D8BB33"
+      },
+      "substitutions": {
+        "task_root": 5
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 5196,
+        "sha256": "0505486D7B1A3F190AB3179186F124308D513A03AB219654C006E439099E816F"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0009-POSTAPPLY-SELF.json",
+      "source": {
+        "bytes": 11941,
+        "sha256": "4FD5A1F787CFF4B4F3A81443FDADD595B8395B8A56F72D271FCDDE0CD9A9D211"
+      },
+      "substitutions": {
+        "task_root": 3,
+        "workspace_root": 2
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 8208,
+        "sha256": "E09D7CA3CAE644263010622DF35289A207EB550607D2D40597D3CAFC0AAF6E4D"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0009-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "source": {
+        "bytes": 42803,
+        "sha256": "93B324FA5EA72692C2029FE025DC885E2EDD1E98953B430A1BEBA98906101CE5"
+      },
+      "substitutions": {
+        "task_root": 4,
+        "workspace_root": 2
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 28656,
+        "sha256": "49CB19CD99154D972551883DF33A8134F87D56B999EEBD2192B2CCF9144F434D"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0010-POSTAPPLY-SELF-R2.json",
+      "source": {
+        "bytes": 7075,
+        "sha256": "6BE7E0D7956B71FB0770547B1BD12C2614D0F9D4F392C0E4173B0B1F831566EF"
+      },
+      "substitutions": {
+        "task_root": 4,
+        "workspace_root": 3
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 5201,
+        "sha256": "64AC499EA6240E88B7ED2A8D5C78BB47DE585D7E760C61D43989BA2106D37015"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0010-UNAPPLIED-CANDIDATE-RECEIPT-R2.json",
+      "source": {
+        "bytes": 20541,
+        "sha256": "1593BC6ACDE603BA8EAA26E5F31774F240441A3D07EC230D341F622C4D67D2AD"
+      },
+      "substitutions": {
+        "task_root": 5,
+        "workspace_root": 3
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 14245,
+        "sha256": "EA4A77EA10212ED27C3958AFB06EE2D569B0DF7443E51512AB2889AD0642C95D"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0010-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "source": {
+        "bytes": 34939,
+        "sha256": "7223BC416806FF195C35BE8ECA9CD294160DC285AFAF467486C8E4DEA9118FFB"
+      },
+      "substitutions": {
+        "task_root": 4,
+        "workspace_root": 1
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 23543,
+        "sha256": "02DA0E8E37221C0984BBD5566DEE42096421AD8DF27249BBA0D2ACD10E4EEA39"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0011-POSTAPPLY-RECEIPT.json",
+      "source": {
+        "bytes": 6634,
+        "sha256": "5B8C27D991EECF9E0EB22983D1D809E88002DBBC77707DB42E74DBD57E489E88"
+      },
+      "substitutions": {
+        "task_root": 3,
+        "workspace_root": 3
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 5002,
+        "sha256": "B7698D50910A9F42C0042A82599A09A1F94546BFDAD8E9789A8B8418D0CB2A08"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0011-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "source": {
+        "bytes": 435463,
+        "sha256": "450017924F7680B61379E66F01AB94BD5280E04A45672B8B6FA251CE569F0F13"
+      },
+      "substitutions": {
+        "task_root": 4,
+        "workspace_root": 3
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 283099,
+        "sha256": "CBA105A46AF43CF42EF5E4DE8485144ABD020EBBD7ED0CE98DA661BAABA16847"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0012-POSTAPPLY-RECEIPT.json",
+      "source": {
+        "bytes": 4480,
+        "sha256": "B73BFA4A894794FA31713C440DA975102726780A6A5FB0896EF6E4EFAFDFBAE4"
+      },
+      "substitutions": {
+        "task_root": 3,
+        "workspace_root": 2
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 3632,
+        "sha256": "0401FD5280958F2CA70E1F88E798B942EEFB6057684F28B284BEA1FD4A820AFA"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-EDIT-0012-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "source": {
+        "bytes": 504696,
+        "sha256": "D9519C0677BA506F421C0E44F4EC5850A290D1C0153B021E0BBF483371A88345"
+      },
+      "substitutions": {
+        "task_root": 3,
+        "workspace_root": 2
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 296348,
+        "sha256": "125B73939AB37A874AE71619935DC2DBCE8FB20E99E2E1A314E4282446AEB7F6"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-LATIN-FREEZE-PROJECTION-FRONTIER-R2.json",
+      "source": {
+        "bytes": 360147,
+        "sha256": "C0584834AF4A2638E763BCEEEA92D0A5C43F40380BC97B36A98BC4D25D6B686B"
+      },
+      "substitutions": {
+        "task_root": 2,
+        "workspace_root": 1
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 342478,
+        "sha256": "830F42D8B2770A157381C29BECF13BFEDB1BEBBE9EB4712B708E2DF39D951813"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-LATIN-FREEZE-PROJECTION-FRONTIER.json",
+      "source": {
+        "bytes": 359492,
+        "sha256": "35B50F342D9ADFA780B3BC11E103610CE758E500C81B1554ECD15DA3A5B9F439"
+      },
+      "substitutions": {
+        "task_root": 2,
+        "workspace_root": 1
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 341850,
+        "sha256": "FA38950FF46BE1965FA87E83D0FF87A9562C06442FB6C46D358DF53A930AC532"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-PROJECTION-ROLE-MANIFEST-REBASE-RECEIPT.json",
+      "source": {
+        "bytes": 2327,
+        "sha256": "CF62CC2EE021FF831C48BDA715A55C88E2774C0699549F9ACDBE2AA174A80AC9"
+      },
+      "substitutions": {
+        "task_root": 1
+      },
+      "self_digest_disposition": {
+        "invalidated_local_fields_renamed": [],
+        "portable_field": "_portable_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 2589,
+        "sha256": "5B5D6C31A0A07E1BA9F5FBCB716A7B347DC201AF2D8C4D60A1E35FA3EF227BD6"
+      }
+    },
+    {
+      "source_path": "decision_records/ISV021-REBASED-PROJECTION-ROLE-MANIFEST.json",
+      "source": {
+        "bytes": 4177431,
+        "sha256": "BE0A9902DAC546350227C048777A78AC300647D5FB514895F7CB91EC3D900970"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "self_digest_disposition": {
+        "source_internal_sha256_preserved_in": "_portable_derivation.source_internal_sha256",
+        "portable_internal_sha256": "1C20345E4F52A3936FCF103358D7B4B6938A67355F7AAA46AC4DC37715F08546",
+        "algorithm": "SHA-256 of canonical JSON excluding inventory_sha256_excluding_this_field"
+      },
+      "portable": {
+        "bytes": 4177721,
+        "sha256": "E5F629E2EC381A7D3247F30CBE7FBD03815639E2C6057E39BB13E8D1E427DD4B"
+      }
+    },
+    {
+      "source_path": "verify_basic_consonant_surface_v021.py",
+      "source": {
+        "bytes": 17757,
+        "sha256": "D7D6D11D720CE2A2F12B941F1EB58D055F56478E8237A9DAC5487C165F83E8A0"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 17734,
+        "sha256": "5E1DD50324767082F8F3A55EB543578C6ED79A4CD7689B96F19E2C8AF41FA555"
+      }
+    },
+    {
+      "source_path": "verify_cest_family_basic_orthography_v021.py",
+      "source": {
+        "bytes": 14316,
+        "sha256": "72788487605210FEE6FFF0717B6DDF2ED541188E3A101F03178FD0F3DBAE3B1D"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 14293,
+        "sha256": "96D8461A848B7D1516ABEB7501C4F6023708EC826C12FBAE7AE410DFFF6CB954"
+      }
+    },
+    {
+      "source_path": "verify_complete_basic_consonants_v021.py",
+      "source": {
+        "bytes": 17314,
+        "sha256": "3E1F871AFBD80C453A7874EC014FD823F768207E97FB5C38EAB074E91B44FB06"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 17291,
+        "sha256": "4500B44EE98BE6273069BDF348ABFFA6BF4C6521DA0169984931A5817516AFC0"
+      }
+    },
+    {
+      "source_path": "verify_complete_basic_extended_letters_v021.py",
+      "source": {
+        "bytes": 19488,
+        "sha256": "C5B6752CEB1821BB8EFF2E676703ED12A2CD6B55FF7E7C8E3CE2C8C10898B57F"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 19465,
+        "sha256": "3BA4706BB4129F102E268B2F4731C1B7CF9E5993941AB36136A8A48205BF6A10"
+      }
+    },
+    {
+      "source_path": "verify_cyrillic_v8_independent.py",
+      "source": {
+        "bytes": 13133,
+        "sha256": "9304039DC336FB52A9925D6A8B71B73D63D6B58E35B36DBEE3C46CC58A930FE2"
+      },
+      "transformation": "portable replay dependency paths and role-manifest pins",
+      "portable": {
+        "bytes": 13112,
+        "sha256": "CEFEEF1957D9E65C0B20295CDB9CD8052026F9E4DDAC6A6A8DBDC2CF90F8B775"
+      }
+    },
+    {
+      "source_path": "verify_official_consonant_majorities_v021.py",
+      "source": {
+        "bytes": 16473,
+        "sha256": "07153A4169D07FDA80E1F7868341D8AB2E3D48A6A70EEEFC1E5ACEB1BFD56045"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 16450,
+        "sha256": "7A12189B9EEAB035A5D647DB1B9BF50F82B6B10AB819E0D1B00DD81B5F5B1DCA"
+      }
+    },
+    {
+      "source_path": "verify_paper45_high_confidence_v021.py",
+      "source": {
+        "bytes": 12954,
+        "sha256": "34A30C7D3BD0000DF39D2192DEBFF74673AB7CB8F1C80343ACF0EE45B87BEC36"
+      },
+      "substitutions": {
+        "workspace_root": 2
+      },
+      "portable": {
+        "bytes": 12908,
+        "sha256": "4E8488D4A7E2EE1DD0435E1CD600CBA9DEDE104B5F70721F922A95E4565B3C5F"
+      }
+    },
+    {
+      "source_path": "verify_residual_orthography_semantics_v021.py",
+      "source": {
+        "bytes": 18266,
+        "sha256": "D425DB23F0D9560AA5F6C07744E2CCCB3B9D07208EC944DE162F5B3043C96F54"
+      },
+      "substitutions": {
+        "workspace_root": 3
+      },
+      "portable": {
+        "bytes": 18197,
+        "sha256": "EEC027A427B84F8D9A091177C37EF83FA48566E41E3D3BC2E137B24F0C38EB5B"
+      }
+    },
+    {
+      "source_path": "verify_residual_reader_consistency_v021.py",
+      "source": {
+        "bytes": 18389,
+        "sha256": "402C699419A59279D03EA46D66ED8D2B45F19603A513102FB206128D05120004"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 18366,
+        "sha256": "15579E96E81526885657E54D71D069F5569A81599D0868AC5609A76293A13ECC"
+      }
+    },
+    {
+      "source_path": "verify_standard_verb_endings_v021.py",
+      "source": {
+        "bytes": 14429,
+        "sha256": "59FE572DA5009BD770230DD2D1BBE59B50A35A898C2B09A0F832FBAFBB8E406B"
+      },
+      "substitutions": {
+        "workspace_root": 1
+      },
+      "portable": {
+        "bytes": 14406,
+        "sha256": "46EDD41D8A6F85A8AA23DBDE4DEE1559F356DB027298B49D7CDDFC02D5E873B8"
+      }
+    },
+    {
+      "source_path": "verify_sumand_family_v021.py",
+      "source": {
+        "bytes": 14065,
+        "sha256": "A33B293656C34D47B043F504EBE7B3D88556D760FD4396D67B3319D474DE44B7"
+      },
+      "substitutions": {
+        "workspace_root": 2
+      },
+      "portable": {
+        "bytes": 14019,
+        "sha256": "9CE1B73293EB58563A8D3B40C17838EDBB9E2E77C1C9BDE9DFE72795AFF8F728"
+      }
+    }
+  ]
+}

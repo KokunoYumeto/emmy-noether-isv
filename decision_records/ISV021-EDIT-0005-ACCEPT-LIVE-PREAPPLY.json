@@ -1,0 +1,60 @@
+{
+  "schema": "noether-isv-v021-edit0005-live-preapply-review-v1",
+  "decision_id": "ISV021-EDIT-0005",
+  "recorded_at": "2026-08-23T23:31:15.1463969+02:00",
+  "status": "ACCEPT_LIVE_PREAPPLY",
+  "applied": false,
+  "review_task": "/root/edit0005_crossreview",
+  "tool": {
+    "path": "apply_base_residual_families_v021.py",
+    "bytes": 22486,
+    "sha256": "570E44B6943DDB5C2DF876B1012D7EA49A24F22BEBCD2BA9B2024502BB33D29F"
+  },
+  "candidate_receipt": {
+    "path": "decision_records/ISV021-EDIT-0005-UNAPPLIED-CANDIDATE-RECEIPT.json",
+    "bytes": 16901,
+    "sha256": "41B5810822907F1C5A0783F9CDFB0A37FECCC7219640D65B9A34DC6E5BA84D3A"
+  },
+  "source_transform_review": {
+    "path": "decision_records/ISV021-EDIT-0005-ACCEPT-SOURCE-TRANSFORM.json",
+    "bytes": 1957,
+    "sha256": "B283FC3CB11D7EAEDE5CAA57D0DD61563F230FE04BBC67FF68215480C929CFAB"
+  },
+  "live_predecessor": {
+    "44-book-isv.tex": "168427/D3029CFFB856ACF30E55DEA6086AE3E63F90AA733BBD1B2F0E4DC19D9CB05F88",
+    "45-isv.tex": "26043/403E22F8770C9180ED2A54430CDE0E09F6E3DDF919115413E11A05CFA16B8C11",
+    "base-papers1-43-isv.tex": "1894577/EACFE1473BBF5D82A4B07309C33787A198FE9B111F2228323D4A6076578D389E",
+    "bib-isv.tex": "10019/032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+  },
+  "projected_base": {
+    "bytes": 1894621,
+    "sha256": "2EA6BC47DDFFB8190B2865A5DD2138628922A517FF1158EE23A2884725E68CD9"
+  },
+  "coverage": {
+    "sites": 51,
+    "physical_lines": 33,
+    "families": {
+      "ascii_razloz_to_razloz_with_caron": 44,
+      "unambiguous_genitive_oho_to_ogo": 7
+    },
+    "locator_manifest_bytes": 6969,
+    "locator_manifest_sha256": "DE220D8FAE58BBE75F6DE9A9CD17C74F446B9066388C0CDF7820EFDB2464A5C7"
+  },
+  "parent_runtime": {
+    "full_dry_runs": 3,
+    "each_exit_code": 0,
+    "each_stdout_bytes": 12620,
+    "each_stdout_sha256": "45DE80D227585949B12FCB5AF832421FDFF291B69DBF8CB56E4C7D195D849068",
+    "each_stderr_bytes": 0
+  },
+  "independent_runtime": {
+    "parsed_dry_equals_candidate_receipt": true,
+    "exact_live_predecessor": true,
+    "exact_reverse": true,
+    "visible_text_only": true,
+    "protected_tex_structure_equal": true,
+    "old_form_residue": 0,
+    "transaction_residue": 0
+  },
+  "authorization": "Apply the exact transaction once, then require successor hashes, exact reverse replay, structure equality, and zero transaction residue before sealing."
+}

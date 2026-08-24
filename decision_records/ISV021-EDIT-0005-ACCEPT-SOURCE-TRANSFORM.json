@@ -1,0 +1,51 @@
+{
+  "schema": "noether-isv-v021-edit0005-source-transform-review-v1",
+  "decision_id": "ISV021-EDIT-0005",
+  "recorded_at": "2026-08-23T23:24:48.4270974+02:00",
+  "status": "ACCEPT_SOURCE_TRANSFORM",
+  "applied": false,
+  "review_task": "/root/edit0005_crossreview",
+  "tool": {
+    "path": "apply_base_residual_families_v021.py",
+    "bytes": 22486,
+    "sha256": "570E44B6943DDB5C2DF876B1012D7EA49A24F22BEBCD2BA9B2024502BB33D29F"
+  },
+  "predecessor_source": {
+    "path": "source_latin/base-papers1-43-isv.tex",
+    "bytes": 1894577,
+    "sha256": "EACFE1473BBF5D82A4B07309C33787A198FE9B111F2228323D4A6076578D389E"
+  },
+  "projected_source": {
+    "bytes": 1894621,
+    "sha256": "2EA6BC47DDFFB8190B2865A5DD2138628922A517FF1158EE23A2884725E68CD9"
+  },
+  "locator_manifest": {
+    "sites": 51,
+    "physical_lines": 33,
+    "canonical_bytes": 6969,
+    "sha256": "DE220D8FAE58BBE75F6DE9A9CD17C74F446B9066388C0CDF7820EFDB2464A5C7",
+    "families": {
+      "ascii_razloz_to_razloz_with_caron": 44,
+      "unambiguous_genitive_oho_to_ogo": 7
+    }
+  },
+  "independent_findings": {
+    "exact_reverse": true,
+    "visible_prose_only": true,
+    "tex_structure_equal": true,
+    "old_ascii_razloz_residue": 0,
+    "excluded_apparent_oho_matches": "Two lexical instances of mnogo; correctly excluded.",
+    "official_dictionary_sha256": "0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561",
+    "transaction_core_sha256": "C47DBFC4221DC99B2072491034ECDB9FD0C7ADE6D1BD4800333CB82FBAC4EB87",
+    "future_cohort_binding": "PASS",
+    "transaction_residue": 0
+  },
+  "parent_replay": {
+    "source_only_runs": 3,
+    "each_exit_code": 0,
+    "each_stdout_bytes": 11145,
+    "each_stdout_sha256": "849287DBDCE13109F6C85E2EFEE1C978D672EE95F9BCD5BEB8564943EC6B4B06",
+    "each_stderr_bytes": 0
+  },
+  "sequencing_gate": "Full cohort authentication and application remain deferred until EDIT0003 and EDIT0004 establish their declared predecessor pins."
+}

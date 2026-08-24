@@ -1,0 +1,105 @@
+{
+  "schema": "noether-isv-v021-edit0006-independent-live-postapply-receipt-v1",
+  "edit_id": "ISV021-EDIT-0006",
+  "recorded_at": "2026-08-24T03:22:11.5624872+02:00",
+  "status": "PASS_SUCCESSOR",
+  "scope": "Independent live verification of the exact four-file EDIT-0006 successor without importing the audit, applicator, or transaction core.",
+  "sources": {
+    "source_latin/44-book-isv.tex": {
+      "bytes": 168410,
+      "sha256": "77A0DA8AE3385520C12D91795CE645944AE7CE60F7F7831D3A7CE47BC76A27F5"
+    },
+    "source_latin/45-isv.tex": {
+      "bytes": 26041,
+      "sha256": "90825271429A2D3156FE752E8925D8D43DC34B5B962234DFA2EFD5D425A23FE8"
+    },
+    "source_latin/base-papers1-43-isv.tex": {
+      "bytes": 1894589,
+      "sha256": "F84470C69F8D54103F7BB0DB38CCBA43D632F3113BBA17FA9E66D450A9384FC2"
+    },
+    "source_latin/bib-isv.tex": {
+      "bytes": 10021,
+      "sha256": "01DDAB0D12E697DDE422B8871CC5587E5AC5A69B66AB8B9E868A998E16CC982C"
+    }
+  },
+  "opposite_state_reconstruction": {
+    "status": "EXACT_PREDECESSOR_RECONSTRUCTED_IN_MEMORY",
+    "exact_forward_restore_of_live_successor": true,
+    "source_writes": 0
+  },
+  "coverage": {
+    "locator_sites": 53,
+    "physical_lines": 49,
+    "second_conjugation_3pl_repairs": 51,
+    "bibliography_wrapper_repairs": 2,
+    "retained_vzet_participles": 3,
+    "uncertain_sites": 0
+  },
+  "residue": {
+    "nonparticiple_word_final_et_nasal": 0,
+    "retained_word_final_et_nasal": {
+      "vzęt": 3
+    },
+    "Čest_IV": 0,
+    "Čęst_IV": 2,
+    "transaction_lock_stage_or_rollback": 0
+  },
+  "frozen_evidence": {
+    "candidate_receipt": {
+      "path": "ISV021-EDIT-0006-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "bytes": 69344,
+      "sha256": "DE3986DB5A0EA5F96EFE17EEB70A013E550E1C2BD8F55CBF1FD6F930A93CB1F8"
+    },
+    "accepted_preapply": {
+      "path": "ISV021-EDIT-0006-ACCEPT-PREAPPLY.json",
+      "bytes": 8898,
+      "sha256": "2AFA9278DC1BDFEEC47FD6EACC52A1D43879E356354046628870E112F6A9E07F"
+    },
+    "postapply_self": {
+      "path": "ISV021-EDIT-0006-POSTAPPLY-SELF.json",
+      "bytes": 4118,
+      "sha256": "13C9540EE442E0823249DF833B0EC8B8B69175A0CF0CD21640961AB28F365C47"
+    },
+    "locator_manifest": {
+      "canonical_bytes": 6900,
+      "sha256": "EFC90C292CEEE0DB9148BFA7EE53ED7DBB631A6378960BF23B73EBB7275D9E51"
+    },
+    "verifier": {
+      "path": "../verify_standard_verb_endings_v021.py",
+      "bytes": 14429,
+      "sha256": "59FE572DA5009BD770230DD2D1BBE59B50A35A898C2B09A0F832FBAFBB8E406B",
+      "imports_applicator_audit_or_core": false,
+      "three_identical_live_successor_runs": {
+        "exit_code": 0,
+        "stdout_bytes": 5315,
+        "stdout_sha256": "B944C98ED919A54EF2A5416AF297EF5740D3EAF32F82C803016DA87F5D3CB9B4"
+      }
+    },
+    "applicator_self_verification": {
+      "three_identical_live_successor_runs": {
+        "exit_code": 0,
+        "stdout_bytes": 3544,
+        "stdout_sha256": "7413B298F8201EB78C01C885CF7A060BD8AB1BC97D1EFE0E06F4813AB0B8FF28"
+      }
+    }
+  },
+  "authority_reauthentication": {
+    "official_grammar_sha256": "3684BE0634F0163DDD4BEC09719280C3C0E1E2367009AA3DAE584C50DD6249AD",
+    "official_dictionary_sha256": "0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561",
+    "prior_decision_sha256": "0DB148CAA43E014256D239E441EE992664D27B4BEB6BC51D6E55F3688EFDDF71"
+  },
+  "validation": {
+    "strict_utf8": true,
+    "exact_source_pins": true,
+    "visible_prose_locators": true,
+    "exact_bidirectional_replay": true,
+    "protected_tex_structure_equal": true,
+    "source_residue_zero_except_explicit_participles": true,
+    "writes": 0,
+    "git": false,
+    "network": false,
+    "build": false,
+    "render": false,
+    "publication": false
+  }
+}

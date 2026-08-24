@@ -1,0 +1,57 @@
+{
+  "schema": "noether-isv-v021-edit0011-postseal-v1",
+  "edit_id": "ISV021-EDIT-0011",
+  "revision": "R1",
+  "recorded_at": "2026-08-24T06:20:43.5477311+02:00",
+  "status": "SEALED_SUCCESSOR",
+  "applied": true,
+  "preapply_decision": {
+    "path": "decision_records/ISV021-EDIT-0011-ACCEPT-PREAPPLY.json",
+    "bytes": 8183,
+    "sha256": "49386E7B9B7CCFF35415AE90552BEFE0BBAB9CD52FF4C2267BA5C0DDC0ABEEB6"
+  },
+  "candidate_receipt": {
+    "path": "decision_records/ISV021-EDIT-0011-UNAPPLIED-CANDIDATE-RECEIPT.json",
+    "bytes": 435463,
+    "sha256": "450017924F7680B61379E66F01AB94BD5280E04A45672B8B6FA251CE569F0F13"
+  },
+  "postapply_receipt": {
+    "path": "decision_records/ISV021-EDIT-0011-POSTAPPLY-RECEIPT.json",
+    "bytes": 6634,
+    "sha256": "5B8C27D991EECF9E0EB22983D1D809E88002DBBC77707DB42E74DBD57E489E88"
+  },
+  "transaction": {
+    "invocations_with_apply": 1,
+    "exit": 0,
+    "stdout_bytes": 5277,
+    "stdout_sha256": "4315881F678611221F442F8CF69D94C7F75E72BF6474B1F4DC2D090FA5437185",
+    "stderr_bytes": 0,
+    "installed_sites": 1599,
+    "installed_physical_lines": 1195,
+    "transaction_residue": 0
+  },
+  "successor": {
+    "44-book-isv.tex": "168456/DAF592E5F9D92186B1B7E8E7D64288D04053CE3C1FE10A48C96082F6E52F8103",
+    "45-isv.tex": "26043/FEF628A7947285FAE15C7F5724BD3C87F027911D2C36E16A546CCEB69AF5CC33",
+    "base-papers1-43-isv.tex": "1894798/03995C2AC0455516F370C9752903D9826B8B1CF6FA4981BEEF90B40AC34CD6FE",
+    "bib-isv.tex": "10020/FFA7F9FD323A7C0B134986EDFE0E1484C04C61ECA576B60DB6E2C2B70B9778E3"
+  },
+  "postapply_validation": {
+    "self_verifier": "3 hash-identical APPLIED_AND_HASH_VERIFIED runs; 5277 B / 4315881F678611221F442F8CF69D94C7F75E72BF6474B1F4DC2D090FA5437185; stderr 0",
+    "producer_independent_verifier": "3 PASS_SUCCESSOR runs with exact reverse and forward replay, line/column/byte locators, official authority, UTF-8, comment/math-text boundaries, and protected TeX structure",
+    "visible_optional_consonant_residue": 0,
+    "global_optional_consonant_residue": 0,
+    "transaction_lock_stage_rollback_residue": 0
+  },
+  "claims": {
+    "source_edit_complete": true,
+    "latin_frontier_complete": false,
+    "cyrillic_regenerated": false,
+    "reader_built": false,
+    "pdf_built": false,
+    "git_published": false,
+    "zenodo_published": false,
+    "native_or_community_certification": false
+  },
+  "next_action": "Audit the remaining optional extended Latin graphemes and other bounded high-confidence linguistic frontier against the declared standard/basic reader-facing policy before freezing the Latin successor."
+}

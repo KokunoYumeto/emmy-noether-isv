@@ -1,0 +1,55 @@
+{
+  "schema": "noether-isv-v021-edit0004-preapply-review-v1",
+  "decision_id": "ISV021-EDIT-0004",
+  "recorded_at": "2026-08-23T23:26:10.9169359+02:00",
+  "status": "ACCEPT_PREAPPLY_R2",
+  "applied": false,
+  "review_task": "/root/edit0004_crossreview",
+  "tool": {
+    "path": "apply_work44_high_confidence_v021.py",
+    "bytes": 22499,
+    "sha256": "2AE08D6DE859C162C5A8987B15E0D8AA594EA4D3486DACDA31358B2EB8355027"
+  },
+  "rejected_r1": {
+    "tool_bytes": 22500,
+    "tool_sha256": "574CC728F81AD26CF8BC00747CCF628E2CBFAAC13B5F5644D20135B076DE9004",
+    "receipt": "decision_records/ISV021-EDIT-0004-REJECTED-APPLICATOR-R1.json",
+    "receipt_bytes": 1518,
+    "receipt_sha256": "E1CD717D22125FAB1EB0D8DA8BDF4F56CB8C4B967B4A82DE7C00D4534408EAB6",
+    "applied": false
+  },
+  "r1_to_r2_proof": {
+    "common_prefix_bytes": 17491,
+    "r1_span_hex": "D0B0",
+    "r2_span_hex": "61",
+    "common_suffix_bytes": 5007,
+    "sole_change": "Cyrillic U+0430 to Latin U+0061 in candidate-report metadata; proposed source bytes unchanged."
+  },
+  "source_transform": {
+    "sites": 44,
+    "physical_lines": 34,
+    "predecessor_bytes": 168422,
+    "predecessor_sha256": "1B7432A5D2D8BF31D286CCDE43D6935BE3619C06D6C3582B60BF680591625A68",
+    "successor_bytes": 168427,
+    "successor_sha256": "D3029CFFB856ACF30E55DEA6086AE3E63F90AA733BBD1B2F0E4DC19D9CB05F88",
+    "locator_manifest_bytes": 5332,
+    "locator_manifest_sha256": "874891089884BB43922DD3C6A38187ABD18FAE5EF1F5E0B6FFFF0E9F723A6D62",
+    "exact_reverse": true,
+    "visible_text_only": true,
+    "structural_delta": "Only R018 joins the printed page division izo- plus blank line plus morfizm; LF 2852 to 2850 and double-LF 629 to 628."
+  },
+  "independent_transaction_probe": {
+    "status": "PASS",
+    "cohort": "Exact projected EDIT0003 predecessor synthesized in disposable temporary storage.",
+    "live_source_writes": 0,
+    "residue": 0
+  },
+  "parent_replay": {
+    "source_only_runs": 3,
+    "each_exit_code": 0,
+    "each_stdout_bytes": 9768,
+    "each_stdout_sha256": "02A0B6BD447D0B42AB9FD7B6C6975AED30F0C273CD964EF556DD97017DF0284F",
+    "each_stderr_bytes": 0
+  },
+  "sequencing_gate": "Authenticate the live full cohort after EDIT0003 is applied, then execute EDIT0004 exactly once if all declared pins still match."
+}

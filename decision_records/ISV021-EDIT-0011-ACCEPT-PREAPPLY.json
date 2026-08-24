@@ -1,0 +1,93 @@
+{
+  "schema": "noether-isv-v021-edit0011-preapply-review-v1",
+  "decision_id": "ISV021-EDIT-0011",
+  "revision": "R1",
+  "recorded_at": "2026-08-24T06:13:36.3476648+02:00",
+  "status": "ACCEPT_PREAPPLY",
+  "applied": false,
+  "scope": "Normalize every remaining reader-visible optional-etymological consonant on the declared standard/basic Latin surface: exactly 1381 ć-to-č sites and 218 đ-to-dž sites, 1599 sites on 1195 physical lines in the four cumulative source files.",
+  "motivation": "Official Interslavic orthography line 80 requires standard orthography to replace optional ć and đ with č and dž. The pinned upstream dictionary implementation contains both exact transforms, and the generated basic-display snapshot supplies hundreds of concordant lexical witnesses. Complete independent inventories show that every live optional-consonant occurrence is local reader-visible Interslavic rather than a TeX command, comment, identifier, citation key, protected foreign payload, proper name, URL, or bare mathematical symbol.",
+  "alternatives_rejected": [
+    "Retain the mixed optional-consonant surface: rejected because it contradicts the edition's declared standard/basic reader-facing Latin policy and the explicit official display rules.",
+    "Revive EDIT0010-R1's inverse č-to-ć direction: rejected because the source sheet is etymological while the controlling reader-facing generated display is basic; R1 was never applied and remains preserved as adverse history.",
+    "Make broader lexical or vowel-family changes within this transaction: rejected because lexical questions such as inđe and the priręđ/prirěđ variation are independent of the mandatory consonant rendering and require separate decisions.",
+    "Use an unrecorded global text replacement or global successor reversal: rejected because protected-zone custody and pre-existing č/dž sequences require exact manifest offsets and pinned predecessor rollback bytes."
+  ],
+  "coverage": {
+    "sites": 1599,
+    "physical_lines": 1195,
+    "characters": {
+      "ć_to_č": 1381,
+      "đ_to_dž": 218
+    },
+    "roles": {
+      "visible_prose": 1597,
+      "visible_math_text": 2
+    },
+    "by_file": {
+      "44-book-isv.tex": 133,
+      "45-isv.tex": 40,
+      "base-papers1-43-isv.tex": 1422,
+      "bib-isv.tex": 4
+    },
+    "locator_manifest_bytes": 276577,
+    "locator_manifest_sha256": "144A137BC54C8A9FC79D963982DD425526DDC2C7D1B85E78F99E69D4931CEC12",
+    "projected_optional_consonant_residue": 0
+  },
+  "authority": {
+    "official_orthography": "16443/90C609CC0E8709E8395964E9F20D6D4FB4E31159CBC2B1EA515A29D9D1C72044; controlling lines 77 and 80",
+    "upstream_archive": "11271766/E02AA89235E4A7B536F3D762126293A3E348319CA1B11CBF8D219A65D03172BE",
+    "generated_basic_snapshot_entry": "16930150/DB40B9256BF257A0CEA44931A450C0B268BC81897CADEE9ECCD545FE0F4DEACC; independent evidence census 496 ć characters and 278 đ characters",
+    "dictionary_implementation_entry": "26926/60C09F2C2B3015033F1342BEA95FC48A1C36772F75880F669FB14C110577101D; mapping lines 57 and 58",
+    "raw_source_sheet_layer": "etymological rather than the controlling basic display; preserved as provenance, not copied mechanically"
+  },
+  "predecessor": {
+    "44-book-isv.tex": "168427/F8A278F67B87AE86C8F3CCE3F78EE32265986F0251EE8430F73BACCE20694E71",
+    "45-isv.tex": "26039/E578FC6A58094F2B1F22BCC3CC40B9521A23F8A324FB66F84CC582583E6A9990",
+    "base-papers1-43-isv.tex": "1894613/34540C032E966C54E44BEDCB45902161A978051F13A7ABA07CDA1925A418E594",
+    "bib-isv.tex": "10020/7A45365DC7C9408CF3D50FDAA4C35081E032CC6F07D73A9954D3B1DDF18C9EC7"
+  },
+  "successor": {
+    "44-book-isv.tex": "168456/DAF592E5F9D92186B1B7E8E7D64288D04053CE3C1FE10A48C96082F6E52F8103",
+    "45-isv.tex": "26043/FEF628A7947285FAE15C7F5724BD3C87F027911D2C36E16A546CCEB69AF5CC33",
+    "base-papers1-43-isv.tex": "1894798/03995C2AC0455516F370C9752903D9826B8B1CF6FA4981BEEF90B40AC34CD6FE",
+    "bib-isv.tex": "10020/FFA7F9FD323A7C0B134986EDFE0E1484C04C61ECA576B60DB6E2C2B70B9778E3"
+  },
+  "tools": {
+    "audit": "12857/133D20D5EF489210AF311B83C0FF9712D664B6DACA54C06E17BCA2D3992A6CAE",
+    "applicator": "9750/A077FC77CD536EE6F3CDA769C074C859537B2228A6F7F778B593B38FC4E42AA6",
+    "independent_verifier": "17314/3E1F871AFBD80C453A7874EC014FD823F768207E97FB5C38EAB074E91B44FB06",
+    "transaction_test": "6616/96ACB19F74345DFA51E56B812CDFB062622F484658B2AE8D8B70A23D90CE28DA",
+    "candidate_receipt": "435463/450017924F7680B61379E66F01AB94BD5280E04A45672B8B6FA251CE569F0F13",
+    "transaction_core": "29146/C47DBFC4221DC99B2072491034ECDB9FD0C7ADE6D1BD4800333CB82FBAC4EB87"
+  },
+  "runtime_validation": {
+    "audit_compact_runs": "3 identical PASS_READ_ONLY_PROJECTED_CANDIDATE; exit 0; stdout 308253 B / FAABB07C37F48099D97FBB8249A188A4E9B0D057162FD7DE15694E8EE0157DCE; stderr 0",
+    "applicator_dry_runs": "3 hash-identical FROZEN_UNAPPLIED_HASH_GATED_CANDIDATE; exit 0; stdout 309128 B / C3063A58D8F3CC3E24C53B0E1840356B7554996E1BC0F31600D7576B3668B460; stderr 0",
+    "independent_verifier_runs": "3 PASS_PREDECESSOR; two captured streams hash-identical at 2745 B / 2B243A1A51CF9CB9C1B27FAEA36E934A81CED230E2122100FEB2601B345623EF; one earlier direct stream returned the same structured report; stderr 0",
+    "transaction_test_runs": "3 PASS; two captured streams hash-identical at 528 B / DFF6497D9BC55534B1E4729052AC32FFD4CE5A2A882B04EBFF273F0C6C628C43; one earlier direct stream returned the same structured report; live source writes 0; clean install, mid-install rollback, and coherent-successor cleanup-failure evidence cases"
+  },
+  "independent_agent_reviews": [
+    {
+      "task_identity": "/root/final_basic_cacute_audit",
+      "brief": "Independently inventory and adjudicate every remaining ć site against exact official standard/basic authority; no writes.",
+      "return": "ACCEPT all 1381 sites. Exactly one ć per token; 140 forms; no uppercase, protected, foreign, name, citation, command, comment, or bare-math false positives; exact partial projection and reverse reproduced.",
+      "parent_disposition": "Accepted after parent replay of the combined locator manifest, exact source and authority hashes, protected-zone structure, and producer-independent full-cohort verifier."
+    },
+    {
+      "task_identity": "/root/final_basic_dstroke_audit",
+      "brief": "Independently inventory and adjudicate every remaining đ site, including među, gospođice, and inđe; no writes.",
+      "return": "ACCEPT all 218 sites. Exactly one đ per token; 72 forms; no uppercase, protected, foreign, name, citation, command, comment, bibliography, or bare-math false positives; lexical uncertainty at inđe does not alter mandatory orthographic realization indže.",
+      "parent_disposition": "Accepted after parent replay of the combined locator manifest, exact source and authority hashes, protected-zone structure, and producer-independent full-cohort verifier."
+    },
+    {
+      "task_identity": "/root/edit0011_applicator_review",
+      "brief": "Independently audit frozen tool/source pins, complete projection, and transaction safety without importing apply mode or writing files.",
+      "return": "ACCEPT_PREAPPLY. Reproduced 1599-site/1195-line census and all four successor hashes; found no unsafe transaction bug; verified exclusive lock/stage/rollback ownership and coherent reconciliation behavior.",
+      "parent_disposition": "Accepted after direct parent transaction-test replay in three isolated TemporaryDirectory cases and exact tool rehashing."
+    }
+  ],
+  "supersession": "This edit supersedes only visible optional-consonant spelling-layer choices in earlier v021 decisions, including the pomoć/pomoć-family surface decisions. Their lexical, semantic, source, uncertainty, and adverse-history findings remain active. EDIT0010-R2 remains a valid predecessor subset and is extended, not contradicted.",
+  "confidence": 0.995,
+  "authorization": "Execute this exact hash-gated transaction once, then seal live self and producer-independent successor verification. No vowel-family, lexical, build, Git, network, or publication mutation is authorized by this record."
+}

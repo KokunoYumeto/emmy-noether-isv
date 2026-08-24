@@ -1,0 +1,69 @@
+{
+  "schema": "noether-isv-v021-edit0003-preapply-review-v1",
+  "decision_id": "ISV021-EDIT-0003",
+  "recorded_at": "2026-08-23T23:26:45.0005274+02:00",
+  "status": "ACCEPT_PREAPPLY",
+  "applied": false,
+  "review_task": "/root/edit0003_review2",
+  "tool": {
+    "path": "apply_paper45_high_confidence_v021.py",
+    "bytes": 17269,
+    "sha256": "D45050E5EEA9EEB72ADDD0A11C93BBF66E757BF20AACDFE91C9A0A3CA243A0E8"
+  },
+  "candidate_receipt": {
+    "path": "decision_records/ISV021-EDIT-0003-UNAPPLIED-CANDIDATE-RECEIPT-R2.json",
+    "bytes": 9159,
+    "sha256": "C7F2AD8E72446B89EA4817523D286FA2464C3A51B25C5A4E852F38754E63A38B"
+  },
+  "adverse_history": {
+    "rejected_candidate": {
+      "path": "decision_records/ISV021-EDIT-0003-REJECTED-CANDIDATE-R1.json",
+      "bytes": 1960,
+      "sha256": "CAB299B83848F00EF9A8DEF262257D1D6251E5C14DC8AC62CD59050822B11BCD",
+      "applied": false
+    },
+    "superseded_receipt": {
+      "path": "decision_records/ISV021-EDIT-0003-UNAPPLIED-CANDIDATE-RECEIPT.json",
+      "bytes": 8969,
+      "sha256": "BEB63AF421F86A0036BC3B80EFCB86BFEE1A26B22F21E3AB07A2655F6B8DED23"
+    }
+  },
+  "coverage": {
+    "sites": 17,
+    "physical_lines": 16,
+    "source": "source_latin/45-isv.tex",
+    "predecessor_bytes": 26038,
+    "predecessor_sha256": "636E873287E0127A58DCBF014CB3C0343EF9D4545D90C2A6475E9F1E5F8B8ADD",
+    "successor_bytes": 26043,
+    "successor_sha256": "403E22F8770C9180ED2A54430CDE0E09F6E3DDF919115413E11A05CFA16B8C11",
+    "locator_manifest_bytes": 1966,
+    "locator_manifest_sha256": "46D716A8490E90C5514775664E312C1495EC517527645B476CA68393CBDA165A"
+  },
+  "independent_findings": {
+    "german_authority_sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+    "official_dictionary_sha256": "0A30B582D341424FF05F05D0FBF1D2B5AA06B561D9B3816219D9865505918561",
+    "exact_reverse": true,
+    "visible_text_only": true,
+    "outside_comments_and_math": true,
+    "tex_structure_equal": true,
+    "semantic_review": "PASS",
+    "transaction_safety": "PASS",
+    "transaction_residue": 0
+  },
+  "fresh_parent_runtime": {
+    "dry_runs": 3,
+    "dry_each_exit_code": 0,
+    "dry_each_stdout_bytes": 7014,
+    "dry_each_stdout_sha256": "66468F1CF381F5DA9DB95130A1F8351DC72B8763225D79C64D0882C22BB26066",
+    "verifier_runs": 3,
+    "verifier_each_status": "PASS_PREDECESSOR",
+    "verifier_each_stdout_bytes": 1939,
+    "verifier_each_stdout_sha256": "A3133646CA39B79BE454E4BF7345661C07DADD84F032AC1812A91B3911C5B463",
+    "transaction_runs": 2,
+    "transaction_each_status": "PASS",
+    "transaction_each_stdout_bytes": 480,
+    "transaction_each_stdout_sha256": "98CD1F988EA8F85DDCACB93C72EDFBD8E90AB7DF65A0E1EAA4941C2A0C55DA99",
+    "all_stderr_bytes": 0
+  },
+  "authorization": "The lane owner may execute the exact hash-gated apply once and must complete live successor, reverse, structure, and residue verification before sealing."
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "noether-isv-v021-numeral-two-paradigm-postapply-v1",
+  "edit_id": "ISV021-EDIT-0001",
+  "status": "APPLIED_AND_HASH_VERIFIED",
+  "sources": {
+    "44-book-isv.tex": {
+      "bytes": 168422,
+      "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+    },
+    "45-isv.tex": {
+      "bytes": 26053,
+      "sha256": "A52ADE5B028E40677D7C689C5C6E63C9FE7102F543B8BF7FFFCB0E19576A44CF"
+    },
+    "base-papers1-43-isv.tex": {
+      "bytes": 1894703,
+      "sha256": "041FFBA15D5333962D9E1B2DE6925E1372446F5996F3DC2AA57A67F9B9113AA9"
+    },
+    "bib-isv.tex": {
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  },
+  "counts": {
+    "source_forms": {
+      "dvuh": 0,
+      "dveh": 0,
+      "dvěh": 0,
+      "dvaju": 0,
+      "dvěma": 0,
+      "dvije": 0
+    },
+    "targets": {
+      "dvoh": 197,
+      "dvom": 3,
+      "dvoma": 24,
+      "dvě": 74
+    },
+    "holds": {
+      "obadvuh": 1,
+      "dvoju": 1,
+      "dvojim": 1
+    }
+  },
+  "claims": {
+    "applied": true,
+    "build": false,
+    "render": false,
+    "git": false,
+    "network": false,
+    "publication": false
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "schema": "noether-isv-v021-edit0008-independent-postapply-v1",
+  "decision_id": "ISV021-EDIT-0008",
+  "recorded_at": "2026-08-24T04:14:14.1697008+02:00",
+  "status": "PASS_SUCCESSOR",
+  "verification_boundary": "The independent verifier imports neither the audit, applicator, transaction core, nor self sealer and performs no source writes.",
+  "verifier": {
+    "path": "verify_sumand_family_v021.py",
+    "bytes": 14065,
+    "sha256": "A33B293656C34D47B043F504EBE7B3D88556D760FD4396D67B3319D474DE44B7"
+  },
+  "candidate_receipt": {
+    "path": "decision_records/ISV021-EDIT-0008-UNAPPLIED-CANDIDATE-RECEIPT.json",
+    "bytes": 6701,
+    "sha256": "ECF461D81F9C81F84D905FB1EA631F11FA2EB544FC72B9FBAE8D7AEABB1B1E4F"
+  },
+  "preapply_acceptance": {
+    "path": "decision_records/ISV021-EDIT-0008-ACCEPT-PREAPPLY.json",
+    "bytes": 9063,
+    "sha256": "619B5424DCD056B5460D2DB0AA6C0A68DFC1CBD242748BB08778C019CC97AE5A"
+  },
+  "live_successor": {
+    "source_latin/44-book-isv.tex": {"bytes": 168410, "sha256": "77A0DA8AE3385520C12D91795CE645944AE7CE60F7F7831D3A7CE47BC76A27F5"},
+    "source_latin/45-isv.tex": {"bytes": 26039, "sha256": "E578FC6A58094F2B1F22BCC3CC40B9521A23F8A324FB66F84CC582583E6A9990"},
+    "source_latin/base-papers1-43-isv.tex": {"bytes": 1894571, "sha256": "66399487B71DBA6FB8FC8DE8D91FC95F415D9974D602373D9F5E5C4E1EE401B1"},
+    "source_latin/bib-isv.tex": {"bytes": 10019, "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"}
+  },
+  "coverage": {
+    "sites": 8,
+    "physical_lines": 8,
+    "predecessor_census": {
+      "sumand": 16,
+      "sumandami": 1,
+      "sumandov": 2,
+      "sumandy": 7,
+      "summand": 4,
+      "summandov": 2,
+      "summandy": 1,
+      "sčestnikov": 1
+    },
+    "successor_census": {
+      "sumand": 20,
+      "sumandami": 1,
+      "sumandov": 5,
+      "sumandy": 8
+    },
+    "successor_target_residue": 0
+  },
+  "validation": {
+    "independent_reverse_to_exact_predecessor": true,
+    "independent_forward_replay_to_exact_successor": true,
+    "exact_line_column_byte_locators": true,
+    "visible_prose_only": true,
+    "german_authority_and_dictionary_reauthenticated": true,
+    "utf8": true,
+    "protected_tex_structure_equal": true,
+    "transaction_residue": 0,
+    "source_writes_by_verifier": 0
+  },
+  "runtime": {
+    "runs": 3,
+    "each_exit_code": 0,
+    "each_status": "PASS_SUCCESSOR",
+    "each_stdout_bytes": 2117,
+    "each_stdout_sha256": "366FB0BC9C69857F6496E49A218F82CBD1664A07900E884C5A1FBD45ED21B6EE",
+    "each_stderr_bytes": 0,
+    "outputs_byte_identical": true
+  },
+  "self_postapply": {
+    "path": "decision_records/ISV021-EDIT-0008-POSTAPPLY-SELF.json",
+    "bytes": 4801,
+    "sha256": "1876A2E1F13FD6F5FC96DDB1BBBAAC8AFD3074FB8007F65ED5E8C45632A8B06D"
+  },
+  "reporting_defect_disposition": "The original applicator's post-transaction report exception is independently classified as presentation-only because the verifier proves the exact successor, exact reverse, exact replay, authority alignment, protected structure, and zero transaction residue without importing any producer code.",
+  "claims": {
+    "build": false,
+    "render": false,
+    "git": false,
+    "network": false,
+    "publication": false,
+    "native_or_community_certification": false
+  }
+}

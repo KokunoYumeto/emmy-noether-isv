@@ -1,0 +1,63 @@
+{
+  "schema": "noether-isv-v021-edit0005-independent-live-postapply-v1",
+  "decision_id": "ISV021-EDIT-0005",
+  "recorded_at": "2026-08-23T23:32:47.8703107+02:00",
+  "status": "PASS_SUCCESSOR",
+  "application_executions": 1,
+  "review_task": "/root/edit0005_crossreview",
+  "live_sources": {
+    "44-book-isv.tex": {
+      "bytes": 168427,
+      "sha256": "D3029CFFB856ACF30E55DEA6086AE3E63F90AA733BBD1B2F0E4DC19D9CB05F88"
+    },
+    "45-isv.tex": {
+      "bytes": 26043,
+      "sha256": "403E22F8770C9180ED2A54430CDE0E09F6E3DDF919115413E11A05CFA16B8C11"
+    },
+    "base-papers1-43-isv.tex": {
+      "bytes": 1894621,
+      "sha256": "2EA6BC47DDFFB8190B2865A5DD2138628922A517FF1158EE23A2884725E68CD9"
+    },
+    "bib-isv.tex": {
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  },
+  "coverage": {
+    "sites": 51,
+    "physical_lines": 33,
+    "locator_manifest_bytes": 6969,
+    "locator_manifest_sha256": "DE220D8FAE58BBE75F6DE9A9CD17C74F446B9066388C0CDF7820EFDB2464A5C7"
+  },
+  "replay": {
+    "opposite_base_bytes": 1894577,
+    "opposite_base_sha256": "EACFE1473BBF5D82A4B07309C33787A198FE9B111F2228323D4A6076578D389E",
+    "exact_reverse": true,
+    "exact_forward_replay": true,
+    "visible_text_only": true,
+    "tex_commands_environments_references_math_braces_comments_line_endings_equal": true
+  },
+  "residue": {
+    "ascii_razloz_family": 0,
+    "selected_erroneous_oho": 0,
+    "remaining_apparent_oho": "Two correct lexical instances of mnogo.",
+    "transaction": 0
+  },
+  "self_verification": {
+    "receipt": "decision_records/ISV021-EDIT-0005-POSTAPPLY-SELF.json",
+    "receipt_bytes": 2660,
+    "receipt_sha256": "F7D4CEC44260E4BFB8F49FF2F4A03DC297BE462F1374B6D1D64846530F638654",
+    "runs": 3,
+    "each_stdout_bytes": 2201,
+    "each_stdout_sha256": "0B845EECA0D86F7E932659445DA9DB4D41470ED8D0A0AF35BE0D96A49FC42183",
+    "each_stderr_bytes": 0
+  },
+  "claims": {
+    "build": false,
+    "render": false,
+    "git": false,
+    "network": false,
+    "publication": false,
+    "native_or_community_certification": false
+  }
+}

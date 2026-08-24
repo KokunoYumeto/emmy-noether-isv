@@ -1,0 +1,47 @@
+{
+  "schema": "noether-isv-v021-residual-orthography-semantics-postapply-v1",
+  "edit_id": "ISV021-EDIT-0002",
+  "status": "APPLIED_AND_HASH_VERIFIED",
+  "sources": {
+    "44-book-isv.tex": {
+      "bytes": 168422,
+      "sha256": "1B7432A5D2D8BF31D286CCDE43D6935BE3619C06D6C3582B60BF680591625A68"
+    },
+    "45-isv.tex": {
+      "bytes": 26038,
+      "sha256": "636E873287E0127A58DCBF014CB3C0343EF9D4545D90C2A6475E9F1E5F8B8ADD"
+    },
+    "base-papers1-43-isv.tex": {
+      "bytes": 1894577,
+      "sha256": "EACFE1473BBF5D82A4B07309C33787A198FE9B111F2228323D4A6076578D389E"
+    },
+    "bib-isv.tex": {
+      "bytes": 10019,
+      "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+    }
+  },
+  "root_counts": {
+    "pomoč": 0,
+    "pomoć": 200,
+    "celost": 0,
+    "cělost": 137,
+    "imenujuče": 0,
+    "imenno": 164,
+    "vrědnost_noun": 0,
+    "cěnnost": 127,
+    "cěločislovn": 0,
+    "cěločislov": 116
+  },
+  "holds": {
+    "vrědnostny": 1,
+    "bare_čislovno": 1
+  },
+  "claims": {
+    "applied": true,
+    "build": false,
+    "render": false,
+    "git": false,
+    "network": false,
+    "publication": false
+  }
+}

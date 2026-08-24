@@ -1,7 +1,7 @@
 {
-  "schema": "noether-language-canon-index/1.1",
-  "release_id": "NOETHER-ISV-v020",
-  "release_date": "2026-08-22",
+  "schema": "noether-language-canon-index/1.2",
+  "release_id": "NOETHER-ISV-v021",
+  "release_date": "2026-08-24",
   "machine_discovery": {
     "index_role": "authoritative entry point for locating, authenticating, reproducing, and extending this language edition",
     "read_first": true,
@@ -9,7 +9,7 @@
     "language_key": "isv",
     "canonical_language_surface": "isv-Latn",
     "derived_surface": "isv-Cyrl",
-    "rule": "Never infer canon from filename or script alone; use the roles and exact hashes in this index."
+    "rule": "Never infer canon from a filename or script alone; use the roles and exact hashes in this index."
   },
   "language": {
     "name_english": "Interslavic",
@@ -22,155 +22,252 @@
     "author": "Emmy Noether and named co-authors where applicable",
     "contents": "complete maintained corpus: numbered Papers 1-43, lecture work 44, Paper 45, and bibliography",
     "object_model": "one Interslavic language edition with two script surfaces",
-    "version_doi": "10.5281/zenodo.22058530",
+    "version_doi": "10.5281/zenodo.22077468",
     "concept_doi": "10.5281/zenodo.21926382",
     "global_catalogue_concept_doi": "10.5281/zenodo.20412587",
-    "repository": "https://github.com/KokunoYumeto/emmy-noether-isv"
+    "repository": "https://github.com/KokunoYumeto/emmy-noether-isv",
+    "live_reader": "https://kokunoyumeto.github.io/emmy-noether-isv/"
   },
   "authority_chain": {
     "german_source": {
-      "role": "project-active German editorial comparison authority; not owned or edited by this language lane",
+      "role": "German comparison witness used during v021 editing; not owned or edited by this language lane",
       "edition_id": "NOETH-DE-ED-0015",
-      "pointer_id": "NOETH-DE-AUTH-v052-20260815",
-      "bytes": 2154017,
       "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
-      "claim_boundary": "project-active editorial authority; not a critical-edition certification"
+      "workspace_relative_locator": "03_projects/noether/07_german_canon_control/candidates/ED0015/noether.tex",
+      "provenance_status": "comparison object inherited from the established source chain and identified in the v021 methods publication",
+      "claim_boundary": "comparison authority for source sense, structure, and mathematics; not a claim that this is the newest German release or a critical-edition certification"
     },
     "interslavic_canon": {
       "role": "sole editable linguistic canon for the Interslavic edition",
-      "editorial_head": "ISV019-EDIT-0171",
-      "v020_latin_change": "none; all four files are byte-identical to the public v019 editorial head",
+      "editorial_head": "ISV021-EDIT-0012",
+      "sealed_v021_decisions": 12,
+      "cumulative_v021_sites_changed": 4053,
+      "total_byte_delta_from_predecessor": -1696,
+      "surface_policy": "standard/basic reader-facing Latin; exact foreign-source spellings remain protected",
       "files": [
         {
           "path": "source_latin/base-papers1-43-isv.tex",
-          "bytes": 1894721,
-          "sha256": "79D093D3C17D26F37EF9C1F5E71FFF387D58EFE5BE2EAB7C283F4C00BB8F2C7A"
+          "bytes": 1893083,
+          "sha256": "237FFE1460816EAF8CCD6E00F9500F816A285830CE62E28E49CECB94685B16E9"
         },
         {
           "path": "source_latin/44-book-isv.tex",
-          "bytes": 168422,
-          "sha256": "68A7DF0DF4E5CA5FDF2237BD55D1788AB48E3094796910648D9DD0E8112BD46F"
+          "bytes": 168384,
+          "sha256": "FFEAE898972515A69D9BCD4930ECEEF2C91DD7114E0CA0B0F64E2157ED32E698"
         },
         {
           "path": "source_latin/45-isv.tex",
-          "bytes": 26053,
-          "sha256": "5768230C3A7D338303B6DFC37D270CE554779C90598BD2230C23DC191CC55A91"
+          "bytes": 26036,
+          "sha256": "E49033F3C3004F921CD234610425905FF1D46405107D8EB99BC431864BB4473D"
         },
         {
           "path": "source_latin/bib-isv.tex",
-          "bytes": 10019,
-          "sha256": "032D5E90A96B34B16CAA99C40904EED3682C7D8A7241A1682795BDC3A0E8C553"
+          "bytes": 10016,
+          "sha256": "D14F600C71E911F49F0A81B85B2C476F7BED490D597E2045AC55744774D201B1"
         }
-      ]
+      ],
+      "freeze_decision": {
+        "path": "decision_records/ISV021-LATIN-FREEZE-DECISION.json",
+        "bytes": 4283,
+        "sha256": "FB8606FA1001FC5BB226DC70877B99ABA443C9263064167DA9C6AE7399223340"
+      }
     },
     "cyrillic_projection": {
       "role": "deterministic script projection; never an independent translation witness or linguistic authority",
-      "generator": "project_isv_cyrillic_v7.py",
-      "generator_bytes": 27666,
-      "generator_sha256": "51E467EDD8F0B8F44F62D60C4F5D35EAB5BA80EEFA1B0BFCBC1A2EF0B3538915",
+      "generator": "project_isv_cyrillic_v8.py",
+      "generator_bytes": 34267,
+      "generator_sha256": "06CC1640E253513EFF64918E6CC3BCE583913D3E64B2F93F1B77C3734BABDC8C",
       "reviewed_role_manifest": {
-        "path": "decision_records/ISV020-REVIEWED-PROJECTION-ROLE-MANIFEST.json",
-        "bytes": 3577349,
-        "sha256": "192BAE284EDC9BBA4A458EEBA9F7541CE16CA377A68668A70F5CFD0A2E182462",
-        "inherited_records_reviewed": 4560,
-        "classification_defects_corrected": 364,
-        "missing_identity_boundaries_added": 8,
-        "total_verified_effects": 372,
-        "ambiguities": 0
+        "path": "decision_records/ISV021-REBASED-PROJECTION-ROLE-MANIFEST.json",
+        "bytes": 4177721,
+        "sha256": "E5F629E2EC381A7D3247F30CBE7FBD03815639E2C6057E39BB13E8D1E427DD4B",
+        "internal_sha256": "1C20345E4F52A3936FCF103358D7B4B6938A67355F7AAA46AC4DC37715F08546",
+        "total_records": 5290,
+        "historical_records_rebased": 4568,
+        "protective_boundaries": 1980,
+        "roman_identity_records": 722,
+        "portable_derivative": true
+      },
+      "validation": {
+        "postseal_path": "decision_records/ISV021-CYRILLIC-V8-POSTSEAL.json",
+        "postseal_bytes": 3717,
+        "postseal_sha256": "1762936E1A47EB6EB7A3572BE57F3E5C545C8236954310878DA653EA0D45004A",
+        "projection_issues": 0,
+        "unlicensed_output_changes": 0,
+        "transaction_residue": 0
       },
       "files": [
         {
           "path": "source_cyrillic/base-papers1-43-isv-cyrl.tex",
-          "bytes": 2706558,
-          "sha256": "8BB578C1B2D7B48E52A425D40039FE5A6B79FF1ED26E825A6BDA7EE736341277"
+          "bytes": 2706234,
+          "sha256": "E9C7AEC849C4B2D2B6E528AFB1B62236B9CFFBAD686FA4923749C9359EB2824C"
         },
         {
           "path": "source_cyrillic/44-book-isv-cyrl.tex",
-          "bytes": 230370,
-          "sha256": "13E2391567A522038C3F959C22FA2FAC164D032F82DA811C6447560F5680C9F0"
+          "bytes": 230381,
+          "sha256": "0DD9907518035924993A0041B14BCAEA10D7C213DAB8DF422F6B25E7DDED9D63"
         },
         {
           "path": "source_cyrillic/45-isv-cyrl.tex",
-          "bytes": 35895,
-          "sha256": "F94F731110DA94B30B9243C67587CB6A1B6E6478A046F08C617271A0B188CCFB"
+          "bytes": 35874,
+          "sha256": "40870377323594B3153A1F25D6BC2FB34899B6E6FDD388837388E9D12D147140"
         },
         {
           "path": "source_cyrillic/bib-isv-cyrl.tex",
           "bytes": 13206,
-          "sha256": "4E74B8EA52C9B37209345B7E9A0B6BD7330D8EA0570E6D0C164FEA113511613D"
+          "sha256": "37FFF904BB16B2B460923AE2BF801BF783803FD0B78B94AF83D21FF43B81AB47"
         }
-      ]
+      ],
+      "portable_replay": {
+        "status": "RUNNABLE_FAIL_CLOSED_IN_EXTRACTED_SOURCE_ARCHIVE",
+        "command": "python -B verify_cyrillic_v8_independent.py --require-live --write-output-dir reconstructed-cyrillic",
+        "independent_verifier": {
+          "path": "verify_cyrillic_v8_independent.py",
+          "bytes": 13112,
+          "sha256": "CEFEEF1957D9E65C0B20295CDB9CD8052026F9E4DDAC6A6A8DBDC2CF90F8B775"
+        },
+        "v2_authority": {
+          "path": "comparison/predecessor_v019/project_isv_cyrillic_v2.py",
+          "bytes": 74914,
+          "sha256": "FD51B4D9936653CB9968AF8F91BAB08E18331741BC482CCA39AEF69F0B5AF3F2"
+        },
+        "expected_outputs": [
+          {
+            "path": "source_cyrillic/base-papers1-43-isv-cyrl.tex",
+            "bytes": 2706234,
+            "sha256": "E9C7AEC849C4B2D2B6E528AFB1B62236B9CFFBAD686FA4923749C9359EB2824C"
+          },
+          {
+            "path": "source_cyrillic/44-book-isv-cyrl.tex",
+            "bytes": 230381,
+            "sha256": "0DD9907518035924993A0041B14BCAEA10D7C213DAB8DF422F6B25E7DDED9D63"
+          },
+          {
+            "path": "source_cyrillic/45-isv-cyrl.tex",
+            "bytes": 35874,
+            "sha256": "40870377323594B3153A1F25D6BC2FB34899B6E6FDD388837388E9D12D147140"
+          },
+          {
+            "path": "source_cyrillic/bib-isv-cyrl.tex",
+            "bytes": 13206,
+            "sha256": "37FFF904BB16B2B460923AE2BF801BF783803FD0B78B94AF83D21FF43B81AB47"
+          }
+        ],
+        "note": "The v8 producer is retained as sealed local provenance; this independent portable replay reconstructs and byte-compares all four Cyrillic files without importing v8."
+      }
     }
   },
   "editorial_lineage": {
-    "latin_decision_ledger": {
-      "path": "predecessor_v019/NORMALIZATION_DECISIONS_v019.jsonl",
-      "rows": 171,
-      "bytes": 771044,
-      "sha256": "4391C7FE0B81253F599118EED95927CDBA9B66A6C9644FECEEE98F5F53FC50F3",
-      "note": "retained because v020 makes no Latin linguistic edit"
+    "inherited_material_decisions": 171,
+    "v021_material_decisions": 12,
+    "current_latin_head": "ISV021-EDIT-0012",
+    "current_head_sidecar": {
+      "path": "decision_records/ISV021-EDIT-0012-POSTSEAL.json",
+      "bytes": 3213,
+      "sha256": "857525B4890306E7FBC4CF090F22AEBC191E6C15A8570D0FB0080566ADD57B4A"
     },
-    "latin_head_sidecar": {
-      "path": "predecessor_v019/decision_records/ISV019-EDIT-0171.json",
-      "bytes": 24735,
-      "sha256": "178088D7090D0A3FA701FB13F4FA157BD26E7E546A4AEE9DDD4F723EC2BABBB4"
-    },
-    "predecessor_role_inventory": {
-      "path": "predecessor_v019/decision_records/ISV019-FINAL-PROJECTION-COMPLETENESS-INVENTORY.json",
-      "bytes": 3505137,
-      "sha256": "E7B8CDE438E9B72A61F6FA3AE0422AF6CBFBCBB7965E139BD123709CC1EEF818"
-    },
-    "v020_projection_review": {
-      "validation_receipt": {
-        "path": "decision_records/ISV020-CYRILLIC-V7-VALIDATION-RECEIPT.json",
-        "bytes": 4120,
-        "sha256": "9B88F066C331B9035A0FCFCBDD9EC40231509C773C51CFD2E7D036E64BBBF1C8"
-      },
-      "effects_verified": 372,
-      "changed_source_lines": 125,
-      "licensed_source_lines": 309,
-      "unlicensed_changed_lines": 0,
-      "latin_bytes_changed": 0
+    "projection_frontier": {
+      "path": "decision_records/ISV021-LATIN-FREEZE-PROJECTION-FRONTIER-R2.json",
+      "bytes": 360147,
+      "sha256": "C0584834AF4A2638E763BCEEEA92D0A5C43F40380BC97B36A98BC4D25D6B686B",
+      "open_non_roman_projection_blockers": 0,
+      "roman_identity_sites": 722
     },
     "open_linguistic_scanner_blockers": 0,
-    "open_unsupported_projection_tokens": 0
+    "open_projection_issues": 0
+  },
+  "validated_builds": {
+    "linked_reader": {
+      "path": "release_v021/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf",
+      "bytes": 6878076,
+      "sha256": "C296AFCAB42B68E228B4438B11D6BBF6B6054DC48683B13BFC31EB4132C8E8D1",
+      "pages": 1159,
+      "latin_pages": 565,
+      "cyrillic_pages": 588,
+      "build_receipt": "release_v021/evidence/linked-reader-build.json"
+    },
+    "methods_publication": {
+      "source": "docs/METHODS_AI_INTERSLAVIC_NOETHER_v021.tex",
+      "source_bytes": 45237,
+      "source_sha256": "5B66C12C7C0F181D9FFB285E830D6774D4FBCC304B98B268657576AEE6CC4FB1",
+      "pdf": "docs/AI_INTERSLAVIC_NOETHER_METHODS_v021.pdf",
+      "pdf_bytes": 182587,
+      "pdf_sha256": "931C14ED6AF93B7B59FC538D6A68BB986B016E018F37BDC920BAB63C973675DC",
+      "pages": 13
+    },
+    "structural_qa": {
+      "path": "release_v021/evidence/qa-report.json",
+      "bytes": 59492,
+      "sha256": "72D99E734DB4BA412E17737653957D070A0BF5DF88DA74184E268A138925D035",
+      "checks": 38,
+      "failed_checks": 0,
+      "errors": 0
+    }
   },
   "entry_points": {
     "read_first": [
       "PUBLIC_RELEASE_README.md",
       "CANON_INDEX.json"
     ],
-    "verify_projection": "python test_project_isv_cyrillic_v7.py",
-    "derive_cyrillic_read_only": "python project_isv_cyrillic_v7.py --full-report",
-    "install_authenticated_cyrillic": "python project_isv_cyrillic_v7.py --write-output-dir source_cyrillic",
-    "build_script_readers": "python build_isv_release_v020.py --build",
-    "build_linked_reader": "python build_linked_reader_v020.py",
-    "run_release_qa": "python qa_isv_release_v020.py",
-    "build_methods_paper": "python build_methods_v020.py",
-    "compare_rendered_successor": "python analyze_cyrillic_pdf_delta_v020.py",
-    "render_linked_reader_review_assets": "python render_linked_reader_visual_assets_v020.py",
-    "render_methods_review_assets": "python render_methods_visual_assets_v020.py",
-    "seal_visual_qa": "python build_visual_qa_receipt_v020.py",
-    "build_public_packages": "python build_release_packages_v020.py",
-    "verify_public_packages": "python verify_release_packages_v020.py",
-    "v019_rendered_comparator": "comparison/v019-linked-reader.pdf",
-    "methods_source": "docs/METHODS_AI_INTERSLAVIC_NOETHER_v020.tex",
-    "methods_pdf": "docs/AI_INTERSLAVIC_NOETHER_METHODS_v020.pdf"
+    "verify_projection_read_only": "python project_isv_cyrillic_v8.py --full-report",
+    "derive_authenticated_cyrillic": "python project_isv_cyrillic_v8.py --write-output-dir source_cyrillic",
+    "independent_projection_verifier": "python verify_cyrillic_v8_independent.py",
+    "build_script_readers": "python build_isv_release_v021.py --build",
+    "build_linked_reader": "python build_linked_reader_v021.py",
+    "run_release_qa": "python qa_isv_release_v021.py",
+    "build_methods_paper": "python build_methods_v021.py",
+    "render_linked_reader_review_assets": "python render_linked_reader_visual_assets_v021.py",
+    "render_methods_review_assets": "python render_methods_visual_assets_v021.py",
+    "seal_visual_qa": "python build_visual_qa_receipt_v021.py",
+    "build_public_packages": "python build_release_packages_v021.py",
+    "verify_public_packages": "python verify_release_packages_v021.py",
+    "methods_source": "docs/METHODS_AI_INTERSLAVIC_NOETHER_v021.tex",
+    "methods_pdf": "docs/AI_INTERSLAVIC_NOETHER_METHODS_v021.pdf"
+  },
+  "publication_completion": {
+    "release_tag": "v2026.08.24-v021",
+    "version_doi": "10.5281/zenodo.22077468",
+    "visual_qa_receipt": {
+      "path": "release_v021/evidence/visual-qa-receipt.json",
+      "bytes": 19409,
+      "sha256": "D70F9DD6FF1466158C51835C8FCDA1A612B7E32B8CB2F07AA59E55E206935B18",
+      "status": "PASS",
+      "authenticated_pages": 1159,
+      "changed_page_samples": 129,
+      "adjacent_unchanged_controls": 60,
+      "methods_pages_reviewed": 13
+    },
+    "package_pin_authority": {
+      "status": "EXTERNAL_NON_SELF_REFERENTIAL_MANIFEST",
+      "release_manifest": "release_v021/RELEASE_MANIFEST.json",
+      "public_sha256_manifest": "03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt",
+      "reason": "Package byte pins are held outside both ZIP payloads so that neither archive authenticates itself recursively."
+    },
+    "repository_commit_authority": "release_v021/evidence/PUBLICATION_RECEIPT.json after public push and anonymous readback",
+    "status": "BUILD_STRUCTURAL_AND_VISUAL_QA_PASS; PACKAGE_AND_PUBLICATION_IDENTITIES_USE_EXTERNAL_NON_SELF_REFERENTIAL_RECEIPTS"
   },
   "machine_action_rules": [
     "Treat only source_latin as editable Interslavic language canon.",
-    "Never edit source_cyrillic as an independent translation; regenerate it from authenticated Latin sources and the reviewed role manifest.",
-    "Do not edit the German authority from this language lane.",
+    "Never edit source_cyrillic as an independent translation; regenerate it from authenticated Latin sources and the reviewed v021 role manifest.",
+    "Do not edit the German comparison authority from this language lane.",
     "Append a source-pinned decision with evidence and rejected alternatives for every material Latin linguistic change.",
     "Preserve mathematics, TeX syntax, complete foreign identities, citations, Roman structures, style surfaces, and one-letter roles according to the reviewed role manifest.",
-    "After a Latin change: replay and verify the editorial ledger, rerun the complete role census, derive Cyrillic twice, prove that every delta is licensed, build both scripts serially, and rerun text, math, TeX, font, link, and changed-page visual QA.",
-    "Do not silently reuse v020 role decisions when source hashes or locators drift; fail closed and review the affected records again.",
-    "Do not claim native-speaker, community, official-standard, or scholarly-peer-review certification without an authentic receipt."
+    "After a Latin change: replay the decision chain, rerun the complete role census, derive Cyrillic twice, prove that every delta is licensed, build both scripts serially, and rerun text, math, TeX, font, link, and changed-page visual QA.",
+    "Do not silently reuse prior role decisions when source hashes or locators drift; fail closed and review affected records again.",
+    "Do not claim native-speaker, community, official-standard, or scholarly-peer-review certification without authentic evidence."
   ],
   "claim_boundaries": {
     "translation": "machine-assisted scholarly working edition",
-    "review": "no independent native-speaker, community, official-standard, or scholarly peer review claimed",
+    "review": "no independent native-speaker, community, official-standard, institutional, or scholarly-peer-review certification claimed",
     "cyrillic": "deterministic representation of Latin Interslavic, not independent evidence",
     "rights": "CC0 only to the extent rights exist in project-created translation, editorial work, metadata, manifests, tools, and evidence; third-party material retains its own status"
+  },
+  "_portable_derivation": {
+    "schema": "noether-interslavic-portable-canon-index/1.0",
+    "source": {
+      "bytes": 11144,
+      "sha256": "BFBF28F1F64AFBE1A98D9E02F0FE6C5C0E3176645CCE18A6F499AE127A9EDB4E"
+    },
+    "path_binding_manifest": "manifests/PORTABLE_DERIVATION_MAP.json"
   }
 }
