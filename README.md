@@ -1,109 +1,64 @@
-# Emmy Noether — Polno medžuslovjansko izdanje korpusa
+# Emmy Noether — Medžuslovjansko izdanje matematičnyh děl
 
-[**Čitajte izdanje neposrědno v živom HTML-čitateljniku — latinica i kirilica**](https://kokunoyumeto.github.io/emmy-noether-isv/)
+[**Čitajte polny PDF: latinica i kirilica**](https://kokunoyumeto.github.io/emmy-noether-isv/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf) · [**Čitateljnik s navigacijeju**](https://kokunoyumeto.github.io/emmy-noether-isv/) · [**Redagovateljne iztočniki ZIP**](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/v2026.08.24-v021/01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip)
 
-[**Čitajte polny povezany PDF-čitateljnik — latinica i kirilica**](release_v021/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf)
+## Medžuslovjansky
 
-To jest polno medžuslovjansko izdanje matematičnogo korpusa Emmy Noether: statje 1–43, lekcijsko dělo 44, statja 45 i bibliografija. Ono jest prědvidženo za praktično čitanje govoriteljami slovjanskyh jezykov, uključajuči čitateljev bez anglijskogo jezyka; ne jest samo lingvističny eksperiment.
+To izdanje davaje govoriteljam slovjanskyh jezykov dostop k matematičnym dělam Emmy Noether bez potrěby znanja anglijskogo jezyka. Obim jest numerovany korpus statij 1–43, lekcijsko dělo 44, statja 45 i bibliografija. Povezany čitateljnik imaje 1 159 stranic v latinici i kirilici. Numeracija označaje sostav togo izdanja.
 
-- Točny DOI izdanja: [10.5281/zenodo.22077468](https://doi.org/10.5281/zenodo.22077468)
-- Stabilny DOI koncepta: [10.5281/zenodo.21926382](https://doi.org/10.5281/zenodo.21926382)
-- Globalny katalog: [10.5281/zenodo.20412587](https://doi.org/10.5281/zenodo.20412587)
-- Jezyk: Medžuslovjansky (`isv`)
-- Zapisy: `isv-Latn` i `isv-Cyrl`
-- Redakcijna versija: `NOETHER-ISV-v021`
+### Čitanje i iztočniki
 
-## Čto jest kanon?
+PDF jest glavno čitateljsko izdanje. Navigacija otvarjaje uvod na stranici 1, latiničnu čest na stranici 5 i kiriličnu čest na stranici 571. Latinica jest redagovateljny tekst; kirilica jest deterministično izvedeny zapis togo samogo prěklada, ne nezavisny prěklad.
 
-Četyri fajly v `source_latin/` sut jediny redagovateljny jezyčny kanon. Četyri fajly v `source_cyrillic/` sut deterministično izvedene zapisy togo samogo teksta i ne sut oddělny prěklad ili nezavisny svědok. Točna mašinno-čitljiva mapa jezyka, iztočnika, rolij, kontrolnyh sum i komand jest v [`CANON_INDEX.json`](CANON_INDEX.json). Tuto jasno označenje davaje drugoj Codex-sesiji ili drugomu orudju možnost povtoriti i prodolžiti izdanje bez izmysljenja konkurentnogo kanona.
+- [Latinične LaTeX iztočniki](https://github.com/KokunoYumeto/emmy-noether-isv/tree/main/source_latin) i [kirilične LaTeX iztočniki](https://github.com/KokunoYumeto/emmy-noether-isv/tree/main/source_cyrillic).
+- [Iztočny paket s potrěbnymi orudjami](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/v2026.08.24-v021/01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip).
+- [Kratky uvod v metody, medžuslovjansky i anglijski](https://kokunoyumeto.github.io/emmy-noether-isv/AI_INTERSLAVIC_NOETHER_METHODS_v021.pdf).
+- [Indeks kanona](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/CANON_INDEX.json) opisuje iztočnike, jezyky, zapisy i njihove role.
+- [Historijski arhiv dokazov i pohođenja](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/v2026.08.24-v021/02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip) i [kontrolne sumy](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/v2026.08.24-v021/03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt).
 
-Ako hočete prodolžiti redakciju:
+Kratky uvod i historijske terminologične zapisy ne sut polny slovnik vseh jezyčnyh rěšenij. Polny slovnik s razvažanjem alternativ, iztočnikami i metodologijeju ješče ne jest vključeny v to javno izdanje. Terminologična suglasnost sama ne dokazyvaje věrnost matematičnogo smysla; različne upotrěbe jednogo slova trěba razlikovati po kontekstu.
 
-1. prěčitajte `CANON_INDEX.json`;
-2. autentifikujte zamrznute latinične fajly;
-3. zapišite vsako materialno jezyčno rěšenje s točnym lokatorom, iztočnikami, neizvěstnostju i odklonjenymi alternativami;
-4. ne redagujte kirilicu ručno — izvedite ju fail-closed projektorom v8;
-5. poslě změny povtorite pregled rolij, dvojnu derivaciju i jezyčnu, matematičnu, TeX, fontovu, linkovu i vizualnu kontrolu.
+### Avtorstvo, prěklad i granice
 
-## Čto prinosi v021
+Matematični avtori ohranjajut svoje avtorstvo: Emmy Noether; R. Brauer v sovmestnoj statji 32; R. Brauer i H. Hasse v sovmestnoj statji 38. Lekcije Noether iz zimnogo semestra 1929/30 v dělu 44 obrabotal M. Deuring. Statja 45 jest dělo H. Kapferera s dodatkom, napisanym sovmestno s E. Noether. Daljše citacije i razděljenje prispevkov sut v samyh dělah.
 
-Versija v021 zamrzuje novu latiničnu glavu `ISV021-EDIT-0012`. Dvanadset zamrznutyh rěšenij priměnilo 4 053 lokalizovane popravky. Poslědnje dvije velike normalizacije zaměnile sut 1 599 pojavjenj opcionalnyh soglasnyh znakov standardnymi formami i 1 798 pojavjenj šestih opcionalnyh proširenih bukv osnovnymi čitateljskymi formami. Četyri originalne tuđe formy s `è` sut ohranjene bajt-po-bajtu; generično odstranjenje diakritik ne jest upotrěbjeno.
+Prěklad jest izrabotany AI; redakcija, tipografija i kirilična projekcija sut takože izrabotane AI. Ne tvrdži se ljudsky prěklad ili ljudska redakcija. Nynějšno opisanje izdanja i rabotu nad terminologičnoju metodologijeju izrabotavaje OpenAI Codex — GPT-6 Astra, Ultra effort. To označenje ne pripisyvaje tomu modelu vse prědhodne prěklady: točne identifikatory ranějših modelov ne sut polno ustanovjene v javnyh metadanyh.
 
-Finalny pregled latiničnogo teksta našel nula ne-rimskyh projekcijnyh blokatorov. Projektor v8 veže 5 290 zapisov rolij k novym lokatoram, uključajuči 722 točno prověrjene rimske označenja, i deterministično tvori kirilicu bez neprědvidženyh izměn. Vseh izhodnyh změn jest licencirano izměnami latiničnogo kanona; otvorenih projekcijnyh pogrěšek jest nula.
+To jest naučno rabotno izdanje, ne kritično izdanje s potvrđenoju věrnostju každogo města. Něktore jezyčne formy i čitanja iztočnika ostavajut otvorene za popravku. Ne tvrdži se nezavisna naučna recenzija, potvrđenje medžuslovjanskoju obćinoju ili izměrena razumljivost. Za [prijavu pogrěšky](https://github.com/KokunoYumeto/emmy-noether-isv/issues) navedite dělo, stranicu ili odsek, spornu frazu i iztočnik predložene popravky.
 
-## Sostav izdanja
+[Avtorstvo originalov](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/LICENSES/ORIGINAL_WORK_ATTRIBUTION.md) i [prava tretjih stran](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/LICENSES/THIRD_PARTY_NOTICES.md) ostavajut razdělene od AI-prěklada. Izdanje jest dostupno bezplatno za nekomercialne, čisto obrazovateljne cěle, na prědpoloženju izdatelja, že nositelji prav ne budu protiv. To jest prědpoloženje, ne ustanovjeno dozvoljenje; bezplatny dostop k originalu sam ne dozvaljaje publikaciju prěklada. Prava na originaly i zaščitjene izvedene prispevky ostavajut pri njihovih nositeljah. Nositelj prav može [podati prigovor](https://github.com/KokunoYumeto/emmy-noether-isv/issues); izdatelj se obvezuje odstraniti dotičny material na jego zahtěv. [Historijske licencijne izjavy](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/LICENSE) sut ohranjene, ale ne tvoret novo dozvoljenje za cělo izdanje ili material tretjih stran.
 
-- [`docs/index.html`](docs/index.html) — živa GitHub Pages čitateljska površina s neposrědno pokazyvanim polnym PDF, skokami k latinici i kirilici, i rezervnymi vezami za dostavanje;
-- `release_v021/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf` — glavno čitateljsko izdanje, 1 159 stranic;
-- `source_latin/` — latinično medžuslovjansko izdanje, ktore možno redagovati;
-- `source_cyrillic/` — deterministična kirilična projekcija;
-- `docs/AI_INTERSLAVIC_NOETHER_METHODS_v021.pdf` — 13-stranična publikacija o jezyčnyh rěšenjah, avtoritetah, algoritmu, validaciji i granicah tvrdženij, s polnym medžuslovjanskim tekstom i polnym anglijskym paralelnym tekstom;
-- `decision_records/` i `release_v021/evidence/` — zamrznute rěšenja, validacijske potvrđenja, sgrađanja i QA;
-- `metadata/` — citovanje, Zenodo/DataCite odnosenja, iztočnik i obim;
-- koren repozitorija — povtorime projektory, testy i build/QA orudja.
-
-Dva samostojna čitateljnika sut sgrađene serijno v dvoh prohodah: 565 latiničnyh i 588 kiriličnyh stranic. Povezany čitateljnik imaje 1 159 stranic. Strukturna kontrola imaje 38 uspěšnyh kontrol i nula pogrěšek. Vizualna kontrola autentifikovala vseh 1 159 stranic i pregledala 129 reprezentativnyh izměnjenyh stranic, 60 susědnyh kontrol i vseh 13 stranic metodologije; vidimyh defektov ne najdeno.
-
-## Status, avtorstvo i prava
-
-Avtorami matematičnyh děl sut Emmy Noether i navedeni soavtori. Medžuslovjansky prěklad, redakcija, projekcija, metadane i tipografija sut izrabotane modelami/agentami s mašinnoju pomočju.
-
-To jest naučno rabotno izdanje. Ono ne prošlo nezavisnu naučnu recenziju i ne tvrdži, že jest potvrđeno rodnymi govoriteljami, medžuslovjanskoju obćinoju, oficialnym standardom ili nezavisnoju institucijeju. Pogrěšky možno javno prijaviti v repozitoriju; slědujuče versije mogut jih popraviti bez změny historijskih versij.
-
-CC0 jest priměnjen samo v toj měrě, v ktoroju obstajajut prava na projektom stvorjeny prěklad, redakciju, metadane, manifesty, orudja i dokazy. Originalne děla, německy redakcijny material, fonty, programy i drugy material tretjih stran ohranjajut svoj pravny status i licencije.
+Historijski identifikatory: [DOI izdanja v021](https://doi.org/10.5281/zenodo.22077468), [DOI korpusa](https://doi.org/10.5281/zenodo.21926382), [globalny katalog](https://doi.org/10.5281/zenodo.20412587). Javne fajly togo repozitorija sut dostupne prěko GitHub; stare DOI-veze sut ohranjene kako bibliografične identifikatory.
 
 ---
 
-# English
+## English
 
-[**Read the edition in the live HTML reader — Latin and Cyrillic**](https://kokunoyumeto.github.io/emmy-noether-isv/)
+[**Read the complete PDF: Latin and Cyrillic**](https://kokunoyumeto.github.io/emmy-noether-isv/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf) · [**Reader with navigation**](https://kokunoyumeto.github.io/emmy-noether-isv/) · [**Editable-source ZIP**](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/v2026.08.24-v021/01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip)
 
-[**Read the complete linked Interslavic PDF — Latin and Cyrillic**](release_v021/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf)
+This edition gives speakers of Slavic languages access to Emmy Noether's mathematical works without requiring English. Its scope is the numbered corpus of Papers 1–43, lecture work 44, Paper 45, and the bibliography. The linked reader has 1,159 pages in Latin and Cyrillic script. These numbers identify the contents of this edition.
 
-This is the complete Interslavic edition of Emmy Noether's mathematical corpus: Papers 1–43, lecture work 44, Paper 45, and the bibliography. It is intended for practical reading by speakers of Slavic languages, including readers without English; it is not merely a linguistic experiment.
+### Reading and sources
 
-- Exact release DOI: [10.5281/zenodo.22077468](https://doi.org/10.5281/zenodo.22077468)
-- Stable concept DOI: [10.5281/zenodo.21926382](https://doi.org/10.5281/zenodo.21926382)
-- Global catalogue: [10.5281/zenodo.20412587](https://doi.org/10.5281/zenodo.20412587)
-- Language: Interslavic (`isv`)
-- Scripts: `isv-Latn` and `isv-Cyrl`
-- Editorial release: `NOETHER-ISV-v021`
+The PDF is the principal reader. Navigation opens the introduction on page 1, the Latin section on page 5, and the Cyrillic section on page 571. Latin is the editable text; Cyrillic is a deterministic rendering of the same translation, not an independent translation.
 
-## What is canonical?
+- [Latin LaTeX sources](https://github.com/KokunoYumeto/emmy-noether-isv/tree/main/source_latin) and [Cyrillic LaTeX sources](https://github.com/KokunoYumeto/emmy-noether-isv/tree/main/source_cyrillic).
+- [Source package with the required tools](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/v2026.08.24-v021/01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip).
+- [Short introduction to the method, in Interslavic and English](https://kokunoyumeto.github.io/emmy-noether-isv/AI_INTERSLAVIC_NOETHER_METHODS_v021.pdf).
+- [Canon index](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/CANON_INDEX.json), identifying sources, languages, scripts, and their roles.
+- [Historical evidence and provenance archive](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/v2026.08.24-v021/02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip) and [file checksums](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/v2026.08.24-v021/03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt).
 
-The four files under `source_latin/` are the sole editable language canon. The four files under `source_cyrillic/` are a deterministic representation of the same text, not a separate translation or independent witness. [`CANON_INDEX.json`](CANON_INDEX.json) is the exact machine-readable map of language, source authority, roles, hashes, and commands. This explicit map lets another Codex session or other tool reproduce and extend the edition without inventing a competing canon.
+The short introduction and historical terminology records are not an exhaustive dictionary of linguistic decisions. A complete dictionary with alternatives, sources, and methodology is not yet included in this public edition. Terminological consistency alone does not establish mathematical fidelity: different uses of a word must be distinguished in context.
 
-To extend the edition:
+### Authorship, translation, and limitations
 
-1. read `CANON_INDEX.json`;
-2. authenticate the frozen Latin files;
-3. record every material linguistic choice with an exact locator, sources, uncertainty, and rejected alternatives;
-4. never edit Cyrillic independently—regenerate it with the fail-closed v8 projector;
-5. after a change, repeat the role review, double derivation, and linguistic, mathematical, TeX, font, link, and visual validation.
+The original mathematical authors retain their authorship: Emmy Noether; R. Brauer in joint Paper 32; R. Brauer and H. Hasse in joint Paper 38. M. Deuring prepared the account of Noether's winter 1929/30 lectures in work 44. Paper 45 is by H. Kapferer, with an appendix jointly written with E. Noether. Further citations and divisions of contribution appear in the works themselves.
 
-## What v021 changes
+The translation is AI-translated; editing, typesetting, and Cyrillic projection are AI-produced. No human translation or editing is claimed. The present edition description and ongoing terminology-methodology work are produced by OpenAI Codex — GPT-6 Astra, Ultra effort. This does not attribute all earlier translations to that model: the exact identities of earlier models have not been fully established in the public metadata.
 
-Version v021 freezes a new Latin head, `ISV021-EDIT-0012`. Twelve sealed decisions apply 4,053 localized corrections. The final two large normalizations replace 1,599 occurrences of optional consonant spellings with standard forms and 1,798 occurrences of six optional extended letters with basic reader-facing forms. Four original foreign-source spellings containing `è` remain byte-identical; no generic diacritic stripping is used.
+This is a scholarly working edition, not a critical edition with every passage certified as source-faithful. Some linguistic forms and source readings remain open to correction. No independent scholarly review, Interslavic-community endorsement, or measured comprehension is claimed. When [reporting an error](https://github.com/KokunoYumeto/emmy-noether-isv/issues), identify the work, page or section, disputed wording, and evidence for the proposed correction.
 
-The final Latin review finds zero non-Roman projection blockers. Projector v8 binds 5,290 role records to the new locators, including 722 exactly verified Roman labels, and generates Cyrillic deterministically without unintended changes. Every output change is licensed by a Latin-canon change; open projection errors are zero.
+[Original authorship](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/LICENSES/ORIGINAL_WORK_ATTRIBUTION.md) and [third-party rights](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/LICENSES/THIRD_PARTY_NOTICES.md) remain distinct from the AI translation. The edition is offered free of charge for non-commercial, purely educational purposes, on the publisher's presumption that rights holders would not object. This is a presumption, not established permission; free access to an original does not itself authorize derivative publication. Rights in the originals and protected derivative contributions remain with their respective holders. Rights holders may [raise an objection](https://github.com/KokunoYumeto/emmy-noether-isv/issues); the publisher undertakes to take down the affected material upon a rights holder's request. [Historical licence statements](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/LICENSE) are preserved, not a new licence grant for the whole edition or third-party material.
 
-## Release contents
+Historical identifiers: [v021 edition DOI](https://doi.org/10.5281/zenodo.22077468), [corpus DOI](https://doi.org/10.5281/zenodo.21926382), and [global catalogue](https://doi.org/10.5281/zenodo.20412587). This repository's public files are available through GitHub; historical DOI links remain as bibliographic identifiers.
 
-- [`docs/index.html`](docs/index.html) — the live GitHub Pages surface, embedding the complete reader with Latin/Cyrillic jumps and direct-download fallbacks;
-- `release_v021/public/00_NOETHER_INTERSLAVIC_COMPLETE_LINKED_READER.pdf` — the 1,159-page human-facing edition;
-- `source_latin/` — editable Latin-script Interslavic;
-- `source_cyrillic/` — deterministic Cyrillic projection;
-- `docs/AI_INTERSLAVIC_NOETHER_METHODS_v021.pdf` — a 13-page publication-style methodology with complete Interslavic and complete parallel English texts;
-- `decision_records/` and `release_v021/evidence/` — sealed decisions, validation receipts, builds, and QA;
-- `metadata/` — citation, Zenodo/DataCite relations, source authority, and scope;
-- repository root — reproducible projection, test, build, and QA tools.
-
-The two component readers build serially in two passes: 565 Latin pages and 588 Cyrillic pages. The linked reader contains 1,159 pages. Structural QA reports 38 passing checks and zero errors. Visual QA authenticated all 1,159 pages and inspected 129 representative changed pages, 60 adjacent controls, and all 13 methods pages; no visible defects were found.
-
-## Status, authorship, and rights
-
-The mathematical works are by Emmy Noether and named co-authors. The Interslavic translation, editing, projection, metadata, and typesetting were produced by models/agents with machine assistance.
-
-This is a scholarly working edition. It has not undergone independent scholarly peer review and does not claim certification by native speakers, the Interslavic community, an official standard, or an independent institution. Errors may be reported publicly in the repository; later versions can correct them without altering historical releases.
-
-CC0 applies only to the extent that rights exist in project-created translation, editorial work, metadata, manifests, tools, and evidence. Original works, German editorial material, fonts, software, and other third-party material retain their own legal status and licences.
