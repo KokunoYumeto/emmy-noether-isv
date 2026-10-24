@@ -1,0 +1,146 @@
+{
+  "format": "noether-interslavic-dictionary-source/1",
+  "files": [
+    {
+      "file": "04_NOETHER_INTERSLAVIC_DICTIONARY.tex",
+      "bytes": 4640862,
+      "sha256": "7B84C710FDDB45D1965359289A2A11709DDF19AB9299DE3439E627BA399437C3"
+    },
+    {
+      "file": "README.txt",
+      "bytes": 6047,
+      "sha256": "7DF686F016A5618273A063ACEE48A5CFDBA3A76074B56B74A63F9A0CBDEDF3E4"
+    },
+    {
+      "file": "source/main.tex",
+      "bytes": 151121,
+      "sha256": "62309820F8B5E4C98728214AEA54ECA7411653F884FF4EC0A6AE174A7DB894F5"
+    },
+    {
+      "file": "source/index.tex",
+      "bytes": 145533,
+      "sha256": "A240331D9CDFC456DAB0F051C570988BFD83D16D92F5F2243092EC4BB3E94C01"
+    },
+    {
+      "file": "source/entries.tex",
+      "bytes": 4016031,
+      "sha256": "F69D4AA0ADC443F61D1FB549AFE37E9CB9EF38E254F18F5793D6692B0E931A48"
+    },
+    {
+      "file": "source/choices.tex",
+      "bytes": 324291,
+      "sha256": "CF829AF93F32EF735A15CB22BD928F38F6DAAD3562EDD293CEE00700FA9C2519"
+    },
+    {
+      "file": "source/scripts.tex",
+      "bytes": 3960,
+      "sha256": "21F8F2BDAE6AA73F39E299B2D4803C9699B3E7B7982832B2AD6FF9D4029BE9A1"
+    },
+    {
+      "file": "source/data/CHOICES.json",
+      "bytes": 9148328,
+      "sha256": "C1C9BDB7E8DFC1709E9B652AD323F382756AB980AB7BB00F4A6EBBA885290225"
+    },
+    {
+      "file": "source/data/SCRIPT_FUNCTIONS.json",
+      "bytes": 148984,
+      "sha256": "198C634EE19868D39F0E28756BE560ABBEB52A84E31C3475722FFB1955AF9662"
+    },
+    {
+      "file": "source/data/CORPUS_FORM_COMPARISONS.json",
+      "bytes": 3579584,
+      "sha256": "8CD363184B9A91690F2C7B2B10F12D26C659B51B70C4FFD5797389E666DEAC62"
+    },
+    {
+      "file": "source/data/LATER_CHOICE_EVIDENCE.json",
+      "bytes": 523687,
+      "sha256": "C57A21FE9094BF85F7548931C453EFEDC7D3F18CBD25F7311D8F9E13068A21FB"
+    },
+    {
+      "file": "source/data/GRAMMAR_TABLE_READINGS.json",
+      "bytes": 3115,
+      "sha256": "00464CA30793B145BCB10119E1DB4F693C5AE1E58975E92B1C0F241E9AC0004E"
+    },
+    {
+      "file": "source/data/VALIDITY_COMPARISONS.json",
+      "bytes": 13500,
+      "sha256": "04846955CECE5846031DDB17045390CB22D5C1D245CE4159F17AD31B35B3313D"
+    },
+    {
+      "file": "source/data/RING_COMPARISON_WEIGHTS.json",
+      "bytes": 2541,
+      "sha256": "AA0EF5EA2D4FC133FF12733B3964DC255EA3DACB54C6D6FDD8DB2EFF00A470D1"
+    },
+    {
+      "file": "source/data/NOETHER_ISV_V021_NORMALIZATION_OCCURRENCES.csv",
+      "bytes": 512259,
+      "sha256": "4DD7A0F1F097D0D9414268FC3920958AE7336AE55C5731896248BB6836A4C4FC"
+    },
+    {
+      "file": "source/data/NOETHER_ISV_V020_ROLE_CORRECTIONS.csv",
+      "bytes": 22888,
+      "sha256": "2154701B1A80194752E07076F642B2D6D6A76BDF6395D11AB2B0E6605FDA1720"
+    },
+    {
+      "file": "dictionary/index.html",
+      "bytes": 8099,
+      "sha256": "DE40D430B95A860444BE9BE81D27E27AD3E7E1EBE0F5722B5D49ECDAA7E56977"
+    },
+    {
+      "file": "dictionary/app.js",
+      "bytes": 5232,
+      "sha256": "B8BC57228AF158C959AE76084DA0B55985AB8C91E8BC5CECC92A04DDC606BA2D"
+    },
+    {
+      "file": "dictionary/entries.json",
+      "bytes": 9148328,
+      "sha256": "040173C54E3B2594A92BA945441B183A658B684E502A7CE69B1DAAC203B0BB24"
+    },
+    {
+      "file": "dictionary/INDEX.json",
+      "bytes": 2893,
+      "sha256": "684D69D412487E2892B804485C51BA15E819C4ED4CEBA4105E7EF611634A241C"
+    },
+    {
+      "file": "dictionary/book.html",
+      "bytes": 4277443,
+      "sha256": "9B0BCB7E1CE82837D52F6D1EDB804B819A3AC63879E54934F4AA03385CE25F3C"
+    },
+    {
+      "file": "dictionary/book.css",
+      "bytes": 999,
+      "sha256": "DD217410AB6C471C4FBC4348FCA82220C0A314E34FDE4535829881603E802D1E"
+    },
+    {
+      "file": "dictionary/book-head.html",
+      "bytes": 37,
+      "sha256": "5FBDE4E57AC6EED94CBEC4398436202C44A882A2FF9B28B189FFD75CDE907F5F"
+    },
+    {
+      "file": "dictionary/book-math.js",
+      "bytes": 723,
+      "sha256": "A460CB81A9BEF95CE72D4726BE2D9DFE445841756098A0483843BC5F2F83FA90"
+    },
+    {
+      "file": "dictionary/vendor/tex-svg-full.js",
+      "bytes": 2275113,
+      "sha256": "A4354FF94FD868AEA0CC6EAAA79A57FDA0588646FC46EE3700A349EE0A11CBE6"
+    },
+    {
+      "file": "dictionary/vendor/LICENSE",
+      "bytes": 11358,
+      "sha256": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30"
+    }
+  ],
+  "rendered_reader": {
+    "file": "04_NOETHER_INTERSLAVIC_DICTIONARY.pdf",
+    "pages": 885,
+    "bytes": 3968762,
+    "sha256": "12FDCA588E8FFB708A50601BBD7E185D1B6851C1347EBD82F6A3CBB6A4EE0854"
+  },
+  "source_archive": {
+    "file": "05_NOETHER_INTERSLAVIC_DICTIONARY_SOURCE.zip",
+    "bytes": 10571128,
+    "sha256": "CB5A5922E1BEF8CAABE16DBBF42F11E095E7EB0EE5BD0B45868C4A8D5AF1E1CB"
+  }
+}

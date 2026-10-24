@@ -1,0 +1,66 @@
+{
+  "schema": "noether-interslavic-dictionary/1",
+  "title_isv": "Matematičny medžuslovjansky: slovnik i metoda",
+  "title_en": "Mathematical Interslavic: dictionary and method",
+  "language": "isv",
+  "script": "Latn",
+  "parallel_explanation_language": "en",
+  "relationship_to_translation": "Scholarly dictionary and methodological companion; not a replacement for the mathematical reader.",
+  "files": {
+    "search": "index.html",
+    "book": "book.html",
+    "entries": "entries.json",
+    "pdf": "../04_NOETHER_INTERSLAVIC_DICTIONARY.pdf",
+    "latex": "../04_NOETHER_INTERSLAVIC_DICTIONARY.tex",
+    "source_zip": "../05_NOETHER_INTERSLAVIC_DICTIONARY_SOURCE.zip",
+    "file_manifest": "../06_NOETHER_INTERSLAVIC_DICTIONARY_FILES.json"
+  },
+  "coverage": {
+    "historical_source_records": 2574,
+    "distinct_source_target_pairs": 2016,
+    "later_linguistic_editorial_choices": 168,
+    "language_conventions": 12,
+    "normalization_occurrences": 4053
+  },
+  "entry_identifiers": {
+    "TERM": "Distinct historical source–target pair; not automatically a current recommendation.",
+    "DEC": "Documented linguistic or editorial choice. Editorial reasoning can be retrospective; see entry.",
+    "LING": "Grammatical or orthographic convention."
+  },
+  "evidence_policy": {
+    "source_mathematics": "The exact source work controls the mathematical claim; diplomatic readings and proposed emendations remain distinct.",
+    "official_language": "Exact Interslavic dictionary/grammar evidence supports only the senses and forms it actually attests.",
+    "comparative_languages": "Russian and Ukrainian comparison translations are AI-produced and are not independent human linguistic authorities. Consult source-linked scholarship where supplied.",
+    "weights": "Preserve real recorded numerical weights. Confidence estimates are uncalibrated editorial judgments, not probabilities.",
+    "reuse": "Preserve source identity, cited passages, rejected alternatives, uncertainty, contextual applicability, and human authorship. Do not fabricate earlier consultation."
+  },
+  "language_authorities": [
+    {
+      "name": "Interslavic Dictionary",
+      "url": "https://interslavic-dictionary.com/"
+    },
+    {
+      "name": "Jan van Steenbergen, Interslavic grammar",
+      "url": "https://interslavic.fun/learn/grammar/"
+    },
+    {
+      "name": "Interslavic orthography",
+      "url": "https://interslavic.fun/learn/orthography/"
+    }
+  ],
+  "ai_work": {
+    "reconstruction_and_further_explanations": {
+      "provider": "OpenAI Codex",
+      "model": "GPT-6 Astra",
+      "effort": "Ultra"
+    },
+    "earlier_methodological_synthesis": {
+      "provider": "OpenAI Codex",
+      "model": "GPT-5.6 Sol",
+      "effort": "Ultra"
+    },
+    "inherited_translation_model": "not reliably established"
+  },
+  "human_review_claim": false,
+  "community_endorsement_claim": false
+}
