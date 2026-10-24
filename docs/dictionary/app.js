@@ -69,6 +69,17 @@ function render(){
 function filter(){
   const q=clean($('search').value.trim()),kind=$('kind').value;
   filtered=records.filter(r=>(kind==='all'||r.kind===kind)&&(!q||r.search.includes(q)));
+  if(q){
+    const rank=r=>{
+      const titles=[r.title,r.title_en].filter(Boolean).map(clean);
+      if(titles.some(t=>t===q))return 0;
+      if(titles.some(t=>t.startsWith(q)))return 1;
+      if(titles.some(t=>t.includes(q)))return 2;
+      if(clean(r.source).includes(q))return 3;
+      return 4;
+    };
+    filtered.sort((a,b)=>rank(a)-rank(b));
+  }
   page=0;render();
 }
 $('search').addEventListener('input',filter);$('kind').addEventListener('change',filter);
