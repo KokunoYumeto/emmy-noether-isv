@@ -1,57 +1,12 @@
 cff-version: 1.2.0
-message: "Citujte konkretno izdanje; historijski DOI označaje v021 / Cite the specific edition; the historical DOI identifies v021."
-title: "Emmy Noether: Medžuslovjansko izdanje matematičnyh děl / Interslavic Edition of Mathematical Works"
-type: dataset
+message: "Emmy Noether — Matematične děla po medžuslovjansky"
+title: "Emmy Noether — Matematične děla po medžuslovjansky"
+type: book
 authors:
   - family-names: Noether
     given-names: Emmy
-version: "NOETHER-ISV-v021"
-date-released: 2026-08-24
-doi: 10.5281/zenodo.22077468
-url: "https://kokunoyumeto.github.io/emmy-noether-isv/"
+version: "2026-10-24-sources"
 repository-code: "https://github.com/KokunoYumeto/emmy-noether-isv"
-preferred-citation:
-  type: book
-  title: "Emmy Noether: Polno medžuslovjansko izdanje korpusa / Complete Interslavic Corpus Edition"
-  authors:
-    - family-names: Noether
-      given-names: Emmy
-  year: 2026
-  doi: 10.5281/zenodo.22077468
-abstract: >-
-  Medžuslovjansko naučno rabotno izdanje numerovanogo korpusa statij 1–43,
-  lekcijskogo děla 44, statje 45 i bibliografije. Latinica jest
-  redagovateljny tekst; kirilica prědstavjaje taj sam prěklad.
-  Avtorstvo soavtorov i obrabotateljev jest navedeno pri pojedinyh dělah:
-  R. Brauer, H. Hasse, M. Deuring i H. Kapferer.
-  Prěklad jest izrabotany AI; redakcija i tipografija sut izrabotane AI. Nynějšno opisanje:
-  OpenAI Codex — GPT-6 Astra, Ultra effort. To ne pripisyvaje tomu modelu
-  vse ranějše prěklady. Ne tvrdži se nezavisna naučna recenzija ili
-  izměrena razumljivost. Izdanje jest bezplatno za nekomercialne obrazovateljne
-  cěle; prědpoloženje izdatelja o neprotivjenju nositeljev prav ne jest
-  ustanovjeno dozvoljenje. Prava originalov ostavajut pri njihovih nositeljah;
-  nositelji prav mogut podati prigovor prěko GitHub issues, a izdatelj se
-  obvezuje odstraniti dotičny material na njihov zahtěv.
-  Interslavic scholarly working edition of the numbered corpus of Papers
-  1–43, lecture work 44, Paper 45, and the bibliography. Latin is the
-  editable text; Cyrillic represents the same translation. Co-authors and
-  the preparer of the lectures are credited at the individual works:
-  R. Brauer, H. Hasse, M. Deuring, and H. Kapferer. Translation and editing
-  are AI-produced, including the AI translation. Present description:
-  OpenAI Codex — GPT-6 Astra,
-  Ultra effort; this does not attribute all earlier translations to that
-  model. No independent scholarly review or measured comprehension is
-  claimed. Free non-commercial educational availability rests on the publisher's
-  presumption of no objection, not established permission. Rights remain with
-  their holders; objections may be made through the repository's GitHub issues,
-  and the publisher undertakes to take down affected material on request.
-keywords:
-  - Emmy Noether
-  - Medžuslovjansky
-  - Interslavic
-  - mathematics
-  - AI-translated mathematics
-  - Latin script
-  - Cyrillic script
-  - terminology
-
+url: "https://github.com/KokunoYumeto/emmy-noether-isv"
+languages:
+  - isv
