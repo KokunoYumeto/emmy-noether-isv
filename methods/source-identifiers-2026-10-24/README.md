@@ -14,7 +14,7 @@ Trěbny jest Python 3. Dopolniteljni pakety ne sut potrěbni.
 python preserve_source_identifiers.py latin.tex cyrillic.tex cyrillic-identifiers.tex
 ```
 
-Tretji fajl jest rezultat. Jesm li on uže stvorjeny, program jego ne zaměnjaje. Vsaky par fajlov obračunajte oddělno. Rezultat možno kompilovati s ostalymi iztočnikami odgovarjajučego izdanja.
+Tretji fajl jest rezultat. Jest li on uže stvorjeny, program jego ne zaměnjaje. Vsaky par fajlov obračunajte oddělno. Rezultat možno kompilovati s ostalymi iztočnikami odgovarjajučego izdanja.
 
 Program služit za ohranjenje označenij poslě prěvoda pisma. Ne prěkladaje prozu, ne tvori polny kirilsky tekst iz samogo latinskogo teksta i ne prověrjaje praviljnost matematičnyh tvrđenij.
 
