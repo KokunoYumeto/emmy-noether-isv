@@ -4,6 +4,8 @@ Statje 1–43, lekcije 1929/30 v zapisu M. Deuringa, dělo Kapferera i Noether s
 
 [**Čitati PDF arhivnogo izdanja**](https://kokunoyumeto.github.io/emmy-noether-isv/).
 
+[Program za matematične označenja v oběh pismennostjah](methods/source-identifiers-2026-10-24/README.md).
+
 ### Osnovny tekst
 
 - [Redagovateljne iztočniki LaTeX 1](editions/2026-10-24/isv-Latn/current/02-01-base-papers1-43-isv.tex).
@@ -36,6 +38,8 @@ Prěklad stvorjeny AI. Popravky i tipografija: OpenAI Codex — GPT-6 Astra, usi
 Статје 1–43, лекције 1929/30 в запису M. Deuringa, дєло Kapferera и Noether с дополнјењем, библиографија и конечне спискы.
 
 [**Читати PDF архивного издања**](https://kokunoyumeto.github.io/emmy-noether-isv/).
+
+[Програм за математичне означења в обєх писменностјах](methods/source-identifiers-2026-10-24/README.cyrl.md).
 
 ### Основны текст
 
