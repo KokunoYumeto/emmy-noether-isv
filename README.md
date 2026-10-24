@@ -14,7 +14,7 @@ PDF jest glavno čitateljsko izdanje. Navigacija otvarjaje uvod na stranici 1, l
 - [Iztočny paket s potrěbnymi orudjami](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/v2026.08.24-v021/01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip).
 - [Polny slovnik i metoda — PDF](https://kokunoyumeto.github.io/emmy-noether-isv/04_NOETHER_INTERSLAVIC_DICTIONARY.pdf), [polny LaTeX](https://kokunoyumeto.github.io/emmy-noether-isv/04_NOETHER_INTERSLAVIC_DICTIONARY.tex), [iztočny paket](https://kokunoyumeto.github.io/emmy-noether-isv/05_NOETHER_INTERSLAVIC_DICTIONARY_SOURCE_v2.zip) i [slovnik s iskanjem](https://kokunoyumeto.github.io/emmy-noether-isv/dictionary/).
 - [Polna kniga v HTML](https://kokunoyumeto.github.io/emmy-noether-isv/dictionary/book.html) sodržuje uvod, alfabetičny indeks, vse zapisy i bibliografiju.
-- [Kratky uvod v metody, medžuslovjansky i anglijski](https://kokunoyumeto.github.io/emmy-noether-isv/AI_INTERSLAVIC_NOETHER_METHODS_v021.pdf).
+- [Čitajte metodu na medžuslovjanskom](https://kokunoyumeto.github.io/emmy-noether-isv/dictionary/book.html#metoda-na-medžuslovjanskom): od matematičnogo pojma i sravnjenja jezykov do izbora formy, prověrky v věte i dokumentacije razloga.
 - [Indeks kanona](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/CANON_INDEX.json) opisuje iztočnike, jezyky, zapisy i njihove role.
 - [Historijski arhiv dokazov i pohođenja](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/v2026.08.24-v021/02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip) i [kontrolne sumy](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/v2026.08.24-v021/03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt).
 
@@ -48,7 +48,7 @@ The PDF is the principal reader. Navigation opens the introduction on page 1, th
 - [Source package with the required tools](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/v2026.08.24-v021/01_NOETHER_INTERSLAVIC_EDITABLE_SOURCES.zip).
 - [Complete dictionary and method — PDF](https://kokunoyumeto.github.io/emmy-noether-isv/04_NOETHER_INTERSLAVIC_DICTIONARY.pdf), [complete LaTeX](https://kokunoyumeto.github.io/emmy-noether-isv/04_NOETHER_INTERSLAVIC_DICTIONARY.tex), [source package](https://kokunoyumeto.github.io/emmy-noether-isv/05_NOETHER_INTERSLAVIC_DICTIONARY_SOURCE_v2.zip), and [searchable dictionary](https://kokunoyumeto.github.io/emmy-noether-isv/dictionary/).
 - [Complete HTML book](https://kokunoyumeto.github.io/emmy-noether-isv/dictionary/book.html), including the introduction, alphabetical index, all entries, and bibliography.
-- [Short introduction to the method, in Interslavic and English](https://kokunoyumeto.github.io/emmy-noether-isv/AI_INTERSLAVIC_NOETHER_METHODS_v021.pdf).
+- [Read the method in English](https://kokunoyumeto.github.io/emmy-noether-isv/dictionary/book.html#method-english-version): from identifying the mathematical concept and comparing language evidence to choosing a form, checking it in context, and recording the reasons.
 - [Canon index](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/CANON_INDEX.json), identifying sources, languages, scripts, and their roles.
 - [Historical evidence and provenance archive](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/v2026.08.24-v021/02_NOETHER_INTERSLAVIC_EVIDENCE_AND_PROVENANCE.zip) and [file checksums](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/v2026.08.24-v021/03_NOETHER_INTERSLAVIC_SHA256_MANIFEST.txt).
 
