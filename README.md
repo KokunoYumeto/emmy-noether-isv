@@ -4,15 +4,15 @@ Statje 1–43, lekcije 1929/30 v zapisu M. Deuringa, dělo Kapferera i Noether s
 
 ## Osnovny tekst
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27/01-noether-isv-Latn-base.pdf)
-2. [Redagovateljne iztočniki LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27/02-noether-isv-Latn-base.tex)
-3. [Polny arhiv iztočnikov](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27/03-noether-isv-Latn-base-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r2/01-noether-isv-Latn-base.pdf)
+2. [Redagovateljne iztočniki LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r2/02-noether-isv-Latn-base.tex)
+3. [Polny arhiv iztočnikov](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r2/03-noether-isv-Latn-base-sources.zip)
 
 ## Tekst s redakcijnymi popravkami
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27/04-noether-isv-Latn-emendations.pdf)
-2. [Redagovateljne iztočniki LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27/05-noether-isv-Latn-emendations.tex)
-3. [Polny arhiv iztočnikov](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27/06-noether-isv-Latn-emendations-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r2/04-noether-isv-Latn-emendations.pdf)
+2. [Redagovateljne iztočniki LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r2/05-noether-isv-Latn-emendations.tex)
+3. [Polny arhiv iztočnikov](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r2/06-noether-isv-Latn-emendations-sources.zip)
 
 Prěklad stvorjeny AI. Popravky i tipografija: OpenAI Codex — GPT-6 Astra, usilje Ultra. Avtorstvo Emmy Noether, M. Deuringa i nazvanyh soavtorov ostavaje ohranjeno. Izdatelju ne pripisyvaje se člověčsky prěklad ili nezavisna člověčska naučna recenzija.
 
@@ -49,15 +49,15 @@ Děla Emmy Noether sut v javnom dobru. V toj měrě, v kakoj izdatelj imaje prav
 
 ## Основны текст
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27/01-noether-isv-Cyrl-base.pdf)
-2. [Редаговатељне източники LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27/02-noether-isv-Cyrl-base.tex)
-3. [Полны архив източников](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27/03-noether-isv-Cyrl-base-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r2/01-noether-isv-Cyrl-base.pdf)
+2. [Редаговатељне източники LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r2/02-noether-isv-Cyrl-base.tex)
+3. [Полны архив източников](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r2/03-noether-isv-Cyrl-base-sources.zip)
 
 ## Текст с редакцијными поправками
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27/04-noether-isv-Cyrl-emendations.pdf)
-2. [Редаговатељне източники LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27/05-noether-isv-Cyrl-emendations.tex)
-3. [Полны архив източников](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27/06-noether-isv-Cyrl-emendations-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r2/04-noether-isv-Cyrl-emendations.pdf)
+2. [Редаговатељне източники LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r2/05-noether-isv-Cyrl-emendations.tex)
+3. [Полны архив източников](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r2/06-noether-isv-Cyrl-emendations-sources.zip)
 
 Прєклад створјены AI. Поправкы и типографија: OpenAI Codex — GPT-6 Astra, усилије Ultra. Авторство Emmy Noether, M. Deuringa и названых соавторов оставаје охрањено. Издатељу не приписываје се чловєчскы прєклад или независна чловєчска научна рецензија.
 

@@ -3176,7 +3176,7 @@ mnogo občejšoj postavjenosti problema davajut se samo gorne granice.
 
 Interesna specializacija glavnogo teorema slěduje iz ograničajučego
 prědpoloženja, že nuleva točka odgovarajučego
-$\mathfrak{q} = (\varphi, \psi, \mathfrak{p}^{e})$ jest prosta
+$\mathfrak{q} = (\varphi, \psi, \mathfrak{p}^\varrho)$ jest prosta
 točka prinajmenje v jednoj iz dvoh krivulj $\varphi = 0$, $\psi = 0$.
 Ako ona jest napr. prosta točka v $\psi$, togda možno pokazati, že
 čislo $t$ glavnogo teorema jest točno ravno $\mu$ i že $t$
@@ -3367,7 +3367,7 @@ s \eqref{eq:kap-1}, v formě identitetov:
 \[
 h_{i}F(y)G = Af_{i} + Bg_{i}; \qquad
 h_{i}x = (g_{i}(0,y):y^{(g_{i})})\cdot f_{i}
-- (f_{i}(0,y):y^{(g_{i})})g_{i}.
+- (f(0,y):y^{(g_{i})})g_{i}.
 \]
 To daje ale
 \[
@@ -4888,11 +4888,11 @@ Dvojno izračunanje $\A_\nu^3$ daje povod k redukciji vyše formy $a_\eta^3$.
  a_\vartheta a_\nu^3
 &=\frac13 i\theta
 =[a_\vartheta]_{\nu^3}+\frac67[a_\vartheta^2]_{\nu^2}
-+\frac65[a_\vartheta(a\theta u)^2]_{\nu^2}\,
-u x^2\\
-&\quad+\frac{11}{30}[a_\vartheta^2(a\theta u)^2]_\nu\,\nu x^2
++\frac65[a_\vartheta(a\theta u)^2]_{\nu}\,
+\widehat{\nu x}^2\\
+&\quad+\frac{11}{30}[a_\vartheta^2(a\theta u)^2]\widehat{\nu x}^2
 -\frac67u_x\cdot[a_\vartheta^2]_{\nu^3}\\
-&\quad-\frac16u_x\cdot[a_\vartheta^2(a\theta u)^2]_{\nu^2}\,\nu x^2,\\
+&\quad-\frac16u_x\cdot[a_\vartheta^2(a\theta u)^2]_{\nu}\,\widehat{\nu x}^2,\\
 \frac13 i\theta
 &=\A_\nu^2-\frac23u_x\cdot\A_\nu^3-a_\nu a_{\nu_1}(\nu\nu_1x)^2\\
 &\quad+\frac25a_\nu^2(\nu\nu_1x)^2
@@ -4904,10 +4904,10 @@ u x^2\\
 \mathrm{b)}\quad
  a_\vartheta a_\nu^3\theta_\nu
 &=0=[a_\vartheta]_{\nu^4}+\frac9{14}[a_\vartheta^2]_{\nu^3}
-+\frac35[a_\vartheta(a\theta u)^2]_{\nu^2}\,\nu x^2\\
-&\quad+\frac{17}{120}[a_\vartheta^2(a\theta u)^2]_{\nu}\,\nu x^2
++\frac35[a_\vartheta(a\theta u)^2]_{\nu^2}\,\widehat{\nu x}^2\\
+&\quad+\frac{17}{120}[a_\vartheta^2(a\theta u)^2]_{\nu}\,\widehat{\nu x}^2
 -\frac9{14}u_x\cdot[a_\vartheta^2]_{\nu^4}\\
-&\quad-\frac1{24}u_x\cdot[a_\vartheta^2(a\theta u)^2]_{\nu^2}\,\nu x^2,\\
+&\quad-\frac1{24}u_x\cdot[a_\vartheta^2(a\theta u)^2]_{\nu^2}\,\widehat{\nu x}^2,\\
 0&=\frac56\A_\nu^3-\frac12u_x\cdot\A_\nu^4-\frac14a_\eta^3+\frac1{20}u_x\cdot a_\eta^4;
 \end{aligned}
 \]
@@ -4915,9 +4915,9 @@ u x^2\\
 \begin{aligned}
 \mathrm{b')}\quad
  a_\vartheta\theta_\nu^4
-&=a_\R=a_\vartheta\theta_\nu\{a_\nu-(a\theta\nu x)\}^3\\
+&=a_\R=a_\vartheta\theta_\nu\{a_\nu-(a\theta\widehat{\nu x})\}^3\\
 &=-\frac32[a_\vartheta]_{\nu^3}+\frac35[a_\vartheta(a\theta u)^2]_{\nu^2}\,\nu x^2
--\frac{37}{120}[a_\vartheta^2(a\theta u)^2]_{\nu}\,\nu x^2\\
+-\frac{37}{120}[a_\vartheta^2(a\theta u)^2]_{\nu}\,\widehat{\nu x}^2\\
 &\quad+\frac32u_x\cdot[a_\vartheta^2]_{\nu^4}
 +\frac{49}{120}u_x\cdot[a_\vartheta^2(a\theta u)^2]_{\nu^2}\,\widehat{\nu x}^2,\\
 a_\R&=-\frac32\A_\nu^3+\frac32u_x\cdot\A_\nu^4-\frac{11}{20}a_\eta^3+\frac7{20}u_x\cdot a_\eta^4;
@@ -5079,10 +5079,10 @@ a_\nu\cdot b_{\nu_1}^2
 &=\nu\cdot a_\nu b_\nu^2-(aHu)(bHu)b_\eta
 \sim \nu\cdot a_\nu b_\nu^2-f\cdot a_\eta(aHu)^2-(abu)(aHu)b_\eta+(abu)^2b_\eta,\\
 a_\nu^2\cdot b_{\nu_1}^2
-&=b_\nu^2\{a_\nu u_\nu-(a\nu\nu_1u)\}^2
+&=b_\nu^2\{a_\nu u_\nu-(a\widehat{\nu\nu_1}u)\}^2
 \sim \nu\{a_\nu^2b_\nu^2-2a_\eta b_\eta(aHu)(bHu)
 -\frac16(asu)^2(bsu)^2\}\\
-&\sim \nu\cdot a_\nu^2b_\nu^2-2a^2(aHu)(abu)-\frac16(asu)^2(bsu)^2+(\vartheta\eta x)^2(\theta Hu)^2
+&\sim \nu\cdot a_\nu^2b_\nu^2-2a_\eta^2(aHu)(abu)-\frac16(asu)^2(bsu)^2+(\vartheta\eta x)^2(\theta Hu)^2
 \end{aligned}
 \]
 \endgroup
@@ -7491,7 +7491,7 @@ dobyvajemo:
 (a^{(1)}\cdots a^{(i-1)}a^{(i+1)}\cdots a^{(\rho_1)}
 B^{\rho_2}\cdots K^{\rho_k}q_{n-\rho+1})\\
 &\qquad+(-1)^{\rho_1\rho_2}\sum_{i=1}^{\rho_2}(-1)^{i+1}\pair{b^{(i)}}{x}
-(b^{(1)}\cdots b^{(i-1)}b^{(i+1)}\cdots b^{(\rho_2)}
+(b^{(1)}\cdots b^{(i-1)}b^{(i+1)} b^{(\rho_2)}
 A^{\rho_1}\cdots K^{\rho_k}q_{n-\rho+1})\\
 &\qquad\vdots\\
 &\qquad+(-1)^{(\rho_1+\cdots+\rho_{k-1})\rho_k}
@@ -7631,7 +7631,7 @@ Poslědnji člen v (23.) imaje točno formu početnogo izraza -- samo $\sigma$ j
 \pair{q_\rho B^{n-\rho-\sigma+\tau}}{A_{n-\sigma}p_\tau}\\
 &\qquad+\sum_{i_1=1}^{\tau}(-1)^{\rho(i_1-1)}
 \pair{q_{\rho-1}^{(i_1)}
-[A_{n-\sigma}y^{(1)}\cdots y^{(i_1-1)}]^{\sigma-i_1+1}}
+[A_{n-\sigma}y^{(1)}y^{(2)}\cdots y^{(i_1-1)}]^{\sigma-i_1+1}}
 {y^{(i_1+1)}\cdots y^{(\tau)}B_{\rho+\sigma-\tau}}.
 \end{aligned}
 \tag{24}
@@ -7649,7 +7649,7 @@ Vsaky člen pod znakom sumy ponovno jest tipa početnogo izraza: v njem $\rho$ j
 \pair{q_{\rho-2}^{(i_1i_2)}B^{n-\rho-\sigma+\tau}}
 {A_{n-\sigma}p_{\tau-2}^{(i_1i_2)}}+\cdots\\
 &\qquad+\eps_{i_\tau}
-\pair{q_{\rho-\tau}^{(i_1\ldots i_\tau)}B^{n-\rho-\sigma+\tau}}
+\pair{q_{\rho-\tau}^{(i_1i_2\ldots i_\tau)}B^{n-\rho-\sigma+\tau}}
 {A_{n-\sigma}}\\
 &\quad=\sum_{\alpha=0}^{\tau}
 \sum_{i_\alpha=i_{\alpha-1}+1}^{\tau}\eps_{i_\alpha}
@@ -8816,7 +8816,7 @@ po pomočnoj lemi tako, že algebraičny rang $\rho$ sistema (1) ostavaje shranj
 \[
 \begin{aligned}
  [f(x)]_{(x_n=a_n)}&=f^{(n-1)}(x),\qquad
- [f^{(n-1)}(x)]_{x_{n-1}=a_{n-1}}=f^{(n-2)}(x);\ldots,\\
+ [f^{(n-1)}(x)]_{(x_{n-1}=a_{n-1})}=f^{(n-2)}(x),\\
  [f^{(\rho+1)}(x)]_{(x_{\rho+1}=a_{\rho+1})}&=f^*(x_1,
 \ldots,x_\rho),
 \end{aligned}
@@ -9165,12 +9165,12 @@ ne izčezaje identično -- to jest koeficienty $\Phi^*(z,u;\xi)$ ne stanut neopr
 Zaradi (7) imaje zato i $\Phi^*(z,u;x)$ nulj $z=u(\xi)$; to jest $\xi$ naleži k redam veličin (5). Odgovarjajuči tvrdženje slěduje po (6), ako $\xi$ izpolnja sistem uravnenij po odnošenju k jednomu konjugovanomu redu veličin:
 \[
   F^*(x^{(k)})H^*(\xi)-H^*(x^{(k)})F^*(\xi)=0;
-  \qquad H^*(\xi)\ne0,
+  \qquad H(\xi)\ne0,
 \]
 to jest: redy veličin (5) sut definovane kako rěšenja $\xi$ sistema uravnenij
 \[
   F^*(x)H^*(\xi)-H^*(x)F^*(\xi)=0;
-  \qquad H^*(\xi)\ne0,
+  \qquad H(\xi)\ne0,
 \]
 pri čem $F^*(x):H^*(x)$ proběga vse funkcije iz $\Kfield^*_{\rho\rho}$; pritom red $x$ možno zaměniti takože ktorimkoli konjugovanym redom.
 
@@ -10556,7 +10556,7 @@ Za dokaz $\tau=\tau^*$ služi
 {\itshape Pomočna lema c): iz $h(x,y,z)\equiv0\pmod{\Delta}$ potrěbno slěduje $h(x,y,z)=0$.}
 $h(x,y,z)$, kako polara, izčezaje pri priměnjenju poznatogo $\Omega$-procesa; to se izražaje diferencialnym uravnanjem
 \[
-  \Delta\!\left(\frac{\partial}{\partial x},\frac{\partial}{\partial y},\frac{\partial}{\partial z}\right)h(x,y,z)=0.
+  =\!\left(\frac{\partial}{\partial x},\frac{\partial}{\partial y},\frac{\partial}{\partial z}\right)h(x,y,z)=0.
 \]
 Ako imajemo $h(x,y,z)=\Delta(x,y,z)\cdot k(x,y,z)$, togda daljšim diferencialovanjem izčezaje takože
 \[
@@ -13169,7 +13169,7 @@ ktora vyražaje relativnu invariantnost \(\sum_i\psi_i\delta u_i\) i zato invari
 
 Da to priměniti na izvedene divergencijne relacije i zavisnosti, najprvo trěba dokazati, že \(\bd u\) izvedeno iz \(\varDelta u,\varDelta x\) v istině izpolnja transformacijne zakony za variaciju \(\delta u\), ako samo parametry, odnosno libovoljne funkcije v \(\bd v\), oprěděljene sut tako, kako odpovědajut podobnoj grupě infinitesimalnyh transformacij v \(y,v\). Označimo \(T_q\) transformaciju, ktora prěvodi \(x,u\) v \(y,v\); \(T_p\) infinitesimalnu v \(x,u\). Podobna k njoj v \(y,v\) jest dana prěz \(T_r=T_qT_pT_q^{-1}\), kde parametry, odnosno libovoljne funkcije \(r\), oprěděljajut se iz \(p\) i \(q\). V formulah to znači:
 \[
-T_p:\ \xi=x+\varDelta x(x,p),\qquad u^*=u+\varDelta u(x,u,p);
+T_p:\ \xi=x+\varDelta x(x,p);\qquad u^*=u+\varDelta u(x,u,p);
 \]
 \[
 T_q:\ y=A(x,q);\qquad v=B(x,u,q);
@@ -14110,7 +14110,7 @@ sut indeksy spojene v jednom produktu stepenev iz \(G\) s \((n-1)\) i \(n\), kto
         \xi_{\varkappa_1,n-1}\cdots\xi_{\varkappa_\varrho,n-1}
         \xi_{\varkappa_{\varrho+1},n}\cdots\xi_{\varkappa_{\varrho+\sigma},n}\cdot P(\xi_{ik}),
 \]
-kde \(P(\xi_{ik})\) ne sodrživaje indeksy \(n\) i \((n-1)\). Vsaka zaměna \(n\) s \((n-1)\) daje za \(i\ne j\) faktor \(\xi_{in}\xi_{j,n-1}\) s \(i<j\); tako \(j,n-1\) leži medžu \(i\) i \(n\), i člen ne byl by normovany. \(G\) zato pri fiksovanyh \(\chi_1,\chi_2,\ldots,\chi_{\rho+\sigma}\) i fiksovanom \(P\) sodrživaje samo jeden produkt stepenev, čim pokazano jest, že različnym produktam stepenev iz \(G\) odpovědajut različne v \(K\).
+kde \(P(\xi_{ik})\) ne sodrživaje indeksy \(n\) i \((n-1)\). Vsaka zaměna \(n\) s \((n-1)\) daje za \(i\ne j\) faktor \(\xi_{in}\xi_{j,n-1}\) s \(i<j\); tako \(j,n-1\) leži medžu \(i\) i \(n\), i člen ne byl by normovany. \(G\) zato pri fiksovanyh \(\varkappa_1,\varkappa_\varrho,\ldots,\varkappa_{r+\sigma}\) i fiksovanom \(P\) sodrživaje samo jeden produkt stepenev, čim pokazano jest, že različnym produktam stepenev iz \(G\) odpovědajut različne v \(K\).
 \begin{equation}
         \text{Iz }K(\xi_{ik})\equiv0\pmod p\text{ zato slěduje }G(\xi_{ik})\equiv0\pmod p.
 \end{equation}
@@ -16129,7 +16129,7 @@ Tako prodolžajuči dobyvamo red redukovanyh prědstavjenij
  \ideal M=[\ideal B_1,\ideal C_1]=[\ideal B_1,\ideal B_2,\ideal C_2]=\cdots=[\ideal B_1,\ldots,\ideal B_n,\ideal C_n]=\cdots .
 \tag{1}
 \end{equation}
-V cěpi \(\ideal C_1,\ideal C_2,\ldots,\ideal C_\nu,\ldots\) jest zato vsakokrat \(\ideal C_i\) vlastny dělitelj od neposrědnje poprědnogo ideala, i zato cěp prěkida se v konečnom; obstaja indeks \(n\), tako že \(\ideal C_n\) stava nerazložimy. Po lemi I jest dalje prědstavjenje \(\ideal M=[\ideal B_1\cdots\ideal B_n\ideal C_n]\) redukovano; \(\ideal C_n\) zato ne može děliti svoj komplement \(\ideal A_n\), i v prědstavjenju \(\ideal M=[\ideal A_n,\ideal C_n]\) \(\ideal U_n\) ne može byti zaměnjeno nijakym vlastnym děliteljem. Ako se po potrěbě \(\ideal A_n\) zaměni vlastnym děliteljem,\footnote{Faktično prědstavjenje jest takože redukovano v odnosu k \(\ideal A_n\), kako bude pokazano v \S~3 (lema IV) kako obrat lemy I.} tako že prědstavjenje stava redukovano, tym jest pokazano, že vsaky razložimy ideal dopušča redukovano prědstavjenje kako najmenše obče mnogokratno jednogo nerazložimogo i jednogo k njemu komplementarnogo ideala. V redu (1) zato bez ograničenja občosti vsi \(\ideal B_i\) mogut byti prijete kako nerazložime; povtorjenje gornjego zaključivanja daje obstajanje nerazložimogo \(\ideal C_n\), čime teorem II jest dokazan.
+V cěpi \(\ideal C_1,\ideal C_2,\ldots,\ideal C_\nu,\ldots\) jest zato vsakokrat \(\ideal C_i\) vlastny dělitelj od neposrědnje poprědnogo ideala, i zato cěp prěkida se v konečnom; obstaja indeks \(n\), tako že \(\ideal C_n\) stava nerazložimy. Po lemi I jest dalje prědstavjenje \(\ideal M=[\ideal B_1\cdots\ideal B_n\ideal C_n]\) redukovano; \(\ideal C_n\) zato ne može děliti svoj komplement \(\ideal A_n\), i v prědstavjenju \(\ideal M=[\ideal A_n,\ideal C_n]\) \(\ideal C_n\) ne može byti zaměnjeno nijakym vlastnym děliteljem. Ako se po potrěbě \(\ideal A_n\) zaměni vlastnym děliteljem,\footnote{Faktično prědstavjenje jest takože redukovano v odnosu k \(\ideal A_n\), kako bude pokazano v \S~3 (lema IV) kako obrat lemy I.} tako že prědstavjenje stava redukovano, tym jest pokazano, že vsaky razložimy ideal dopušča redukovano prědstavjenje kako najmenše obče mnogokratno jednogo nerazložimogo i jednogo k njemu komplementarnogo ideala. V redu (1) zato bez ograničenja občosti vsi \(\ideal B_i\) mogut byti prijete kako nerazložime; povtorjenje gornjego zaključivanja daje obstajanje nerazložimogo \(\ideal C_n\), čime teorem II jest dokazan.
 
 \clearpage
 % END UNIT BODY
@@ -16908,7 +16908,7 @@ Pod modulom \(M\) v \((\Sigma,T)\) razuměje se sistem elementov iz \(T\), ktory
 \end{enumerate}
 Po toj definiciji \(T\) samo tvori modul v \((\Sigma,T)\). Ako osoblivo oblast \(T\) i tam postavljene operacije sběgajut se s oblastju \(\Sigma\) i tam oprěděljenymi operacijami, modul \(M\) prěhodi v pravostranny ideal \(M\) v \(\Sigma\). Ako se \(\Sigma\) ešte prědpoloži komutativna, nastavaje obyčny pojem ideala, ktory se tako pokazuje kako specialny slučaj pojma modula.\footnote{Najprostši priměr modula tvori modul iz cěločislenyh linearnyh form: \(\Sigma\) sostoji se tu iz vsih cělyh racionalnyh čisel, \(T\) iz vsih cěločislenyh linearnyh form. Několiko obči modul nastavaje, ako se v \(\Sigma\) i \(T\) vzimajut cěla algebraična čisla vměsto cěloracionalnyh čisel, ili napr. vse parne čisla. Ako se vměsto linearnyh form vsaky raz razgleda kompleks vsih koeficientov kako jeden element, operacije v \(\Sigma\) i \(T\) sut v samoj stvari različne. Idealy v nekomutativnyh prstenovyh oblastjah iz polinomov tvorut predmet obče raboty Noether--Schmeidler. O idealah v daljših specialnyh nekomutativnyh oblastjah govori se v lekcijah \foreign{Hurwitz} o teoriji čisel kvaternionov (Berlin, Springer 1919) i v tam citovanyh rabotah \foreign{Du Pasquier}.}
 
-Za moduly ostavajut vse definicije iz \S~1. Tako \(\alpha\eqzero{M}\) odnosno \(N\eqzero{M}\) znači, že \(\alpha\) odnosno vsaky element od \(N\) jest element od \(M\); drugimi slovami, \(\alpha\) odnosno \(N\) jest dělimy prěz \(M\). \(M\) stavaje vlastny dělitelj od \(N\), ako \(M\) sodrživaje elementy različne od \(N\); iz \(N\eqzero{M}\), \(M\eqzero{N}\) slěduje \(M=N\). Takože definicija največšego občego dělitelja i najmenšego občego mnogokratnogo ostavaje doslovno. Ako modul \(M\) osoblivo sodrživaje konečno čislo elementov \(\alpha_1,\ldots,\alpha_\varrho\), tako že
+Za moduly ostavajut vse definicije iz \S~1. Tako \(\alpha\eqzero{M}\) odnosno \(N\eqzero{M}\) znači, že \(\alpha\) odnosno vsaky element od \(N\) jest element od \(M\); drugimi slovami, \(\alpha\) odnosno \(N\) jest dělimy prěz \(M\). \(M\) stavaje vlastny dělitelj od \(N\), ako \(M\) sodrživaje elementy različne od \(N\); iz \(N\eqzero{M}\), \(M\eqzero{N}\) slěduje \(M=N\). Takože definicija največšego občego dělitelja i najmenšego občego mnogokratnogo ostavaje doslovno. Ako modul \(M\) osoblivo sodrživaje konečno čislo elementov \(\alpha_1\ldots\alpha_\varrho\), tako že
 \[
  M=(\alpha_1,\ldots,\alpha_\varrho),
 \]
@@ -17163,11 +17163,11 @@ Ostale nerazložime odnosno največše primarne idealy \(\ideal B_1\), \(\ideal 
 
 Proste idealy oblasti sut dane prěz \(\ideal P_0=\ideal O=(2)\) i \(\ideal P=(2p)\), kde \(p\) znači neparno prosto čislo; vsaky prosty ideal jest zato děliv prěz \(\ideal P_0\), ale ne prěz nikaky daljši prosty ideal. Primarne idealy sut dane prěz
 \[
- \ideal Q_0=(2\cdot2^{\varrho_0})
+ \ideal Q_{\varrho_0}=(2\cdot2^{\varrho_0})
  \qquad\text{i}\qquad
  \ideal Q_\varrho=(2p^\varrho);
 \]
-one sut Jednočasno nerazložime idealy, i po skazanom o prostyh idealah vsake dvě prinaležeče različnym neparnym prostym čislam sut vzajemno relativno proste, ale nijedno \(\ideal Q\) ne jest relativno prosto k nekakom \(\ideal Q_0\).\footnote{V samoj stvari, iz \(2b\cdot2p_1^{\varrho_1}\eqzero{2p_2^{\varrho_2}}\) za neparne \(p_1\ne p_2\) vsegda slěduje \(2b\eqzero{2p_2^{\varrho_2}}\); iz \(2b\cdot2p^\varrho\eqzero{2\cdot2^{\varrho_0}}\) pak samo \(2b=2\cdot2^{\varrho_0-1}\pmod{2\cdot2^{\varrho_0}}\).} \(\ideal Q_0\) sut zato jedine neizolovane primarne idealy. Jednoznačnomu razloženju \(a\) na stepeni prostyh čisel odpovědaje jednoznačno prědstavjenje ideala \((2a)\) prěz največše primarne, Jednočasno nerazložime idealy:
+one sut Jednočasno nerazložime idealy, i po skazanom o prostyh idealah vsake dvě prinaležeče različnym neparnym prostym čislam sut vzajemno relativno proste, ale nijedno \(\ideal Q\) ne jest relativno prosto k nekakom \(\ideal Q_{\varrho_0}\).\footnote{V samoj stvari, iz \(2b\cdot2p_1^{\varrho_1}\eqzero{2p_2^{\varrho_2}}\) za neparne \(p_1\ne p_2\) vsegda slěduje \(2b\eqzero{2p_2^{\varrho_2}}\); iz \(2b\cdot2p^\varrho\eqzero{2\cdot2^{\varrho_0}}\) pak samo \(2b=2\cdot2^{\varrho_0-1}\pmod{2\cdot2^{\varrho_0}}\).} \(\ideal Q_0\) sut zato jedine neizolovane primarne idealy. Jednoznačnomu razloženju \(a\) na stepeni prostyh čisel odpovědaje jednoznačno prědstavjenje ideala \((2a)\) prěz največše primarne, Jednočasno nerazložime idealy:
 \[
  (2a)=[(2\cdot2^{e_0}),(2p_1^{e_1}),
 \ldots,(2p_\mu^{e_\mu})].
@@ -18220,7 +18220,7 @@ ponovno daje (12). Ako $\overline{\mideal}_{(u)}$ posrědstvom (25) prěhodi v $
 \tag{27}
 \end{equation}
 
-Pri tom (27) nastava iz (23) prosto prěz obračenje (26). To jest očevidno za $\mideal$ i $C^{(1)}(x)$, zato takože za $\Gmod_1$ i $\widetilde\Mmod_1$. No to imaje město i za $\gideal_1$, zato že
+Pri tom (27) nastava iz (23) prosto prěz obračenje (26). To jest očevidno za $\mideal$ i $C^{(1)}(x)$, zato takože za $\widetilde{\mathfrak C}_1$ i $\widetilde\Mmod_1$. No to imaje město i za $\gideal_1$, zato že
 \[
  b^{(2)}(x)G(x)\equiv0(\mideal),\quad b^{(2)}\ne0,
  \qquad
@@ -18789,7 +18789,7 @@ Trěba ješče ukazati analogiju poslědnjego vprašanja s teorijeju idealov v a
 
 \subsection*{§ 1. Osnovne pojmy teorije eliminacije, obče teorije idealov i teorije polj}
 
-\textbf{1. Oblast.} Nehaj $\mathfrak{J}$ označaje oblast cělosti vsih polinomov v $y_1,\ldots,y_n$ s koeficientami iz abstraktno oprěděljenogo polja $\mathsf{P}$. Nehaj $y$ budut podvrgnute prěobraženju s neoprěděljenymi $u_{\mu\nu}$ kako koeficientami:\footnote{Prěobraženje jest po odnošenju k § 3 i tako dalje několiko občeje než v H.-N.; tym vse tamošnje rezultaty tem bolje ostavajut shranjene.}
+\textbf{1. Oblast.} Nehaj $\bar{\mathfrak{J}}$ označaje oblast cělosti vsih polinomov v $y_1,\ldots,y_n$ s koeficientami iz abstraktno oprěděljenogo polja $\mathsf{P}$. Nehaj $y$ budut podvrgnute prěobraženju s neoprěděljenymi $u_{\mu\nu}$ kako koeficientami:\footnote{Prěobraženje jest po odnošenju k § 3 i tako dalje několiko občeje než v H.-N.; tym vse tamošnje rezultaty tem bolje ostavajut shranjene.}
 \begin{align}
  y_1&=u_{11}x_1+\cdots+u_{1n}x_n,\quad \ldots,\quad
  y_n=u_{n1}x_1+\cdots+u_{nn}x_n, \tag{1}
@@ -18880,7 +18880,7 @@ K vsakomu primarnomu idealu $\frakq$ jest jedin i samo jedin asociovany prost id
 
 \textbf{14. Karakteristika, doskonale i nedoskonale polja, razširjenje prvogo roda.} Polje $\Omega$ nazyva se harakteristiki nul, ako prosto polje, ktoro sodrživaje se v $\Omega$ i vyvodi se iz jedinice, jest tipa polja racionalnyh čisel; harakteristiki $p$, ako to prosto polje jest tipa sistema ostatkovyh klasov po prostom čislu $p$. Polje $\Omega$ nazyva se doskonalo, ako vsaka prosta funkcija s koeficientami iz $\Omega$ v vhodnom razširiteljnem polju razpada se na različne linearne faktory; v protivnom slučaju nazyva se nedoskonalo. Vsako polje harakteristiki nul jest doskonalo; polje harakteristiki $p$ jest doskonalo togda i samo togda, kogda vměstě s vsakym elementom sodrživaje takože jego $p$-ti korenj. Prosta funkcija v nedoskonalom polju jest cěla funkcija $r$-go stepena od $x^{p^f}$ i razpada se v vhodnom razširiteljnem polju na $p^f$-te potegy $r$ različnyh linearnyh faktorov; $f$ nazyva se eksponent. Prosta funkcija nazyva se prvogo roda, ako v vhodnom razširiteljnem polju razpada se na različne linearne faktory, to jest ako eksponent $f$ jest nul; razširjenje nazyva se prvogo roda, ako vsaky element jest prvogo roda, to jest jest nulj proste funkcije prvogo roda. Vsako razširjenje, ktoro nastavaje prisojedinjenjem elementa prvogo roda, jest prvogo roda; pri doskonalyh poljah sut samo razširjenja prvogo roda (Steinitz, § 11 i § 13).
 
-\textbf{15. Redukovany stepen i eksponent konečnogo razširjenja.} Ako $\mathcal K$ jest konečno razširjenje nedoskonalogo polja $\Omega$, togda v $\mathcal K$ sodrživaje se podpolje $\mathcal K_0$ stepena $r$, ktoro jest prvogo roda po odnošenju k $\Omega$ i ktoro sostoji se iz vsih i samo iz elementov prvogo roda v $\mathcal K$. $p^f$-ta potega vsakogo elementa iz $\mathcal K$ naleži k $\mathcal K_0$, i sut v $\mathcal K$ elementi, ktore sut točno stepena $rp^f$. $r$ nazyva se redukovany stepen, $f$ eksponent konečnogo razširjenja (Steinitz, § 14, 1 i § 14, 5).
+\textbf{15. Redukovany stepen i eksponent konečnogo razširjenja.} Ako $\mathcal K$ jest konečno razširjenje nedoskonalogo polja $\Omega$, togda v $\mathcal K$ sodrživaje se podpolje $\mathfrak{L}_0$ stepena $r$, ktoro jest prvogo roda po odnošenju k $\Omega$ i ktoro sostoji se iz vsih i samo iz elementov prvogo roda v $\mathcal K$. $p^f$-ta potega vsakogo elementa iz $\mathcal K$ naleži k $\mathcal K_0$, i sut v $\mathcal K$ elementi, ktore sut točno stepena $rp^f$. $r$ nazyva se redukovany stepen, $f$ eksponent konečnogo razširjenja (Steinitz, § 14, 1 i § 14, 5).
 
 
 \subsection*{§ 2. Forma elementarnyh děliteljev i norma prostyh idealov i primarnyh idealov. Dělitelji prostyh idealov}
@@ -18895,9 +18895,9 @@ V samoj stvari, nehaj bude prědpoloženo: $\fraka\not\equiv0\pmod{\frakp}$, $\f
 \]
 i musi byti tako, že prinajmenje jedin $a_i(y)$ i prinajmenje jedin $b_i(y)$ ne jest dělimy prěz $\bar{\frakp}$. Nehaj napr. $\bar a_r(y)\not\equiv0(\bar{\frakp})$, $\bar b_s(y)\not\equiv0(\bar{\frakp})$ budut odgovarjajuče najvyšše členy pri někojim leksikografičnom redu na $T$; togda takože $\bar a_r(y)\bar b_s(y)\not\equiv0(\bar{\frakp})$, i zato $a(x)b(x)\not\equiv0(\frakp)$, a tym $\fraka\frakb\not\equiv0(\frakp)$. S tym $\frakp$ jest dokazany kako prost ideal. Dokaz očevidno opira se na to, že sistem ostatkovyh klasov po prostom idealu tvori prsten bez nulovyh děliteljev; ta vlastnost shranja se pri prisojedinjenju neoprěděljenyh.
 
-Analogično nehaj $\fraka\not\equiv0\pmod{\frakq}$, $\frakb^x\not\equiv0\pmod{\frakq}$ za vsaky pokazatelj $x$; togda iz bytnosti idealnoj bazy slěduje, že mora obstajati $a(x)$ iz $\fraka$ i $b(x)$ iz $\frakb$ tako, že $a(x)\not\equiv0\pmod{\frakq}$, $b(x)^x\not\equiv0\pmod{\frakq}$ za vsaky pokazatelj $x$: zato že pri protivnom prědpoloženju někoja potega $\frakb$ byla by dělima prěz $\frakq$.
+Analogično nehaj $\fraka\not\equiv0\pmod{\frakq}$, $\frakb^x\not\equiv0\pmod{\frakq}$ za vsaky pokazatelj $x$; togda iz bytnosti idealnoj bazy slěduje, že mora obstajati $a(x)$ iz $\fraka$ i $b(x)$ iz $\frakb$ tako, že $a(x)\not\equiv0\pmod{\frakq}$, $b(x)^\varkappa\not\equiv0\pmod{\frakq}$ za vsaky pokazatelj $x$: zato že pri protivnom prědpoloženju někoja potega $\frakb$ byla by dělima prěz $\frakq$.
 
-Položivši $a(x)b(x)=c(x)$, nehaj $\fraka^*,\frakb^*,\frakc^*$ označajut idealy po redu vyvedene iz koeficientov $a_j(y),b_j(y),c_j(y)$ od $a(x),b(x),c(x)$. Togda $\frakb^{*x}\not\equiv0\pmod{\bar{\frakq}}$ za vsaky pokazatelj $x$, zato že inako $b(x)^x$ byla by dělima prěz $\frakq$; zaradi $\fraka^*\not\equiv0(\bar{\frakq})$ mora zato takože $\fraka^*\frakb^{*\lambda}\not\equiv0(\bar{\frakq})$ za vsaku potegu $\lambda$. No po teoremu Dedekinda--Mertensa\footnote{Por. H.-N., str. 63 i prim. 10).} obstaja pokazatelj $\lambda$ takovy, že $\fraka^*\frakb^{*\lambda}\equiv \frakc^*\frakb^{*\lambda-1}$; zato mora byti $\frakc^*\not\equiv0\pmod{\bar{\frakq}}$. To davaje $c(x)\not\equiv0\pmod{\frakq}$ i zato $\fraka\frakb\not\equiv0\pmod{\frakq}$. S tym $\frakq$ jest dokazany kako primarny.
+Položivši $a(x)b(x)=c(x)$, nehaj $\fraka^*,\frakb^*,\frakc^*$ označajut idealy po redu vyvedene iz koeficientov $a_j(y),b_j(y),c_j(y)$ od $a(x),b(x),c(x)$. Togda $\frakb^{*x}\not\equiv0\pmod{\bar{\frakq}}$ za vsaky pokazatelj $x$, zato že inako $b(x)^\varkappa$ byla by dělima prěz $\frakq$; zaradi $\fraka^*\not\equiv0(\bar{\frakq})$ mora zato takože $\fraka^*\frakb^{*\lambda}\not\equiv0(\bar{\frakq})$ za vsaku potegu $\lambda$. No po teoremu Dedekinda--Mertensa\footnote{Por. H.-N., str. 63 i prim. 10).} obstaja pokazatelj $\lambda$ takovy, že $\fraka^*\frakb^{*\lambda}\equiv \frakc^*\frakb^{*\lambda-1}$; zato mora byti $\frakc^*\not\equiv0\pmod{\bar{\frakq}}$. To davaje $c(x)\not\equiv0\pmod{\frakq}$ i zato $\fraka\frakb\not\equiv0\pmod{\frakq}$. S tym $\frakq$ jest dokazany kako primarny.
 
 Takože pri prědstavjenju ideala kako najmenšego občego mnogokratnogo možno ograničiti se na transformovane idealy, po slědujučem tvrdženju.
 
@@ -18968,7 +18968,7 @@ Takože najprvo spomenimo slědujuče. Polje $\mathcal R$ imenuje se poljem alge
 
 Konstrukcija polja nuljev nyně ide v polnoj analogiji s obyčnym putem pri prostyh funkcijah jednoj neoprěděljenej\footnote{Steinitz, § 6.}, po slědujučem teoremu.
 
-\textbf{Teorem III.} Polju ostatkovyh klasov $(\mathcal R)$ prostogo ideala $\frakp$ dimenzije $n-i$ možno izomorfno prirěditi polje nuljev $R$ ideala $\frakp$, ktoro bude iměti algebraičny rang $n-i$ -- bude zavisěti od $n-i$ parametrov -- i osoblivo može byti pojmano kako konečno razširjenje polja $\mathsf{P}(u,x_{i-1},\ldots,x_n)$. Izomorfija medžu $(\mathcal R)$ i $R$ obhvača tu medžu $(\mathsf{P})$ i $\mathsf{P}$, medžu $(\mathsf{P}(u))$ i $\mathsf{P}(u)$, a pri vzetju $x_{i+1},\ldots,x_n$ kako parametrov takože tu medžu $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$ i $\mathsf{P}(u,x_{i+1},\ldots,x_n)$. Obratno, vsako polje nuljev algebraičnogo ranga $n-i$ -- zaviseče od $n-i$ parametrov -- jest izomorfno polju ostatkovyh klasov $(\mathcal R)$.
+\textbf{Teorem III.} Polju ostatkovyh klasov $(\mathfrak{K})$ prostogo ideala $\frakp$ dimenzije $n-i$ možno izomorfno prirěditi polje nuljev $R$ ideala $\frakp$, ktoro bude iměti algebraičny rang $n-i$ -- bude zavisěti od $n-i$ parametrov -- i osoblivo može byti pojmano kako konečno razširjenje polja $\mathsf{P}(u,x_{i-1},\ldots,x_n)$. Izomorfija medžu $(\mathcal R)$ i $R$ obhvača tu medžu $(\mathsf{P})$ i $\mathsf{P}$, medžu $(\mathsf{P}(u))$ i $\mathsf{P}(u)$, a pri vzetju $x_{i+1},\ldots,x_n$ kako parametrov takože tu medžu $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$ i $\mathsf{P}(u,x_{i+1},\ldots,x_n)$. Obratno, vsako polje nuljev algebraičnogo ranga $n-i$ -- zaviseče od $n-i$ parametrov -- jest izomorfno polju ostatkovyh klasov $(\mathcal R)$.
 
 Teorem III davaje kako korolar znany teorem: ako ideal $\fraka$ izčezaje vo vsih nuljah prostogo ideala $\frakp$, togda $\fraka$ jest dělimy prěz $\frakp$.
 
@@ -18999,7 +18999,7 @@ Razloženje nyně davaje slědujuči teorem.
  &=\prod_\nu \bigl(x_i-t_{i+1}x_{i+1}^{(\nu)}-\cdots-t_nx_n^{(\nu)}\bigr)^e\\
  &=\prod_\nu \bigl(t_i(y_i-y_i^{(\nu)})+\cdots+t_n(y_n-y_n^{(\nu)})\bigr)^e,
 \end{align*}
-kde $y_1^{(\nu)},\ldots,y_n^{(\nu)}$ vsaky raz prědstavjajut prinaležny sistem nuljev početkovyh neoprěděljenyh $y$, nezavisny od $t_i,\ldots,t_n$, raznym $\nu$ odpovědajut razne linearne faktory, i kde eksponenta $e$ pri doskonalom polju $\mathsf{P}$ ima cěnnost jedin, pri nedoskonalom cěnnost $p^f$ ($f>0$). Tym pri prisojedinjenju novyh neoprěděljenyh $v$ jest takože oprěděljeno razloženje formy elementarnyh děliteljev zapisanoj v bilinearnyh kombinacijah $u$ i $v$ vměsto $u_{\mu\nu}$:
+kde $y_1^{(\nu)},\ldots,y_n^{(\nu)}$ vsaky raz prědstavjajut prinaležny sistem nuljev početkovyh neoprěděljenyh $y$, nezavisny od $t_i,\ldots,t_n$, raznym $\nu$ odpovědajut razne linearne faktory, i kde eksponenta $e$ pri doskonalom polju $\mathsf{P}$ ima cěnnost jedin, pri nedoskonalom cěnnost $p^f$ ($f\geqq0$). Tym pri prisojedinjenju novyh neoprěděljenyh $v$ jest takože oprěděljeno razloženje formy elementarnyh děliteljev zapisanoj v bilinearnyh kombinacijah $u$ i $v$ vměsto $u_{\mu\nu}$:
 \begin{align*}
  P^{(i)}(w)
  &=\prod_\nu \bigl(z_i-z_i^{(\nu)}\bigr)^e\\
@@ -19136,7 +19136,7 @@ i zato
 \[
  (Q_\lambda^{(i)})^{\rho_\lambda}\frakr_\lambda\equiv0\pmod{\frakq_{\lambda,\kappa}};
  \quad\hbox{zato}\quad
- (P_\lambda^{(i)})^{\rho_\lambda}\sigma_\lambda\equiv0\pmod{\frakp_{\lambda,\kappa}}
+ (P_\lambda^{(i)})^{\rho_\lambda\sigma_\lambda}\equiv0(\frakp_{\lambda\kappa})
 \]
 i tym $P_\lambda^{(i)}\equiv0\pmod{\frakp_{\lambda,\kappa}}$; iz togo, kako pri dokazu Teorema IX, slěduje, že v prědstavjenju $\frakr_\lambda$ može nastupiti samo jedno $\frakq_\lambda$ i prinaležeče $\frakp_\lambda$ dimenzije $n-i$; i že forma elementarnyh děliteljev od $\frakp_\lambda$ dana jest prěz $P_\lambda^{(i)}$. Trěba dokazati $\frakp_\lambda$ kako asociovany prost ideal od $\frakm$ i pokazati, že $\frakq_\lambda$ v samoj stvari nastupaje v prinajmenje jednom prědstavjenju $\frakm$ prěz največše primarne komponenty; togda tym takože $\frakr_\lambda$ jest poznany kako izolovana komponenta razloženja, zato že nijedin prost ideal ne može vhoditi v ideal jednakoj abo nižšej dimenzije, i to kako komponent oprěděljen prěz $\frakp_\lambda$ i vse asociovane proste idealy vyšej dimenzije. Za toj dokaz trěba samo pokazati, že $\frakq_\lambda$ nastupaje v najkratšem prědstavjenju $\frakg_i$, zato že tako prědstavjenje po Teoremu VIII vsegda možno dopolniti do najkratšego prědstavjenja $\frakm$; trěba zato samo pokazati, že prědstavjenje
 \[
@@ -19192,7 +19192,7 @@ Teorema XIV svodi se k tvrdženju, že polje ostatkovyh klasov $(\mathcal R)$ id
 
 Zato že $p^{f'}$-ty stepenj ($f'\leqq f$) vsakogo elementa $z$ iz $\Lambda$ naleži k $\Lambda_0$; zato $z$ jest nul prostej funkcije $G(t)=(t-z)^{p^{f'}}$ s koeficientami iz $\Lambda_0$. Nehaj $H(t)=(t-z)^\delta$ jest prosta funkcija v $M$ s nulom $z$; togda $H(t)$ imaje takože koeficienty iz $\Lambda_0(z)$, a zato koeficienty $H(t)$ naležet polju prěsěka $M$ i $\Lambda_0(z)$, to jest medžupolju medžu $\Lambda_0$ i $\Lambda_0(z)$. Zato stepenj $z$ relativno k $M$ jest ravna stepenju relativno k tomu medžupolju i, kako dělitelj $p^{f'}$, jest stepenj $p$.
 
-Za dokazanje Teoremy XIV ostava samo primětiti, že polje $(\mathcal R)=(P(u,x_i,x_{i+1},\ldots,x_n))$ mora iměti stepenj $r\cdot p^f$ relativno k $(P(u,x_{i+1},\ldots,x_n))$, ako $r$ označaje redukovany stepenj, a $f$ --- eksponentu $(\mathcal R)$; i že zato polje prvogo roda $(\mathcal R_0)$, sodrživano v $(\mathcal R)$, mora byti podpoljem $(\mathcal R')$. Zato že, zato že v $(\mathcal R)$ sut elementy stepenja $r\cdot p^f$ (§ 1, 15.), mora byti tako, že $(x_i)$ imaje točno toj stepenj, zato že vsi elementy iz $(\mathcal R)$ nastavajut specializacijeju $t_{\mu\nu}$ v $(x_i)$; eksponenta $(\mathcal R)$ sběgaje se s eksponentoju formy elementarnyh děliteljev, i $(x_i)^{p^f}$ imaje stepenj $r$ i naleži k $(\mathcal R_0)$, zato jest primitivny element $(\mathcal R_0)$. Zato že že $(\mathcal R)$ nastavaje dodanjem konečno mnogo elementov --- recimo $(x_1),\ldots,(x_{i-1})$ --- k $(\mathcal R')$, konečno mnogokratno priměnjenje Pomočnoj lemy VIII dava potrěbno dokazanje i jednočasno ocěnu za $g$.\footnote{Srav. paralelne razmysljenja u \foreign{A. Ostrowski, Zur arithmetischen Theorie der algebraischen Größen, Gött. Nachr. 1919, s. 279--298}; osoblivo s. 288, kde odgovarjajuča teorema jest formulovana bez dokazanja.}
+Za dokazanje Teoremy XIV ostava samo primětiti, že polje $(\mathfrak{R}')=(\mathsf{P}(u,x_i,x_{i+1},\ldots,x_n))$ mora iměti stepenj $r\cdot p^f$ relativno k $(\mathsf{P}(u,x_{i+1},\ldots,x_n))$, ako $r$ označaje redukovany stepenj, a $f$ --- eksponentu $(\mathfrak{K})$; i že zato polje prvogo roda $(\mathfrak{K}_0)$, sodrživano v $(\mathfrak{K})$, mora byti podpoljem $(\mathfrak{R}')$. Zato že, zato že v $(\mathfrak{K})$ sut elementy stepenja $r\cdot p^f$ (§ 1, 15.), mora byti tako, že $(x_i)$ imaje točno toj stepenj, zato že vsi elementy iz $(\mathfrak{K})$ nastavajut specializacijeju $t_{\mu\nu}$ v $(x_i)$; eksponenta $(\mathfrak{K})$ sběgaje se s eksponentoju formy elementarnyh děliteljev, i $(x_i)^{p^f}$ imaje stepenj $r$ i naleži k $(\mathfrak{K}_0)$, zato jest primitivny element $(\mathfrak{K}_0)$. Zato že že $(\mathfrak{K})$ nastavaje dodanjem konečno mnogo elementov --- recimo $(x_1),\ldots,(x_{i-1})$ --- k $(\mathfrak{R}')$, konečno mnogokratno priměnjenje Pomočnoj lemy VIII dava potrěbno dokazanje i jednočasno ocěnu za $g$.\footnote{Srav. paralelne razmysljenja u \foreign{A. Ostrowski, Zur arithmetischen Theorie der algebraischen Größen, Gött. Nachr. 1919, s. 279--298}; osoblivo s. 288, kde odgovarjajuča teorema jest formulovana bez dokazanja.}
 
 Nyně dodamo priměry, ktore pokazujut, že Teoremu XII vo občej situaciji nemožno posiliti preko Teoremy XIV. Idě o prost ideal, čija norma jest kvadrat formy elementarnyh děliteljev ($g>0$), i o vlastne primarne idealy, čije formy elementarnyh děliteljev sut proste funkcije; poslědnji priměr jednočasno pokazuje, že tu nema analoga Teoremy XIV, a norma može stati libovoljnym stepenjem formy elementarnyh děliteljev.
 
@@ -20798,7 +20798,7 @@ Ravnoměrno razgledanje vsih poredkov dano tu, i doskonaloj i nedoskonaloj oblas
 
 Taka modulna baza modulo vsakogo prostogo elementa osnovnoj oblasti prěhodi v bazu prstena klasov ostatkov, medžutym to ne mora iměti město už za glavny poredok pri bazi iz stepenov primitivnogo elementa; takože ne pri bazi iz stepenov fundamentalnoj formy, skoro ide o cěle algebraične funkcije několiko neoprěděljenyh.\footnote{Srav. \foreign{Ostrowski}, a.a.O. "\foreign{Irregularität erster Art}".} Drugymi slovami: prsten klasov ostatkov polinomnoj oblasti jednoj neoprěděljenej, s koeficientami iz osnovnoj oblasti, po libovoljnom definujučem uravnenju ili takože po fundamentalnom uravnenju ne mora modulo $p$ byti izomorfno prstenu klasov ostatkov glavnogo poredka po $(p)$; v tom prěstavanju izomorfizma ležet glavne težkosti običnyh prědstavjenij. Zato že ta pomočna polinomna oblast tu ne nastupaje, te težkosti sut s tym samy soboju obhodžene; Jednočasno aditivna teorija razloženja prstena klasov ostatkov može se ponimati kako ekvivalent multiplikativnogo razloženja uravnenja, kojemu i tu pri razloženju na vzajemno proste faktory odgovarja aditivno razloženje v polinomnom prstenu klasov ostatkov.
 
-Trěba primětiti, že teorem o diskriminantu može prědstavjati samo prvi teorem obče teorije razvětvenja poredkov, podobno kako v glavnom poredku k teoremu o diskriminantu pristavaje točnejša teorija ideala razvětvenja, ktora tam dopustja točnejše oprěděljenje eksponentov. To oprěděljenje eksponentov, ktoro opiraje se na prědstavjenje primarnyh faktorov uravnenij stepenami, može se tlumačiti kako oprěděljenje dolžiny kompozicijnogo reda od $\mathfrak p$ do $q=p^t$, i pravdopodobno v toj formě nastupi v občej teoriji razvětvenja.
+Trěba primětiti, že teorem o diskriminantu može prědstavjati samo prvi teorem obče teorije razvětvenja poredkov, podobno kako v glavnom poredku k teoremu o diskriminantu pristavaje točnejša teorija ideala razvětvenja, ktora tam dopustja točnejše oprěděljenje eksponentov. To oprěděljenje eksponentov, ktoro opiraje se na prědstavjenje primarnyh faktorov uravnenij stepenami, može se tlumačiti kako oprěděljenje dolžiny kompozicijnogo reda od $\mathfrak p$ do $\mathfrak q=\mathfrak p^\varrho$, i pravdopodobno v toj formě nastupi v občej teoriji razvětvenja.
 % END UNIT BODY
 %
 \endgroup
@@ -22040,7 +22040,7 @@ togda dobyva se
         =
         \left|\alpha_i^{(k)}\right|^2.
 \]
-To jest, diskriminant prědstavja se kako kvadrat determinanta konjugovanyh baznyh elementov. Osoblivo, ako $\mathfrak R$ samo jest polje, znači razširjeno polje prvogo roda svojego podpolja $P$, togda homomorfizmy od $\mathfrak R$ k $K_i$ prěhodet v izomorfizmy; pri tom elementy iz $\mathsf{P}$ odpovědajut samym sobě, zato že komponenta od $\mathsf{P}$ jest dana kako $P e_i$. Zato $K_i$, zato že vse oni ležet v občem obhvatnom polju $Q$, sut konjugovane polja po odnošenju k $P$; i imenno tyh $n$ izomorfizmov sut medžu soboju različne, kako pokazuje gornje determinantno prědstavjenje nenulovogo diskriminanta. Ako $\mathfrak R$ jest polje, togda prědstavjenje kako direktna suma v $K_1,\ldots,K_n$ dava $n$ konjugovanyh razširjenyh polj $n$-togo stepena nad $P$, ležečih v Galoisovom razširjenom polju i izomorfnyh k $\mathfrak R$. Prědstavjenje slěda, normy i diskriminanta togda prěhodi v znano prědstavjenje prěz konjugovane elementy. Trěba ješče raz podčrknuti, že $\mathfrak R$ prědpoklada se samo kako polje ekvivalentno k $K_i$, a ne kako polje samo už ležeče v Galoisovom razširjenom polju $Q$\footnote{Gledaj o tom poslědnju primětku k \S 1, punktu 2.}.
+To jest, diskriminant prědstavja se kako kvadrat determinanta konjugovanyh baznyh elementov. Osoblivo, ako $\mathfrak R$ samo jest polje, znači razširjeno polje prvogo roda svojego podpolja $P$, togda homomorfizmy od $\mathfrak R$ k $K_i$ prěhodet v izomorfizmy; pri tom elementy iz $\mathsf{P}$ odpovědajut samym sobě, zato že komponenta od $\mathsf{P}$ jest dana kako $\mathsf{P}\varepsilon_i$. Zato $K_i$, zato že vse oni ležet v občem obhvatnom polju $Q$, sut konjugovane polja po odnošenju k $P$; i imenno tyh $n$ izomorfizmov sut medžu soboju različne, kako pokazuje gornje determinantno prědstavjenje nenulovogo diskriminanta. Ako $\mathfrak R$ jest polje, togda prědstavjenje kako direktna suma v $K_1,\ldots,K_n$ dava $n$ konjugovanyh razširjenyh polj $n$-togo stepena nad $P$, ležečih v Galoisovom razširjenom polju i izomorfnyh k $\mathfrak R$. Prědstavjenje slěda, normy i diskriminanta togda prěhodi v znano prědstavjenje prěz konjugovane elementy. Trěba ješče raz podčrknuti, že $\mathfrak R$ prědpoklada se samo kako polje ekvivalentno k $K_i$, a ne kako polje samo už ležeče v Galoisovom razširjenom polju $Q$\footnote{Gledaj o tom poslědnju primětku k \S 1, punktu 2.}.
 % END UNIT BODY
 %
 \endgroup
@@ -22074,7 +22074,7 @@ To jest, diskriminant prědstavja se kako kvadrat determinanta konjugovanyh bazn
 
 \subsection*{§7. Teorem o diskriminantu za poredky algebraičnogo čislovogo polja ili funkcionalnogo polja}
 
-\noindent\textbf{1.}\quad Razgledane čislove i funkcionalne polja -- pri čem pri algebraičnyh funkcijah od več než jednoj neoznačene i pri cělyh algebraičnyh funkcijah ide se o razširjenje funkcionalnoj oblasti -- vse podlagajut se slědujučemu tipu polja s fiksovanym pojmom cělyh elementov\footnote{\emph{Idealtheorie}, \S 3, punkty 3 i 4.}. Nehaj $\mo$ bude prsten glavnyh idealov bez děliteljev nuly i s jediniceju (prsten cělyh racionalnyh čisel, oblast polinomov od jednoj neoznačene s koeficientami iz polja, funkcionalna oblast), a $\Omega$ jego polje kvocientov. Nehaj $K$ bude konečno razširjenje prvogo roda polja $\Omega$, a $\mO$ prsten vsih elementov iz $K$, cělyh po odnošenju k $\mo$\footnote{O definiciji elementov cělyh po odnošenju k prstenu gledaj \emph{Idealtheorie}, \S 1, punkt 3.}. Vsako podprsten od $\mO$, ktoro obejmaje $\mo$, nazyva se poredok; samo $\mO$ označaje se kako glavny poredok.
+\noindent\textbf{1.}\quad Razgledane čislove i funkcionalne polja -- pri čem pri algebraičnyh funkcijah od več než jednoj neoznačene i pri cělyh algebraičnyh funkcijah ide se o razširjenje funkcionalnoj oblasti -- vse podlagajut se slědujučemu tipu polja s fiksovanym pojmom cělyh elementov\footnote{\emph{Idealtheorie}, \S 3, punkty 3 i 4.}. Nehaj $\mo$ bude prsten glavnyh idealov bez děliteljev nuly i s jediniceju (prsten cělyh racionalnyh čisel, oblast polinomov od jednoj neoznačene s koeficientami iz polja, funkcionalna oblast), a $\Omega$ jego polje kvocientov. Nehaj $K$ bude konečno razširjenje prvogo roda polja $\Omega$, a $\mO$ prsten vsih elementov iz $\mathfrak{K}$, cělyh po odnošenju k $\mo$\footnote{O definiciji elementov cělyh po odnošenju k prstenu gledaj \emph{Idealtheorie}, \S 1, punkt 3.}. Vsako podprsten od $\mO$, ktoro obejmaje $\mo$, nazyva se poredok; samo $\mO$ označaje se kako glavny poredok.
 
 Vsaky $\mo$-modul v $\mO$, osoblivo vse idealy poredka i sam poredok, imaje linearno nezavisnu modulnu bazu po odnošenju k $\mo$\footnote{\emph{Idealtheorie}, \S 3, punkt 1.}. Ako $K$ imaje stepen $n$ nad $\Omega$, togda dosta je ograničiti se na poredky ranga $n$ po odnošenju k $\mo$, zato že vsaky poredok nižšego ranga prěz tvorjenje kvocientov poraždaje medžupolje medžu $K$ i $\Omega$ imenno toj stepeni, i za jego vse predposylky ostavajut. Zato vsaky poredok $\mT$ jest prsten, za ktoro predposylky §4 i §5 sut izpolnjene, i imenno prsten bez děliteljev nuly; tym diskriminant $D_\mT$ poredka jest jednoznačno oprěděljen do faktora, ktory jest kvadrat jedinice iz $\mo$. Ta diskriminant jest takože, do faktora-jedinice iz $\Omega$, identičny s diskriminantom polja $K$, razgledanym kako $\Omega$-modul, i zato različny od nuly, zato že $K$ byl prědpoloženy kako razširjenje prvogo roda (§6, 3). Diskriminant takože dopušča prědstavjenje, dano v §6, 4, prěz kvadrat determinanta konjugovanyh baznyh elementov.
 % END UNIT BODY
@@ -23005,13 +23005,13 @@ to $(\gamma_{ik})$ jest matrica pridružena k $c$; tvrdženje, že vsa ireduktib
 
 \medskip
 
-\noindent Po teoremu obstajanja, dokazany H. Hasseom\footnote{Obstajanje $\Omega_2$ možno je už vyčitati iz parametričnogo prědstavjenja cikličnyh polj 4-go stepena, kako je ono napr. dano u Vebera, \emph{Kleines Lehrbuch der Algebra}, § 93.} \emph{taka polja $\Omega_n$ obstajajut za vsako $n$; stepeni minimalnyh razpadnyh polj ne sut ograničene. Tu se čak vsaka potenca indeksa pojavja kako stepen minimalnogo razpadnogo polja.}\footnote{Pozdněje mogl R. Brauer ješče pokazati, že obstajajut čak minimalne razpadne polja kvaternionnogo těla vsakogo parnogo stepena, to jest vsih stepenjev, kotore sut obče možne za razpadne polja. Tako polje $P(\vartheta)$ možno je za vsako $n\geqq2$ definirati jednačenjem
+\noindent Po teoremu obstajanja, dokazany H. Hasseom\footnote{Obstajanje $\Omega_2$ možno je už vyčitati iz parametričnogo prědstavjenja cikličnyh polj 4-go stepena, kako je ono napr. dano u Vebera, \emph{Kleines Lehrbuch der Algebra}, § 93.} \emph{taka polja $\Omega_n$ obstajajut za vsako $n$; stepeni minimalnyh razpadnyh polj ne sut ograničene. Tu se čak vsaka potenca indeksa pojavja kako stepen minimalnogo razpadnogo polja.}\footnote{Pozdněje mogl R. Brauer ješče pokazati, že obstajajut čak minimalne razpadne polja kvaternionnogo těla vsakogo parnogo stepena, to jest vsih stepenjev, kotore sut obče možne za razpadne polja. Tako polje $\mathrm{P}(\vartheta)$ možno je za vsako $n\geqq2$ definirati jednačenjem
 \[
- f(\vartheta)=\vartheta^{2n}+a^2p^2\vartheta^2+b^2p^2\beta^2=0;
+ f(\vartheta)=\vartheta^{2n}+a^2p^2\vartheta^2+b^2p^{2\beta}=0;
  \quad \text{to jest}\quad -1=\left(\frac{ap}{\vartheta^{n-1}}\right)^2+
-       \left(\frac{bp\beta}{\vartheta^n}\right)^2,
+       \left(\frac{bp^\beta}{\vartheta^n}\right)^2,
 \]
-kde s pogodnym izborom $a,b,p,\beta$ možno dosegnuti, že 1. $f(x)$ za vsako $n$ stavaje se ireduktibilny; 2. $P(\Theta)$ imaje samo jedino od $\mathrm{P}$ različne podpolje $P(\Theta^2)$; 3. že $P(\Theta^2)$ medžu svojimi konjugovanymi imaje takože realne, tako že ne može byti razpadnym poljem. Jedin možny izbor $a,b,p,\beta$ jest napr. slědujuči:
+kde s pogodnym izborom $a,b,p,\beta$ možno dosegnuti, že 1. $f(x)$ za vsako $n$ stavaje se ireduktibilny; 2. $\mathrm{P}(\vartheta)$ imaje samo jedino od $\mathrm{P}$ različne podpolje $\mathrm{P}(\vartheta^2)$; 3. že $\mathrm{P}(\vartheta^2)$ medžu svojimi konjugovanymi imaje takože realne, tako že ne može byti razpadnym poljem. Jedin možny izbor $a,b,p,\beta$ jest napr. slědujuči:
 \[
         f(x)=x^{2n}+(25\cdot9)4x^2+9\cdot64.
 \]
@@ -25236,9 +25236,9 @@ Ako nyně razgledati $\ml_1$ kako modul prědstavjenja po odnošenju k podtělu 
 
 Dokaz.
 \[
-        \ml_1=\sum_i c_{i1}K=\sum_i\sum_j c_{i1}\chi_j\Gamma .
+        \ml_1=\sum_i c_{i1}\mathsf{K}=\sum_i\sum_j c_{i1}\varkappa_j\Gamma .
 \]
-Posrědstvom bazy $(\ldots,c_{i1}\chi_j,\ldots)$ element $c_{ik}$ prědstavjaje se blokovoju matricoju, ktora v $(i,k)$-bloku sodrživaje jediničnu matricu $E_t$, a v vsih drugyh blokah nulove matrice $0$ reda $t$. Takože element $\alpha$ iz $K$ prědstavjaje se blokovo-diagonalnoju matricoju s odgovarjajučimi matricami $A$ reda $t$. Zato elementu
+Posrědstvom bazy $(\ldots,c_{i1}\varkappa_j,\ldots)$ element $c_{ik}$ prědstavjaje se blokovoju matricoju, ktora v $(i,k)$-bloku sodrživaje jediničnu matricu $E_t$, a v vsih drugyh blokah nulove matrice $0$ reda $t$. Takože element $\alpha$ iz $K$ prědstavjaje se blokovo-diagonalnoju matricoju s odgovarjajučimi matricami $A$ reda $t$. Zato elementu
 \[
         a=\sum c_{ik}\alpha_{ik}
 \]
@@ -25521,7 +25521,7 @@ Nehaj
 \[
         G=G_1\times G_2\times\cdots\times G_r
 \]
-bude konečna Abelova grupa, razložena v direktny produkt cikličnyh grup $G_i$ poredkov $h_i$. Jej elementy sut
+bude konečna Abelova grupa, razložena v direktny produkt cikličnyh grup $\mathfrak{C}_i$ poredkov $h_i$. Jej elementy sut
 \[
         a=a_1^{\alpha_1}\ldots a_r^{\alpha_r}.
 \]
@@ -27172,7 +27172,7 @@ iz \(M\) porodžaje to jest modul razširjenja
 \]
 
 \paragraph{Slědstvo b).}
-Vsaky \(P\)-modul \(T=z_1P+\ldots+z_sP\) iz \(M\) jest suženny modul, to jest prěsěk svojego modula razširjenja \(T_{\mathsf{A}}\) s \(M\):
+Vsaky \(P\)-modul \(T=z_1\mathsf{P}+\ldots+z_s\mathsf{P}\) iz \(M\) jest suženny modul, to jest prěsěk svojego modula razširjenja \(T_{\mathsf{A}}\) s \(M\):
 \[
         T=T_A\cap M .
 \]
@@ -27428,7 +27428,7 @@ Zato že sistem ima jediničny klas, sostoječi se iz matričnyh prstenov nad \(
 Teorija razpadnyh polj ponovno polno opiraje se na princip izrečen na početku §5; komutativne razširitelne polja prědstavjajut se v \(\mathsf{A}\) odnosno \(A\). Prědložena bude
 
 \paragraph{Lema.}
-Ako \(A\) jest tělo s centrom \(\mathsf{P}\), \(\mathsf{Z}\) konečno komutativno razširitelno polje od \(\mathsf{P}\), togda \(A_{\mathsf{Z}}\) jest prosty s centrom \(\mathsf{Z}\). Zato že to imaje město po §4, 1. za k \(A_{\mathsf{Z}}\) recipročno izomorfny sistem \(Z_{\overline A}\). Za vsaky klas \((A)\) podobnyh k \(A\) algeber nad \(\mathsf{P}\), \(\mathsf{Z}\) porodžaje zato klas razširjenja \((A)_{\mathsf{Z}}\) podobnyh k \(A_{\mathsf{Z}}\) prostyh algeber nad \(\mathsf{Z}\).
+Ako \(A\) jest tělo s centrom \(\mathsf{P}\), \(\mathsf{Z}\) konečno komutativno razširitelno polje od \(\mathsf{P}\), togda \(A_{\mathsf{Z}}\) jest prosty s centrom \(\mathsf{Z}\). Zato že to imaje město po §4, 1. za k \(A_{\mathsf{Z}}\) recipročno izomorfny sistem \(Z_{\mathsf{A}}\). Za vsaky klas \((A)\) podobnyh k \(A\) algeber nad \(\mathsf{P}\), \(\mathsf{Z}\) porodžaje zato klas razširjenja \((A)_{\mathsf{Z}}\) podobnyh k \(A_{\mathsf{Z}}\) prostyh algeber nad \(\mathsf{Z}\).
 
 Prirědžena dělitvena algebra \(D\) klasa razširjenja vyhodi neposrědnje iz komutantnogo teorema §5, 3.:
 
@@ -27516,7 +27516,7 @@ V točnoj analogiji k §6, 3. tu imaje město teorija izomorfizmov za libovoljne
 \paragraph{Prědpoloženja.}
 Prosty sistem \(Z\) nad \(\mathsf{P}\) nehaj bude konečno separabilno razširitelno polje, \(\Omega\) znači nad \(\mathsf{P}\) konečno ili beskonečno razpadno polje, \(\mathsf{Z}'=\mathsf{Z}^{(1)}\) k \(Z\) izomorfno podtělo, \(\Gamma\) prirědženo Galoisovo. Po 1. zato imaje město direktno sumno razloženje
 \[
-        Z_\Omega=r^{(1)}+\ldots+r^{(n)}
+        Z_\Omega=\mathfrak r^{(1)}+\ldots+\mathfrak r^{(n)}
         =e^{(1)}Z_\Omega+\ldots+e^{(n)}Z_\Omega
         =e^{(1)}\Omega+\ldots+e^{(n)}\Omega .
 \]
@@ -28035,12 +28035,12 @@ Nehaj nyně \(\Omega\) ima karakteristiku nula. Prědstavjenje \(\mathrm{K}=k\ma
         \bar\Gg=\Hh\mathrm{S}_1+\ldots+\Hh\mathrm{S}_n
               =\mathrm{S}_1^{-1}\Hh+\ldots+\mathrm{S}_n^{-1}\Hh,
         \qquad
-        E_\Hh=\frac1h\sum_{H\in\Hh}u_H,
+        \mathrm{E}_{\mathfrak h}=\frac1h\sum\bar u_{\mathfrak h},
 \]
 i
 \[
-        E_\Gg=\frac1h E_{\bar\Gg}
-              =\sum_i u_{S_i},\qquad
+        \mathrm{E}_{\mathfrak g}=\frac1h \mathrm{E}_{\bar{\mathfrak g}}
+              =\sum_i u_{s_i},\qquad
         u_{s_i}=\mathrm{E}_{\mathfrak h}\bar u_{s_i}.
 \]
 Togda osoblivo idempotent \(\mathrm{E}_{\mathfrak h}\) tvori jedinično prědstavjenje \(\Hh\), a \(\mathrm{E}_{\mathfrak g}\), tako kako \(\mathrm{E}_{\bar{\mathfrak g}}\), tvori jedinično prědstavjenje \(\bar\Gg\). Za tako definirane \(\mathrm{E}_{\mathfrak g}\) i \(u_{S_i}\) odnosenje (1) drži po jednoj straně, a (2) drži polno. Najprvo
@@ -28070,7 +28070,7 @@ S pogledom na §3 trěba ješče zamětiti, že prěhod od \(\mathrm{K}\) k \(\b
 
 \subsection*{§II. Maksimalne poredky razloženyh skrěženyh produktov i jih razdělba na oblasti}
 
-Od nyně nehaj \(\Omega\) jest konečno algebraično čislovo polje, \(\mathrm{K}\) razložena algebra \(n\)-togo stepena nad \(\Omega\), a \(k\) Galoisovo ili ne-Galoisovo maksimalno komutativno podpolje, to jest \(\mathrm{K}=k\mathrm{E}_{\mathfrak g}k\). Nehaj \(a,\bar a\) znači paru komplementarnyh konečnyh \(o\)-modulov iz \(k\), pri čem \(o\) jest glavny poredok od \(\Omega\), a \(\oo\) glavny poredok od \(k\). Struktura maksimalnyh poredkov iz \(\mathrm{K}\) relativno k \(k\) opisana jest slědujučimi teoremami.
+Od nyně nehaj \(\Omega\) jest konečno algebraično čislovo polje, \(\mathrm{K}\) razložena algebra \(n\)-togo stepena nad \(\Omega\), a \(k\) Galoisovo ili ne-Galoisovo maksimalno komutativno podpolje, to jest \(\mathrm{K}=k\mathrm{E}_{\mathfrak g}k\). Nehaj \(\mathfrak a,\widetilde{\mathfrak a}\) znači paru komplementarnyh konečnyh \(o\)-modulov iz \(k\), pri čem \(o\) jest glavny poredok od \(\Omega\), a \(\oo\) glavny poredok od \(k\). Struktura maksimalnyh poredkov iz \(\mathrm{K}\) relativno k \(k\) opisana jest slědujučimi teoremami.
 
 \paragraph{Teorem 1.}
 Modulny produkt
@@ -28120,7 +28120,7 @@ Osoblivo transformacija maksimalnyh poredkov glavnoj oblasti, to jest oblasti vs
 \]
 kde \(\mathfrak a\) i \(\mathfrak b\) sut idealy iz \(k\). Drugymi slovami: ako \(\mathcal L\) jest lěvy ideal maksimalnogo poredka glavnoj oblasti i \(o\) jest vsebovano v pravom poredku od \(\mathcal L\), togda \(\mathcal L\) jest razširjenje \(\mathfrak o\)-ideala.
 
-Dokazy opirajut se na prěhod k pojedinym městam. Dostatočno jest vsaky raz prěhoditi k prstenu drobov po \(p\), pri čem \(p\) běži prěz vse proste idealy iz \(\Omega\). Ako \(\mathcal C\) jest libovoljny \(\oo\)-modul iz \(\mathrm{K}\), togda kako komponenta \(\mathcal C_p\) označaje se razširjeny modul \(\mathcal Co_p\). Togda drži:
+Dokazy opirajut se na prěhod k pojedinym městam. Dostatočno jest vsaky raz prěhoditi k prstenu drobov po \(p\), pri čem \(p\) běži prěz vse proste idealy iz \(\Omega\). Ako \(\mathcal C\) jest libovoljny \(o\)-modul iz \(\mathrm{K}\), togda kako komponenta \(\mathcal C_p\) označaje se razširjeny modul \(\mathcal Co_p\). Togda drži:
 
 \paragraph{Lema.}
 \(\mathcal C\) jest prěsěk vsih razširjenyh modulov \(\mathcal C_p\). Zato že ako \(w\) leži v \(\mathcal C_p\), togda jest \(\sigma\in\oo\), ne dělimo prěz \(p\), tako že \(\sigma w\in\mathcal C\). Ako \(w\) leži v prěsěku vsih \(\mathcal C_p\), i \(g\) označaje ideal vsih \(\sigma\in\oo\) s \(\sigma w\in\mathcal C\), togda \(g\) ne može byti dělimy prěz nikako \(p\); zato \(g=o\). Lema ne prědpoklada najvyšši rang modula.
@@ -28129,18 +28129,18 @@ Dokazy opirajut se na prěhod k pojedinym městam. Dostatočno jest vsaky raz pr
 Vsaky modul jest oprěděljen svojimi komponentami. Ako \(\mathcal D\) jest pravi nadmodul od \(\mathcal C\), togda prinajmenje jedno \(\mathcal D_p\) jest pravi nadmodul od \(\mathcal C_p\). Osoblivo, ako \(\mathcal M\) jest poredok v \(K\) i vse komponenty \(\mathcal M_p\) sut maksimalne poredky po \(o_p\), togda i \(\mathcal M\) jest maksimalny poredok.
 
 \paragraph{Dokaz teorema 1.}
-\(\mathcal O_a\) jest poredok, zato že \(\mathcal O_a\) jest konečny \(\oo\)-modul najvyššego ranga. Dalej
+\(\mathcal O_a\) jest poredok, zato že \(\mathcal O_a\) jest konečny \(o\)-modul najvyššego ranga. Dalej
 \[
         \mathcal O_a^2
         =\bar aE_\Gg a\,\bar aE_\Gg a
         =\bar aE_\Gg a\,\Sp(a\bar a)
         \subseteq \bar aE_\Gg a=\mathcal O_a.
 \]
-Da pokazati maksimalnost, po poslědici dostatočno jest pokazati maksimalnost vsakoj komponenty. Kako \(o_p\) jest prsten glavnyh idealov, \(\mathfrak a_p\) i \(\bar a_p\) imajut nezavisne komplementarne bazy \(a_1,\ldots,a_n\) i \(\bar a_1,\ldots,\bar a_n\). Produkty \(\bar a_i\mathrm{E}_{\mathfrak g} a_k\) tvoret po §1 matrične jedinice; zato
+Da pokazati maksimalnost, po poslědici dostatočno jest pokazati maksimalnost vsakoj komponenty. Kako \(o_p\) jest prsten glavnyh idealov, \(\mathfrak a_p\) i \(\widetilde{\mathfrak a}_p\) imajut nezavisne komplementarne bazy \(a_1,\ldots,a_n\) i \(\widetilde a_1,\ldots,\widetilde a_n\). Produkty \(\widetilde a_i\mathrm{E}_{\mathfrak g} a_k\) tvoret po §1 matrične jedinice; zato
 \[
         \mathcal O_{a,p}=\sum_{i,k}(\bar a_iE_\Gg a_k)\oo_p
 \]
-jest maksimalny. Kako \(\mathcal O_a\) jest maksimalny, slěduje takože \(\Sp(a\bar a)=\oo\).
+jest maksimalny. Kako \(\mathcal O_a\) jest maksimalny, slěduje takože \(\Sp(\widetilde{\mathfrak a}\mathfrak a)=o\).
 
 \paragraph{Dokaz teorema 2.}
 Iz pravila slěda slěduje:
@@ -28489,7 +28489,7 @@ Vsaky ideal iz \(\mathfrak K\) jest ideal suženja svojego razširjenja v \(\mat
 
 Označimo
 \[
-        \mathfrak B^{(i)}=\{\ldots,x-\xi^{(i)},\ldots\}
+        \mathfrak P_{\mathsf{K}^{(i)}}^{(i)}=\{\ldots,x-\xi^{(i)},\ldots\}
 \]
 konjugovane razlikove ideale i
 \[
@@ -28537,8 +28537,8 @@ Iz togo slěduje: ako \(B\) jest absolutny modul v \(\mathfrak K\), i \(B^{(i)}\
 \paragraph{4. Komplementarne bazy.}
 Vsakoj \(\mathsf{P}\)-bazi \(t_1,\ldots,t_n\) od \(\mathfrak K\) jest prirědžena komplementarna baza \(T_1,\ldots,T_n\). K njej izomorfne bazy \(\mathsf{A}_1^{(i)},\ldots,\mathsf{A}_n^{(i)}\) od \(\mathsf{K}^{(i)}\) sut oprěděljene koeficientami komponentov jedinice:
 \[
-        e^{(i)}=A_1^{(i)}t_1+
-        \cdots+A_n^{(i)}t_n.
+        e^{(i)}=\mathsf{A}_1^{(i)}t_1+
+        \cdots+\mathsf{A}_n^{(i)}t_n.
 \]
 Ako \(\alpha_1^{(i)},\ldots,\alpha_n^{(i)}\) sut konjugovane bazy odgovarjajuče \(t_j\), togda matrice
 \[
