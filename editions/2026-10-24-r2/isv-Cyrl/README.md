@@ -4,15 +4,15 @@
 
 ## Основны текст
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r3/01-noether-isv-Cyrl-base.pdf)
-2. [Редаговатељне източники LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r3/02-noether-isv-Cyrl-base.tex)
-3. [Полны архив източников](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r3/03-noether-isv-Cyrl-base-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/01-noether-isv-Cyrl-base.pdf)
+2. [Редаговатељне източники LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/02-noether-isv-Cyrl-base.tex)
+3. [Полны архив източников](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/03-noether-isv-Cyrl-base-sources.zip)
 
 ## Текст с редакцијными поправками
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r3/04-noether-isv-Cyrl-emendations.pdf)
-2. [Редаговатељне източники LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r3/05-noether-isv-Cyrl-emendations.tex)
-3. [Полны архив източников](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r3/06-noether-isv-Cyrl-emendations-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/04-noether-isv-Cyrl-emendations.pdf)
+2. [Редаговатељне източники LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/05-noether-isv-Cyrl-emendations.tex)
+3. [Полны архив източников](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/06-noether-isv-Cyrl-emendations-sources.zip)
 
 Прєклад створјены AI. Поправкы и типографија: OpenAI Codex — GPT-6 Astra, усилије Ultra. Авторство Emmy Noether, M. Deuringa и названых соавторов оставаје охрањено. Издатељу не приписываје се чловєчскы прєклад или независна чловєчска научна рецензија.
 
