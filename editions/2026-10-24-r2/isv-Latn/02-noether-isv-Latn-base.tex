@@ -3289,7 +3289,7 @@ Polny sistem ostatkov po $\mathfrak{q}$ dany jest polinomami
 \[
 h_{t},\ h_{t}y,\ldots,h_{t}y^{(g_{t})-1};\ \ldots;\
 h_{i},\ h_{i}y,\ldots,h_{i}y^{(g_{i})-1};\ \ldots;\
-h_{1},\ h_{1}y,\ldots,h_{1}y^{(g_{1})-1}.
+h_{1},\ h_{1}y,\ldots.\ h_{1}y^{(g_{1})-1}.
 \]
 Pri tom vsaky raz
 $h_{i}, h_{i}y, \ldots, h_{i}y^{(g_{i})-1}$ daje polny
@@ -5182,8 +5182,8 @@ Po analognom računu kako v \S\ 9 slěduje:
 Po odgovarjajučem računu kako vyše slěduje:
 \begingroup\small
 \[
-((a\A\nu x)^4)=[(a\A u)^4]_{\nu x^4}
-=\frac{21}{10}\theta_\eta^2(\vartheta\eta x)^2+\frac7{10}s_\vartheta^2-\frac3{10}g
+(a\A\widehat{\nu x})^4=[(a\A u)^4]\widehat{\nu x}^4
+=\frac{21}{10}\theta_\eta^2(\vartheta\eta x)^2+\frac7{10}s_\vartheta^2-\frac3{10}g,
 \quad(\text{po formuli (3.)}\mathrm{c}),
 \]
 \[
@@ -6712,12 +6712,12 @@ E) Iz (30.)c slěduje redukcija razkladnogo reda form $(a_\sigma su)^2$:
 \[
 \begin{aligned}
 0&=a_\eta(Hsu)^2(as\widehat{\nu x})^2\\
-&=a_\eta(Hsu)^2(a\widehat{\nu}\eta u)^2
-  +2a_\eta(a\widehat{\nu}\eta u)(\widehat{\nu}\eta su)(Hsu)^2\\
+&=a_\eta(Hsu)^2(a\widehat{\nu\eta}u)^2
+  +2a_\eta(a\widehat{\nu\eta}u)(\widehat{\nu\eta}su)(Hsu)^2\\
 &=\frac13a_\sigma(asu)^2,\\
 0&=a_\eta a_{\nu}(Hsu)^2(as\widehat{\nu x})(asu)\\
-&=a_\eta(a\widehat{\nu}\eta u)^2(Hsu)^2(asu)
-  +a_\eta(a\widehat{\nu}\eta u)(\widehat{\nu}\eta su)(Hsu)^2(asu)\\
+&=a_\eta(a\widehat{\nu\eta}u)^2(Hsu)^2(asu)
+  +a_\eta(a\widehat{\nu\eta}u)(\widehat{\nu\eta}su)(Hsu)^2(asu)\\
 &=\frac13a_\sigma(asu)^3.
 \end{aligned}
 \]
@@ -7682,8 +7682,8 @@ V slučaju 2) operaciju (23.) takože možno priměniti $\tau$ razov, no operaci
 \begin{aligned}
 &\pair{q_\rho A^\sigma}{p_\tau B_{\rho+\sigma-\tau}}\\
 &\quad=(-1)^{\rho\sigma}
-\pair{q_{\rho-(\tau-\sigma)}^{(\sigma+1\ldots\tau)}B^{n-\rho+\tau-\sigma}}
-{A_{n-\sigma}p_{\tau-(\tau-\sigma)}^{(\sigma+1\ldots\tau)}}\\
+(q_{\rho-(\tau-\sigma)}^{(\sigma+1\ldots\tau)}B^{n-\rho+\tau-\sigma})
+(A_{n-\sigma}p_{\tau-(\tau-\sigma)}^{(\sigma+1\ldots\tau)})\\
 &\qquad+\sum_{i_1=1}^{\sigma}(-1)^{\rho(i_1-1)}
 \pair{q_{\rho-1}^{(i_1)}
 [A_{n-\sigma}y^{(1)}\cdots y^{(i_1-1)}]^{\sigma-i_1+1}}
@@ -7766,8 +7766,8 @@ Ako v slučaju 4) v (25.) specializujemo $\tau$ do $\sigma+\rho$, togda dobyvaje
 \end{equation}
 kde $\eps_{i_\rho}=(-1)^{\delta_{i_\rho}}$, $\delta_{i_\rho}=\rho(\rho+1)/2+i_1+\cdots+i_\rho$. To jest občejša forma teoremy produkta za matrice než (16.) i (17.) i slěduje iz Laplacevogo razvitja determinanta produktnoj matrice
 \[
- \sum\pm(v^{(1)}y^{(1)})\cdots(v^{(\rho)}y^{(\rho)})
- (a^{(1)}y^{(\rho+1)})\cdots(a^{(\sigma)}y^{(\rho+\sigma)}).
+ \sum\pm(v^{(1)}\,|\,y^{(1)})\cdots(v^{(\rho)}\,|\,y^{(\rho)})
+ (a^{(1)}\,|\,y^{(\rho+1)})\cdots(a^{(\sigma)}\,|\,y^{(\rho+\sigma)}).
 \]
 Občejša teorema produkta jest zato sostavjena iz identičnostij (20.), odnosno (21.), i tym jest objasnjeno vyděljenje specialnoj formy (16.), (17.).
 
@@ -7943,8 +7943,8 @@ Iz simboličnogo procesa kontrakcije v poznaty sposob dobyvajut se invariantne p
 \emph{Teorema VI:} Vse invariantne tvorjenja libovoljnyh osnovnyh form nastavajut iz njih prěz povtorno priměnjenje simboličnogo procesa kontrakcije (41.) ili takože invariantnyh procesov diferenciacije:
 \begin{equation}
  \left(q_{n-\sigma-\lambda}\frac{\partial}{\partial p_\sigma}
- \middle|\frac{\partial}{\partial q_{n-\tau}}p_{\tau-\lambda}\right),
- \qquad(\sigma\ge\tau,\ \lambda=1,2,\ldots,\min(\tau,n-\tau)).
+ \middle|\frac{\partial}{\partial q_{n-\tau}}p_{\tau-\lambda}\right).
+ \qquad(\sigma\ge\tau,\ \lambda=1,2,\ldots,\min(\sigma,n-\tau))
 \tag{45}
 \end{equation}
 Trěba ješče zamětiti, že pri vsakoj kontrakciji (41.) vkupna vaga formy, to jest suma vag pojedinyh redov prěměnnyh (sr. \S\ 1), umenšaje se za pozitivno čislo $2(\lambda^2+\lambda(\sigma-\tau))$. Iz toga, nezavisno od občego dokaza konečnosti, slěduje konečnost reda form, to jest cělosti invariantnyh tvorjenij danej osnovnoj formy, linearnyh v koeficientah.\footnote{Sr. Clebsch, a. a. O. \S\ 11 i 12. Konečnost sistema elementarnyh kovariantov.}
@@ -8981,7 +8981,7 @@ sut algebraični elementi po odnošenju k
 \]
 Zato polje, nastavajuče prěz adjunkciju $x_1,\ldots,x_\rho$,
 \[
-  \Omega\bigl(g_1^*,\ldots,g_\rho^*,x_1,
+  \Omega\bigl(g_1^*,\ldots,g_\rho^*;\ x_1,
   \ldots,x_\rho\bigr)=\Omega(x_1,\ldots,x_\rho),
 \]
 jest konečno algebraično razširjenje nad $\Omega(g_1^*,\ldots,g_\rho^*)$. Po znanoj teoremi\footnote{\foreign{Vgl. etwa} \foreign{Weber}, Lehrbuch d. Algebra 1, \S\ 144 (1. Aufl.) oder \S\ 55 (kleine Ausgabe).} $\Kfield^*_{\rho\rho}$ kako medžupolje medžu $\Omega(g_1^*,\ldots,g_\rho^*)$ i $\Omega(x_1,
@@ -9116,7 +9116,7 @@ identične sut s elementarnymi simetričnymi funkcijami redov veličin:
 \begin{array}{cccc}
   x_1 & x_2 & \cdots & x_\rho\\
   x_1^{(1)} & x_2^{(1)} & \cdots & x_\rho^{(1)}\\
-  \vdots & \vdots & & \vdots\\
+  \vdots & & & \\
   x_1^{(i-1)} & x_2^{(i-1)} & \cdots & x_\rho^{(i-1)}.
 \end{array}
 \tag{5}
@@ -9313,7 +9313,7 @@ Po definiciji $\Kfield_{n\rho}$ egzistujut relacije
 \end{aligned}
 \tag{2}
 \end{equation}
-kde $\gamma_1,\ldots,r_\sigma$ sut racionalne funkcije svojih argumentov, i
+kde $\gamma_1,\ldots,\gamma_\sigma$ sut racionalne funkcije svojih argumentov, i
 \begin{equation}
   g_1(x),\ldots,g_\lambda(x),\ldots,
   g_\mu(x),\ldots,g_\nu(x)
@@ -9834,7 +9834,7 @@ kde $L^*(x)$ prěběgaje vse polinomy iz $\Jdom^*_{\rho\rho}$. Homogenizujuči p
 \end{equation}
 pri čem, ako $H^*(x)$ označaje členy najvyššej dimenzije od $L^*(x)$, obstojaje odnos
 \begin{equation}
-  H^*(x)\equiv M^*(x)\pmod{x_0}.
+  H^*(x)\equiv M^*(x)\ \text{mod.}\ x_0.
 \tag{9}
 \end{equation}
 
@@ -12719,7 +12719,7 @@ Vse funkcije, ktore nastupajut niže, trěba razgledati analitičnymi ili prinaj
 
 Pod «grupoj transformacij», kako vědomo, razuměje se taka sistema transformacij, že k vsakoj transformaciji obstaja obratna transformacija sodrživana v sistemě, i že složenje kakihkoli dvoh transformacij sistemy ponovno naleži sistemě. Grupa nazyvaje se konečna kontinuirna \(\G_\varrho\), ako jej transformacije sodrživane sut v najobčej transformaciji, ktora analitično zavisi od \(\varrho\) sučstvenyh parametrov \(\eps\) (to jest ti \(\varrho\) parametrov ne smět se prědstaviti kako \(\varrho\) funkcij od menšego čisla parametrov). Odgovarjajuče pod beskonečnoj kontinuirnoj \(\G_{\infty\varrho}\) razuměje se grupa, čije najobčejše transformacije analitično ili prinajmenje kontinuirno i konečno mnogo raz kontinuirno diferencirujemo zaviset od \(\varrho\) sučstvenyh libovoljnyh funkcij \(p(x)\) i jih izvodnyh. Medžu oběma stoji grupa zaviseča od beskonečno mnogyh parametrov, ale ne od libovoljnyh funkcij. Nakonec směšana grupa označaje taku, ktora zavisi i od libovoljnyh funkcij, i od parametrov.\footnote{Li v \emph{\foreign{Grundlagen für die Theorie der unendlichen kontinuierlichen Transformationsgruppen}} (\foreign{Ber. d. K. Sächs. Ges. der Wissensch. 1891}) oprědělja beskonečnu kontinuirnu grupu kako grupu transformacij, čije transformacije dane sut najobčejšimi rěšenjami sistemy parcialnyh diferencialnyh uravnenij, ako ty rěšenja ne zaviset samo od konečnogo čisla parametrov. Tym dobyva se jeden iz vyše ukazanyh tipov, različen od konečnoj grupy; obratno, graničny slučaj beskonečno mnogyh parametrov ne mora potrěbno izpolniti sistem diferencialnyh uravnenij.}
 
-Nehaj \(x_1,\ldots,x_n\) sut nezavisne prěměnne, a \(u_1(x),\ldots,u_\mu(x)\) funkcije zaviseče od njih. Ako \(x\) i \(u\) podloži se transformacijam neke grupy, to zaradi prědpokladanoj obratnosti transformacij medžu transformovanymi veličinami ponovno mora byti ravno \(n\) nezavisnyh --- \(y_1,\ldots,y_n\); ostale od njih zaviseče označimo \(v_1(y),\ldots,v_\mu(y)\). V transformacijah mogut nastupati takože izvodne \(u\) po \(x\), to jest \(\frac{\p u}{\p x},\ \frac{\p^2u}{\p x^2},\ \cdots\).\footnote{Ja, koliko možno takože pri sumovanju, izostavljam indeksy; napr. pišu \(\frac{\p^2u}{\p x^2}\) za \(\p^2u_\nu/\p x_i\p x_k\) i t. d.} Funkcija nazyvaje se invariantoju grupy, ako obstaja relacija:
+Nehaj \(x_1,\ldots,x_n\) sut nezavisne prěměnne, a \(u_1(x),\ldots,u_\mu(x)\) funkcije zaviseče od njih. Ako \(x\) i \(u\) podloži se transformacijam neke grupy, to zaradi prědpokladanoj obratnosti transformacij medžu transformovanymi veličinami ponovno mora byti ravno \(n\) nezavisnyh --- \(y_1,\ldots,y_n\); ostale od njih zaviseče označimo \(v_1(y),\ldots,v_\mu(y)\). V transformacijah mogut nastupati takože izvodne \(u\) po \(x\), to jest \(\frac{\p u}{\p x},\ \frac{\p^2u}{\p x^2},\ \cdots\).\footnote{Ja, koliko možno takože pri sumovanju, izostavljam indeksy; napr. pišu \(\frac{\p^2u}{\p x^2}\) za \(\frac{\p^2u_\nu}{\p x_i\p x_k}\) i t. d.} Funkcija nazyvaje se invariantoju grupy, ako obstaja relacija:
 \[
 P\!\left(x,u,\frac{\p u}{\p x},\frac{\p^2u}{\p x^2},\cdots\right)
  =
@@ -12777,13 +12777,13 @@ Za prosty integral i \(\varkappa\) izvodnyh od \(u\), (3) jest dano formulom:
 +\binom{2}{1}\frac{\p f}{\p u_i^{(2)}}\delta u_i^{(1)}
 +\cdots+
 \binom{\varkappa}{1}\frac{\p f}{\p u_i^{(\varkappa)}}\delta u_i^{(\varkappa-1)}
-\right]\Bigg\}\\
+\right)\Bigg\}\\
 &+\frac{d^2}{d x^2}\Bigg\{\sum_i\left(
 \binom{2}{2}\frac{\p f}{\p u_i^{(2)}}\delta u_i
 +\binom{3}{2}\frac{\p f}{\p u_i^{(3)}}\delta u_i^{(1)}
 +\cdots+
 \binom{\varkappa}{2}\frac{\p f}{\p u_i^{(\varkappa)}}\delta u_i^{(\varkappa-2)}
-\right]\Bigg\}\\
+\right)\Bigg\}\\
 &+\cdots
 +(-1)^\varkappa\frac{d^\varkappa}{d x^\varkappa}
 \left\{\sum\binom{\varkappa}{\varkappa}
@@ -14864,7 +14864,7 @@ zato že poslědnji modul po (13) sodrživaje takože polinom
 \]
 Odpovedajuče izrazy dobyvajut se za \(\mM_2,\ldots,\mM_{k-1}\). Dalej moduly \(\mM_1,\ldots,\mM_k\) sut vzajemno proste, zato že po (14)
 \[
- \frac{1}{k-1}\Bigl((A_2+\cdots+A_k)+(A_1+A_3+\cdots+A_k)+\cdots+(A_1+\cdots+A_{k-1})\Bigr)\equiv1\pmod{\mM}.
+ \frac{1}{k-1}\Bigl(A_2+\cdots+A_k+A_1+A_3+\cdots+A_k+\cdots+A_1+\cdots+A_{k-1}\Bigr)\equiv1\pmod{\mM}.
 \]
 Kromě togo ony tvoret totalno vzajemno prostu sistemu, to jest najmenše obče mnogokratno kakyh-koli iz njih jest vzajemno prosto s najmenym občim mnogokratnym ostalyh.\footnote{To jest obobčenje pojma, ktory vvel \emph{\foreign{Loewy}}.} To slěduje neposrědnje, ako v formulě (12) sogrupujemo sumandy v dvě vhodne grupy.
 
@@ -14964,7 +14964,7 @@ Nyně prihodimo k dokazu slědujučego teorema.
 
 \textbf{Teorem IV.} \textit{Vsaka grupa ostatkov može byti prědstavjena kako suma konečno mnogyh ireducibilnyh sostavnyh česti; zato po Teoremu II vsaky modul može byti prědstavjen kako najmenše obče mnogokratno konečno mnogyh ireducibilnyh modulov, ktore tvoret totalno vzajemno prostu sistemu.}
 
-Za dokaz nehaj protivno \(\mG\) bude suma beskonečno mnogyh sostavnyh česti \(\mU_1,\mU_2,\ldots\) (sravni \S~5), i nehaj \(\ma_1,\ma_2,\ldots\) budut naležeče jedinice, ktore po oprěděljenju vse sut različne od \(0\). Togda tvorimo sistemu \(\mS\) vsih tyh jedinic; po Dodatku k Teoremu III ona ima konečny bazis \(\ma_{i_1},\ldots,\ma_{i_v}\) s \(i_1<\cdots<i_v\). Nehaj nyně \(\mu>i_v\). Togda imaje město
+Za dokaz nehaj protivno \(\mG\) bude suma beskonečno mnogyh sostavnyh česti \(\mathfrak{A}_1,\mathfrak{A}_2,\ldots\) (sravni \S~5), i nehaj \(\mathfrak{a}_1,\mathfrak{a}_2,\ldots\) budut naležeče jedinice, ktore po oprěděljenju vse sut različne od \(0\). Togda tvorimo sistemu \(\mS\) vsih tyh jedinic; po Dodatku k Teoremu III ona ima konečny bazis \(\mathfrak{a}_{i_1},\ldots,\mathfrak{a}_{i_v}\) \((i_1<\cdots<i_v)\). Nehaj nyně \(\mu>i_v\). Togda imaje město
 \[
  \ma_\mu=\mx_1\ma_{i_1}+\cdots+\mx_v\ma_{i_v}.
 \]
@@ -16100,7 +16100,7 @@ prvo uslovje jest togda izpolnjeno; ono jest zato najkratše prědstavjenje, i t
 \[
  \ideal B_i\supset \ideal B_i'\supset \ideal B_i''\supset\cdots\supset \ideal B_i^{(\nu)}\supset\cdots,
  \qquad
- \ideal M=[\ideal U_i,\ideal B_i]=[\ideal U_i,\ideal B_i']=\cdots=[\ideal U_i,\ideal B_i^{(\nu)}]=\cdots,
+ \ideal M=[\ideal U_i,\ideal B_i]=[\ideal U_i,\ideal B_i']=\cdots=[\ideal U_i,\ideal B_i^{(\nu)}],\ldots,
 \]
 kde vsako \(\ideal B_i^{(\nu)}\) jest vlastny dělitelj od neposrědnje poprědnogo ideala. Togda po tom teoremu cěp \(\ideal B_i,\ideal B_i',\ldots,\ideal B_i^{(\nu)},\ldots\) mora prěkinuti se v konečnom; v prědstavjenju \(\ideal M=[\ideal A_i,\ideal B_i^{(n)}]\) ideal \(\ideal B_i^{(\nu)}\) zato ne može byti zaměnjen svojim vlastnym děliteljem. To imaje město tym bole, ako se \(\ideal A_i\) zaměni vlastnym děliteljem. Ako se zato procedura priměni po redu na vsako \(\ideal B_i\), pri čem se vsakokrat komplement tvori s už redukovanymi \(\ideal B\), nastava redukovano prědstavjenje.\footnote{Že tako prědstavjenje ne jest jednoznačno definirano danym prědstavjenjem, pokazuje poprědny priměr. Za \((x^2,xy)=[(x),(x^2,xy,y^\lambda)]\), kde \(\lambda\ge2\), pored \([(x),(x^2,y)]\) takože \([(x),(x^2,\mu x+y)]\) za libovoljno \(\mu\) jest redukovano prědstavjenje.}
 
@@ -16337,7 +16337,7 @@ zato po definiciji \(\ideal Q\):
 \[
  \ideal Q\equiv0(\ideal P);\qquad \ideal P^\varrho\equiv0(\ideal Q);
  \qquad
- \ideal Q\equiv0(\ideal B),\qquad \ideal B^\sigma\equiv0(\ideal Q)
+ \ideal Q\equiv0(\ideal B);\qquad \ideal B^\sigma\equiv0(\ideal Q)
 \]
 slěduje:
 \[
@@ -16897,7 +16897,7 @@ Za ty operacije sut pravdive slědujuče zakony:
 \end{enumerate}
 Iz tyh uslovij slěduje znano egzistencija nulovogo elementa i važnost distributivnogo zakona takože za spoj odčitanja i množenja:
 \[
- (a-b)\gamma=a\gamma-b\gamma,\qquad c(\alpha-\beta)=c\alpha-c\beta,
+ (a\mathbin{\dot{-}}b)\cdot\gamma=a\cdot\gamma-b\cdot\gamma;\qquad c\cdot(\alpha\mathbin{\underset{\cdot}{-}}\beta)=c\cdot\alpha-c\cdot\beta,
 \]
 kde \((\dot{-})\) znači odčitanje v \(\Sigma\). Ako \(\Sigma\) sodrživaje jedinicu \(\varepsilon\), togda ravnost \(\varepsilon\cdot\alpha=\alpha\) mora byti pravdiva za vsaky element \(\alpha\) iz \(T\).
 
@@ -17169,8 +17169,8 @@ Proste idealy oblasti sut dane prěz \(\ideal P_0=\ideal O=(2)\) i \(\ideal P=(2
 \]
 one sut Jednočasno nerazložime idealy, i po skazanom o prostyh idealah vsake dvě prinaležeče različnym neparnym prostym čislam sut vzajemno relativno proste, ale nijedno \(\ideal Q\) ne jest relativno prosto k nekakom \(\ideal Q_{\varrho_0}\).\footnote{V samoj stvari, iz \(2b\cdot2p_1^{\varrho_1}\eqzero{2p_2^{\varrho_2}}\) za neparne \(p_1\ne p_2\) vsegda slěduje \(2b\eqzero{2p_2^{\varrho_2}}\); iz \(2b\cdot2p^\varrho\eqzero{2\cdot2^{\varrho_0}}\) pak samo \(2b=2\cdot2^{\varrho_0-1}\pmod{2\cdot2^{\varrho_0}}\).} \(\ideal Q_0\) sut zato jedine neizolovane primarne idealy. Jednoznačnomu razloženju \(a\) na stepeni prostyh čisel odpovědaje jednoznačno prědstavjenje ideala \((2a)\) prěz največše primarne, Jednočasno nerazložime idealy:
 \[
- (2a)=[(2\cdot2^{e_0}),(2p_1^{e_1}),
-\ldots,(2p_\mu^{e_\mu})].
+ (2a)=[(2\cdot2^{\varrho_0}),(2p_1^{\varrho_1}),
+\ldots,(2p_\mu^{\varrho_\mu})].
 \]
 Tako sut tu, v protivnosti k priměram iz polinomnoj oblasti, takože neizolovane največše primarne idealy jednoznačno oprěděljene. Za \(\varrho_0=0\) ide Jednočasno o prědstavjenje prěz vzajemno relativno proste idealy, medžutym kako za \(\varrho_0>0\) ideal jest relativno-prosto-nerazložimy.
 
@@ -18867,7 +18867,7 @@ kde $\bar{x}_{1\nu},\ldots,\bar{x}_{i\nu}$ vsak raz označaje sistem prinaležny
 
 \textbf{11. Proste idealy i primarne idealy.} Ideal $\frakp$ nazyva se prost ideal, ako iz dělimosti produkta prěz $\frakp$ slěduje dělimost prinajmenje jednogo faktora; $\frakq$ nazyva se primarny ideal --- abo primarny --- ako iz dělimosti produkta prěz $\frakq$ slěduje dělimost jednogo faktora abo potegy vsakogo faktora. V znakah:
 \[
- a\not\equiv0\pmod{\frakp},\quad b\not\equiv0\pmod{\frakp}\quad\hbox{slěduje}\quad ab\not\equiv0\pmod{\frakp};
+ \mathfrak{a}\not\equiv0\pmod{\mathfrak{p}},\quad \mathfrak{b}\not\equiv0\pmod{\mathfrak{p}}\quad\hbox{slěduje}\quad \mathfrak{a}\mathfrak{b}\not\equiv0\pmod{\mathfrak{p}};
 \]
 \[
  a\not\equiv0\pmod{\frakq},\quad b^x\not\equiv0\pmod{\frakq}\ \hbox{za vsaku potegu }x\quad\hbox{slěduje}\quad ab\not\equiv0\pmod{\frakq}.
@@ -18876,7 +18876,7 @@ K vsakomu primarnomu idealu $\frakq$ jest jedin i samo jedin asociovany prost id
 
 \textbf{12. Teorem razloženja.} Prědstavjenje $\fraka=[\frakq_1,\ldots,\frakq_\alpha]$ ideala kako najmenše obče mnogokratno nazyva se najkratše, ako ni jeden $\frakq$ ne vhodi v najmenše obče mnogokratno ostalyh --- v svoj komplement; ono nazyva se prědstavjenje prěz največše primarne komponenty, ako vsaky $\frakq$ jest primarny, ale najmenše obče mnogokratno libovoljnyh dvoh $\frakq$ ne jest primarno. Vsaky ideal dopušča najkratše prědstavjenje prěz konečno mnogo največših primarnyh komponentov; pri dvoh različnyh takyh prědstavjenjah soglašajut se čislo komponentov i asociovane proste idealy, vse medžusobno različne. Tak jednoznačno oprěděljene proste idealy budut nazyvane prostymi idealami abo asociovanymi prostymi idealami ideala (Idealtheorie, teorem IX).
 
-\textbf{13. Izolovane komponenty razloženja.} Ideal $\frakr=[\frakq_{i_1},\ldots,\frakq_{i_\tau}]$ nazyva se izolovany komponent razloženja od $\fraka$, ako $\frakq_i$ nastupajut v prinajmenje jednom najkratšem prědstavjenju $\fraka$ prěz največše primarne komponenty i izpolnjajut uslovje, že ni jeden iz jih asociovanyh prostyh idealov ne vhodi v někoj iz ostalyh prostyh idealov od $\fraka$. Izolovane komponenty razloženja sut jednoznačno oprěděljene svojimi prostymi idealami; osoblivo sut izolovane največše primarne komponenty jednoznačno oprěděljene (Idealtheorie, teorem XIII).
+\textbf{13. Izolovane komponenty razloženja.} Ideal $\frakr=[\frakq_{i_1},\ldots,\frakq_{i_\tau}]$ nazyva se izolovany komponent razloženja od $\fraka$, ako $\frakq_{i_\lambda}$ nastupajut v prinajmenje jednom najkratšem prědstavjenju $\fraka$ prěz največše primarne komponenty i izpolnjajut uslovje, že ni jeden iz jih asociovanyh prostyh idealov ne vhodi v někoj iz ostalyh prostyh idealov od $\fraka$. Izolovane komponenty razloženja sut jednoznačno oprěděljene svojimi prostymi idealami; osoblivo sut izolovane največše primarne komponenty jednoznačno oprěděljene (Idealtheorie, teorem XIII).
 
 \textbf{14. Karakteristika, doskonale i nedoskonale polja, razširjenje prvogo roda.} Polje $\Omega$ nazyva se harakteristiki nul, ako prosto polje, ktoro sodrživaje se v $\Omega$ i vyvodi se iz jedinice, jest tipa polja racionalnyh čisel; harakteristiki $p$, ako to prosto polje jest tipa sistema ostatkovyh klasov po prostom čislu $p$. Polje $\Omega$ nazyva se doskonalo, ako vsaka prosta funkcija s koeficientami iz $\Omega$ v vhodnom razširiteljnem polju razpada se na različne linearne faktory; v protivnom slučaju nazyva se nedoskonalo. Vsako polje harakteristiki nul jest doskonalo; polje harakteristiki $p$ jest doskonalo togda i samo togda, kogda vměstě s vsakym elementom sodrživaje takože jego $p$-ti korenj. Prosta funkcija v nedoskonalom polju jest cěla funkcija $r$-go stepena od $x^{p^f}$ i razpada se v vhodnom razširiteljnem polju na $p^f$-te potegy $r$ različnyh linearnyh faktorov; $f$ nazyva se eksponent. Prosta funkcija nazyva se prvogo roda, ako v vhodnom razširiteljnem polju razpada se na različne linearne faktory, to jest ako eksponent $f$ jest nul; razširjenje nazyva se prvogo roda, ako vsaky element jest prvogo roda, to jest jest nulj proste funkcije prvogo roda. Vsako razširjenje, ktoro nastavaje prisojedinjenjem elementa prvogo roda, jest prvogo roda; pri doskonalyh poljah sut samo razširjenja prvogo roda (Steinitz, § 11 i § 13).
 
@@ -18895,9 +18895,9 @@ V samoj stvari, nehaj bude prědpoloženo: $\fraka\not\equiv0\pmod{\frakp}$, $\f
 \]
 i musi byti tako, že prinajmenje jedin $a_i(y)$ i prinajmenje jedin $b_i(y)$ ne jest dělimy prěz $\bar{\frakp}$. Nehaj napr. $\bar a_r(y)\not\equiv0(\bar{\frakp})$, $\bar b_s(y)\not\equiv0(\bar{\frakp})$ budut odgovarjajuče najvyšše členy pri někojim leksikografičnom redu na $T$; togda takože $\bar a_r(y)\bar b_s(y)\not\equiv0(\bar{\frakp})$, i zato $a(x)b(x)\not\equiv0(\frakp)$, a tym $\fraka\frakb\not\equiv0(\frakp)$. S tym $\frakp$ jest dokazany kako prost ideal. Dokaz očevidno opira se na to, že sistem ostatkovyh klasov po prostom idealu tvori prsten bez nulovyh děliteljev; ta vlastnost shranja se pri prisojedinjenju neoprěděljenyh.
 
-Analogično nehaj $\fraka\not\equiv0\pmod{\frakq}$, $\frakb^x\not\equiv0\pmod{\frakq}$ za vsaky pokazatelj $x$; togda iz bytnosti idealnoj bazy slěduje, že mora obstajati $a(x)$ iz $\fraka$ i $b(x)$ iz $\frakb$ tako, že $a(x)\not\equiv0\pmod{\frakq}$, $b(x)^\varkappa\not\equiv0\pmod{\frakq}$ za vsaky pokazatelj $x$: zato že pri protivnom prědpoloženju někoja potega $\frakb$ byla by dělima prěz $\frakq$.
+Analogično nehaj $\fraka\not\equiv0\pmod{\frakq}$, $\frakb^\varkappa\not\equiv0\pmod{\frakq}$ za vsaky pokazatelj $\varkappa$; togda iz bytnosti idealnoj bazy slěduje, že mora obstajati $a(x)$ iz $\fraka$ i $b(x)$ iz $\frakb$ tako, že $a(x)\not\equiv0\pmod{\frakq}$, $b(x)^\varkappa\not\equiv0\pmod{\frakq}$ za vsaky pokazatelj $\varkappa$: zato že pri protivnom prědpoloženju někoja potega $\frakb$ byla by dělima prěz $\frakq$.
 
-Položivši $a(x)b(x)=c(x)$, nehaj $\fraka^*,\frakb^*,\frakc^*$ označajut idealy po redu vyvedene iz koeficientov $a_j(y),b_j(y),c_j(y)$ od $a(x),b(x),c(x)$. Togda $\frakb^{*x}\not\equiv0\pmod{\bar{\frakq}}$ za vsaky pokazatelj $x$, zato že inako $b(x)^\varkappa$ byla by dělima prěz $\frakq$; zaradi $\fraka^*\not\equiv0(\bar{\frakq})$ mora zato takože $\fraka^*\frakb^{*\lambda}\not\equiv0(\bar{\frakq})$ za vsaku potegu $\lambda$. No po teoremu Dedekinda--Mertensa\footnote{Por. H.-N., str. 63 i prim. 10).} obstaja pokazatelj $\lambda$ takovy, že $\fraka^*\frakb^{*\lambda}\equiv \frakc^*\frakb^{*\lambda-1}$; zato mora byti $\frakc^*\not\equiv0\pmod{\bar{\frakq}}$. To davaje $c(x)\not\equiv0\pmod{\frakq}$ i zato $\fraka\frakb\not\equiv0\pmod{\frakq}$. S tym $\frakq$ jest dokazany kako primarny.
+Položivši $a(x)b(x)=c(x)$, nehaj $\fraka^*,\frakb^*,\frakc^*$ označajut idealy po redu vyvedene iz koeficientov $a_j(y),b_j(y),c_j(y)$ od $a(x),b(x),c(x)$. Togda $\frakb^{*\varkappa}\not\equiv0\pmod{\bar{\frakq}}$ za vsaky pokazatelj $\varkappa$, zato že inako $b(x)^\varkappa$ byla by dělima prěz $\frakq$; zaradi $\fraka^*\not\equiv0(\bar{\frakq})$ mora zato takože $\fraka^*\frakb^{*\lambda}\not\equiv0(\bar{\frakq})$ za vsaku potegu $\lambda$. No po teoremu Dedekinda--Mertensa\footnote{Por. H.-N., str. 63 i prim. 10).} obstaja pokazatelj $\lambda$ takovy, že $\fraka^*\frakb^{*\lambda}\equiv \frakc^*\frakb^{*\lambda-1}$; zato mora byti $\frakc^*\not\equiv0\pmod{\bar{\frakq}}$. To davaje $c(x)\not\equiv0\pmod{\frakq}$ i zato $\fraka\frakb\not\equiv0\pmod{\frakq}$. S tym $\frakq$ jest dokazany kako primarny.
 
 Takože pri prědstavjenju ideala kako najmenšego občego mnogokratnogo možno ograničiti se na transformovane idealy, po slědujučem tvrdženju.
 
@@ -19824,7 +19824,7 @@ Tranzitivny zakon integralnoj zamknjenosti imaje slědujuču formu: ako $R$ jest
 
 Modulny teorem, po ktorom uslovja cěpov se prěnoset, v tu danej upotrěbě nastupaje samo za moduly razširjajučego prstena. Ale zato že dokaz v slučaju občej modulnoj oblasti ostavaje toj samy, taka oblast bude položena v osnovu.
 
-Sistem $M$ elementov $\alpha,\beta\ldots$ nazyvaje se modulna oblast po odnošenju k prstenu $R$, ako v $M$ dane sut dvě operacije, ktore jednoznačno vedut k elementam iz $M$: aditivno spojanje elementov i množenje elementov s elementami iz $R$; ako $\mathsf{M}$ po odnošenju k složenju tvori abelovu grupu, dokole za množenje jest izpolnjen asociativny zakon; i ako distributivny zakon imaje město v oběh formah.\footnote{Srav. \emph{Idealtheorie}, §9.}
+Sistem $\mathsf{M}$ elementov $\alpha,\beta\ldots$ nazyvaje se modulna oblast po odnošenju k prstenu $R$, ako v $\mathsf{M}$ dane sut dvě operacije, ktore jednoznačno vedut k elementam iz $\mathsf{M}$: aditivno spojanje elementov i množenje elementov s elementami iz $R$; ako $\mathsf{M}$ po odnošenju k složenju tvori abelovu grupu, dokole za množenje jest izpolnjen asociativny zakon; i ako distributivny zakon imaje město v oběh formah.\footnote{Srav. \emph{Idealtheorie}, §9.}
 
 Za modulnu oblast očitno ostavajut validne vse definicije modulov dane v §1, 1, ktore ne odnoset se k množenju. Osoblivo $\mathsf{M}$ nazyvaje se konečna modulna oblast, ako obstaja konečno mnogo elementov $\xi_1,\ldots,\xi_k$ iz $\mathsf{M}$ tako, že $\mathsf{M}$ jest ravno modulu vyvedenomu iz $\xi_1,\ldots,\xi_k$, znači sistemu vsih linearnyh form $r_1\xi_1+\ldots+r_k\xi_k$, ako v $R$ egzistuje jediničny element, dokole inače prihodet ješče dodatne členy $n_i\xi_i$.
 
@@ -21176,7 +21176,7 @@ Ako $P$ jest doskonalo polje, togda možliva jest samo polna razložimost prvogo
 %
 \setcounter{footnote}{22}
 
-2. \textbf{Teorem.} \emph{Prsten $\mathfrak R$ jest polno razložimo prvogo roda togda i samo togda, kogda razširjeno prsten $\overline{\mathfrak R}=\mathfrak R[\overline P]$ s algebraično zatvorjenym $\overline{\mathsf{P}}$ jest polno razložimo.}
+2. \textbf{Teorem.} \emph{Prsten $\mathfrak R$ jest polno razložimo prvogo roda togda i samo togda, kogda razširjeno prsten $\overline{\mathfrak R}=\mathfrak R[\overline{\mathsf{P}}]$ s algebraično zatvorjenym $\overline{\mathsf{P}}$ jest polno razložimo.}
 
 Dokaz sostoji se iz trěh krokov.
 
@@ -21188,7 +21188,7 @@ Prěz tvorjenje prěsěkov dobyva se v $\mathfrak R$ prědstavjenje nulovogo ide
 \[
         (0)=[[\mathfrak R,\overline{\mathfrak p}_1],\ldots,[\mathfrak R,\overline{\mathfrak p}_s]],
 \]
-i idealy $[\mathfrak R,\overline{\mathfrak p}_i]$ po \S 1, 3 sut proste idealy.
+i idealy $[\mathfrak R,\overline{\mathfrak p}_s]$ po \S 1, 3 sut proste idealy.
 % END UNIT BODY
 %
 \endgroup
@@ -21424,9 +21424,9 @@ Elementam $c$ iz $\mathfrak Z$ osoblivo prirědžene sut diagonalne matrice $cE$
 %
 \setcounter{footnote}{24}
 
-Druga baza $\bar\alpha_1,\ldots,\bar\alpha_s$ togo samogo ideala tvori matrično prsten, izomorfno k $R_{\mathfrak a}$, pri tom ekvivalentno jemu:
+Druga baza $\bar\alpha_1,\ldots,\bar\alpha_s$ togo samogo ideala tvori matrično prsten, izomorfno k $R_\alpha$, pri tom ekvivalentno jemu:
 \[
-        R_{\bar\alpha}=P^{-1}R_{\mathfrak a}P.
+        R_{\bar\alpha}=P^{-1}R_\alpha P.
 \]
 Za dokaz nehaj $\bar\alpha_1,\ldots,\bar\alpha_s$ bude ješče jedna linearno nezavisna $\mathfrak Z$-modulna baza; zato $(\bar\alpha_1,\ldots,\bar\alpha_s)=(\alpha_1,\ldots,\alpha_s)P$, kde determinant matrice $P$ jest jedinica iz $\mathfrak Z$. Togda
 \[
@@ -21436,7 +21436,7 @@ Za dokaz nehaj $\bar\alpha_1,\ldots,\bar\alpha_s$ bude ješče jedna linearno ne
 &=(\bar\alpha_1,\ldots,\bar\alpha_s)P^{-1}CP,
 \end{aligned}
 \]
-to jest $R_{\bar\alpha}=P^{-1}R_{\mathfrak a}P$.
+to jest $R_{\bar\alpha}=P^{-1}R_\alpha P$.
 % END UNIT BODY
 %
 \endgroup
@@ -24006,7 +24006,7 @@ Element $c$ nazyvaje se idempotentny, ako $c^2=c$.
 \emph{Dokaz.} Nehaj $r$ bude elementom iz $\mr_1$. Togda
 \[
         r=er=e_1r+\ldots+e_nr,
-        \qquad e_ir\in\mr_i,
+        \qquad e_ir\ \text{v}\ \mr_i,
 \]
 ale takože
 \[
@@ -25692,7 +25692,7 @@ Sistemna determinanta komutativnogo sistema razpadaje se na linearne faktory, za
 
 Ako v prědstavjenju $\mo\sim\mathfrak D$ hiperkompleksnogo sistema $\mo$ elementu $a$ jest pridana matrica $A$, togda stavimo
 \[
-        \operatorname{Sp}_{D}(a)=\operatorname{Sp} A.
+        \mathit{Sp}_{D}(a)=\mathit{Sp} A.
 \]
 Slědy sut linearne funkcije:
 \[
@@ -25734,19 +25734,19 @@ togda v ireducibilnom prědstavjenju $\mo$ elementu
 \]
 prinaleži matrica $(\alpha_{ik})$. Zato
 \[
-        \operatorname{Sp}_{\rm red}(a)=\sum_i\alpha_{ii},
+        \mathit{Sp}_{\rm red}(a)=\sum\alpha_{ii},
         \qquad
-        \operatorname{Sp}_{\rm pr}(a)=n\,\operatorname{Sp}_{\rm red}(a)=n\sum_i\alpha_{ii}.
+        \mathit{Sp}_{\rm pr}(a)=n\,\mathit{Sp}_{\rm red}(a)=n\sum\alpha_{ii}.
 \]
 Osoblivo
 \[
-        \operatorname{Sp}_{\rm red}(c_{ik})=0\quad(i\ne k),\qquad
-        \operatorname{Sp}_{\rm red}(c_{ii})=e,
+        \mathit{Sp}_{\rm red}(c_{ik})=0\quad(i\ne k),\qquad
+        \mathit{Sp}_{\rm red}(c_{ii})=e,
 \]
 i takože
 \[
-        \operatorname{Sp}_{\rm pr}(c_{ik})=0\quad(i\ne k),\qquad
-        \operatorname{Sp}_{\rm pr}(c_{ii})=n e.
+        \mathit{Sp}_{\rm pr}(c_{ik})=0\quad(i\ne k),\qquad
+        \mathit{Sp}_{\rm pr}(c_{ii})=n e.
 \]
 
 Pri prěhodu od $\mathsf{P}$ k algebraično zatvorjenomu polju $\Omega$ glavny slěd ne mjenja se, zato že može se izračunati iz toj samej bazy. To ne jest pravda za redukovany slěd.
@@ -25783,7 +25783,7 @@ Klasa prědstavjenij jest už jednoznačno oprěděljena samymi slědami matric.
 
 Dokaz. Modul prědstavjenja $R$ jest poznany, ako se zna, koliko razov vsaky ireducibilny modul prědstavjenja $\mM_\nu$ pojavja se v njem kako direktny sumand. Ako ta čislo jest $p_\nu$, togda slěd $e^{(\nu)}$ v prědstavjenju jest $p_\nu n_\nu$, kde $n_\nu$ jest stepenj ireducibilnogo prědstavjenja. Zato
 \[
-        \mu_\nu=\frac{\operatorname{Sp}(e^{(\nu)})}{n_\nu}.
+        \mu_\nu=\frac{\mathit{Sp}(e^{(\nu)})}{n_\nu}.
 \]
 % END UNIT BODY
 %
@@ -25822,7 +25822,7 @@ Nehaj
 \[
         \mo=a_1P+\cdots+a_hP
 \]
-jest hiperkompleksny sistem. Diskriminantna matrica jest matrica, jej elementy sut glavne slědy $\operatorname{Sp}(a_i a_j)$. Redukovana diskriminantna matrica jest to samo za redukovane slědy, utvorjene v algebraično zatvorjenom polju. Determinant toj matrice imenuje se diskriminant, odnosno redukovany diskriminant.
+jest hiperkompleksny sistem. Diskriminantna matrica jest matrica, jej elementy sut glavne slědy $\mathit{Sp}(a_i a_j)$. Redukovana diskriminantna matrica jest to samo za redukovane slědy, utvorjene v algebraično zatvorjenom polju. Determinant toj matrice imenuje se diskriminant, odnosno redukovany diskriminant.
 
 Diskriminant ne mjenja se pri razširjenju osnovnogo polja. Pri prěhodu k drugoj bazi on množi se kvadratom determinanta transformacije.
 
@@ -25832,19 +25832,19 @@ Dokaz. Nehaj
 \]
 Togda
 \[
-        (\operatorname{Sp}(a_i a_j))=(\operatorname{Sp}(a_i b_j))P.             \tag{1}
+        (\mathit{Sp}(a_i a_j))=(\mathit{Sp}(a_i b_j))P.             \tag{1}
 \]
 Takože, ako $P^t$ jest transponovana matrica,
 \[
-        (\operatorname{Sp}(a_i b_j))=P^t(\operatorname{Sp}(b_i b_j)).           \tag{1a}
+        (\mathit{Sp}(a_i b_j))=P^t(\mathit{Sp}(b_i b_j)).           \tag{1a}
 \]
 Iz (1) i (1a) slěduje
 \[
-        (\operatorname{Sp}(a_i a_j))=P^t(\operatorname{Sp}(b_i b_j))P.
+        (\mathit{Sp}(a_i a_j))=P^t(\mathit{Sp}(b_i b_j))P.
 \]
 Prěhod k determinantam dava tvrdženje.
 
-Zato determinant jest oprěděljen samo do kvadrata iz $P$; ale jego zanuljenje ili nezanuljenje jest invariantna vlastnost. Iz (1) takože slěduje, že diskriminant, do nenulovogo faktora, možno izračunati iz dvoh različnyh baz, to jest kako $|\operatorname{Sp}(a_i b_j)|$.
+Zato determinant jest oprěděljen samo do kvadrata iz $P$; ale jego zanuljenje ili nezanuljenje jest invariantna vlastnost. Iz (1) takože slěduje, že diskriminant, do nenulovogo faktora, možno izračunati iz dvoh različnyh baz, to jest kako $|\mathit{Sp}(a_i b_j)|$.
 
 Diskriminant stava nula, ako $\mo$ ima nilpotentny ideal $\mc$.
 
@@ -25855,8 +25855,8 @@ Dokaz. Kako bazove elementy za $\mo$ izberimo
 kde $c_1,\ldots,c_r$ tvorjat bazu $\mc$. Togda diskriminantna matrica ima formu
 \[
         \begin{pmatrix}
-        \operatorname{Sp}(c_i c_j)&\operatorname{Sp}(c_i d_j)\\
-        \operatorname{Sp}(d_i c_j)&\operatorname{Sp}(d_i d_j)
+        \mathit{Sp}(c_i c_j)&\mathit{Sp}(c_i d_j)\\
+        \mathit{Sp}(d_i c_j)&\mathit{Sp}(d_i d_j)
         \end{pmatrix}
         =
         \begin{pmatrix}
@@ -25968,9 +25968,9 @@ Nehaj $a_1,\ldots,a_h$ sut elementy konečnoj grupy, i utvorimo grupovo prsten n
 
 Dokaz. Najprvo pokažemo, pri čem $\mathit{Sp}$ odsejčas znači glavny slěd:
 \[
-        \operatorname{Sp}(e)=he,
+        \mathit{Sp}(e)=he,
         \qquad
-        \operatorname{Sp}(a_i)=0\quad(a_i\ne e).
+        \mathit{Sp}(a_i)=0\quad(a_i\ne e).
 \]
 V regularnom prědstavjenju imajemo
 \[
@@ -25994,7 +25994,7 @@ Klasoju grupovogo elementa imenuje se suma, utvorjena v grupovom prstenu,
 \[
         K_a=\sum s^{-1}as,\tag{1}
 \]
-kde sumovanje ide samo po različnyh elementah $s^{-1}as$. Klasy $K_a$ sut centralne elementy, zato že komutujut so vsimi grupovymi elementami. One poradžajut centr: ako element $\sum_i\alpha_i a_i$ grupovogo prstena komutuje so vsimi $s$, togda
+kde sumovanje ide samo po različnyh elementah $s^{-1}as$. Klasy $K_a$ sut centralne elementy, zato že komutujut so vsimi grupovymi elementami. One poradžajut centr: ako element $\sum\alpha_i a_i$ grupovogo prstena komutuje so vsimi $s$, togda
 \[
         \sum_i\alpha_i a_i=s^{-1}\biggl(\sum_i\alpha_i a_i\biggr)s
         =\sum_i\alpha_i(s^{-1}a_i s),
@@ -26339,7 +26339,7 @@ Zato že po teoremi 1 \([\Gg_{\frako_\frakp}]\) jest maksimalny poredok \(\frakp
 Nehaj \(K/k\) jest Galoisovo, a \(\Gg\) grupa; \(z^S\) nehaj znači element \(K\), nastaly iz \(z\) podstanovoju \(S\) iz \(\Gg\). Podstanovy \(\Gg\) poradžajut na \(K/k\), gledanom kako \(k\)-modul, to jest aditivna abelova grupa s \(k\) kako oblastju operatorov, operatorne avtomorfizmy. Zato možno \(K/k\) definirati kako modul po odnošenju k \((\Gg)_k\) pravilo:
 \[
         z\Bigl(\sum_i S_i c_i\Bigr)=\sum_i z^{S_i}c_i,
-        \qquad z\in K,\; S_i\in\Gg,\; c_i\in k.
+        \text{ s } z \text{ v } K,\ S_i \text{ v } \Gg,\ c_i \text{ v } k.
 \]
 
 \paragraph{Definicija.}
@@ -26395,7 +26395,7 @@ Za razklad diskriminanta dostatočno jest, kako poznano, gledati razklad pri poj
 
 Zato že s \(w^S\) kako normalnoju bazoju diskriminant \(\Delta\) jest kvadrat od
 \[
-        D=\bigl|w^{ST^{-1}}\bigr|,\qquad S,T\in\Gg.
+        D=\bigl|w^{ST^{-1}}\bigr|,\qquad S,T\ \text{v}\ \Gg.
 \]
 \(D\) jest grupova determinanta s \(w^S\) na městu neizvěstnyh \(x_S\).
 
@@ -27142,7 +27142,7 @@ Vsaky modul \(\frL\) ima po podobnom numerovanju \(x_i\) normalnu bazu. Zato že
 to jest
 \[
         x_i\equiv x_{l+1}\alpha_{i,l+1}+\ldots+x_n\alpha_{i,n}
-        \pmod{\frL},\qquad i=1,\ldots,\ell,
+        \pmod{\frL},\qquad i=1,\ldots,l,
 \]
 i odgovarjajuči
 \[
@@ -27176,7 +27176,7 @@ Vsaky \(P\)-modul \(T=z_1\mathsf{P}+\ldots+z_s\mathsf{P}\) iz \(M\) jest suženn
 \[
         T=T_A\cap M .
 \]
-Zato že \(T\subseteq T_A\cap M\); leži li obratno \(a\) v \(T_A\cap M\), dohodi
+Zato že \(T\leqq T_{\mathsf{A}}\cap M\); leži li obratno \(a\) v \(\mathfrak{T}_{\mathsf{A}}\cap\mathfrak{M}\), dohodi
 \[
         a=\sum z_i\alpha_i,
 \]
@@ -27650,7 +27650,7 @@ od \(A_\Omega\), ktore stavajut proste algebry nad svojim centrom
 \]
 Pri tom substitucije \(S\) definirane sut kako operatory za \(A_\Omega\) prěz postavjenje, že one na \(A\) inducirajut identičnost.
 
-Zato že po §8, 3. idempotenty sut konjugovane; isto imaje město zato za komponenty \(e^S A_\Omega\) po definiciji substitucij za \(A\). Zato že \(A\) dvostronno prosty jest, \(e^S A_\Omega\) prstenovo izomorfny jest k \(A\). Pri tom \(e^SA_\Omega=e^S A_{Z^{S}}\), zaradi \(e^S Z_\Omega=e^S Z\); centar zato sběgaje se s oblastju koeficientov, i komponenty sut normalne algebry.
+Zato že po §8, 3. idempotenty sut konjugovane; isto imaje město zato za komponenty \(e^S A_\Omega\) po definiciji substitucij za \(A\). Zato že \(A\) dvostronno prosty jest, \(e^S A_\Omega\) prstenovo izomorfny jest k \(A\). Pri tom \(e^SA_\Omega=e^S A_{\mathsf{Z}^{S}}\), zaradi \(e^S Z_\Omega=e^S Z\); centar zato sběgaje se s oblastju koeficientov, i komponenty sut normalne algebry.
 
 Rezultaty iz §7, 2. dalje dajut: ako \(A\) jest prosty sistem nad \(\mathsf{P}\) s separabilnym centrom \(Z\) nad \(\mathsf{P}\), togda takože \(A_\Omega\) jest bez radikala, to jest polno reducibilno; pri tom \(\Omega\) može značiti neko konečno ili beskonečno razširitelno polje. Zato že po §7, 2. \(e^S A_\Omega\) ostava prosty pri vsakoj koeficientnoj razširitvi, zato bez radikala. Isto imaje město za direktnu sumu; ta jest \(A_\Omega\), ili, ako \(\Omega\) ne jest razpadno polje od \(Z\), nastava prěz koeficientno razširjenje iz \(A_\Omega\).
 
@@ -27974,8 +27974,8 @@ Teoremy o glavnoj oblasti nahodet se pri Chevalley i Hasse;\footnote{C. Chevalle
 
 V tutom paragrafu \(\Omega\) znači libovoljno osnovno polje. Nehaj \(k/\Omega\) jest Galoisovo separabilno razširjenje \(n\)-togo stepena, \(\Gg\) Galoisova grupa s elementami \(\mathrm{S},\mathrm{T},\ldots\), a \(u_s,u_t,\ldots\) odgovarjajuči operatory. Razgledajut se skrěžene produkty s faktornoju sistemoju jedinica, to jest razložene algebry
 \[
-        K=\Gg\times k=u_{S_1}k+\ldots+u_{S_n}k,\qquad
-        u_Su_T=u_{ST},
+        \mathrm{K}=\Gg\times k=u_{s_1}k+\ldots+u_{s_n}k,\qquad
+        u_su_t=u_{st},
 \]
 s
 \[
@@ -28659,9 +28659,9 @@ Po §4 diferenta toj direktnoj sumy jest direktna suma komponentnyh diferent. Za
 
 Vyberimo \(\xi\) tako že
 \[
-        \varphi(\xi)\equiv0\pmod p,
+        \varphi(\xi)\equiv0\pmod{\mathfrak p},
         \qquad
-        \varphi(\xi)\not\equiv0\pmod {p^2},
+        \varphi(\xi)\not\equiv0\pmod {\mathfrak p^2},
 \]
 pri čem \(\varphi(x)\) jest prosta funkcija modulo \(p\) stepena \(f\). Za \(t\geqq2\) zaměnja se \(\xi\) s \(\xi^*=\xi e_1\), kde \(e_1\) jest prvi idempotent razloženja prstena klasov ostatkov modulo \(p^t\). Togda imaje město čak
 \[
