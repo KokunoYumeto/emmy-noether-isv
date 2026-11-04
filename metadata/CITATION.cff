@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Citujte konkretno izdanje; historijski DOI označaje v021 / Cite the specific edition; the historical DOI identifies v021."
+message: "Citujte konkretno izdanje / Cite the specific edition."
 title: "Emmy Noether: Medžuslovjansko izdanje matematičnyh děl / Interslavic Edition of Mathematical Works"
 type: dataset
 authors:
@@ -7,7 +7,6 @@ authors:
     given-names: Emmy
 version: "NOETHER-ISV-v021"
 date-released: 2026-08-24
-doi: 10.5281/zenodo.22077468
 url: "https://kokunoyumeto.github.io/emmy-noether-isv/"
 repository-code: "https://github.com/KokunoYumeto/emmy-noether-isv"
 preferred-citation:
@@ -17,7 +16,6 @@ preferred-citation:
     - family-names: Noether
       given-names: Emmy
   year: 2026
-  doi: 10.5281/zenodo.22077468
 abstract: >-
   Medžuslovjansko naučno rabotno izdanje numerovanogo korpusa statij 1–43,
   lekcijskogo děla 44, statje 45 i bibliografije. Latinica jest

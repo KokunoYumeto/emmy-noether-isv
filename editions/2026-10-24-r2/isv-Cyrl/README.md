@@ -32,8 +32,4 @@
 
 ## Ранєјше издања
 
-- [zenodo.20412587](https://doi.org/10.5281/zenodo.20412587).
-- [zenodo.21926382](https://doi.org/10.5281/zenodo.21926382).
-- [zenodo.22077468](https://doi.org/10.5281/zenodo.22077468).
-
 [GitHub](https://github.com/KokunoYumeto/emmy-noether-isv/releases).

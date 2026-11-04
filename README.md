@@ -1,88 +1,81 @@
 # Emmy Noether — Matematične děla po medžuslovjansky
 
-Statje 1–43, lekcije 1929/30 v zapisu M. Deuringa, dělo Kapferera i Noether s dopolnjenjem, bibliografija i končne spisky.
+Medžuslovjansky prěklad matematičnyh děl Emmy Noether (1882–1935): statje 1–43, lekcije *Algebra hiperkompleksnyh veličin* (zimny semestr 1929/30) v zapisu M. Deuringa, statja H. Kapferera s dodatkom, napisanym sovmestno s E. Noether, bibliografija i končne spisky. Prěklad ima dva pisma, latinicu i kirilicu ([kirilica niže](#emmy-noether--математичне-дєла-по-меджусловјанскы)); obě formy sut v PDF i v redagovateljnom LaTeX.
 
-## Osnovny tekst
+[**Čitajte osnovny tekst — PDF, 481 str.**](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/01-noether-isv-Latn-base.pdf) ·
+[Tekst s redakcijnymi popravkami — PDF, 486 str.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/04-noether-isv-Latn-emendations.pdf) ·
+[Vse fajly izdanja od 27 oktobra 2026](https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-27-r4)
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/01-noether-isv-Latn-base.pdf)
-2. [Redagovateljne iztočniki LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/02-noether-isv-Latn-base.tex)
-3. [Polny arhiv iztočnikov](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/03-noether-isv-Latn-base-sources.zip)
+## Kako jest stvorjeno izdanje
 
-## Tekst s redakcijnymi popravkami
+Prěklad jest stvorjeny AI, modelami OpenAI Codex; ktory model prěložil tekst, ne jest zapisano. Popravky i tipografija stvorjene AI: OpenAI Codex — GPT-6 Astra, usilje Ultra, 23–24 oktobra 2026; Claude Opus 5.5 (Anthropic), 26–27 oktobra 2026, vključajuči formuly srovnane s německym tekstom, čitanym iz pečatnyh stranic Noether. Kirilska forma prědstavjaje taj sam prěklad v kirilskom pismu; ona ne jest drugy prěklad. Program za sestavjenje stvorjeny AI: OpenAI Codex — GPT-6 Astra, Ultra, 24 oktobra 2026.
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/04-noether-isv-Latn-emendations.pdf)
-2. [Redagovateljne iztočniki LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/05-noether-isv-Latn-emendations.tex)
-3. [Polny arhiv iztočnikov](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/06-noether-isv-Latn-emendations-sources.zip)
+## Status
 
-Prěklad stvorjeny AI. Popravky i tipografija: OpenAI Codex — GPT-6 Astra, usilje Ultra. Avtorstvo Emmy Noether, M. Deuringa i nazvanyh soavtorov ostavaje ohranjeno. Izdatelju ne pripisyvaje se člověčsky prěklad ili nezavisna člověčska naučna recenzija.
+Izdanje sodrživaje vse nazvane děla, ale statja 43 jest skraćena približno na tretinu polnogo teksta, a statje 41 i 42 približno na četyri petiny. Statje 23, 24, 30, 31, 32, 34, 37 i 41–43, takože česti statij 35 i 40, slědujut ranějšemu anglijskomu prěkladu, ktorogo formuly na něktoryh městah razlikujut se od německogo teksta. V statji 2 tri primětky německogo teksta (primětka o Σ₃ i citacije Gordan — Kerschensteiner, str. 92 i 134) sut označene jedino znakom `*` ili vključene v sosědny tekst. Fajly PDF ne imajut zakladok. Prěklad ne jest prověrjeny člověkom, zato v njem mogut ostati pogrěšky; na něktoryh městah formuly mogut ješče slědovati ranějšej německoj transkripciji. Popravky se prijimajut prěz [stranicu issues](https://github.com/KokunoYumeto/emmy-noether-isv/issues); navedite dělo, stranicu ili odsek, spornu frazu i iztočnik predložene popravky.
 
-Točny model i usilje za naslědovany prěklad ne sut ustanovjene iz ohranjenyh zapisov. Popravky i tipografija stvorjene AI: 23–24 oktobra 2026; Claude Opus 5.5 (Anthropic), 26–27 oktobra 2026, vključajuči formuly srovnane s německym tekstom, čitanym iz pečatnyh stranic Noether. Izdanje: 27 oktobra 2026.
+## Sodržanje i čitanje
 
-Prěmy kumulativny fajl LaTeX sodrživa vse teksty i preambuly v redaktovateljnoj formě. Program Python izvlačuje iztočne fajly, kompiluje jih s XeLaTeX i sjedinjaje PDF česti v porědku čitanja. Obrazy i stranice PDF ne zaměnjajut transkripciju. ZIP ohranjaje iztočnu strukturu, tuty že kumulativny LaTeX i program. Potrěbni sut Python 3, pypdf, pakety TeX i fonty ukazane v preambulah. Bajty PDF mogut zavisěti od versij TeX i fontov. Fiksovana vnutrišnja data tipografije ne jest data publikacije.
+Izdanje imaje osnovny tekst i tekst s redakcijnymi popravkami; za oba jest PDF, jedin fajl LaTeX i arhiv iztočnikov:
 
-[Python](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/editions/2026-10-24-r2/isv-Latn/build.py) · [SHA-256](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/editions/2026-10-24-r2/isv-Latn/07-noether-isv-Latn-SHA256SUMS.txt)
+| Tekst | PDF | LaTeX | Iztočniki |
+|---|---|---|---|
+| Osnovny tekst: ohranjaje čitanja prvyh publikacij; redakcijne primětky objasnjajut sporne čitanja | [PDF, 481 str.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/01-noether-isv-Latn-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/02-noether-isv-Latn-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/03-noether-isv-Latn-base-sources.zip) |
+| Tekst s redakcijnymi popravkami: popravky sut vneseny v tekst, každa jest objasnjena v redakcijnoj primětkě | [PDF, 486 str.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/04-noether-isv-Latn-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/05-noether-isv-Latn-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/06-noether-isv-Latn-emendations-sources.zip) |
 
-Program stvorjeny AI: OpenAI Codex — GPT-6 Astra, Ultra, 24 oktobra 2026.
+[Kontrolne sumy SHA-256](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/07-noether-isv-Latn-SHA256SUMS.txt). Te same fajly sut v [`editions/2026-10-24-r2/isv-Latn/`](editions/2026-10-24-r2/isv-Latn/).
 
-## Avtorstvo i prava
+Fajl LaTeX sodrživa vse teksty i preambuly v redagovateljnoj formě. Program Python [`build.py`](editions/2026-10-24-r2/isv-Latn/build.py) izvlačuje iztočne fajly, kompiluje jih s XeLaTeX i sjedinjaje PDF česti v porědku čitanja; potrěbni sut Python 3, pypdf, pakety TeX i fonty ukazane v preambulah. ZIP ohranjaje iztočnu strukturu, taj sam fajl LaTeX i program.
+
+Izdanje avgusta 2026 (v021) jest v [`source_latin/`](source_latin/) i [`source_cyrillic/`](source_cyrillic/) (LaTeX) i v [onlajnovom čitateljniku](https://kokunoyumeto.github.io/emmy-noether-isv/) (povezany PDF, 1 159 stranic, latinica i kirilica). [Matematičny medžuslovjansky — slovnik i metoda](https://kokunoyumeto.github.io/emmy-noether-isv/04_NOETHER_INTERSLAVIC_DICTIONARY.pdf) (takože v [HTML](https://kokunoyumeto.github.io/emmy-noether-isv/dictionary/book.html) i kako [slovnik s iskanjem](https://kokunoyumeto.github.io/emmy-noether-isv/dictionary/)) jest AI-stvorjena studija terminologije prěklada: 2016 iztočno-medžuslovjanskyh parov, 168 podrobnyh jezyčnyh i redakcijnyh izborov i dvanadset gramatičnyh ili pravopisnyh konvencij. Metodološko izloženje i sinteza slovnika sut izrabotane s OpenAI Codex — GPT-5.6 Sol, Ultra; rekonstrukcija terminologičnyh zapisov i daljnje dvojezyčne obrazloženja s OpenAI Codex — GPT-6 Astra, Ultra. [Program za matematične označenja](methods/source-identifiers-2026-10-24/README.md) · [Prěvod pisma v kratkyh primětkah](methods/note-script-conversion-2026-10-24/README.md). Německy tekst, izdanja na drugyh jezykah i znane razliky medžu izdanjami sut na [centralnoj stranici](https://kokunoyumeto.github.io/emmy-noether/).
+
+## Avtori i iztočniki
+
+- Matematične děla napisali Emmy Noether i soavtori, nazvani v njih: Werner Schmeidler (statja 17), R. Brauer (statja 32), R. Brauer i H. Hasse (statja 38). Lekcije 1929/30 obrabotal M. Deuring. Statja 45 jest dělo H. Kapferera s dodatkom, napisanym sovmestno s E. Noether. Podrobnosti o prvyh publikacijah, podpisy i citacije sut v samyh tekstah.
+- Izdanje avgusta 2026 (v021) srovnalo prěklad s německym projektnym korpusom NOETH-DE-ED-0015 ([avtorstvo originalov](LICENSES/ORIGINAL_WORK_ATTRIBUTION.md)). Formuly izdanja od 27 oktobra 2026 sut srovnane s německym tekstom, ktory jest stranica po stranici srovnany s prvymi publikacijami ([izdanje noether-de-2026-10-26](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/noether-de-2026-10-26)).
+
+## Prava
 
 Děla Emmy Noether sut v javnom dobru. V toj měrě, v kakoj izdatelj imaje prava na prěklad, popravky i tipografiju stvorjene AI, on jih daruje v javno dobro po [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Lekcije zapisane M. Deuringom, rabota H. Kapferera i prinos nazvanyh soavtorov ohranjajut svoj pravny status.
-
-[Protivjenja nositeljev prav](https://github.com/KokunoYumeto/emmy-noether-isv/issues/new).
-
-## Ranějše izdanja
-
-- [zenodo.20412587](https://doi.org/10.5281/zenodo.20412587).
-- [zenodo.21926382](https://doi.org/10.5281/zenodo.21926382).
-- [zenodo.22077468](https://doi.org/10.5281/zenodo.22077468).
-
-[GitHub](https://github.com/KokunoYumeto/emmy-noether-isv/releases).
-
-[Program za matematične označenja](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/methods/source-identifiers-2026-10-24/README.md) · [Prěvod pisma v kratkyh primětkah](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/methods/note-script-conversion-2026-10-24/README.md).
-
 
 ---
 
 # Emmy Noether — Математичне дєла по меджусловјанскы
 
-Статје 1–43, лекције 1929/30 в запису M. Deuringa, дєло Kapferera и Noether с дополнјењем, библиографија и конечне спискы.
+Меджусловјанскы прєклад математичных дєл Emmy Noether (1882–1935): статје 1–43, лекције *Алгебра хиперкомплексных величин* (зимны семестр 1929/30) в запису M. Deuringa, статја H. Kapferera с додатком, написаным совместно с E. Noether, библиографија и конечне спискы. Прєклад има два писма, латиницу и кирилицу ([латиница выше](#emmy-noether--matematične-děla-po-medžuslovjansky)); обє формы сут в PDF и в редаговатељном LaTeX.
 
-## Основны текст
+[**Читајте основны текст — PDF, 502 стр.**](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/01-noether-isv-Cyrl-base.pdf) ·
+[Текст с редакцијными поправками — PDF, 507 стр.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/04-noether-isv-Cyrl-emendations.pdf) ·
+[Все фајлы издања од 27 октобра 2026](https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-27-r4)
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/01-noether-isv-Cyrl-base.pdf)
-2. [Редаговатељне източники LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/02-noether-isv-Cyrl-base.tex)
-3. [Полны архив източников](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/03-noether-isv-Cyrl-base-sources.zip)
+## Како јест створјено издање
 
-## Текст с редакцијными поправками
+Прєклад јест створјены AI, моделами OpenAI Codex; кторы модел прєложил текст, не јест записано. Поправкы и типографија створјене AI: OpenAI Codex — GPT-6 Astra, усилије Ultra, 23–24 октобра 2026; Claude Opus 5.5 (Anthropic), 26–27 октобра 2026, вкључајучи формулы сровнане с нємецкым текстом, читаным из печатных страниц Noether. Кирилска форма прєдставјаје тај сам прєклад в кирилском писму; она не јест другы прєклад. Програм за сеставјење створјены AI: OpenAI Codex — GPT-6 Astra, Ultra, 24 октобра 2026.
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/04-noether-isv-Cyrl-emendations.pdf)
-2. [Редаговатељне източники LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/05-noether-isv-Cyrl-emendations.tex)
-3. [Полны архив източников](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/06-noether-isv-Cyrl-emendations-sources.zip)
+## Статус
 
-Прєклад створјены AI. Поправкы и типографија: OpenAI Codex — GPT-6 Astra, усилије Ultra. Авторство Emmy Noether, M. Deuringa и названых соавторов оставаје охрањено. Издатељу не приписываје се чловєчскы прєклад или независна чловєчска научна рецензија.
+Издање содрживаје все назване дєла, але статја 43 јест скраћена приближно на третину полного текста, а статје 41 и 42 приближно на четыри петины. Статје 23, 24, 30, 31, 32, 34, 37 и 41–43, такоже чести статиј 35 и 40, слєдујут ранєјшему англијскому прєкладу, кторого формулы на нєкторых мєстах разликујут се од нємецкого текста. В статји 2 три примєткы нємецкого текста (примєтка о Σ₃ и цитације Gordan — Kerschensteiner, стр. 92 и 134) сут означене једино знаком `*` или вкључене в сосєдны текст. Фајлы PDF не имајут закладок. Прєклад не јест провєрјены чловєком, зато в њем могут остати погрєшкы; на нєкторых мєстах формулы могут јешче слєдовати ранєјшеј нємецкој транскрипцији. Поправкы се пријимајут прєз [страницу issues](https://github.com/KokunoYumeto/emmy-noether-isv/issues); наведите дєло, страницу или одсек, спорну фразу и източник предложене поправкы.
 
-Точны модел и усилије за наслєдованы прєклад не сут установјене из охрањеных записов. Поправкы и типографија створјене AI: 23–24 октобра 2026; Claude Opus 5.5 (Anthropic), 26–27 октобра 2026, вкључајучи формулы сровнане с нємецкым текстом, читаным из печатных страниц Noether. Издање: 27 октобра 2026.
+## Содржање и читање
 
-Прємы кумулативны фајл LaTeX содржива все тексты и преамбулы в редактоватељној формє. Програм Python извлачује източне фајлы, компилује јих с XeLaTeX и сједињаје PDF чести в порєдку читања. Образы и странице PDF не замєњајут транскрипцију. ZIP охрањаје източну структуру, туты же кумулативны LaTeX и програм. Потрєбни сут Python 3, pypdf, пакеты TeX и фонты указане в преамбулах. Бајты PDF могут зависєти од версиј TeX и фонтов. Фиксована внутришња дата типографије не јест дата публикације.
+Издање имаје основны текст и текст с редакцијными поправками; за оба јест PDF, једин фајл LaTeX и архив източников:
 
-[Python](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/editions/2026-10-24-r2/isv-Cyrl/build.py) · [SHA-256](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/editions/2026-10-24-r2/isv-Cyrl/07-noether-isv-Cyrl-SHA256SUMS.txt)
+| Текст | PDF | LaTeX | Източники |
+|---|---|---|---|
+| Основны текст: охрањаје читања првых публикациј; редакцијне примєткы објасњајут спорне читања | [PDF, 502 стр.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/01-noether-isv-Cyrl-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/02-noether-isv-Cyrl-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/03-noether-isv-Cyrl-base-sources.zip) |
+| Текст с редакцијными поправками: поправкы сут внесены в текст, кажда јест објасњена в редакцијној примєткє | [PDF, 507 стр.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/04-noether-isv-Cyrl-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/05-noether-isv-Cyrl-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/06-noether-isv-Cyrl-emendations-sources.zip) |
 
-Програм створјены AI: OpenAI Codex — GPT-6 Astra, Ultra, 24 октобра 2026.
+[Контролне сумы SHA-256](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/07-noether-isv-Cyrl-SHA256SUMS.txt). Те саме фајлы сут в [`editions/2026-10-24-r2/isv-Cyrl/`](editions/2026-10-24-r2/isv-Cyrl/).
 
-## Авторство и права
+Фајл LaTeX содржива все тексты и преамбулы в редаговатељној формє. Програм Python [`build.py`](editions/2026-10-24-r2/isv-Cyrl/build.py) извлачује източне фајлы, компилује јих с XeLaTeX и сједињаје PDF чести в порєдку читања; потрєбни сут Python 3, pypdf, пакеты TeX и фонты указане в преамбулах. ZIP охрањаје източну структуру, тај сам фајл LaTeX и програм.
+
+Издање августа 2026 (v021) јест в [`source_latin/`](source_latin/) и [`source_cyrillic/`](source_cyrillic/) (LaTeX) и в [онлајновом читатељнику](https://kokunoyumeto.github.io/emmy-noether-isv/) (повезаны PDF, 1 159 страниц, латиница и кирилица). [Математичны меджусловјанскы — словник и метода](https://kokunoyumeto.github.io/emmy-noether-isv/04_NOETHER_INTERSLAVIC_DICTIONARY.pdf) (такоже в [HTML](https://kokunoyumeto.github.io/emmy-noether-isv/dictionary/book.html) и како [словник с искањем](https://kokunoyumeto.github.io/emmy-noether-isv/dictionary/)) јест AI-створјена студија терминологије прєклада: 2016 източно-меджусловјанскых паров, 168 подробных језычных и редакцијных изборов и дванадсет граматичных или правописных конвенциј. Методолошко изложење и синтеза словника сут изработане с OpenAI Codex — GPT-5.6 Sol, Ultra; реконструкција терминологичных записов и даљње двојезычне образложења с OpenAI Codex — GPT-6 Astra, Ultra. [Програм за математичне означења](methods/source-identifiers-2026-10-24/README.cyrl.md) · [Прєвод писма в краткых примєтках](methods/note-script-conversion-2026-10-24/README.cyrl.md). Нємецкы текст, издања на другых језыках и знане разликы меджу издањами сут на [централној страници](https://kokunoyumeto.github.io/emmy-noether/).
+
+## Автори и източники
+
+- Математичне дєла написали Emmy Noether и соавтори, названи в њих: Werner Schmeidler (статја 17), R. Brauer (статја 32), R. Brauer и H. Hasse (статја 38). Лекције 1929/30 обработал M. Deuring. Статја 45 јест дєло H. Kapferera с додатком, написаным совместно с E. Noether. Подробности о првых публикацијах, подписы и цитације сут в самых текстах.
+- Издање августа 2026 (v021) сровнало прєклад с нємецкым пројектным корпусом NOETH-DE-ED-0015 ([авторство оригиналов](LICENSES/ORIGINAL_WORK_ATTRIBUTION.md)). Формулы издања од 27 октобра 2026 сут сровнане с нємецкым текстом, кторы јест страница по страници сровнаны с првыми публикацијами ([издање noether-de-2026-10-26](https://github.com/KokunoYumeto/modern-latex-manuscripts/releases/tag/noether-de-2026-10-26)).
+
+## Права
 
 Дєла Emmy Noether сут в јавном добру. В тој мєрє, в какој издатељ имаје права на прєклад, поправкы и типографију створјене AI, он јих дарује в јавно добро по [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Лекције записане M. Deuringom, работа H. Kapferera и принос названых соавторов охрањајут свој правны статус.
-
-[Противјења носитељев прав](https://github.com/KokunoYumeto/emmy-noether-isv/issues/new).
-
-## Ранєјше издања
-
-- [zenodo.20412587](https://doi.org/10.5281/zenodo.20412587).
-- [zenodo.21926382](https://doi.org/10.5281/zenodo.21926382).
-- [zenodo.22077468](https://doi.org/10.5281/zenodo.22077468).
-
-[GitHub](https://github.com/KokunoYumeto/emmy-noether-isv/releases).
-
-[Програм за математичне означења](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/methods/source-identifiers-2026-10-24/README.cyrl.md) · [Прєвод писма в краткых примєтках](https://github.com/KokunoYumeto/emmy-noether-isv/blob/main/methods/note-script-conversion-2026-10-24/README.cyrl.md).
-
-[Slovnik — Словник](https://kokunoyumeto.github.io/emmy-noether-isv/04_NOETHER_INTERSLAVIC_DICTIONARY.pdf).
