@@ -1,0 +1,353 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=27mm,headheight=15pt]{geometry}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{TeX Gyre Heros}
+\setmonofont{Latin Modern Mono}
+
+\definecolor{NoetherBlue}{HTML}{183A55}
+\definecolor{NoetherGold}{HTML}{A26A24}
+\definecolor{NoetherPale}{HTML}{EEF3F6}
+\definecolor{NoetherGray}{HTML}{55616B}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=NoetherBlue,
+  urlcolor=NoetherBlue,
+  citecolor=NoetherGold,
+  pdftitle={Making Mathematical Interslavic with AI},
+  pdfauthor={The user; OpenAI Codex (GPT-5.6 Sol at reasoning effort ultra)},
+  pdfsubject={Reproducible editorial methodology for an Interslavic mathematical corpus},
+  pdfkeywords={Interslavic, mathematical translation, AI editing, reproducibility, LaTeX, Cyrillic projection}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textsf{Making Mathematical Interslavic with AI}}
+\fancyhead[R]{\small\textsf{Working paper 0.1}}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\titleformat{\section}{\Large\bfseries\color{NoetherBlue}}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\large\bfseries\color{NoetherBlue}}{\thesubsection}{0.7em}{}
+\setlist{itemsep=3pt,topsep=5pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\emergencystretch=2em
+
+\newcommand{\term}[1]{\textit{#1}}
+\newcommand{\code}[1]{\texttt{\detokenize{#1}}}
+\newcommand{\decision}[3]{\textit{#1} $\rightarrow$ \textit{#2} (\textit{#3})}
+\newcommand{\statusbox}[1]{%
+  \begin{center}
+  \fcolorbox{NoetherBlue}{NoetherPale}{\parbox{0.91\linewidth}{#1}}
+  \end{center}}
+
+\title{\vspace{-1.2cm}\textbf{Making Mathematical Interslavic with AI}\\[0.3em]
+\large A reproducible editorial method for the Emmy Noether corpus}
+\author{The user\\
+\small Project lead and editor\\[0.35em]
+\small OpenAI Codex (GPT-5.6 Sol at reasoning effort ultra), AI editorial system}
+\date{Working paper 0.1 --- 17 August 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This paper describes a reproducible method for constructing and revising a long mathematical edition in Interslavic with an AI coding agent. The project is an edition, not a claim that an artificial system can certify a natural or planned language. Its working object is a Latin-script Interslavic rendering of an Emmy Noether source corpus, aligned to a pinned German authority and surrounded by Russian and Ukrainian comparison lanes. Editorial decisions combine sentence-level source control, official dictionary and grammar evidence, corpus-internal usage, mathematical invariants, explicit rejected alternatives, and byte-exact replay. A deterministic scanner separates visible language from \LaTeX{} identities, mathematics, comments, foreign titles, and names; a later Cyrillic surface is treated as a derived script, never as an independently edited canon. Every accepted change is reversible and bound to source, evidence, producer, and decision receipts. We report representative linguistic decisions, failures in earlier parsers and transaction code, the division of labour between human and AI, and the limits of the resulting evidence. No native-speaker certification, community endorsement, or reader-comprehension study is claimed. The larger contribution is a practical architecture for auditable AI language making in technically constrained scholarly corpora.
+\end{abstract}
+
+\statusbox{\textbf{Status and scope.} This is a citable methods draft for an edition still under active review. At the recorded checkpoint, the Latin Interslavic lane is sealed through decision head \code{ISV019-EDIT-0150}. Lexical normalization is in its late phase; foreign-name and role closure, Latin freeze, deterministic Cyrillic projection, clean builds, visual review, and successor publication remain open.}
+
+\section{Why this is an edition, not a text-generation exercise}
+
+Large language models can produce plausible Interslavic sentences quickly. Plausibility is not the difficult part of a mathematical edition. The difficult part is preserving the object being translated: quantified conditions, signs, equation scopes, named sources, section references, typographic identities, and the local semantic distinction between near-synonyms. A fluent sentence can still be mathematically false, linguistically ungoverned, or impossible to reproduce.
+
+The project therefore treats AI output as a proposal stream inside an editorial system. The canonical object is not the latest answer in a conversation. It is a set of pinned source files plus an append-only chain of decisions that can reconstruct both predecessor and successor. Each change must answer four questions:
+
+\begin{enumerate}
+  \item What exactly is being changed, including every active duplicate?
+  \item Which source-language meaning and mathematical structure govern it?
+  \item Which language evidence supports the selected Interslavic surface, and what alternatives were rejected?
+  \item Can an independent process reverse and replay the change without importing the applicator as its oracle?
+\end{enumerate}
+
+This distinction changes the role of AI. The agent is useful for exhaustive search, alignment, hypothesis generation, hostile testing, receipt construction, and consistency checks. It is not the language authority. Nor is the current edition evidence that a native or community review has occurred.
+
+\section{The corpus and its canon layers}
+
+The working corpus is a long \LaTeX{} edition built from multiple mathematical works and embedded paper units. One assembled source can contain material mirrored from active producer files; historical witnesses remain available for provenance but are not silently rewritten. The German edition supplies the operational semantic control. Russian and Ukrainian editions are separate language canons with their own sealed heads. The Interslavic Latin source is the actively edited canon. A Cyrillic Interslavic version will be derived only after Latin freeze through a reviewed deterministic projection.
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.18\linewidth} >{\raggedright\arraybackslash}p{0.29\linewidth} >{\raggedright\arraybackslash}p{0.43\linewidth}}
+\toprule
+\textbf{Layer} & \textbf{Canonical role} & \textbf{What it must not be mistaken for} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Layer} & \textbf{Canonical role} & \textbf{What it must not be mistaken for} \\
+\midrule
+\endhead
+German & Operational source authority and sentence-level semantic control & A licence for unconstrained paraphrase or a claim that one historical state governs every later correction \\
+Russian & Independently sealed Russian edition lane & Evidence that a cognate Russian surface is automatically Interslavic \\
+Ukrainian & Independently sealed Ukrainian edition lane & A second vote that can replace Interslavic grammar \\
+Interslavic Latin & Active editorial canon & A native-certified standard, or a mere blend of Russian and Ukrainian \\
+Interslavic Cyrillic & Deterministic derivative after Latin freeze & A separately improvised translation or an authority over the Latin canon \\
+Evidence corpus & Searchable witnesses, controls, grammars, dictionaries, and historical outputs & A language canon in its own right \\
+\bottomrule
+\end{longtable}
+
+This layered view prevents a common automation error: choosing whichever nearby file happens to contain a convenient spelling. A machine-readable canon registry, described in Section~\ref{sec:registry}, makes these roles explicit for future sessions.
+
+\section{Evidence hierarchy and editorial judgment}
+
+No single evidence source decides every case. The project uses a hierarchy, with deliberate exceptions recorded rather than hidden.
+
+\begin{enumerate}
+  \item \textbf{Mathematical and source control.} The German sentence, equations, proof dependencies, and a primary printed page determine what the passage must mean.
+  \item \textbf{Official Interslavic evidence.} A pinned snapshot of the public dictionary and the relevant grammar chapters supplies lemmas, paradigms, and governing forms. The snapshot is evidentiary; because no separate explicit lexical-data licence was found, this work makes no blanket open-data claim for it.
+  \item \textbf{House consistency.} Existing accepted forms in structurally parallel passages establish the edition's register and orthographic choices when the standard permits alternatives.
+  \item \textbf{Cross-Slavic evidence.} Russian, Ukrainian, and other Slavic comparisons are diagnostic. They can expose false friends or inflectional pressure, but do not vote a form into the canon.
+  \item \textbf{Adverse evidence.} Historical outputs, rejected candidate hashes, failed parsers, and deliberately retained inactive shadows show what was tried and why it was not accepted.
+\end{enumerate}
+
+Editorial judgment remains necessary where standard sources permit more than one spelling, the German has several senses, or a proper name is morphologically integrated. The system therefore records the selected form, its typed context, and rejected alternatives. It does not reduce language editing to global search-and-replace.
+
+\section{A decision protocol that can be replayed}
+
+Each bounded edit follows the same conceptual sequence:
+
+\begin{enumerate}
+  \item pin the current source, producer, evidence, state, ledger, and verifier files;
+  \item enumerate all exact target loci and classify each by role;
+  \item inspect the governing German context and relevant language evidence;
+  \item project the complete successor in memory, including active producer mirrors and assembled identity receipts;
+  \item prove that unlisted bytes and protected partitions are unchanged;
+  \item run hostile transaction tests in disposable fixtures;
+  \item obtain independent no-helper reconstruction and pre-apply review;
+  \item apply once, audit the live successor, then seal append-only metadata;
+  \item verify ledger and worklog prefixes, exact reverse/replay, and zero transaction residue.
+\end{enumerate}
+
+The underlying unit is not ``a corrected word'' but a typed change packet. A packet may include visible prose, an active producer duplicate, and an identity comment whose digest must change because the producer changed. Conversely, an inactive historical shadow is evidence and normally remains untouched.
+
+\subsection{Why byte receipts matter}
+
+Cryptographic receipts do not prove that a linguistic decision is good. They prove which bytes were reviewed and whether a later process is still discussing the same object. This distinction is valuable in a corpus where line numbers move, identical phrases recur, and a seemingly harmless metadata update can invalidate downstream assumptions.
+
+The project uses hashes together with human-readable reasons. Hashes without reasons are inventory theatre; reasons without pinned objects are difficult to reproduce. The pair makes a later disagreement precise: a reviewer can accept the evidence but reject the choice, or accept the choice but detect that a different source was applied.
+
+\section{Representative linguistic decisions}
+
+The most informative cases are not the easy spelling repairs. They are cases where a global substitution would erase meaning.
+
+\subsection{Splitting a false friend by sentence meaning}
+
+An inherited \term{javn-} family had been used for both ``explicit or unambiguous'' and ``clear or evident.'' Official Interslavic \term{javno} ordinarily points toward ``public.'' Fifteen live sites were therefore divided by their German controls: seven became the \term{jednoznačn-} family, while eight became \term{jasno}. Two tempting global repairs---mapping every site to one family or retaining the inherited cognate---were rejected.
+
+The lesson is methodological: lexical families are census units, not necessarily decision units. Once a family is found, every occurrence still needs a semantic type.
+
+\subsection{Repairing morphology together with agreement}
+
+The condition noun appeared in a mixed set of malformed forms around official neuter \term{uslovje}. Correcting the noun alone would have left gender agreement errors. The accepted packet normalized twenty-five live source nouns, synchronized five active producer mirrors, and changed eight agreement-token occurrences, including \term{jednaky uslovy} to \term{jednake uslovja}. A noun-only candidate and incorrectly inflected adjective candidates were kept as rejected controls.
+
+This is one reason sentence-level source alignment matters: morphology propagates beyond the token that first triggers a scanner.
+
+\subsection{Choosing an edition house form among permitted variants}
+
+At one locus, Slovak-accented \term{prevodí} required normalization. Plain \term{prevodi} is a generally permissible simplified spelling, but the pinned official lemma is \term{prěvoditi}, the grammar yields third-person singular \term{prěvodi}, and an exact structural parallel in the same corpus already uses that form. The accepted decision was therefore \decision{prevodí}{prěvodi}{official lemma plus established house orthography}. This is not a claim that every other Interslavic text must make the same choice.
+
+\subsection{A semantic split for an apparently simple residue}
+
+Eight instances of \term{právě} do not form one semantic family. Three German controls mean ``previously treated/proved'' and support \term{prědtym}; five mean ``exactly'' or carry an emphatic ``just'' sense and support \term{točno}. The same tranche replaces Polish \term{działa} with contextually governed \term{jest izpolnjeny} where a condition ``is fulfilled,'' and \term{użyvanjem} with \term{upotrěboju}. This packet was identified after the current paper checkpoint and is recorded here as the next reviewed linguistic action, not as an already sealed result.
+
+\subsection{A principled hold}
+
+The form \term{zürihsko} occurs in a reference to a Zurich lecture. The available official evidence supports words for Switzerland and Swiss, not a pinned city-specific Zurich adjective. Replacing the city adjective with ``Swiss'' would lose information, while inventing a transcription would overstate the evidence. The locus is therefore held pending the project-wide name and eponym policy. A hold is a successful fail-closed result, not unfinished clerical work.
+
+\section{Protecting mathematics, \LaTeX{}, and foreign identities}
+
+The editor must know which characters are language and which are infrastructure. Visible prose can occur inside a macro argument; mathematical prose can occur inside \code{\text\{...\}}; command names, labels, citation keys, dimensions, environment names, and equation payloads are not translation targets. Original-language titles and complete personal identities may contain letters that are invalid under the Interslavic alphabet but must remain byte-exact.
+
+The current parser uses exact delimiter state and an exact environment stack. It classifies every source position and requires gap-free coverage. Known commands have typed argument roles: visible prose, identity, code, option, or protected foreign payload. Unknown argument-bearing commands fail closed. Foreign material is wrapped as a no-op semantic island, with support definitions reconciled in both the assembled source and active producers.
+
+An earlier regex-based scanner falsely interpreted table row breaks such as \code{\\(} and spacing forms such as \code{\\[0.3em]} as mathematical openers. It could mask thousands of lines until a later genuine delimiter appeared. The replacement scanner added hostile fixtures for these cases, exact mismatched-environment rejection, crossing-aware math delimiters, and full coverage. Its count changed because the role policy changed: false-positive algebraic variables disappeared while Roman-shaped and foreign identity holds became explicit. The project does not force a legacy count when the categories have improved.
+
+\section{Latin canon and deterministic Cyrillic derivation}
+
+Interslavic supports both Latin and Cyrillic writing. This project nevertheless needs one editable canon to avoid two drifting translations. Latin is the current editorial canon because that is the surface under active sentence-level review. Cyrillic will be generated from a frozen Latin source by a deterministic, versioned projector.
+
+The projector must:
+
+\begin{itemize}
+  \item leave mathematics, control sequences, labels, citation identities, comments, and foreign islands unchanged;
+  \item project only classified visible Interslavic text;
+  \item fail on every unsupported or unclassified token;
+  \item record Roman identities and names through reviewed manifests rather than broad allow-lists;
+  \item produce identical results in fresh runs and preserve structural invariants;
+  \item be followed by a clean build and visual inspection of the derived PDF.
+\end{itemize}
+
+At the checkpoint recorded here, the new scanner has zero parse, gap, or unknown-command failures but still reports blockers. Those blockers deliberately combine categories and overlap: unsupported visible tokens, Roman identities, names, titles, and genuine lexical residues. They are a work queue, not a measure of translation quality and not a licence to publish a partially projected source.
+
+\section{Failure-aware provenance and transactions}
+
+AI editing introduces a practical risk: an agent can make a correct linguistic proposal and still install it unsafely. This project therefore tests the installer as seriously as the transform. Disposable hostile cases cover partial replacement, completed-then-raised system calls, short writes, descriptor/path identity mismatches, third-state files, foreign inodes, rollback faults, cleanup failures, stale locks, cross-token residue, and cross-module identity comparisons.
+
+Several candidates were rejected before production. Examples include an installer whose real mutation block was unreachable, a scanner whose delimiter model hid visible prose, and metadata sealers that validated a predecessor-only phase while already observing successor metadata. These are method results, not private drama: they show that a dry-run report is not evidence that the live path works, and that a proof helper can be phase-sensitive.
+
+The accepted pattern creates rollback images before stages, records attempted operations before the system call, reconciles ambiguous outcomes, audits the full target vector, preserves recovery evidence when cleanup is uncertain, and removes the cooperative lock last. Its claims are deliberately bounded: it does not promise cross-crash atomicity or protection against an actor that ignores the lock.
+
+\section{The division of labour between human and AI}
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.22\linewidth} >{\raggedright\arraybackslash}p{0.33\linewidth} >{\raggedright\arraybackslash}p{0.35\linewidth}}
+\toprule
+\textbf{Function} & \textbf{AI contribution} & \textbf{Human/editorial responsibility} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Function} & \textbf{AI contribution} & \textbf{Human/editorial responsibility} \\
+\midrule
+\endhead
+Discovery & Exhaustive search, alignment, clustering, anomaly detection & Decide scope, importance, and when a pattern is linguistically meaningful \\
+Evidence & Locate pinned dictionary, grammar, German, and corpus controls & Decide which sources can govern the edition and where evidence is insufficient \\
+Proposal & Generate alternatives and typed mappings & Select, reject, or hold; own the edition's house policy \\
+Verification & Reverse/replay, structural checks, hostile fixtures, independent agents & Demand appropriate proof and interpret its limits \\
+Publication & Assemble reader-facing records and reproducibility material & Approve public claims, licence language, authorship, and release timing \\
+\bottomrule
+\end{longtable}
+
+Multiple AI agents are useful only when independence is real. A reviewer that imports the applicator's transform as its oracle has not independently reconstructed the change. The workflow therefore assigns bounded read-only audits, requires exact candidate pins, and invalidates verdicts when bytes drift during review. Human direction also constrains the system: internal iteration is welcome, but repeated status chatter and premature public updates are not substitutes for fixing the edition.
+
+\section{Machine-readable canon registry and cross-session handoff}\label{sec:registry}
+
+A future Codex session should not need conversational memory to discover the project. The workspace therefore maintains a registry with stable, workspace-relative paths and explicit roles for each language lane. For every canon it records:
+
+\begin{itemize}
+  \item language and script, active working root, current sealed decision head, state, ledger, sidecar, and verifier;
+  \item operational source authority and evidence infrastructure as distinct objects;
+  \item published repository and concept/version DOI lineage, without pretending that a newer working head is already public;
+  \item derivation tools and the conditions required before a derived script becomes releasable;
+  \item known licensing information, unknowns, nonclaims, and open work;
+  \item a deterministic validation command and a safe extension protocol.
+\end{itemize}
+
+The validator rejects absolute personal paths, missing files, receipt drift, ambiguous roles, unknown extra keys, and an evidence corpus labeled as a language canon. A concise handoff explains which object to read first and how to continue append-only. This is deliberately smaller than the decision ledger: it is an index into authority, not a duplicate diary.
+
+\section{Reproducibility and extension protocol}
+
+To reproduce or extend the method on another transcription or translation:
+
+\begin{enumerate}
+  \item identify one editable canon and declare every other surface as authority, evidence, historical custody, or deterministic derivative;
+  \item pin the source language and the exact version of dictionaries, grammars, and comparison corpora;
+  \item implement a role-aware parser before using alphabet-gate counts as a work queue;
+  \item make every edit packet finite, typed, reversible, and independently reconstructible;
+  \item synchronize active producer copies and their receipts, while preserving inactive lineage witnesses;
+  \item separate linguistic quality from transaction safety and test both;
+  \item freeze the editable canon before generating alternate scripts or layouts;
+  \item build in clean roots, inspect every page, package source and evidence, and publish only a coherent milestone.
+\end{enumerate}
+
+This architecture is language-agnostic. The evidence hierarchy and projection tables change; the distinction among canon, authority, evidence, and derivative should not.
+
+\section{Limitations and nonclaims}
+
+The method improves traceability; it does not make editorial judgment objective. Dictionary coverage is incomplete, standard Interslavic permits variants, and corpus-internal frequency can amplify earlier errors. German alignment controls meaning but may not determine the best target idiom. Cross-Slavic similarity can help locate a problem and can also create false friends.
+
+The edition has not undergone a formal native-speaker or community certification process. No comprehension, readability, or learning study has been conducted. Scanner counts do not estimate how well a person understands the text. The methods paper likewise does not claim that an AI system ``speaks'' Interslavic or that exact hashes validate linguistic quality. They validate custody.
+
+The public dictionary snapshot is pinned for reproducibility, but its lexical-data licensing was not separately established; downstream users should consult the upstream project and avoid assuming that the snapshot's contents inherit the repository software licence. Original mathematical works, scans, translations, fonts, and third-party evidence retain their own rights and attribution requirements.
+
+\section{Current linguistic progress and the road to freeze}
+
+In practical editorial terms, the Latin Interslavic text is in the late normalization phase. The high-frequency morphology, major false-friend families, source-path provenance, and deterministic scanner infrastructure are substantially closed. The remaining work is narrower but judgment-heavy: a finite tail of genuine lexical residues, complete role decisions for names, titles, venues, Roman identities, and eponyms, followed by a four-source freeze.
+
+A useful heuristic is therefore two-dimensional rather than one percentage:
+
+\begin{itemize}
+  \item \textbf{Linguistic normalization of ordinary prose: roughly 85--90\% complete.} Remaining lexical defects appear sparse and bounded, though a new semantic family can still emerge from close reading.
+  \item \textbf{Release-ready Interslavic system: roughly 65--75\% complete.} The gap is mainly name/role closure, Latin freeze, deterministic Cyrillic generation, clean builds, full visual QA, packaging, and independent public readback.
+\end{itemize}
+
+These are planning heuristics, not measured quality scores. ``Absolute perfection'' is open-ended; the operational finish line is a defensible freeze with all known blockers classified, every released surface reproducible, and limitations stated plainly.
+
+\section{Conclusion}
+
+The central finding is simple: AI can help make a rigorous Interslavic mathematical edition when it is placed inside an evidence-bound editorial architecture. The productive unit is not the model answer but the reversible decision: source-controlled, linguistically reasoned, structurally protected, independently reconstructed, and honestly limited.
+
+The method is intentionally reusable. It can support another transcription, translation, or mathematical corpus provided that each project declares its canon, pins its authorities, builds a role-aware parser, preserves rejected evidence, and resists the temptation to turn fluency into authority. In that sense, the project is about more than translating Emmy Noether. It is an experiment in how human direction and AI-scale verification can jointly create a language artifact that remains readable, contestable, and extendable.
+
+\section*{Data, code, and release availability}
+
+The currently published Interslavic reader and editable-source package are available from the GitHub releases of the edition, \url{https://github.com/KokunoYumeto/emmy-noether-isv/releases}. The active working head described in this paper is newer and is not represented as already published. The German operational control is published at \url{https://kokunoyumeto.github.io/emmy-noether/}. Future release packages are intended to include this \LaTeX{} source, its rendered PDF, the canon registry, validation receipts, and relevant decision evidence.
+
+\section*{Authorship and AI disclosure}
+
+The user directs the project, defines scope and release policy, and is the human editor responsible for publication claims. OpenAI Codex (GPT-5.6 Sol at reasoning effort ultra, the user's default setting at the time) is the AI editorial system used for search, alignment, proposal generation, code and document authoring, transaction testing, and independent-agent review. AI-produced conclusions were not treated as self-authenticating evidence.
+
+\section*{Licence and republication}
+
+Unless a later release states otherwise, the original prose and \LaTeX{} source of this working paper are dedicated to the public domain under CC0 1.0 Universal, to the extent that rights exist. This dedication does not override the rights or licence terms of the Emmy Noether source material, third-party translations, dictionary data, fonts, scans, or quoted evidence. Republishing parties are asked to keep the AI disclosure, the version date, and the limitations above.
+
+\begin{thebibliography}{9}
+\raggedright
+\setlength{\itemsep}{0.65em}
+
+\bibitem{noether-de}
+Emmy Noether corpus, German operational edition, version record.
+\newblock \url{https://kokunoyumeto.github.io/emmy-noether/}.\par
+
+\bibitem{noether-isv}
+Emmy Noether corpus, published Interslavic edition, version record.
+\newblock \url{https://github.com/KokunoYumeto/emmy-noether-isv/releases}.\par
+
+\bibitem{isv-dictionary}
+Interslavic Dictionary Project.
+\newblock Public dictionary and source repository snapshot used by the edition.
+\newblock Upstream repository commit \nolinkurl{0fab0c5b4463118d46b1cdcd506926d8848052c9}.
+\newblock \url{https://interslavic-dictionary.com/} and \url{https://github.com/sonic16x/interslavic}.\par
+
+\bibitem{fair}
+Mark D. Wilkinson et al.
+\newblock The FAIR Guiding Principles for scientific data management and stewardship.
+\newblock \textit{Scientific Data} 3, 160018 (2016).
+\newblock \url{https://doi.org/10.1038/sdata.2016.18}.\par
+
+\bibitem{ccby}
+Creative Commons.
+\newblock CC0 1.0 Universal Public Domain Dedication.
+\newblock \url{https://creativecommons.org/publicdomain/zero/1.0/}.\par
+
+\end{thebibliography}
+
+\appendix
+\section{Minimal decision-record schema}
+
+A reusable decision record should at minimum bind: decision identifier; predecessor and successor pins; exact locus manifest; semantic and structural role; source-language controls; language authorities; selected form; rejected alternatives; active and inactive producer topology; reverse and replay receipts; protected-partition receipts; installer and hostile-test receipts; independent review; limitations; and final verifier status. Fields not evidenced should be null or explicitly unknown, never inferred from conversational memory.
+
+\section{Release checklist}
+
+\begin{enumerate}
+  \item Latin source freeze and exact four-source manifest.
+  \item All scanner blockers classified; no unknown parser state.
+  \item Deterministic Cyrillic projection in two fresh roots.
+  \item Structural and protected-payload equality across scripts.
+  \item Clean two-pass builds and page-by-page visual inspection.
+  \item Machine canon registry validation and fresh-session handoff test.
+  \item Reader, editable sources, evidence/provenance, methods source/PDF, and hash manifest packaged coherently.
+  \item Public metadata written for readers, not as an internal failure diary.
+  \item DOI, repository tag, and anonymous download/readback independently verified.
+\end{enumerate}
+
+\end{document}
