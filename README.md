@@ -20,7 +20,7 @@ translation. What was done in each round, the measured figures and what is still
 
 ## Kako jest stvorjeno izdanje
 
-Prěklad jest stvorjeny AI, modelami OpenAI Codex; ktory model prěložil tekst, ne jest zapisano. Popravky i tipografija stvorjene AI: OpenAI Codex — GPT-6 Astra, usilje Ultra, 23–24 oktobra 2026; Claude Opus 5.5 (Anthropic), 26–27 oktobra 2026, vključajuči formuly srovnane s německym tekstom, čitanym iz pečatnyh stranic Noether. Kirilska forma prědstavjaje taj sam prěklad v kirilskom pismu; ona ne jest drugy prěklad. Program za sestavjenje stvorjeny AI: OpenAI Codex — GPT-6 Astra, Ultra, 24 oktobra 2026.
+Prěklad jest stvorjeny AI, modelami OpenAI Codex (glavno GPT-5.6 Sol, usilje rozmyšljanja ultra, po slovam uživatelja). Popravky i tipografija stvorjene AI: OpenAI Codex — GPT-6 Astra, usilje Ultra, 23–24 oktobra 2026; Claude Opus 5.5 (Anthropic, usilje max), 26–27 oktobra 2026, vključajuči formuly srovnane s německym tekstom, čitanym iz pečatnyh stranic Noether. Kirilska forma prědstavjaje taj sam prěklad v kirilskom pismu; ona ne jest drugy prěklad. Program za sestavjenje stvorjeny AI: OpenAI Codex — GPT-6 Astra, Ultra, 24 oktobra 2026.
 
 ## Status
 
@@ -62,7 +62,7 @@ Emmy Noether umrěla v 1935 godu, zato jej děla sut v obćem dobru v Evropejsko
 
 ## Како јест створјено издање
 
-Прєклад јест створјены AI, моделами OpenAI Codex; кторы модел прєложил текст, не јест записано. Поправкы и типографија створјене AI: OpenAI Codex — GPT-6 Astra, усилије Ultra, 23–24 октобра 2026; Claude Opus 5.5 (Anthropic), 26–27 октобра 2026, вкључајучи формулы сровнане с нємецкым текстом, читаным из печатных страниц Noether. Кирилска форма прєдставјаје тај сам прєклад в кирилском писму; она не јест другы прєклад. Програм за сеставјење створјены AI: OpenAI Codex — GPT-6 Astra, Ultra, 24 октобра 2026.
+Прєклад јест створјены AI, моделами OpenAI Codex (главно GPT-5.6 Sol, усилије розмышљања ultra, по словам уживатеља). Поправкы и типографија створјене AI: OpenAI Codex — GPT-6 Astra, усилије Ultra, 23–24 октобра 2026; Claude Opus 5.5 (Anthropic, усилије max), 26–27 октобра 2026, вкључајучи формулы сровнане с нємецкым текстом, читаным из печатных страниц Noether. Кирилска форма прєдставјаје тај сам прєклад в кирилском писму; она не јест другы прєклад. Програм за сеставјење створјены AI: OpenAI Codex — GPT-6 Astra, Ultra, 24 октобра 2026.
 
 ## Статус
 

@@ -1,6 +1,6 @@
 6f3e7ee166467dde9e9189a479c790b40eeb18cfa3bff0a438f7e8f29f98ab6c  01-noether-isv-Latn-base.pdf
 8fbc94240b78cad3166fe239919c0868da257a911e12b7b1b0c8d4058e497df5  02-noether-isv-Latn-base.tex
-c73e323316e1f63d4d367548e8093766b3d54368a77cb31441cb3c119c905231  03-noether-isv-Latn-base-sources.zip
+516417e79c3bd9ba6ccef86f0f76c674a1ea028032d14a980dcba88d1b4e107b  03-noether-isv-Latn-base-sources.zip
 471037e7ab78d949d60f494dcf1da4197f8607ca8de98895b7ef5ddd5c1a9153  04-noether-isv-Latn-emendations.pdf
 8880b9d9a17c395292e6b1e11453ba85249eb5a214b29d01cfe57352a892958b  05-noether-isv-Latn-emendations.tex
-ae0eeb491fac7e58f6a73d47eab7655ebaf06d961cc5e284229e01e95a2e0324  06-noether-isv-Latn-emendations-sources.zip
+d32e155b2c60aeb04917d030e5d745e664c9265c7213f138294384eecdebf78d  06-noether-isv-Latn-emendations-sources.zip

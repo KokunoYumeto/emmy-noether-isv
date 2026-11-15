@@ -28,7 +28,7 @@ translation. What was done in each round, the measured figures and what is still
 
 Prěklad stvorjeny AI. Popravky i tipografija: OpenAI Codex — GPT-6 Astra, usilje Ultra. Avtorstvo Emmy Noether, M. Deuringa i nazvanyh soavtorov ostavaje ohranjeno. Izdatelju ne pripisyvaje se člověčsky prěklad ili nezavisna člověčska naučna recenzija.
 
-Točny model i usilje za naslědovany prěklad ne sut ustanovjene iz ohranjenyh zapisov. Popravky i tipografija stvorjene AI: 23–24 oktobra 2026; Claude Opus 5.5 (Anthropic), 26–27 oktobra 2026, vključajuči formuly srovnane s německym tekstom, čitanym iz pečatnyh stranic Noether. Izdanje: 27 oktobra 2026.
+Naslědovany prěklad jest stvorjeny glavno modelom GPT-5.6 Sol (OpenAI Codex, usilje rozmyšljanja ultra), po slovam uživatelja. Popravky i tipografija stvorjene AI: 23–24 oktobra 2026; Claude Opus 5.5 (Anthropic, usilje max), 26–27 oktobra 2026, vključajuči formuly srovnane s německym tekstom, čitanym iz pečatnyh stranic Noether. Izdanje: 27 oktobra 2026.
 
 Prěmy kumulativny fajl LaTeX sodrživa vse teksty i preambuly v redaktovateljnoj formě. Program Python izvlačuje iztočne fajly, kompiluje jih s XeLaTeX i sjedinjaje PDF česti v porědku čitanja. Obrazy i stranice PDF ne zaměnjajut transkripciju. ZIP ohranjaje iztočnu strukturu, tuty že kumulativny LaTeX i program. Potrěbni sut Python 3, pypdf, pakety TeX i fonty ukazane v preambulah. Bajty PDF mogut zavisěti od versij TeX i fontov. Fiksovana vnutrišnja data tipografije ne jest data publikacije.
 
