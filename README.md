@@ -2,9 +2,9 @@
 
 Medžuslovjansky prěklad matematičnyh děl Emmy Noether (1882–1935): statje 1–43, lekcije *Algebra hiperkompleksnyh veličin* (zimny semestr 1929/30) v zapisu M. Deuringa, statja H. Kapferera s dodatkom, napisanym sovmestno s E. Noether, bibliografija i končne spisky. Prěklad ima dva pisma, latinicu i kirilicu ([kirilica niže](#emmy-noether--математичне-дєла-по-меджусловјанскы)); obě formy sut v PDF i v redagovateljnom LaTeX.
 
-[**Čitajte osnovny tekst — PDF, 481 str.**](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/01-noether-isv-Latn-base.pdf) ·
-[Tekst s redakcijnymi popravkami — PDF, 486 str.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/04-noether-isv-Latn-emendations.pdf) ·
-[Vse fajly izdanja od 27 oktobra 2026](https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-27-r4)
+[**Čitajte osnovny tekst — PDF, 481 str.**](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/01-noether-isv-Latn-base.pdf) ·
+[Tekst s redakcijnymi popravkami — PDF, 486 str.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/04-noether-isv-Latn-emendations.pdf) ·
+[Vse fajly izdanja od 27 oktobra 2026](https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-11-15)
 
 ## Kako jest stvorjeno izdanje
 
@@ -20,10 +20,10 @@ Izdanje imaje osnovny tekst i tekst s redakcijnymi popravkami; za oba jest PDF, 
 
 | Tekst | PDF | LaTeX | Iztočniki |
 |---|---|---|---|
-| Osnovny tekst: ohranjaje čitanja prvyh publikacij; redakcijne primětky objasnjajut sporne čitanja | [PDF, 481 str.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/01-noether-isv-Latn-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/02-noether-isv-Latn-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/03-noether-isv-Latn-base-sources.zip) |
-| Tekst s redakcijnymi popravkami: popravky sut vneseny v tekst, každa jest objasnjena v redakcijnoj primětkě | [PDF, 486 str.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/04-noether-isv-Latn-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/05-noether-isv-Latn-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/06-noether-isv-Latn-emendations-sources.zip) |
+| Osnovny tekst: ohranjaje čitanja prvyh publikacij; redakcijne primětky objasnjajut sporne čitanja | [PDF, 481 str.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/01-noether-isv-Latn-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/02-noether-isv-Latn-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/03-noether-isv-Latn-base-sources.zip) |
+| Tekst s redakcijnymi popravkami: popravky sut vneseny v tekst, každa jest objasnjena v redakcijnoj primětkě | [PDF, 486 str.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/04-noether-isv-Latn-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/05-noether-isv-Latn-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/06-noether-isv-Latn-emendations-sources.zip) |
 
-[Kontrolne sumy SHA-256](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/07-noether-isv-Latn-SHA256SUMS.txt). Te same fajly sut v [`editions/2026-10-24-r2/isv-Latn/`](editions/2026-10-24-r2/isv-Latn/).
+[Kontrolne sumy SHA-256](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/07-noether-isv-Latn-SHA256SUMS.txt). Te same fajly sut v [`editions/2026-10-24-r2/isv-Latn/`](editions/2026-10-24-r2/isv-Latn/).
 
 Fajl LaTeX sodrživa vse teksty i preambuly v redagovateljnoj formě. Program Python [`build.py`](editions/2026-10-24-r2/isv-Latn/build.py) izvlačuje iztočne fajly, kompiluje jih s XeLaTeX i sjedinjaje PDF česti v porědku čitanja; potrěbni sut Python 3, pypdf, pakety TeX i fonty ukazane v preambulah. ZIP ohranjaje iztočnu strukturu, taj sam fajl LaTeX i program.
 
@@ -44,9 +44,9 @@ Děla Emmy Noether sut v javnom dobru. V toj měrě, v kakoj izdatelj imaje prav
 
 Меджусловјанскы прєклад математичных дєл Emmy Noether (1882–1935): статје 1–43, лекције *Алгебра хиперкомплексных величин* (зимны семестр 1929/30) в запису M. Deuringa, статја H. Kapferera с додатком, написаным совместно с E. Noether, библиографија и конечне спискы. Прєклад има два писма, латиницу и кирилицу ([латиница выше](#emmy-noether--matematične-děla-po-medžuslovjansky)); обє формы сут в PDF и в редаговатељном LaTeX.
 
-[**Читајте основны текст — PDF, 502 стр.**](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/01-noether-isv-Cyrl-base.pdf) ·
-[Текст с редакцијными поправками — PDF, 507 стр.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/04-noether-isv-Cyrl-emendations.pdf) ·
-[Все фајлы издања од 27 октобра 2026](https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-10-27-r4)
+[**Читајте основны текст — PDF, 502 стр.**](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/01-noether-isv-Cyrl-base.pdf) ·
+[Текст с редакцијными поправками — PDF, 507 стр.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/04-noether-isv-Cyrl-emendations.pdf) ·
+[Все фајлы издања од 27 октобра 2026](https://github.com/KokunoYumeto/emmy-noether-isv/releases/tag/noether-isv-2026-11-15)
 
 ## Како јест створјено издање
 
@@ -62,10 +62,10 @@ Děla Emmy Noether sut v javnom dobru. V toj měrě, v kakoj izdatelj imaje prav
 
 | Текст | PDF | LaTeX | Източники |
 |---|---|---|---|
-| Основны текст: охрањаје читања првых публикациј; редакцијне примєткы објасњајут спорне читања | [PDF, 502 стр.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/01-noether-isv-Cyrl-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/02-noether-isv-Cyrl-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/03-noether-isv-Cyrl-base-sources.zip) |
-| Текст с редакцијными поправками: поправкы сут внесены в текст, кажда јест објасњена в редакцијној примєткє | [PDF, 507 стр.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/04-noether-isv-Cyrl-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/05-noether-isv-Cyrl-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/06-noether-isv-Cyrl-emendations-sources.zip) |
+| Основны текст: охрањаје читања првых публикациј; редакцијне примєткы објасњајут спорне читања | [PDF, 502 стр.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/01-noether-isv-Cyrl-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/02-noether-isv-Cyrl-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/03-noether-isv-Cyrl-base-sources.zip) |
+| Текст с редакцијными поправками: поправкы сут внесены в текст, кажда јест објасњена в редакцијној примєткє | [PDF, 507 стр.](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/04-noether-isv-Cyrl-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/05-noether-isv-Cyrl-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/06-noether-isv-Cyrl-emendations-sources.zip) |
 
-[Контролне сумы SHA-256](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-10-27-r4/07-noether-isv-Cyrl-SHA256SUMS.txt). Те саме фајлы сут в [`editions/2026-10-24-r2/isv-Cyrl/`](editions/2026-10-24-r2/isv-Cyrl/).
+[Контролне сумы SHA-256](https://github.com/KokunoYumeto/emmy-noether-isv/releases/download/noether-isv-2026-11-15/07-noether-isv-Cyrl-SHA256SUMS.txt). Те саме фајлы сут в [`editions/2026-10-24-r2/isv-Cyrl/`](editions/2026-10-24-r2/isv-Cyrl/).
 
 Фајл LaTeX содржива все тексты и преамбулы в редаговатељној формє. Програм Python [`build.py`](editions/2026-10-24-r2/isv-Cyrl/build.py) извлачује източне фајлы, компилује јих с XeLaTeX и сједињаје PDF чести в порєдку читања; потрєбни сут Python 3, pypdf, пакеты TeX и фонты указане в преамбулах. ZIP охрањаје източну структуру, тај сам фајл LaTeX и програм.
 
