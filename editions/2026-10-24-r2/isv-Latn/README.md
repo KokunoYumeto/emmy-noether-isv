@@ -5,7 +5,7 @@ Statje 1–43, lekcije 1929/30 v zapisu M. Deuringa, dělo Kapferera i Noether s
 ## How this was made: AI's failure modes, and what we do about them
 
 Everything here was produced by AI. The translation was made in a first pass mostly by GPT-5.6 Sol (OpenAI Codex,
-reasoning effort ultra), by the user's account (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
+reasoning effort ultra) (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
 effort max compared page by page with Noether's printed originals (785 page checks, 26 October 2026), in automatic and
 hand rounds by Claude Opus 5.5 at effort max (26-27 October; 2,570 lines in the last hand round), against the known
 failures of AI translation of mathematics: renamed letters, formulas changed or dropped, statements narrowed, passages
@@ -28,7 +28,7 @@ translation. What was done in each round, the measured figures and what is still
 
 Prěklad stvorjeny AI. Popravky i tipografija: OpenAI Codex — GPT-6 Astra, usilje Ultra. Avtorstvo Emmy Noether, M. Deuringa i nazvanyh soavtorov ostavaje ohranjeno. Izdatelju ne pripisyvaje se člověčsky prěklad ili nezavisna člověčska naučna recenzija.
 
-Naslědovany prěklad jest stvorjeny glavno modelom GPT-5.6 Sol (OpenAI Codex, usilje rozmyšljanja ultra), po slovam uživatelja. Popravky i tipografija stvorjene AI: 23–24 oktobra 2026; Claude Opus 5.5 (Anthropic, usilje max), 26–27 oktobra 2026, vključajuči formuly srovnane s německym tekstom, čitanym iz pečatnyh stranic Noether. Izdanje: 27 oktobra 2026.
+Naslědovany prěklad jest stvorjeny glavno modelom GPT-5.6 Sol (OpenAI Codex, usilje rozmyšljanja ultra). Popravky i tipografija stvorjene AI: 23–24 oktobra 2026; Claude Opus 5.5 (Anthropic, usilje max), 26–27 oktobra 2026, vključajuči formuly srovnane s německym tekstom, čitanym iz pečatnyh stranic Noether. Izdanje: 27 oktobra 2026.
 
 Prěmy kumulativny fajl LaTeX sodrživa vse teksty i preambuly v redaktovateljnoj formě. Program Python izvlačuje iztočne fajly, kompiluje jih s XeLaTeX i sjedinjaje PDF česti v porědku čitanja. Obrazy i stranice PDF ne zaměnjajut transkripciju. ZIP ohranjaje iztočnu strukturu, tuty že kumulativny LaTeX i program. Potrěbni sut Python 3, pypdf, pakety TeX i fonty ukazane v preambulah. Bajty PDF mogut zavisěti od versij TeX i fontov. Fiksovana vnutrišnja data tipografije ne jest data publikacije.
 

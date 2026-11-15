@@ -5,7 +5,7 @@
 ## How this was made: AI's failure modes, and what we do about them
 
 Everything here was produced by AI. The translation was made in a first pass mostly by GPT-5.6 Sol (OpenAI Codex,
-reasoning effort ultra), by the user's account (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
+reasoning effort ultra) (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
 effort max compared page by page with Noether's printed originals (785 page checks, 26 October 2026), in automatic and
 hand rounds by Claude Opus 5.5 at effort max (26-27 October; 2,570 lines in the last hand round), against the known
 failures of AI translation of mathematics: renamed letters, formulas changed or dropped, statements narrowed, passages
@@ -28,7 +28,7 @@ translation. What was done in each round, the measured figures and what is still
 
 Прєклад створјены AI. Поправкы и типографија: OpenAI Codex — GPT-6 Astra, усилије Ultra. Авторство Emmy Noether, M. Deuringa и названых соавторов оставаје охрањено. Издатељу не приписываје се чловєчскы прєклад или независна чловєчска научна рецензија.
 
-Наслєдованы прєклад јест створјены главно моделом GPT-5.6 Sol (OpenAI Codex, усилије розмышљања ultra), по словам уживатеља. Поправкы и типографија створјене AI: 23–24 октобра 2026; Claude Opus 5.5 (Anthropic, усилије max), 26–27 октобра 2026, вкључајучи формулы сровнане с нємецкым текстом, читаным из печатных страниц Noether. Издање: 27 октобра 2026.
+Наслєдованы прєклад јест створјены главно моделом GPT-5.6 Sol (OpenAI Codex, усилије розмышљања ultra). Поправкы и типографија створјене AI: 23–24 октобра 2026; Claude Opus 5.5 (Anthropic, усилије max), 26–27 октобра 2026, вкључајучи формулы сровнане с нємецкым текстом, читаным из печатных страниц Noether. Издање: 27 октобра 2026.
 
 Прємы кумулативны фајл LaTeX содржива все тексты и преамбулы в редактоватељној формє. Програм Python извлачује източне фајлы, компилује јих с XeLaTeX и сједињаје PDF чести в порєдку читања. Образы и странице PDF не замєњајут транскрипцију. ZIP охрањаје източну структуру, туты же кумулативны LaTeX и програм. Потрєбни сут Python 3, pypdf, пакеты TeX и фонты указане в преамбулах. Бајты PDF могут зависєти од версиј TeX и фонтов. Фиксована внутришња дата типографије не јест дата публикације.
 
